@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.06917v1",
+  "title": "SHANKS: Simultaneous Hearing and Thinking for Spoken Language Models",
+  "summary": "Current large language models (LLMs) and spoken language models (SLMs) begin\nthinking and taking actions only after the user has finished their turn. This\nprevents the model from interacting during the user's turn and can lead to high\nresponse latency while it waits to think. Consequently, thinking after\nreceiving the full input is not suitable for speech-to-speech interaction,\nwhere real-time, low-latency exchange is important. We address this by noting\nthat humans naturally \"think while listening.\" In this paper, we propose\nSHANKS, a general inference framework that enables SLMs to generate unspoken\nchain-of-thought reasoning while listening to the user input. SHANKS streams\nthe input speech in fixed-duration chunks and, as soon as a chunk is received,\ngenerates unspoken reasoning based on all previous speech and reasoning, while\nthe user continues speaking. SHANKS uses this unspoken reasoning to decide\nwhether to interrupt the user and to make tool calls to complete the task. We\ndemonstrate that SHANKS enhances real-time user-SLM interaction in two\nscenarios: (1) when the user is presenting a step-by-step solution to a math\nproblem, SHANKS can listen, reason, and interrupt when the user makes a\nmistake, achieving 37.1% higher interruption accuracy than a baseline that\ninterrupts without thinking; and (2) in a tool-augmented dialogue, SHANKS can\ncomplete 56.9% of the tool calls before the user finishes their turn. Overall,\nSHANKS moves toward models that keep thinking throughout the conversation, not\nonly after a turn ends. Animated illustrations of Shanks can be found at\nhttps://d223302.github.io/SHANKS/",
+  "authors": [
+    "Cheng-Han Chiang",
+    "Xiaofei Wang",
+    "Linjie Li",
+    "Chung-Ching Lin",
+    "Kevin Lin",
+    "Shujie Liu",
+    "Zhendong Wang",
+    "Zhengyuan Yang",
+    "Hung-yi Lee",
+    "Lijuan Wang"
+  ],
+  "published": "2025-10-08T11:48:59Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06917v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "['dialogue_systems', 'reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SHANKS框架，让语音语言模型能够在听取用户语音输入的同时进行实时推理思考，而非等待用户说完才开始处理。该框架通过分块流式处理语音输入，在用户说话过程中生成未说出的思维链推理，从而降低响应延迟，支持实时打断和工具调用。在数学解题纠错和工具增强对话两个场景中分别实现了37.1%的打断准确率提升和56.9%的提前工具调用完成率。",
+  "order": 67,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06917v1"
+}

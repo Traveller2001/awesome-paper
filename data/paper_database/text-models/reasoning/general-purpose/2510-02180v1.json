@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02180v1",
+  "title": "GRACE: A Language Model Framework for Explainable Inverse Reinforcement\n  Learning",
+  "summary": "Inverse Reinforcement Learning aims to recover reward models from expert\ndemonstrations, but traditional methods yield \"black-box\" models that are\ndifficult to interpret and debug. In this work, we introduce GRACE (Generating\nRewards As CodE), a method for using Large Language Models within an\nevolutionary search to reverse-engineer an interpretable, code-based reward\nfunction directly from expert trajectories. The resulting reward function is\nexecutable code that can be inspected and verified. We empirically validate\nGRACE on the BabyAI and AndroidWorld benchmarks, where it efficiently learns\nhighly accurate rewards, even in complex, multi-task settings. Further, we\ndemonstrate that the resulting reward leads to strong policies, compared to\nboth competitive Imitation Learning and online RL approaches with ground-truth\nrewards. Finally, we show that GRACE is able to build complex reward APIs in\nmulti-task setups.",
+  "authors": [
+    "Silvia Sapora",
+    "Devon Hjelm",
+    "Alexander Toshev",
+    "Omar Attia",
+    "Bogdan Mazoure"
+  ],
+  "published": "2025-10-02T16:31:39Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02180v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "GRACE框架利用大语言模型通过进化搜索从专家轨迹中逆向生成可解释的代码化奖励函数，解决了传统逆强化学习模型难以解释的问题。该方法在BabyAI和AndroidWorld基准测试中表现出色，能生成可执行验证的奖励代码，并在多任务环境中构建复杂奖励API。",
+  "order": 732,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02180v1"
+}

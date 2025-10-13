@@ -1,0 +1,373 @@
+{
+  "generated_at": "2025-10-09T02:54:32.212117Z",
+  "paper_date": "20251008",
+  "categories": [
+    "cs.AI"
+  ],
+  "paper_count": 23,
+  "papers": [
+    {
+      "arxiv_id": "2510.07297v1",
+      "title": "Agentic generative AI for media content discovery at the national\n  football league",
+      "summary": "Generative AI has unlocked new possibilities in content discovery and\nmanagement. Through collaboration with the National Football League (NFL), we\ndemonstrate how a generative-AI based workflow enables media researchers and\nanalysts to query relevant historical plays using natural language rather than\ntraditional filter-and-click interfaces. The agentic workflow takes a user\nquery as input, breaks it into elements, and translates them into the\nunderlying database query language. Accuracy and latency are further improved\nthrough carefully designed semantic caching. The solution achieves over 95\npercent accuracy and reduces the average time to find relevant videos from 10\nminutes to 30 seconds, significantly increasing the NFL's operational\nefficiency and allowing users to focus on producing creative content and\nengaging storylines.",
+      "authors": [
+        "Henry Wang",
+        "Sirajus Salekin",
+        "Jake Lee",
+        "Ross Claytor",
+        "Shinan Zhang",
+        "Michael Chi"
+      ],
+      "published": "2025-10-08T17:51:34Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.07297v1"
+    },
+    {
+      "arxiv_id": "2510.07276v1",
+      "title": "Multi-Objective Multi-Agent Path Finding with Lexicographic Cost\n  Preferences",
+      "summary": "Many real-world scenarios require multiple agents to coordinate in shared\nenvironments, while balancing trade-offs between multiple, potentially\ncompeting objectives. Current multi-objective multi-agent path finding\n(MO-MAPF) algorithms typically produce conflict-free plans by computing Pareto\nfrontiers. They do not explicitly optimize for user-defined preferences, even\nwhen the preferences are available, and scale poorly with the number of\nobjectives. We propose a lexicographic framework for modeling MO-MAPF, along\nwith an algorithm \\textit{Lexicographic Conflict-Based Search} (LCBS) that\ndirectly computes a single solution aligned with a lexicographic preference\nover objectives. LCBS integrates a priority-aware low-level $A^*$ search with\nconflict-based search, avoiding Pareto frontier construction and enabling\nefficient planning guided by preference over objectives. We provide insights\ninto optimality and scalability, and empirically demonstrate that LCBS computes\noptimal solutions while scaling to instances with up to ten objectives -- far\nbeyond the limits of existing MO-MAPF methods. Evaluations on standard and\nrandomized MAPF benchmarks show consistently higher success rates against\nstate-of-the-art baselines, especially with increasing number of objectives.",
+      "authors": [
+        "Pulkit Rustagi",
+        "Kyle Hollins Wray",
+        "Sandhya Saisubramanian"
+      ],
+      "published": "2025-10-08T17:40:41Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.07276v1"
+    },
+    {
+      "arxiv_id": "2510.07172v1",
+      "title": "NewtonBench: Benchmarking Generalizable Scientific Law Discovery in LLM\n  Agents",
+      "summary": "Large language models are emerging as powerful tools for scientific law\ndiscovery, a foundational challenge in AI-driven science. However, existing\nbenchmarks for this task suffer from a fundamental methodological trilemma,\nforcing a trade-off between scientific relevance, scalability, and resistance\nto memorization. Furthermore, they oversimplify discovery as static function\nfitting, failing to capture the authentic scientific process of uncovering\nembedded laws through the interactive exploration of complex model systems. To\naddress these critical gaps, we introduce NewtonBench, a benchmark comprising\n324 scientific law discovery tasks across 12 physics domains. Our design\nmitigates the evaluation trilemma by using metaphysical shifts - systematic\nalterations of canonical laws - to generate a vast suite of problems that are\nscalable, scientifically relevant, and memorization-resistant. Moreover, we\nelevate the evaluation from static function fitting to interactive model\ndiscovery, requiring agents to experimentally probe simulated complex systems\nto uncover hidden principles. Our extensive experiment reveals a clear but\nfragile capability for discovery in frontier LLMs: this ability degrades\nprecipitously with increasing system complexity and exhibits extreme\nsensitivity to observational noise. Notably, we uncover a paradoxical effect of\ntool assistance: providing a code interpreter can hinder more capable models by\ninducing a premature shift from exploration to exploitation, causing them to\nsatisfice on suboptimal solutions. These results demonstrate that robust,\ngeneralizable discovery in complex, interactive environments remains the core\nchallenge. By providing a scalable, robust, and scientifically authentic\ntestbed, NewtonBench offers a crucial tool for measuring true progress and\nguiding the development of next-generation AI agents capable of genuine\nscientific discovery.",
+      "authors": [
+        "Tianshi Zheng",
+        "Kelvin Kiu-Wai Tam",
+        "Newt Hue-Nam K. Nguyen",
+        "Baixuan Xu",
+        "Zhaowei Wang",
+        "Jiayang Cheng",
+        "Hong Ting Tsang",
+        "Weiqi Wang",
+        "Jiaxin Bai",
+        "Tianqing Fang",
+        "Yangqiu Song",
+        "Ginny Y. Wong",
+        "Simon See"
+      ],
+      "published": "2025-10-08T16:12:11Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.07172v1"
+    },
+    {
+      "arxiv_id": "2510.07161v1",
+      "title": "Integrating Domain Knowledge into Process Discovery Using Large Language\n  Models",
+      "summary": "Process discovery aims to derive process models from event logs, providing\ninsights into operational behavior and forming a foundation for conformance\nchecking and process improvement. However, models derived solely from event\ndata may not accurately reflect the real process, as event logs are often\nincomplete or affected by noise, and domain knowledge, an important\ncomplementary resource, is typically disregarded. As a result, the discovered\nmodels may lack reliability for downstream tasks. We propose an interactive\nframework that incorporates domain knowledge, expressed in natural language,\ninto the process discovery pipeline using Large Language Models (LLMs). Our\napproach leverages LLMs to extract declarative rules from textual descriptions\nprovided by domain experts. These rules are used to guide the IMr discovery\nalgorithm, which recursively constructs process models by combining insights\nfrom both the event log and the extracted rules, helping to avoid problematic\nprocess structures that contradict domain knowledge. The framework coordinates\ninteractions among the LLM, domain experts, and a set of backend services. We\npresent a fully implemented tool that supports this workflow and conduct an\nextensive evaluation of multiple LLMs and prompt engineering strategies. Our\nempirical study includes a case study based on a real-life event log with the\ninvolvement of domain experts, who assessed the usability and effectiveness of\nthe framework.",
+      "authors": [
+        "Ali Norouzifar",
+        "Humam Kourani",
+        "Marcus Dees",
+        "Wil van der Aalst"
+      ],
+      "published": "2025-10-08T15:59:11Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.07161v1"
+    },
+    {
+      "arxiv_id": "2510.07117v1",
+      "title": "The Contingencies of Physical Embodiment Allow for Open-Endedness and\n  Care",
+      "summary": "Physical vulnerability and mortality are often seen as obstacles to be\navoided in the development of artificial agents, which struggle to adapt to\nopen-ended environments and provide aligned care. Meanwhile, biological\norganisms survive, thrive, and care for each other in an open-ended physical\nworld with relative ease and efficiency. Understanding the role of the\nconditions of life in this disparity can aid in developing more robust,\nadaptive, and caring artificial agents. Here we define two minimal conditions\nfor physical embodiment inspired by the existentialist phenomenology of Martin\nHeidegger: being-in-the-world (the agent is a part of the environment) and\nbeing-towards-death (unless counteracted, the agent drifts toward terminal\nstates due to the second law of thermodynamics). We propose that from these\nconditions we can obtain both a homeostatic drive - aimed at maintaining\nintegrity and avoiding death by expending energy to learn and act - and an\nintrinsic drive to continue to do so in as many ways as possible. Drawing\ninspiration from Friedrich Nietzsche's existentialist concept of will-to-power,\nwe examine how intrinsic drives to maximize control over future states, e.g.,\nempowerment, allow agents to increase the probability that they will be able to\nmeet their future homeostatic needs, thereby enhancing their capacity to\nmaintain physical integrity. We formalize these concepts within a reinforcement\nlearning framework, which enables us to examine how intrinsically driven\nembodied agents learning in open-ended multi-agent environments may cultivate\nthe capacities for open-endedness and care.ov",
+      "authors": [
+        "Leonardo Christov-Moore",
+        "Arthur Juliani",
+        "Alex Kiefer",
+        "Nicco Reggente",
+        "B. Scott Rousse",
+        "Adam Safron",
+        "Nicol'as Hinrichs",
+        "Daniel Polani",
+        "Antonio Damasio"
+      ],
+      "published": "2025-10-08T15:10:26Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.07117v1"
+    },
+    {
+      "arxiv_id": "2510.07091v1",
+      "title": "The Cognitive Bandwidth Bottleneck: Shifting Long-Horizon Agent from\n  Planning with Actions to Planning with Schemas",
+      "summary": "Enabling LLMs to effectively operate long-horizon task which requires\nlong-term planning and multiple interactions is essential for open-world\nautonomy. Conventional methods adopt planning with actions where a executable\naction list would be provided as reference. However, this action representation\nchoice would be impractical when the environment action space is combinatorial\nexploded (e.g., open-ended real world). This naturally leads to a question: As\nenvironmental action space scales, what is the optimal action representation\nfor long-horizon agents? In this paper, we systematically study the\neffectiveness of two different action representations. The first one is\nconventional planning with actions (PwA) which is predominantly adopted for its\neffectiveness on existing benchmarks. The other one is planning with schemas\n(PwS) which instantiate an action schema into action lists (e.g., \"move [OBJ]\nto [OBJ]\" -> \"move apple to desk\") to ensure concise action space and reliable\nscalability. This alternative is motivated by its alignment with human\ncognition and its compliance with environment-imposed action format\nrestriction. We propose cognitive bandwidth perspective as a conceptual\nframework to qualitatively understand the differences between these two action\nrepresentations and empirically observe a representation-choice inflection\npoint between ALFWorld (~35 actions) and SciWorld (~500 actions), which serve\nas evidence of the need for scalable representations. We further conduct\ncontrolled experiments to study how the location of this inflection point\ninteracts with different model capacities: stronger planning proficiency shifts\nthe inflection rightward, whereas better schema instantiation shifts it\nleftward. Finally, noting the suboptimal performance of PwS agents, we provide\nan actionable guide for building more capable PwS agents for better scalable\nautonomy.",
+      "authors": [
+        "Baixuan Xu",
+        "Tianshi Zheng",
+        "Zhaowei Wang",
+        "Hong Ting Tsang",
+        "Weiqi Wang",
+        "Tianqing Fang",
+        "Yangqiu Song"
+      ],
+      "published": "2025-10-08T14:47:40Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.07091v1"
+    },
+    {
+      "arxiv_id": "2510.07073v1",
+      "title": "VRPAgent: LLM-Driven Discovery of Heuristic Operators for Vehicle\n  Routing Problems",
+      "summary": "Designing high-performing heuristics for vehicle routing problems (VRPs) is a\ncomplex task that requires both intuition and deep domain knowledge. Large\nlanguage model (LLM)-based code generation has recently shown promise across\nmany domains, but it still falls short of producing heuristics that rival those\ncrafted by human experts. In this paper, we propose VRPAgent, a framework that\nintegrates LLM-generated components into a metaheuristic and refines them\nthrough a novel genetic search. By using the LLM to generate problem-specific\noperators, embedded within a generic metaheuristic framework, VRPAgent keeps\ntasks manageable, guarantees correctness, and still enables the discovery of\nnovel and powerful strategies. Across multiple problems, including the\ncapacitated VRP, the VRP with time windows, and the prize-collecting VRP, our\nmethod discovers heuristic operators that outperform handcrafted methods and\nrecent learning-based approaches while requiring only a single CPU core. To our\nknowledge, \\VRPAgent is the first LLM-based paradigm to advance the\nstate-of-the-art in VRPs, highlighting a promising future for automated\nheuristics discovery.",
+      "authors": [
+        "André Hottung",
+        "Federico Berto",
+        "Chuanbo Hua",
+        "Nayeli Gast Zepeda",
+        "Daniel Wetzel",
+        "Michael Römer",
+        "Haoran Ye",
+        "Davide Zago",
+        "Michael Poli",
+        "Stefano Massaroli",
+        "Jinkyoo Park",
+        "Kevin Tierney"
+      ],
+      "published": "2025-10-08T14:35:09Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.07073v1"
+    },
+    {
+      "arxiv_id": "2510.07069v1",
+      "title": "Inductive Learning for Possibilistic Logic Programs Under Stable Models",
+      "summary": "Possibilistic logic programs (poss-programs) under stable models are a major\nvariant of answer set programming (ASP). While its semantics (possibilistic\nstable models) and properties have been well investigated, the problem of\ninductive reasoning has not been investigated yet. This paper presents an\napproach to extracting poss-programs from a background program and examples\n(parts of intended possibilistic stable models). To this end, the notion of\ninduction tasks is first formally defined, its properties are investigated and\ntwo algorithms ilpsm and ilpsmmin for computing induction solutions are\npresented. An implementation of ilpsmmin is also provided and experimental\nresults show that when inputs are ordinary logic programs, the prototype\noutperforms a major inductive learning system for normal logic programs from\nstable models on the datasets that are randomly generated.",
+      "authors": [
+        "Hongbo Hu",
+        "Yisong Wang",
+        "Yi Huang",
+        "Kewen Wang"
+      ],
+      "published": "2025-10-08T14:32:10Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.07069v1"
+    },
+    {
+      "arxiv_id": "2510.07064v1",
+      "title": "Prompt Optimization Across Multiple Agents for Representing Diverse\n  Human Populations",
+      "summary": "The difficulty and expense of obtaining large-scale human responses make\nLarge Language Models (LLMs) an attractive alternative and a promising proxy\nfor human behavior. However, prior work shows that LLMs often produce\nhomogeneous outputs that fail to capture the rich diversity of human\nperspectives and behaviors. Thus, rather than trying to capture this diversity\nwith a single LLM agent, we propose a novel framework to construct a set of\nagents that collectively capture the diversity of a given human population.\nEach agent is an LLM whose behavior is steered by conditioning on a small set\nof human demonstrations (task-response pairs) through in-context learning. The\ncentral challenge is therefore to select a representative set of LLM agents\nfrom the exponentially large space of possible agents. We tackle this selection\nproblem from the lens of submodular optimization. In particular, we develop\nmethods that offer different trade-offs regarding time complexity and\nperformance guarantees. Extensive experiments in crowdsourcing and educational\ndomains demonstrate that our approach constructs agents that more effectively\nrepresent human populations compared to baselines. Moreover, behavioral\nanalyses on new tasks show that these agents reproduce the behavior patterns\nand perspectives of the students and annotators they are designed to represent.",
+      "authors": [
+        "Manh Hung Nguyen",
+        "Sebastian Tschiatschek",
+        "Adish Singla"
+      ],
+      "published": "2025-10-08T14:28:53Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.07064v1"
+    },
+    {
+      "arxiv_id": "2510.07038v1",
+      "title": "Tool-Augmented Policy Optimization: Synergizing Reasoning and Adaptive\n  Tool Use with Reinforcement Learning",
+      "summary": "Recent advances in large language models (LLMs) have popularized test-time\nscaling, where models generate additional reasoning tokens before producing\nfinal answers. These approaches have demonstrated significant performance\nimprovements on benchmarks involving mathematical reasoning. However, language\nmodels relying solely on direct inference still struggle with tasks demanding\nup-to-date knowledge or computational tools such as calculators and code\ninterpreters for complex arithmetic operations. To overcome these limitations,\nwe propose Tool-Augmented Policy Optimization (TAPO), a novel reinforcement\nlearning framework that systematically integrates multi-hop reasoning with\nadaptive tool-calling capabilities. Our approach employs a modified version of\nDynamic Sampling Policy Optimization (DAPO), a recently developed RL paradigm,\nwhich we adapt specifically for tool invocation scenarios, enabling models to\ndynamically interleave complex reasoning with on-demand tool usage (including\nsearch APIs and Python interpreters).\n  To support this research, we introduce two new datasets: TAPO-easy-60K and\nTAPO-hard-18K, specifically designed to train and evaluate both fact-based\nreasoning and mathematical calculation capabilities. Our experiments on\nQwen2.5-3B and Qwen2.5-7B models demonstrate the effectiveness of our approach,\nwith both models achieving state-of-the-art performance on tasks requiring\nexternal knowledge and mathematical computation among methods with comparable\nparameters. Notably, TAPO achieves more efficient tool utilization than\nbaseline methods while preventing excessive calls caused by reward hacking.\nThese results highlight the significant potential of combining advanced\nreasoning with tool usage to enhance model performance in knowledge-intensive\nand computationally demanding tasks.",
+      "authors": [
+        "Wenxun Wu",
+        "Yuanyang Li",
+        "Guhan Chen",
+        "Linyue Wang",
+        "Hongyang Chen"
+      ],
+      "published": "2025-10-08T14:04:27Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.07038v1"
+    },
+    {
+      "arxiv_id": "2510.06953v1",
+      "title": "Revisiting the Uniform Information Density Hypothesis in LLM Reasoning\n  Traces",
+      "summary": "The Uniform Information Density (UID) hypothesis suggests that effective\ncommunication maintains a stable flow of information. In this work, we revisit\nthis principle in the context of large language model (LLM) reasoning traces,\nasking whether step-level uniformity reflects reasoning quality. To this end,\nwe propose an entropy-based stepwise information density metric and introduce\ntwo complementary measures of uniformity, local and global uniformity scores.\nAcross the experiments on six different reasoning benchmarks, we find that\nstep-level uniformity not only provides a strong theoretical lens but also\nyields practical performance benefits; for example, selecting reasoning traces\nwith more uniform information density at the step-level improves accuracy by\n10-32\\% relative gains over baselines at AIME2025. Our analysis further reveals\nthat correct reasoning traces tend to avoid sharp information density spikes,\nwhile incorrect traces exhibit irregular information bursts. These results\ndemonstrate that UID-inspired information density measures outperform\nalternative internal signals as predictors of reasoning quality. Results\nhighlight the uniformity of the information density as a robust diagnostic and\nselection criterion for building more reliable and accurate reasoning systems.",
+      "authors": [
+        "Minju Gwak",
+        "Guijin Son",
+        "Jaehyung Kim"
+      ],
+      "published": "2025-10-08T12:37:04Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06953v1"
+    },
+    {
+      "arxiv_id": "2510.06911v1",
+      "title": "LLM-Assisted Modeling of Semantic Web-Enabled Multi-Agents Systems with\n  AJAN",
+      "summary": "There are many established semantic Web standards for implementing\nmulti-agent driven applications. The AJAN framework allows to engineer\nmulti-agent systems based on these standards. In particular, agent knowledge is\nrepresented in RDF/RDFS and OWL, while agent behavior models are defined with\nBehavior Trees and SPARQL to access and manipulate this knowledge. However, the\nappropriate definition of RDF/RDFS and SPARQL-based agent behaviors still\nremains a major hurdle not only for agent modelers in practice. For example,\ndealing with URIs is very error-prone regarding typos and dealing with complex\nSPARQL queries in large-scale environments requires a high learning curve. In\nthis paper, we present an integrated development environment to overcome such\nhurdles of modeling AJAN agents and at the same time to extend the user\ncommunity for AJAN by the possibility to leverage Large Language Models for\nagent engineering.",
+      "authors": [
+        "Hacane Hechehouche",
+        "Andre Antakli",
+        "Matthias Klusch"
+      ],
+      "published": "2025-10-08T11:45:19Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06911v1"
+    },
+    {
+      "arxiv_id": "2510.06878v1",
+      "title": "TGPR: Tree-Guided Policy Refinement for Robust Self-Debugging of LLMs",
+      "summary": "Iterative refinement has been a promising paradigm to enable large language\nmodels (LLMs) to resolve difficult reasoning and problem-solving tasks. One of\nthe key challenges, however, is how to effectively search through the enormous\nsearch space of possible refinements. Existing methods typically fall back on\npredefined heuristics, which are troubled by the exploration-exploitation\ndilemma and cannot adapt based on past refinement outcomes. We introduce\nTree-Guided Policy Refinement (TGPR), a novel framework that combines GRPO with\na Thompson-Sampling-based tree search. TGPR explores both failed and successful\nrefinement paths actively, with denser training trajectories and more adaptive\npolicies. On HumanEval, MBPP, and APPS benchmarks, our method achieves up to\n+4.2 percentage points absolute improvement in pass@1 (on MBPP) and up to\n+12.51 percentage points absolute improvement in pass@10 (on APPS) compared to\na competitive GRPO baseline. Apart from debugging code, TGPR focuses on a\nprincipled approach to combining learned policies with structured search\nmethods, offering a general framework for enhancing iterative refinement and\nstateful reasoning in LLMs.",
+      "authors": [
+        "Daria Ozerova",
+        "Ekaterina Trofimova"
+      ],
+      "published": "2025-10-08T10:47:05Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06878v1"
+    },
+    {
+      "arxiv_id": "2510.06857v1",
+      "title": "Autoformalizer with Tool Feedback",
+      "summary": "Autoformalization addresses the scarcity of data for Automated Theorem\nProving (ATP) by translating mathematical problems from natural language into\nformal statements. Efforts in recent work shift from directly prompting large\nlanguage models to training an end-to-end formalizer model from scratch,\nachieving remarkable advancements. However, existing formalizer still struggles\nto consistently generate valid statements that meet syntactic validity and\nsemantic consistency. To address this issue, we propose the Autoformalizer with\nTool Feedback (ATF), a novel approach that incorporates syntactic and\nconsistency information as tools into the formalization process. By integrating\nLean 4 compilers for syntax corrections and employing a multi-LLMs-as-judge\napproach for consistency validation, the model is able to adaptively refine\ngenerated statements according to the tool feedback, enhancing both syntactic\nvalidity and semantic consistency. The training of ATF involves a cold-start\nphase on synthetic tool-calling data, an expert iteration phase to improve\nformalization capabilities, and Direct Preference Optimization to alleviate\nineffective revisions. Experimental results show that ATF markedly outperforms\na range of baseline formalizer models, with its superior performance further\nvalidated by human evaluations. Subsequent analysis reveals that ATF\ndemonstrates excellent inference scaling properties. Moreover, we open-source\nNumina-ATF, a dataset containing 750K synthetic formal statements to facilitate\nadvancements in autoformalization and ATP research.",
+      "authors": [
+        "Qi Guo",
+        "Jianing Wang",
+        "Jianfei Zhang",
+        "Deyang Kong",
+        "Xiangzhou Huang",
+        "Xiangyu Xi",
+        "Wei Wang",
+        "Jingang Wang",
+        "Xunliang Cai",
+        "Shikun Zhang",
+        "Wei Ye"
+      ],
+      "published": "2025-10-08T10:25:12Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06857v1"
+    },
+    {
+      "arxiv_id": "2510.06761v1",
+      "title": "Evolving and Executing Research Plans via Double-Loop Multi-Agent\n  Collaboration",
+      "summary": "Automating the end-to-end scientific research process poses a fundamental\nchallenge: it requires both evolving high-level plans that are novel and sound,\nand executing these plans correctly amidst dynamic and uncertain conditions. To\naddress this bilevel challenge, we propose a novel Double-Loop Multi-Agent\n(DLMA) framework to solve the given research problem automatically. The leader\nloop, composed of professor agents, is responsible for evolving research plans.\nIt employs an evolutionary algorithm through involvement, improvement, and\nintegration meetings to iteratively generate and refine a pool of research\nproposals, exploring the solution space effectively. The follower loop,\ncomposed of doctoral student agents, is responsible for executing the\nbest-evolved plan. It dynamically adjusts the plan during implementation via\npre-hoc and post-hoc meetings, ensuring each step (e.g., drafting, coding) is\nwell-supported by contextual and external observations. Extensive experiments\non benchmarks like ACLAward and Laboratory show that DLMA generates research\npapers that achieve state-of-the-art scores in automated evaluation,\nsignificantly outperforming strong baselines. Ablation studies confirm the\ncritical roles of both loops, with evolution driving novelty and execution\nensuring soundness.",
+      "authors": [
+        "Zhi Zhang",
+        "Yan Liu",
+        "Zhejing Hu",
+        "Gong Chen",
+        "Sheng-hua Zhong",
+        "Jiannong Cao"
+      ],
+      "published": "2025-10-08T08:40:58Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06761v1"
+    },
+    {
+      "arxiv_id": "2510.06756v1",
+      "title": "Verifying Memoryless Sequential Decision-making of Large Language Models",
+      "summary": "We introduce a tool for rigorous and automated verification of large language\nmodel (LLM)- based policies in memoryless sequential decision-making tasks.\nGiven a Markov decision process (MDP) representing the sequential\ndecision-making task, an LLM policy, and a safety requirement expressed as a\nPCTL formula, our approach incrementally constructs only the reachable portion\nof the MDP guided by the LLM's chosen actions. Each state is encoded as a\nnatural language prompt, the LLM's response is parsed into an action, and\nreachable successor states by the policy are expanded. The resulting formal\nmodel is checked with Storm to determine whether the policy satisfies the\nspecified safety property. In experiments on standard grid world benchmarks, we\nshow that open source LLMs accessed via Ollama can be verified when\ndeterministically seeded, but generally underperform deep reinforcement\nlearning baselines. Our tool natively integrates with Ollama and supports\nPRISM-specified tasks, enabling continuous benchmarking in user-specified\nsequential decision-making tasks and laying a practical foundation for formally\nverifying increasingly capable LLMs.",
+      "authors": [
+        "Dennis Gross",
+        "Helge Spieker",
+        "Arnaud Gotlieb"
+      ],
+      "published": "2025-10-08T08:31:48Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06756v1"
+    },
+    {
+      "arxiv_id": "2510.06742v1",
+      "title": "MultiCNKG: Integrating Cognitive Neuroscience, Gene, and Disease\n  Knowledge Graphs Using Large Language Models",
+      "summary": "The advent of large language models (LLMs) has revolutionized the integration\nof knowledge graphs (KGs) in biomedical and cognitive sciences, overcoming\nlimitations in traditional machine learning methods for capturing intricate\nsemantic links among genes, diseases, and cognitive processes. We introduce\nMultiCNKG, an innovative framework that merges three key knowledge sources: the\nCognitive Neuroscience Knowledge Graph (CNKG) with 2.9K nodes and 4.3K edges\nacross 9 node types and 20 edge types; Gene Ontology (GO) featuring 43K nodes\nand 75K edges in 3 node types and 4 edge types; and Disease Ontology (DO)\ncomprising 11.2K nodes and 8.8K edges with 1 node type and 2 edge types.\nLeveraging LLMs like GPT-4, we conduct entity alignment, semantic similarity\ncomputation, and graph augmentation to create a cohesive KG that interconnects\ngenetic mechanisms, neurological disorders, and cognitive functions. The\nresulting MultiCNKG encompasses 6.9K nodes across 5 types (e.g., Genes,\nDiseases, Cognitive Processes) and 11.3K edges spanning 7 types (e.g., Causes,\nAssociated with, Regulates), facilitating a multi-layered view from molecular\nto behavioral domains. Assessments using metrics such as precision (85.20%),\nrecall (87.30%), coverage (92.18%), graph consistency (82.50%), novelty\ndetection (40.28%), and expert validation (89.50%) affirm its robustness and\ncoherence. Link prediction evaluations with models like TransE (MR: 391, MRR:\n0.411) and RotatE (MR: 263, MRR: 0.395) show competitive performance against\nbenchmarks like FB15k-237 and WN18RR. This KG advances applications in\npersonalized medicine, cognitive disorder diagnostics, and hypothesis\nformulation in cognitive neuroscience.",
+      "authors": [
+        "Ali Sarabadani",
+        "Kheirolah Rahsepar Fard"
+      ],
+      "published": "2025-10-08T07:59:32Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06742v1"
+    },
+    {
+      "arxiv_id": "2510.06711v1",
+      "title": "Inefficiencies of Meta Agents for Agent Design",
+      "summary": "Recent works began to automate the design of agentic systems using\nmeta-agents that propose and iteratively refine new agent architectures. In\nthis paper, we examine three key challenges in a common class of meta-agents.\nFirst, we investigate how a meta-agent learns across iterations and find that\nsimply expanding the context with all previous agents, as proposed by previous\nworks, performs worse than ignoring prior designs entirely. We show that the\nperformance improves with an evolutionary approach. Second, although the\nmeta-agent designs multiple agents during training, it typically commits to a\nsingle agent at test time. We find that the designed agents have low behavioral\ndiversity, limiting the potential for their complementary use. Third, we assess\nwhen automated design is economically viable. We find that only in a few\ncases--specifically, two datasets--the overall cost of designing and deploying\nthe agents is lower than that of human-designed agents when deployed on over\n15,000 examples. In contrast, the performance gains for other datasets do not\njustify the design cost, regardless of scale.",
+      "authors": [
+        "Batu El",
+        "Mert Yuksekgonul",
+        "James Zou"
+      ],
+      "published": "2025-10-08T07:06:17Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06711v1"
+    },
+    {
+      "arxiv_id": "2510.06674v1",
+      "title": "Agent-in-the-Loop: A Data Flywheel for Continuous Improvement in\n  LLM-based Customer Support",
+      "summary": "We introduce an Agent-in-the-Loop (AITL) framework that implements a\ncontinuous data flywheel for iteratively improving an LLM-based customer\nsupport system. Unlike standard offline approaches that rely on batch\nannotations, AITL integrates four key types of annotations directly into live\ncustomer operations: (1) pairwise response preferences, (2) agent adoption and\nrationales, (3) knowledge relevance checks, and (4) identification of missing\nknowledge. These feedback signals seamlessly feed back into models' updates,\nreducing retraining cycles from months to weeks. Our production pilot involving\nUS-based customer support agents demonstrated significant improvements in\nretrieval accuracy (+11.7% recall@75, +14.8% precision@8), generation quality\n(+8.4% helpfulness) and agent adoption rates (+4.5%). These results underscore\nthe effectiveness of embedding human feedback loops directly into operational\nworkflows to continuously refine LLM-based customer support system.",
+      "authors": [
+        "Cen",
+        "Zhao",
+        "Tiantian Zhang",
+        "Hanchen Su",
+        "Yufeng",
+        "Zhang",
+        "Shaowei Su",
+        "Mingzhi Xu",
+        "Yu",
+        "Liu",
+        "Wei Han",
+        "Jeremy Werner",
+        "Claire Na Cheng",
+        "Yashar Mehdad"
+      ],
+      "published": "2025-10-08T05:57:04Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06674v1"
+    },
+    {
+      "arxiv_id": "2510.06600v1",
+      "title": "Fine-Grained Emotion Recognition via In-Context Learning",
+      "summary": "Fine-grained emotion recognition aims to identify the emotional type in\nqueries through reasoning and decision-making processes, playing a crucial role\nin various systems. Recent methods use In-Context Learning (ICL), enhancing the\nrepresentation of queries in the reasoning process through semantically similar\nexamples, while further improving emotion recognition by explaining the\nreasoning mechanisms. However, these methods enhance the reasoning process but\noverlook the decision-making process. This paper investigates decision-making\nin fine-grained emotion recognition through prototype theory. We show that ICL\nrelies on similarity matching between query representations and emotional\nprototypes within the model, where emotion-accurate representations are\ncritical. However, semantically similar examples often introduce emotional\ndiscrepancies, hindering accurate representations and causing errors. To\naddress this, we propose Emotion In-Context Learning (EICL), which introduces\nemotionally similar examples and uses a dynamic soft-label strategy to improve\nquery representations in the emotion reasoning process. A two-stage exclusion\nstrategy is then employed to assess similarity from multiple angles, further\noptimizing the decision-making process. Extensive experiments show that EICL\nsignificantly outperforms ICL on multiple datasets.",
+      "authors": [
+        "Zhaochun Ren",
+        "Zhou Yang",
+        "Chenglong Ye",
+        "Haizhou Sun",
+        "Chao Chen",
+        "Xiaofei Zhu",
+        "Xiangwen Liao"
+      ],
+      "published": "2025-10-08T03:17:09Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06600v1"
+    },
+    {
+      "arxiv_id": "2510.06587v1",
+      "title": "WebDART: Dynamic Decomposition and Re-planning for Complex Web Tasks",
+      "summary": "Large language model (LLM) agents are becoming competent at straightforward\nweb tasks, such as opening an item page or submitting a form, but still\nstruggle with objectives that require long horizon navigation, large scale\ninformation extraction, and reasoning under constraints. We present WebDART, a\ngeneral framework that enables a single LLM to handle such complex chores.\nWebDART (i) dynamically decomposes each objective into three focused subtasks:\nnavigation, information extraction, and execution, so the model concentrates on\none skill at a time, and (ii) continuously replans the decomposition as new\nwebpages are revealed, taking advantage of newly discovered filters or\nshortcuts and avoiding redundant exploration. Evaluated on WebChoreArena,\nWebDART lifts success rates by up to 13.7 percentage points over previous SOTA\nagents, while matching their performance on the easier WebArena suite and\ncompleting tasks with up to 14.7 fewer navigation steps.",
+      "authors": [
+        "Jingbo Yang",
+        "Bairu Hou",
+        "Wei Wei",
+        "Shiyu Chang",
+        "Yujia Bao"
+      ],
+      "published": "2025-10-08T02:34:59Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06587v1"
+    },
+    {
+      "arxiv_id": "2510.06538v1",
+      "title": "Auto-Prompt Ensemble for LLM Judge",
+      "summary": "We present a novel framework that improves the reliability of LLM judges by\nselectively augmenting LLM with auxiliary evaluation dimensions. Existing LLM\njudges often miss crucial evaluation dimensions because they fail to recognize\nthe implicit standards underlying human assessments. To address this challenge,\nwe propose the Auto-Prompt Ensemble (APE), an adaptive framework that\nautomatically learns evaluation dimensions from its failure cases. APE\nincorporates a confidence-based ensemble mechanism to decide when to adopt the\njudgments from additional evaluation dimensions through a novel confidence\nestimation approach called Collective Confidence. Extensive experiments\ndemonstrate that APE improves the reliability of LLM Judge across diverse\nstandard benchmarks. For instance, APE enhances GPT-4o agreement rate on Reward\nBench from 87.2% to 90.5% in the zero-shot setting. Overall, APE provides a\nprincipled approach for LLM Judge to leverage test-time computation, and bridge\nthe evaluation gap between human and LLM judges.",
+      "authors": [
+        "Jiajie Li",
+        "Huayi Zhang",
+        "Peng Lin",
+        "Jinjun Xiong",
+        "Wei Xu"
+      ],
+      "published": "2025-10-08T00:28:51Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06538v1"
+    },
+    {
+      "arxiv_id": "2510.06534v1",
+      "title": "Beneficial Reasoning Behaviors in Agentic Search and Effective\n  Post-training to Obtain Them",
+      "summary": "Agentic search leverages large language models (LLMs) to interpret complex\nuser information needs and execute a multi-step process of planning, searching,\nand synthesizing information to provide answers. This paradigm introduces\nunique challenges for LLMs' reasoning and agentic capabilities when interacting\nwith retrieval systems and the broader web. In this paper, we propose a\nreasoning-driven LLM-based pipeline to study effective reasoning behavior\npatterns in agentic search. Using this pipeline, we analyze successful agentic\nsearch trajectories and identify four beneficial reasoning behaviors:\nInformation Verification, Authority Evaluation, Adaptive Search, and Error\nRecovery. Based on these findings, we propose a technique called Behavior\nPriming to train more effective agentic search models. It synthesizes agentic\nsearch trajectories that exhibit these four behaviors and integrates them into\nthe agentic search model through supervised fine-tuning (SFT), followed by\nstandard reinforcement learning (RL). Experiments on three benchmarks (GAIA,\nWebWalker, and HLE) demonstrate that behavior priming yields over 35% gains in\nLlama3.2-3B and Qwen3-1.7B compared to directly training agentic search models\nwith RL. Crucially, we demonstrate that the desired reasoning behaviors in the\nSFT data, rather than the correctness of the final answer, is the critical\nfactor for achieving strong final performance after RL: fine-tuning on\ntrajectories with desirable reasoning behaviors but incorrect answers leads to\nbetter performance than fine-tuning on trajectories with correct answers. Our\nanalysis further reveals the underlying mechanism: the introduced reasoning\nbehaviors endow models with more effective exploration (higher pass@k and\nentropy) and test-time scaling (longer trajectories) capabilities, providing a\nstrong foundation for RL. Our code will be released as open source.",
+      "authors": [
+        "Jiahe Jin",
+        "Abhijay Paladugu",
+        "Chenyan Xiong"
+      ],
+      "published": "2025-10-08T00:20:35Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06534v1"
+    }
+  ]
+}

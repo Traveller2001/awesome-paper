@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.02224v1",
+  "title": "Efficiently Generating Correlated Sample Paths from Multi-step Time\n  Series Foundation Models",
+  "summary": "Many time series applications require access to multi-step forecast\ntrajectories in the form of sample paths. Recently, time series foundation\nmodels have leveraged multi-step lookahead predictions to improve the quality\nand efficiency of multi-step forecasts. However, these models only predict\nindependent marginal distributions for each time step, rather than a full joint\npredictive distribution. To generate forecast sample paths with realistic\ncorrelation structures, one typically resorts to autoregressive sampling, which\ncan be extremely expensive. In this paper, we present a copula-based approach\nto efficiently generate accurate, correlated sample paths from existing\nmulti-step time series foundation models in one forward pass. Our copula-based\napproach generates correlated sample paths orders of magnitude faster than\nautoregressive sampling, and it yields improved sample path quality by\nmitigating the snowballing error phenomenon.",
+  "authors": [
+    "Ethan Baron",
+    "Boris Oreshkin",
+    "Ruijun Ma",
+    "Hanyu Zhang",
+    "Kari Torkkola",
+    "Michael W. Mahoney",
+    "Andrew Gordon Wilson",
+    "Tatiana Konstantinova"
+  ],
+  "published": "2025-10-02T17:08:58Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02224v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出一种基于copula的方法，能够从多步时间序列基础模型中高效生成具有相关性的样本路径，相比自回归采样速度提升数个数量级，并通过缓解误差累积现象提高路径质量。",
+  "order": 718,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02224v1"
+}

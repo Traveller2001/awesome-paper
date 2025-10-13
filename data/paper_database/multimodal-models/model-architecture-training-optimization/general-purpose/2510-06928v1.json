@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06928v1",
+  "title": "IAR2: Improving Autoregressive Visual Generation with Semantic-Detail\n  Associated Token Prediction",
+  "summary": "Autoregressive models have emerged as a powerful paradigm for visual content\ncreation, but often overlook the intrinsic structural properties of visual\ndata. Our prior work, IAR, initiated a direction to address this by\nreorganizing the visual codebook based on embedding similarity, thereby\nimproving generation robustness. However, it is constrained by the rigidity of\npre-trained codebooks and the inaccuracies of hard, uniform clustering. To\novercome these limitations, we propose IAR2, an advanced autoregressive\nframework that enables a hierarchical semantic-detail synthesis process. At the\ncore of IAR2 is a novel Semantic-Detail Associated Dual Codebook, which\ndecouples image representations into a semantic codebook for global semantic\ninformation and a detail codebook for fine-grained refinements. It expands the\nquantization capacity from a linear to a polynomial scale, significantly\nenhancing expressiveness. To accommodate this dual representation, we propose a\nSemantic-Detail Autoregressive Prediction scheme coupled with a Local-Context\nEnhanced Autoregressive Head, which performs hierarchical prediction-first the\nsemantic token, then the detail token-while leveraging a local context window\nto enhance spatial coherence. Furthermore, for conditional generation, we\nintroduce a Progressive Attention-Guided Adaptive CFG mechanism that\ndynamically modulates the guidance scale for each token based on its relevance\nto the condition and its temporal position in the generation sequence,\nimproving conditional alignment without sacrificing realism. Extensive\nexperiments demonstrate that IAR2 sets a new state-of-the-art for\nautoregressive image generation, achieving a FID of 1.50 on ImageNet. Our model\nnot only surpasses previous methods in performance but also demonstrates\nsuperior computational efficiency, highlighting the effectiveness of our\nstructured, coarse-to-fine generation strategy.",
+  "authors": [
+    "Ran Yi",
+    "Teng Hu",
+    "Zihan Su",
+    "Lizhuang Ma"
+  ],
+  "published": "2025-10-08T12:08:21Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06928v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出IAR2自回归视觉生成框架，通过语义-细节关联双码本将图像表示解耦为语义码本和细节码本，采用分层预测策略和局部上下文增强机制，结合渐进注意力引导的自适应CFG技术，在ImageNet上实现FID 1.50的最新性能，显著提升了生成质量和计算效率。",
+  "order": 128,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06928v1"
+}

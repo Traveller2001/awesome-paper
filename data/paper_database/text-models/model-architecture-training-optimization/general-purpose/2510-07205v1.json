@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.07205v1",
+  "title": "Guided by the Experts: Provable Feature Learning Dynamic of Soft-Routed\n  Mixture-of-Experts",
+  "summary": "Mixture-of-Experts (MoE) architectures have emerged as a cornerstone of\nmodern AI systems. In particular, MoEs route inputs dynamically to specialized\nexperts whose outputs are aggregated through weighted summation. Despite their\nwidespread application, theoretical understanding of MoE training dynamics\nremains limited to either separate expert-router optimization or only top-1\nrouting scenarios with carefully constructed datasets. This paper advances MoE\ntheory by providing convergence guarantees for joint training of soft-routed\nMoE models with non-linear routers and experts in a student-teacher framework.\nWe prove that, with moderate over-parameterization, the student network\nundergoes a feature learning phase, where the router's learning process is\n``guided'' by the experts, that recovers the teacher's parameters. Moreover, we\nshow that a post-training pruning can effectively eliminate redundant neurons,\nfollowed by a provably convergent fine-tuning process that reaches global\noptimality. To our knowledge, our analysis is the first to bring novel insights\nin understanding the optimization landscape of the MoE architecture.",
+  "authors": [
+    "Fangshuo Liao",
+    "Anastasios Kyrillidis"
+  ],
+  "published": "2025-10-08T16:40:31Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07205v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文首次为软路由混合专家模型提供了理论收敛保证，证明了在适度过参数化下，学生网络能通过专家引导的特征学习阶段恢复教师网络参数，并提出可证明收敛的剪枝后微调方法。",
+  "order": 173,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07205v1"
+}

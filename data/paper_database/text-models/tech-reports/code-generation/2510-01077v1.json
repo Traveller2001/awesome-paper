@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01077v1",
+  "title": "CodeGenLink: A Tool to Find the Likely Origin and License of\n  Automatically Generated Code",
+  "summary": "Large Language Models (LLMs) are widely used in software development tasks\nnowadays. Unlike reusing code taken from the Web, for LLMs' generated code,\ndevelopers are concerned about its lack of trustworthiness and possible\ncopyright or licensing violations, due to the lack of code provenance\ninformation. This paper proposes CodeGenLink, a GitHub CoPilot extension for\nVisual Studio Code aimed at (i) suggesting links containing code very similar\nto automatically generated code, and (ii) whenever possible, indicating the\nlicense of the likely origin of the code. CodeGenLink retrieves candidate links\nby combining LLMs with their web search features and then performs similarity\nanalysis between the generated and retrieved code. Preliminary results show\nthat CodeGenLink effectively filters unrelated links via similarity analysis\nand provides licensing information when available. Tool URL:\nhttps://github.com/danielebifolco/CodeGenLink Tool Video:\nhttps://youtu.be/M6nqjBf9_pw",
+  "authors": [
+    "Daniele Bifolco",
+    "Guido Annicchiarico",
+    "Pierluigi Barbiero",
+    "Massimiliano Di Penta",
+    "Fiorella Zampetti"
+  ],
+  "published": "2025-10-01T16:21:13Z",
+  "primary_category": "cs.SE",
+  "arxiv_url": "https://arxiv.org/abs/2510.01077v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "code_generation",
+  "tldr_zh": "CodeGenLink是一款GitHub CoPilot扩展工具，通过结合LLM网络搜索与代码相似性分析，为AI生成代码追溯可能来源及许可证信息，解决代码可信度与版权问题。初步验证显示能有效过滤无关链接并提供许可信息。",
+  "order": 196,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01077v1"
+}

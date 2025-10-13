@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07008v1",
+  "title": "Bayesian Modelling of Multi-Year Crop Type Classification Using Deep\n  Neural Networks and Hidden Markov Models",
+  "summary": "The temporal consistency of yearly land-cover maps is of great importance to\nmodel the evolution and change of the land cover over the years. In this paper,\nwe focus the attention on a novel approach to classification of yearly\nsatellite image time series (SITS) that combines deep learning with Bayesian\nmodelling, using Hidden Markov Models (HMMs) integrated with Transformer\nEncoder (TE) based DNNs. The proposed approach aims to capture both i)\nintricate temporal correlations in yearly SITS and ii) specific patterns in\nmultiyear crop type sequences. It leverages the cascade classification of an\nHMM layer built on top of the TE, discerning consistent yearly crop-type\nsequences. Validation on a multiyear crop type classification dataset spanning\n47 crop types and six years of Sentinel-2 acquisitions demonstrates the\nimportance of modelling temporal consistency in the predicted labels. HMMs\nenhance the overall performance and F1 scores, emphasising the effectiveness of\nthe proposed approach.",
+  "authors": [
+    "Gianmarco Perantoni",
+    "Giulio Weikmann",
+    "Lorenzo Bruzzone"
+  ],
+  "published": "2025-10-08T13:33:32Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07008v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种结合Transformer编码器与隐马尔可夫模型的贝叶斯深度学习方法，用于多年度农作物分类。该方法通过捕捉卫星图像时间序列中的时序相关性及作物轮作模式，在47类作物6年Sentinel-2数据验证中显著提升分类一致性与F1分数。",
+  "order": 122,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07008v1"
+}

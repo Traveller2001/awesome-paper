@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06215v1",
+  "title": "Fine-grained Defocus Blur Control for Generative Image Models",
+  "summary": "Current text-to-image diffusion models excel at generating diverse,\nhigh-quality images, yet they struggle to incorporate fine-grained camera\nmetadata such as precise aperture settings. In this work, we introduce a novel\ntext-to-image diffusion framework that leverages camera metadata, or EXIF data,\nwhich is often embedded in image files, with an emphasis on generating\ncontrollable lens blur. Our method mimics the physical image formation process\nby first generating an all-in-focus image, estimating its monocular depth,\npredicting a plausible focus distance with a novel focus distance transformer,\nand then forming a defocused image with an existing differentiable lens blur\nmodel. Gradients flow backwards through this whole process, allowing us to\nlearn without explicit supervision to generate defocus effects based on content\nelements and the provided EXIF data. At inference time, this enables precise\ninteractive user control over defocus effects while preserving scene contents,\nwhich is not achievable with existing diffusion models. Experimental results\ndemonstrate that our model enables superior fine-grained control without\naltering the depicted scene.",
+  "authors": [
+    "Ayush Shrivastava",
+    "Connelly Barnes",
+    "Xuaner Zhang",
+    "Lingzhi Zhang",
+    "Andrew Owens",
+    "Sohrab Amirghodsi",
+    "Eli Shechtman"
+  ],
+  "published": "2025-10-07T17:59:15Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06215v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种新颖的文本到图像扩散框架，通过利用相机EXIF元数据实现精细化的镜头模糊控制。该方法模拟物理成像过程：首先生成全焦图像，估计单目深度，通过创新的焦点距离变换器预测合理焦距，最后使用可微分镜头模糊模型生成散焦图像。无需显式监督即可基于内容元素和EXIF数据学习散焦效果，在推理时实现不改变场景内容的精确交互式散焦控制。",
+  "order": 60,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06215v1"
+}

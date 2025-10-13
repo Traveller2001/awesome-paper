@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01020v1",
+  "title": "The Good, the Bad, and the Sampled: a No-Regret Approach to Safe Online\n  Classification",
+  "summary": "We study the problem of sequentially testing individuals for a binary disease\noutcome whose true risk is governed by an unknown logistic model. At each\nround, a patient arrives with feature vector $x_t$, and the decision maker may\neither pay to administer a (noiseless) diagnostic test--revealing the true\nlabel--or skip testing and predict the patient's disease status based on their\nfeature vector and prior history. Our goal is to minimize the total number of\ncostly tests required while guaranteeing that the fraction of\nmisclassifications does not exceed a prespecified error tolerance $\\alpha$,\nwith probability at least $1-\\delta$. To address this, we develop a novel\nalgorithm that interleaves label-collection and distribution estimation to\nestimate both $\\theta^{*}$ and the context distribution $P$, and computes a\nconservative, data-driven threshold $\\tau_t$ on the logistic score\n$|x_t^\\top\\theta|$ to decide when testing is necessary. We prove that, with\nprobability at least $1-\\delta$, our procedure does not exceed the target\nmisclassification rate, and requires only $O(\\sqrt{T})$ excess tests compared\nto the oracle baseline that knows both $\\theta^{*}$ and the patient feature\ndistribution $P$. This establishes the first no-regret guarantees for\nerror-constrained logistic testing, with direct applications to cost-sensitive\nmedical screening. Simulations corroborate our theoretical guarantees, showing\nthat in practice our procedure efficiently estimates $\\theta^{*}$ while\nretaining safety guarantees, and does not require too many excess tests.",
+  "authors": [
+    "Tavor Z. Baharav",
+    "Spyros Dragazis",
+    "Aldo Pacchiano"
+  ],
+  "published": "2025-10-01T15:28:00Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01020v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出一种在线安全分类算法，通过交替进行标签收集和分布估计，在保证误分类率不超过预设阈值的前提下，最小化昂贵的诊断测试次数。该算法在医疗筛查等成本敏感场景中具有应用价值，理论证明其测试次数仅比已知真实参数和特征分布的神谕基线多O(√T)。",
+  "order": 207,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01020v1"
+}

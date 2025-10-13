@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2510.06189v1",
+  "title": "Barbarians at the Gate: How AI is Upending Systems Research",
+  "summary": "Artificial Intelligence (AI) is starting to transform the research process as\nwe know it by automating the discovery of new solutions. Given a task, the\ntypical AI-driven approach is (i) to generate a set of diverse solutions, and\nthen (ii) to verify these solutions and select one that solves the problem.\nCrucially, this approach assumes the existence of a reliable verifier, i.e.,\none that can accurately determine whether a solution solves the given problem.\nWe argue that systems research, long focused on designing and evaluating new\nperformance-oriented algorithms, is particularly well-suited for AI-driven\nsolution discovery. This is because system performance problems naturally admit\nreliable verifiers: solutions are typically implemented in real systems or\nsimulators, and verification reduces to running these software artifacts\nagainst predefined workloads and measuring performance. We term this approach\nas AI-Driven Research for Systems (ADRS), which iteratively generates,\nevaluates, and refines solutions. Using penEvolve, an existing open-source ADRS\ninstance, we present case studies across diverse domains, including load\nbalancing for multi-region cloud scheduling, Mixture-of-Experts inference,\nLLM-based SQL queries, and transaction scheduling. In multiple instances, ADRS\ndiscovers algorithms that outperform state-of-the-art human designs (e.g.,\nachieving up to 5.0x runtime improvements or 50% cost reductions). We distill\nbest practices for guiding algorithm evolution, from prompt design to evaluator\nconstruction, for existing frameworks. We then discuss the broader implications\nfor the systems community: as AI assumes a central role in algorithm design, we\nargue that human researchers will increasingly focus on problem formulation and\nstrategic guidance. Our results highlight both the disruptive potential and the\nurgent need to adapt systems research practices in the age of AI.",
+  "authors": [
+    "Audrey Cheng",
+    "Shu Liu",
+    "Melissa Pan",
+    "Zhifei Li",
+    "Bowen Wang",
+    "Alex Krentsel",
+    "Tian Xia",
+    "Mert Cemri",
+    "Jongseok Park",
+    "Shuo Yang",
+    "Jeff Chen",
+    "Aditya Desai",
+    "Jiarong Xing",
+    "Koushik Sen",
+    "Matei Zaharia",
+    "Ion Stoica"
+  ],
+  "published": "2025-10-07T17:49:24Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06189v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出AI驱动系统研究(ADRS)方法，通过生成-验证-优化的迭代流程自动发现高性能算法。研究表明AI在负载均衡、专家混合推理等系统领域可超越人工设计(性能提升5倍/成本降低50%)，预示系统研究将转向问题定义与策略指导。",
+  "order": 2,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06189v1"
+}

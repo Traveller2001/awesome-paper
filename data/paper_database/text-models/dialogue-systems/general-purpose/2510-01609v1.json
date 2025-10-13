@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01609v1",
+  "title": "AgentRec: Next-Generation LLM-Powered Multi-Agent Collaborative\n  Recommendation with Adaptive Intelligence",
+  "summary": "Interactive conversational recommender systems have gained significant\nattention for their ability to capture user preferences through natural\nlanguage interactions. However, existing approaches face substantial challenges\nin handling dynamic user preferences, maintaining conversation coherence, and\nbalancing multiple ranking objectives simultaneously. This paper introduces\nAgentRec, a next-generation LLM-powered multi-agent collaborative\nrecommendation framework that addresses these limitations through hierarchical\nagent networks with adaptive intelligence. Our approach employs specialized\nLLM-powered agents for conversation understanding, preference modeling, context\nawareness, and dynamic ranking, coordinated through an adaptive weighting\nmechanism that learns from interaction patterns. We propose a three-tier\nlearning strategy combining rapid response for simple queries, intelligent\nreasoning for complex preferences, and deep collaboration for challenging\nscenarios. Extensive experiments on three real-world datasets demonstrate that\nAgentRec achieves consistent improvements over state-of-the-art baselines, with\n2.8\\% enhancement in conversation success rate, 1.9\\% improvement in\nrecommendation accuracy (NDCG@10), and 3.2\\% better conversation efficiency\nwhile maintaining comparable computational costs through intelligent agent\ncoordination.",
+  "authors": [
+    "Bo Ma",
+    "Hang Li",
+    "ZeHua Hu",
+    "XiaoFan Gui",
+    "LuYao Liu",
+    "Simon Lau"
+  ],
+  "published": "2025-10-02T02:47:11Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01609v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "AgentRec是一种基于大语言模型的多智能体协同推荐框架，通过分层智能体网络解决动态用户偏好、对话连贯性和多目标排序平衡问题。该系统采用三层次学习策略，在三个真实数据集上实验表明，对话成功率提升2.8%，推荐准确率(NDCG@10)提高1.9%，对话效率提升3.2%。",
+  "order": 120,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01609v1"
+}

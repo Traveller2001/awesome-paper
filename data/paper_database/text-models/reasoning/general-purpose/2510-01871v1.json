@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01871v1",
+  "title": "Ranking Items from Discrete Ratings: The Cost of Unknown User Thresholds",
+  "summary": "Ranking items is a central task in many information retrieval and recommender\nsystems. User input for the ranking task often comes in the form of ratings on\na coarse discrete scale. We ask whether it is possible to recover a\nfine-grained item ranking from such coarse-grained ratings. We model items as\nhaving scores and users as having thresholds; a user rates an item positively\nif the item's score exceeds the user's threshold. Although all users agree on\nthe total item order, estimating that order is challenging when both the scores\nand the thresholds are latent. Under our model, any ranking method naturally\npartitions the $n$ items into bins; the bins are ordered, but the items inside\neach bin are still unordered. Users arrive sequentially, and every new user can\nbe queried to refine the current ranking. We prove that achieving a\nnear-perfect ranking, measured by Spearman distance, requires $\\Theta(n^2)$\nusers (and therefore $\\Omega(n^2)$ queries). This is significantly worse than\nthe $O(n\\log n)$ queries needed to rank from comparisons; the gap reflects the\nadditional queries needed to identify the users who have the appropriate\nthresholds. Our bound also quantifies the impact of a mismatch between score\nand threshold distributions via a quadratic divergence factor. To show the\ntightness of our results, we provide a ranking algorithm whose query complexity\nmatches our bound up to a logarithmic factor. Our work reveals a tension in\nonline ranking: diversity in thresholds is necessary to merge coarse ratings\nfrom many users into a fine-grained ranking, but this diversity has a cost if\nthe thresholds are a priori unknown.",
+  "authors": [
+    "Oscar Villemaud",
+    "Suryanarayana Sankagiri",
+    "Matthias Grossglauser"
+  ],
+  "published": "2025-10-02T10:23:52Z",
+  "primary_category": "cs.IR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01871v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究从离散评分中恢复细粒度物品排序的问题，提出用户阈值模型并证明实现近似完美排序需要Θ(n²)用户查询，远高于基于比较排序的O(n log n)，揭示了阈值多样性在在线排序中的成本与必要性之间的张力。",
+  "order": 784,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01871v1"
+}

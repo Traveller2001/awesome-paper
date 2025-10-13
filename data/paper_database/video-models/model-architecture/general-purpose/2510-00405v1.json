@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00405v1",
+  "title": "EgoTraj-Bench: Towards Robust Trajectory Prediction Under Ego-view Noisy\n  Observations",
+  "summary": "Reliable trajectory prediction from an ego-centric perspective is crucial for\nrobotic navigation in human-centric environments. However, existing methods\ntypically assume idealized observation histories, failing to account for the\nperceptual artifacts inherent in first-person vision, such as occlusions, ID\nswitches, and tracking drift. This discrepancy between training assumptions and\ndeployment reality severely limits model robustness. To bridge this gap, we\nintroduce EgoTraj-Bench, the first real-world benchmark that grounds noisy,\nfirst-person visual histories in clean, bird's-eye-view future trajectories,\nenabling robust learning under realistic perceptual constraints. Building on\nthis benchmark, we propose BiFlow, a dual-stream flow matching model that\nconcurrently denoises historical observations and forecasts future motion by\nleveraging a shared latent representation. To better model agent intent, BiFlow\nincorporates our EgoAnchor mechanism, which conditions the prediction decoder\non distilled historical features via feature modulation. Extensive experiments\nshow that BiFlow achieves state-of-the-art performance, reducing minADE and\nminFDE by 10-15% on average and demonstrating superior robustness. We\nanticipate that our benchmark and model will provide a critical foundation for\ndeveloping trajectory forecasting systems truly resilient to the challenges of\nreal-world, ego-centric perception.",
+  "authors": [
+    "Jiayi Liu",
+    "Jiaming Zhou",
+    "Ke Ye",
+    "Kun-Yu Lin",
+    "Allan Wang",
+    "Junwei Liang"
+  ],
+  "published": "2025-10-01T01:30:13Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00405v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出EgoTraj-Bench基准测试和BiFlow双流匹配模型，解决第一人称视角下轨迹预测的噪声观测问题。通过共享潜在表征同时去噪历史观测和预测未来运动，引入EgoAnchor机制建模智能体意图，在真实感知约束下实现最先进的轨迹预测性能。",
+  "order": 686,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00405v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01574v1",
+  "title": "Synthetic Prefixes to Mitigate Bias in Real-Time Neural Query\n  Autocomplete",
+  "summary": "We introduce a data-centric approach for mitigating presentation bias in\nreal-time neural query autocomplete systems through the use of synthetic\nprefixes. These prefixes are generated from complete user queries collected\nduring regular search sessions where autocomplete was not active. This allows\nus to enrich the training data for learning to rank models with more diverse\nand less biased examples. This method addresses the inherent bias in engagement\nsignals collected from live query autocomplete interactions, where model\nsuggestions influence user behavior. Our neural ranker is optimized for\nreal-time deployment under strict latency constraints and incorporates a rich\nset of features, including query popularity, seasonality, fuzzy match scores,\nand contextual signals such as department affinity, device type, and vertical\nalignment with previous user queries. To support efficient training, we\nintroduce a task-specific simplification of the listwise loss, reducing\ncomputational complexity from $O(n^2)$ to $O(n)$ by leveraging the query\nautocomplete structure of having only one ground-truth selection per prefix.\nDeployed in a large-scale e-commerce setting, our system demonstrates\nstatistically significant improvements in user engagement, as measured by mean\nreciprocal rank and related metrics. Our findings show that synthetic prefixes\nnot only improve generalization but also provide a scalable path toward bias\nmitigation in other low-latency ranking tasks, including related searches and\nquery recommendations.",
+  "authors": [
+    "Adithya Rajan",
+    "Xiaoyu Liu",
+    "Prateek Verma",
+    "Vibhu Arora"
+  ],
+  "published": "2025-10-02T01:44:44Z",
+  "primary_category": "cs.IR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01574v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种数据驱动方法，通过合成前缀缓解实时神经查询自动补全系统中的呈现偏差。该方法利用未启用自动补全时收集的完整用户查询生成前缀，为排序模型训练提供更多样化、偏差更小的数据。通过优化列表损失函数将计算复杂度从O(n²)降至O(n)，并在大规模电商场景中显著提升了用户参与度指标。",
+  "order": 396,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01574v1"
+}

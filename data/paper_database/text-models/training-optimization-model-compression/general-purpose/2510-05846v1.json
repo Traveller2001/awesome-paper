@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05846v1",
+  "title": "Luth: Efficient French Specialization for Small Language Models and\n  Cross-Lingual Transfer",
+  "summary": "The landscape of Large Language Models (LLMs) remains predominantly\nEnglish-centric, resulting in a significant performance gap for other major\nlanguages, such as French, especially in the context of Small Language Models\n(SLMs). Existing multilingual models demonstrate considerably lower performance\nin French compared to English, and research on efficient adaptation methods for\nFrench remains limited. To address this, we introduce \\textbf{Luth}, a family\nof French-specialized SLMs: through targeted post-training on curated,\nhigh-quality French data, our models outperform all open-source counterparts of\ncomparable size on multiple French benchmarks while retaining their original\nEnglish capabilities. We further show that strategic model merging enhances\nperformance in both languages, establishing Luth as a new state of the art for\nFrench SLMs and a robust baseline for future French-language research.",
+  "authors": [
+    "Maxence Lasbordes",
+    "Sinoué Gad"
+  ],
+  "published": "2025-10-07T12:08:25Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05846v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_compression']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Luth系列法语专用小语言模型，通过针对性后训练和模型融合技术，在保持英语能力的同时显著提升法语任务性能，为法语NLP研究建立了新的基准。",
+  "order": 34,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05846v1"
+}

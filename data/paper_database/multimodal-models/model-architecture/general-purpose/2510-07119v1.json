@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07119v1",
+  "title": "MoRe: Monocular Geometry Refinement via Graph Optimization for\n  Cross-View Consistency",
+  "summary": "Monocular 3D foundation models offer an extensible solution for perception\ntasks, making them attractive for broader 3D vision applications. In this\npaper, we propose MoRe, a training-free Monocular Geometry Refinement method\ndesigned to improve cross-view consistency and achieve scale alignment. To\ninduce inter-frame relationships, our method employs feature matching between\nframes to establish correspondences. Rather than applying simple least squares\noptimization on these matched points, we formulate a graph-based optimization\nframework that performs local planar approximation using the estimated 3D\npoints and surface normals estimated by monocular foundation models. This\nformulation addresses the scale ambiguity inherent in monocular geometric\npriors while preserving the underlying 3D structure. We further demonstrate\nthat MoRe not only enhances 3D reconstruction but also improves novel view\nsynthesis, particularly in sparse view rendering scenarios.",
+  "authors": [
+    "Dongki Jung",
+    "Jaehoon Choi",
+    "Yonghan Lee",
+    "Sungmin Eum",
+    "Heesung Kwon",
+    "Dinesh Manocha"
+  ],
+  "published": "2025-10-08T15:11:32Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07119v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MoRe，一种无需训练的单目几何优化方法，通过图优化框架改进跨视角一致性并实现尺度对齐。该方法利用特征匹配建立帧间对应关系，结合局部平面近似处理单目3D基础模型估计的点云和表面法向量，有效解决单目几何先验中的尺度模糊问题，在3D重建和新视角合成任务中均表现出色。",
+  "order": 117,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07119v1"
+}

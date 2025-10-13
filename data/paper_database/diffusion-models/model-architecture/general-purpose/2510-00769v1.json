@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00769v1",
+  "title": "ZQBA: Zero Query Black-box Adversarial Attack",
+  "summary": "Current black-box adversarial attacks either require multiple queries or\ndiffusion models to produce adversarial samples that can impair the target\nmodel performance. However, these methods require training a surrogate loss or\ndiffusion models to produce adversarial samples, which limits their\napplicability in real-world settings. Thus, we propose a Zero Query Black-box\nAdversarial (ZQBA) attack that exploits the representations of Deep Neural\nNetworks (DNNs) to fool other networks. Instead of requiring thousands of\nqueries to produce deceiving adversarial samples, we use the feature maps\nobtained from a DNN and add them to clean images to impair the classification\nof a target model. The results suggest that ZQBA can transfer the adversarial\nsamples to different models and across various datasets, namely CIFAR and Tiny\nImageNet. The experiments also show that ZQBA is more effective than\nstate-of-the-art black-box attacks with a single query, while maintaining the\nimperceptibility of perturbations, evaluated both quantitatively (SSIM) and\nqualitatively, emphasizing the vulnerabilities of employing DNNs in real-world\ncontexts. All the source code is available at\nhttps://github.com/Joana-Cabral/ZQBA.",
+  "authors": [
+    "Joana C. Costa",
+    "Tiago Roxo",
+    "Hugo Proença",
+    "Pedro R. M. Inácio"
+  ],
+  "published": "2025-10-01T11:00:53Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00769v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ZQBA提出一种零查询黑盒对抗攻击方法，通过利用深度神经网络的特征表示生成对抗样本，无需多次查询或训练替代模型。该方法将源DNN的特征图叠加到干净图像上，可跨模型和数据集（CIFAR、Tiny ImageNet）实现攻击，在单次查询下优于现有技术，同时保持扰动不可感知性，揭示了DNN在实际应用中的安全漏洞。",
+  "order": 630,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00769v1"
+}

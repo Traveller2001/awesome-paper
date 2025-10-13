@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06594v1",
+  "title": "Do Internal Layers of LLMs Reveal Patterns for Jailbreak Detection?",
+  "summary": "Jailbreaking large language models (LLMs) has emerged as a pressing concern\nwith the increasing prevalence and accessibility of conversational LLMs.\nAdversarial users often exploit these models through carefully engineered\nprompts to elicit restricted or sensitive outputs, a strategy widely referred\nto as jailbreaking. While numerous defense mechanisms have been proposed,\nattackers continuously develop novel prompting techniques, and no existing\nmodel can be considered fully resistant. In this study, we investigate the\njailbreak phenomenon by examining the internal representations of LLMs, with a\nfocus on how hidden layers respond to jailbreak versus benign prompts.\nSpecifically, we analyze the open-source LLM GPT-J and the state-space model\nMamba2, presenting preliminary findings that highlight distinct layer-wise\nbehaviors. Our results suggest promising directions for further research on\nleveraging internal model dynamics for robust jailbreak detection and defense.",
+  "authors": [
+    "Sri Durga Sai Sowmya Kadali",
+    "Evangelos E. Papalexakis"
+  ],
+  "published": "2025-10-08T02:55:31Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06594v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过分析GPT-J和Mamba2模型的内部层表示，探索LLM在遭遇越狱攻击时的行为模式。研究发现恶意提示与良性提示在隐藏层激活模式上存在显著差异，为基于模型内部动态的越狱检测防御机制提供了新思路。",
+  "order": 96,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06594v1"
+}

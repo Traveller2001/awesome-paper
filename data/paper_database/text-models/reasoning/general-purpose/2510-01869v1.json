@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01869v1",
+  "title": "TACOS: Task Agnostic COordinator of a multi-drone System",
+  "summary": "When a single pilot is responsible for managing a multi-drone system, the\ntask demands varying levels of autonomy, from direct control of individual\nUAVs, to group-level coordination, to fully autonomous swarm behaviors for\naccomplishing high-level tasks. Enabling such flexible interaction requires a\nframework that supports multiple modes of shared autonomy. As language models\ncontinue to improve in reasoning and planning, they provide a natural\nfoundation for such systems, reducing pilot workload by enabling high-level\ntask delegation through intuitive, language-based interfaces. In this paper we\npresent TACOS (Task-Agnostic COordinator of a multi-drone System), a unified\nframework that enables high-level natural language control of multi-UAV systems\nthrough Large Language Models (LLMs). TACOS integrates three key capabilities\ninto a single architecture: a one-to-many natural language interface for\nintuitive user interaction, an intelligent coordinator for translating user\nintent into structured task plans, and an autonomous agent that executes plans\ninteracting with the real-world. TACOS allows a LLM to interact with a library\nof executable APIs, bridging semantic reasoning with real-time multi-robot\ncoordination. We demonstrate the system in real-world multi-drone system and\nconduct an ablation study to assess the contribution of each module.",
+  "authors": [
+    "Alessandro Nazzari",
+    "Roberto Rubinacci",
+    "Marco Lovera"
+  ],
+  "published": "2025-10-02T10:21:35Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.01869v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "TACOS是一个基于大语言模型的多无人机系统任务无关协调框架，通过自然语言接口实现用户意图到结构化任务计划的转换，集成了智能协调器与自主执行代理，支持从单机控制到群体自主的多模式共享自治。",
+  "order": 68,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01869v1"
+}

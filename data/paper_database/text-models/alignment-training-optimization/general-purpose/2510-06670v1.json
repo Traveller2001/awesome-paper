@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06670v1",
+  "title": "PIKA: Expert-Level Synthetic Datasets for Post-Training Alignment from\n  Scratch",
+  "summary": "Reinforcement Learning from Human Feedback (RLHF) has become a cornerstone\nfor aligning large language models (LLMs). However, its effectiveness depends\non high-quality instruction data. Most existing alignment datasets are either\nprivate or require costly human annotation, which limits reproducibility and\nscalability. Even with Reinforcement Learning from AI Feedback (RLAIF),\nconcerns about data quality remain. Moreover, it is unclear how much data is\nactually required to fine-tune a base model into a strong instruction-following\nmodel. Current approaches often rely on over 300k examples even at the\nsupervised fine-tuning (SFT) stage, yet they still underperform compared to\nproprietary models, creating barriers for academic and resource-limited\ncommunities. To address this gap, we introduce PiKa, a data-efficient family of\nexpert-level alignment datasets. In particular, the PiKa-SFT dataset uses only\n30k SFT examples, far fewer than state-of-the-art datasets like Magpie. Through\nevaluations by fine-tuning Llama-3-8B-Base on PiKa and other public datasets,\nwe show that PiKa-SFT outperforms models trained on much larger data. On\nAlpacaEval 2.0 and Arena-Hard benchmarks, PiKa-SFT fine-tuning even surpasses\nthe official Llama-3-8B-Instruct model trained on over 10 million proprietary\nexamples. We further extend our study by training the Qwen2.5 series (0.5B to\n7B) on PiKa-SFT, achieving consistent gains. These findings demonstrate that\nhigh-quality alignment can be achieved with significantly less data, offering a\nscalable path for open-source LLM alignment. Code and data:\nhttps://github.com/SJY8460/PiKa.",
+  "authors": [
+    "Shangjian Yin",
+    "Shining Liang",
+    "Wenbiao Ding",
+    "Yuli Qian",
+    "Zhouxing Shi",
+    "Hongzhi Li",
+    "Yutao Xie"
+  ],
+  "published": "2025-10-08T05:47:37Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06670v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出PiKa系列高质量对齐数据集，仅需3万SFT样本即可让Llama-3-8B在多项评测中超越官方指令模型，证明小数据也能实现专家级模型对齐，为开源社区提供高效对齐方案。",
+  "order": 92,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06670v1"
+}

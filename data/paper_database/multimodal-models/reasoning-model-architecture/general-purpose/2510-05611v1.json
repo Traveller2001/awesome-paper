@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05611v1",
+  "title": "MADIAVE: Multi-Agent Debate for Implicit Attribute Value Extraction",
+  "summary": "Implicit Attribute Value Extraction (AVE) is essential for accurately\nrepresenting products in e-commerce, as it infers lantent attributes from\nmultimodal data. Despite advances in multimodal large language models (MLLMs),\nimplicit AVE remains challenging due to the complexity of multidimensional data\nand gaps in vision-text understanding. In this work, we introduce\n\\textsc{\\modelname}, a multi-agent debate framework that employs multiple MLLM\nagents to iteratively refine inferences. Through a series of debate rounds,\nagents verify and update each other's responses, thereby improving inference\nperformance and robustness. Experiments on the ImplicitAVE dataset demonstrate\nthat even a few rounds of debate significantly boost accuracy, especially for\nattributes with initially low performance. We systematically evaluate various\ndebate configurations, including identical or different MLLM agents, and\nanalyze how debate rounds affect convergence dynamics. Our findings highlight\nthe potential of multi-agent debate strategies to address the limitations of\nsingle-agent approaches and offer a scalable solution for implicit AVE in\nmultimodal e-commerce.",
+  "authors": [
+    "Wei-Chieh Huang",
+    "Cornelia Caragea"
+  ],
+  "published": "2025-10-07T06:27:42Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05611v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MADIAVE多智能体辩论框架，通过多个多模态大语言模型代理的迭代辩论来提升隐式属性值抽取性能。在ImplicitAVE数据集上的实验表明，即使少量辩论轮次也能显著提高准确率，尤其对初始性能较差的属性效果明显，为多模态电商场景提供了可扩展的解决方案。",
+  "order": 44,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05611v1"
+}

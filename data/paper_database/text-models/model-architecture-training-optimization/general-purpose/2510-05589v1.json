@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.05589v1",
+  "title": "Deciphering Invariant Feature Decoupling in Source-free Time Series\n  Forecasting with Proxy Denoising",
+  "summary": "The proliferation of mobile devices generates a massive volume of time series\nacross various domains, where effective time series forecasting enables a\nvariety of real-world applications. This study focuses on a new problem of\nsource-free domain adaptation for time series forecasting. It aims to adapt a\npretrained model from sufficient source time series to the sparse target time\nseries domain without access to the source data, embracing data protection\nregulations. To achieve this, we propose TimePD, the first source-free time\nseries forecasting framework with proxy denoising, where large language models\n(LLMs) are employed to benefit from their generalization capabilities.\nSpecifically, TimePD consists of three key components: (1) dual-branch\ninvariant disentangled feature learning that enforces representation- and\ngradient-wise invariance by means of season-trend decomposition; (2)\nlightweight, parameter-free proxy denoising that dynamically calibrates\nsystematic biases of LLMs; and (3) knowledge distillation that bidirectionally\naligns the denoised prediction and the original target prediction. Extensive\nexperiments on real-world datasets offer insight into the effectiveness of the\nproposed TimePD, outperforming SOTA baselines by 9.3% on average.",
+  "authors": [
+    "Kangjia Yan",
+    "Chenxi Liu",
+    "Hao Miao",
+    "Xinle Wu",
+    "Yan Zhao",
+    "Chenjuan Guo",
+    "Bin Yang"
+  ],
+  "published": "2025-10-07T05:29:18Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05589v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出首个源数据自由的时序预测框架TimePD，通过三重创新解决隐私保护下的跨域预测难题：基于季节-趋势分解的双分支不变特征解耦、轻量级LLM代理去噪动态校准系统偏差、双向知识蒸馏对齐预测结果。在真实数据集上平均性能超越现有最佳方法9.3%，为移动设备时序数据分析提供隐私合规新方案。",
+  "order": 136,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05589v1"
+}

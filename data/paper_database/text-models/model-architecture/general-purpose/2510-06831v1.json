@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06831v1",
+  "title": "Early wind turbine alarm prediction based on machine learning:\n  AlarmForecasting",
+  "summary": "Alarm data is pivotal in curbing fault behavior in Wind Turbines (WTs) and\nforms the backbone for advancedpredictive monitoring systems. Traditionally,\nresearch cohorts have been confined to utilizing alarm data solelyas a\ndiagnostic tool, merely indicative of unhealthy status. However, this study\naims to offer a transformativeleap towards preempting alarms, preventing alarms\nfrom triggering altogether, and consequently avertingimpending failures. Our\nproposed Alarm Forecasting and Classification (AFC) framework is designed on\ntwosuccessive modules: first, the regression module based on long short-term\nmemory (LSTM) for time-series alarmforecasting, and thereafter, the\nclassification module to implement alarm tagging on the forecasted alarm.\nThisway, the entire alarm taxonomy can be forecasted reliably rather than a few\nspecific alarms. 14 Senvion MM82turbines with an operational period of 5 years\nare used as a case study; the results demonstrated 82%, 52%,and 41% accurate\nforecasts for 10, 20, and 30 min alarm forecasts, respectively. The results\nsubstantiateanticipating and averting alarms, which is significant in curbing\nalarm frequency and enhancing operationalefficiency through proactive\nintervention.",
+  "authors": [
+    "Syed Shazaib Shah",
+    "Daoliang Tan"
+  ],
+  "published": "2025-10-08T09:53:49Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06831v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于机器学习的风轮机预警预测框架AFC，通过LSTM回归模块进行时间序列预警预测，再通过分类模块对预测预警进行标注。在14台风机5年运行数据上的实验表明，该框架能在预警触发前10、20、30分钟分别达到82%、52%和41%的准确预测率，有效降低警报频率并提升运维效率。",
+  "order": 208,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06831v1"
+}

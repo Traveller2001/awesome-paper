@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01817v1",
+  "title": "Sparse Query Attention (SQA): A Computationally Efficient Attention\n  Mechanism with Query Heads Reduction",
+  "summary": "The Transformer architecture, underpinned by the Multi-Head Attention (MHA)\nmechanism, has become the de facto standard for state-of-the-art models in\nartificial intelligence. However, the quadratic computational complexity of MHA\nwith respect to sequence length presents a significant barrier to scaling,\nparticularly for applications involving long contexts. Prevailing solutions,\nsuch as Multi-Query Attention (MQA) and Grouped-Query Attention (GQA), have\neffectively addressed the memory bandwidth bottleneck that dominates\nautoregressive inference latency by sharing Key and Value projections. While\nhighly successful, these methods do not reduce the fundamental number of\nfloating-point operations (FLOPs) required for the attention score computation,\nwhich remains a critical bottleneck for training and full-sequence processing.\nThis paper introduces Sparse Query Attention (SQA), a novel attention\narchitecture that pursues an alternative and complementary optimization path.\nInstead of reducing Key/Value heads, SQA reduces the number of Query heads.\nThis architectural modification directly decreases the computational complexity\nof the attention mechanism by a factor proportional to the reduction in query\nheads, thereby lowering the overall FLOPs. This work presents the theoretical\nfoundation of SQA, its mathematical formulation, and a family of architectural\nvariants. Empirical benchmarks on long sequences (32k-200k tokens) demonstrate\nthat SQA can achieve significant throughput improvements of up to 3x in\ncomputation-bound scenarios such as model pre-training, fine-tuning, and\nencoder-based tasks, with only a minimal impact on model quality in preliminary\nsmallscale experiments. SQA was discovered serendipitously during the\ndevelopment of the upcoming Reactive Transformer architecture, suggesting its\npotential as a powerful tool for building more efficient and scalable models",
+  "authors": [
+    "Adam Filipek"
+  ],
+  "published": "2025-10-02T09:01:38Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01817v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出稀疏查询注意力(SQA)机制，通过减少查询头数量直接降低注意力计算复杂度，在长序列处理(32k-200k tokens)中实现高达3倍的计算吞吐量提升，对模型质量影响极小。该方法与MQA/GQA形成互补优化路径，特别适用于预训练、微调和编码器任务等计算密集型场景。",
+  "order": 368,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01817v1"
+}

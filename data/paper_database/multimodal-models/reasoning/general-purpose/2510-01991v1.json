@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01991v1",
+  "title": "4DGS-Craft: Consistent and Interactive 4D Gaussian Splatting Editing",
+  "summary": "Recent advances in 4D Gaussian Splatting (4DGS) editing still face challenges\nwith view, temporal, and non-editing region consistency, as well as with\nhandling complex text instructions. To address these issues, we propose\n4DGS-Craft, a consistent and interactive 4DGS editing framework. We first\nintroduce a 4D-aware InstructPix2Pix model to ensure both view and temporal\nconsistency. This model incorporates 4D VGGT geometry features extracted from\nthe initial scene, enabling it to capture underlying 4D geometric structures\nduring editing. We further enhance this model with a multi-view grid module\nthat enforces consistency by iteratively refining multi-view input images while\njointly optimizing the underlying 4D scene. Furthermore, we preserve the\nconsistency of non-edited regions through a novel Gaussian selection mechanism,\nwhich identifies and optimizes only the Gaussians within the edited regions.\nBeyond consistency, facilitating user interaction is also crucial for effective\n4DGS editing. Therefore, we design an LLM-based module for user intent\nunderstanding. This module employs a user instruction template to define atomic\nediting operations and leverages an LLM for reasoning. As a result, our\nframework can interpret user intent and decompose complex instructions into a\nlogical sequence of atomic operations, enabling it to handle intricate user\ncommands and further enhance editing performance. Compared to related works,\nour approach enables more consistent and controllable 4D scene editing. Our\ncode will be made available upon acceptance.",
+  "authors": [
+    "Lei Liu",
+    "Can Wang",
+    "Zhenghao Chen",
+    "Dong Xu"
+  ],
+  "published": "2025-10-02T13:13:19Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01991v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "4DGS-Craft是一个一致且交互式的4D高斯泼溅编辑框架，通过4D感知InstructPix2Pix模型确保视角和时间一致性，采用高斯选择机制保护未编辑区域，并利用基于LLM的模块解析用户意图，将复杂指令分解为原子操作序列，实现更可控的4D场景编辑。",
+  "order": 530,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01991v1"
+}

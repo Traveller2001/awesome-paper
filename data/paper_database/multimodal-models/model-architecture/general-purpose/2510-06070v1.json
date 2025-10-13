@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06070v1",
+  "title": "There is More to Attention: Statistical Filtering Enhances Explanations\n  in Vision Transformers",
+  "summary": "Explainable AI (XAI) has become increasingly important with the rise of large\ntransformer models, yet many explanation methods designed for CNNs transfer\npoorly to Vision Transformers (ViTs). Existing ViT explanations often rely on\nattention weights, which tend to yield noisy maps as they capture\ntoken-to-token interactions within each layer.While attribution methods\nincorporating MLP blocks have been proposed, we argue that attention remains a\nvaluable and interpretable signal when properly filtered. We propose a method\nthat combines attention maps with a statistical filtering, initially proposed\nfor CNNs, to remove noisy or uninformative patterns and produce more faithful\nexplanations. We further extend our approach with a class-specific variant that\nyields discriminative explanations. Evaluation against popular state-of-the-art\nmethods demonstrates that our approach produces sharper and more interpretable\nmaps. In addition to perturbation-based faithfulness metrics, we incorporate\nhuman gaze data to assess alignment with human perception, arguing that human\ninterpretability remains essential for XAI. Across multiple datasets, our\napproach consistently outperforms or is comparable to the SOTA methods while\nremaining efficient and human plausible.",
+  "authors": [
+    "Meghna P Ayyar",
+    "Jenny Benois-Pineau",
+    "Akka Zemmari"
+  ],
+  "published": "2025-10-07T15:59:04Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06070v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种针对视觉Transformer的注意力统计滤波方法，通过过滤噪声模式生成更忠实、更符合人类感知的解释图。该方法在多个数据集上优于或媲美现有技术，同时保持高效性和人类可解释性。",
+  "order": 71,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06070v1"
+}

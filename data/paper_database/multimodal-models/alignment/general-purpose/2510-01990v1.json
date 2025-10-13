@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01990v1",
+  "title": "TriAlignXA: An Explainable Trilemma Alignment Framework for Trustworthy\n  Agri-product Grading",
+  "summary": "The 'trust deficit' in online fruit and vegetable e-commerce stems from the\ninability of digital transactions to provide direct sensory perception of\nproduct quality. This paper constructs a 'Trust Pyramid' model through\n'dual-source verification' of consumer trust. Experiments confirm that quality\nis the cornerstone of trust. The study reveals an 'impossible triangle' in\nagricultural product grading, comprising biological characteristics,\ntimeliness, and economic viability, highlighting the limitations of traditional\nabsolute grading standards. To quantitatively assess this trade-off, we propose\nthe 'Triangular Trust Index' (TTI). We redefine the role of algorithms from\n'decision-makers' to 'providers of transparent decision-making bases',\ndesigning the explainable AI framework--TriAlignXA. This framework supports\ntrustworthy online transactions within agricultural constraints through\nmulti-objective optimization. Its core relies on three engines: the\nBio-Adaptive Engine for granular quality description; the Timeliness\nOptimization Engine for processing efficiency; and the Economic Optimization\nEngine for cost control. Additionally, the \"Pre-Mapping Mechanism\" encodes\nprocess data into QR codes, transparently conveying quality information.\nExperiments on grading tasks demonstrate significantly higher accuracy than\nbaseline models. Empirical evidence and theoretical analysis verify the\nframework's balancing capability in addressing the \"impossible triangle\". This\nresearch provides comprehensive support--from theory to practice--for building\na trustworthy online produce ecosystem, establishing a critical pathway from\nalgorithmic decision-making to consumer trust.",
+  "authors": [
+    "Jianfei Xie",
+    "Ziyang Li"
+  ],
+  "published": "2025-10-02T13:13:15Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01990v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TriAlignXA可解释框架，解决农产品电商中的信任缺失问题。通过构建'信任金字塔'模型和'三角信任指数'，在生物特性、时效性和经济可行性三个维度实现多目标优化。该框架包含三个核心引擎：生物自适应引擎、时效优化引擎和经济优化引擎，并采用预映射机制将流程数据编码为二维码。实验证明其在分级任务中精度显著优于基线模型，有效平衡了农产品分级的'不可能三角'。",
+  "order": 531,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01990v1"
+}

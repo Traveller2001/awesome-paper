@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00578v1",
+  "title": "Arbitrary Generative Video Interpolation",
+  "summary": "Video frame interpolation (VFI), which generates intermediate frames from\ngiven start and end frames, has become a fundamental function in video\ngeneration applications. However, existing generative VFI methods are\nconstrained to synthesize a fixed number of intermediate frames, lacking the\nflexibility to adjust generated frame rates or total sequence duration. In this\nwork, we present ArbInterp, a novel generative VFI framework that enables\nefficient interpolation at any timestamp and of any length. Specifically, to\nsupport interpolation at any timestamp, we propose the Timestamp-aware Rotary\nPosition Embedding (TaRoPE), which modulates positions in temporal RoPE to\nalign generated frames with target normalized timestamps. This design enables\nfine-grained control over frame timestamps, addressing the inflexibility of\nfixed-position paradigms in prior work. For any-length interpolation, we\ndecompose long-sequence generation into segment-wise frame synthesis. We\nfurther design a novel appearance-motion decoupled conditioning strategy: it\nleverages prior segment endpoints to enforce appearance consistency and\ntemporal semantics to maintain motion coherence, ensuring seamless\nspatiotemporal transitions across segments. Experimentally, we build\ncomprehensive benchmarks for multi-scale frame interpolation (2x to 32x) to\nassess generalizability across arbitrary interpolation factors. Results show\nthat ArbInterp outperforms prior methods across all scenarios with higher\nfidelity and more seamless spatiotemporal continuity. Project website:\nhttps://mcg-nju.github.io/ArbInterp-Web/.",
+  "authors": [
+    "Guozhen Zhang",
+    "Haiguang Wang",
+    "Chunyu Wang",
+    "Yuan Zhou",
+    "Qinglin Lu",
+    "Limin Wang"
+  ],
+  "published": "2025-10-01T06:57:10Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00578v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ArbInterp是一种创新的生成式视频插帧框架，支持任意时间点和任意长度的帧插值。通过时间感知旋转位置编码实现精确时间控制，采用外观-运动解耦条件策略保证跨片段时空连续性，在2x至32x多尺度插值中均优于现有方法。",
+  "order": 662,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00578v1"
+}

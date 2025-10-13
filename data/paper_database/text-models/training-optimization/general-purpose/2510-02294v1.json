@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02294v1",
+  "title": "F2LLM Technical Report: Matching SOTA Embedding Performance with 6\n  Million Open-Source Data",
+  "summary": "We introduce F2LLM - Foundation to Feature Large Language Models, a suite of\nstate-of-the-art embedding models in three sizes: 0.6B, 1.7B, and 4B. Unlike\nprevious top-ranking embedding models that require massive contrastive\npretraining, sophisticated training pipelines, and costly synthetic training\ndata, F2LLM is directly finetuned from foundation models on 6 million\nquery-document-negative tuples curated from open-source, non-synthetic\ndatasets, striking a strong balance between training cost, model size, and\nembedding performance. On the MTEB English leaderboard, F2LLM-4B ranks 2nd\namong models with approximately 4B parameters and 7th overall, while F2LLM-1.7B\nranks 1st among models in the 1B-2B size range. To facilitate future research\nin the field, we release the models, training dataset, and code, positioning\nF2LLM as a strong, reproducible, and budget-friendly baseline for future works.",
+  "authors": [
+    "Ziyin Zhang",
+    "Zihan Liao",
+    "Hang Yu",
+    "Peng Di",
+    "Rui Wang"
+  ],
+  "published": "2025-10-02T17:58:49Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02294v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "F2LLM技术报告提出了一套0.6B、1.7B和4B三种规模的嵌入模型，仅使用600万开源非合成数据微调基础模型，在MTEB英文榜单上表现优异：4B版本在同等参数模型中排名第二，1.7B版本在1B-2B规模中排名第一，实现了训练成本、模型大小与嵌入性能的良好平衡。",
+  "order": 331,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02294v1"
+}

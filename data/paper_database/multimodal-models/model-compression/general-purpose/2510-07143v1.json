@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2510.07143v1",
+  "title": "Are We Using the Right Benchmark: An Evaluation Framework for Visual\n  Token Compression Methods",
+  "summary": "Recent endeavors to accelerate inference in Multimodal Large Language Models\n(MLLMs) have primarily focused on visual token compression. The effectiveness\nof these methods is typically assessed by measuring the accuracy drop on\nestablished benchmarks, comparing model performance before and after\ncompression. However, these benchmarks are originally designed to assess the\nperception and reasoning capabilities of MLLMs, rather than to evaluate\ncompression techniques. As a result, directly applying them to visual token\ncompression introduces a task mismatch. Strikingly, our investigation reveals\nthat simple image downsampling consistently outperforms many advanced\ncompression methods across multiple widely used benchmarks. Through extensive\nexperiments, we make the following observations: (i) Current benchmarks are\nnoisy for the visual token compression task. (ii) Down-sampling is able to\nserve as a data filter to evaluate the difficulty of samples in the visual\ntoken compression task. Motivated by these findings, we introduce VTC-Bench, an\nevaluation framework that incorporates a data filtering mechanism to denoise\nexisting benchmarks, thereby enabling fairer and more accurate assessment of\nvisual token compression methods. All data and code are available at\nhttps://github.com/Chenfei-Liao/VTC-Bench.",
+  "authors": [
+    "Chenfei Liao",
+    "Wensong Wang",
+    "Zichen Wen",
+    "Xu Zheng",
+    "Yiyu Wang",
+    "Haocong He",
+    "Yuanhuiyi Lyu",
+    "Lutao Jiang",
+    "Xin Zou",
+    "Yuqian Fu",
+    "Bin Ren",
+    "Linfeng Zhang",
+    "Xuming Hu"
+  ],
+  "published": "2025-10-08T15:44:28Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07143v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文指出当前多模态大语言模型视觉令牌压缩方法的评估存在基准不匹配问题，发现简单下采样竟优于多种先进方法。作者提出VTC-Bench评估框架，通过数据过滤机制净化现有基准，为视觉令牌压缩方法提供更公平准确的评估标准。",
+  "order": 113,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07143v1"
+}

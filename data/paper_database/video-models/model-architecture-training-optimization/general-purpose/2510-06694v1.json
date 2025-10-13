@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06694v1",
+  "title": "SCas4D: Structural Cascaded Optimization for Boosting Persistent 4D\n  Novel View Synthesis",
+  "summary": "Persistent dynamic scene modeling for tracking and novel-view synthesis\nremains challenging due to the difficulty of capturing accurate deformations\nwhile maintaining computational efficiency. We propose SCas4D, a cascaded\noptimization framework that leverages structural patterns in 3D Gaussian\nSplatting for dynamic scenes. The key idea is that real-world deformations\noften exhibit hierarchical patterns, where groups of Gaussians share similar\ntransformations. By progressively refining deformations from coarse part-level\nto fine point-level, SCas4D achieves convergence within 100 iterations per time\nframe and produces results comparable to existing methods with only\none-twentieth of the training iterations. The approach also demonstrates\neffectiveness in self-supervised articulated object segmentation, novel view\nsynthesis, and dense point tracking tasks.",
+  "authors": [
+    "Jipeng Lyu",
+    "Jiahua Dong",
+    "Yu-Xiong Wang"
+  ],
+  "published": "2025-10-08T06:39:33Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06694v1",
+  "primary_area": "video_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "SCas4D提出一种级联优化框架，利用3D高斯泼溅中的结构模式进行动态场景建模。该方法通过从粗粒度部件级到细粒度点级逐步优化变形，仅需100次迭代即可达到现有方法的效果，训练效率提升20倍，并在自监督关节物体分割、新视角合成和密集点跟踪任务中表现优异。",
+  "order": 146,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06694v1"
+}

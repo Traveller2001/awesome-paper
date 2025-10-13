@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01559v1",
+  "title": "Consistent Assistant Domains Transformer for Source-free Domain\n  Adaptation",
+  "summary": "Source-free domain adaptation (SFDA) aims to address the challenge of\nadapting to a target domain without accessing the source domain directly.\nHowever, due to the inaccessibility of source domain data, deterministic\ninvariable features cannot be obtained. Current mainstream methods primarily\nfocus on evaluating invariant features in the target domain that closely\nresemble those in the source domain, subsequently aligning the target domain\nwith the source domain. However, these methods are susceptible to hard samples\nand influenced by domain bias. In this paper, we propose a Consistent Assistant\nDomains Transformer for SFDA, abbreviated as CADTrans, which solves the issue\nby constructing invariable feature representations of domain consistency.\nConcretely, we develop an assistant domain module for CADTrans to obtain\ndiversified representations from the intermediate aggregated global attentions,\nwhich addresses the limitation of existing methods in adequately representing\ndiversity. Based on assistant and target domains, invariable feature\nrepresentations are obtained by multiple consistent strategies, which can be\nused to distinguish easy and hard samples. Finally, to align the hard samples\nto the corresponding easy samples, we construct a conditional multi-kernel max\nmean discrepancy (CMK-MMD) strategy to distinguish between samples of the same\ncategory and those of different categories. Extensive experiments are conducted\non various benchmarks such as Office-31, Office-Home, VISDA-C, and\nDomainNet-126, proving the significant performance improvements achieved by our\nproposed approaches. Code is available at\nhttps://github.com/RoryShao/CADTrans.git.",
+  "authors": [
+    "Renrong Shao",
+    "Wei Zhang",
+    "Kangyang Luo",
+    "Qin Li",
+    "and Jun Wang"
+  ],
+  "published": "2025-10-02T01:07:45Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01559v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CADTrans方法解决无源域自适应问题，通过构建辅助域模块获取多样化表示，采用多重一致性策略获得不变特征表示，并设计条件多核最大均值差异策略对齐困难样本，在多个基准测试中取得显著性能提升。",
+  "order": 572,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01559v1"
+}

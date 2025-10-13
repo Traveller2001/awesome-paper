@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01969v1",
+  "title": "Lower Bounds on Adversarial Robustness for Multiclass Classification\n  with General Loss Functions",
+  "summary": "We consider adversarially robust classification in a multiclass setting under\narbitrary loss functions and derive dual and barycentric reformulations of the\ncorresponding learner-agnostic robust risk minimization problem. We provide\nexplicit characterizations for important cases such as the cross-entropy loss,\nloss functions with a power form, and the quadratic loss, extending in this way\navailable results for the 0-1 loss. These reformulations enable efficient\ncomputation of sharp lower bounds for adversarial risks and facilitate the\ndesign of robust classifiers beyond the 0-1 loss setting. Our paper uncovers\ninteresting connections between adversarial robustness, $\\alpha$-fair packing\nproblems, and generalized barycenter problems for arbitrary positive measures\nwhere Kullback-Leibler and Tsallis entropies are used as penalties. Our\ntheoretical results are accompanied with illustrative numerical experiments\nwhere we obtain tighter lower bounds for adversarial risks with the\ncross-entropy loss function.",
+  "authors": [
+    "Camilo Andrés García Trillos",
+    "Nicolás García Trillos"
+  ],
+  "published": "2025-10-02T12:42:36Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01969v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对多分类问题中的对抗鲁棒性，提出了适用于任意损失函数的对偶和重心重构方法，扩展了传统0-1损失的结果。通过交叉熵、幂形式和二次损失等具体案例，建立了对抗鲁棒性与α-公平包装问题、广义重心问题的理论联系，并提供了更紧致的对抗风险下界计算方案。",
+  "order": 768,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01969v1"
+}

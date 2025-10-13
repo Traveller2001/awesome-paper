@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.02186v1",
+  "title": "GeoPurify: A Data-Efficient Geometric Distillation Framework for\n  Open-Vocabulary 3D Segmentation",
+  "summary": "Recent attempts to transfer features from 2D Vision-Language Models (VLMs) to\n3D semantic segmentation expose a persistent trade-off. Directly projecting 2D\nfeatures into 3D yields noisy and fragmented predictions, whereas enforcing\ngeometric coherence necessitates costly training pipelines and large-scale\nannotated 3D data. We argue that this limitation stems from the dominant\nsegmentation-and-matching paradigm, which fails to reconcile 2D semantics with\n3D geometric structure. The geometric cues are not eliminated during the\n2D-to-3D transfer but remain latent within the noisy and view-aggregated\nfeatures. To exploit this property, we propose GeoPurify that applies a small\nStudent Affinity Network to purify 2D VLM-generated 3D point features using\ngeometric priors distilled from a 3D self-supervised teacher model. During\ninference, we devise a Geometry-Guided Pooling module to further denoise the\npoint cloud and ensure the semantic and structural consistency. Benefiting from\nlatent geometric information and the learned affinity network, GeoPurify\neffectively mitigates the trade-off and achieves superior data efficiency.\nExtensive experiments on major 3D benchmarks demonstrate that GeoPurify\nachieves or surpasses state-of-the-art performance while utilizing only about\n1.5% of the training data. Our codes and checkpoints are available at\n[https://github.com/tj12323/GeoPurify](https://github.com/tj12323/GeoPurify).",
+  "authors": [
+    "Weijia Dou",
+    "Xu Zhang",
+    "Yi Bin",
+    "Jian Liu",
+    "Bo Peng",
+    "Guoqing Wang",
+    "Yang Yang",
+    "Heng Tao Shen"
+  ],
+  "published": "2025-10-02T16:37:56Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02186v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "GeoPurify提出了一种数据高效的几何蒸馏框架，用于解决开放词汇3D分割中2D视觉语言模型特征向3D转换时的噪声和几何不一致问题。该方法通过学生亲和网络利用3D自监督教师模型的几何先验来纯化点特征，并在推理时采用几何引导池化确保语义结构一致性，仅需约1.5%训练数据即可达到或超越现有最优性能。",
+  "order": 730,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02186v1"
+}

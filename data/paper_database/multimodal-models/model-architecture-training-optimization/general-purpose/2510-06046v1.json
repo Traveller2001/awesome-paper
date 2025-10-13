@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06046v1",
+  "title": "GLVD: Guided Learned Vertex Descent",
+  "summary": "Existing 3D face modeling methods usually depend on 3D Morphable Models,\nwhich inherently constrain the representation capacity to fixed shape priors.\nOptimization-based approaches offer high-quality reconstructions but tend to be\ncomputationally expensive. In this work, we introduce GLVD, a hybrid method for\n3D face reconstruction from few-shot images that extends Learned Vertex Descent\n(LVD) by integrating per-vertex neural field optimization with global\nstructural guidance from dynamically predicted 3D keypoints. By incorporating\nrelative spatial encoding, GLVD iteratively refines mesh vertices without\nrequiring dense 3D supervision. This enables expressive and adaptable geometry\nreconstruction while maintaining computational efficiency. GLVD achieves\nstate-of-the-art performance in single-view settings and remains highly\ncompetitive in multi-view scenarios, all while substantially reducing inference\ntime.",
+  "authors": [
+    "Pol Caselles Rico",
+    "Francesc Moreno Noguer"
+  ],
+  "published": "2025-10-07T15:40:10Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06046v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出GLVD方法，通过结合逐顶点神经场优化与动态预测3D关键点的全局结构引导，改进了学习顶点下降(LVD)算法。该方法无需密集3D监督即可迭代优化网格顶点，在保持计算效率的同时实现高表达力的3D人脸重建，在单视图设置中达到最先进性能，并在多视图场景中保持高度竞争力。",
+  "order": 74,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06046v1"
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01454v1",
+  "title": "Data Selection for Fine-tuning Vision Language Models via Cross Modal\n  Alignment Trajectories",
+  "summary": "Data-efficient learning aims to eliminate redundancy in large training\ndatasets by training models on smaller subsets of the most informative\nexamples. While data selection has been extensively explored for vision models\nand large language models (LLMs), it remains underexplored for Large\nVision-Language Models (LVLMs). Notably, none of existing methods can\noutperform random selection at different subset sizes. In this work, we propose\nthe first principled method for data-efficient instruction tuning of LVLMs. We\nprove that examples with similar cross-modal attention matrices during\ninstruction tuning have similar gradients. Thus, they influence model\nparameters in a similar manner and convey the same information to the model\nduring training. Building on this insight, we propose XMAS, which clusters\nexamples based on the trajectories of the top singular values of their\nattention matrices obtained from fine-tuning a small proxy LVLM. By sampling a\nbalanced subset from these clusters, XMAS effectively removes redundancy in\nlarge-scale LVLM training data. Extensive experiments show that XMAS can\ndiscard 50% of the LLaVA-665k dataset and 85% of the Vision-Flan dataset while\nfully preserving performance of LLaVA-1.5-7B on 10 downstream benchmarks and\nspeeding up its training by 1.2x. This is 30% more data reduction compared to\nthe best baseline for LLaVA-665k. The project's website can be found at\nhttps://bigml-cs-ucla.github.io/XMAS-project-page/.",
+  "authors": [
+    "Nilay Naharas",
+    "Dang Nguyen",
+    "Nesihan Bulut",
+    "Mohammadhossein Bateni",
+    "Vahab Mirrokni",
+    "Baharan Mirzasoleiman"
+  ],
+  "published": "2025-10-01T20:47:29Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01454v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出XMAS方法，通过分析跨模态注意力矩阵轨迹进行数据选择，首次实现视觉语言模型的高效指令调优。该方法可删除50%-85%训练数据而不损失性能，训练速度提升1.2倍，在10个下游任务上保持LLaVA-1.5-7B模型性能。",
+  "order": 582,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01454v1"
+}

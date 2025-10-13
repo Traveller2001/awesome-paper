@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.07190v1",
+  "title": "MV-Performer: Taming Video Diffusion Model for Faithful and Synchronized\n  Multi-view Performer Synthesis",
+  "summary": "Recent breakthroughs in video generation, powered by large-scale datasets and\ndiffusion techniques, have shown that video diffusion models can function as\nimplicit 4D novel view synthesizers. Nevertheless, current methods primarily\nconcentrate on redirecting camera trajectory within the front view while\nstruggling to generate 360-degree viewpoint changes. In this paper, we focus on\nhuman-centric subdomain and present MV-Performer, an innovative framework for\ncreating synchronized novel view videos from monocular full-body captures. To\nachieve a 360-degree synthesis, we extensively leverage the MVHumanNet dataset\nand incorporate an informative condition signal. Specifically, we use the\ncamera-dependent normal maps rendered from oriented partial point clouds, which\neffectively alleviate the ambiguity between seen and unseen observations. To\nmaintain synchronization in the generated videos, we propose a multi-view\nhuman-centric video diffusion model that fuses information from the reference\nvideo, partial rendering, and different viewpoints. Additionally, we provide a\nrobust inference procedure for in-the-wild video cases, which greatly mitigates\nthe artifacts induced by imperfect monocular depth estimation. Extensive\nexperiments on three datasets demonstrate our MV-Performer's state-of-the-art\neffectiveness and robustness, setting a strong model for human-centric 4D novel\nview synthesis.",
+  "authors": [
+    "Yihao Zhi",
+    "Chenghong Li",
+    "Hongjie Liao",
+    "Xihe Yang",
+    "Zhengwentai Sun",
+    "Jiahao Chang",
+    "Xiaodong Cun",
+    "Wensen Feng",
+    "Xiaoguang Han"
+  ],
+  "published": "2025-10-08T16:24:22Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07190v1",
+  "primary_area": "video_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "MV-Performer提出了一种创新框架，通过视频扩散模型实现人体中心的多视角同步视频生成。该方法利用MVHumanNet数据集和相机相关法线图条件信号，有效解决视角模糊问题，并提出鲁棒推理流程减少单目深度估计误差带来的伪影，在三个数据集上验证了其先进性能。",
+  "order": 112,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07190v1"
+}

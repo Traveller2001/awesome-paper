@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00566v1",
+  "title": "Panorama: Fast-Track Nearest Neighbors",
+  "summary": "Approximate Nearest-Neighbor Search (ANNS) efficiently finds data items whose\nembeddings are close to that of a given query in a high-dimensional space,\naiming to balance accuracy with speed. Used in recommendation systems, image\nand video retrieval, natural language processing, and retrieval-augmented\ngeneration (RAG), ANNS algorithms such as IVFPQ, HNSW graphs, Annoy, and MRPT\nutilize graph, tree, clustering, and quantization techniques to navigate large\nvector spaces. Despite this progress, ANNS systems spend up to 99\\% of query\ntime to compute distances in their final refinement phase. In this paper, we\npresent PANORAMA, a machine learning-driven approach that tackles the ANNS\nverification bottleneck through data-adaptive learned orthogonal transforms\nthat facilitate the accretive refinement of distance bounds. Such transforms\ncompact over 90\\% of signal energy into the first half of dimensions, enabling\nearly candidate pruning with partial distance computations. We integrate\nPANORAMA into state-of-the-art ANNS methods, namely IVFPQ/Flat, HNSW, MRPT, and\nAnnoy, without index modification, using level-major memory layouts,\nSIMD-vectorized partial distance computations, and cache-aware access patterns.\nExperiments across diverse datasets -- from image-based CIFAR-10 and GIST to\nmodern embedding spaces including OpenAI's Ada 2 and Large 3 -- demonstrate\nthat PANORAMA affords a 2--30$\\times$ end-to-end speedup with no recall loss.",
+  "authors": [
+    "Vansh Ramani",
+    "Alexis Schlomer",
+    "Akash Nayar",
+    "Panagiotis Karras",
+    "Sayan Ranu",
+    "Jignesh M. Patel"
+  ],
+  "published": "2025-10-01T06:38:45Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00566v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "PANORAMA提出一种机器学习驱动的近似最近邻搜索优化方法，通过数据自适应的正交变换将90%以上信号能量压缩到前半维度，实现基于部分距离计算的早期候选剪枝。该方法无需修改现有索引结构，在IVFPQ、HNSW等主流ANNS算法上实现2-30倍端到端加速且不损失召回率。",
+  "order": 280,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00566v1"
+}

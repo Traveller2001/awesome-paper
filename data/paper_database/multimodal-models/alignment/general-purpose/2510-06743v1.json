@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.06743v1",
+  "title": "Evaluating LLMs for Historical Document OCR: A Methodological Framework\n  for Digital Humanities",
+  "summary": "Digital humanities scholars increasingly use Large Language Models for\nhistorical document digitization, yet lack appropriate evaluation frameworks\nfor LLM-based OCR. Traditional metrics fail to capture temporal biases and\nperiod-specific errors crucial for historical corpus creation. We present an\nevaluation methodology for LLM-based historical OCR, addressing contamination\nrisks and systematic biases in diplomatic transcription. Using 18th-century\nRussian Civil font texts, we introduce novel metrics including Historical\nCharacter Preservation Rate (HCPR) and Archaic Insertion Rate (AIR), alongside\nprotocols for contamination control and stability testing. We evaluate 12\nmultimodal LLMs, finding that Gemini and Qwen models outperform traditional OCR\nwhile exhibiting over-historicization: inserting archaic characters from\nincorrect historical periods. Post-OCR correction degrades rather than improves\nperformance. Our methodology provides digital humanities practitioners with\nguidelines for model selection and quality assessment in historical corpus\ndigitization.",
+  "authors": [
+    "Maria Levchenko"
+  ],
+  "published": "2025-10-08T08:01:40Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06743v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出针对历史文献OCR的LLM评估框架，解决传统指标无法捕捉时间偏见和时代特定错误的问题。通过18世纪俄文文献测试12个多模态大模型，发现Gemini和Qwen优于传统OCR但存在过度历史化问题，并提出历史字符保留率、古语插入率等新指标及污染控制方案，为数字人文领域提供模型选择指南。",
+  "order": 145,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06743v1"
+}

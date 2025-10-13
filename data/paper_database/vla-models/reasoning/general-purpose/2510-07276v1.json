@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07276v1",
+  "title": "Multi-Objective Multi-Agent Path Finding with Lexicographic Cost\n  Preferences",
+  "summary": "Many real-world scenarios require multiple agents to coordinate in shared\nenvironments, while balancing trade-offs between multiple, potentially\ncompeting objectives. Current multi-objective multi-agent path finding\n(MO-MAPF) algorithms typically produce conflict-free plans by computing Pareto\nfrontiers. They do not explicitly optimize for user-defined preferences, even\nwhen the preferences are available, and scale poorly with the number of\nobjectives. We propose a lexicographic framework for modeling MO-MAPF, along\nwith an algorithm \\textit{Lexicographic Conflict-Based Search} (LCBS) that\ndirectly computes a single solution aligned with a lexicographic preference\nover objectives. LCBS integrates a priority-aware low-level $A^*$ search with\nconflict-based search, avoiding Pareto frontier construction and enabling\nefficient planning guided by preference over objectives. We provide insights\ninto optimality and scalability, and empirically demonstrate that LCBS computes\noptimal solutions while scaling to instances with up to ten objectives -- far\nbeyond the limits of existing MO-MAPF methods. Evaluations on standard and\nrandomized MAPF benchmarks show consistently higher success rates against\nstate-of-the-art baselines, especially with increasing number of objectives.",
+  "authors": [
+    "Pulkit Rustagi",
+    "Kyle Hollins Wray",
+    "Sandhya Saisubramanian"
+  ],
+  "published": "2025-10-08T17:40:41Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.07276v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种基于词典序偏好的多目标多智能体路径规划框架及LCBS算法，通过整合优先级感知的A*搜索与基于冲突的搜索，直接生成符合目标偏好排序的最优解，避免了帕累托前沿构建，在多达十个目标的大规模场景中显著优于现有方法。",
+  "order": 2,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07276v1"
+}

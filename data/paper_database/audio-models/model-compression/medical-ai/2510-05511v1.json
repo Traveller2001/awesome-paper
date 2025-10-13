@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.05511v1",
+  "title": "EEG-Based Acute Pain Classification: Machine Learning Model Comparison\n  and Real-Time Clinical Feasibility",
+  "summary": "Current pain assessment within hospitals often relies on self-reporting or\nnon-specific EKG vital signs. This system leaves critically ill, sedated, and\ncognitively impaired patients vulnerable to undertreated pain and opioid\noveruse. Electroencephalography (EEG) offers a noninvasive method of measuring\nbrain activity. This technology could potentially be applied as an assistive\ntool to highlight nociceptive processing in order to mitigate this issue. In\nthis study, we compared machine learning models for classifying high-pain\nversus low/no-pain EEG epochs using data from fifty-two healthy adults exposed\nto laser-evoked pain at three intensities (low, medium, high). Each four-second\nepoch was transformed into a 537-feature vector spanning spectral power, band\nratios, Hjorth parameters, entropy measures, coherence, wavelet energies, and\npeak-frequency metrics. Nine traditional machine learning models were evaluated\nwith leave-one-participant-out cross-validation. A support vector machine with\nradial basis function kernel achieved the best offline performance with 88.9%\naccuracy and sub-millisecond inference time (1.02 ms). Our Feature importance\nanalysis was consistent with current canonical pain physiology, showing\ncontralateral alpha suppression, midline theta/alpha enhancement, and frontal\ngamma bursts. The real-time XGBoost model maintained an end-to-end latency of\nabout 4 ms and 94.2% accuracy, demonstrating that an EEG-based pain monitor is\ntechnically feasible within a clinical setting and provides a pathway towards\nclinical validation.",
+  "authors": [
+    "Aavid Mathrawala",
+    "Dhruv Kurup",
+    "Josie Lau"
+  ],
+  "published": "2025-10-07T01:57:36Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05511v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究比较了九种机器学习模型在脑电图(EEG)疼痛分类中的表现，通过52名健康成人的激光诱发疼痛实验数据，开发出能实时监测疼痛的EEG系统。支持向量机模型在离线测试中达到88.9%准确率，XGBoost实时模型延迟仅4毫秒且准确率达94.2%，为临床疼痛监测提供了可行方案。特征分析结果与疼痛生理机制一致，展示了EEG技术在解决危重患者疼痛评估难题中的应用潜力。",
+  "order": 149,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05511v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01978v1",
+  "title": "ROI-GS: Interest-based Local Quality 3D Gaussian Splatting",
+  "summary": "We tackle the challenge of efficiently reconstructing 3D scenes with high\ndetail on objects of interest. Existing 3D Gaussian Splatting (3DGS) methods\nallocate resources uniformly across the scene, limiting fine detail to Regions\nOf Interest (ROIs) and leading to inflated model size. We propose ROI-GS, an\nobject-aware framework that enhances local details through object-guided camera\nselection, targeted Object training, and seamless integration of high-fidelity\nobject of interest reconstructions into the global scene. Our method\nprioritizes higher resolution details on chosen objects while maintaining\nreal-time performance. Experiments show that ROI-GS significantly improves\nlocal quality (up to 2.96 dB PSNR), while reducing overall model size by\n$\\approx 17\\%$ of baseline and achieving faster training for a scene with a\nsingle object of interest, outperforming existing methods.",
+  "authors": [
+    "Quoc-Anh Bui",
+    "Gilles Rougeron",
+    "Géraldine Morin",
+    "Simone Gasparini"
+  ],
+  "published": "2025-10-02T12:54:15Z",
+  "primary_category": "cs.GR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01978v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ROI-GS提出一种基于兴趣区域的3D高斯泼溅方法，通过目标引导的相机选择、针对性对象训练和高保真重建集成，在保持实时性能的同时显著提升感兴趣对象的局部细节质量（PSNR最高提升2.96dB），并将模型大小减少约17%。",
+  "order": 533,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01978v1"
+}

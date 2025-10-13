@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06108v1",
+  "title": "Influence Functions for Efficient Data Selection in Reasoning",
+  "summary": "Fine-tuning large language models (LLMs) on chain-of-thought (CoT) data shows\nthat a small amount of high-quality data can outperform massive datasets. Yet,\nwhat constitutes \"quality\" remains ill-defined. Existing reasoning methods rely\non indirect heuristics such as problem difficulty or trace length, while\ninstruction-tuning has explored a broader range of automated selection\nstrategies, but rarely in the context of reasoning. We propose to define\nreasoning data quality using influence functions, which measure the causal\neffect of individual CoT examples on downstream accuracy, and introduce\ninfluence-based pruning, which consistently outperforms perplexity and\nembedding-based baselines on math reasoning within a model family.",
+  "authors": [
+    "Prateek Humane",
+    "Paolo Cudrano",
+    "Daniel Z. Kaplan",
+    "Matteo Matteucci",
+    "Supriyo Chakraborty",
+    "Irina Rish"
+  ],
+  "published": "2025-10-07T16:40:42Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06108v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出使用影响函数来定义推理数据的质量，通过衡量单个思维链样本对下游准确率的因果效应，开发了基于影响的数据剪枝方法。在数学推理任务中，该方法在模型家族内持续优于基于困惑度和嵌入的基线方法，为高效数据选择提供了新思路。",
+  "order": 93,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06108v1"
+}

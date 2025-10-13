@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00652v1",
+  "title": "OTTER: Open-Tagging via Text-Image Representation for Multi-modal\n  Understanding",
+  "summary": "We introduce OTTER, a unified open-set multi-label tagging framework that\nharmonizes the stability of a curated, predefined category set with the\nadaptability of user-driven open tags. OTTER is built upon a large-scale,\nhierarchically organized multi-modal dataset, collected from diverse online\nrepositories and annotated through a hybrid pipeline combining automated\nvision-language labeling with human refinement. By leveraging a multi-head\nattention architecture, OTTER jointly aligns visual and textual representations\nwith both fixed and open-set label embeddings, enabling dynamic and\nsemantically consistent tagging. OTTER consistently outperforms competitive\nbaselines on two benchmark datasets: it achieves an overall F1 score of 0.81 on\nOtter and 0.75 on Favorite, surpassing the next-best results by margins of 0.10\nand 0.02, respectively. OTTER attains near-perfect performance on open-set\nlabels, with F1 of 0.99 on Otter and 0.97 on Favorite, while maintaining\ncompetitive accuracy on predefined labels. These results demonstrate OTTER's\neffectiveness in bridging closed-set consistency with open-vocabulary\nflexibility for multi-modal tagging applications.",
+  "authors": [
+    "Jieer Ouyang",
+    "Xiaoneng Xiang",
+    "Zheng Wang",
+    "Yangkai Ding"
+  ],
+  "published": "2025-10-01T08:31:19Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00652v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "OTTER是一种统一开放集多标签标注框架，结合了预定义类别稳定性与用户驱动开放标签的适应性。基于大规模分层多模态数据集，采用多头注意力架构对齐视觉文本表示与固定/开放集标签嵌入，在基准测试中F1分数达0.81和0.75，开放集标签性能接近完美。",
+  "order": 649,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00652v1"
+}

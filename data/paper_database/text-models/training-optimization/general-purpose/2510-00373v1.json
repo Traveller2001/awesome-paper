@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00373v1",
+  "title": "Combining Large Language Models and Gradient-Free Optimization for\n  Automatic Control Policy Synthesis",
+  "summary": "Large Language models (LLMs) have shown promise as generators of symbolic\ncontrol policies, producing interpretable program-like representations through\niterative search. However, these models are not capable of separating the\nfunctional structure of a policy from the numerical values it is parametrized\nby, thus making the search process slow and inefficient. We propose a hybrid\napproach that decouples structural synthesis from parameter optimization by\nintroducing an additional optimization layer for local parameter search. In our\nmethod, the numerical parameters of LLM-generated programs are extracted and\noptimized numerically to maximize task performance. With this integration, an\nLLM iterates over the functional structure of programs, while a separate\noptimization loop is used to find a locally optimal set of parameters\naccompanying candidate programs. We evaluate our method on a set of control\ntasks, showing that it achieves higher returns and improved sample efficiency\ncompared to purely LLM-guided search. We show that combining symbolic program\nsynthesis with numerical optimization yields interpretable yet high-performing\npolicies, bridging the gap between language-model-guided design and classical\ncontrol tuning. Our code is available at\nhttps://sites.google.com/berkeley.edu/colmo.",
+  "authors": [
+    "Carlo Bosio",
+    "Matteo Guarrera",
+    "Alberto Sangiovanni-Vincentelli",
+    "Mark W. Mueller"
+  ],
+  "published": "2025-10-01T00:42:15Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00373v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种混合方法，将大语言模型的结构合成与梯度自由参数优化分离，通过引入局部参数搜索层提升控制策略生成效率。该方法在控制任务中实现了更高回报率和样本效率，生成兼具可解释性与高性能的策略。",
+  "order": 326,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00373v1"
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02213v1",
+  "title": "MMDEW: Multipurpose Multiclass Density Estimation in the Wild",
+  "summary": "Density map estimation can be used to estimate object counts in dense and\noccluded scenes where discrete counting-by-detection methods fail. We propose a\nmulticategory counting framework that leverages a Twins pyramid\nvision-transformer backbone and a specialised multi-class counting head built\non a state-of-the-art multiscale decoding approach. A two-task design adds a\nsegmentation-based Category Focus Module, suppressing inter-category cross-talk\nat training time. Training and evaluation on the VisDrone and iSAID benchmarks\ndemonstrates superior performance versus prior multicategory crowd-counting\napproaches (33%, 43% and 64% reduction to MAE), and the comparison with YOLOv11\nunderscores the necessity of crowd counting methods in dense scenes. The\nmethod's regional loss opens up multi-class crowd counting to new domains,\ndemonstrated through the application to a biodiversity monitoring dataset,\nhighlighting its capacity to inform conservation efforts and enable scalable\necological insights.",
+  "authors": [
+    "Villanelle O'Reilly",
+    "Jonathan Cox",
+    "Georgios Leontidis",
+    "Marc Hanheide",
+    "Petra Bosilj",
+    "James Brown"
+  ],
+  "published": "2025-10-02T16:57:29Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02213v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "MMDEW提出一种多类别密度估计框架，采用Twins金字塔视觉transformer骨干网络和专用多类计数头，通过双任务设计和类别聚焦模块减少类别间干扰。在VisDrone和iSAID基准测试中表现优异，相比现有方法MAE降低33%-64%，并成功应用于生物多样性监测，为生态保护提供可扩展的解决方案。",
+  "order": 510,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02213v1"
+}

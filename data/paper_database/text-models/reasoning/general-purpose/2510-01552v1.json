@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01552v1",
+  "title": "POLAR: Automating Cyber Threat Prioritization through LLM-Powered\n  Assessment",
+  "summary": "Large Language Models (LLMs) are intensively used to assist security analysts\nin counteracting the rapid exploitation of cyber threats, wherein LLMs offer\ncyber threat intelligence (CTI) to support vulnerability assessment and\nincident response. While recent work has shown that LLMs can support a wide\nrange of CTI tasks such as threat analysis, vulnerability detection, and\nintrusion defense, significant performance gaps persist in practical\ndeployments. In this paper, we investigate the intrinsic vulnerabilities of\nLLMs in CTI, focusing on challenges that arise from the nature of the threat\nlandscape itself rather than the model architecture. Using large-scale\nevaluations across multiple CTI benchmarks and real-world threat reports, we\nintroduce a novel categorization methodology that integrates stratification,\nautoregressive refinement, and human-in-the-loop supervision to reliably\nanalyze failure instances. Through extensive experiments and human inspections,\nwe reveal three fundamental vulnerabilities: spurious correlations,\ncontradictory knowledge, and constrained generalization, that limit LLMs in\neffectively supporting CTI. Subsequently, we provide actionable insights for\ndesigning more robust LLM-powered CTI systems to facilitate future research.",
+  "authors": [
+    "Luoxi Tang",
+    "Yuqiao Meng",
+    "Ankita Patra",
+    "Weicheng Ma",
+    "Muchao Ye",
+    "Zhaohan Xi"
+  ],
+  "published": "2025-10-02T00:49:20Z",
+  "primary_category": "cs.CR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01552v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究大语言模型在网络安全威胁情报中的内在脆弱性，通过大规模评估提出新型分类方法，揭示了虚假相关性、矛盾知识和受限泛化三大根本漏洞，并为设计更鲁棒的LLM驱动CTI系统提供可行见解。",
+  "order": 131,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01552v1"
+}

@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01607v1",
+  "title": "ActiveUMI: Robotic Manipulation with Active Perception from Robot-Free\n  Human Demonstrations",
+  "summary": "We present ActiveUMI, a framework for a data collection system that transfers\nin-the-wild human demonstrations to robots capable of complex bimanual\nmanipulation. ActiveUMI couples a portable VR teleoperation kit with sensorized\ncontrollers that mirror the robot's end-effectors, bridging human-robot\nkinematics via precise pose alignment. To ensure mobility and data quality, we\nintroduce several key techniques, including immersive 3D model rendering, a\nself-contained wearable computer, and efficient calibration methods.\nActiveUMI's defining feature is its capture of active, egocentric perception.\nBy recording an operator's deliberate head movements via a head-mounted\ndisplay, our system learns the crucial link between visual attention and\nmanipulation. We evaluate ActiveUMI on six challenging bimanual tasks. Policies\ntrained exclusively on ActiveUMI data achieve an average success rate of 70\\%\non in-distribution tasks and demonstrate strong generalization, retaining a\n56\\% success rate when tested on novel objects and in new environments. Our\nresults demonstrate that portable data collection systems, when coupled with\nlearned active perception, provide an effective and scalable pathway toward\ncreating generalizable and highly capable real-world robot policies.",
+  "authors": [
+    "Qiyuan Zeng",
+    "Chengmeng Li",
+    "Jude St. John",
+    "Zhongyi Zhou",
+    "Junjie Wen",
+    "Guorui Feng",
+    "Yichen Zhu",
+    "Yi Xu"
+  ],
+  "published": "2025-10-02T02:44:21Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.01607v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ActiveUMI提出了一种通过VR遥操作采集人类演示数据并迁移到机器人双手机器人操控的框架。该系统通过头戴设备记录操作者的主动头部运动，学习视觉注意力与操作之间的关联，在六项复杂双手机器人任务中达到70%的平均成功率，并在新物体和新环境中保持56%的泛化成功率。",
+  "order": 569,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01607v1"
+}

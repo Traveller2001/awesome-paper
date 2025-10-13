@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06858v1",
+  "title": "Explaining raw data complexity to improve satellite onboard processing",
+  "summary": "With increasing processing power, deploying AI models for remote sensing\ndirectly onboard satellites is becoming feasible. However, new constraints\narise, mainly when using raw, unprocessed sensor data instead of preprocessed\nground-based products. While current solutions primarily rely on preprocessed\nsensor images, few approaches directly leverage raw data. This study\ninvestigates the effects of utilising raw data on deep learning models for\nobject detection and classification tasks. We introduce a simulation workflow\nto generate raw-like products from high-resolution L1 imagery, enabling\nsystemic evaluation. Two object detection models (YOLOv11s and YOLOX-S) are\ntrained on both raw and L1 datasets, and their performance is compared using\nstandard detection metrics and explainability tools. Results indicate that\nwhile both models perform similarly at low to medium confidence thresholds, the\nmodel trained on raw data struggles with object boundary identification at high\nconfidence levels. It suggests that adapting AI architectures with improved\ncontouring methods can enhance object detection on raw images, improving\nonboard AI for remote sensing.",
+  "authors": [
+    "Adrien Dorise",
+    "Marjorie Bellizzi",
+    "Adrien Girard",
+    "Benjamin Francesconi",
+    "Stéphane May"
+  ],
+  "published": "2025-10-08T10:26:02Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06858v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探讨在卫星上直接使用原始传感器数据进行目标检测的可行性。通过构建模拟原始数据的流程，对比YOLOv11s和YOLOX-S模型在原始数据与预处理L1数据上的表现。研究发现原始数据训练模型在高置信度下边界识别能力较弱，建议改进轮廓检测方法以提升星载AI的遥感目标检测性能。",
+  "order": 132,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06858v1"
+}

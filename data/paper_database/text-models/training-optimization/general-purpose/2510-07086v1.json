@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07086v1",
+  "title": "Non-Stationary Online Structured Prediction with Surrogate Losses",
+  "summary": "Online structured prediction, including online classification as a special\ncase, is the task of sequentially predicting labels from input features.\nTherein the surrogate regret -- the cumulative excess of the target loss (e.g.,\n0-1 loss) over the surrogate loss (e.g., logistic loss) of the fixed best\nestimator -- has gained attention, particularly because it often admits a\nfinite bound independent of the time horizon $T$. However, such guarantees\nbreak down in non-stationary environments, where every fixed estimator may\nincur the surrogate loss growing linearly with $T$. We address this by proving\na bound of the form $F_T + C(1 + P_T)$ on the cumulative target loss, where\n$F_T$ is the cumulative surrogate loss of any comparator sequence, $P_T$ is its\npath length, and $C > 0$ is some constant. This bound depends on $T$ only\nthrough $F_T$ and $P_T$, often yielding much stronger guarantees in\nnon-stationary environments. Our core idea is to synthesize the dynamic regret\nbound of the online gradient descent (OGD) with the technique of exploiting the\nsurrogate gap. Our analysis also sheds light on a new Polyak-style learning\nrate for OGD, which systematically offers target-loss guarantees and exhibits\npromising empirical performance. We further extend our approach to a broader\nclass of problems via the convolutional Fenchel--Young loss. Finally, we prove\na lower bound showing that the dependence on $F_T$ and $P_T$ is tight.",
+  "authors": [
+    "Shinsaku Sakaue",
+    "Han Bao",
+    "Yuzhou Cao"
+  ],
+  "published": "2025-10-08T14:43:44Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07086v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对非平稳环境下的在线结构化预测问题，提出了一种基于代理损失的动态遗憾分析方法。通过结合在线梯度下降的动态遗憾界与代理间隙利用技术，证明了目标损失的上界形式为F_T + C(1 + P_T)，其中F_T为比较序列的累计代理损失，P_T为其路径长度。该分析还揭示了一种新的Polyak风格学习率，并通过卷积Fenchel-Young损失将方法扩展到更广泛的问题类别。",
+  "order": 182,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07086v1"
+}

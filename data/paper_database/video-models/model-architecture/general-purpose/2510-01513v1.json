@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01513v1",
+  "title": "From Videos to Indexed Knowledge Graphs -- Framework to Marry Methods\n  for Multimodal Content Analysis and Understanding",
+  "summary": "Analysis of multi-modal content can be tricky, computationally expensive, and\nrequire a significant amount of engineering efforts. Lots of work with\npre-trained models on static data is out there, yet fusing these opensource\nmodels and methods with complex data such as videos is relatively challenging.\nIn this paper, we present a framework that enables efficiently prototyping\npipelines for multi-modal content analysis. We craft a candidate recipe for a\npipeline, marrying a set of pre-trained models, to convert videos into a\ntemporal semi-structured data format. We translate this structure further to a\nframe-level indexed knowledge graph representation that is query-able and\nsupports continual learning, enabling the dynamic incorporation of new\ndomain-specific knowledge through an interactive medium.",
+  "authors": [
+    "Basem Rizk",
+    "Joel Walsh",
+    "Mark Core",
+    "Benjamin Nye"
+  ],
+  "published": "2025-10-01T23:20:15Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01513v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一个多模态内容分析框架，通过整合预训练模型将视频转换为时序半结构化数据，并进一步构建可查询的帧级索引知识图谱，支持持续学习和动态融入领域知识。",
+  "order": 578,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01513v1"
+}

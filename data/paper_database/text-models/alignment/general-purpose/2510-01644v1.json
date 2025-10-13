@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01644v1",
+  "title": "NLP Methods for Detecting Novel LLM Jailbreaks and Keyword Analysis with\n  BERT",
+  "summary": "Large Language Models (LLMs) suffer from a range of vulnerabilities that\nallow malicious users to solicit undesirable responses through manipulation of\nthe input text. These so-called jailbreak prompts are designed to trick the LLM\ninto circumventing the safety guardrails put in place to keep responses\nacceptable to the developer's policies. In this study, we analyse the ability\nof different machine learning models to distinguish jailbreak prompts from\ngenuine uses, including looking at our ability to identify jailbreaks that use\npreviously unseen strategies. Our results indicate that using current datasets\nthe best performance is achieved by fine tuning a Bidirectional Encoder\nRepresentations from Transformers (BERT) model end-to-end for identifying\njailbreaks. We visualise the keywords that distinguish jailbreak from genuine\nprompts and conclude that explicit reflexivity in prompt structure could be a\nsignal of jailbreak intention.",
+  "authors": [
+    "John Hawkins",
+    "Aditya Pramar",
+    "Rodney Beard",
+    "Rohitash Chandra"
+  ],
+  "published": "2025-10-02T03:55:29Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01644v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探讨了使用机器学习方法检测大语言模型越狱攻击的能力，发现通过端到端微调BERT模型在现有数据集上表现最佳。研究分析了区分越狱提示与正常使用的关键词，并指出提示结构中的显式自反性可能是越狱意图的信号。",
+  "order": 383,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01644v1"
+}

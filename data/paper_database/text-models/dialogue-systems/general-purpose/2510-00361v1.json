@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00361v1",
+  "title": "Attribution Gradients: Incrementally Unfolding Citations for Critical\n  Examination of Attributed AI Answers",
+  "summary": "AI question answering systems increasingly generate responses with\nattributions to sources. However, the task of verifying the actual content of\nthese attributions is in most cases impractical. In this paper, we present\nattribution gradients as a solution. Attribution gradients provide integrated,\nincremental affordances for diving into an attributed passage. A user can\ndecompose a sentence of an answer into its claims. For each claim, the user can\nview supporting and contradictory excerpts mined from sources. Those excerpts\nserve as clickable conduits into the source (in our application, scientific\npapers). When evidence itself contains more citations, the UI unpacks the\nevidence into excerpts from the cited sources. These features of attribution\ngradients facilitate concurrent interconnections among answer, claim, excerpt,\nand context. In a usability study, we observed greater engagement with sources\nand richer revision in a task where participants revised an attributed AI\nanswer with attribution gradients and a baseline.",
+  "authors": [
+    "Hita Kambhamettu",
+    "Alyssa Hwang",
+    "Philippe Laban",
+    "Andrew Head"
+  ],
+  "published": "2025-10-01T00:07:28Z",
+  "primary_category": "cs.HC",
+  "arxiv_url": "https://arxiv.org/abs/2510.00361v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出归因梯度方法，通过逐层展开引文支持用户深入验证AI问答系统的答案来源。该方法将答案分解为具体主张，展示支持与矛盾证据，并通过可点击链接追溯原始文献，实验证明能提升用户对源材料的参与度和答案修订质量。",
+  "order": 328,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00361v1"
+}

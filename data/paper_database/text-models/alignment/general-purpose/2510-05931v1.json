@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05931v1",
+  "title": "Hire Your Anthropologist! Rethinking Culture Benchmarks Through an\n  Anthropological Lens",
+  "summary": "Cultural evaluation of large language models has become increasingly\nimportant, yet current benchmarks often reduce culture to static facts or\nhomogeneous values. This view conflicts with anthropological accounts that\nemphasize culture as dynamic, historically situated, and enacted in practice.\nTo analyze this gap, we introduce a four-part framework that categorizes how\nbenchmarks frame culture, such as knowledge, preference, performance, or bias.\nUsing this lens, we qualitatively examine 20 cultural benchmarks and identify\nsix recurring methodological issues, including treating countries as cultures,\noverlooking within-culture diversity, and relying on oversimplified survey\nformats. Drawing on established anthropological methods, we propose concrete\nimprovements: incorporating real-world narratives and scenarios, involving\ncultural communities in design and validation, and evaluating models in context\nrather than isolation. Our aim is to guide the development of cultural\nbenchmarks that go beyond static recall tasks and more accurately capture the\nresponses of the models to complex cultural situations.",
+  "authors": [
+    "Mai AlKhamissi",
+    "Yunze Xiao",
+    "Badr AlKhamissi",
+    "Mona Diab"
+  ],
+  "published": "2025-10-07T13:42:44Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05931v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文批判现有文化评估基准将文化简化为静态事实的局限，提出基于人类学视角的四维分析框架，系统识别了六大方法论缺陷，并建议通过引入真实叙事、社区参与和情境化评估来改进文化基准设计，使大语言模型能更准确应对复杂文化场景。",
+  "order": 27,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05931v1"
+}

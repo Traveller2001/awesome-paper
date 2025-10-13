@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.05840v1",
+  "title": "Multimodal Trajectory Representation Learning for Travel Time Estimation",
+  "summary": "Accurate travel time estimation (TTE) plays a crucial role in intelligent\ntransportation systems. However, it remains challenging due to heterogeneous\ndata sources and complex traffic dynamics. Moreover, conventional approaches\ntypically convert trajectories into fixed-length representations, neglecting\nthe inherent variability of real-world trajectories, which often leads to\ninformation loss or feature redundancy. To address these challenges, this paper\nintroduces the Multimodal Dynamic Trajectory Integration (MDTI) framework--a\nnovel multimodal trajectory representation learning approach that integrates\nGPS sequences, grid trajectories, and road network constraints to enhance TTE\naccuracy. MDTI employs modality-specific encoders and a cross-modal interaction\nmodule to capture complementary spatial, temporal, and topological semantics,\nwhile a dynamic trajectory modeling mechanism adaptively regulates information\ndensity for trajectories of varying lengths. Two self-supervised pretraining\nobjectives, named contrastive alignment and masked language modeling, further\nstrengthen multimodal consistency and contextual understanding. Extensive\nexperiments on three real-world datasets demonstrate that MDTI consistently\noutperforms state-of-the-art baselines, confirming its robustness and strong\ngeneralization abilities. The code is publicly available at:\nhttps://github.com/freshhxy/MDTI/",
+  "authors": [
+    "Zhi Liu",
+    "Xuyuan Hu",
+    "Xiao Han",
+    "Zhehao Dai",
+    "Zhaolin Deng",
+    "Guojiang Shen",
+    "Xiangjie Kong"
+  ],
+  "published": "2025-10-07T12:04:16Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05840v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MDTI多模态轨迹表示学习框架，通过整合GPS序列、网格轨迹和道路网络约束，采用模态特定编码器和跨模态交互模块捕捉时空拓扑语义，结合对比对齐和掩码语言建模预训练目标，在旅行时间估计任务上显著优于现有方法。",
+  "order": 118,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05840v1"
+}

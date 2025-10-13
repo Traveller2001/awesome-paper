@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01171v1",
+  "title": "Verbalized Sampling: How to Mitigate Mode Collapse and Unlock LLM\n  Diversity",
+  "summary": "Post-training alignment often reduces LLM diversity, leading to a phenomenon\nknown as mode collapse. Unlike prior work that attributes this effect to\nalgorithmic limitations, we identify a fundamental, pervasive data-level\ndriver: typicality bias in preference data, whereby annotators systematically\nfavor familiar text as a result of well-established findings in cognitive\npsychology. We formalize this bias theoretically, verify it on preference\ndatasets empirically, and show that it plays a central role in mode collapse.\nMotivated by this analysis, we introduce Verbalized Sampling, a simple,\ntraining-free prompting strategy to circumvent mode collapse. VS prompts the\nmodel to verbalize a probability distribution over a set of responses (e.g.,\n``Generate 5 jokes about coffee and their corresponding probabilities'').\nComprehensive experiments show that VS significantly improves performance\nacross creative writing (poems, stories, jokes), dialogue simulation,\nopen-ended QA, and synthetic data generation, without sacrificing factual\naccuracy and safety. For instance, in creative writing, VS increases diversity\nby 1.6-2.1x over direct prompting. We further observe an emergent trend that\nmore capable models benefit more from VS. In sum, our work provides a new\ndata-centric perspective on mode collapse and a practical inference-time remedy\nthat helps unlock pre-trained generative diversity.",
+  "authors": [
+    "Jiayi Zhang",
+    "Simon Yu",
+    "Derek Chong",
+    "Anthony Sicilia",
+    "Michael R. Tomz",
+    "Christopher D. Manning",
+    "Weiyan Shi"
+  ],
+  "published": "2025-10-01T17:55:37Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01171v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出'语言化采样'方法解决LLM对齐训练中的模式崩溃问题。研究发现偏好数据的典型性偏见是模式崩溃的根本原因，通过让模型生成多个回答及其概率分布，显著提升了创意写作、对话模拟等任务的多样性(1.6-2.1倍)，且不影响准确性和安全性。",
+  "order": 418,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01171v1"
+}

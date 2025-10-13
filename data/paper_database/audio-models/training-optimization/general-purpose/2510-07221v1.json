@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07221v1",
+  "title": "How much speech data is necessary for ASR in African languages? An\n  evaluation of data scaling in Kinyarwanda and Kikuyu",
+  "summary": "The development of Automatic Speech Recognition (ASR) systems for\nlow-resource African languages remains challenging due to limited transcribed\nspeech data. While recent advances in large multilingual models like OpenAI's\nWhisper offer promising pathways for low-resource ASR development, critical\nquestions persist regarding practical deployment requirements. This paper\naddresses two fundamental concerns for practitioners: determining the minimum\ndata volumes needed for viable performance and characterizing the primary\nfailure modes that emerge in production systems. We evaluate Whisper's\nperformance through comprehensive experiments on two Bantu languages:\nsystematic data scaling analysis on Kinyarwanda using training sets from 1 to\n1,400 hours, and detailed error characterization on Kikuyu using 270 hours of\ntraining data. Our scaling experiments demonstrate that practical ASR\nperformance (WER < 13\\%) becomes achievable with as little as 50 hours of\ntraining data, with substantial improvements continuing through 200 hours (WER\n< 10\\%). Complementing these volume-focused findings, our error analysis\nreveals that data quality issues, particularly noisy ground truth\ntranscriptions, account for 38.6\\% of high-error cases, indicating that careful\ndata curation is as critical as data volume for robust system performance.\nThese results provide actionable benchmarks and deployment guidance for teams\ndeveloping ASR systems across similar low-resource language contexts. We\nrelease accompanying and models see\nhttps://github.com/SunbirdAI/kinyarwanda-whisper-eval",
+  "authors": [
+    "Benjamin Akera",
+    "Evelyn Nafula",
+    "Patrick Walukagga",
+    "Gilbert Yiga",
+    "John Quinn",
+    "Ernest Mwebaze"
+  ],
+  "published": "2025-10-08T16:55:28Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07221v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究评估了非洲语言ASR系统的数据需求，通过对基尼亚卢旺达语和基库尤语的实验发现：仅需50小时训练数据即可实现实用ASR性能（WER<13%），200小时可提升至WER<10%。关键发现表明数据质量（38.6%高错误源于标注噪声）与数据量同等重要，为低资源语言ASR部署提供了具体基准。",
+  "order": 39,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07221v1"
+}

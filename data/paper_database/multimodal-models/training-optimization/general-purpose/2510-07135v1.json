@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07135v1",
+  "title": "Few-Shot Adaptation Benchmark for Remote Sensing Vision-Language Models",
+  "summary": "Remote Sensing Vision-Language Models (RSVLMs) have shown remarkable\npotential thanks to large-scale pretraining, achieving strong zero-shot\nperformance on various tasks. However, their ability to generalize in low-data\nregimes, such as few-shot learning, remains insufficiently explored. In this\nwork, we present the first structured benchmark for evaluating few-shot\nadaptation methods on RSVLMs. We conduct comprehensive experiments across ten\nremote sensing scene classification datasets, applying five widely used\nfew-shot adaptation strategies to three state-of-the-art RSVLMs with varying\nbackbones. Our findings reveal that models with similar zero-shot performance\ncan exhibit markedly different behavior under few-shot adaptation, with some\nRSVLMs being inherently more amenable to such adaptation than others. The\nvariability of performance and the absence of a clear winner among existing\nmethods highlight the need for the development of more robust methods for\nfew-shot adaptation tailored to RS. To facilitate future research, we provide a\nreproducible benchmarking framework and open-source code to systematically\nevaluate RSVLMs under few-shot conditions. The source code is publicly\navailable on Github: https://github.com/elkhouryk/fewshot_RSVLMs",
+  "authors": [
+    "Karim El Khoury",
+    "Maxime Zanella",
+    "Christophe De Vleeschouwer",
+    "Benoit Macq"
+  ],
+  "published": "2025-10-08T15:29:48Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07135v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了首个针对遥感视觉-语言模型的小样本适应基准，在10个遥感场景分类数据集上系统评估了5种小样本适应策略在3种先进RSVLM上的表现。研究发现零样本性能相似的模型在小样本适应中表现差异显著，现有方法缺乏明显优势，需开发更鲁棒的遥感专用小样本适应方法。提供了可复现的基准框架和开源代码。",
+  "order": 114,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07135v1"
+}

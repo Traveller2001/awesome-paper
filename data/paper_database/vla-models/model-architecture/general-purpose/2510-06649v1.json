@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06649v1",
+  "title": "Local Reinforcement Learning with Action-Conditioned Root Mean Squared\n  Q-Functions",
+  "summary": "The Forward-Forward (FF) Algorithm is a recently proposed learning procedure\nfor neural networks that employs two forward passes instead of the traditional\nforward and backward passes used in backpropagation. However, FF remains\nlargely confined to supervised settings, leaving a gap at domains where\nlearning signals can be yielded more naturally such as RL. In this work,\ninspired by FF's goodness function using layer activity statistics, we\nintroduce Action-conditioned Root mean squared Q-Functions (ARQ), a novel value\nestimation method that applies a goodness function and action conditioning for\nlocal RL using temporal difference learning. Despite its simplicity and\nbiological grounding, our approach achieves superior performance compared to\nstate-of-the-art local backprop-free RL methods in the MinAtar and the DeepMind\nControl Suite benchmarks, while also outperforming algorithms trained with\nbackpropagation on most tasks. Code can be found at\nhttps://github.com/agentic-learning-ai-lab/arq.",
+  "authors": [
+    "Frank Wu",
+    "Mengye Ren"
+  ],
+  "published": "2025-10-08T05:06:09Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06649v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ARQ方法，将前向-前向算法的优良度函数与动作条件化结合，用于局部强化学习的时序差分价值估计。该方法无需反向传播，在MinAtar和DeepMind Control Suite基准测试中超越现有局部无反向传播RL方法，并在多数任务中优于使用反向传播的算法。",
+  "order": 225,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06649v1"
+}

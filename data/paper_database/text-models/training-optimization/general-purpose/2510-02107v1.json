@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02107v1",
+  "title": "PENEX: AdaBoost-Inspired Neural Network Regularization",
+  "summary": "AdaBoost sequentially fits so-called weak learners to minimize an exponential\nloss, which penalizes mislabeled data points more severely than other loss\nfunctions like cross-entropy. Paradoxically, AdaBoost generalizes well in\npractice as the number of weak learners grows. In the present work, we\nintroduce Penalized Exponential Loss (PENEX), a new formulation of the\nmulti-class exponential loss that is theoretically grounded and, in contrast to\nthe existing formulation, amenable to optimization via first-order methods. We\ndemonstrate both empirically and theoretically that PENEX implicitly maximizes\nmargins of data points. Also, we show that gradient increments on PENEX\nimplicitly parameterize weak learners in the boosting framework. Across\ncomputer vision and language tasks, we show that PENEX exhibits a regularizing\neffect often better than established methods with similar computational cost.\nOur results highlight PENEX's potential as an AdaBoost-inspired alternative for\neffective training and fine-tuning of deep neural networks.",
+  "authors": [
+    "Klaus-Rudolf Kladny",
+    "Bernhard Schölkopf",
+    "Michael Muehlebach"
+  ],
+  "published": "2025-10-02T15:13:02Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02107v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出PENEX（惩罚指数损失），一种受AdaBoost启发的多分类指数损失函数，理论上有良好基础且适合一阶优化方法。研究表明PENEX能隐式最大化数据边界，梯度增量可参数化提升框架中的弱学习器。在计算机视觉和语言任务中，PENEX展现出优于现有方法的正则化效果，是深度神经网络训练和微调的有效替代方案。",
+  "order": 749,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02107v1"
+}

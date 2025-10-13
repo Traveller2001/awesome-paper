@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.02133v1",
+  "title": "FlexDoc: Parameterized Sampling for Diverse Multilingual Synthetic\n  Documents for Training Document Understanding Models",
+  "summary": "Developing document understanding models at enterprise scale requires large,\ndiverse, and well-annotated datasets spanning a wide range of document types.\nHowever, collecting such data is prohibitively expensive due to privacy\nconstraints, legal restrictions, and the sheer volume of manual annotation\nneeded - costs that can scale into millions of dollars. We introduce FlexDoc, a\nscalable synthetic data generation framework that combines Stochastic Schemas\nand Parameterized Sampling to produce realistic, multilingual semi-structured\ndocuments with rich annotations. By probabilistically modeling layout patterns,\nvisual structure, and content variability, FlexDoc enables the controlled\ngeneration of diverse document variants at scale. Experiments on Key\nInformation Extraction (KIE) tasks demonstrate that FlexDoc-generated data\nimproves the absolute F1 Score by up to 11% when used to augment real datasets,\nwhile reducing annotation effort by over 90% compared to traditional\nhard-template methods. The solution is in active deployment, where it has\naccelerated the development of enterprise-grade document understanding models\nwhile significantly reducing data acquisition and annotation costs.",
+  "authors": [
+    "Karan Dua",
+    "Hitesh Laxmichand Patel",
+    "Puneet Mittal",
+    "Ranjeet Gupta",
+    "Amit Agarwal",
+    "Praneet Pabolu",
+    "Srikant Panda",
+    "Hansa Meghwani",
+    "Graham Horwood",
+    "Fahad Shah"
+  ],
+  "published": "2025-10-02T15:42:35Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.02133v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "FlexDoc是一个可扩展的合成数据生成框架，通过随机模式和参数化采样技术，能够大规模生成多语言半结构化文档及丰富标注。该方法在关键信息提取任务中可将F1分数提升高达11%，同时相比传统硬模板方法减少90%以上的标注工作量，显著降低企业级文档理解模型的数据获取成本。",
+  "order": 742,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02133v1"
+}

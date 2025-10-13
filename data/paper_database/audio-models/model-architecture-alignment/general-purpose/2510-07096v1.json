@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07096v1",
+  "title": "Making Machines Sound Sarcastic: LLM-Enhanced and Retrieval-Guided\n  Sarcastic Speech Synthesis",
+  "summary": "Sarcasm is a subtle form of non-literal language that poses significant\nchallenges for speech synthesis due to its reliance on nuanced semantic,\ncontextual, and prosodic cues. While existing speech synthesis research has\nfocused primarily on broad emotional categories, sarcasm remains largely\nunexplored. In this paper, we propose a Large Language Model (LLM)-enhanced\nRetrieval-Augmented framework for sarcasm-aware speech synthesis. Our approach\ncombines (1) semantic embeddings from a LoRA-fine-tuned LLaMA 3, which capture\npragmatic incongruity and discourse-level cues of sarcasm, and (2) prosodic\nexemplars retrieved via a Retrieval Augmented Generation (RAG) module, which\nprovide expressive reference patterns of sarcastic delivery. Integrated within\na VITS backbone, this dual conditioning enables more natural and contextually\nappropriate sarcastic speech. Experiments demonstrate that our method\noutperforms baselines in both objective measures and subjective evaluations,\nyielding improvements in speech naturalness, sarcastic expressivity, and\ndownstream sarcasm detection.",
+  "authors": [
+    "Zhu Li",
+    "Yuqing Zhang",
+    "Xiyuan Gao",
+    "Shekhar Nayak",
+    "Matt Coler"
+  ],
+  "published": "2025-10-08T14:53:48Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07096v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "['model_architecture', 'alignment']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种结合大语言模型增强与检索增强的讽刺语音合成框架，通过LLaMA 3语义嵌入捕捉讽刺的语用不一致性，配合RAG模块检索韵律范例，在VITS架构中实现更自然、情境适配的讽刺语音生成，实验表明其在语音自然度与讽刺表达力上均优于基线方法。",
+  "order": 52,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07096v1"
+}

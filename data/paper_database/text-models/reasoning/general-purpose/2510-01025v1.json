@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01025v1",
+  "title": "Shape Happens: Automatic Feature Manifold Discovery in LLMs via\n  Supervised Multi-Dimensional Scaling",
+  "summary": "The linear representation hypothesis states that language models (LMs) encode\nconcepts as directions in their latent space, forming organized,\nmultidimensional manifolds. Prior efforts focus on discovering specific\ngeometries for specific features, and thus lack generalization. We introduce\nSupervised Multi-Dimensional Scaling (SMDS), a model-agnostic method to\nautomatically discover feature manifolds. We apply SMDS to temporal reasoning\nas a case study, finding that different features form various geometric\nstructures such as circles, lines, and clusters. SMDS reveals many insights on\nthese structures: they consistently reflect the properties of the concepts they\nrepresent; are stable across model families and sizes; actively support\nreasoning in models; and dynamically reshape in response to context changes.\nTogether, our findings shed light on the functional role of feature manifolds,\nsupporting a model of entity-based reasoning in which LMs encode and transform\nstructured representations.",
+  "authors": [
+    "Federico Tiblias",
+    "Irina Bigoulaeva",
+    "Jingcheng Niu",
+    "Simone Balloccu",
+    "Iryna Gurevych"
+  ],
+  "published": "2025-10-01T15:30:47Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01025v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出监督多维缩放(SMDS)方法，自动发现语言模型中特征流形的几何结构。研究表明不同特征形成圆形、线性等多样几何形态，这些结构稳定反映概念属性、支持模型推理，并随语境动态变化，揭示了特征流形在实体推理中的功能作用。",
+  "order": 434,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01025v1"
+}

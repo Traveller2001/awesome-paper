@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00705v1",
+  "title": "Training-free Uncertainty Guidance for Complex Visual Tasks with MLLMs",
+  "summary": "Multimodal Large Language Models (MLLMs) often struggle with fine-grained\nperception, such as identifying small objects in high-resolution images or\nfinding key moments in long videos. Existing works typically rely on\ncomplicated, task-specific fine-tuning, which limits their generalizability and\nincreases model complexity. In this work, we propose an effective,\ntraining-free framework that uses an MLLM's intrinsic uncertainty as a\nproactive guidance signal. Our core insight is that a model's output entropy\ndecreases when presented with relevant visual information. We introduce a\nunified mechanism that scores candidate visual inputs by response uncertainty,\nenabling the model to autonomously focus on the most salient data. We apply\nthis simple principle to three complex visual tasks: Visual Search, Long Video\nUnderstanding, and Temporal Grounding, allowing off-the-shelf MLLMs to achieve\nperformance competitive with specialized, fine-tuned methods. Our work\nvalidates that harnessing intrinsic uncertainty is a powerful, general strategy\nfor enhancing fine-grained multimodal performance.",
+  "authors": [
+    "Sanghwan Kim",
+    "Rui Xiao",
+    "Stephan Alaniz",
+    "Yongqin Xian",
+    "Zeynep Akata"
+  ],
+  "published": "2025-10-01T09:20:51Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00705v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种无需训练的多模态大语言模型框架，利用模型内在不确定性作为引导信号，通过响应熵值评估视觉输入相关性，在视觉搜索、长视频理解和时序定位等复杂任务中实现与专用微调方法相媲美的性能。",
+  "order": 637,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00705v1"
+}

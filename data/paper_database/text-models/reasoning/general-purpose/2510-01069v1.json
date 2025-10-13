@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01069v1",
+  "title": "Typed Chain-of-Thought: A Curry-Howard Framework for Verifying LLM\n  Reasoning",
+  "summary": "While Chain-of-Thought (CoT) prompting enhances the reasoning capabilities of\nlarge language models, the faithfulness of the generated rationales remains an\nopen problem for model interpretability. We propose a novel theoretical lens\nfor this problem grounded in the Curry-Howard correspondence, which posits a\ndirect relationship between formal proofs and computer programs. Under this\nparadigm, a faithful reasoning trace is analogous to a well-typed program,\nwhere each intermediate step corresponds to a typed logical inference. We\noperationalise this analogy, presenting methods to extract and map the\ninformal, natural language steps of CoT into a formal, typed proof structure.\nSuccessfully converting a CoT trace into a well-typed proof serves as a strong,\nverifiable certificate of its computational faithfulness, moving beyond\nheuristic interpretability towards formal verification. Our framework provides\na methodology to transform plausible narrative explanations into formally\nverifiable programs, offering a path towards building more reliable and\ntrustworthy AI systems.",
+  "authors": [
+    "Elija Perrier"
+  ],
+  "published": "2025-10-01T16:06:40Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01069v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出基于Curry-Howard对应的类型化思维链框架，将自然语言推理步骤映射为形式化类型证明结构，为LLM推理过程提供可验证的忠实性保证，推动AI系统向更可靠可信方向发展。",
+  "order": 198,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01069v1"
+}

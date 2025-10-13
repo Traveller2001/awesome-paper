@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05777v1",
+  "title": "DP-SNP-TIHMM: Differentially Private, Time-Inhomogeneous Hidden Markov\n  Models for Synthesizing Genome-Wide Association Datasets",
+  "summary": "Single nucleotide polymorphism (SNP) datasets are fundamental to genetic\nstudies but pose significant privacy risks when shared. The correlation of SNPs\nwith each other makes strong adversarial attacks such as masked-value\nreconstruction, kin, and membership inference attacks possible. Existing\nprivacy-preserving approaches either apply differential privacy to statistical\nsummaries of these datasets or offer complex methods that require\npost-processing and the usage of a publicly available dataset to suppress or\nselectively share SNPs.\n  In this study, we introduce an innovative framework for generating synthetic\nSNP sequence datasets using samples derived from time-inhomogeneous hidden\nMarkov models (TIHMMs). To preserve the privacy of the training data, we ensure\nthat each SNP sequence contributes only a bounded influence during training,\nenabling strong differential privacy guarantees. Crucially, by operating on\nfull SNP sequences and bounding their gradient contributions, our method\ndirectly addresses the privacy risks introduced by their inherent correlations.\n  Through experiments conducted on the real-world 1000 Genomes dataset, we\ndemonstrate the efficacy of our method using privacy budgets of $\\varepsilon\n\\in [1, 10]$ at $\\delta=10^{-4}$. Notably, by allowing the transition models of\nthe HMM to be dependent on the location in the sequence, we significantly\nenhance performance, enabling the synthetic datasets to closely replicate the\nstatistical properties of non-private datasets. This framework facilitates the\nprivate sharing of genomic data while offering researchers exceptional\nflexibility and utility.",
+  "authors": [
+    "Shadi Rahimian",
+    "Mario Fritz"
+  ],
+  "published": "2025-10-07T10:47:29Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05777v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出DP-SNP-TIHMM框架，使用时变隐马尔可夫模型结合差分隐私技术生成合成基因组关联数据集。该方法通过限制单核苷酸多态性序列的梯度贡献来保护训练数据隐私，在ε∈[1,10]的隐私预算下，能有效复制非私有数据集的统计特性，解决了基因组数据共享中的隐私风险问题。",
+  "order": 121,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05777v1"
+}

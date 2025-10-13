@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02117v1",
+  "title": "DAG DECORation: Continuous Optimization for Structure Learning under\n  Hidden Confounding",
+  "summary": "We study structure learning for linear Gaussian SEMs in the presence of\nlatent confounding. Existing continuous methods excel when errors are\nindependent, while deconfounding-first pipelines rely on pervasive factor\nstructure or nonlinearity. We propose \\textsc{DECOR}, a single likelihood-based\nand fully differentiable estimator that jointly learns a DAG and a correlated\nnoise model. Our theory gives simple sufficient conditions for global parameter\nidentifiability: if the mixed graph is bow free and the noise covariance has a\nuniform eigenvalue margin, then the map from $(\\B,\\OmegaMat)$ to the\nobservational covariance is injective, so both the directed structure and the\nnoise are uniquely determined. The estimator alternates a smooth-acyclic graph\nupdate with a convex noise update and can include a light bow complementarity\npenalty or a post hoc reconciliation step. On synthetic benchmarks that vary\nconfounding density, graph density, latent rank, and dimension with $n<p$,\n\\textsc{DECOR} matches or outperforms strong baselines and is especially robust\nwhen confounding is non-pervasive, while remaining competitive under\npervasiveness.",
+  "authors": [
+    "Samhita Pal",
+    "James O'quinn",
+    "Kaveh Aryan",
+    "Heather Pua",
+    "James P. Long",
+    "Amir Asiaee"
+  ],
+  "published": "2025-10-02T15:23:30Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02117v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DECOR方法，针对存在潜在混杂因素的线性高斯结构方程模型，通过联合学习有向无环图和相关噪声模型，在非普遍混杂情况下表现优异。该方法基于可微优化，理论证明在弓形自由图和噪声协方差均匀特征值边界条件下可实现全局参数识别。",
+  "order": 745,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02117v1"
+}

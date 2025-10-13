@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01359v1",
+  "title": "Breaking the Code: Security Assessment of AI Code Agents Through\n  Systematic Jailbreaking Attacks",
+  "summary": "Code-capable large language model (LLM) agents are increasingly embedded into\nsoftware engineering workflows where they can read, write, and execute code,\nraising the stakes of safety-bypass (\"jailbreak\") attacks beyond text-only\nsettings. Prior evaluations emphasize refusal or harmful-text detection,\nleaving open whether agents actually compile and run malicious programs. We\npresent JAWS-BENCH (Jailbreaks Across WorkSpaces), a benchmark spanning three\nescalating workspace regimes that mirror attacker capability: empty (JAWS-0),\nsingle-file (JAWS-1), and multi-file (JAWS-M). We pair this with a\nhierarchical, executable-aware Judge Framework that tests (i) compliance, (ii)\nattack success, (iii) syntactic correctness, and (iv) runtime executability,\nmoving beyond refusal to measure deployable harm. Using seven LLMs from five\nfamilies as backends, we find that under prompt-only conditions in JAWS-0, code\nagents accept 61% of attacks on average; 58% are harmful, 52% parse, and 27%\nrun end-to-end. Moving to single-file regime in JAWS-1 drives compliance to ~\n100% for capable models and yields a mean ASR (Attack Success Rate) ~ 71%; the\nmulti-file regime (JAWS-M) raises mean ASR to ~ 75%, with 32% instantly\ndeployable attack code. Across models, wrapping an LLM in an agent\nsubstantially increases vulnerability -- ASR raises by 1.6x -- because initial\nrefusals are frequently overturned during later planning/tool-use steps.\nCategory-level analyses identify which attack classes are most vulnerable and\nmost readily deployable, while others exhibit large execution gaps. These\nfindings motivate execution-aware defenses, code-contextual safety filters, and\nmechanisms that preserve refusal decisions throughout the agent's multi-step\nreasoning and tool use.",
+  "authors": [
+    "Shoumik Saha",
+    "Jifan Chen",
+    "Sam Mayers",
+    "Sanjay Krishna Gouda",
+    "Zijian Wang",
+    "Varun Kumar"
+  ],
+  "published": "2025-10-01T18:38:20Z",
+  "primary_category": "cs.CR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01359v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "code_generation",
+  "tldr_zh": "本研究提出JAWS-BENCH基准，系统评估AI代码代理的安全漏洞。通过三个递增的工作空间场景（空环境、单文件、多文件）测试7个LLM，发现代码代理平均61%接受攻击，58%产生有害代码，27%可端到端运行。多文件场景下攻击成功率高达75%，其中32%为可直接部署的攻击代码。研究揭示将LLM封装为代理会显著增加安全风险，呼吁开发执行感知防御和代码上下文安全过滤器。",
+  "order": 170,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01359v1"
+}

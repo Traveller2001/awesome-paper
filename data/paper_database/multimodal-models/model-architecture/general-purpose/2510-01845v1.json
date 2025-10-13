@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01845v1",
+  "title": "Model Merging to Maintain Language-Only Performance in Developmentally\n  Plausible Multimodal Models",
+  "summary": "State-of-the-art vision-and-language models consist of many parameters and\nlearn from enormous datasets, surpassing the amounts of linguistic data that\nchildren are exposed to as they acquire a language. This paper presents our\napproach to the multimodal track of the BabyLM challenge addressing this\ndiscrepancy. We develop language-only and multimodal models in low-resource\nsettings using developmentally plausible datasets, with our multimodal models\noutperforming previous BabyLM baselines. One finding in the multimodal language\nmodel literature is that these models tend to underperform in\n\\textit{language-only} tasks. Therefore, we focus on maintaining language-only\nabilities in multimodal models. To this end, we experiment with \\textit{model\nmerging}, where we fuse the parameters of multimodal models with those of\nlanguage-only models using weighted linear interpolation. Our results\ncorroborate the findings that multimodal models underperform in language-only\nbenchmarks that focus on grammar, and model merging with text-only models can\nhelp alleviate this problem to some extent, while maintaining multimodal\nperformance.",
+  "authors": [
+    "Ece Takmaz",
+    "Lisa Bylinina",
+    "Jakub Dotlacil"
+  ],
+  "published": "2025-10-02T09:38:25Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01845v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究针对多模态语言模型在纯语言任务中表现不佳的问题，提出模型融合方法。通过在低资源环境下构建发展合理的语言和多模态模型，采用加权线性插值融合多模态与纯语言模型的参数，在保持多模态性能的同时有效缓解纯语言任务性能下降问题。",
+  "order": 541,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01845v1"
+}

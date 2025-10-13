@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00701v1",
+  "title": "Graph Integrated Multimodal Concept Bottleneck Model",
+  "summary": "With growing demand for interpretability in deep learning, especially in high\nstakes domains, Concept Bottleneck Models (CBMs) address this by inserting\nhuman understandable concepts into the prediction pipeline, but they are\ngenerally single modal and ignore structured concept relationships. To overcome\nthese limitations, we present MoE-SGT, a reasoning driven framework that\naugments CBMs with a structure injecting Graph Transformer and a Mixture of\nExperts (MoE) module. We construct answer-concept and answer-question graphs\nfor multimodal inputs to explicitly model the structured relationships among\nconcepts. Subsequently, we integrate Graph Transformer to capture multi level\ndependencies, addressing the limitations of traditional Concept Bottleneck\nModels in modeling concept interactions. However, it still encounters\nbottlenecks in adapting to complex concept patterns. Therefore, we replace the\nfeed forward layers with a Mixture of Experts (MoE) module, enabling the model\nto have greater capacity in learning diverse concept relationships while\ndynamically allocating reasoning tasks to different sub experts, thereby\nsignificantly enhancing the model's adaptability to complex concept reasoning.\nMoE-SGT achieves higher accuracy than other concept bottleneck networks on\nmultiple datasets by modeling structured relationships among concepts and\nutilizing a dynamic expert selection mechanism.",
+  "authors": [
+    "Jiakai Lin",
+    "Jinchang Zhang",
+    "Guoyu Lu"
+  ],
+  "published": "2025-10-01T09:18:38Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00701v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出MoE-SGT框架，通过图Transformer和混合专家模块增强概念瓶颈模型，显式建模概念间结构化关系，提升复杂概念推理能力，在多个数据集上实现更高准确率。",
+  "order": 638,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00701v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06907v1",
+  "title": "Angular Constraint Embedding via SpherePair Loss for Constrained\n  Clustering",
+  "summary": "Constrained clustering integrates domain knowledge through pairwise\nconstraints. However, existing deep constrained clustering (DCC) methods are\neither limited by anchors inherent in end-to-end modeling or struggle with\nlearning discriminative Euclidean embedding, restricting their scalability and\nreal-world applicability. To avoid their respective pitfalls, we propose a\nnovel angular constraint embedding approach for DCC, termed SpherePair. Using\nthe SpherePair loss with a geometric formulation, our method faithfully encodes\npairwise constraints and leads to embeddings that are clustering-friendly in\nangular space, effectively separating representation learning from clustering.\nSpherePair preserves pairwise relations without conflict, removes the need to\nspecify the exact number of clusters, generalizes to unseen data, enables rapid\ninference of the number of clusters, and is supported by rigorous theoretical\nguarantees. Comparative evaluations with state-of-the-art DCC methods on\ndiverse benchmarks, along with empirical validation of theoretical insights,\nconfirm its superior performance, scalability, and overall real-world\neffectiveness. Code is available at\n\\href{https://github.com/spherepaircc/SpherePairCC/tree/main}{our repository}.",
+  "authors": [
+    "Shaojie Zhang",
+    "Ke Chen"
+  ],
+  "published": "2025-10-08T11:43:20Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06907v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SpherePair损失函数，通过角度约束嵌入改进深度约束聚类方法。该方法在球面空间中学习聚类友好的表示，有效分离表示学习与聚类过程，无需预设聚类数量，具有良好的可扩展性和理论保证，在多个基准测试中优于现有方法。",
+  "order": 201,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06907v1"
+}

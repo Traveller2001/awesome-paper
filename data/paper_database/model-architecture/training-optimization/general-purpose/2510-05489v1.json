@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05489v1",
+  "title": "The Method of Infinite Descent",
+  "summary": "Training - the optimisation of complex models - is traditionally performed\nthrough small, local, iterative updates [D. E. Rumelhart, G. E. Hinton, R. J.\nWilliams, Nature 323, 533-536 (1986)]. Approximating solutions through\ntruncated gradients is a paradigm dating back to Cauchy [A.-L. Cauchy, Comptes\nRendus Math\\'ematique 25, 536-538 (1847)] and Newton [I. Newton, The Method of\nFluxions and Infinite Series (Henry Woodfall, London, 1736)]. This work\nintroduces the Method of Infinite Descent, a semi-analytic optimisation\nparadigm that reformulates training as the direct solution to the first-order\noptimality condition. By analytical resummation of its Taylor expansion, this\nmethod yields an exact, algebraic equation for the update step. Realisation of\nthe infinite Taylor tower's cascading resummation is formally derived, and an\nexploitative algorithm for the direct solve step is proposed.\n  This principle is demonstrated with the herein-introduced AION (Analytic,\nInfinitely-Optimisable Network) architecture. AION is a model designed\nexpressly to satisfy the algebraic closure required by Infinite Descent. In a\nsimple test problem, AION reaches the optimum in a single descent step.\nTogether, this optimiser-model pair exemplify how analytic structure enables\nexact, non-iterative convergence. Infinite Descent extends beyond this example,\napplying to any appropriately closed architecture. This suggests a new class of\nsemi-analytically optimisable models: the \\emph{Infinity Class}; sufficient\nconditions for class membership are discussed. This offers a pathway toward\nnon-iterative learning.",
+  "authors": [
+    "Reza T. Batley",
+    "Sourav Saha"
+  ],
+  "published": "2025-10-07T01:09:20Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05489v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出'无限下降法'——一种半解析优化范式，将模型训练重新表述为直接求解一阶最优性条件。通过泰勒展开的解析重求和，该方法得到精确的代数更新方程。配合专门设计的AION架构，在简单测试问题中仅需单步下降即可达到最优解，展示了非迭代收敛的潜力，并定义了'无限类'模型的新概念。",
+  "order": 153,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05489v1"
+}

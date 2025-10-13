@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06101v1",
+  "title": "The Valley of Code Reasoning: Scaling Knowledge Distillation of Large\n  Language Models",
+  "summary": "Distilling the thinking traces of a Large Language Model (LLM) with reasoning\ncapabilities into a smaller model has been proven effective. Yet, there is a\nscarcity of work done on how model performances scale with the quantity of\ndistillation data. In this work, we study the scaling trend of distilling\ncompetitive coding skills on two small non-reasoning LLMs. We validate the\nhypothesis that there is a $\\textit{valley of code reasoning}$: downstream\nperformance on competitive coding first drops as data quantity increases, then\nit steadily increases in a sharper-than-log-linear fashion. Having identified\nthe trend, we further fine-tune the models at two different distillation stages\non the same data to ground conclusions on their respective learning phases. We\nlearn that across stages in the low and medium-low data regimes, small models\nbenefit significantly from easier coding questions than from harder ones. We\nalso find that, surprisingly, the correctness of outputs in training data makes\nno difference to distillation outcomes. Our work represents a step forward in\nunderstanding the training dynamics of code reasoning distillation outside\nintuition",
+  "authors": [
+    "Muyu He",
+    "Muhammad Ali Shafique",
+    "Anand Kumar",
+    "Tsach Mackey",
+    "Nazneen Rajani"
+  ],
+  "published": "2025-10-07T16:32:09Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06101v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_compression', 'reasoning', 'training_optimization']",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文研究大型语言模型代码推理能力的知识蒸馏规模效应，发现存在'代码推理低谷'现象：随着蒸馏数据量增加，小模型在编程竞赛任务上的性能先下降后以超对数线性速度提升。研究还表明在低数据量阶段，简单编程题目对小型模型更有益，且训练数据的答案正确性不影响蒸馏效果。",
+  "order": 17,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06101v1"
+}

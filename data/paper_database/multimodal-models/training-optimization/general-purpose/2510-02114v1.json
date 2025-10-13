@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.02114v1",
+  "title": "FRIEREN: Federated Learning with Vision-Language Regularization for\n  Segmentation",
+  "summary": "Federeated Learning (FL) offers a privacy-preserving solution for Semantic\nSegmentation (SS) tasks to adapt to new domains, but faces significant\nchallenges from these domain shifts, particularly when client data is\nunlabeled. However, most existing FL methods unrealistically assume access to\nlabeled data on remote clients or fail to leverage the power of modern Vision\nFoundation Models (VFMs). Here, we propose a novel and challenging task,\nFFREEDG, in which a model is pretrained on a server's labeled source dataset\nand subsequently trained across clients using only their unlabeled data,\nwithout ever re-accessing the source. To solve FFREEDG, we propose FRIEREN, a\nframework that leverages the knowledge of a VFM by integrating vision and\nlanguage modalities. Our approach employs a Vision-Language decoder guided by\nCLIP-based text embeddings to improve semantic disambiguation and uses a\nweak-to-strong consistency learning strategy for robust local training on\npseudo-labels. Our experiments on synthetic-to-real and\nclear-to-adverse-weather benchmarks demonstrate that our framework effectively\ntackles this new task, achieving competitive performance against established\ndomain generalization and adaptation methods and setting a strong baseline for\nfuture research.",
+  "authors": [
+    "Ding-Ruei Shen"
+  ],
+  "published": "2025-10-02T15:21:49Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02114v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "FRIEREN提出了一种联邦学习框架，利用视觉-语言模型解决语义分割中的领域适应问题。该方法通过CLIP文本嵌入引导的视觉-语言解码器改善语义消歧，采用弱到强一致性学习策略在客户端未标注数据上进行训练，在合成到真实和恶劣天气场景的基准测试中表现出色。",
+  "order": 517,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02114v1"
+}

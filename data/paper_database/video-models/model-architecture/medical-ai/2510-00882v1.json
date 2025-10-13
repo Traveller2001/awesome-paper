@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00882v1",
+  "title": "AI-CNet3D: An Anatomically-Informed Cross-Attention Network with\n  Multi-Task Consistency Fine-tuning for 3D Glaucoma Classification",
+  "summary": "Glaucoma is a progressive eye disease that leads to optic nerve damage,\ncausing irreversible vision loss if left untreated. Optical coherence\ntomography (OCT) has become a crucial tool for glaucoma diagnosis, offering\nhigh-resolution 3D scans of the retina and optic nerve. However, the\nconventional practice of condensing information from 3D OCT volumes into 2D\nreports often results in the loss of key structural details. To address this,\nwe propose a novel hybrid deep learning model that integrates cross-attention\nmechanisms into a 3D convolutional neural network (CNN), enabling the\nextraction of critical features from the superior and inferior hemiretinas, as\nwell as from the optic nerve head (ONH) and macula, within OCT volumes. We\nintroduce Channel Attention REpresentations (CAREs) to visualize\ncross-attention outputs and leverage them for consistency-based multi-task\nfine-tuning, aligning them with Gradient-Weighted Class Activation Maps\n(Grad-CAMs) from the CNN's final convolutional layer to enhance performance,\ninterpretability, and anatomical coherence. We have named this model AI-CNet3D\n(AI-`See'-Net3D) to reflect its design as an Anatomically-Informed\nCross-attention Network operating on 3D data. By dividing the volume along two\naxes and applying cross-attention, our model enhances glaucoma classification\nby capturing asymmetries between the hemiretinal regions while integrating\ninformation from the optic nerve head and macula. We validate our approach on\ntwo large datasets, showing that it outperforms state-of-the-art attention and\nconvolutional models across all key metrics. Finally, our model is\ncomputationally efficient, reducing the parameter count by one-hundred--fold\ncompared to other attention mechanisms while maintaining high diagnostic\nperformance and comparable GFLOPS.",
+  "authors": [
+    "Roshan Kenia",
+    "Anfei Li",
+    "Rishabh Srivastava",
+    "Kaveri A. Thakoor"
+  ],
+  "published": "2025-10-01T13:30:55Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00882v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "提出AI-CNet3D模型，一种结合交叉注意力机制的3D卷积神经网络，用于青光眼分类。通过分割视网膜上下区域并应用交叉注意力捕捉不对称特征，整合视神经头和黄斑区信息，在保持高诊断性能的同时将参数量减少百倍，在两个大型数据集上超越现有最优模型。",
+  "order": 619,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00882v1"
+}

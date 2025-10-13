@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01370v1",
+  "title": "SPUS: A Lightweight and Parameter-Efficient Foundation Model for PDEs",
+  "summary": "We introduce Small PDE U-Net Solver (SPUS), a compact and efficient\nfoundation model (FM) designed as a unified neural operator for solving a wide\nrange of partial differential equations (PDEs). Unlike existing\nstate-of-the-art PDE FMs-primarily based on large complex transformer\narchitectures with high computational and parameter overhead-SPUS leverages a\nlightweight residual U-Net-based architecture that has been largely\nunderexplored as a foundation model architecture in this domain. To enable\neffective learning in this minimalist framework, we utilize a simple yet\npowerful auto-regressive pretraining strategy which closely replicates the\nbehavior of numerical solvers to learn the underlying physics. SPUS is\npretrained on a diverse set of fluid dynamics PDEs and evaluated across 6\nchallenging unseen downstream PDEs spanning various physical systems.\nExperimental results demonstrate that SPUS using residual U-Net based\narchitecture achieves state-of-the-art generalization on these downstream tasks\nwhile requiring significantly fewer parameters and minimal fine-tuning data,\nhighlighting its potential as a highly parameter-efficient FM for solving\ndiverse PDE systems.",
+  "authors": [
+    "Abu Bucker Siddik",
+    "Diane Oyen",
+    "Alexander Most",
+    "Michal Kucer",
+    "Ayan Biswas"
+  ],
+  "published": "2025-10-01T18:54:59Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01370v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "SPUS是一种轻量级参数高效的偏微分方程求解基础模型，采用残差U-Net架构和自回归预训练策略，在多种PDE任务上实现最先进泛化性能，显著减少参数需求和微调数据。",
+  "order": 588,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01370v1"
+}

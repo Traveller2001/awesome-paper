@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01611v1",
+  "title": "PychoBench: Evaluating the Psychology Intelligence of Large Language\n  Models",
+  "summary": "Large Language Models (LLMs) have demonstrated remarkable success across a\nwide range of industries, primarily due to their impressive generative\nabilities. Yet, their potential in applications requiring cognitive abilities,\nsuch as psychological counseling, remains largely untapped. This paper\ninvestigates the key question: Can LLMs be effectively applied to psychological\ncounseling? To determine whether an LLM can effectively take on the role of a\npsychological counselor, the first step is to assess whether it meets the\nqualifications required for such a role, namely the ability to pass the U.S.\nNational Counselor Certification Exam (NCE). This is because, just as a human\ncounselor must pass a certification exam to practice, an LLM must demonstrate\nsufficient psychological knowledge to meet the standards required for such a\nrole. To address this, we introduce PsychoBench, a benchmark grounded in\nU.S.national counselor examinations, a licensure test for professional\ncounselors that requires about 70% accuracy to pass. PsychoBench comprises\napproximately 2,252 carefully curated single-choice questions, crafted to\nrequire deep understanding and broad enough to cover various sub-disciplines of\npsychology. This benchmark provides a comprehensive assessment of an LLM's\nability to function as a counselor. Our evaluation shows that advanced models\nsuch as GPT-4o, Llama3.3-70B, and Gemma3-27B achieve well above the passing\nthreshold, while smaller open-source models (e.g., Qwen2.5-7B, Mistral-7B)\nremain far below it. These results suggest that only frontier LLMs are\ncurrently capable of meeting counseling exam standards, highlighting both the\npromise and the challenges of developing psychology-oriented LLMs.",
+  "authors": [
+    "Min Zeng"
+  ],
+  "published": "2025-10-02T02:49:06Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01611v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出PsychoBench基准，基于美国国家心理咨询师认证考试构建，包含2252道单选题，用于评估大语言模型在心理学咨询领域的专业能力。测试结果显示，GPT-4o等前沿模型远超及格线，而较小开源模型表现不佳，表明目前仅有顶级大模型具备担任心理咨询师的知识储备。",
+  "order": 390,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01611v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01855v1",
+  "title": "Explicit Discovery of Nonlinear Symmetries from Dynamic Data",
+  "summary": "Symmetry is widely applied in problems such as the design of equivariant\nnetworks and the discovery of governing equations, but in complex scenarios, it\nis not known in advance. Most previous symmetry discovery methods are limited\nto linear symmetries, and recent attempts to discover nonlinear symmetries fail\nto explicitly get the Lie algebra subspace. In this paper, we propose LieNLSD,\nwhich is, to our knowledge, the first method capable of determining the number\nof infinitesimal generators with nonlinear terms and their explicit\nexpressions. We specify a function library for the infinitesimal group action\nand aim to solve for its coefficient matrix, proving that its prolongation\nformula for differential equations, which governs dynamic data, is also linear\nwith respect to the coefficient matrix. By substituting the central differences\nof the data and the Jacobian matrix of the trained neural network into the\ninfinitesimal criterion, we get a system of linear equations for the\ncoefficient matrix, which can then be solved using SVD. On top quark tagging\nand a series of dynamic systems, LieNLSD shows qualitative advantages over\nexisting methods and improves the long rollout accuracy of neural PDE solvers\nby over 20% while applying to guide data augmentation. Code and data are\navailable at https://github.com/hulx2002/LieNLSD.",
+  "authors": [
+    "Lexiang Hu",
+    "Yikang Li",
+    "Zhouchen Lin"
+  ],
+  "published": "2025-10-02T09:54:08Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01855v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "LieNLSD是首个能从动态数据中显式发现非线性对称性并确定无穷小生成元数量及表达式的方法，通过函数库和SVD求解系数矩阵，在物理系统和神经网络PDE求解器中展现优越性能，提升长期预测精度20%以上。",
+  "order": 788,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01855v1"
+}

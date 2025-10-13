@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02263v1",
+  "title": "RLAD: Training LLMs to Discover Abstractions for Solving Reasoning\n  Problems",
+  "summary": "Reasoning requires going beyond pattern matching or memorization of solutions\nto identify and implement \"algorithmic procedures\" that can be used to deduce\nanswers to hard problems. Doing so requires realizing the most relevant\nprimitives, intermediate results, or shared procedures, and building upon them.\nWhile RL post-training on long chains of thought ultimately aims to uncover\nthis kind of algorithmic behavior, most reasoning traces learned by large\nmodels fail to consistently capture or reuse procedures, instead drifting into\nverbose and degenerate exploration. To address more effective reasoning, we\nintroduce reasoning abstractions: concise natural language descriptions of\nprocedural and factual knowledge that guide the model toward learning\nsuccessful reasoning. We train models to be capable of proposing multiple\nabstractions given a problem, followed by RL that incentivizes building a\nsolution while using the information provided by these abstractions. This\nresults in a two-player RL training paradigm, abbreviated as RLAD, that jointly\ntrains an abstraction generator and a solution generator. This setup\neffectively enables structured exploration, decouples learning signals of\nabstraction proposal and solution generation, and improves generalization to\nharder problems. We also show that allocating more test-time compute to\ngenerating abstractions is more beneficial for performance than generating more\nsolutions at large test budgets, illustrating the role of abstractions in\nguiding meaningful exploration.",
+  "authors": [
+    "Yuxiao Qu",
+    "Anikait Singh",
+    "Yoonho Lee",
+    "Amrith Setlur",
+    "Ruslan Salakhutdinov",
+    "Chelsea Finn",
+    "Aviral Kumar"
+  ],
+  "published": "2025-10-02T17:44:23Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.02263v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "RLAD提出一种双智能体强化学习框架，通过训练抽象生成器和解决方案生成器来提升大语言模型的推理能力。该方法让模型先提出自然语言描述的推理抽象概念，再利用这些抽象指导问题求解，有效改善结构化探索和泛化性能，在复杂推理任务中表现优于传统思维链方法。",
+  "order": 707,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02263v1"
+}

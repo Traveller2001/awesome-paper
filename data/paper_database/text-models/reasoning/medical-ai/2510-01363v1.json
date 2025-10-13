@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01363v1",
+  "title": "Retrieval-Augmented Framework for LLM-Based Clinical Decision Support",
+  "summary": "The increasing complexity of clinical decision-making, alongside the rapid\nexpansion of electronic health records (EHR), presents both opportunities and\nchallenges for delivering data-informed care. This paper proposes a clinical\ndecision support system powered by Large Language Models (LLMs) to assist\nprescribing clinicians. The system generates therapeutic suggestions by\nanalyzing historical EHR data, including patient demographics, presenting\ncomplaints, clinical symptoms, diagnostic information, and treatment histories.\nThe framework integrates natural language processing with structured clinical\ninputs to produce contextually relevant recommendations. Rather than replacing\nclinician judgment, it is designed to augment decision-making by retrieving and\nsynthesizing precedent cases with comparable characteristics, drawing on local\ndatasets or federated sources where applicable. At its core, the system employs\na retrieval-augmented generation (RAG) pipeline that harmonizes unstructured\nnarratives and codified data to support LLM-based inference. We outline the\nsystem's technical components, including representation representation\nalignment and generation strategies. Preliminary evaluations, conducted with\nde-identified and synthetic clinical datasets, examine the clinical\nplausibility and consistency of the model's outputs. Early findings suggest\nthat LLM-based tools may provide valuable decision support in prescribing\nworkflows when appropriately constrained and rigorously validated. This work\nrepresents an initial step toward integration of generative AI into real-world\nclinical decision-making with an emphasis on transparency, safety, and\nalignment with established practices.",
+  "authors": [
+    "Leon Garza",
+    "Anantaa Kotal",
+    "Michael A. Grasso",
+    "Emre Umucu"
+  ],
+  "published": "2025-10-01T18:45:25Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01363v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出一种基于大语言模型的临床决策支持系统，采用检索增强生成(RAG)框架整合电子健康记录数据，通过分析患者历史信息生成治疗建议，旨在辅助而非替代临床医生决策，初步评估显示在合理约束和验证下可为处方工作流提供有价值的支持。",
+  "order": 169,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01363v1"
+}

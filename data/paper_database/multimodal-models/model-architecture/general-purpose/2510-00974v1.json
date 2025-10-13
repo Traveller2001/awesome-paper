@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.00974v1",
+  "title": "JEPA-T: Joint-Embedding Predictive Architecture with Text Fusion for\n  Image Generation",
+  "summary": "Modern Text-to-Image (T2I) generation increasingly relies on token-centric\narchitectures that are trained with self-supervision, yet effectively fusing\ntext with visual tokens remains a challenge. We propose \\textbf{JEPA-T}, a\nunified multimodal framework that encodes images and captions into discrete\nvisual and textual tokens, processed by a joint-embedding predictive\nTransformer. To enhance fusion, we incorporate cross-attention after the\nfeature predictor for conditional denoising while maintaining a task-agnostic\nbackbone. Additionally, raw texts embeddings are injected prior to the flow\nmatching loss to improve alignment during training. During inference, the same\nnetwork performs both class-conditional and free-text image generation by\niteratively denoising visual tokens conditioned on text. Evaluations on\nImageNet-1K demonstrate that JEPA-T achieves strong data efficiency,\nopen-vocabulary generalization, and consistently outperforms non-fusion and\nlate-fusion baselines. Our approach shows that late architectural fusion\ncombined with objective-level alignment offers an effective balance between\nconditioning strength and backbone generality in token-based T2I.The code is\nnow available: https://github.com/justin-herry/JEPA-T.git",
+  "authors": [
+    "Siheng Wan",
+    "Zhengtao Yao",
+    "Zhengdao Li",
+    "Junhao Dong",
+    "Yanshu Li",
+    "Yikai Li",
+    "Linshan Li",
+    "Haoyan Xu",
+    "Yijiang Li",
+    "Zhikang Dong",
+    "Huacan Wang",
+    "Jifeng Shen"
+  ],
+  "published": "2025-10-01T14:51:10Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00974v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "JEPA-T提出了一种联合嵌入预测架构，通过文本融合改进图像生成。该方法将图像和文本编码为离散标记，使用联合嵌入预测Transformer处理，并在特征预测后加入交叉注意力机制增强融合。在ImageNet-1K上的评估显示，该模型在数据效率、开放词汇泛化方面表现优异，优于非融合和后期融合基线。",
+  "order": 612,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00974v1"
+}

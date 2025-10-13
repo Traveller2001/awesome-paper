@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05526v1",
+  "title": "Provably Mitigating Corruption, Overoptimization, and Verbosity\n  Simultaneously in Offline and Online RLHF/DPO Alignment",
+  "summary": "Reinforcement learning from human feedback (RLHF) and direct preference\noptimization (DPO) are important techniques to align large language models\n(LLM) with human preference. However, the quality of RLHF and DPO training is\nseriously compromised by \\textit{\\textbf{C}orrupted} preference, reward\n\\textit{\\textbf{O}veroptimization}, and bias towards\n\\textit{\\textbf{V}erbosity}. To our knowledge, most existing works tackle only\none of these important issues, and the few other works require much computation\nto estimate multiple reward models and lack theoretical guarantee of\ngeneralization ability. In this work, we propose RLHF-\\textbf{COV} and\nDPO-\\textbf{COV} algorithms that can simultaneously mitigate these three\nissues, in both offline and online settings. This ability is theoretically\ndemonstrated by obtaining length-regularized generalization error rates for our\nDPO-COV algorithms trained on corrupted data, which match the best-known rates\nfor simpler cases with clean data and without length regularization. Moreover,\nour DPO-COV algorithm is simple to implement without reward estimation, and is\nproved to be equivalent to our RLHF-COV algorithm, which directly implies the\nequivalence between the vanilla RLHF and DPO algorithms. Experiments\ndemonstrate the effectiveness of our DPO-COV algorithms under both offline and\nonline settings.",
+  "authors": [
+    "Ziyi Chen",
+    "Junyi Li",
+    "Peiran Yu",
+    "Heng Huang"
+  ],
+  "published": "2025-10-07T02:32:47Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05526v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RLHF-COV和DPO-COV算法，可同时解决RLHF/DPO对齐中的三大问题：偏好数据污染、奖励过优化和冗长性偏差。该算法在离线和在线场景下均有效，具备理论保证的泛化能力，且无需复杂奖励估计，实验验证了其优越性能。",
+  "order": 147,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05526v1"
+}

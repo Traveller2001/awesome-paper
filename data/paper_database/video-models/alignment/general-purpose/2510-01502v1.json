@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01502v1",
+  "title": "Aligning Video Models with Human Social Judgments via Behavior-Guided\n  Fine-Tuning",
+  "summary": "Humans intuitively perceive complex social signals in visual scenes, yet it\nremains unclear whether state-of-the-art AI models encode the same similarity\nstructure. We study (Q1) whether modern video and language models capture\nhuman-perceived similarity in social videos, and (Q2) how to instill this\nstructure into models using human behavioral data. To address this, we\nintroduce a new benchmark of over 49,000 odd-one-out similarity judgments on\n250 three-second video clips of social interactions, and discover a modality\ngap: despite the task being visual, caption-based language embeddings align\nbetter with human similarity than any pretrained video model. We close this gap\nby fine-tuning a TimeSformer video model on these human judgments with our\nnovel hybrid triplet-RSA objective using low-rank adaptation (LoRA), aligning\npairwise distances to human similarity. This fine-tuning protocol yields\nsignificantly improved alignment with human perceptions on held-out videos in\nterms of both explained variance and odd-one-out triplet accuracy. Variance\npartitioning shows that the fine-tuned video model increases shared variance\nwith language embeddings and explains additional unique variance not captured\nby the language model. Finally, we test transfer via linear probes and find\nthat human-similarity fine-tuning strengthens the encoding of social-affective\nattributes (intimacy, valence, dominance, communication) relative to the\npretrained baseline. Overall, our findings highlight a gap in pretrained video\nmodels' social recognition and demonstrate that behavior-guided fine-tuning\nshapes video representations toward human social perception.",
+  "authors": [
+    "Kathy Garcia",
+    "Leyla Isik"
+  ],
+  "published": "2025-10-01T22:29:55Z",
+  "primary_category": "q-bio.NC",
+  "arxiv_url": "https://arxiv.org/abs/2510.01502v1",
+  "primary_area": "video_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过人类社交判断数据微调视频模型，填补了预训练视频模型在社交认知方面的差距。构建了包含49,000多个相似性判断的新基准，发现语言嵌入比视频模型更符合人类感知。采用混合三元组-RSA目标和LoRA微调方法，显著提升了视频模型与人类社交感知的对齐度，并增强了社交情感属性的编码能力。",
+  "order": 579,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01502v1"
+}

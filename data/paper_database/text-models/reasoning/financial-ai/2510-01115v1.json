@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01115v1",
+  "title": "Exploring Network-Knowledge Graph Duality: A Case Study in Agentic\n  Supply Chain Risk Analysis",
+  "summary": "Large Language Models (LLMs) struggle with the complex, multi-modal, and\nnetwork-native data underlying financial risk. Standard Retrieval-Augmented\nGeneration (RAG) oversimplifies relationships, while specialist models are\ncostly and static. We address this gap with an LLM-centric agent framework for\nsupply chain risk analysis. Our core contribution is to exploit the inherent\nduality between networks and knowledge graphs (KG). We treat the supply chain\nnetwork as a KG, allowing us to use structural network science principles for\nretrieval. A graph traverser, guided by network centrality scores, efficiently\nextracts the most economically salient risk paths. An agentic architecture\norchestrates this graph retrieval alongside data from numerical factor tables\nand news streams. Crucially, it employs novel ``context shells'' -- descriptive\ntemplates that embed raw figures in natural language -- to make quantitative\ndata fully intelligible to the LLM. This lightweight approach enables the model\nto generate concise, explainable, and context-rich risk narratives in real-time\nwithout costly fine-tuning or a dedicated graph database.",
+  "authors": [
+    "Evan Heus",
+    "Rick Bookstaber",
+    "Dhruv Sharma"
+  ],
+  "published": "2025-10-01T17:02:14Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01115v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本研究提出一种基于大语言模型的智能体框架，通过探索网络与知识图谱的二元性来解决供应链风险分析问题。该方法将供应链网络视为知识图谱，利用网络中心性指标指导图遍历，结合数值因子表和新闻流数据，采用'上下文外壳'技术将定量数据转化为自然语言，无需微调即可生成实时、可解释的风险分析报告。",
+  "order": 192,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01115v1"
+}

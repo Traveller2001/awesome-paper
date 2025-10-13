@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00430v1",
+  "title": "Plug-and-Play Prompt Refinement via Latent Feedback for Diffusion Model\n  Alignment",
+  "summary": "Despite the recent progress, reinforcement learning (RL)-based fine-tuning of\ndiffusion models often struggles with generalization, composability, and\nrobustness against reward hacking. Recent studies have explored prompt\nrefinement as a modular alternative, but most adopt a feed-forward approach\nthat applies a single refined prompt throughout the entire sampling trajectory,\nthereby failing to fully leverage the sequential nature of reinforcement\nlearning. To address this, here we introduce PromptLoop, a plug-and-play RL\nframework that incorporates latent feedback into step-wise prompt refinement.\nRather than modifying diffusion model weights, a multimodal large language\nmodel (MLLM) is trained with RL to iteratively update prompts based on\nintermediate latent states of diffusion models. This design achieves a\nstructural analogy to the Diffusion RL approach, while retaining the\nflexibility and generality of prompt-based alignment. Extensive experiments\nacross diverse reward functions and diffusion backbones demonstrate that\nPromptLoop (i) achieves effective reward optimization, (ii) generalizes\nseamlessly to unseen models, (iii) composes orthogonally with existing\nalignment methods, and (iv) mitigates over-optimization and reward hacking.",
+  "authors": [
+    "Suhyeon Lee",
+    "Jong Chul Ye"
+  ],
+  "published": "2025-10-01T02:18:58Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00430v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出PromptLoop框架，通过潜在反馈实现逐步提示优化，解决扩散模型对齐中的泛化性和鲁棒性问题。该方法利用多模态大语言模型基于扩散中间状态迭代更新提示，无需修改模型权重，在多种奖励函数和扩散骨干网络上均表现出色。",
+  "order": 681,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00430v1"
+}

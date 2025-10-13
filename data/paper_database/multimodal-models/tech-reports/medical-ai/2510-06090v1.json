@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06090v1",
+  "title": "A public cardiac CT dataset featuring the left atrial appendage",
+  "summary": "Despite the success of advanced segmentation frameworks such as\nTotalSegmentator (TS), accurate segmentations of the left atrial appendage\n(LAA), coronary arteries (CAs), and pulmonary veins (PVs) remain a significant\nchallenge in medical imaging. In this work, we present the first open-source,\nanatomically coherent dataset of curated, high-resolution segmentations for\nthese structures, supplemented with whole-heart labels produced by TS on the\npublicly available ImageCAS dataset consisting of 1000 cardiac computed\ntomography angiography (CCTA) scans. One purpose of the data set is to foster\nnovel approaches to the analysis of LAA morphology.\n  LAA segmentations on ImageCAS were generated using a state-of-the-art\nsegmentation framework developed specifically for high resolution LAA\nsegmentation. We trained the network on a large private dataset with manual\nannotations provided by medical readers guided by a trained cardiologist and\ntransferred the model to ImageCAS data. CA labels were improved from the\noriginal ImageCAS annotations, while PV segmentations were refined from TS\noutputs. In addition, we provide a list of scans from ImageCAS that contains\ncommon data flaws such as step artefacts, LAAs extending beyond the scanner's\nfield of view, and other types of data defects.",
+  "authors": [
+    "Bjoern Hansen",
+    "Jonas Pedersen",
+    "Klaus F. Kofoed",
+    "Oscar Camara",
+    "Rasmus R. Paulsen",
+    "Kristine Soerensen"
+  ],
+  "published": "2025-10-07T16:16:59Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06090v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究发布了首个开源的心脏CT数据集，专门针对左心耳、冠状动脉和肺静脉提供高质量分割标注。该数据集基于公开的ImageCAS数据集，包含1000例心脏CTA扫描，通过先进分割框架生成解剖结构一致的标注，旨在促进左心耳形态分析研究，并标注了常见数据缺陷。",
+  "order": 69,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06090v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00451v1",
+  "title": "A Call to Action for a Secure-by-Design Generative AI Paradigm",
+  "summary": "Large language models have gained widespread prominence, yet their\nvulnerability to prompt injection and other adversarial attacks remains a\ncritical concern. This paper argues for a security-by-design AI paradigm that\nproactively mitigates LLM vulnerabilities while enhancing performance. To\nachieve this, we introduce PromptShield, an ontology-driven framework that\nensures deterministic and secure prompt interactions. It standardizes user\ninputs through semantic validation, eliminating ambiguity and mitigating\nadversarial manipulation. To assess PromptShield's security and performance\ncapabilities, we conducted an experiment on an agent-based system to analyze\ncloud logs within Amazon Web Services (AWS), containing 493 distinct events\nrelated to malicious activities and anomalies. By simulating prompt injection\nattacks and assessing the impact of deploying PromptShield, our results\ndemonstrate a significant improvement in model security and performance,\nachieving precision, recall, and F1 scores of approximately 94%. Notably, the\nontology-based framework not only mitigates adversarial threats but also\nenhances the overall performance and reliability of the system. Furthermore,\nPromptShield's modular and adaptable design ensures its applicability beyond\ncloud security, making it a robust solution for safeguarding generative AI\napplications across various domains. By laying the groundwork for AI safety\nstandards and informing future policy development, this work stimulates a\ncrucial dialogue on the pivotal role of deterministic prompt engineering and\nontology-based validation in ensuring the safe and responsible deployment of\nLLMs in high-stakes environments.",
+  "authors": [
+    "Dalal Alharthi",
+    "Ivan Roberto Kawaminami Garcia"
+  ],
+  "published": "2025-10-01T03:05:07Z",
+  "primary_category": "cs.CR",
+  "arxiv_url": "https://arxiv.org/abs/2510.00451v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出PromptShield框架，通过本体驱动的语义验证实现安全优先的生成式AI范式。该框架能标准化用户输入，消除歧义并防御对抗攻击，在AWS云日志测试中达到约94%的精确率/召回率，同时提升系统性能与可靠性，为高风险环境下的LLM安全部署奠定基础。",
+  "order": 311,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00451v1"
+}

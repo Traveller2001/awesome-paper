@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01891v1",
+  "title": "HRTFformer: A Spatially-Aware Transformer for Personalized HRTF\n  Upsampling in Immersive Audio Rendering",
+  "summary": "Personalized Head-Related Transfer Functions (HRTFs) are starting to be\nintroduced in many commercial immersive audio applications and are crucial for\nrealistic spatial audio rendering. However, one of the main hesitations\nregarding their introduction is that creating personalized HRTFs is impractical\nat scale due to the complexities of the HRTF measurement process. To mitigate\nthis drawback, HRTF spatial upsampling has been proposed with the aim of\nreducing measurements required. While prior work has seen success with\ndifferent machine learning (ML) approaches, these models often struggle with\nlong-range spatial consistency and generalization at high upsampling factors.\nIn this paper, we propose a novel transformer-based architecture for HRTF\nupsampling, leveraging the attention mechanism to better capture spatial\ncorrelations across the HRTF sphere. Working in the spherical harmonic (SH)\ndomain, our model learns to reconstruct high-resolution HRTFs from sparse input\nmeasurements with significantly improved accuracy. To enhance spatial\ncoherence, we introduce a neighbor dissimilarity loss that promotes magnitude\nsmoothness, yielding more realistic upsampling. We evaluate our method using\nboth perceptual localization models and objective spectral distortion metrics.\nExperiments show that our model surpasses leading methods by a substantial\nmargin in generating realistic, high-fidelity HRTFs.",
+  "authors": [
+    "Xuyi Hu",
+    "Jian Li",
+    "Shaojie Zhang",
+    "Stefan Goetz",
+    "Lorenzo Picinali",
+    "Ozgur B. Akan",
+    "Aidan O. T. Hogg"
+  ],
+  "published": "2025-10-02T10:59:21Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.01891v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "HRTFformer是一种基于Transformer的空间感知神经网络，用于个性化HRTF上采样。该模型利用注意力机制捕捉HRTF球面的空间相关性，在球谐域中从稀疏测量数据重建高分辨率HRTF，通过引入邻域差异损失提升空间一致性，在感知定位和频谱失真指标上显著优于现有方法。",
+  "order": 64,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01891v1"
+}

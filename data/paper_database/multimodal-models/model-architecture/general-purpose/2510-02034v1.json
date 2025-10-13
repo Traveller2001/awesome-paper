@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.02034v1",
+  "title": "GaussianMorphing: Mesh-Guided 3D Gaussians for Semantic-Aware Object\n  Morphing",
+  "summary": "We introduce GaussianMorphing, a novel framework for semantic-aware 3D shape\nand texture morphing from multi-view images. Previous approaches usually rely\non point clouds or require pre-defined homeomorphic mappings for untextured\ndata. Our method overcomes these limitations by leveraging mesh-guided 3D\nGaussian Splatting (3DGS) for high-fidelity geometry and appearance modeling.\nThe core of our framework is a unified deformation strategy that anchors\n3DGaussians to reconstructed mesh patches, ensuring geometrically consistent\ntransformations while preserving texture fidelity through topology-aware\nconstraints. In parallel, our framework establishes unsupervised semantic\ncorrespondence by using the mesh topology as a geometric prior and maintains\nstructural integrity via physically plausible point trajectories. This\nintegrated approach preserves both local detail and global semantic coherence\nthroughout the morphing process with out requiring labeled data. On our\nproposed TexMorph benchmark, GaussianMorphing substantially outperforms prior\n2D/3D methods, reducing color consistency error ($\\Delta E$) by 22.2% and EI by\n26.2%. Project page: https://baiyunshu.github.io/GAUSSIANMORPHING.github.io/",
+  "authors": [
+    "Mengtian Li",
+    "Yunshu Bai",
+    "Yimin Chu",
+    "Yijun Shen",
+    "Zhongmei Li",
+    "Weifeng Ge",
+    "Zhifeng Xie",
+    "Chaofeng Chen"
+  ],
+  "published": "2025-10-02T14:07:55Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02034v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "GaussianMorphing提出了一种基于网格引导3D高斯溅射的语义感知3D形态变换框架，通过将高斯点锚定到重建网格面片实现几何一致变形，利用网格拓扑作为几何先验建立无监督语义对应，在TexMorph基准测试中颜色一致性误差降低22.2%，在保持纹理保真度的同时实现高保真几何与外观建模。",
+  "order": 525,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02034v1"
+}

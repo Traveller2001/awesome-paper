@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.07233v1",
+  "title": "LAD-RAG: Layout-aware Dynamic RAG for Visually-Rich Document\n  Understanding",
+  "summary": "Question answering over visually rich documents (VRDs) requires reasoning not\nonly over isolated content but also over documents' structural organization and\ncross-page dependencies. However, conventional retrieval-augmented generation\n(RAG) methods encode content in isolated chunks during ingestion, losing\nstructural and cross-page dependencies, and retrieve a fixed number of pages at\ninference, regardless of the specific demands of the question or context. This\noften results in incomplete evidence retrieval and degraded answer quality for\nmulti-page reasoning tasks. To address these limitations, we propose LAD-RAG, a\nnovel Layout-Aware Dynamic RAG framework. During ingestion, LAD-RAG constructs\na symbolic document graph that captures layout structure and cross-page\ndependencies, adding it alongside standard neural embeddings to yield a more\nholistic representation of the document. During inference, an LLM agent\ndynamically interacts with the neural and symbolic indices to adaptively\nretrieve the necessary evidence based on the query. Experiments on\nMMLongBench-Doc, LongDocURL, DUDE, and MP-DocVQA demonstrate that LAD-RAG\nimproves retrieval, achieving over 90% perfect recall on average without any\ntop-k tuning, and outperforming baseline retrievers by up to 20% in recall at\ncomparable noise levels, yielding higher QA accuracy with minimal latency.",
+  "authors": [
+    "Zhivar Sourati",
+    "Zheng Wang",
+    "Marianne Menglin Liu",
+    "Yazhe Hu",
+    "Mengqing Guo",
+    "Sujeeth Bharadwaj",
+    "Kyu Han",
+    "Tao Sheng",
+    "Sujith Ravi",
+    "Morteza Dehghani",
+    "Dan Roth"
+  ],
+  "published": "2025-10-08T17:02:04Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07233v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'long_context', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "LAD-RAG提出了一种面向富文本文档理解的布局感知动态检索增强生成框架。该框架在文档处理阶段构建符号化文档图以保留布局结构和跨页依赖关系，在推理阶段通过LLM智能体动态交互神经与符号索引实现自适应证据检索。实验表明，该方法在多个基准测试中显著提升了检索效果和问答准确率，无需top-k调参即可达到90%以上的完美召回率。",
+  "order": 35,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07233v1"
+}

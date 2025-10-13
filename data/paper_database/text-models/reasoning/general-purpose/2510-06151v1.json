@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06151v1",
+  "title": "LLMs as Policy-Agnostic Teammates: A Case Study in Human Proxy Design\n  for Heterogeneous Agent Teams",
+  "summary": "A critical challenge in modelling Heterogeneous-Agent Teams is training\nagents to collaborate with teammates whose policies are inaccessible or\nnon-stationary, such as humans. Traditional approaches rely on expensive\nhuman-in-the-loop data, which limits scalability. We propose using Large\nLanguage Models (LLMs) as policy-agnostic human proxies to generate synthetic\ndata that mimics human decision-making. To evaluate this, we conduct three\nexperiments in a grid-world capture game inspired by Stag Hunt, a game theory\nparadigm that balances risk and reward. In Experiment 1, we compare decisions\nfrom 30 human participants and 2 expert judges with outputs from LLaMA 3.1 and\nMixtral 8x22B models. LLMs, prompted with game-state observations and reward\nstructures, align more closely with experts than participants, demonstrating\nconsistency in applying underlying decision criteria. Experiment 2 modifies\nprompts to induce risk-sensitive strategies (e.g. \"be risk averse\"). LLM\noutputs mirror human participants' variability, shifting between risk-averse\nand risk-seeking behaviours. Finally, Experiment 3 tests LLMs in a dynamic\ngrid-world where the LLM agents generate movement actions. LLMs produce\ntrajectories resembling human participants' paths. While LLMs cannot yet fully\nreplicate human adaptability, their prompt-guided diversity offers a scalable\nfoundation for simulating policy-agnostic teammates.",
+  "authors": [
+    "Aju Ani Justus",
+    "Chris Baber"
+  ],
+  "published": "2025-10-07T17:21:20Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06151v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出使用大语言模型作为策略不可知的人类代理，在异质智能体团队中生成模拟人类决策的合成数据。通过在网格世界捕获游戏中的三个实验证明，LLMs能够产生与专家决策一致、可调节风险敏感度且轨迹类似人类的行为，为模拟策略不可知的队友提供了可扩展的基础。",
+  "order": 87,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06151v1"
+}

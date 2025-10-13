@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06747v1",
+  "title": "TWIST: Training-free and Label-free Short Text Clustering through\n  Iterative Vector Updating with LLMs",
+  "summary": "In this paper, we propose a training-free and label-free method for short\ntext clustering that can be used on top of any existing embedder. In the\ncontext of customer-facing chatbots, companies are dealing with large amounts\nof user utterances that need to be clustered according to their intent. In\nthese commercial settings, no labeled data is typically available, and the\nnumber of clusters is not known. Our method is based on iterative vector\nupdating: it constructs sparse vectors based on representative texts, and then\niteratively refines them through LLM guidance. Our method achieves comparable\nor superior results to state-of-the-art methods that use contrastive learning,\nbut without assuming prior knowledge of clusters or labels. Experiments on\ndiverse datasets and smaller LLMs show that our method is model agnostic and\ncan be applied to any embedder, with relatively small LLMs, and different\nclustering methods. We also show that our method scales to large datasets,\nreducing the computational cost of the LLM. These low-resource, adaptable\nsettings and the scalability of our method make it more aligned with real-world\nscenarios than existing clustering methods.",
+  "authors": [
+    "I-Fan Lin",
+    "Faegheh Hasibi",
+    "Suzan Verberne"
+  ],
+  "published": "2025-10-08T08:05:39Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06747v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['dialogue_systems', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TWIST方法：一种无需训练和标注的短文本聚类技术，通过大语言模型指导的迭代向量更新实现意图聚类。该方法在商业对话场景中无需预设聚类数量或标注数据，兼容各种嵌入模型，计算效率高且可扩展性强，在多个数据集上达到或超越对比学习方法。",
+  "order": 84,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06747v1"
+}

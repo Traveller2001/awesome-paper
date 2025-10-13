@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02174v1",
+  "title": "Flatness-Aware Stochastic Gradient Langevin Dynamics",
+  "summary": "Generalization in deep learning is closely tied to the pursuit of flat minima\nin the loss landscape, yet classical Stochastic Gradient Langevin Dynamics\n(SGLD) offers no mechanism to bias its dynamics toward such low-curvature\nsolutions. This work introduces Flatness-Aware Stochastic Gradient Langevin\nDynamics (fSGLD), designed to efficiently and provably seek flat minima in\nhigh-dimensional nonconvex optimization problems. At each iteration, fSGLD uses\nthe stochastic gradient evaluated at parameters perturbed by isotropic Gaussian\nnoise, commonly referred to as Random Weight Perturbation (RWP), thereby\noptimizing a randomized-smoothing objective that implicitly captures curvature\ninformation. Leveraging these properties, we prove that the invariant measure\nof fSGLD stays close to a stationary measure concentrated on the global\nminimizers of a loss function regularized by the Hessian trace whenever the\ninverse temperature and the scale of random weight perturbation are properly\ncoupled. This result provides a rigorous theoretical explanation for the\nbenefits of random weight perturbation. In particular, we establish\nnon-asymptotic convergence guarantees in Wasserstein distance with the best\nknown rate and derive an excess-risk bound for the Hessian-trace regularized\nobjective. Extensive experiments on noisy-label and large-scale vision tasks,\nin both training-from-scratch and fine-tuning settings, demonstrate that fSGLD\nachieves superior or comparable generalization and robustness to baseline\nalgorithms while maintaining the computational cost of SGD, about half that of\nSAM. Hessian-spectrum analysis further confirms that fSGLD converges to\nsignificantly flatter minima.",
+  "authors": [
+    "Stefano Bruno",
+    "Youngsik Hwang",
+    "Jaehyeon An",
+    "Sotirios Sabanis",
+    "Dong-Young Lim"
+  ],
+  "published": "2025-10-02T16:24:46Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02174v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出平坦感知随机梯度朗之万动力学(fSGLD)，通过随机权重扰动机制在非凸优化中高效寻找平坦极小值。理论证明其稳态分布集中于Hessian迹正则化的全局最小解，实验显示在噪声标签和大规模视觉任务中取得优异泛化性能，计算成本仅相当于SGD的一半。",
+  "order": 733,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02174v1"
+}

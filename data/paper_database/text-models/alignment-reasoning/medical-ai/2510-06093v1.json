@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.06093v1",
+  "title": "Classical AI vs. LLMs for Decision-Maker Alignment in Health Insurance\n  Choices",
+  "summary": "As algorithmic decision-makers are increasingly applied to high-stakes\ndomains, AI alignment research has evolved from a focus on universal value\nalignment to context-specific approaches that account for decision-maker\nattributes. Prior work on Decision-Maker Alignment (DMA) has explored two\nprimary strategies: (1) classical AI methods integrating case-based reasoning,\nBayesian reasoning, and naturalistic decision-making, and (2) large language\nmodel (LLM)-based methods leveraging prompt engineering. While both approaches\nhave shown promise in limited domains such as medical triage, their\ngeneralizability to novel contexts remains underexplored. In this work, we\nimplement a prior classical AI model and develop an LLM-based algorithmic\ndecision-maker evaluated using a large reasoning model (GPT-5) and a\nnon-reasoning model (GPT-4) with weighted self-consistency under a zero-shot\nprompting framework, as proposed in recent literature. We evaluate both\napproaches on a health insurance decision-making dataset annotated for three\ntarget decision-makers with varying levels of risk tolerance (0.0, 0.5, 1.0).\nIn the experiments reported herein, classical AI and LLM-based models achieved\ncomparable alignment with attribute-based targets, with classical AI exhibiting\nslightly better alignment for a moderate risk profile. The dataset and\nopen-source implementation are publicly available at:\nhttps://github.com/TeX-Base/ClassicalAIvsLLMsforDMAlignment and\nhttps://github.com/Parallax-Advanced-Research/ITM/tree/feature_insurance.",
+  "authors": [
+    "Mallika Mainali",
+    "Harsha Sureshbabu",
+    "Anik Sen",
+    "Christopher B. Rauch",
+    "Noah D. Reifsnyder",
+    "John Meyer",
+    "J. T. Turner",
+    "Michael W. Floyd",
+    "Matthew Molineaux",
+    "Rosina O. Weber"
+  ],
+  "published": "2025-10-07T16:21:52Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06093v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'reasoning']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究比较了传统AI方法与大型语言模型在健康保险决策者对齐任务中的表现。通过评估三种不同风险承受能力的决策者配置文件，发现两种方法在属性对齐方面表现相当，传统AI在中等风险配置下略优。研究提供了公开数据集和开源实现，为零样本提示框架下的决策者对齐研究提供了实证基础。",
+  "order": 5,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06093v1"
+}

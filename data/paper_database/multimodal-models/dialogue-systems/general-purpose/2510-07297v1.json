@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07297v1",
+  "title": "Agentic generative AI for media content discovery at the national\n  football league",
+  "summary": "Generative AI has unlocked new possibilities in content discovery and\nmanagement. Through collaboration with the National Football League (NFL), we\ndemonstrate how a generative-AI based workflow enables media researchers and\nanalysts to query relevant historical plays using natural language rather than\ntraditional filter-and-click interfaces. The agentic workflow takes a user\nquery as input, breaks it into elements, and translates them into the\nunderlying database query language. Accuracy and latency are further improved\nthrough carefully designed semantic caching. The solution achieves over 95\npercent accuracy and reduces the average time to find relevant videos from 10\nminutes to 30 seconds, significantly increasing the NFL's operational\nefficiency and allowing users to focus on producing creative content and\nengaging storylines.",
+  "authors": [
+    "Henry Wang",
+    "Sirajus Salekin",
+    "Jake Lee",
+    "Ross Claytor",
+    "Shinan Zhang",
+    "Michael Chi"
+  ],
+  "published": "2025-10-08T17:51:34Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.07297v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文介绍了一种基于生成式AI的智能工作流，通过与NFL合作，使媒体研究人员能够使用自然语言查询相关历史比赛片段，替代传统筛选界面。该系统将用户查询分解并转换为数据库查询语言，通过语义缓存技术实现超过95%的准确率，将视频查找时间从10分钟缩短至30秒，显著提升运营效率。",
+  "order": 1,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07297v1"
+}

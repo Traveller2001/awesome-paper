@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06756v1",
+  "title": "Verifying Memoryless Sequential Decision-making of Large Language Models",
+  "summary": "We introduce a tool for rigorous and automated verification of large language\nmodel (LLM)- based policies in memoryless sequential decision-making tasks.\nGiven a Markov decision process (MDP) representing the sequential\ndecision-making task, an LLM policy, and a safety requirement expressed as a\nPCTL formula, our approach incrementally constructs only the reachable portion\nof the MDP guided by the LLM's chosen actions. Each state is encoded as a\nnatural language prompt, the LLM's response is parsed into an action, and\nreachable successor states by the policy are expanded. The resulting formal\nmodel is checked with Storm to determine whether the policy satisfies the\nspecified safety property. In experiments on standard grid world benchmarks, we\nshow that open source LLMs accessed via Ollama can be verified when\ndeterministically seeded, but generally underperform deep reinforcement\nlearning baselines. Our tool natively integrates with Ollama and supports\nPRISM-specified tasks, enabling continuous benchmarking in user-specified\nsequential decision-making tasks and laying a practical foundation for formally\nverifying increasingly capable LLMs.",
+  "authors": [
+    "Dennis Gross",
+    "Helge Spieker",
+    "Arnaud Gotlieb"
+  ],
+  "published": "2025-10-08T08:31:48Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06756v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种自动化验证工具，用于严格检验基于大语言模型的记忆无关序贯决策策略。该方法通过增量构建马尔可夫决策过程的可达状态，将状态编码为自然语言提示，解析LLM响应生成动作，并使用Storm模型检测器验证策略是否满足PCTL公式表达的安全属性。实验表明，确定性种子的开源LLM可被验证，但性能普遍低于深度强化学习基线。该工具为形式化验证LLM决策能力提供了实践基础。",
+  "order": 16,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06756v1"
+}

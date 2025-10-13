@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06738v1",
+  "title": "AWM: Accurate Weight-Matrix Fingerprint for Large Language Models",
+  "summary": "Protecting the intellectual property of large language models (LLMs) is\ncrucial, given the substantial resources required for their training.\nConsequently, there is an urgent need for both model owners and third parties\nto determine whether a suspect LLM is trained from scratch or derived from an\nexisting base model. However, the intensive post-training processes that models\ntypically undergo-such as supervised fine-tuning, extensive continued\npretraining, reinforcement learning, multi-modal extension, pruning, and\nupcycling-pose significant challenges to reliable identification. In this work,\nwe propose a training-free fingerprinting method based on weight matrices. We\nleverage the Linear Assignment Problem (LAP) and an unbiased Centered Kernel\nAlignment (CKA) similarity to neutralize the effects of parameter\nmanipulations, yielding a highly robust and high-fidelity similarity metric. On\na comprehensive testbed of 60 positive and 90 negative model pairs, our method\ndemonstrates exceptional robustness against all six aforementioned\npost-training categories while exhibiting a near-zero risk of false positives.\nBy achieving perfect scores on all classification metrics, our approach\nestablishes a strong basis for reliable model lineage verification. Moreover,\nthe entire computation completes within 30s on an NVIDIA 3090 GPU. The code is\navailable at https://github.com/LUMIA-Group/AWM.",
+  "authors": [
+    "Boyi Zeng",
+    "Lin Chen",
+    "Ziwei He",
+    "Xinbing Wang",
+    "Zhouhan Lin"
+  ],
+  "published": "2025-10-08T07:51:11Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06738v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'alignment']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出AWM方法，通过权重矩阵指纹识别大语言模型的来源，能有效抵抗六种后训练操作的干扰，在60对正样本和90对负样本测试中实现完美分类指标，为模型知识产权保护提供可靠验证方案。",
+  "order": 85,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06738v1"
+}

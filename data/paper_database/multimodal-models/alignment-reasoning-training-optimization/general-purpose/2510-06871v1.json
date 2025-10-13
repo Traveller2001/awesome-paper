@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.06871v1",
+  "title": "SaFeR-VLM: Toward Safety-aware Fine-grained Reasoning in Multimodal\n  Models",
+  "summary": "Multimodal Large Reasoning Models (MLRMs) demonstrate impressive cross-modal\nreasoning but often amplify safety risks under adversarial or unsafe prompts, a\nphenomenon we call the \\textit{Reasoning Tax}. Existing defenses mainly act at\nthe output level and do not constrain the reasoning process, leaving models\nexposed to implicit risks. In this paper, we propose SaFeR-VLM, a\nsafety-aligned reinforcement learning framework that embeds safety directly\ninto multimodal reasoning. The framework integrates four components: (I)\nQI-Safe-10K, a curated dataset emphasizing safety-critical and\nreasoning-sensitive cases; (II) safety-aware rollout, where unsafe generations\nundergo reflection and correction instead of being discarded; (III) structured\nreward modeling with multi-dimensional weighted criteria and explicit penalties\nfor hallucinations and contradictions; and (IV) GRPO optimization, which\nreinforces both safe and corrected trajectories. This unified design shifts\nsafety from a passive safeguard to an active driver of reasoning, enabling\nscalable and generalizable safety-aware reasoning. SaFeR-VLM further\ndemonstrates robustness against both explicit and implicit risks, supporting\ndynamic and interpretable safety decisions beyond surface-level filtering.\nSaFeR-VLM-3B achieves average performance $70.13$ and $78.97$ on safety and\nhelpfulness across six benchmarks, surpassing both same-scale and $>10\\times$\nlarger models such as Skywork-R1V3-38B, Qwen2.5VL-72B, and GLM4.5V-106B.\nRemarkably, SaFeR-VLM-7B benefits from its increased scale to surpass\nGPT-5-mini and Gemini-2.5-Flash by \\num{6.47} and \\num{16.76} points\nrespectively on safety metrics, achieving this improvement without any\ndegradation in helpfulness performance. Our codes are available at\nhttps://github.com/HarveyYi/SaFeR-VLM.",
+  "authors": [
+    "Huahui Yi",
+    "Kun Wang",
+    "Qiankun Li",
+    "Miao Yu",
+    "Liang Lin",
+    "Gongli Xi",
+    "Hao Wu",
+    "Xuming Hu",
+    "Kang Li",
+    "Yang Liu"
+  ],
+  "published": "2025-10-08T10:39:12Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06871v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['alignment', 'reasoning', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SaFeR-VLM安全增强框架，通过强化学习将安全约束直接嵌入多模态推理过程。该框架包含安全数据集构建、反思式修正生成、结构化奖励建模和GRPO优化四部分，将安全从被动防护转变为主动推理驱动。实验表明，3B参数的SaFeR-VLM在安全性和实用性上超越多个10倍以上规模的大模型，7B版本更在安全指标上显著优于GPT-5-mini和Gemini-2.5-Flash。",
+  "order": 203,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06871v1"
+}

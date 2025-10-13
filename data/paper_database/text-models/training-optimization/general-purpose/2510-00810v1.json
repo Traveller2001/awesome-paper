@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00810v1",
+  "title": "Family Matters: Language Transfer and Merging for Adapting Small LLMs to\n  Faroese",
+  "summary": "We investigate how to adapt small, efficient LLMs to Faroese, a low-resource\nNorth Germanic language. Starting from English models, we continue pre-training\non related Scandinavian languages, either individually or combined via merging,\nbefore fine-tuning on Faroese. We compare full fine-tuning with\nparameter-efficient tuning using LoRA, evaluating their impact on both\nlinguistic accuracy and text comprehension. Due to the lack of existing Faroese\nevaluation data, we construct two new minimal-pair benchmarks from adapted and\nnewly collected datasets and complement them with human evaluations by Faroese\nlinguists. Our results demonstrate that transfer from related languages is\ncrucial, though the optimal source language depends on the task: Icelandic\nenhances linguistic accuracy, whereas Danish boosts comprehension. Similarly,\nthe choice between full fine-tuning and LoRA is task-dependent: LoRA improves\nlinguistic acceptability and slightly increases human evaluation scores on the\nbase model, while full fine-tuning yields stronger comprehension performance\nand better preserves model capabilities during downstream fine-tuning.",
+  "authors": [
+    "Jenny Kunz",
+    "Iben Nyholm Debess",
+    "Annika Simonsen"
+  ],
+  "published": "2025-10-01T12:17:09Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00810v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探索如何将小型高效LLM适配到低资源法罗语。通过从英语模型出发，在相关斯堪的纳维亚语言上继续预训练，再对法罗语进行微调。实验表明：冰岛语提升语言准确性，丹麦语增强理解能力；LoRA优化语言可接受性，全微调则强化理解性能并保持模型能力。",
+  "order": 450,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00810v1"
+}

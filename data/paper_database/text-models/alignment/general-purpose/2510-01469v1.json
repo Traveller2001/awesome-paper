@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01469v1",
+  "title": "A-VERT: Agnostic Verification with Embedding Ranking Targets",
+  "summary": "The automatic evaluation of Language Model (LM) responses is a critical piece\nin the development of benchmarks and metrics, both for model training and\nquality assessment of production model endpoints. The current approaches to\nresponse classification relies on methods that are too expensive (i.e.\nLLM-as-a-Judge) or that are far from real-world conditions (string-matching,\nlogprob). In this paper, a structure-free evaluation method is presented. The\nmethod makes use of semantic embedding distances to match target candidates\nwith arbitrary LM-generated text, resulting in a robust classification of the\nresponse at a relatively low compute cost (embedding models of less than $10B$\nparameters). The results show a regression score of ~0.97 and an accuracy of\n~96% against human annotators, tested over 3 data sets and 3 different LM\narchitectures.",
+  "authors": [
+    "Nicolás Aguirre",
+    "Ramiro Caso",
+    "Ramiro Rodríguez Colmeiro",
+    "Mauro Santelli",
+    "Joaquín Toranzo Calderón"
+  ],
+  "published": "2025-10-01T21:26:03Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01469v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "A-VERT提出一种基于语义嵌入距离的无结构语言模型响应评估方法，通过计算嵌入向量相似度匹配目标候选与生成文本，在低计算成本（<100亿参数）下实现约96%的准确率，解决了传统方法成本过高或脱离实际的问题。",
+  "order": 402,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01469v1"
+}

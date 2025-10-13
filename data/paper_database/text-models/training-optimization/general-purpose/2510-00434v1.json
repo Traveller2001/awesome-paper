@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.00434v1",
+  "title": "On-the-Fly Data Augmentation via Gradient-Guided and Sample-Aware\n  Influence Estimation",
+  "summary": "Data augmentation has been widely employed to improve the generalization of\ndeep neural networks. Most existing methods apply fixed or random\ntransformations. However, we find that sample difficulty evolves along with the\nmodel's generalization capabilities in dynamic training environments. As a\nresult, applying uniform or stochastic augmentations, without accounting for\nsuch dynamics, can lead to a mismatch between augmented data and the model's\nevolving training needs, ultimately degrading training effectiveness. To\naddress this, we introduce SADA, a Sample-Aware Dynamic Augmentation that\nperforms on-the-fly adjustment of augmentation strengths based on each sample's\nevolving influence on model optimization. Specifically, we estimate each\nsample's influence by projecting its gradient onto the accumulated model update\ndirection and computing the temporal variance within a local training window.\nSamples with low variance, indicating stable and consistent influence, are\naugmented more strongly to emphasize diversity, while unstable samples receive\nmilder transformations to preserve semantic fidelity and stabilize learning.\nOur method is lightweight, which does not require auxiliary models or policy\ntuning. It can be seamlessly integrated into existing training pipelines as a\nplug-and-play module. Experiments across various benchmark datasets and model\narchitectures show consistent improvements of SADA, including +7.3\\% on\nfine-grained tasks and +4.3\\% on long-tailed datasets, highlighting the\nmethod's effectiveness and practicality.",
+  "authors": [
+    "Suorong Yang",
+    "Jie Zong",
+    "Lihang Wang",
+    "Ziheng Qin",
+    "Hai Gan",
+    "Pengfei Zhou",
+    "Kai Wang",
+    "Yang You",
+    "Furao Shen"
+  ],
+  "published": "2025-10-01T02:26:52Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00434v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SADA方法，一种基于梯度引导和样本感知影响估计的动态数据增强技术。通过计算样本梯度在模型更新方向上的投影及其时间方差，自适应调整增强强度：对影响稳定的样本增强更强以增加多样性，对不稳定样本增强较弱以保持语义保真度。该方法无需额外模型或策略调优，可作为即插即用模块集成到现有训练流程中，在细粒度任务和长尾数据集上分别提升7.3%和4.3%。",
+  "order": 680,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00434v1"
+}

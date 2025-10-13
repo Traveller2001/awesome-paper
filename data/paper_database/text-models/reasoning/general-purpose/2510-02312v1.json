@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02312v1",
+  "title": "KaVa: Latent Reasoning via Compressed KV-Cache Distillation",
+  "summary": "Large Language Models (LLMs) excel at multi-step reasoning problems with\nexplicit chain-of-thought (CoT), but verbose traces incur significant\ncomputational costs and memory overhead, and often carry redundant, stylistic\nartifacts. Latent reasoning has emerged as an efficient alternative that\ninternalizes the thought process, but it suffers from a critical lack of\nsupervision, limiting its effectiveness on complex, natural-language reasoning\ntraces. In this work, we propose KaVa, the first framework that bridges this\ngap by distilling knowledge directly from a compressed KV-cache of the teacher\ninto a latent-reasoning student via self-distillation, leveraging the\nrepresentational flexibility of continuous latent tokens to align stepwise KV\ntrajectories. We show that the abstract, unstructured knowledge within\ncompressed KV-cache, which lacks direct token correspondence, can serve as a\nrich supervisory signal for a latent reasoning student. Empirically, the\napproach consistently outperforms strong latent baselines, exhibits markedly\nsmaller degradation from equation-only to natural-language traces, and scales\nto larger backbones while preserving efficiency. These results establish\ncompressed KV-cache distillation as a scalable supervision signal for latent\nreasoning, combining the accuracy of CoT-trained teachers with the efficiency\nand deployability of latent inference.",
+  "authors": [
+    "Anna Kuzina",
+    "Maciej Pioro",
+    "Paul N. Whatmough",
+    "Babak Ehteshami Bejnordi"
+  ],
+  "published": "2025-10-02T17:59:51Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02312v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "KaVa提出首个通过压缩KV缓存蒸馏实现潜在推理的框架，将教师模型的KV轨迹知识蒸馏到潜在推理学生模型中，在保持推理效率的同时显著提升自然语言推理性能，解决了潜在推理缺乏监督信号的关键问题。",
+  "order": 689,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02312v1"
+}

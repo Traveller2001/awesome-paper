@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05987v1",
+  "title": "Sample Smart, Not Hard: Correctness-First Decoding for Better Reasoning\n  in LLMs",
+  "summary": "Large Language Models (LLMs) are increasingly applied to complex tasks that\nrequire extended reasoning. In such settings, models often benefit from diverse\nchains-of-thought to arrive at multiple candidate solutions. This requires two\ncompeting objectives: to inject enough stochasticity to explore multiple\nreasoning chains, and to ensure sufficient accuracy and quality in each path.\nExisting works pursue the first objective by increasing exploration at highly\nuncertain steps with higher temperature or larger candidate token sets, while\nothers improve reliability by rejecting samples with low confidence\npost-generation, implying that low confidence correlates with low answer\nquality. These two lines of thought are in conflict, as they conflate different\nsources of uncertainty. To resolve this, we argue that the decoding rule should\nbe calibrated by correctness, not confidence alone. We should sample from\ntokens with higher estimated correctness, and reduce sampling where expected\ncorrectness is low. We propose simple strategies that achieve this goal:\nGreedy-Threshold makes sampling greedy at very low confidence steps.\nCalibrated-TopK and Calibrated-epsilon set truncation threshold based on\nestimated rank-wise correctness. Together, our findings challenge prevailing\nheuristics about decoding under uncertainty and show gains across math and\ngeneral reasoning benchmarks.",
+  "authors": [
+    "Xueyan Li",
+    "Guinan Su",
+    "Mrinmaya Sachan",
+    "Jonas Geiping"
+  ],
+  "published": "2025-10-07T14:46:12Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05987v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出'正确性优先解码'方法，通过贪婪阈值、校准TopK和校准epsilon等策略，在LLM推理任务中基于正确性而非置信度进行采样，解决了探索多样性与保证准确性之间的矛盾，在数学和通用推理基准上取得显著提升。",
+  "order": 108,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05987v1"
+}

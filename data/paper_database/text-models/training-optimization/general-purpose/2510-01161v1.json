@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01161v1",
+  "title": "Prosperity before Collapse: How Far Can Off-Policy RL Reach with Stale\n  Data on LLMs?",
+  "summary": "Reinforcement learning has been central to recent advances in large language\nmodel reasoning, but most algorithms rely on on-policy training that demands\nfresh rollouts at every update, limiting efficiency and scalability.\nAsynchronous RL systems alleviate this by decoupling rollout generation from\ntraining, yet their effectiveness hinges on tolerating large staleness in\nrollout data, a setting where existing methods either degrade in performance or\ncollapse. We revisit this challenge and uncover a prosperity-before-collapse\nphenomenon: stale data can be as informative as on-policy data if exploited\nproperly. Building on this insight, we introduce M2PO (Second-Moment Trust\nPolicy Optimization), which constrains the second moment of importance weights\nto suppress only extreme outliers while preserving informative updates.\nNotably, M2PO sharply reduces the fraction of clipped tokens under high\nstaleness (from 1.22% to 0.06% over training), precisely masking high-variance\ntokens while maintaining stable optimization. Extensive evaluation across six\nmodels (from 1.7B to 32B) and eight benchmarks shows that M2PO delivers stable\noff-policy training even with data stale by at least 256 model updates and\nmatches on-policy performance.",
+  "authors": [
+    "Haizhong Zheng",
+    "Jiawei Zhao",
+    "Bedi Chen"
+  ],
+  "published": "2025-10-01T17:48:23Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01161v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出M2PO算法，针对大语言模型离线强化学习中的数据陈旧问题，通过约束重要性权重的二阶矩来抑制极端异常值，在数据延迟高达256次模型更新时仍能保持稳定训练，并在1.7B至32B参数的六个模型和八个基准测试中达到与在线策略相当的性能。",
+  "order": 185,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01161v1"
+}

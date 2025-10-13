@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01624v1",
+  "title": "Quagmires in SFT-RL Post-Training: When High SFT Scores Mislead and What\n  to Use Instead",
+  "summary": "In post-training for reasoning Large Language Models (LLMs), the current\nstate of practice trains LLMs in two independent stages: Supervised Fine-Tuning\n(SFT) and Reinforcement Learning with Verifiable Rewards (RLVR, shortened as\n``RL'' below). In this work, we challenge whether high SFT scores translate to\nimproved performance after RL. We provide extensive counter-examples where this\nis not true. We find high SFT scores can be biased toward simpler or more\nhomogeneous data and are not reliably predictive of subsequent RL gains or\nscaled-up post-training effectiveness. In some cases, RL training on models\nwith improved SFT performance could lead to substantially worse outcome\ncompared to RL on the base model without SFT. We study alternative metrics and\nidentify generalization loss on held-out reasoning examples and Pass@large k\nperformance to provide strong proxies for the RL outcome. We trained hundreds\nof models up to 12B-parameter with SFT and RLVR via GRPO and ran extensive\nevaluations on 7 math benchmarks with up to 256 repetitions, spending $>$1M GPU\nhours. Experiments include models from Llama3, Mistral-Nemo, Qwen3 and multiple\nstate-of-the-art SFT/RL datasets. Compared to directly predicting from pre-RL\nperformance, prediction based on generalization loss and Pass@large k achieves\nsubstantial higher precision, improving $R^2$ coefficient and Spearman's rank\ncorrelation coefficient by up to 0.5 (2x). This provides strong utility for\nbroad use cases. For example, in most experiments, we find SFT training on\nunique examples for a one epoch underperforms training on half examples for two\nepochs, either after SFT or SFT-then-RL; With the same SFT budget, training\nonly on short examples may lead to better SFT performance, though, it often\nleads to worse outcome after RL compared to training on examples with varying\nlengths. Evaluation tool will be open-sourced.",
+  "authors": [
+    "Feiyang Kang",
+    "Michael Kuchnik",
+    "Karthik Padthe",
+    "Marin Vlastelica",
+    "Ruoxi Jia",
+    "Carole-Jean Wu",
+    "Newsha Ardalani"
+  ],
+  "published": "2025-10-02T02:57:00Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01624v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究挑战了SFT高分必然提升RL后性能的传统认知，通过大规模实验证明高SFT分数可能因数据简单或同质而产生误导。提出泛化损失和Pass@large k作为更可靠的RL效果预测指标，在7个数学基准测试中验证其有效性，为LLM后训练提供新评估范式。",
+  "order": 385,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01624v1"
+}

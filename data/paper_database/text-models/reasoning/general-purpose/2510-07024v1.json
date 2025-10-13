@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07024v1",
+  "title": "Mining the Mind: What 100M Beliefs Reveal About Frontier LLM Knowledge",
+  "summary": "LLMs are remarkable artifacts that have revolutionized a range of NLP and AI\ntasks. A significant contributor is their factual knowledge, which, to date,\nremains poorly understood, and is usually analyzed from biased samples. In this\npaper, we take a deep tour into the factual knowledge (or beliefs) of a\nfrontier LLM, based on GPTKB v1.5 (Hu et al., 2025a), a recursively elicited\nset of 100 million beliefs of one of the strongest currently available frontier\nLLMs, GPT-4.1. We find that the models' factual knowledge differs quite\nsignificantly from established knowledge bases, and that its accuracy is\nsignificantly lower than indicated by previous benchmarks. We also find that\ninconsistency, ambiguity and hallucinations are major issues, shedding light on\nfuture research opportunities concerning factual LLM knowledge.",
+  "authors": [
+    "Shrestha Ghosh",
+    "Luca Giordano",
+    "Yujia Hu",
+    "Tuan-Phong Nguyen",
+    "Simon Razniewski"
+  ],
+  "published": "2025-10-08T13:48:38Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07024v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究基于GPTKB v1.5的1亿条信念数据，深入分析了前沿大语言模型GPT-4.1的事实性知识。研究发现：模型知识与传统知识库差异显著，实际准确率低于基准测试表现，不一致性、模糊性和幻觉问题是主要挑战，为未来事实性知识研究指明方向。",
+  "order": 60,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07024v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07058v1",
+  "title": "Concept Retrieval -- What and How?",
+  "summary": "A concept may reflect either a concrete or abstract idea. Given an input\nimage, this paper seeks to retrieve other images that share its central\nconcepts, capturing aspects of the underlying narrative. This goes beyond\nconventional retrieval or clustering methods, which emphasize visual or\nsemantic similarity. We formally define the problem, outline key requirements,\nand introduce appropriate evaluation metrics. We propose a novel approach\ngrounded in two key observations: (1) While each neighbor in the embedding\nspace typically shares at least one concept with the query, not all neighbors\nnecessarily share the same concept with one another. (2) Modeling this\nneighborhood with a bimodal Gaussian distribution uncovers meaningful structure\nthat facilitates concept identification. Qualitative, quantitative, and human\nevaluations confirm the effectiveness of our approach. See the package on PyPI:\nhttps://pypi.org/project/coret/",
+  "authors": [
+    "Ori nizan",
+    "Oren Shrout",
+    "Ayellet Tal"
+  ],
+  "published": "2025-10-08T14:26:18Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07058v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种新颖的概念检索方法，旨在从输入图像中提取核心概念并检索具有相同概念的其他图像，超越传统基于视觉或语义相似度的检索。通过双峰高斯分布建模嵌入空间邻域结构，该方法能有效识别共享概念，在定性和定量评估中均表现出色。",
+  "order": 120,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07058v1"
+}

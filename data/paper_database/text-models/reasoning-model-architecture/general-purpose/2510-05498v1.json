@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05498v1",
+  "title": "Prototype-Based Dynamic Steering for Large Language Models",
+  "summary": "Despite impressive breadth, LLMs still rely on explicit reasoning\ninstructions or static, one-fits-all steering methods, leaving a gap for\nadaptive, instruction-free reasoning amplification. We present Prototype-Based\nDynamic Steering (PDS), a test-time method that amplifies large language model\n(LLM) reasoning without adding or altering instructions. We introduce\n\"reasoning prototypes\" by clustering activation differences between\nChain-of-Thought (CoT) and neutral prompts. At inference, an input's hidden\nstate is projected onto these prototypes to form an instance-specific steering\nvector. Evaluated on GSM8K, AQuA-RAT, and BIG-Bench tasks, PDS consistently\nimproves accuracy without fine-tuning or prompt engineering. Notably, the gains\npersist even when CoT is explicitly suppressed to improve cost-efficiency,\nindicating that the intervention strengthens latent reasoning processes rather\nthan inducing a superficial behavioral shift. These results position dynamic,\nprototype-guided steering as a lightweight alternative to training-time\napproaches for enhancing LLM reasoning.",
+  "authors": [
+    "Ceyhun Efe Kayan",
+    "Li Zhang"
+  ],
+  "published": "2025-10-07T01:34:28Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05498v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出原型动态引导(PDS)方法，通过聚类思维链与中性提示的激活差异构建推理原型，在推理时根据输入隐状态生成实例特定的引导向量。该方法无需微调或提示工程，在多个推理任务中显著提升准确率，即使抑制显式思维链仍能增强潜在推理能力，为LLM推理增强提供轻量级替代方案。",
+  "order": 53,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05498v1"
+}

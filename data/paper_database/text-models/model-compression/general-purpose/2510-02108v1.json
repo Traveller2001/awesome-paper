@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02108v1",
+  "title": "Unlocking Symbol-Level Precoding Efficiency Through Tensor Equivariant\n  Neural Network",
+  "summary": "Although symbol-level precoding (SLP) based on constructive interference (CI)\nexploitation offers performance gains, its high complexity remains a\nbottleneck. This paper addresses this challenge with an end-to-end deep\nlearning (DL) framework with low inference complexity that leverages the\nstructure of the optimal SLP solution in the closed-form and its inherent\ntensor equivariance (TE), where TE denotes that a permutation of the input\ninduces the corresponding permutation of the output. Building upon the\ncomputationally efficient model-based formulations, as well as their known\nclosed-form solutions, we analyze their relationship with linear precoding (LP)\nand investigate the corresponding optimality condition. We then construct a\nmapping from the problem formulation to the solution and prove its TE, based on\nwhich the designed networks reveal a specific parameter-sharing pattern that\ndelivers low computational complexity and strong generalization. Leveraging\nthese, we propose the backbone of the framework with an attention-based TE\nmodule, achieving linear computational complexity. Furthermore, we demonstrate\nthat such a framework is also applicable to imperfect CSI scenarios, where we\ndesign a TE-based network to map the CSI, statistics, and symbols to auxiliary\nvariables. Simulation results show that the proposed framework captures\nsubstantial performance gains of optimal SLP, while achieving an approximately\n80-times speedup over conventional methods and maintaining strong\ngeneralization across user numbers and symbol block lengths.",
+  "authors": [
+    "Jinshuo Zhang",
+    "Yafei Wang",
+    "Xinping Yi",
+    "Wenjin Wang",
+    "Shi Jin",
+    "Symeon Chatzinotas",
+    "Björn Ottersten"
+  ],
+  "published": "2025-10-02T15:15:50Z",
+  "primary_category": "eess.SP",
+  "arxiv_url": "https://arxiv.org/abs/2510.02108v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于张量等变神经网络的符号级预编码端到端深度学习框架，通过利用最优解的张量等变特性设计参数共享模式，在保持最优SLP性能增益的同时实现80倍加速，并在线性计算复杂度下具备强泛化能力。",
+  "order": 46,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02108v1"
+}

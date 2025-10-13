@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01929v1",
+  "title": "Inverse Language Modeling towards Robust and Grounded LLMs",
+  "summary": "The current landscape of defensive mechanisms for LLMs is fragmented and\nunderdeveloped, unlike prior work on classifiers. To further promote\nadversarial robustness in LLMs, we propose Inverse Language Modeling (ILM), a\nunified framework that simultaneously 1) improves the robustness of LLMs to\ninput perturbations, and, at the same time, 2) enables native grounding by\ninverting model outputs to identify potentially toxic or unsafe input triggers.\nILM transforms LLMs from static generators into analyzable and robust systems,\npotentially helping RED teaming. ILM can lay the foundation for next-generation\nLLMs that are not only robust and grounded but also fundamentally more\ncontrollable and trustworthy. The code is publicly available at\ngithub.com/davegabe/pag-llm.",
+  "authors": [
+    "Davide Gabrielli",
+    "Simone Sestito",
+    "Iacopo Masi"
+  ],
+  "published": "2025-10-02T11:47:18Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01929v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出逆向语言建模(ILM)统一框架，通过反转模型输出来识别潜在有害输入，同时提升LLM对抗扰动的鲁棒性，实现原生基础化，将静态生成器转变为可分析、鲁棒的系统，为构建更可控可信的下一代LLM奠定基础。",
+  "order": 360,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01929v1"
+}

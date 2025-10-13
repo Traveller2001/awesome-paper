@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02266v1",
+  "title": "NeuroSwift: A Lightweight Cross-Subject Framework for fMRI Visual\n  Reconstruction of Complex Scenes",
+  "summary": "Reconstructing visual information from brain activity via computer vision\ntechnology provides an intuitive understanding of visual neural mechanisms.\nDespite progress in decoding fMRI data with generative models, achieving\naccurate cross-subject reconstruction of visual stimuli remains challenging and\ncomputationally demanding. This difficulty arises from inter-subject\nvariability in neural representations and the brain's abstract encoding of core\nsemantic features in complex visual inputs. To address these challenges, we\npropose NeuroSwift, which integrates complementary adapters via diffusion:\nAutoKL for low-level features and CLIP for semantics. NeuroSwift's CLIP Adapter\nis trained on Stable Diffusion generated images paired with COCO captions to\nemulate higher visual cortex encoding. For cross-subject generalization, we\npretrain on one subject and then fine-tune only 17 percent of parameters (fully\nconnected layers) for new subjects, while freezing other components. This\nenables state-of-the-art performance with only one hour of training per subject\non lightweight GPUs (three RTX 4090), and it outperforms existing methods.",
+  "authors": [
+    "Shiyi Zhang",
+    "Dong Liang",
+    "Yihang Zhou"
+  ],
+  "published": "2025-10-02T17:45:43Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02266v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "medical_ai",
+  "tldr_zh": "NeuroSwift是一种轻量级跨被试fMRI视觉重建框架，通过融合AutoKL和CLIP适配器的扩散模型，仅需微调17%参数即可实现复杂场景的跨被试视觉重建，在轻量级GPU上单被试训练仅需1小时，性能优于现有方法。",
+  "order": 502,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02266v1"
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00909v1",
+  "title": "\"We are not Future-ready\": Understanding AI Privacy Risks and Existing\n  Mitigation Strategies from the Perspective of AI Developers in Europe",
+  "summary": "The proliferation of AI has sparked privacy concerns related to training\ndata, model interfaces, downstream applications, and more. We interviewed 25 AI\ndevelopers based in Europe to understand which privacy threats they believe\npose the greatest risk to users, developers, and businesses and what protective\nstrategies, if any, would help to mitigate them. We find that there is little\nconsensus among AI developers on the relative ranking of privacy risks. These\ndifferences stem from salient reasoning patterns that often relate to human\nrather than purely technical factors. Furthermore, while AI developers are\naware of proposed mitigation strategies for addressing these risks, they\nreported minimal real-world adoption. Our findings highlight both gaps and\nopportunities for empowering AI developers to better address privacy risks in\nAI.",
+  "authors": [
+    "Alexandra Klymenko",
+    "Stephen Meisenbacher",
+    "Patrick Gage Kelley",
+    "Sai Teja Peddinti",
+    "Kurt Thomas",
+    "Florian Matthes"
+  ],
+  "published": "2025-10-01T13:51:33Z",
+  "primary_category": "cs.HC",
+  "arxiv_url": "https://arxiv.org/abs/2510.00909v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过访谈25位欧洲AI开发者，揭示了AI隐私风险评估缺乏共识的现状。研究发现隐私风险认知差异主要源于人为因素而非纯技术问题，且现有缓解策略在实际应用中采用率极低。研究强调了在赋能开发者应对AI隐私风险方面存在的差距与机遇。",
+  "order": 221,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00909v1"
+}

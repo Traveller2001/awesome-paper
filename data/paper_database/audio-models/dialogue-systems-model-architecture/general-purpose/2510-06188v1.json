@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06188v1",
+  "title": "BanglaTalk: Towards Real-Time Speech Assistance for Bengali Regional\n  Dialects",
+  "summary": "Real-time speech assistants are becoming increasingly popular for ensuring\nimproved accessibility to information. Bengali, being a low-resource language\nwith a high regional dialectal diversity, has seen limited progress in\ndeveloping such systems. Existing systems are not optimized for real-time use\nand focus only on standard Bengali. In this work, we present BanglaTalk, the\nfirst real-time speech assistance system for Bengali regional dialects.\nBanglaTalk follows the client-server architecture and uses the Real-time\nTransport Protocol (RTP) to ensure low-latency communication. To address\ndialectal variation, we introduce a dialect-aware ASR system, BRDialect,\ndeveloped by fine-tuning the IndicWav2Vec model in ten Bengali regional\ndialects. It outperforms the baseline ASR models by 12.41-33.98% on the\nRegSpeech12 dataset. Furthermore, BanglaTalk can operate at a low bandwidth of\n24 kbps while maintaining an average end-to-end delay of 4.9 seconds. Low\nbandwidth usage and minimal end-to-end delay make the system both\ncost-effective and interactive for real-time use cases, enabling inclusive and\naccessible speech technology for the diverse community of Bengali speakers.",
+  "authors": [
+    "Jakir Hasan",
+    "Shubhashis Roy Dipta"
+  ],
+  "published": "2025-10-07T17:47:39Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06188v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "['dialogue_systems', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "BanglaTalk是首个面向孟加拉语方言的实时语音助手系统，采用客户端-服务器架构和RTP协议实现低延迟通信。通过微调IndicWav2Vec模型开发了方言感知的BRDialect ASR系统，在RegSpeech12数据集上比基线模型性能提升12.41-33.98%。系统可在24kbps低带宽下运行，平均端到端延迟仅4.9秒，为孟加拉语多样化社区提供包容性语音技术服务。",
+  "order": 9,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06188v1"
+}

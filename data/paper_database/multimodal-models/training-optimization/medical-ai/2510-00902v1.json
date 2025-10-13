@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00902v1",
+  "title": "Intuitions of Machine Learning Researchers about Transfer Learning for\n  Medical Image Classification",
+  "summary": "Transfer learning is crucial for medical imaging, yet the selection of source\ndatasets - which can impact the generalizability of algorithms, and thus\npatient outcomes - often relies on researchers' intuition rather than\nsystematic principles. This study investigates these decisions through a\ntask-based survey with machine learning practitioners. Unlike prior work that\nbenchmarks models and experimental setups, we take a human-centered HCI\nperspective on how practitioners select source datasets. Our findings indicate\nthat choices are task-dependent and influenced by community practices, dataset\nproperties, and computational (data embedding), or perceived visual or semantic\nsimilarity. However, similarity ratings and expected performance are not always\naligned, challenging a traditional \"more similar is better\" view. Participants\noften used ambiguous terminology, which suggests a need for clearer definitions\nand HCI tools to make them explicit and usable. By clarifying these heuristics,\nthis work provides practical insights for more systematic source selection in\ntransfer learning.",
+  "authors": [
+    "Yucheng Lu",
+    "Hubert Dariusz Zając",
+    "Veronika Cheplygina",
+    "Amelia Jiménez-Sánchez"
+  ],
+  "published": "2025-10-01T13:44:46Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00902v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究通过任务型调查探讨机器学习研究者在医学图像分类中选择迁移学习源数据集时的直觉决策。研究发现选择具有任务依赖性，受社区实践、数据集特性和计算因素影响，相似性评分与预期性能并不总一致，挑战了传统'越相似越好'观点。研究揭示了需要更清晰定义和HCI工具来支持系统化的源数据集选择。",
+  "order": 617,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00902v1"
+}

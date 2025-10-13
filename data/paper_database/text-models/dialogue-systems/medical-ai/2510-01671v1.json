@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01671v1",
+  "title": "A Locally Executable AI System for Improving Preoperative Patient\n  Communication: A Multi-Domain Clinical Evaluation",
+  "summary": "Patients awaiting invasive procedures often have unanswered pre-procedural\nquestions; however, time-pressured workflows and privacy constraints limit\npersonalized counseling. We present LENOHA (Low Energy, No Hallucination, Leave\nNo One Behind Architecture), a safety-first, local-first system that routes\ninputs with a high-precision sentence-transformer classifier and returns\nverbatim answers from a clinician-curated FAQ for clinical queries, eliminating\nfree-text generation in the clinical path. We evaluated two domains (tooth\nextraction and gastroscopy) using expert-reviewed validation sets\n(n=400/domain) for thresholding and independent test sets (n=200/domain). Among\nthe four encoders, E5-large-instruct (560M) achieved an overall accuracy of\n0.983 (95% CI 0.964-0.991), AUC 0.996, and seven total errors, which were\nstatistically indistinguishable from GPT-4o on this task; Gemini made no errors\non this test set. Energy logging shows that the non-generative clinical path\nconsumes ~1.0 mWh per input versus ~168 mWh per small-talk reply from a local\n8B SLM, a ~170x difference, while maintaining ~0.10 s latency on a single\non-prem GPU. These results indicate that near-frontier discrimination and\ngeneration-induced errors are structurally avoided in the clinical path by\nreturning vetted FAQ answers verbatim, supporting privacy, sustainability, and\nequitable deployment in bandwidth-limited environments.",
+  "authors": [
+    "Motoki Sato",
+    "Yuki Matsushita",
+    "Hidekazu Takahashi",
+    "Tomoaki Kakazu",
+    "Sou Nagata",
+    "Mizuho Ohnuma",
+    "Atsushi Yoshikawa",
+    "Masayuki Yamamura"
+  ],
+  "published": "2025-10-02T04:53:11Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01671v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究开发了LENOHA系统，一种本地执行的AI架构，用于术前患者沟通。系统通过高精度分类器匹配临床FAQ中的标准答案，避免自由文本生成风险。在牙齿提取和胃镜检查两个领域测试显示准确率达98.3%，能耗仅为生成式模型的1/170，支持隐私保护和资源受限环境部署。",
+  "order": 99,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01671v1"
+}

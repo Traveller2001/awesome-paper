@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06040v1",
+  "title": "VideoMiner: Iteratively Grounding Key Frames of Hour-Long Videos via\n  Tree-based Group Relative Policy Optimization",
+  "summary": "Understanding hour-long videos with multi-modal large language models\n(MM-LLMs) enriches the landscape of human-centered AI applications. However,\nfor end-to-end video understanding with LLMs, uniformly sampling video frames\nresults in LLMs being overwhelmed by a vast amount of irrelevant information as\nvideo length increases. Existing hierarchical key frame extraction methods\nimprove the accuracy of video understanding but still face two critical\nchallenges. 1) How can the interference of extensive redundant information in\nlong videos be mitigated? 2) How can a model dynamically adapt to complex\nhierarchical structures while accurately identifying key frames? To address\nthese issues, we propose VideoMiner, which iteratively segments, captions, and\nclusters long videos, forming a hierarchical tree structure. The proposed\nVideoMiner progresses from long videos to events to frames while preserving\ntemporal coherence, effectively addressing the first challenge. To precisely\nlocate key frames, we introduce T-GRPO, a tree-based group relative policy\noptimization in reinforcement learning method that guides the exploration of\nthe VideoMiner. The proposed T-GRPO is specifically designed for tree\nstructures, integrating spatiotemporal information at the event level while\nbeing guided by the question, thus solving the second challenge. We achieve\nsuperior performance in all long-video understanding tasks and uncover several\ninteresting insights. Our proposed T-GRPO surprisingly incentivizes the model\nto spontaneously generate a reasoning chain. Additionally, the designed tree\ngrowth auxin dynamically adjusts the expansion depth, obtaining accuracy and\nefficiency gains. The code is publicly available at\nhttps://github.com/caoxinye/VideoMiner.",
+  "authors": [
+    "Xinye Cao",
+    "Hongcan Guo",
+    "Jiawen Qian",
+    "Guoshun Nan",
+    "Chao Wang",
+    "Yuqi Pan",
+    "Tianhao Hou",
+    "Xiaojuan Wang",
+    "Yutong Gao"
+  ],
+  "published": "2025-10-07T15:34:46Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06040v1",
+  "primary_area": "video_models",
+  "secondary_focus": "['model_architecture', 'reasoning', 'long_context']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VideoMiner提出一种基于树状结构的分层关键帧定位方法，通过迭代分割、描述和聚类处理小时级长视频，并引入树状分组相对策略优化(T-GRPO)强化学习方法，在保持时序连贯性的同时精准定位关键帧，显著提升长视频理解性能，还能自发生成推理链并动态调整树结构深度。",
+  "order": 75,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06040v1"
+}

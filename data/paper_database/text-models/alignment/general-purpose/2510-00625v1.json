@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.00625v1",
+  "title": "Is Model Editing Built on Sand? Revealing Its Illusory Success and\n  Fragile Foundation",
+  "summary": "Large language models (LLMs) inevitably encode outdated or incorrect\nknowledge. Updating, deleting, and forgetting such knowledge is important for\nalignment, safety, and other issues. To address this issue, model editing has\nemerged as a promising paradigm: by precisely editing a small subset of\nparameters such that a specific fact is updated while preserving other\nknowledge. Despite its great success reported in previous papers, we find the\napparent reliability of editing rests on a fragile foundation and the current\nliterature is largely driven by illusory success. The fundamental goal of\nsteering the model's output toward a target with minimal modification would\nencourage exploiting hidden shortcuts, rather than utilizing real semantics.\nThis problem directly challenges the feasibility of the current model editing\nliterature at its very foundation, as shortcuts are inherently at odds with\nrobust knowledge integration. Coincidentally, this issue has long been obscured\nby evaluation frameworks that lack the design of negative examples. To uncover\nit, we systematically develop a suite of new evaluation methods. Strikingly, we\nfind that state-of-the-art approaches collapse even under the simplest negation\nqueries. Our empirical evidence shows that editing is likely to be based on\nshortcuts rather than full semantics, calling for an urgent reconsideration of\nthe very basis of model editing before further advancements can be meaningfully\npursued.",
+  "authors": [
+    "Wei Liu",
+    "Haomei Xu",
+    "Bingqing Liu",
+    "Zhiying Deng",
+    "Haozhao Wang",
+    "Jun Wang",
+    "Ruixuan Li",
+    "Yee Whye Teh",
+    "Wee Sun Lee"
+  ],
+  "published": "2025-10-01T07:59:23Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00625v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文质疑当前模型编辑技术的可靠性，指出其成功可能建立在利用隐藏捷径而非真实语义的基础上。通过开发新的评估方法，研究发现现有最先进方法在简单否定查询下即失效，表明编辑可能基于脆弱机制，呼吁重新审视模型编辑的基础。",
+  "order": 269,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00625v1"
+}

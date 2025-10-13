@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01448v1",
+  "title": "GeoSURGE: Geo-localization using Semantic Fusion with Hierarchy of\n  Geographic Embeddings",
+  "summary": "Worldwide visual geo-localization seeks to determine the geographic location\nof an image anywhere on Earth using only its visual content. Learned\nrepresentations of geography for visual geo-localization remain an active\nresearch topic despite much progress. We formulate geo-localization as aligning\nthe visual representation of the query image with a learned geographic\nrepresentation. Our novel geographic representation explicitly models the world\nas a hierarchy of geographic embeddings. Additionally, we introduce an approach\nto efficiently fuse the appearance features of the query image with its\nsemantic segmentation map, forming a robust visual representation. Our main\nexperiments demonstrate improved all-time bests in 22 out of 25 metrics\nmeasured across five benchmark datasets compared to prior state-of-the-art\n(SOTA) methods and recent Large Vision-Language Models (LVLMs). Additional\nablation studies support the claim that these gains are primarily driven by the\ncombination of geographic and visual representations.",
+  "authors": [
+    "Angel Daruna",
+    "Nicholas Meegan",
+    "Han-Pang Chiu",
+    "Supun Samarasekera",
+    "Rakesh Kumar"
+  ],
+  "published": "2025-10-01T20:39:48Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01448v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "GeoSURGE提出了一种新颖的地理定位方法，通过层次化地理嵌入和语义分割特征融合，在视觉地理定位任务中实现了22/25项指标的最优性能，超越了现有SOTA方法和大型视觉语言模型。",
+  "order": 583,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01448v1"
+}

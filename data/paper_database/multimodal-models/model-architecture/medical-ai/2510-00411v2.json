@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00411v2",
+  "title": "Does Bigger Mean Better? Comparitive Analysis of CNNs and Biomedical\n  Vision Language Modles in Medical Diagnosis",
+  "summary": "The accurate interpretation of chest radiographs using automated methods is a\ncritical task in medical imaging. This paper presents a comparative analysis\nbetween a supervised lightweight Convolutional Neural Network (CNN) and a\nstate-of-the-art, zero-shot medical Vision-Language Model (VLM), BiomedCLIP,\nacross two distinct diagnostic tasks: pneumonia detection on the PneumoniaMNIST\nbenchmark and tuberculosis detection on the Shenzhen TB dataset. Our\nexperiments show that supervised CNNs serve as highly competitive baselines in\nboth cases. While the default zero-shot performance of the VLM is lower, we\ndemonstrate that its potential can be unlocked via a simple yet crucial remedy:\ndecision threshold calibration. By optimizing the classification threshold on a\nvalidation set, the performance of BiomedCLIP is significantly boosted across\nboth datasets. For pneumonia detection, calibration enables the zero-shot VLM\nto achieve a superior F1-score of 0.8841, surpassing the supervised CNN's\n0.8803. For tuberculosis detection, calibration dramatically improves the\nF1-score from 0.4812 to 0.7684, bringing it close to the supervised baseline's\n0.7834. This work highlights a key insight: proper calibration is essential for\nleveraging the full diagnostic power of zero-shot VLMs, enabling them to match\nor even outperform efficient, task-specific supervised models.",
+  "authors": [
+    "Ran Tong",
+    "Jiaqi Liu",
+    "Su Liu",
+    "Jiexi Xu",
+    "Lanruo Wang",
+    "Tong Wang"
+  ],
+  "published": "2025-10-01T01:46:09Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00411v2",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文比较了轻量级CNN与BiomedCLIP视觉语言模型在肺炎和结核病诊断中的表现。研究发现，通过决策阈值校准，零射VLM在肺炎检测中F1分数达0.8841超越CNN的0.8803，在结核病检测中从0.4812提升至0.7684接近CNN的0.7834，表明适当校准可使零射模型媲美专用监督模型。",
+  "order": 684,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00411v2"
+}

@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06811v1",
+  "title": "BlackboxNLP-2025 MIB Shared Task: Exploring Ensemble Strategies for\n  Circuit Localization Methods",
+  "summary": "The Circuit Localization track of the Mechanistic Interpretability Benchmark\n(MIB) evaluates methods for localizing circuits within large language models\n(LLMs), i.e., subnetworks responsible for specific task behaviors. In this\nwork, we investigate whether ensembling two or more circuit localization\nmethods can improve performance. We explore two variants: parallel and\nsequential ensembling. In parallel ensembling, we combine attribution scores\nassigned to each edge by different methods-e.g., by averaging or taking the\nminimum or maximum value. In the sequential ensemble, we use edge attribution\nscores obtained via EAP-IG as a warm start for a more expensive but more\nprecise circuit identification method, namely edge pruning. We observe that\nboth approaches yield notable gains on the benchmark metrics, leading to a more\nprecise circuit identification approach. Finally, we find that taking a\nparallel ensemble over various methods, including the sequential ensemble,\nachieves the best results. We evaluate our approach in the BlackboxNLP 2025 MIB\nShared Task, comparing ensemble scores to official baselines across multiple\nmodel-task combinations.",
+  "authors": [
+    "Philipp Mondorf",
+    "Mingyang Wang",
+    "Sebastian Gerstner",
+    "Ahmad Dawar Hakimi",
+    "Yihong Liu",
+    "Leonor Veloso",
+    "Shijia Zhou",
+    "Hinrich Schütze",
+    "Barbara Plank"
+  ],
+  "published": "2025-10-08T09:39:40Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06811v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究了在大型语言模型电路定位任务中集成多种方法的策略，提出了并行和序列两种集成方式。并行集成通过组合不同方法的边属性评分（如平均、最小或最大值），序列集成则使用EAP-IG评分作为更精确的边剪枝方法的预热起点。实验表明两种集成策略均能显著提升基准指标性能，且并行集成（包含序列集成方法）效果最佳。该研究在BlackboxNLP 2025 MIB共享任务中验证了集成方法相对于官方基线的优势。",
+  "order": 77,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06811v1"
+}

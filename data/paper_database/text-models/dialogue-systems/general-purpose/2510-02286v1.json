@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02286v1",
+  "title": "Tree-based Dialogue Reinforced Policy Optimization for Red-Teaming\n  Attacks",
+  "summary": "Despite recent rapid progress in AI safety, current large language models\nremain vulnerable to adversarial attacks in multi-turn interaction settings,\nwhere attackers strategically adapt their prompts across conversation turns and\npose a more critical yet realistic challenge. Existing approaches that discover\nsafety vulnerabilities either rely on manual red-teaming with human experts or\nemploy automated methods using pre-defined templates and human-curated attack\ndata, with most focusing on single-turn attacks. However, these methods did not\nexplore the vast space of possible multi-turn attacks, failing to consider\nnovel attack trajectories that emerge from complex dialogue dynamics and\nstrategic conversation planning. This gap is particularly critical given recent\nfindings that LLMs exhibit significantly higher vulnerability to multi-turn\nattacks compared to single-turn attacks. We propose DialTree-RPO, an on-policy\nreinforcement learning framework integrated with tree search that autonomously\ndiscovers diverse multi-turn attack strategies by treating the dialogue as a\nsequential decision-making problem, enabling systematic exploration without\nmanually curated data. Through extensive experiments, our approach not only\nachieves more than 25.9% higher ASR across 10 target models compared to\nprevious state-of-the-art approaches, but also effectively uncovers new attack\nstrategies by learning optimal dialogue policies that maximize attack success\nacross multiple turns.",
+  "authors": [
+    "Ruohao Guo",
+    "Afshin Oroojlooy",
+    "Roshan Sridhar",
+    "Miguel Ballesteros",
+    "Alan Ritter",
+    "Dan Roth"
+  ],
+  "published": "2025-10-02T17:57:05Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02286v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DialTree-RPO框架，结合强化学习与树搜索，自主发现多轮对话攻击策略，在10个目标模型上攻击成功率比现有方法提升25.9%，有效应对大语言模型在多轮交互中的安全漏洞。",
+  "order": 699,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02286v1"
+}

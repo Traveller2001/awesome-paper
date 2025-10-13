@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00568v1",
+  "title": "ReSeek: A Self-Correcting Framework for Search Agents with Instructive\n  Rewards",
+  "summary": "Search agents powered by Large Language Models (LLMs) have demonstrated\nsignificant potential in tackling knowledge-intensive tasks. Reinforcement\nlearning (RL) has emerged as a powerful paradigm for training these agents to\nperform complex, multi-step reasoning. However, prior RL-based methods often\nrely on sparse or rule-based rewards, which can lead agents to commit to\nsuboptimal or erroneous reasoning paths without the ability to recover. To\naddress these limitations, we propose ReSeek, a novel self-correcting framework\nfor training search agents. Our framework introduces a self-correction\nmechanism that empowers the agent to dynamically identify and recover from\nerroneous search paths during an episode. By invoking a special JUDGE action,\nthe agent can judge the information and re-plan its search strategy. To guide\nthis process, we design a dense, instructive process reward function, which\ndecomposes into a correctness reward for retrieving factual information and a\nutility reward for finding information genuinely useful for the query.\nFurthermore, to mitigate the risk of data contamination in existing datasets,\nwe introduce FictionalHot, a new and challenging benchmark with recently\ncurated questions requiring complex reasoning. Being intuitively reasonable and\npractically simple, extensive experiments show that agents trained with ReSeek\nsignificantly outperform SOTA baselines in task success rate and path\nfaithfulness.",
+  "authors": [
+    "Shiyu Li",
+    "Yang Tang",
+    "Yifan Wang",
+    "Peiming Li",
+    "Xi Chen"
+  ],
+  "published": "2025-10-01T06:44:28Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00568v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ReSeek是一种新型自校正搜索代理训练框架，通过引入JUDGE动作和密集指导性奖励机制，使代理能够在搜索过程中动态识别并纠正错误推理路径。该框架包含正确性奖励和实用性奖励，并在新构建的FictionalHot基准测试中显著优于现有方法。",
+  "order": 468,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00568v1"
+}

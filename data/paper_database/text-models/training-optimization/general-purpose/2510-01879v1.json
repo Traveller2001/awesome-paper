@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01879v1",
+  "title": "REPAIR: Robust Editing via Progressive Adaptive Intervention and\n  Reintegration",
+  "summary": "Post-training for large language models (LLMs) is constrained by the high\ncost of acquiring new knowledge or correcting errors and by the unintended side\neffects that frequently arise from retraining. To address these issues, we\nintroduce REPAIR (Robust Editing via Progressive Adaptive Intervention and\nReintegration), a lifelong editing framework designed to support precise and\nlow-cost model updates while preserving non-target knowledge. REPAIR mitigates\nthe instability and conflicts of large-scale sequential edits through a\nclosed-loop feedback mechanism coupled with dynamic memory management.\nFurthermore, by incorporating frequent knowledge fusion and enforcing strong\nlocality guards, REPAIR effectively addresses the shortcomings of traditional\ndistribution-agnostic approaches that often overlook unintended ripple effects.\nOur experiments demonstrate that REPAIR boosts editing accuracy by 10%-30%\nacross multiple model families and significantly reduces knowledge forgetting.\nThis work introduces a robust framework for developing reliable, scalable, and\ncontinually evolving LLMs.",
+  "authors": [
+    "Yisu Wang",
+    "Ming Wang",
+    "Haoyuan Song",
+    "Wenjie Huang",
+    "Chaozheng Wang",
+    "Yi Xie",
+    "Xuming Ran"
+  ],
+  "published": "2025-10-02T10:35:39Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01879v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "REPAIR是一种终身编辑框架，通过渐进式自适应干预和重整合机制解决大语言模型后训练中的高成本和副作用问题。该框架采用闭环反馈和动态内存管理来缓解大规模连续编辑的不稳定性，通过频繁知识融合和强局部性保护减少意外连锁效应。实验表明REPAIR在多个模型家族中提升编辑准确率10%-30%，显著减少知识遗忘。",
+  "order": 363,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01879v1"
+}

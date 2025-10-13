@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.05901v1",
+  "title": "Paying Attention to Hybrid Attention: Untangling the Issues with\n  Conversion Methods",
+  "summary": "Transformers' quadratic computational complexity limits their scalability\ndespite remarkable performance. While linear attention reduces this to linear\ncomplexity, pre-training such models from scratch remains, in most cases,\nprohibitively expensive. Recent post-training linearisation methods convert\npre-trained Transformers to linear models efficiently, often using hybrid\napproaches that combine linear attention with sliding-window softmax. We\nidentify a critical flaw: existing hybrid methods inadvertently bypass the\nlinear component, relying almost entirely on SWA. Component-level diagnostics\nreveal this previously undetected behaviour stems from overlooked evaluation\npractices on common-sense benchmarks. We propose three solutions to ensure\nbalanced component usage: (i) inference-time hybridisation of linear-only\nconversions with sliding-window softmax; (ii) HedgeCATs, combining\nattention-weight transfer with targeted LoRA fine-tuning; and (iii) Scheduled\nSliding-window Dropout (SSD), which stochastically suppresses the softmax\nbranch during training to prevent component collapse. Our methods maintain\ncomputational efficiency while recovering most base model performance and\nensuring genuine linear attention adoption, restoring the validity of\nperformance attributions in hybrid conversions.",
+  "authors": [
+    "Martin Benfeghoul",
+    "Teresa Delgado",
+    "Adnan Oomerjee",
+    "Haitham Bou Ammar",
+    "Jun Wang",
+    "Zafeirios Fountas"
+  ],
+  "published": "2025-10-07T13:11:13Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05901v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文揭示了Transformer后训练线性化方法中的关键缺陷：现有混合注意力方法实际上绕过了线性组件，过度依赖滑动窗口softmax。作者提出三种解决方案——推理时混合、HedgeCATs和计划滑动窗口丢弃(SSD)，在保持计算效率的同时恢复基础模型性能，确保真正的线性注意力采用。",
+  "order": 113,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05901v1"
+}

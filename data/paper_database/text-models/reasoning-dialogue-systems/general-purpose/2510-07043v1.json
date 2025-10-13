@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.07043v1",
+  "title": "COMPASS: A Multi-Turn Benchmark for Tool-Mediated Planning & Preference\n  Optimization",
+  "summary": "Real-world large language model (LLM) agents must master strategic tool use\nand user preference optimization through multi-turn interactions to assist\nusers with complex planning tasks. We introduce COMPASS (Constrained\nOptimization through Multi-turn Planning and Strategic Solutions), a benchmark\nthat evaluates agents on realistic travel-planning scenarios. We cast travel\nplanning as a constrained preference optimization problem, where agents must\nsatisfy hard constraints while simultaneously optimizing soft user preferences.\nTo support this, we build a realistic travel database covering transportation,\naccommodation, and ticketing for 20 U.S. National Parks, along with a\ncomprehensive tool ecosystem that mirrors commercial booking platforms.\nEvaluating state-of-the-art models, we uncover two critical gaps: (i) an\nacceptable-optimal gap, where agents reliably meet constraints but fail to\noptimize preferences, and (ii) a plan-coordination gap, where performance\ncollapses on multi-service (flight and hotel) coordination tasks, especially\nfor open-source models. By grounding reasoning and planning in a practical,\nuser-facing domain, COMPASS provides a benchmark that directly measures an\nagent's ability to optimize user preferences in realistic tasks, bridging\ntheoretical advances with real-world impact.",
+  "authors": [
+    "Tian Qin",
+    "Felix Bai",
+    "Ting-Yao Hu",
+    "Raviteja Vemulapalli",
+    "Hema Swetha Koppula",
+    "Zhiyang Xu",
+    "Bowen Jin",
+    "Mert Cemri",
+    "Jiarui Lu",
+    "Zirui Wang",
+    "Meng Cao"
+  ],
+  "published": "2025-10-08T14:09:46Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07043v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'dialogue_systems']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "COMPASS是一个评估LLM智能体在多轮交互中进行工具规划和用户偏好优化的基准测试，聚焦旅行规划场景。研究发现现有模型存在两大缺陷：满足约束但优化不足的'可接受-最优差距'，以及多服务协调时性能崩溃的'计划协调差距'。该基准通过真实旅行数据库和工具生态系统，为智能体实用能力评估提供新标准。",
+  "order": 187,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07043v1"
+}

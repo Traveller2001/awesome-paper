@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05581v1",
+  "title": "Power Mechanism: Private Tabular Representation Release for Model\n  Agnostic Consumption",
+  "summary": "Traditional collaborative learning approaches are based on sharing of model\nweights between clients and a server. However, there are advantages to resource\nefficiency through schemes based on sharing of embeddings (activations) created\nfrom the data. Several differentially private methods were developed for\nsharing of weights while such mechanisms do not exist so far for sharing of\nembeddings. We propose Ours to learn a privacy encoding network in conjunction\nwith a small utility generation network such that the final embeddings\ngenerated from it are equipped with formal differential privacy guarantees.\nThese privatized embeddings are then shared with a more powerful server, that\nlearns a post-processing that results in a higher accuracy for machine learning\ntasks. We show that our co-design of collaborative and private learning results\nin requiring only one round of privatized communication and lesser compute on\nthe client than traditional methods. The privatized embeddings that we share\nfrom the client are agnostic to the type of model (deep learning, random\nforests or XGBoost) used on the server in order to process these activations to\ncomplete a task.",
+  "authors": [
+    "Praneeth Vepakomma",
+    "Kaustubh Ponkshe"
+  ],
+  "published": "2025-10-07T04:55:38Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05581v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种名为'Power Mechanism'的隐私保护方法，通过联合训练隐私编码网络和轻量级效用生成网络，为嵌入表示提供差分隐私保证。该方法只需单轮私有通信，客户端计算开销低于传统方案，且生成的私有嵌入可适配服务器端的任意模型类型（如深度学习、随机森林或XGBoost），实现模型无关的高精度机器学习任务。",
+  "order": 139,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05581v1"
+}

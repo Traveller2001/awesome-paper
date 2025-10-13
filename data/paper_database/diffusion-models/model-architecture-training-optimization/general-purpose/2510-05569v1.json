@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.05569v1",
+  "title": "Efficient Learning-based Graph Simulation for Temporal Graphs",
+  "summary": "Graph simulation has recently received a surge of attention in graph\nprocessing and analytics. In real-life applications, e.g. social science,\nbiology, and chemistry, many graphs are composed of a series of evolving graphs\n(i.e., temporal graphs). While most of the existing graph generators focus on\nstatic graphs, the temporal information of the graphs is ignored. In this\npaper, we focus on simulating temporal graphs, which aim to reproduce the\nstructural and temporal properties of the observed real-life temporal graphs.\nIn this paper, we first give an overview of the existing temporal graph\ngenerators, including recently emerged learning-based approaches. Most of these\nlearning-based methods suffer from one of the limitations: low efficiency in\ntraining or slow generating, especially for temporal random walk-based methods.\nTherefore, we propose an efficient learning-based approach to generate graph\nsnapshots, namely temporal graph autoencoder (TGAE). Specifically, we propose\nan attention-based graph encoder to encode temporal and structural\ncharacteristics on sampled ego-graphs. And we proposed an ego-graph decoder\nthat can achieve a good trade-off between simulation quality and efficiency in\ntemporal graph generation. Finally, the experimental evaluation is conducted\namong our proposed TGAE and representative temporal graph generators on\nreal-life temporal graphs and synthesized graphs. It is reported that our\nproposed approach outperforms the state-of-the-art temporal graph generators by\nmeans of simulation quality and efficiency.",
+  "authors": [
+    "Sheng Xiang",
+    "Chenhao Xu",
+    "Dawei Cheng",
+    "Xiaoyang Wang",
+    "Ying Zhang"
+  ],
+  "published": "2025-10-07T04:22:24Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05569v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种高效的基于学习的时序图模拟方法TGAE，通过注意力图编码器和自我图解码器，在保持模拟质量的同时显著提升时序图生成的效率，在真实和合成数据集上均优于现有方法。",
+  "order": 140,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05569v1"
+}

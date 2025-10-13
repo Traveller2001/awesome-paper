@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05678v1",
+  "title": "Code-Switching In-Context Learning for Cross-Lingual Transfer of Large\n  Language Models",
+  "summary": "While large language models (LLMs) exhibit strong multilingual abilities,\ntheir reliance on English as latent representations creates a translation\nbarrier, where reasoning implicitly depends on internal translation into\nEnglish. When this process fails, performance in non-English languages\ndeteriorates sharply, limiting the inclusiveness of LLM-based applications.\nExisting cross-lingual in-context learning (X-ICL) methods primarily leverage\nmonolingual demonstrations, often failing to mitigate this barrier and instead\nreinforcing it. In this work, we introduce code-switching in-context learning\n(CSICL), a simple yet effective prompting strategy that progressively\ntransitions from a target language to English within demonstrations and\ninstruction to facilitate their latent reasoning in English. By explicitly\nscaffolding the reasoning process through controlled code-switching, CSICL acts\nas an implicit linguistic bridge that enhances cross-lingual alignment and\nreduces reliance on the translation barrier. We conduct extensive experiments\nacross 4 LLMs, 6 datasets, and 10 languages, spanning both knowledge-intensive\nand reasoning-oriented domains. Our results demonstrate that CSICL consistently\noutperforms X-ICL baselines, achieving gains of 3.1%p and 1.9%p in both target\nand unseen languages, respectively. The improvement is even more pronounced in\nlow-resource settings, with gains of 14.7% in target and 5.3% in unseen\nlanguages. These findings establish code-switching as a principled and robust\napproach for overcoming the translation barrier during inference, moving LLMs\ntoward more equitable and effective multilingual systems.",
+  "authors": [
+    "Haneul Yoo",
+    "Jiho Jin",
+    "Kyunghyun Cho",
+    "Alice Oh"
+  ],
+  "published": "2025-10-07T08:35:42Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05678v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出代码切换上下文学习(CSICL)方法，通过在演示示例中渐进式地从目标语言过渡到英语，为大语言模型构建隐式语言桥梁，有效缓解其依赖英语内部翻译的推理障碍。实验表明该方法在10种语言、6个数据集上均优于传统跨语言上下文学习，尤其在低资源语言中提升显著(目标语言提升14.7%)，推动大模型实现更公平有效的多语言系统。",
+  "order": 42,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05678v1"
+}

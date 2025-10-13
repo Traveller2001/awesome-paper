@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01616v1",
+  "title": "Efficient Training of Robust Traditional Chinese LLaMA-1B on a Single\n  Consumer GPU: Continual Pre-training, SFT, and DPO",
+  "summary": "Small Language Models (SLMs) enable cost-effective, on-device and\nlatency-sensitive AI applications, yet their deployment in Traditional Chinese\n(TC) remains hindered by token-level instability - models unpredictably emit\nnon-TC characters or code-switch into other languages. We address this\npractical reliability gap by creating PureTC-1B, a three-stage stabilization\npipeline for Llama-3.2-1B-Instruct (an open-weight, instruction-tuned model\nreleased by Meta) using parameter-efficient LoRA adapters. Our method combines\nContinual Pre-Training (CPT) on TC-centric corpora, Supervised Fine-Tuning\n(SFT) with instruction data, and Direct Preference Optimization (DPO) using\nTC-adherence preferences to improve monolingual robustness without full-model\nretraining. On a benchmark designed to simulate real-world usage, PureTC-1B\nachieves a 51.3% relative reduction (micro-average) in non-TC output tokens\nversus the base model. On a Named Entity Translation (NET) task, PureTC-1B\nfurther reduces incorrect-language tokens by 77.2% relative to Llama-3B and\n57.2% relative to Qwen-1.5B, indicating that robust TC adherence is attainable\neven at the 1B scale. The pipeline is reproducible, adapter-only, and\nhardware-friendly, offering practitioners a practical recipe to enhance\nlanguage stability for TC and potentially other non-English languages.",
+  "authors": [
+    "Yu-Cheng Chih",
+    "Ming-Tao Duan",
+    "Yong-Hao Hou"
+  ],
+  "published": "2025-10-02T02:50:12Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01616v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出PureTC-1B三阶段稳定化流程，通过持续预训练、监督微调和直接偏好优化，在单张消费级GPU上高效训练鲁棒繁体中文LLaMA-1B模型。相比基础模型，非繁体中文输出减少51.3%，在命名实体翻译任务中错误语言标记减少57.2-77.2%，显著提升模型语言稳定性。",
+  "order": 388,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01616v1"
+}

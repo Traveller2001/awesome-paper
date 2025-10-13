@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01076v1",
+  "title": "Research on the Integration of Embodied Intelligence and Reinforcement\n  Learning in Textual Domains",
+  "summary": "This article addresses embodied intelligence and reinforcement learning\nintegration in the field of text processing, aiming to enhance text handling\nwith more intelligence on the basis of embodied intelligence's perception and\naction superiority and reinforcement learning's decision optimization\ncapability. Through detailed theoretical explanation and experimental\nexploration, a novel integration model is introduced. This model has been\ndemonstrated to be very effective in a wide range oftext processing tasks,\nvalidating its applicative potential",
+  "authors": [
+    "Haonan Wang",
+    "Junfeng Sun",
+    "Mingjia Zhao",
+    "Wei Liu"
+  ],
+  "published": "2025-10-01T16:21:04Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01076v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究具身智能与强化学习在文本处理领域的融合，结合具身智能的感知行动优势和强化学习的决策优化能力，提出了一种新型融合模型。通过理论分析和实验验证，该模型在多种文本处理任务中表现出色，展现了广泛的应用潜力。",
+  "order": 428,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01076v1"
+}

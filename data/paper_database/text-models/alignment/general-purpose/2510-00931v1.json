@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00931v1",
+  "title": "Making, not Taking, the Best of N",
+  "summary": "Obtaining high-quality generations in modern LLMs has largely been framed as\na selection problem: identifying a single winning generation from a diverse\npool of N samples, the Best-of-N (BoN). Yet, this approach is inherently\nzero-sum, discarding diverse and potentially useful information from the pool.\nInstead, we explore a collaborative setup, where all candidates can potentially\ncontribute to the final winning generation. To this end, we propose Fusion-of-N\n(FusioN): a method that uses a general LLM judge to synthesize the most\ninformative elements of each sample into a single final answer. We compare\nFusioN to BoN in two settings, (i) test-time scaling, where we sample and\naggregate from a single model at test-time (ii) synthetic data generation,\nwhere we fuse samples from a pool of diverse teachers to improve a student\nmodel. We extensively benchmark both setups across 11 languages, 3 diverse\ntasks and varying model scales. Across the bench, FusioN consistently\noutperforms BoN showing versatility and robustness both in test-time scaling\nand in downstream gains from synthetic data generation. We also perform\nextensive analysis on FusioN, where it shows surprising strengths and\nrobustness under challenging settings. These results show that we should shift\nhow we think about evaluating and utilizing LLM generations from a monolithic\nmeasure of quality, to embracing their polylithic nature. This shift allows us\nto integrate diverse strengths, unlock latent potential, and achieve\nimprovements that were previously inaccessible through selection alone.",
+  "authors": [
+    "Ammar Khairi",
+    "Daniel D'souza",
+    "Marzieh Fadaee",
+    "Julia Kreutzer"
+  ],
+  "published": "2025-10-01T14:14:31Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00931v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Fusion-of-N方法，通过LLM法官融合多个生成样本的优势元素，替代传统的Best-of-N选择策略。在测试时扩展和合成数据生成两种场景下，该方法在11种语言、3类任务中均优于BoN，展现了利用生成多样性的新范式。",
+  "order": 439,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00931v1"
+}

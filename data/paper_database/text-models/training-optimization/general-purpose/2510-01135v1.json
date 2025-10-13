@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01135v1",
+  "title": "Prompt Curriculum Learning for Efficient LLM Post-Training",
+  "summary": "We introduce Prompt Curriculum Learning (PCL), a lightweight reinforcement\nlearning (RL) algorithm that selects intermediate-difficulty prompts using a\nlearned value model to post-train language models. Since post-training LLMs via\nRL remains sensitive to batching and prompt selection strategies, we first\nconduct a series of systematic experiments where we (1) determine the optimal\ntraining batch size that balances generation efficiency and gradient quality\nand (2) establish the importance of focusing on prompts of intermediate\ndifficulty for the policy. We build upon these results to design PCL, which\nidentifies prompts of intermediate difficulty for the current policy in an\non-policy manner by using a value model that is concurrently updated based on\nthe current policy. By focusing on informative prompts that yield high\neffective ratios, PCL achieves either the highest performance or requires\nsignificantly less time to reach comparable performance to its counterparts.\nCompared to rollout-based filtering methods, PCL avoids costly rollouts and\nachieves $12.1\\times$ and $16.9\\times$ faster speed on identifying\nintermediate-difficulty prompts when training on MATH and DeepScaleR,\nrespectively. We further demonstrate that our value model accurately predicts\nprompt difficulty and allows PCL to focus on progressively more challenging\nprompts during RL. Our results present a new methodology that delivers improved\ntradeoff between upper-bound performance and efficiency for reasoning-focused\nRL.",
+  "authors": [
+    "Zhaolin Gao",
+    "Joongwon Kim",
+    "Wen Sun",
+    "Thorsten Joachims",
+    "Sid Wang",
+    "Richard Yuanzhe Pang",
+    "Liang Tan"
+  ],
+  "published": "2025-10-01T17:24:28Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01135v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出提示课程学习(PCL)，一种轻量级强化学习算法，通过价值模型选择中等难度提示来优化大语言模型后训练。该方法避免了昂贵的rollout过程，在MATH和DeepScaleR数据集上分别实现12.1倍和16.9倍的提示筛选加速，在推理性能与训练效率间取得更好平衡。",
+  "order": 426,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01135v1"
+}

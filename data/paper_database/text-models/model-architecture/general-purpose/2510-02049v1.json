@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02049v1",
+  "title": "Mathematical Modeling and Convergence Analysis of Deep Neural Networks\n  with Dense Layer Connectivities in Deep Learning",
+  "summary": "In deep learning, dense layer connectivity has become a key design principle\nin deep neural networks (DNNs), enabling efficient information flow and strong\nperformance across a range of applications. In this work, we model densely\nconnected DNNs mathematically and analyze their learning problems in the\ndeep-layer limit. For a broad applicability, we present our analysis in a\nframework setting of DNNs with densely connected layers and general non-local\nfeature transformations (with local feature transformations as special cases)\nwithin layers, which is called dense non-local (DNL) framework and includes\nstandard DenseNets and variants as special examples. In this formulation, the\ndensely connected networks are modeled as nonlinear integral equations, in\ncontrast to the ordinary differential equation viewpoint commonly adopted in\nprior works. We study the associated training problems from an optimal control\nperspective and prove convergence results from the network learning problem to\nits continuous-time counterpart. In particular, we show the convergence of\noptimal values and the subsequence convergence of minimizers, using a piecewise\nlinear extension and $\\Gamma$-convergence analysis. Our results provide a\nmathematical foundation for understanding densely connected DNNs and further\nsuggest that such architectures can offer stability of training deep models.",
+  "authors": [
+    "Jinshu Huang",
+    "Haibin Su",
+    "Xue-Cheng Tai",
+    "Chunlin Wu"
+  ],
+  "published": "2025-10-02T14:22:51Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02049v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出密集非局部(DNL)框架，将密集连接深度神经网络建模为非线性积分方程，从最优控制角度分析训练问题，证明了网络学习问题到连续时间对应问题的收敛性，为理解密集连接DNN提供了数学基础。",
+  "order": 758,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02049v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07245v1",
+  "title": "Discriminative Feature Feedback with General Teacher Classes",
+  "summary": "We study the theoretical properties of the interactive learning protocol\nDiscriminative Feature Feedback (DFF) (Dasgupta et al., 2018). The DFF learning\nprotocol uses feedback in the form of discriminative feature explanations. We\nprovide the first systematic study of DFF in a general framework that is\ncomparable to that of classical protocols such as supervised learning and\nonline learning. We study the optimal mistake bound of DFF in the realizable\nand the non-realizable settings, and obtain novel structural results, as well\nas insights into the differences between Online Learning and settings with\nricher feedback such as DFF. We characterize the mistake bound in the\nrealizable setting using a new notion of dimension. In the non-realizable\nsetting, we provide a mistake upper bound and show that it cannot be improved\nin general. Our results show that unlike Online Learning, in DFF the realizable\ndimension is insufficient to characterize the optimal non-realizable mistake\nbound or the existence of no-regret algorithms.",
+  "authors": [
+    "Omri Bar Oz",
+    "Tosca Lechner",
+    "Sivan Sabato"
+  ],
+  "published": "2025-10-08T17:14:22Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07245v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文首次系统研究了判别性特征反馈(DFF)交互学习协议的理论特性，在可实现与不可实现场景下分析了最优错误界限，提出了新维度概念，并揭示了DFF与传统在线学习在反馈机制上的本质差异。",
+  "order": 171,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07245v1"
+}

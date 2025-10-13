@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01858v1",
+  "title": "Compositional meta-learning through probabilistic task inference",
+  "summary": "To solve a new task from minimal experience, it is essential to effectively\nreuse knowledge from previous tasks, a problem known as meta-learning.\nCompositional solutions, where common elements of computation are flexibly\nrecombined into new configurations, are particularly well-suited for\nmeta-learning. Here, we propose a compositional meta-learning model that\nexplicitly represents tasks as structured combinations of reusable\ncomputations. We achieve this by learning a generative model that captures the\nunderlying components and their statistics shared across a family of tasks.\nThis approach transforms learning a new task into a probabilistic inference\nproblem, which allows for finding solutions without parameter updates through\nhighly constrained hypothesis testing. Our model successfully recovers ground\ntruth components and statistics in rule learning and motor learning tasks. We\nthen demonstrate its ability to quickly infer new solutions from just single\nexamples. Together, our framework joins the expressivity of neural networks\nwith the data-efficiency of probabilistic inference to achieve rapid\ncompositional meta-learning.",
+  "authors": [
+    "Jacob J. W. Bakermans",
+    "Pablo Tano",
+    "Reidar Riveland",
+    "Charles Findling",
+    "Alexandre Pouget"
+  ],
+  "published": "2025-10-02T09:58:48Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01858v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种组合式元学习模型，通过概率任务推理将任务表示为可重用计算单元的结构化组合。该模型学习捕捉任务族共享的底层组件及其统计特性，将新任务学习转化为概率推断问题，无需参数更新即可通过约束假设检验找到解决方案。在规则学习和运动学习任务中成功恢复真实组件，并能从单样本快速推断新解决方案。",
+  "order": 787,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01858v1"
+}

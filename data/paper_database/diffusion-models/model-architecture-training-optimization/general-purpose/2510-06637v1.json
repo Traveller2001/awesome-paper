@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06637v1",
+  "title": "Control-Augmented Autoregressive Diffusion for Data Assimilation",
+  "summary": "Despite recent advances in test-time scaling and finetuning of diffusion\nmodels, guidance in Auto-Regressive Diffusion Models (ARDMs) remains\nunderexplored. We introduce an amortized framework that augments pretrained\nARDMs with a lightweight controller network, trained offline by previewing\nfuture ARDM rollouts and learning stepwise controls that anticipate upcoming\nobservations under a terminal cost objective. We evaluate this framework in the\ncontext of data assimilation (DA) for chaotic spatiotemporal partial\ndifferential equations (PDEs), a setting where existing methods are often\ncomputationally prohibitive and prone to forecast drift under sparse\nobservations. Our approach reduces DA inference to a single forward rollout\nwith on-the-fly corrections, avoiding expensive adjoint computations and/or\noptimizations during inference. We demonstrate that our method consistently\noutperforms four state-of-the-art baselines in stability, accuracy, and\nphysical fidelity across two canonical PDEs and six observation regimes. We\nwill release code and checkpoints publicly.",
+  "authors": [
+    "Prakhar Srivastava",
+    "Farrin Marouf Sofian",
+    "Francesco Immorlano",
+    "Kushagra Pandey",
+    "Stephan Mandt"
+  ],
+  "published": "2025-10-08T04:37:32Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06637v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种控制增强自回归扩散模型，通过轻量级控制器网络在数据同化任务中实现高效推理。该方法在混沌偏微分方程系统中显著优于现有基线，避免了昂贵的伴随计算，在稀疏观测条件下保持稳定性和物理保真度。",
+  "order": 227,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06637v1"
+}

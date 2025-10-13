@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00857v1",
+  "title": "ManagerBench: Evaluating the Safety-Pragmatism Trade-off in Autonomous\n  LLMs",
+  "summary": "As large language models (LLMs) evolve from conversational assistants into\nautonomous agents, evaluating the safety of their actions becomes critical.\nPrior safety benchmarks have primarily focused on preventing generation of\nharmful content, such as toxic text. However, they overlook the challenge of\nagents taking harmful actions when the most effective path to an operational\ngoal conflicts with human safety. To address this gap, we introduce\nManagerBench, a benchmark that evaluates LLM decision-making in realistic,\nhuman-validated managerial scenarios. Each scenario forces a choice between a\npragmatic but harmful action that achieves an operational goal, and a safe\naction that leads to worse operational performance. A parallel control set,\nwhere potential harm is directed only at inanimate objects, measures a model's\npragmatism and identifies its tendency to be overly safe. Our findings indicate\nthat the frontier LLMs perform poorly when navigating this safety-pragmatism\ntrade-off. Many consistently choose harmful options to advance their\noperational goals, while others avoid harm only to become overly safe and\nineffective. Critically, we find this misalignment does not stem from an\ninability to perceive harm, as models' harm assessments align with human\njudgments, but from flawed prioritization. ManagerBench is a challenging\nbenchmark for a core component of agentic behavior: making safe choices when\noperational goals and alignment values incentivize conflicting actions.\nBenchmark & code available at https://github.com/technion-cs-nlp/ManagerBench.",
+  "authors": [
+    "Adi Simhi",
+    "Jonathan Herzig",
+    "Martin Tutek",
+    "Itay Itzhak",
+    "Idan Szpektor",
+    "Yonatan Belinkov"
+  ],
+  "published": "2025-10-01T13:08:33Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00857v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ManagerBench基准，用于评估自主LLM在安全性与实用性之间的权衡能力。该基准通过真实管理场景测试模型决策，发现前沿LLM在此权衡中表现不佳：要么为达成目标选择有害行为，要么过度保守导致效率低下。研究表明问题不在于危害识别能力，而在于优先级排序缺陷。",
+  "order": 446,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00857v1"
+}

@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.01631v1",
+  "title": "Demystifying Synthetic Data in LLM Pre-training: A Systematic Study of\n  Scaling Laws, Benefits, and Pitfalls",
+  "summary": "Training data plays a crucial role in Large Language Models (LLM) scaling,\nyet high quality data is of limited supply. Synthetic data techniques offer a\npotential path toward sidestepping these limitations. We conduct a large-scale\nempirical investigation (>1000 LLMs with >100k GPU hours) using a unified\nprotocol and scaling laws, comparing natural web data, diverse synthetic types\n(rephrased text, generated textbooks), and mixtures of natural and synthetic\ndata. Specifically, we found pre-training on rephrased synthetic data\n\\textit{alone} is not faster than pre-training on natural web texts; while\npre-training on 1/3 rephrased synthetic data mixed with 2/3 natural web texts\ncan speed up 5-10x (to reach the same validation loss) at larger data budgets.\nPre-training on textbook-style synthetic data \\textit{alone} results in notably\nhigher loss on many downstream domains especially at small data budgets. \"Good\"\nratios of synthetic data in training data mixtures depend on the model size and\ndata budget, empirically converging to ~30% for rephrased synthetic data.\nLarger generator models do not necessarily yield better pre-training data than\n~8B-param models. These results contribute mixed evidence on \"model collapse\"\nduring large-scale single-round (n=1) model training on synthetic\ndata--training on rephrased synthetic data shows no degradation in performance\nin foreseeable scales whereas training on mixtures of textbook-style\npure-generated synthetic data shows patterns predicted by \"model collapse\". Our\nwork demystifies synthetic data in pre-training, validates its conditional\nbenefits, and offers practical guidance.",
+  "authors": [
+    "Feiyang Kang",
+    "Newsha Ardalani",
+    "Michael Kuchnik",
+    "Youssef Emad",
+    "Mostafa Elhoushi",
+    "Shubhabrata Sengupta",
+    "Shang-Wen Li",
+    "Ramya Raghavendra",
+    "Ruoxi Jia",
+    "Carole-Jean Wu"
+  ],
+  "published": "2025-10-02T03:24:42Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01631v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过大规模实证分析（1000+ LLM，10万+ GPU小时）系统探讨了合成数据在LLM预训练中的作用。研究发现：单独使用改写式合成数据训练效果不优于自然网络文本；但1/3改写合成数据与2/3自然数据混合可加速训练5-10倍；教科书式合成数据单独训练会导致下游任务损失显著增加；最佳合成数据比例约30%且与模型规模相关；约80亿参数生成器已能产生优质训练数据；研究为'模型崩溃'理论提供了混合证据。",
+  "order": 384,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01631v1"
+}

@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.00485v1",
+  "title": "PodEval: A Multimodal Evaluation Framework for Podcast Audio Generation",
+  "summary": "Recently, an increasing number of multimodal (text and audio) benchmarks have\nemerged, primarily focusing on evaluating models' understanding capability.\nHowever, exploration into assessing generative capabilities remains limited,\nespecially for open-ended long-form content generation. Significant challenges\nlie in no reference standard answer, no unified evaluation metrics and\nuncontrollable human judgments. In this work, we take podcast-like audio\ngeneration as a starting point and propose PodEval, a comprehensive and\nwell-designed open-source evaluation framework. In this framework: 1) We\nconstruct a real-world podcast dataset spanning diverse topics, serving as a\nreference for human-level creative quality. 2) We introduce a multimodal\nevaluation strategy and decompose the complex task into three dimensions: text,\nspeech and audio, with different evaluation emphasis on \"Content\" and \"Format\".\n3) For each modality, we design corresponding evaluation methods, involving\nboth objective metrics and subjective listening test. We leverage\nrepresentative podcast generation systems (including open-source, close-source,\nand human-made) in our experiments. The results offer in-depth analysis and\ninsights into podcast generation, demonstrating the effectiveness of PodEval in\nevaluating open-ended long-form audio. This project is open-source to\nfacilitate public use: https://github.com/yujxx/PodEval.",
+  "authors": [
+    "Yujia Xiao",
+    "Liumeng Xue",
+    "Lei He",
+    "Xinyi Chen",
+    "Aemon Yat Fei Chiu",
+    "Wenjie Tian",
+    "Shaofei Zhang",
+    "Qiuqiang Kong",
+    "Xinfa Zhu",
+    "Wei Xue",
+    "Tan Lee"
+  ],
+  "published": "2025-10-01T04:08:08Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.00485v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "long_context",
+  "application_domain": "general_purpose",
+  "tldr_zh": "PodEval是一个针对播客音频生成的多模态评估框架，通过构建真实播客数据集、分解文本/语音/音频三个维度的评估策略，结合客观指标和主观听测，解决了开放式长内容生成缺乏标准答案和统一评估指标的难题。",
+  "order": 301,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00485v1"
+}

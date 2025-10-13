@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06527v1",
+  "title": "Wide Neural Networks as a Baseline for the Computational No-Coincidence\n  Conjecture",
+  "summary": "We establish that randomly initialized neural networks, with large width and\na natural choice of hyperparameters, have nearly independent outputs exactly\nwhen their activation function is nonlinear with zero mean under the Gaussian\nmeasure: $\\mathbb{E}_{z \\sim \\mathcal{N}(0,1)}[\\sigma(z)]=0$. For example, this\nincludes ReLU and GeLU with an additive shift, as well as tanh, but not ReLU or\nGeLU by themselves. Because of their nearly independent outputs, we propose\nneural networks with zero-mean activation functions as a promising candidate\nfor the Alignment Research Center's computational no-coincidence conjecture --\na conjecture that aims to measure the limits of AI interpretability.",
+  "authors": [
+    "John Dunbar",
+    "Scott Aaronson"
+  ],
+  "published": "2025-10-08T00:02:22Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06527v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'alignment']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文证明具有零均值激活函数（如平移ReLU、GeLU和tanh）的宽神经网络在随机初始化时会产生近似独立的输出，这为AI可解释性极限的'计算无巧合猜想'提供了理论基线。",
+  "order": 238,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06527v1"
+}

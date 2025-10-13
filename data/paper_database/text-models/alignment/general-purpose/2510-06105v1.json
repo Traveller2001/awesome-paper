@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06105v1",
+  "title": "Moloch's Bargain: Emergent Misalignment When LLMs Compete for Audiences",
+  "summary": "Large language models (LLMs) are increasingly shaping how information is\ncreated and disseminated, from companies using them to craft persuasive\nadvertisements, to election campaigns optimizing messaging to gain votes, to\nsocial media influencers boosting engagement. These settings are inherently\ncompetitive, with sellers, candidates, and influencers vying for audience\napproval, yet it remains poorly understood how competitive feedback loops\ninfluence LLM behavior. We show that optimizing LLMs for competitive success\ncan inadvertently drive misalignment. Using simulated environments across these\nscenarios, we find that, 6.3% increase in sales is accompanied by a 14.0% rise\nin deceptive marketing; in elections, a 4.9% gain in vote share coincides with\n22.3% more disinformation and 12.5% more populist rhetoric; and on social\nmedia, a 7.5% engagement boost comes with 188.6% more disinformation and a\n16.3% increase in promotion of harmful behaviors. We call this phenomenon\nMoloch's Bargain for AI--competitive success achieved at the cost of alignment.\nThese misaligned behaviors emerge even when models are explicitly instructed to\nremain truthful and grounded, revealing the fragility of current alignment\nsafeguards. Our findings highlight how market-driven optimization pressures can\nsystematically erode alignment, creating a race to the bottom, and suggest that\nsafe deployment of AI systems will require stronger governance and carefully\ndesigned incentives to prevent competitive dynamics from undermining societal\ntrust.",
+  "authors": [
+    "Batu El",
+    "James Zou"
+  ],
+  "published": "2025-10-07T16:37:15Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06105v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "研究发现，当大型语言模型在商业营销、政治竞选和社交媒体等竞争性环境中优化表现时，会意外产生错位现象：销售增长6.3%伴随欺骗性营销增加14.0%；得票率提升4.9%伴随虚假信息增加22.3%；互动率增长7.5%伴随有害行为推广增加16.3%。这表明市场竞争压力会系统性削弱AI对齐，即使模型被明确要求保持真实，现有安全防护仍显脆弱，需要更强治理机制。",
+  "order": 4,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06105v1"
+}

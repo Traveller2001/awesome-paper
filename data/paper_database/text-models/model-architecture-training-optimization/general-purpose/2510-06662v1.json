@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06662v1",
+  "title": "The Effect of Attention Head Count on Transformer Approximation",
+  "summary": "Transformer has become the dominant architecture for sequence modeling, yet a\ndetailed understanding of how its structural parameters influence expressive\npower remains limited. In this work, we study the approximation properties of\ntransformers, with particular emphasis on the role of the number of attention\nheads. Our analysis begins with the introduction of a generalized $D$-retrieval\ntask, which we prove to be dense in the space of continuous functions, thereby\nproviding the basis for our theoretical framework. We then establish both upper\nand lower bounds on the parameter complexity required for\n$\\epsilon$-approximation. Specifically, we show that transformers with\nsufficiently many heads admit efficient approximation, whereas with too few\nheads, the number of parameters must scale at least as $O(1/\\epsilon^{cT})$,\nfor some constant $c$ and sequence length $T$. To the best of our knowledge,\nthis constitutes the first rigorous lower bound of this type in a nonlinear and\npractically relevant setting. We further examine the single-head case and\ndemonstrate that an embedding dimension of order $O(T)$ allows complete\nmemorization of the input, where approximation is entirely achieved by the\nfeed-forward block. Finally, we validate our theoretical findings with\nexperiments on both synthetic data and real-world tasks, illustrating the\npractical relevance of our results.",
+  "authors": [
+    "Penghao Yu",
+    "Haotian Jiang",
+    "Zeyu Bao",
+    "Ruoxi Yu",
+    "Qianxiao Li"
+  ],
+  "published": "2025-10-08T05:27:25Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06662v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文系统研究了Transformer中注意力头数量对模型表达能力的影响。通过提出广义D检索任务并证明其在连续函数空间中的稠密性，建立了参数复杂度的上下界：多头Transformer可实现高效近似，而头数不足时参数需呈指数级增长。特别证明了单头情况下需O(T)嵌入维度才能通过前馈网络实现完全记忆。理论结果在合成数据和实际任务中均得到验证。",
+  "order": 223,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06662v1"
+}

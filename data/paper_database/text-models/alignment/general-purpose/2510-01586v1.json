@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2510.01586v1",
+  "title": "AdvEvo-MARL: Shaping Internalized Safety through Adversarial\n  Co-Evolution in Multi-Agent Reinforcement Learning",
+  "summary": "LLM-based multi-agent systems excel at planning, tool use, and role\ncoordination, but their openness and interaction complexity also expose them to\njailbreak, prompt-injection, and adversarial collaboration. Existing defenses\nfall into two lines: (i) self-verification that asks each agent to pre-filter\nunsafe instructions before execution, and (ii) external guard modules that\npolice behaviors. The former often underperforms because a standalone agent\nlacks sufficient capacity to detect cross-agent unsafe chains and\ndelegation-induced risks; the latter increases system overhead and creates a\nsingle-point-of-failure-once compromised, system-wide safety collapses, and\nadding more guards worsens cost and complexity. To solve these challenges, we\npropose AdvEvo-MARL, a co-evolutionary multi-agent reinforcement learning\nframework that internalizes safety into task agents. Rather than relying on\nexternal guards, AdvEvo-MARL jointly optimizes attackers (which synthesize\nevolving jailbreak prompts) and defenders (task agents trained to both\naccomplish their duties and resist attacks) in adversarial learning\nenvironments. To stabilize learning and foster cooperation, we introduce a\npublic baseline for advantage estimation: agents within the same functional\ngroup share a group-level mean-return baseline, enabling lower-variance updates\nand stronger intra-group coordination. Across representative attack scenarios,\nAdvEvo-MARL consistently keeps attack-success rate (ASR) below 20%, whereas\nbaselines reach up to 38.33%, while preserving-and sometimes improving-task\naccuracy (up to +3.67% on reasoning tasks). These results show that safety and\nutility can be jointly improved without relying on extra guard agents or added\nsystem overhead.",
+  "authors": [
+    "Zhenyu Pan",
+    "Yiting Zhang",
+    "Zhuo Liu",
+    "Yolo Yunlong Tang",
+    "Zeliang Zhang",
+    "Haozheng Luo",
+    "Yuwei Han",
+    "Jianshu Zhang",
+    "Dennis Wu",
+    "Hong-Yu Chen",
+    "Haoran Lu",
+    "Haoyang Fang",
+    "Manling Li",
+    "Chenliang Xu",
+    "Philip S. Yu",
+    "Han Liu"
+  ],
+  "published": "2025-10-02T02:06:30Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01586v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "AdvEvo-MARL是一种通过对抗性协同进化在多智能体强化学习中内化安全性的框架。该方法联合优化攻击者（生成越狱提示）和防御者（任务智能体），在对抗环境中训练智能体同时完成任务并抵抗攻击。通过引入群体级均值回报基线稳定学习，在保持任务准确性的同时将攻击成功率控制在20%以下，无需额外防护模块。",
+  "order": 124,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01586v1"
+}

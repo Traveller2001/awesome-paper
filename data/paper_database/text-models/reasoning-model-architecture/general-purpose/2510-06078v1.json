@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.06078v1",
+  "title": "Constraint-Aware Route Recommendation from Natural Language via\n  Hierarchical LLM Agents",
+  "summary": "Route recommendation aims to provide users with optimal travel plans that\nsatisfy diverse and complex requirements. Classical routing algorithms (e.g.,\nshortest-path and constraint-aware search) are efficient but assume structured\ninputs and fixed objectives, limiting adaptability to natural-language queries.\nRecent LLM-based approaches enhance flexibility but struggle with spatial\nreasoning and the joint modeling of route-level and POI-level preferences. To\naddress these limitations, we propose RouteLLM, a hierarchical multi-agent\nframework that grounds natural-language intents into constraint-aware routes.\nIt first parses user queries into structured intents including POIs, paths, and\nconstraints. A manager agent then coordinates specialized sub-agents: a\nconstraint agent that resolves and formally check constraints, a POI agent that\nretrieves and ranks candidate POIs, and a path refinement agent that refines\nroutes via a routing engine with preference-conditioned costs. A final verifier\nagent ensures constraint satisfaction and produces the final route with an\ninterpretable rationale. This design bridges linguistic flexibility and spatial\nstructure, enabling reasoning over route feasibility and user preferences.\nExperiments show that our method reliably grounds textual preferences into\nconstraint-aware routes, improving route quality and preference satisfaction\nover classical methods.",
+  "authors": [
+    "Tao Zhe",
+    "Rui Liu",
+    "Fateme Memar",
+    "Xiao Luo",
+    "Wei Fan",
+    "Xinyue Ye",
+    "Zhongren Peng",
+    "Dongjie Wang"
+  ],
+  "published": "2025-10-07T16:03:57Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06078v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RouteLLM——一种分层多智能体框架，通过自然语言处理实现约束感知的路线推荐。该系统首先解析用户查询为结构化意图，然后通过管理器协调约束处理、POI检索和路径优化三个子智能体，最后通过验证器确保约束满足并生成可解释的路线方案。实验表明该方法在路线质量和偏好满足度上优于传统方法。",
+  "order": 6,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06078v1"
+}

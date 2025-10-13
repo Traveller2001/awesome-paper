@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01639v1",
+  "title": "Understanding the Geospatial Reasoning Capabilities of LLMs: A\n  Trajectory Recovery Perspective",
+  "summary": "We explore the geospatial reasoning capabilities of Large Language Models\n(LLMs), specifically, whether LLMs can read road network maps and perform\nnavigation. We frame trajectory recovery as a proxy task, which requires models\nto reconstruct masked GPS traces, and introduce GLOBALTRACE, a dataset with\nover 4,000 real-world trajectories across diverse regions and transportation\nmodes. Using road network as context, our prompting framework enables LLMs to\ngenerate valid paths without accessing any external navigation tools.\nExperiments show that LLMs outperform off-the-shelf baselines and specialized\ntrajectory recovery models, with strong zero-shot generalization. Fine-grained\nanalysis shows that LLMs have strong comprehension of the road network and\ncoordinate systems, but also pose systematic biases with respect to regions and\ntransportation modes. Finally, we demonstrate how LLMs can enhance navigation\nexperiences by reasoning over maps in flexible ways to incorporate user\npreferences.",
+  "authors": [
+    "Thinh Hung Truong",
+    "Jey Han Lau",
+    "Jianzhong Qi"
+  ],
+  "published": "2025-10-02T03:37:41Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01639v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过轨迹恢复任务评估大语言模型的地理空间推理能力，提出GLOBALTRACE数据集和提示框架，证明LLMs无需外部工具即可理解路网生成有效路径，在零样本泛化中优于专业模型，但存在区域和交通模式的系统性偏差，展示了LLMs通过地图推理增强导航体验的潜力。",
+  "order": 111,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01639v1"
+}

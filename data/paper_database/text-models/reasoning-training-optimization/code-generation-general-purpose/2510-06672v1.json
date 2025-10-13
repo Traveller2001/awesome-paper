@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06672v1",
+  "title": "XRPO: Pushing the limits of GRPO with Targeted Exploration and\n  Exploitation",
+  "summary": "Reinforcement learning algorithms such as GRPO have driven recent advances in\nlarge language model (LLM) reasoning. While scaling the number of rollouts\nstabilizes training, existing approaches suffer from limited exploration on\nchallenging prompts and leave informative feedback signals underexploited, due\nto context-independent rollout allocation across prompts (e.g., generating 16\nrollouts per prompt) and relying heavily on sparse rewards. This paper presents\nXRPO(eXplore - eXploit GRPO), a unified framework that recasts policy\noptimization through the principled lens of rollout exploration-exploitation.\nTo enhance exploration, XRPO introduces a mathematically grounded rollout\nallocator that adaptively prioritizes prompts with higher potential for\nuncertainty reduction. It further addresses stagnation on zero-reward prompts\nthrough an in-context seeding strategy that injects curated exemplars, steering\nthe model into more difficult reasoning trajectories. To strengthen\nexploitation, XRPO develops a group-relative, novelty-aware advantage\nsharpening mechanism that leverages sequence likelihoods to amplify\nlow-probability yet correct responses, thereby extending the policy's reach\nbeyond sparse rewards. Experiments across diverse math and coding benchmarks on\nboth reasoning and non-reasoning models demonstrate that XRPO outperforms\nexisting advances (e.g., GRPO and GSPO) up to 4% pass@1 and 6% cons@32, while\naccelerating training convergence by up to 2.7X.",
+  "authors": [
+    "Udbhav Bamba",
+    "Minghao Fang",
+    "Yifan Yu",
+    "Haizhong Zheng",
+    "Fan Lai"
+  ],
+  "published": "2025-10-08T05:53:56Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06672v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "['code_generation', 'general_purpose']",
+  "tldr_zh": "XRPO提出了一种强化学习框架，通过自适应rollout分配器增强对困难提示的探索，利用情境种子策略突破零奖励停滞，并开发基于序列似然的优势锐化机制强化对低概率正确响应的利用。在数学和编程基准测试中，XRPO相比GRPO等方法在准确率和一致性上提升最高达4%和6%，训练收敛速度加快2.7倍。",
+  "order": 222,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06672v1"
+}

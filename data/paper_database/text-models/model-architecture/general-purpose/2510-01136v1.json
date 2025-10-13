@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01136v1",
+  "title": "TabINR: An Implicit Neural Representation Framework for Tabular Data\n  Imputation",
+  "summary": "Tabular data builds the basis for a wide range of applications, yet\nreal-world datasets are frequently incomplete due to collection errors, privacy\nrestrictions, or sensor failures. As missing values degrade the performance or\nhinder the applicability of downstream models, and while simple imputing\nstrategies tend to introduce bias or distort the underlying data distribution,\nwe require imputers that provide high-quality imputations, are robust across\ndataset sizes and yield fast inference. We therefore introduce TabINR, an\nauto-decoder based Implicit Neural Representation (INR) framework that models\ntables as neural functions. Building on recent advances in generalizable INRs,\nwe introduce learnable row and feature embeddings that effectively deal with\nthe discrete structure of tabular data and can be inferred from partial\nobservations, enabling instance adaptive imputations without modifying the\ntrained model. We evaluate our framework across a diverse range of twelve\nreal-world datasets and multiple missingness mechanisms, demonstrating\nconsistently strong imputation accuracy, mostly matching or outperforming\nclassical (KNN, MICE, MissForest) and deep learning based models (GAIN,\nReMasker), with the clearest gains on high-dimensional datasets.",
+  "authors": [
+    "Vincent Ochs",
+    "Florentin Bieder",
+    "Sidaty el Hadramy",
+    "Paul Friedrich",
+    "Stephanie Taha-Mehlitz",
+    "Anas Taha",
+    "Philippe C. Cattin"
+  ],
+  "published": "2025-10-01T17:24:35Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01136v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "TabINR提出基于隐式神经表示(INR)的表格数据填补框架，通过可学习的行列嵌入处理离散表格结构，无需修改训练模型即可实现实例自适应填补。在12个真实数据集上验证表明，该方法在填补准确性上优于传统方法和深度学习模型，尤其在高维数据中表现突出。",
+  "order": 189,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01136v1"
+}

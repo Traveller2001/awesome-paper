@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05753v1",
+  "title": "Empirical Comparison of Membership Inference Attacks in Deep Transfer\n  Learning",
+  "summary": "With the emergence of powerful large-scale foundation models, the training\nparadigm is increasingly shifting from from-scratch training to transfer\nlearning. This enables high utility training with small, domain-specific\ndatasets typical in sensitive applications.Membership inference attacks (MIAs)\nprovide an empirical estimate of the privacy leakage by machine learning\nmodels. Yet, prior assessments of MIAs against models fine-tuned with transfer\nlearning rely on a small subset of possible attacks. We address this by\ncomparing performance of diverse MIAs in transfer learning settings to help\npractitioners identify the most efficient attacks for privacy risk evaluation.\nWe find that attack efficacy decreases with the increase in training data for\nscore-based MIAs. We find that there is no one MIA which captures all privacy\nrisks in models trained with transfer learning. While the Likelihood Ratio\nAttack (LiRA) demonstrates superior performance across most experimental\nscenarios, the Inverse Hessian Attack (IHA) proves to be more effective against\nmodels fine-tuned on PatchCamelyon dataset in high data regime.",
+  "authors": [
+    "Yuxuan Bai",
+    "Gauri Pradhan",
+    "Marlon Tobaben",
+    "Antti Honkela"
+  ],
+  "published": "2025-10-07T10:21:05Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05753v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文在深度迁移学习背景下，系统比较了多种成员推断攻击方法的性能。研究发现，基于分数的攻击效果随训练数据增加而下降，且不存在单一最优攻击方法。虽然似然比攻击在多数场景表现最佳，但在PatchCamelyon医学数据集的高数据量场景中，逆海森攻击更为有效。",
+  "order": 122,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05753v1"
+}

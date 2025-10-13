@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00876v1",
+  "title": "Unveiling Interesting Insights: Monte Carlo Tree Search for Knowledge\n  Discovery",
+  "summary": "Organizations are increasingly focused on leveraging data from their\nprocesses to gain insights and drive decision-making. However, converting this\ndata into actionable knowledge remains a difficult and time-consuming task.\nThere is often a gap between the volume of data collected and the ability to\nprocess and understand it, which automated knowledge discovery aims to fill.\nAutomated knowledge discovery involves complex open problems, including\neffectively navigating data, building models to extract implicit relationships,\nand considering subjective goals and knowledge. In this paper, we introduce a\nnovel method for Automated Insights and Data Exploration (AIDE), that serves as\na robust foundation for tackling these challenges through the use of Monte\nCarlo Tree Search (MCTS). We evaluate AIDE using both real-world and synthetic\ndata, demonstrating its effectiveness in identifying data transformations and\nmodels that uncover interesting data patterns. Among its strengths, AIDE's\nMCTS-based framework offers significant extensibility, allowing for future\nintegration of additional pattern extraction strategies and domain knowledge.\nThis makes AIDE a valuable step towards developing a comprehensive solution for\nautomated knowledge discovery.",
+  "authors": [
+    "Pietro Totis",
+    "Alberto Pozanco",
+    "Daniel Borrajo"
+  ],
+  "published": "2025-10-01T13:25:15Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00876v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种基于蒙特卡洛树搜索的自动洞察与数据探索方法AIDE，通过智能搜索数据转换和模型构建来发现有趣的数据模式，为自动化知识发现提供了可扩展的解决方案框架。",
+  "order": 228,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00876v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02069v1",
+  "title": "Spec-Gloss Surfels and Normal-Diffuse Priors for Relightable Glossy\n  Objects",
+  "summary": "Accurate reconstruction and relighting of glossy objects remain a\nlongstanding challenge, as object shape, material properties, and illumination\nare inherently difficult to disentangle. Existing neural rendering approaches\noften rely on simplified BRDF models or parameterizations that couple diffuse\nand specular components, which restricts faithful material recovery and limits\nrelighting fidelity. We propose a relightable framework that integrates a\nmicrofacet BRDF with the specular-glossiness parameterization into 2D Gaussian\nSplatting with deferred shading. This formulation enables more physically\nconsistent material decomposition, while diffusion-based priors for surface\nnormals and diffuse color guide early-stage optimization and mitigate\nambiguity. A coarse-to-fine optimization of the environment map accelerates\nconvergence and preserves high-dynamic-range specular reflections. Extensive\nexperiments on complex, glossy scenes demonstrate that our method achieves\nhigh-quality geometry and material reconstruction, delivering substantially\nmore realistic and consistent relighting under novel illumination compared to\nexisting Gaussian splatting methods.",
+  "authors": [
+    "Georgios Kouros",
+    "Minye Wu",
+    "Tinne Tuytelaars"
+  ],
+  "published": "2025-10-02T14:34:46Z",
+  "primary_category": "cs.GR",
+  "arxiv_url": "https://arxiv.org/abs/2510.02069v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种可重光照的框架，将微表面BRDF与高光-光泽度参数化集成到2D高斯泼溅中，结合法线和漫反射先验指导优化，实现高质量光泽物体几何与材质重建，在新光照下产生更真实的重光照效果。",
+  "order": 522,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02069v1"
+}

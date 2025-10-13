@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00662v1",
+  "title": "Facilitating Cognitive Accessibility with LLMs: A Multi-Task Approach to\n  Easy-to-Read Text Generation",
+  "summary": "Simplifying complex texts is essential for ensuring equitable access to\ninformation, especially for individuals with cognitive impairments. The\nEasy-to-Read (ETR) initiative offers a framework for making content accessible\nto the neurodivergent population, but the manual creation of such texts remains\ntime-consuming and resource-intensive. In this work, we investigate the\npotential of large language models (LLMs) to automate the generation of ETR\ncontent. To address the scarcity of aligned corpora and the specificity of ETR\nconstraints, we propose a multi-task learning (MTL) approach that trains models\njointly on text summarization, text simplification, and ETR generation. We\nexplore two different strategies: multi-task retrieval-augmented generation\n(RAG) for in-context learning, and MTL-LoRA for parameter-efficient\nfine-tuning. Our experiments with Mistral-7B and LLaMA-3-8B, based on ETR-fr, a\nnew high-quality dataset, demonstrate the benefits of multi-task setups over\nsingle-task baselines across all configurations. Moreover, results show that\nthe RAG-based strategy enables generalization in out-of-domain settings, while\nMTL-LoRA outperforms all learning strategies within in-domain configurations.",
+  "authors": [
+    "François Ledoyen",
+    "Gaël Dias",
+    "Jeremie Pantin",
+    "Alexis Lechervy",
+    "Fabrice Maurel",
+    "Youssef Chahir"
+  ],
+  "published": "2025-10-01T08:44:05Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00662v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "education_ai",
+  "tldr_zh": "本研究提出多任务学习方法，利用大语言模型自动生成易读文本，通过文本摘要、简化和易读生成联合训练，解决了认知障碍人群的信息获取难题。实验证明多任务策略优于单任务基线，RAG方法支持跨领域泛化，MTL-LoRA在领域内表现最佳。",
+  "order": 457,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00662v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00449v1",
+  "title": "Enhancing Rating Prediction with Off-the-Shelf LLMs Using In-Context\n  User Reviews",
+  "summary": "Personalizing the outputs of large language models (LLMs) to align with\nindividual user preferences is an active research area. However, previous\nstudies have mainly focused on classification or ranking tasks and have not\nconsidered Likert-scale rating prediction, a regression task that requires both\nlanguage and mathematical reasoning to be solved effectively. This task has\nsignificant industrial applications, but the utilization of LLMs remains\nunderexplored, particularly regarding the capabilities of off-the-shelf LLMs.\nThis study investigates the performance of off-the-shelf LLMs on rating\nprediction, providing different in-context information. Through comprehensive\nexperiments with eight models across three datasets, we demonstrate that\nuser-written reviews significantly improve the rating prediction performance of\nLLMs. This result is comparable to traditional methods like matrix\nfactorization, highlighting the potential of LLMs as a promising solution for\nthe cold-start problem. We also find that the reviews for concrete items are\nmore effective than general preference descriptions that are not based on any\nspecific item. Furthermore, we discover that prompting LLMs to first generate a\nhypothetical review enhances the rating prediction performance. Our code is\navailable at https://github.com/ynklab/rating-prediction-with-reviews.",
+  "authors": [
+    "Koki Ryu",
+    "Hitomi Yanaka"
+  ],
+  "published": "2025-10-01T03:04:20Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00449v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探索现成大语言模型在评分预测任务中的表现，通过引入用户评论作为上下文信息，显著提升预测准确性。实验表明具体商品评论比通用偏好描述更有效，且让模型首先生成假设性评论可进一步优化预测效果，为解决冷启动问题提供新思路。",
+  "order": 480,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00449v1"
+}

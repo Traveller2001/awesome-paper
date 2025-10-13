@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01948v1",
+  "title": "ClustViT: Clustering-based Token Merging for Semantic Segmentation",
+  "summary": "Vision Transformers can achieve high accuracy and strong generalization\nacross various contexts, but their practical applicability on real-world\nrobotic systems is limited due to their quadratic attention complexity. Recent\nworks have focused on dynamically merging tokens according to the image\ncomplexity. Token merging works well for classification but is less suited to\ndense prediction. We propose ClustViT, where we expand upon the Vision\nTransformer (ViT) backbone and address semantic segmentation. Within our\narchitecture, a trainable Cluster module merges similar tokens along the\nnetwork guided by pseudo-clusters from segmentation masks. Subsequently, a\nRegenerator module restores fine details for downstream heads. Our approach\nachieves up to 2.18x fewer GFLOPs and 1.64x faster inference on three different\ndatasets, with comparable segmentation accuracy. Our code and models will be\nmade publicly available.",
+  "authors": [
+    "Fabio Montello",
+    "Ronja Güldenring",
+    "Lazaros Nalpantidis"
+  ],
+  "published": "2025-10-02T12:15:40Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01948v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ClustViT提出基于聚类的令牌合并方法，针对语义分割任务优化Vision Transformer。通过可训练的聚类模块合并相似令牌，再经再生模块恢复细节，在保持分割精度的同时显著降低计算复杂度，实现最高2.18倍GFLOPs减少和1.64倍推理加速。",
+  "order": 536,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01948v1"
+}

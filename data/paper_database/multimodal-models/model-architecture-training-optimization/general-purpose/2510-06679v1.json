@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2510.06679v1",
+  "title": "DreamOmni2: Multimodal Instruction-based Editing and Generation",
+  "summary": "Recent advancements in instruction-based image editing and subject-driven\ngeneration have garnered significant attention, yet both tasks still face\nlimitations in meeting practical user needs. Instruction-based editing relies\nsolely on language instructions, which often fail to capture specific editing\ndetails, making reference images necessary. Meanwhile, subject-driven\ngeneration is limited to combining concrete objects or people, overlooking\nbroader, abstract concepts. To address these challenges, we propose two novel\ntasks: multimodal instruction-based editing and generation. These tasks support\nboth text and image instructions and extend the scope to include both concrete\nand abstract concepts, greatly enhancing their practical applications. We\nintroduce DreamOmni2, tackling two primary challenges: data creation and model\nframework design. Our data synthesis pipeline consists of three steps: (1)\nusing a feature mixing method to create extraction data for both abstract and\nconcrete concepts, (2) generating multimodal instruction-based editing training\ndata using the editing and extraction models, and (3) further applying the\nextraction model to create training data for multimodal instruction-based\nediting. For the framework, to handle multi-image input, we propose an index\nencoding and position encoding shift scheme, which helps the model distinguish\nimages and avoid pixel confusion. Additionally, we introduce joint training\nwith the VLM and our generation/editing model to better process complex\ninstructions. In addition, we have proposed comprehensive benchmarks for these\ntwo new tasks to drive their development. Experiments show that DreamOmni2 has\nachieved impressive results. Models and codes will be released.",
+  "authors": [
+    "Bin Xia",
+    "Bohao Peng",
+    "Yuechen Zhang",
+    "Junjia Huang",
+    "Jiyang Liu",
+    "Jingyao Li",
+    "Haoru Tan",
+    "Sitong Wu",
+    "Chengyao Wang",
+    "Yitong Wang",
+    "Xinglong Wu",
+    "Bei Yu",
+    "Jiaya Jia"
+  ],
+  "published": "2025-10-08T06:07:14Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06679v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "DreamOmni2提出基于多模态指令的图像编辑与生成新任务，支持文本和图像指令，涵盖具体与抽象概念。通过特征混合数据合成流程、索引编码方案及联合训练框架，解决了多图像输入处理和复杂指令理解难题，并建立了相应评测基准，实验效果显著。",
+  "order": 148,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06679v1"
+}

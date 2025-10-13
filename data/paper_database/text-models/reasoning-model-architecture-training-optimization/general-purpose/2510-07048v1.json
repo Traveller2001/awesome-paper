@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.07048v1",
+  "title": "Search-R3: Unifying Reasoning and Embedding Generation in Large Language\n  Models",
+  "summary": "Despite their remarkable natural language understanding capabilities, Large\nLanguage Models (LLMs) have been underutilized for retrieval tasks. We present\nSearch-R3, a novel framework that addresses this limitation by adapting LLMs to\ngenerate search embeddings as a direct output of their reasoning process. Our\napproach exploits LLMs' chain-of-thought capabilities, allowing them to produce\nmore effective embeddings by reasoning step-by-step through complex semantic\nanalyses. We implement this through three complementary mechanisms. (1) a\nsupervised learning stage enables the model's ability to produce quality\nembeddings, (2) a reinforcement learning (RL) methodology that optimizes\nembedding generation alongside reasoning, and (3) a specialized RL environment\nthat efficiently handles evolving embedding representations without requiring\ncomplete corpus re-encoding at each training iteration. Our extensive\nevaluations on diverse benchmarks demonstrate that Search-R3 significantly\noutperforms prior methods by unifying the reasoning and embedding generation\nprocesses. This integrated post-training approach represents a substantial\nadvancement in handling complex knowledge-intensive tasks that require both\nsophisticated reasoning and effective information retrieval. Project page:\nhttps://github.com/ytgui/Search-R3",
+  "authors": [
+    "Yuntao Gui",
+    "James Cheng"
+  ],
+  "published": "2025-10-08T14:16:20Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07048v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Search-R3框架，将大语言模型的推理过程与嵌入生成相统一。通过三步机制（监督学习、强化学习、专用RL环境），使LLM在逐步推理的同时直接生成搜索嵌入，显著提升复杂语义分析和检索任务的性能。",
+  "order": 58,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07048v1"
+}

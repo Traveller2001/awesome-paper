@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.02001v1",
+  "title": "Generating Findings for Jaw Cysts in Dental Panoramic Radiographs Using\n  GPT-4o: Building a Two-Stage Self-Correction Loop with Structured Output\n  (SLSO) Framework",
+  "summary": "In this study, we utilized the multimodal capabilities of OpenAI GPT-4o to\nautomatically generate jaw cyst findings on dental panoramic radiographs. To\nimprove accuracy, we constructed a Self-correction Loop with Structured Output\n(SLSO) framework and verified its effectiveness. A 10-step process was\nimplemented for 22 cases of jaw cysts, including image input and analysis,\nstructured data generation, tooth number extraction and consistency checking,\niterative regeneration when inconsistencies were detected, and finding\ngeneration with subsequent restructuring and consistency verification. A\ncomparative experiment was conducted using the conventional Chain-of-Thought\n(CoT) method across seven evaluation items: transparency, internal structure,\nborders, root resorption, tooth movement, relationships with other structures,\nand tooth number. The results showed that the proposed SLSO framework improved\noutput accuracy for many items, with 66.9%, 33.3%, and 28.6% improvement rates\nfor tooth number, tooth movement, and root resorption, respectively. In the\nsuccessful cases, a consistently structured output was achieved after up to\nfive regenerations. Although statistical significance was not reached because\nof the small size of the dataset, the overall SLSO framework enforced negative\nfinding descriptions, suppressed hallucinations, and improved tooth number\nidentification accuracy. However, the accurate identification of extensive\nlesions spanning multiple teeth is limited. Nevertheless, further refinement is\nrequired to enhance overall performance and move toward a practical finding\ngeneration system.",
+  "authors": [
+    "Nanaka Hosokawa",
+    "Ryo Takahashi",
+    "Tomoya Kitano",
+    "Yukihiro Iida",
+    "Chisako Muramatsu",
+    "Tatsuro Hayashi",
+    "Yuta Seino",
+    "Xiangrong Zhou",
+    "Takeshi Hara",
+    "Akitoshi Katsumata",
+    "Hiroshi Fujita"
+  ],
+  "published": "2025-10-02T13:22:13Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02001v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究利用GPT-4o多模态能力，开发了自校正结构化输出(SLSO)框架来自动生成牙科全景片中颌骨囊肿的诊断发现。通过10步处理流程对22例病例进行实验，相比传统思维链方法，在牙齿编号、牙齿移动和牙根吸收等项目的准确率分别提升66.9%、33.3%和28.6%。该框架能有效抑制幻觉现象并提高结构化输出一致性，但针对跨多牙大面积病变的识别仍有局限。",
+  "order": 528,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02001v1"
+}

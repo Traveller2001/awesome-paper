@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07248v1",
+  "title": "Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the\n  Models",
+  "summary": "Small language models (SLMs) offer significant computational advantages for\ntool-augmented AI systems, yet they struggle with tool-use tasks, particularly\nin selecting appropriate tools and identifying correct parameters. A common\nfailure mode is schema misalignment: models hallucinate plausible but\nnon-existent tool names that reflect naming conventions internalized during\npretraining but absent from the provided tool schema. Rather than forcing\nmodels to adapt to arbitrary schemas, we propose adapting schemas to align with\nmodels' pretrained knowledge. We introduce PA-Tool (Pretraining-Aligned Tool\nSchema Generation), a training-free method that leverages peakedness-a signal\nfrom contamination detection indicating pretraining familiarity-to\nautomatically rename tool components. By generating multiple candidates and\nselecting those with highest output concentration across samples, PA-Tool\nidentifies pretrain-aligned naming patterns. Experiments on MetaTool and\nRoTBench show improvements of up to 17% points, with schema misalignment errors\nreduced by 80%. PA-Tool enables small models to approach state-of-the-art\nperformance while maintaining computational efficiency for adaptation to new\ntools without retraining. Our work demonstrates that schema-level interventions\ncan unlock the tool-use potential of resource-efficient models by adapting\nschemas to models rather than models to schemas.",
+  "authors": [
+    "Jonggeun Lee",
+    "Woojung Song",
+    "Jongwook Han",
+    "Haesung Pyun",
+    "Yohan Jo"
+  ],
+  "published": "2025-10-08T17:16:07Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07248v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出PA-Tool方法，通过调整工具模式而非改造小语言模型来解决工具使用中的模式对齐问题。该方法利用预训练熟悉度信号自动重命名工具组件，在MetaTool和RoTBench基准测试中提升性能达17%，模式对齐错误减少80%，让小模型无需重新训练即可高效适应新工具。",
+  "order": 30,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07248v1"
+}

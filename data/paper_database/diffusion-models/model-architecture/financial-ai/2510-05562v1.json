@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.05562v1",
+  "title": "Generative Dynamic Graph Representation Learning for Conspiracy Spoofing\n  Detection",
+  "summary": "Spoofing detection in financial trading is crucial, especially for\nidentifying complex behaviors such as conspiracy spoofing. Traditional\nmachine-learning approaches primarily focus on isolated node features, often\noverlooking the broader context of interconnected nodes. Graph-based\ntechniques, particularly Graph Neural Networks (GNNs), have advanced the field\nby leveraging relational information effectively. However, in real-world\nspoofing detection datasets, trading behaviors exhibit dynamic, irregular\npatterns. Existing spoofing detection methods, though effective in some\nscenarios, struggle to capture the complexity of dynamic and diverse, evolving\ninter-node relationships. To address these challenges, we propose a novel\nframework called the Generative Dynamic Graph Model (GDGM), which models\ndynamic trading behaviors and the relationships among nodes to learn\nrepresentations for conspiracy spoofing detection. Specifically, our approach\nincorporates the generative dynamic latent space to capture the temporal\npatterns and evolving market conditions. Raw trading data is first converted\ninto time-stamped sequences. Then we model trading behaviors using the neural\nordinary differential equations and gated recurrent units, to generate the\nrepresentation incorporating temporal dynamics of spoofing patterns.\nFurthermore, pseudo-label generation and heterogeneous aggregation techniques\nare employed to gather relevant information and enhance the detection\nperformance for conspiratorial spoofing behaviors. Experiments conducted on\nspoofing detection datasets demonstrate that our approach outperforms\nstate-of-the-art models in detection accuracy. Additionally, our spoofing\ndetection system has been successfully deployed in one of the largest global\ntrading markets, further validating the practical applicability and performance\nof the proposed method.",
+  "authors": [
+    "Sheng Xiang",
+    "Yidong Jiang",
+    "Yunting Chen",
+    "Dawei Cheng",
+    "Guoping Zhao",
+    "Changjun Jiang"
+  ],
+  "published": "2025-10-07T04:16:12Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05562v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出生成式动态图模型(GDGM)，通过神经微分方程和门控循环单元捕捉交易行为的时序动态特征，结合伪标签生成和异质聚合技术，在金融共谋欺骗检测中显著优于现有方法，并已在全球最大交易市场成功部署。",
+  "order": 141,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05562v1"
+}

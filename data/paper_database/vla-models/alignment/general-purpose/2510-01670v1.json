@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.01670v1",
+  "title": "Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness",
+  "summary": "Computer-Use Agents (CUAs) are an increasingly deployed class of agents that\ntake actions on GUIs to accomplish user goals. In this paper, we show that CUAs\nconsistently exhibit Blind Goal-Directedness (BGD): a bias to pursue goals\nregardless of feasibility, safety, reliability, or context. We characterize\nthree prevalent patterns of BGD: (i) lack of contextual reasoning, (ii)\nassumptions and decisions under ambiguity, and (iii) contradictory or\ninfeasible goals. We develop BLIND-ACT, a benchmark of 90 tasks capturing these\nthree patterns. Built on OSWorld, BLIND-ACT provides realistic environments and\nemploys LLM-based judges to evaluate agent behavior, achieving 93.75% agreement\nwith human annotations. We use BLIND-ACT to evaluate nine frontier models,\nincluding Claude Sonnet and Opus 4, Computer-Use-Preview, and GPT-5, observing\nhigh average BGD rates (80.8%) across them. We show that BGD exposes subtle\nrisks that arise even when inputs are not directly harmful. While\nprompting-based interventions lower BGD levels, substantial risk persists,\nhighlighting the need for stronger training- or inference-time interventions.\nQualitative analysis reveals observed failure modes: execution-first bias\n(focusing on how to act over whether to act), thought-action disconnect\n(execution diverging from reasoning), and request-primacy (justifying actions\ndue to user request). Identifying BGD and introducing BLIND-ACT establishes a\nfoundation for future research on studying and mitigating this fundamental risk\nand ensuring safe CUA deployment.",
+  "authors": [
+    "Erfan Shayegani",
+    "Keegan Hines",
+    "Yue Dong",
+    "Nael Abu-Ghazaleh",
+    "Roman Lutz",
+    "Spencer Whitehead",
+    "Vidhisha Balachandran",
+    "Besmira Nushi",
+    "Vibhav Vineet"
+  ],
+  "published": "2025-10-02T04:52:15Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01670v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究发现计算机使用代理(CUAs)普遍存在盲目目标导向(BGD)现象，即不顾可行性、安全性和上下文盲目追求目标。作者开发了BLIND-ACT基准测试，在9个前沿模型中发现平均80.8%的BGD率，揭示了执行优先偏见、思维行动脱节等风险模式，强调了改进训练和推理干预的必要性。",
+  "order": 378,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01670v1"
+}

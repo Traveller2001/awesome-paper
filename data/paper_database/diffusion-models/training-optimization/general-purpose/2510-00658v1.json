@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00658v1",
+  "title": "Align Your Tangent: Training Better Consistency Models via\n  Manifold-Aligned Tangents",
+  "summary": "With diffusion and flow matching models achieving state-of-the-art generating\nperformance, the interest of the community now turned to reducing the inference\ntime without sacrificing sample quality. Consistency Models (CMs), which are\ntrained to be consistent on diffusion or probability flow ordinary differential\nequation (PF-ODE) trajectories, enable one or two-step flow or diffusion\nsampling. However, CMs typically require prolonged training with large batch\nsizes to obtain competitive sample quality. In this paper, we examine the\ntraining dynamics of CMs near convergence and discover that CM tangents -- CM\noutput update directions -- are quite oscillatory, in the sense that they move\nparallel to the data manifold, not towards the manifold. To mitigate\noscillatory tangents, we propose a new loss function, called the manifold\nfeature distance (MFD), which provides manifold-aligned tangents that point\ntoward the data manifold. Consequently, our method -- dubbed Align Your Tangent\n(AYT) -- can accelerate CM training by orders of magnitude and even out-perform\nthe learned perceptual image patch similarity metric (LPIPS). Furthermore, we\nfind that our loss enables training with extremely small batch sizes without\ncompromising sample quality. Code: https://github.com/1202kbs/AYT",
+  "authors": [
+    "Beomsu Kim",
+    "Byunghee Cha",
+    "Jong Chul Ye"
+  ],
+  "published": "2025-10-01T08:35:18Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00658v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种名为'对齐切线'(AYT)的新方法，通过流形特征距离损失函数解决一致性模型训练中切线振荡问题，使更新方向指向数据流形，大幅加速训练速度并提升样本质量，即使使用极小批次也能保持性能。",
+  "order": 647,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00658v1"
+}

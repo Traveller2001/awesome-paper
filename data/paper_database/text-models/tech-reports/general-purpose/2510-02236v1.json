@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02236v1",
+  "title": "PUL-Inter-slice Defender: An Anomaly Detection Solution for Distributed\n  Slice Mobility Attacks",
+  "summary": "Network Slices (NSs) are virtual networks operating over a shared physical\ninfrastructure, each designed to meet specific application requirements while\nmaintaining consistent Quality of Service (QoS). In Fifth Generation (5G)\nnetworks, User Equipment (UE) can connect to and seamlessly switch between\nmultiple NSs to access diverse services. However, this flexibility, known as\nInter-Slice Switching (ISS), introduces a potential vulnerability that can be\nexploited to launch Distributed Slice Mobility (DSM) attacks, a form of\nDistributed Denial of Service (DDoS) attack. To secure 5G networks and their\nNSs against DSM attacks, we present in this work, PUL-Inter-Slice Defender; an\nanomaly detection solution that leverages Positive Unlabeled Learning (PUL) and\nincorporates a combination of Long Short-Term Memory Autoencoders and K-Means\nclustering. PUL-Inter-Slice Defender leverages the Third Generation Partnership\nProject (3GPP) key performance indicators and performance measurement counters\nas features for its machine learning models to detect DSM attack variants while\nmaintaining robustness in the presence of contaminated training data. When\nevaluated on data collected from our 5G testbed based on the open-source\nfree5GC and UERANSIM, a UE/ Radio Access Network (RAN) simulator;\nPUL-Inter-Slice Defender achieved F1-scores exceeding 98.50% on training\ndatasets with 10% to 40% attack contamination, consistently outperforming its\ncounterpart Inter-Slice Defender and other PUL based solutions combining\nOne-Class Support Vector Machine (OCSVM) with Random Forest and XGBoost.",
+  "authors": [
+    "Ricardo Misael Ayala Molina",
+    "Hyame Assem Alameddine",
+    "Makan Pourzandi",
+    "Chadi Assi"
+  ],
+  "published": "2025-10-02T17:24:17Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02236v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出PUL-Inter-slice Defender，一种基于正样本无标签学习的异常检测方案，用于防御5G网络中的分布式切片移动攻击。该方法结合LSTM自编码器和K-Means聚类，利用3GPP性能指标，在攻击污染数据下实现超过98.50%的F1分数，显著优于现有方案。",
+  "order": 714,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02236v1"
+}

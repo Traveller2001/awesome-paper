@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07161v1",
+  "title": "Integrating Domain Knowledge into Process Discovery Using Large Language\n  Models",
+  "summary": "Process discovery aims to derive process models from event logs, providing\ninsights into operational behavior and forming a foundation for conformance\nchecking and process improvement. However, models derived solely from event\ndata may not accurately reflect the real process, as event logs are often\nincomplete or affected by noise, and domain knowledge, an important\ncomplementary resource, is typically disregarded. As a result, the discovered\nmodels may lack reliability for downstream tasks. We propose an interactive\nframework that incorporates domain knowledge, expressed in natural language,\ninto the process discovery pipeline using Large Language Models (LLMs). Our\napproach leverages LLMs to extract declarative rules from textual descriptions\nprovided by domain experts. These rules are used to guide the IMr discovery\nalgorithm, which recursively constructs process models by combining insights\nfrom both the event log and the extracted rules, helping to avoid problematic\nprocess structures that contradict domain knowledge. The framework coordinates\ninteractions among the LLM, domain experts, and a set of backend services. We\npresent a fully implemented tool that supports this workflow and conduct an\nextensive evaluation of multiple LLMs and prompt engineering strategies. Our\nempirical study includes a case study based on a real-life event log with the\ninvolvement of domain experts, who assessed the usability and effectiveness of\nthe framework.",
+  "authors": [
+    "Ali Norouzifar",
+    "Humam Kourani",
+    "Marcus Dees",
+    "Wil van der Aalst"
+  ],
+  "published": "2025-10-08T15:59:11Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.07161v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种交互式框架，利用大语言模型将自然语言描述的领域知识融入流程发现过程。通过LLM从专家文本中提取声明性规则，指导IMr算法结合事件日志和领域知识构建更准确的流程模型，避免与领域知识冲突的问题结构。研究包含完整工具实现、多LLM评估及真实案例验证。",
+  "order": 4,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07161v1"
+}

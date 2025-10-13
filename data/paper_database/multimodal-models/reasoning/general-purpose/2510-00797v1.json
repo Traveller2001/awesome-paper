@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00797v1",
+  "title": "Solar PV Installation Potential Assessment on Building Facades Based on\n  Vision and Language Foundation Models",
+  "summary": "Building facades represent a significant untapped resource for solar energy\ngeneration in dense urban environments, yet assessing their photovoltaic (PV)\npotential remains challenging due to complex geometries and semantic com\nponents. This study introduces SF-SPA (Semantic Facade Solar-PV Assessment), an\nautomated framework that transforms street-view photographs into quantitative\nPV deployment assessments. The approach combines com puter vision and\nartificial intelligence techniques to address three key challenges: perspective\ndistortion correction, semantic understanding of facade elements, and spatial\nreasoning for PV layout optimization. Our four-stage pipeline processes images\nthrough geometric rectification, zero-shot semantic segmentation, Large\nLanguage Model (LLM) guided spatial reasoning, and energy simulation.\nValidation across 80 buildings in four countries demonstrates ro bust\nperformance with mean area estimation errors of 6.2% &#177; 2.8% compared to\nexpert annotations. The auto mated assessment requires approximately 100\nseconds per building, a substantial gain in efficiency over manual methods.\nSimulated energy yield predictions confirm the method's reliability and\napplicability for regional poten tial studies, urban energy planning, and\nbuilding-integrated photovoltaic (BIPV) deployment. Code is available at:\nhttps:github.com/CodeAXu/Solar-PV-Installation",
+  "authors": [
+    "Ruyu Liu",
+    "Dongxu Zhuang",
+    "Jianhua Zhang",
+    "Arega Getaneh Abate",
+    "Per Sieverts Nielsen",
+    "Ben Wang",
+    "Xiufeng Liu"
+  ],
+  "published": "2025-10-01T11:51:28Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00797v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出SF-SPA框架，利用视觉与语言基础模型自动评估建筑立面光伏安装潜力。通过几何校正、零样本语义分割、LLM空间推理和能源模拟四阶段流程，在80栋建筑验证中实现6.2%面积估计误差，为城市能源规划提供高效解决方案。",
+  "order": 627,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00797v1"
+}

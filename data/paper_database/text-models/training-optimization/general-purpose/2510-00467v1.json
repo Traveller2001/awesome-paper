@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00467v1",
+  "title": "Rehearsal-free and Task-free Online Continual Learning With Contrastive\n  Prompt",
+  "summary": "The main challenge of continual learning is \\textit{catastrophic forgetting}.\nBecause of processing data in one pass, online continual learning (OCL) is one\nof the most difficult continual learning scenarios. To address catastrophic\nforgetting in OCL, some existing studies use a rehearsal buffer to store\nsamples and replay them in the later learning process, other studies do not\nstore samples but assume a sequence of learning tasks so that the task\nidentities can be explored. However, storing samples may raise data security or\nprivacy concerns and it is not always possible to identify the boundaries\nbetween learning tasks in one pass of data processing. It motivates us to\ninvestigate rehearsal-free and task-free OCL (F2OCL). By integrating prompt\nlearning with an NCM classifier, this study has effectively tackled\ncatastrophic forgetting without storing samples and without usage of task\nboundaries or identities. The extensive experimental results on two benchmarks\nhave demonstrated the effectiveness of the proposed method.",
+  "authors": [
+    "Aopeng Wang",
+    "Ke Deng",
+    "Yongli Ren",
+    "Jun Luo"
+  ],
+  "published": "2025-10-01T03:39:29Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00467v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出一种无需排练缓冲区和任务标识的在线持续学习方法，通过结合提示学习和最近类均值分类器，有效解决了灾难性遗忘问题，在两个基准测试中验证了方法的有效性。",
+  "order": 676,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00467v1"
+}

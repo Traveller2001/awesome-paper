@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01994v1",
+  "title": "Clarifying Semantics of In-Context Examples for Unit Test Generation",
+  "summary": "Recent advances in large language models (LLMs) have enabled promising\nperformance in unit test generation through in-context learning (ICL). However,\nthe quality of in-context examples significantly influences the effectiveness\nof generated tests-poorly structured or semantically unclear test examples\noften lead to suboptimal outputs. In this paper, we propose CLAST, a novel\ntechnique that systematically refines unit tests to improve their semantic\nclarity, thereby enhancing their utility as in-context examples. The approach\ndecomposes complex tests into logically clearer ones and improves semantic\nclarity through a combination of program analysis and LLM-based rewriting. We\nevaluated CLAST on four open-source and three industrial projects. The results\ndemonstrate that CLAST largely outperforms UTgen, the state-of-the-art\nrefinement technique, in both preserving test effectiveness and enhancing\nsemantic clarity. Specifically, CLAST fully retains the original effectiveness\nof unit tests, while UTgen reduces compilation success rate (CSR), pass rate\n(PR), test coverage (Cov), and mutation score (MS) by an average of 12.90%,\n35.82%, 4.65%, and 5.07%, respectively. Over 85.33% of participants in our user\nstudy preferred the semantic clarity of CLAST-refined tests. Notably,\nincorporating CLAST-refined tests as examples effectively improves ICL-based\nunit test generation approaches such as RAGGen and TELPA, resulting in an\naverage increase of 25.97% in CSR, 28.22% in PR, and 45.99% in Cov for\ngenerated tests, compared to incorporating UTgen-refined tests. The insights\nfrom the follow-up user study not only reinforce CLAST's potential impact in\nsoftware testing practice but also illuminate avenues for future research.",
+  "authors": [
+    "Chen Yang",
+    "Lin Yang",
+    "Ziqi Wang",
+    "Dong Wang",
+    "Jianyi Zhou",
+    "Junjie Chen"
+  ],
+  "published": "2025-10-02T13:15:40Z",
+  "primary_category": "cs.SE",
+  "arxiv_url": "https://arxiv.org/abs/2510.01994v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文提出CLAST技术，通过程序分析和LLM重写改进单元测试的语义清晰度，作为上下文示例显著提升测试生成质量。在多个项目中验证显示，CLAST在保持测试有效性和增强语义清晰度方面均优于现有方法，用户研究中有85.33%参与者偏好CLAST优化后的测试。",
+  "order": 55,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01994v1"
+}

@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01006v1",
+  "title": "Integrating AI and Ensemble Forecasting: Explainable Materials Planning\n  with Scorecards and Trend Insights for a Large-Scale Manufacturer",
+  "summary": "This paper presents a practical architecture for after-sales demand\nforecasting and monitoring that unifies a revenue- and cluster-aware ensemble\nof statistical, machine-learning, and deep-learning models with a role-driven\nanalytics layer for scorecards and trend diagnostics. The framework ingests\nexogenous signals (installed base, pricing, macro indicators, life cycle,\nseasonality) and treats COVID-19 as a distinct regime, producing country-part\nforecasts with calibrated intervals. A Pareto-aware segmentation forecasts\nhigh-revenue items individually and pools the long tail via clusters, while\nhorizon-aware ensembling aligns weights with business-relevant losses (e.g.,\nWMAPE). Beyond forecasts, a performance scorecard delivers decision-focused\ninsights: accuracy within tolerance thresholds by revenue share and count, bias\ndecomposition (over- vs under-forecast), geographic and product-family\nhotspots, and ranked root causes tied to high-impact part-country pairs. A\ntrend module tracks trajectories of MAPE/WMAPE and bias across recent months,\nflags entities that are improving or deteriorating, detects change points\naligned with known regimes, and attributes movements to lifecycle and seasonal\nfactors. LLMs are embedded in the analytics layer to generate role-aware\nnarratives and enforce reporting contracts. They standardize business\ndefinitions, automate quality checks and reconciliations, and translate\nquantitative results into concise, explainable summaries for planners and\nexecutives. The system exposes a reproducible workflow -- request\nspecification, model execution, database-backed artifacts, and AI-generated\nnarratives -- so planners can move from \"How accurate are we now?\" to \"Where is\naccuracy heading and which levers should we pull?\", closing the loop between\nforecasting, monitoring, and inventory decisions across more than 90 countries\nand about 6,000 parts.",
+  "authors": [
+    "Saravanan Venkatachalam"
+  ],
+  "published": "2025-10-01T15:14:10Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01006v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出一种售后需求预测与监控架构，融合统计、机器学习和深度学习模型的收益感知集成方法，结合评分卡和趋势诊断分析层。该系统整合外生信号，采用帕累托感知分割和时域感知集成，为大规制造商提供可解释的材料规划方案，并嵌入大语言模型生成角色化分析报告，覆盖90多个国家和6000多个零部件的库存决策闭环。",
+  "order": 208,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01006v1"
+}

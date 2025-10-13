@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01767v1",
+  "title": "LOBE-GS: Load-Balanced and Efficient 3D Gaussian Splatting for\n  Large-Scale Scene Reconstruction",
+  "summary": "3D Gaussian Splatting (3DGS) has established itself as an efficient\nrepresentation for real-time, high-fidelity 3D scene reconstruction. However,\nscaling 3DGS to large and unbounded scenes such as city blocks remains\ndifficult. Existing divide-and-conquer methods alleviate memory pressure by\npartitioning the scene into blocks, but introduce new bottlenecks: (i)\npartitions suffer from severe load imbalance since uniform or heuristic splits\ndo not reflect actual computational demands, and (ii) coarse-to-fine pipelines\nfail to exploit the coarse stage efficiently, often reloading the entire model\nand incurring high overhead. In this work, we introduce LoBE-GS, a novel\nLoad-Balanced and Efficient 3D Gaussian Splatting framework, that re-engineers\nthe large-scale 3DGS pipeline. LoBE-GS introduces a depth-aware partitioning\nmethod that reduces preprocessing from hours to minutes, an optimization-based\nstrategy that balances visible Gaussians -- a strong proxy for computational\nload -- across blocks, and two lightweight techniques, visibility cropping and\nselective densification, to further reduce training cost. Evaluations on\nlarge-scale urban and outdoor datasets show that LoBE-GS consistently achieves\nup to $2\\times$ faster end-to-end training time than state-of-the-art\nbaselines, while maintaining reconstruction quality and enabling scalability to\nscenes infeasible with vanilla 3DGS.",
+  "authors": [
+    "Sheng-Hsiang Hung",
+    "Ting-Yu Yen",
+    "Wei-Fang Sun",
+    "Simon See",
+    "Shih-Hsuan Hung",
+    "Hung-Kuo Chu"
+  ],
+  "published": "2025-10-02T08:02:06Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01767v1",
+  "primary_area": "video_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "LOBE-GS提出了一种负载均衡的高效3D高斯泼溅框架，通过深度感知分区、优化策略和轻量级技术，解决了大规模场景重建中的负载不均和训练效率问题，在保持重建质量的同时将端到端训练速度提升至现有方法的2倍。",
+  "order": 545,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01767v1"
+}

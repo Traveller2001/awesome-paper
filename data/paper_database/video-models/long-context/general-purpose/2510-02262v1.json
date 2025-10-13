@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02262v1",
+  "title": "From Frames to Clips: Efficient Key Clip Selection for Long-Form Video\n  Understanding",
+  "summary": "Video Large Language Models (VLMs) have achieved remarkable results on a\nvariety of vision language tasks, yet their practical use is limited by the\n\"needle in a haystack\" problem: the massive number of visual tokens produced\nfrom raw video frames exhausts the model's context window. Existing solutions\nalleviate this issue by selecting a sparse set of frames, thereby reducing\ntoken count, but such frame-wise selection discards essential temporal\ndynamics, leading to suboptimal reasoning about motion and event continuity. In\nthis work we systematically explore the impact of temporal information and\ndemonstrate that extending selection from isolated key frames to key clips,\nwhich are short, temporally coherent segments, improves video understanding. To\nmaintain a fixed computational budget while accommodating the larger token\nfootprint of clips, we propose an adaptive resolution strategy that dynamically\nbalances spatial resolution and clip length, ensuring a constant token count\nper video. Experiments on three long-form video benchmarks demonstrate that our\ntraining-free approach, F2C, outperforms uniform sampling up to 8.1%, 5.6%, and\n10.3% on Video-MME, LongVideoBench and MLVU benchmarks, respectively. These\nresults highlight the importance of preserving temporal coherence in frame\nselection and provide a practical pathway for scaling Video LLMs to real world\nvideo understanding applications. Project webpage is available at\nhttps://guangyusun.com/f2c .",
+  "authors": [
+    "Guangyu Sun",
+    "Archit Singhal",
+    "Burak Uzkent",
+    "Mubarak Shah",
+    "Chen Chen",
+    "Garin Kessler"
+  ],
+  "published": "2025-10-02T17:43:01Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02262v1",
+  "primary_area": "video_models",
+  "secondary_focus": "long_context",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出F2C方法，通过从关键帧选择扩展到关键片段选择，并采用自适应分辨率策略平衡空间分辨率与片段长度，在固定计算预算下提升长视频理解性能。该方法在三个长视频基准测试中显著优于均匀采样，最高提升达10.3%。",
+  "order": 504,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02262v1"
+}

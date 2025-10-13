@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00733v2",
+  "title": "Neural Diffusion Processes for Physically Interpretable Survival\n  Prediction",
+  "summary": "We introduce DeepFHT, a survival-analysis framework that couples deep neural\nnetworks with first hitting time (FHT) distributions from stochastic process\ntheory. Time to event is represented as the first passage of a latent diffusion\nprocess to an absorbing boundary. A neural network maps input variables to\nphysically meaningful parameters including initial condition, drift, and\ndiffusion, within a chosen FHT process such as Brownian motion, both with drift\nand driftless. This yields closed-form survival and hazard functions and\ncaptures time-varying risk without assuming proportional-hazards.\n  We compare DeepFHT with Cox survival model using synthetic and real-world\ndatasets. The method achieves predictive accuracy on par with state-of-the-art\napproaches, while maintaining a physics-based interpretable parameterization\nthat elucidates the relation between input features and risk. This combination\nof stochastic process theory and deep learning provides a principled avenue for\nmodeling survival phenomena in complex systems.",
+  "authors": [
+    "Alessio Cristofoletto",
+    "Cesare Rollo",
+    "Giovanni Birolo",
+    "Piero Fariselli"
+  ],
+  "published": "2025-10-01T10:16:29Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00733v2",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "DeepFHT框架将深度神经网络与随机过程理论中的首次命中时间分布相结合，通过潜在扩散过程模拟事件发生时间，生成封闭形式的生存和风险函数。该方法在保持与最先进方法相当的预测准确性的同时，提供了基于物理的可解释参数化，阐明输入特征与风险之间的关系，特别适用于复杂系统中的生存现象建模。",
+  "order": 253,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00733v2"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02270v1",
+  "title": "microCLIP: Unsupervised CLIP Adaptation via Coarse-Fine Token Fusion for\n  Fine-Grained Image Classification",
+  "summary": "Unsupervised adaptation of CLIP-based vision-language models (VLMs) for\nfine-grained image classification requires sensitivity to microscopic local\ncues. While CLIP exhibits strong zero-shot transfer, its reliance on coarse\nglobal features restricts its performance on fine-grained classification tasks.\nPrior efforts inject fine-grained knowledge by aligning large language model\n(LLM) descriptions with the CLIP $\\texttt{[CLS]}$ token; however, this approach\noverlooks spatial precision. We propose $\\textbf{microCLIP}$, a self-training\nframework that jointly refines CLIP's visual and textual representations using\nfine-grained cues. At its core is Saliency-Oriented Attention Pooling (SOAP)\nwithin a lightweight TokenFusion module, which builds a saliency-guided\n$\\texttt{[FG]}$ token from patch embeddings and fuses it with the global\n$\\texttt{[CLS]}$ token for coarse-fine alignment. To stabilize adaptation, we\nintroduce a two-headed LLM-derived classifier: a frozen classifier that, via\nmulti-view alignment, provides a stable text-based prior for pseudo-labeling,\nand a learnable classifier initialized from LLM descriptions and fine-tuned\nwith TokenFusion. We further develop Dynamic Knowledge Aggregation, which\nconvexly combines fixed LLM/CLIP priors with TokenFusion's evolving logits to\niteratively refine pseudo-labels. Together, these components uncover latent\nfine-grained signals in CLIP, yielding a consistent $2.90\\%$ average accuracy\ngain across 13 fine-grained benchmarks while requiring only light adaptation.\nOur code is available at https://github.com/sathiiii/microCLIP.",
+  "authors": [
+    "Sathira Silva",
+    "Eman Ali",
+    "Chetan Arora",
+    "Muhammad Haris Khan"
+  ],
+  "published": "2025-10-02T17:47:39Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02270v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "microCLIP提出了一种无监督的CLIP自适应框架，通过粗-细粒度令牌融合实现细粒度图像分类。核心创新包括：基于显著性注意力的令牌融合模块构建细粒度[FG]令牌并与全局[CLS]令牌对齐；双头LLM分类器提供稳定伪标签；动态知识聚合迭代优化。在13个细粒度基准上平均提升2.90%准确率，仅需轻量适配。",
+  "order": 500,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02270v1"
+}

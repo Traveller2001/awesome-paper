@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01179v1",
+  "title": "TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP\n  Environments",
+  "summary": "Large Language Model (LLM) agents are rapidly emerging as powerful systems\nfor automating tasks across domains. Yet progress in the open-source community\nis constrained by the lack of high quality permissively licensed tool-agentic\ntraining data. Existing datasets are often limited in diversity, realism, and\ncomplexity, particularly regarding multi-tool and multi-turn interactions. To\naddress this gap, we introduce Toucan, the largest publicly available\ntool-agentic dataset to date, containing 1.5 million trajectories synthesized\nfrom nearly 500 real-world Model Context Protocols (MCPs). Unlike prior work,\nToucan leverages authentic MCP environments to generate diverse, realistic, and\nchallenging tasks with trajectories involving real tool execution. Our pipeline\nfirst produces a broad spectrum of tool-use queries using five distinct models,\napplies model-based quality filtering, and then generates agentic trajectories\nwith three teacher models using two agentic frameworks. Rigorous rule-based and\nmodel-based validation ensures high-quality outputs. We also introduce three\nextension mechanisms to further diversify tasks and simulate multi-turn\nconversations. Models fine-tuned on Toucan outperform larger closed-source\ncounterparts on the BFCL V3 benchmark and push the Pareto frontier forward on\nMCP-Universe Bench.",
+  "authors": [
+    "Zhangchen Xu",
+    "Adriana Meza Soria",
+    "Shawn Tan",
+    "Anurag Roy",
+    "Ashish Sunil Agrawal",
+    "Radha Poovendran",
+    "Rameswar Panda"
+  ],
+  "published": "2025-10-01T17:58:03Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01179v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "TOUCAN项目构建了目前最大的开源工具代理数据集，包含150万条从近500个真实MCP环境中合成的轨迹数据。该数据集通过多样化查询生成、质量过滤和多教师模型轨迹生成，解决了现有工具代理数据在多样性、真实性和复杂性方面的不足。基于TOUCAN微调的模型在BFCL V3和MCP-Universe基准测试中表现优异，超越了更大的闭源模型。",
+  "order": 415,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01179v1"
+}

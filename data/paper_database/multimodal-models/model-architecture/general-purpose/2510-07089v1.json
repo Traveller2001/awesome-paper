@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07089v1",
+  "title": "DADO: A Depth-Attention framework for Object Discovery",
+  "summary": "Unsupervised object discovery, the task of identifying and localizing objects\nin images without human-annotated labels, remains a significant challenge and a\ngrowing focus in computer vision. In this work, we introduce a novel model,\nDADO (Depth-Attention self-supervised technique for Discovering unseen\nObjects), which combines an attention mechanism and a depth model to identify\npotential objects in images. To address challenges such as noisy attention maps\nor complex scenes with varying depth planes, DADO employs dynamic weighting to\nadaptively emphasize attention or depth features based on the global\ncharacteristics of each image. We evaluated DADO on standard benchmarks, where\nit outperforms state-of-the-art methods in object discovery accuracy and\nrobustness without the need for fine-tuning.",
+  "authors": [
+    "Federico Gonzalez",
+    "Estefania Talavera",
+    "Petia Radeva"
+  ],
+  "published": "2025-10-08T14:46:34Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07089v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "DADO提出了一种结合注意力机制与深度模型的无监督物体发现框架，通过动态加权策略自适应调整注意力与深度特征的权重，在标准基准测试中无需微调即可超越现有最优方法，显著提升了物体发现的准确性与鲁棒性。",
+  "order": 119,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07089v1"
+}

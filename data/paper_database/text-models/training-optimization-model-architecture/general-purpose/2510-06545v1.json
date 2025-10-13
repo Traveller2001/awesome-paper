@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06545v1",
+  "title": "Incoherence in goal-conditioned autoregressive models",
+  "summary": "We investigate mathematically the notion of incoherence: a structural issue\nwith reinforcement learning policies derived by naive goal-conditioning of\nautoregressive models. We focus on the process of re-training models on their\nown actions, that is, fine-tuning offline-learned policies with online RL. We\nprove that it decreases incoherence and leads to an improvement in return, and\nwe aim to characterize the resulting trajectory of policies. By re-framing\nstandard notions of control-as-inference and soft Q learning, we establish a\nthree-way correspondence with two other ways of understanding the iterative\nre-training process: as folding the posterior into the reward and, in the\ndeterministic case, as decreasing the temperature parameter; the correspondence\nhas computational content via the training-inference trade-off. Through\nsoft-conditioning generative models, we discuss the link between incoherence\nand the effective horizon.",
+  "authors": [
+    "Jacek Karwowski",
+    "Raymond Douglas"
+  ],
+  "published": "2025-10-08T00:52:13Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06545v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文从数学角度研究了自回归模型在目标条件化过程中出现的'不连贯性'问题，证明了通过在线强化学习对离线策略进行微调能够减少不连贯性并提升回报。通过重构控制即推断和软Q学习的概念，建立了三重对应关系，并探讨了不连贯性与有效视野之间的联系。",
+  "order": 236,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06545v1"
+}

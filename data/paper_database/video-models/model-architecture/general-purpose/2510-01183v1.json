@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.01183v1",
+  "title": "EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory",
+  "summary": "Humans possess a remarkable ability to mentally explore and replay 3D\nenvironments they have previously experienced. Inspired by this mental process,\nwe present EvoWorld: a world model that bridges panoramic video generation with\nevolving 3D memory to enable spatially consistent long-horizon exploration.\nGiven a single panoramic image as input, EvoWorld first generates future video\nframes by leveraging a video generator with fine-grained view control, then\nevolves the scene's 3D reconstruction using a feedforward plug-and-play\ntransformer, and finally synthesizes futures by conditioning on geometric\nreprojections from this evolving explicit 3D memory. Unlike prior\nstate-of-the-arts that synthesize videos only, our key insight lies in\nexploiting this evolving 3D reconstruction as explicit spatial guidance for the\nvideo generation process, projecting the reconstructed geometry onto target\nviewpoints to provide rich spatial cues that significantly enhance both visual\nrealism and geometric consistency. To evaluate long-range exploration\ncapabilities, we introduce the first comprehensive benchmark spanning synthetic\noutdoor environments, Habitat indoor scenes, and challenging real-world\nscenarios, with particular emphasis on loop-closure detection and spatial\ncoherence over extended trajectories. Extensive experiments demonstrate that\nour evolving 3D memory substantially improves visual fidelity and maintains\nspatial scene coherence compared to existing approaches, representing a\nsignificant advance toward long-horizon spatially consistent world modeling.",
+  "authors": [
+    "Jiahao Wang",
+    "Luoxin Ye",
+    "TaiMing Lu",
+    "Junfei Xiao",
+    "Jiahan Zhang",
+    "Yuxiang Guo",
+    "Xijun Liu",
+    "Rama Chellappa",
+    "Cheng Peng",
+    "Alan Yuille",
+    "Jieneng Chen"
+  ],
+  "published": "2025-10-01T17:59:38Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01183v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "EvoWorld提出了一种结合全景视频生成与演化3D记忆的世界模型，通过显式3D重建为视频生成提供空间引导，显著提升了长时程探索中的视觉真实感和几何一致性。该方法在合成户外、室内及真实场景的基准测试中表现出色，代表了空间一致世界建模的重要进展。",
+  "order": 594,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01183v1"
+}

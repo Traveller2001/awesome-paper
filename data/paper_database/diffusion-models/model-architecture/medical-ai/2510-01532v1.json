@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01532v1",
+  "title": "MATCH: Multi-faceted Adaptive Topo-Consistency for Semi-Supervised\n  Histopathology Segmentation",
+  "summary": "In semi-supervised segmentation, capturing meaningful semantic structures\nfrom unlabeled data is essential. This is particularly challenging in\nhistopathology image analysis, where objects are densely distributed. To\naddress this issue, we propose a semi-supervised segmentation framework\ndesigned to robustly identify and preserve relevant topological features. Our\nmethod leverages multiple perturbed predictions obtained through stochastic\ndropouts and temporal training snapshots, enforcing topological consistency\nacross these varied outputs. This consistency mechanism helps distinguish\nbiologically meaningful structures from transient and noisy artifacts. A key\nchallenge in this process is to accurately match the corresponding topological\nfeatures across the predictions in the absence of ground truth. To overcome\nthis, we introduce a novel matching strategy that integrates spatial overlap\nwith global structural alignment, minimizing discrepancies among predictions.\nExtensive experiments demonstrate that our approach effectively reduces\ntopological errors, resulting in more robust and accurate segmentations\nessential for reliable downstream analysis. Code is available at\n\\href{https://github.com/Melon-Xu/MATCH}{https://github.com/Melon-Xu/MATCH}.",
+  "authors": [
+    "Meilong Xu",
+    "Xiaoling Hu",
+    "Shahira Abousamra",
+    "Chen Li",
+    "Chao Chen"
+  ],
+  "published": "2025-10-02T00:08:28Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01532v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "提出MATCH半监督分割框架，通过多扰动预测和拓扑一致性机制，在组织病理学图像中鲁棒识别生物结构，减少拓扑误差，提升分割准确性。",
+  "order": 576,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01532v1"
+}

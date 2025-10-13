@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07115v1",
+  "title": "Enhancing Concept Localization in CLIP-based Concept Bottleneck Models",
+  "summary": "This paper addresses explainable AI (XAI) through the lens of Concept\nBottleneck Models (CBMs) that do not require explicit concept annotations,\nrelying instead on concepts extracted using CLIP in a zero-shot manner. We show\nthat CLIP, which is central in these techniques, is prone to concept\nhallucination, incorrectly predicting the presence or absence of concepts\nwithin an image in scenarios used in numerous CBMs, hence undermining the\nfaithfulness of explanations. To mitigate this issue, we introduce Concept\nHallucination Inhibition via Localized Interpretability (CHILI), a technique\nthat disentangles image embeddings and localizes pixels corresponding to target\nconcepts. Furthermore, our approach supports the generation of saliency-based\nexplanations that are more interpretable.",
+  "authors": [
+    "Rémi Kazmierczak",
+    "Steve Azzolin",
+    "Eloïse Berthier",
+    "Goran Frehse",
+    "Gianni Franchi"
+  ],
+  "published": "2025-10-08T15:07:16Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07115v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对基于CLIP的概念瓶颈模型中的概念幻觉问题，提出了一种名为CHILI的新技术。该方法通过解耦图像嵌入并定位目标概念对应的像素，抑制概念幻觉现象，同时生成更具可解释性的显著性解释，提升模型解释的忠实度。",
+  "order": 118,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07115v1"
+}

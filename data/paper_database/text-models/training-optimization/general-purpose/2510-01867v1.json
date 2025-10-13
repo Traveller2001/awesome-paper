@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01867v1",
+  "title": "Universal Dynamic Regret and Constraint Violation Bounds for Constrained\n  Online Convex Optimization",
+  "summary": "We consider a generalization of the celebrated Online Convex Optimization\n(OCO) framework with online adversarial constraints. We present two algorithms\nhaving simple modular structures that yield universal dynamic regret and\ncumulative constraint violation bounds, improving upon the state-of-the-art\nresults. Our results hold in the most general case when both the cost and\nconstraint functions are chosen arbitrarily by an adversary, and the constraint\nfunctions need not contain any common feasible point. The results are\nestablished by reducing the constrained learning problem to an instance of the\nstandard OCO problem with specially constructed surrogate cost functions.",
+  "authors": [
+    "Subhamon Supantha",
+    "Abhishek Sinha"
+  ],
+  "published": "2025-10-02T10:19:16Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01867v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出两种模块化算法，用于带对抗性约束的在线凸优化问题，在动态遗憾和累积约束违反方面改进了现有最优结果。通过将约束学习问题转化为标准OCO问题，算法在最一般情况下（代价函数和约束函数均由对手任意选择）仍能保证性能。",
+  "order": 785,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01867v1"
+}

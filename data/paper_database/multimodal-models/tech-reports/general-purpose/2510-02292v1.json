@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.02292v1",
+  "title": "From Behavioral Performance to Internal Competence: Interpreting\n  Vision-Language Models with VLM-Lens",
+  "summary": "We introduce VLM-Lens, a toolkit designed to enable systematic benchmarking,\nanalysis, and interpretation of vision-language models (VLMs) by supporting the\nextraction of intermediate outputs from any layer during the forward pass of\nopen-source VLMs. VLM-Lens provides a unified, YAML-configurable interface that\nabstracts away model-specific complexities and supports user-friendly operation\nacross diverse VLMs. It currently supports 16 state-of-the-art base VLMs and\ntheir over 30 variants, and is extensible to accommodate new models without\nchanging the core logic.\n  The toolkit integrates easily with various interpretability and analysis\nmethods. We demonstrate its usage with two simple analytical experiments,\nrevealing systematic differences in the hidden representations of VLMs across\nlayers and target concepts. VLM-Lens is released as an open-sourced project to\naccelerate community efforts in understanding and improving VLMs.",
+  "authors": [
+    "Hala Sheta",
+    "Eric Huang",
+    "Shuyu Wu",
+    "Ilia Alenabi",
+    "Jiajun Hong",
+    "Ryker Lin",
+    "Ruoxi Ning",
+    "Daniel Wei",
+    "Jialin Yang",
+    "Jiawei Zhou",
+    "Ziqiao Ma",
+    "Freda Shi"
+  ],
+  "published": "2025-10-02T17:58:41Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02292v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VLM-Lens是一个用于系统化评估、分析和解释视觉语言模型的开源工具包，支持从开源VLM任意层提取中间输出，提供统一配置接口，已集成16个主流模型及其30多个变体，可加速社区对VLM的理解与改进。",
+  "order": 494,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02292v1"
+}

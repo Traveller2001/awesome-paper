@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01048v1",
+  "title": "Interpreting Language Models Through Concept Descriptions: A Survey",
+  "summary": "Understanding the decision-making processes of neural networks is a central\ngoal of mechanistic interpretability. In the context of Large Language Models\n(LLMs), this involves uncovering the underlying mechanisms and identifying the\nroles of individual model components such as neurons and attention heads, as\nwell as model abstractions such as the learned sparse features extracted by\nSparse Autoencoders (SAEs). A rapidly growing line of work tackles this\nchallenge by using powerful generator models to produce open-vocabulary,\nnatural language concept descriptions for these components. In this paper, we\nprovide the first survey of the emerging field of concept descriptions for\nmodel components and abstractions. We chart the key methods for generating\nthese descriptions, the evolving landscape of automated and human metrics for\nevaluating them, and the datasets that underpin this research. Our synthesis\nreveals a growing demand for more rigorous, causal evaluation. By outlining the\nstate of the art and identifying key challenges, this survey provides a roadmap\nfor future research toward making models more transparent.",
+  "authors": [
+    "Nils Feldhus",
+    "Laura Kopf"
+  ],
+  "published": "2025-10-01T15:51:44Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01048v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文首次系统综述了通过自然语言概念描述解释语言模型的新兴领域，涵盖概念生成方法、评估指标与数据集，指出当前研究需加强因果验证，为提升模型透明度提供路线图。",
+  "order": 431,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01048v1"
+}

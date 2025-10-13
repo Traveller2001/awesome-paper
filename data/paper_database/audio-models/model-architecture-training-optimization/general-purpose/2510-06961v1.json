@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06961v1",
+  "title": "Open ASR Leaderboard: Towards Reproducible and Transparent Multilingual\n  and Long-Form Speech Recognition Evaluation",
+  "summary": "Despite rapid progress, ASR evaluation remains saturated with short-form\nEnglish, and efficiency is rarely reported. We present the Open ASR\nLeaderboard, a fully reproducible benchmark and interactive leaderboard\ncomparing 60+ open-source and proprietary systems across 11 datasets, including\ndedicated multilingual and long-form tracks. We standardize text normalization\nand report both word error rate (WER) and inverse real-time factor (RTFx),\nenabling fair accuracy-efficiency comparisons. For English transcription,\nConformer encoders paired with LLM decoders achieve the best average WER but\nare slower, while CTC and TDT decoders deliver much better RTFx, making them\nattractive for long-form and offline use. Whisper-derived encoders fine-tuned\nfor English improve accuracy but often trade off multilingual coverage. All\ncode and dataset loaders are open-sourced to support transparent, extensible\nevaluation.",
+  "authors": [
+    "Vaibhav Srivastav",
+    "Steven Zheng",
+    "Eric Bezzam",
+    "Eustache Le Bihan",
+    "Nithin Koluguri",
+    "Piotr Żelasko",
+    "Somshubra Majumdar",
+    "Adel Moumen",
+    "Sanchit Gandhi"
+  ],
+  "published": "2025-10-08T12:44:51Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06961v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文推出开源ASR评测平台，对60余个语音识别系统在11个数据集上进行标准化评估，涵盖多语言和长音频场景。研究发现：Conformer编码器+LLM解码器在英语识别准确率最优但速度较慢，CTC/TDT解码器在效率上更具优势。平台开源所有代码以促进透明可复现的语音识别评测。",
+  "order": 66,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06961v1"
+}

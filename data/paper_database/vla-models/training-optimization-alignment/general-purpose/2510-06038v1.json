@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06038v1",
+  "title": "From Learning to Mastery: Achieving Safe and Efficient Real-World\n  Autonomous Driving with Human-In-The-Loop Reinforcement Learning",
+  "summary": "Autonomous driving with reinforcement learning (RL) has significant\npotential. However, applying RL in real-world settings remains challenging due\nto the need for safe, efficient, and robust learning. Incorporating human\nexpertise into the learning process can help overcome these challenges by\nreducing risky exploration and improving sample efficiency. In this work, we\npropose a reward-free, active human-in-the-loop learning method called\nHuman-Guided Distributional Soft Actor-Critic (H-DSAC). Our method combines\nProxy Value Propagation (PVP) and Distributional Soft Actor-Critic (DSAC) to\nenable efficient and safe training in real-world environments. The key\ninnovation is the construction of a distributed proxy value function within the\nDSAC framework. This function encodes human intent by assigning higher expected\nreturns to expert demonstrations and penalizing actions that require human\nintervention. By extrapolating these labels to unlabeled states, the policy is\neffectively guided toward expert-like behavior. With a well-designed state\nspace, our method achieves real-world driving policy learning within practical\ntraining times. Results from both simulation and real-world experiments\ndemonstrate that our framework enables safe, robust, and sample-efficient\nlearning for autonomous driving.",
+  "authors": [
+    "Li Zeqiao",
+    "Wang Yijing",
+    "Wang Haoyu",
+    "Li Zheng",
+    "Li Peng",
+    "Liu Wenfei",
+    "Zuo Zhiqiang"
+  ],
+  "published": "2025-10-07T15:33:29Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06038v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "['training_optimization', 'alignment']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种人机协同强化学习方法H-DSAC，通过构建分布式代理价值函数编码人类驾驶意图，在无需预设奖励函数的情况下实现安全高效的自动驾驶策略学习。该方法结合专家示范与人工干预信号，在仿真和实车实验中均展现出优异的样本效率与安全性。",
+  "order": 102,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06038v1"
+}

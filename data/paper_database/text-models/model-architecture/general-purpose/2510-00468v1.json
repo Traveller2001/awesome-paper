@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.00468v1",
+  "title": "Feature Identification via the Empirical NTK",
+  "summary": "We provide evidence that eigenanalysis of the empirical neural tangent kernel\n(eNTK) can surface the features used by trained neural networks. Across two\nstandard toy models for mechanistic interpretability, Toy Models of\nSuperposition (TMS) and a 1-layer MLP trained on modular addition, we find that\nthe eNTK exhibits sharp spectral cliffs whose top eigenspaces align with\nground-truth features. In TMS, the eNTK recovers the ground-truth features in\nboth the sparse (high superposition) and dense regimes. In modular arithmetic,\nthe eNTK can be used to recover Fourier feature families. Moreover, we provide\nevidence that a layerwise eNTK localizes features to specific layers and that\nthe evolution of the eNTK eigenspectrum can be used to diagnose the grokking\nphase transition. These results suggest that eNTK analysis may provide a\npractical handle for feature discovery and for detecting phase changes in small\nmodels.",
+  "authors": [
+    "Jennifer Lin"
+  ],
+  "published": "2025-10-01T03:39:48Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00468v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过经验神经正切核(eNTK)的特征分析，证明其能有效识别训练后神经网络所使用的特征。在两个标准玩具模型(TMS和模加法MLP)中，eNTK的谱悬崖顶部特征空间与真实特征对齐，可恢复稀疏/稠密状态下的真实特征和傅里叶特征族。层间eNTK能将特征定位到特定层，其谱演化可诊断grokking相变，为小模型的特征发现和相变检测提供了实用工具。",
+  "order": 305,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00468v1"
+}

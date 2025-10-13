@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01585v1",
+  "title": "ReSSFormer: A Recursive Sparse Structured Transformer for Scalable and\n  Long-Context Reasoning",
+  "summary": "While Transformer architectures have demonstrated impressive scalability\nacross domains, they continue to face challenges in long-context reasoning,\ncomputational efficiency, and structural generalization - largely due to rigid\nlayer stacking, dense attention, and reliance on positional encodings. We\npresent ReSSFormer, a Recursive Sparse Structured Transformer that integrates\nthree complementary innovations: Recurrent Reasoning & Memory Unit (R2MU) for\niterative reasoning with bounded depth, Adaptive Sparse Attention Module (ASAM)\nfor efficient and focused context selection, and Self-Organizing Encoder\nStructure (SOES) for position-free structure induction. ReSSFormer replaces\nconventional depth stacking with recurrent inference, substitutes full\nattention with token- and expert-level sparsity, and models latent token\ntopology directly from content. Across language modeling, multi-hop QA, and\nstructure-sensitive tasks, ReSSFormer consistently outperforms strong baselines\nunder comparable FLOPs and parameter budgets, highlighting its scalability,\nefficiency, and structural flexibility.",
+  "authors": [
+    "Haochen You",
+    "Baojing Liu"
+  ],
+  "published": "2025-10-02T02:05:30Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01585v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['long_context', 'reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ReSSFormer是一种递归稀疏结构化Transformer，通过循环推理单元、自适应稀疏注意力模块和自组织编码器结构，解决了传统Transformer在长上下文推理、计算效率和结构泛化方面的挑战，在同等计算资源下优于现有基线模型。",
+  "order": 394,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01585v1"
+}

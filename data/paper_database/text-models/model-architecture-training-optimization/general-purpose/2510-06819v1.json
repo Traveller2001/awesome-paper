@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06819v1",
+  "title": "The Unreasonable Effectiveness of Randomized Representations in Online\n  Continual Graph Learning",
+  "summary": "Catastrophic forgetting is one of the main obstacles for Online Continual\nGraph Learning (OCGL), where nodes arrive one by one, distribution drifts may\noccur at any time and offline training on task-specific subgraphs is not\nfeasible. In this work, we explore a surprisingly simple yet highly effective\napproach for OCGL: we use a fixed, randomly initialized encoder to generate\nrobust and expressive node embeddings by aggregating neighborhood information,\ntraining online only a lightweight classifier. By freezing the encoder, we\neliminate drifts of the representation parameters, a key source of forgetting,\nobtaining embeddings that are both expressive and stable. When evaluated across\nseveral OCGL benchmarks, despite its simplicity and lack of memory buffer, this\napproach yields consistent gains over state-of-the-art methods, with surprising\nimprovements of up to 30% and performance often approaching that of the joint\noffline-training upper bound. These results suggest that in OCGL, catastrophic\nforgetting can be minimized without complex replay or regularization by\nembracing architectural simplicity and stability.",
+  "authors": [
+    "Giovanni Donghi",
+    "Daniele Zambon",
+    "Luca Pasa",
+    "Cesare Alippi",
+    "Nicolò Navarin"
+  ],
+  "published": "2025-10-08T09:44:14Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06819v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种简单而有效的在线持续图学习方法：使用固定的随机初始化编码器生成节点嵌入，仅在线训练轻量级分类器。通过冻结编码器参数，有效缓解了灾难性遗忘问题，在多个基准测试中性能提升高达30%，且无需复杂的内存回放或正则化机制。",
+  "order": 211,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06819v1"
+}

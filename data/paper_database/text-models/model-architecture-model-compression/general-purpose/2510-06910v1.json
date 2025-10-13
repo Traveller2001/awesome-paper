@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06910v1",
+  "title": "Vacuum Spiker: A Spiking Neural Network-Based Model for Efficient\n  Anomaly Detection in Time Series",
+  "summary": "Anomaly detection is a key task across domains such as industry, healthcare,\nand cybersecurity. Many real-world anomaly detection problems involve analyzing\nmultiple features over time, making time series analysis a natural approach for\nsuch problems. While deep learning models have achieved strong performance in\nthis field, their trend to exhibit high energy consumption limits their\ndeployment in resource-constrained environments such as IoT devices, edge\ncomputing platforms, and wearables. To address this challenge, this paper\nintroduces the \\textit{Vacuum Spiker algorithm}, a novel Spiking Neural\nNetwork-based method for anomaly detection in time series. It incorporates a\nnew detection criterion that relies on global changes in neural activity rather\nthan reconstruction or prediction error. It is trained using Spike\nTime-Dependent Plasticity in a novel way, intended to induce changes in neural\nactivity when anomalies occur. A new efficient encoding scheme is also\nproposed, which discretizes the input space into non-overlapping intervals,\nassigning each to a single neuron. This strategy encodes information with a\nsingle spike per time step, improving energy efficiency compared to\nconventional encoding methods. Experimental results on publicly available\ndatasets show that the proposed algorithm achieves competitive performance\nwhile significantly reducing energy consumption, compared to a wide set of deep\nlearning and machine learning baselines. Furthermore, its practical utility is\nvalidated in a real-world case study, where the model successfully identifies\npower curtailment events in a solar inverter. These results highlight its\npotential for sustainable and efficient anomaly detection.",
+  "authors": [
+    "Iago Xabier Vázquez",
+    "Javier Sedano",
+    "Muhammad Afzal",
+    "Ángel Miguel García-Vico"
+  ],
+  "published": "2025-10-08T11:43:54Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06910v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'model_compression']",
+  "application_domain": "['general_purpose']",
+  "tldr_zh": "本文提出Vacuum Spiker算法，一种基于脉冲神经网络的时间序列异常检测新方法。通过创新的全局神经活动变化检测标准、脉冲时间依赖可塑性训练方式和高效编码方案，在保持竞争力的检测性能同时显著降低能耗，适用于物联网设备等资源受限环境，并在太阳能逆变器实际案例中验证了其实用性。",
+  "order": 200,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06910v1"
+}

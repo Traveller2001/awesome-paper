@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.07071v1",
+  "title": "Blind Construction of Angular Power Maps in Massive MIMO Networks",
+  "summary": "Channel state information (CSI) acquisition is a challenging problem in\nmassive multiple-input multiple-output (MIMO) networks. Radio maps provide a\npromising solution for radio resource management by reducing online CSI\nacquisition. However, conventional approaches for radio map construction\nrequire location-labeled CSI data, which is challenging in practice. This paper\ninvestigates unsupervised angular power map construction based on large\ntimescale CSI data collected in a massive MIMO network without location labels.\nA hidden Markov model (HMM) is built to connect the hidden trajectory of a\nmobile with the CSI evolution of a massive MIMO channel. As a result, the\nmobile location can be estimated, enabling the construction of an angular power\nmap. We show that under uniform rectilinear mobility with Poisson-distributed\nbase stations (BSs), the Cramer-Rao Lower Bound (CRLB) for localization error\ncan vanish at any signal-to-noise ratios (SNRs), whereas when BSs are confined\nto a limited region, the error remains nonzero even with infinite independent\nmeasurements. Based on reference signal received power (RSRP) data collected in\na real multi-cell massive MIMO network, an average localization error of 18\nmeters can be achieved although measurements are mainly obtained from a single\nserving cell.",
+  "authors": [
+    "Zheng Xing",
+    "Junting Chen"
+  ],
+  "published": "2025-10-08T14:32:53Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07071v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种无需位置标签的大规模MIMO网络角度功率图盲构建方法。通过隐马尔可夫模型连接移动轨迹与信道状态信息演化，在基站均匀分布时实现任意信噪比下的零误差下限定位。实际网络测试达到18米平均定位精度。",
+  "order": 184,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07071v1"
+}

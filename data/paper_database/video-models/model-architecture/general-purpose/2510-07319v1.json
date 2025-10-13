@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07319v1",
+  "title": "Temporal Prompting Matters: Rethinking Referring Video Object\n  Segmentation",
+  "summary": "Referring Video Object Segmentation (RVOS) aims to segment the object\nreferred to by the query sentence in the video. Most existing methods require\nend-to-end training with dense mask annotations, which could be\ncomputation-consuming and less scalable. In this work, we rethink the RVOS\nproblem and aim to investigate the key to this task. Based on existing\nfoundation segmentation models, we decompose the RVOS task into referring,\nvideo, and segmentation factors, and propose a Temporal Prompt Generation and\nSelection (Tenet) framework to address the referring and video factors while\nleaving the segmentation problem to foundation models. To efficiently adapt\nimage-based foundation segmentation models to referring video object\nsegmentation, we leverage off-the-shelf object detectors and trackers to\nproduce temporal prompts associated with the referring sentence. While\nhigh-quality temporal prompts could be produced, they can not be easily\nidentified from confidence scores. To tackle this issue, we propose Prompt\nPreference Learning to evaluate the quality of the produced temporal prompts.\nBy taking such prompts to instruct image-based foundation segmentation models,\nwe would be able to produce high-quality masks for the referred object,\nenabling efficient model adaptation to referring video object segmentation.\nExperiments on RVOS benchmarks demonstrate the effectiveness of the Tenet\nframework.",
+  "authors": [
+    "Ci-Siang Lin",
+    "Min-Hung Chen",
+    "I-Jieh Liu",
+    "Chien-Yi Wang",
+    "Sifei Liu",
+    "Yu-Chiang Frank Wang"
+  ],
+  "published": "2025-10-08T17:59:57Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07319v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文重新思考了Referring Video Object Segmentation (RVOS)任务，提出Tenet框架将RVOS分解为指代、视频和分割三个要素。通过时序提示生成与选择机制，结合现成目标检测器和跟踪器产生与指代语句相关的时序提示，并采用提示偏好学习评估提示质量。该方法能有效利用基于图像的基础分割模型完成视频对象分割，在RVOS基准测试中表现优异，显著降低了计算成本。",
+  "order": 101,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07319v1"
+}

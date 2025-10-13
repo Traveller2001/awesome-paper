@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01658v1",
+  "title": "Learning Time-Series Representations by Hierarchical\n  Uniformity-Tolerance Latent Balancing",
+  "summary": "We propose TimeHUT, a novel method for learning time-series representations\nby hierarchical uniformity-tolerance balancing of contrastive representations.\nOur method uses two distinct losses to learn strong representations with the\naim of striking an effective balance between uniformity and tolerance in the\nembedding space. First, TimeHUT uses a hierarchical setup to learn both\ninstance-wise and temporal information from input time-series. Next, we\nintegrate a temperature scheduler within the vanilla contrastive loss to\nbalance the uniformity and tolerance characteristics of the embeddings.\nAdditionally, a hierarchical angular margin loss enforces instance-wise and\ntemporal contrast losses, creating geometric margins between positive and\nnegative pairs of temporal sequences. This approach improves the coherence of\npositive pairs and their separation from the negatives, enhancing the capture\nof temporal dependencies within a time-series sample. We evaluate our approach\non a wide range of tasks, namely 128 UCR and 30 UAE datasets for univariate and\nmultivariate classification, as well as Yahoo and KPI datasets for anomaly\ndetection. The results demonstrate that TimeHUT outperforms prior methods by\nconsiderable margins on classification, while obtaining competitive results for\nanomaly detection. Finally, detailed sensitivity and ablation studies are\nperformed to evaluate different components and hyperparameters of our method.",
+  "authors": [
+    "Amin Jalali",
+    "Milad Soltany",
+    "Michael Greenspan",
+    "Ali Etemad"
+  ],
+  "published": "2025-10-02T04:30:13Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01658v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出TimeHUT方法，通过层次化均匀性-容忍度平衡学习时间序列表示。该方法结合分层对比学习和温度调度器，在嵌入空间中平衡均匀性与容忍度，使用层次角间隔损失增强正负样本区分。在128个UCR和30个UAE分类数据集及异常检测任务上表现优异，分类性能显著超越现有方法。",
+  "order": 104,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01658v1"
+}

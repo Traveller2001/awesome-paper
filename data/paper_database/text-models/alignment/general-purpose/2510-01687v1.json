@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01687v1",
+  "title": "Improving AGI Evaluation: A Data Science Perspective",
+  "summary": "Evaluation of potential AGI systems and methods is difficult due to the\nbreadth of the engineering goal. We have no methods for perfect evaluation of\nthe end state, and instead measure performance on small tests designed to\nprovide directional indication that we are approaching AGI. In this work we\nargue that AGI evaluation methods have been dominated by a design philosophy\nthat uses our intuitions of what intelligence is to create synthetic tasks,\nthat have performed poorly in the history of AI. Instead we argue for an\nalternative design philosophy focused on evaluating robust task execution that\nseeks to demonstrate AGI through competence. This perspective is developed from\ncommon practices in data science that are used to show that a system can be\nreliably deployed. We provide practical examples of what this would mean for\nAGI evaluation.",
+  "authors": [
+    "John Hawkins"
+  ],
+  "published": "2025-10-02T05:27:29Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01687v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文从数据科学视角提出改进AGI评估方法，批判当前基于直觉设计合成任务的评估范式，主张采用注重稳健任务执行能力的评估哲学，借鉴数据科学中系统可靠部署的实践标准，为AGI评估提供具体实施方案。",
+  "order": 375,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01687v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01899v1",
+  "title": "Multimodal Foundation Models for Early Disease Detection",
+  "summary": "Healthcare generates diverse streams of data, including electronic health\nrecords (EHR), medical imaging, genetics, and ongoing monitoring from wearable\ndevices. Traditional diagnostic models frequently analyze these sources in\nisolation, which constrains their capacity to identify cross-modal correlations\nessential for early disease diagnosis. Our research presents a multimodal\nfoundation model that consolidates diverse patient data through an\nattention-based transformer framework. At first, dedicated encoders put each\nmodality into a shared latent space. Then, they combine them using multi-head\nattention and residual normalization. The architecture is made for pretraining\non many tasks, which makes it easy to adapt to new diseases and datasets with\nlittle extra work. We provide an experimental strategy that uses benchmark\ndatasets in oncology, cardiology, and neurology, with the goal of testing early\ndetection tasks. The framework includes data governance and model management\ntools in addition to technological performance to improve transparency,\nreliability, and clinical interpretability. The suggested method works toward a\nsingle foundation model for precision diagnostics, which could improve the\naccuracy of predictions and help doctors make decisions.",
+  "authors": [
+    "Md Talha Mohsin",
+    "Ismail Abdulrashid"
+  ],
+  "published": "2025-10-02T11:12:57Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01899v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出一种基于注意力Transformer的多模态基础模型，整合电子病历、医学影像、基因数据和可穿戴设备监测等多种医疗数据源，通过专用编码器和多头注意力机制实现跨模态关联，支持多任务预训练并易于适应新疾病，在肿瘤学、心脏病学和神经学早期检测任务中验证了其性能，同时包含数据治理和模型管理工具以提高临床可解释性。",
+  "order": 780,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01899v1"
+}

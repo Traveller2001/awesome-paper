@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01674v1",
+  "title": "FOR-Prompting: From Objection to Revision via an Asymmetric Prompting\n  Protocol",
+  "summary": "Reasoning protocols such as Chain of Thought (CoT) and Tree of Thought (ToT)\norganize internal deliberation but lack an explicit mechanism for external\nquestioning that elicits self-revision. We present FOR-Prompting (From\nObjection to Revision Prompting), an asymmetric protocol where a Defender\nproposes an answer, an Objectioner raises question-style objections with no\ndirect fixes, and a Host enforces consistency and closure. On GSM8K we observe\nabout a 22% point gain over single-prompt and accuracy on par with CoT, with\nmore than 10% higher ratings in reasoning and coherence from a uniform GPT 4.1\njudge. FOR-Prompting also corrects mistakes without tools or human supervision\non tricky queries, and improves performance for small-scale model (approx. 19%\naccuracy improved on Llama3.2:1b for GSM8K task), highlighting promise for\nsmall models and on personal device use. Beyond factual QA, qualitative\nanalyses on open-ended tasks show enhanced exploration and refinement, with\ndialogue traces that make assumptions and trade-offs explicit. The protocol is\nmodel agnostic and operates purely at the prompt level through role-structured\nturns, so it works with hosted and local models of different sizes without\nretraining, and it supports large-scale study of objection-guided reasoning.",
+  "authors": [
+    "He Zhang",
+    "Anzhou Zhang",
+    "Jian Dai"
+  ],
+  "published": "2025-10-02T04:57:58Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01674v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "FOR-Prompting是一种非对称推理协议，通过辩护者、质疑者和主持者三个角色实现自我修正。在GSM8K上相比单提示提升约22%，推理连贯性评分提高10%以上，能无监督修正错误，尤其提升小模型性能（Llama3.2:1b准确率提升19%）。该协议无需微调，适用于不同规模模型，支持开放式任务的探索优化。",
+  "order": 377,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01674v1"
+}

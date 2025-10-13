@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07178v1",
+  "title": "Biasless Language Models Learn Unnaturally: How LLMs Fail to Distinguish\n  the Possible from the Impossible",
+  "summary": "Are large language models (LLMs) sensitive to the distinction between humanly\npossible languages and humanly impossible languages? This question is taken by\nmany to bear on whether LLMs and humans share the same innate learning biases.\nPrevious work has attempted to answer it in the positive by comparing LLM\nlearning curves on existing language datasets and on \"impossible\" datasets\nderived from them via various perturbation functions. Using the same\nmethodology, we examine this claim on a wider set of languages and impossible\nperturbations. We find that in most cases, GPT-2 learns each language and its\nimpossible counterpart equally easily, in contrast to previous claims. We also\napply a more lenient condition by testing whether GPT-2 provides any kind of\nseparation between the whole set of natural languages and the whole set of\nimpossible languages. By considering cross-linguistic variance in various\nmetrics computed on the perplexity curves, we show that GPT-2 provides no\nsystematic separation between the possible and the impossible. Taken together,\nthese perspectives show that LLMs do not share the human innate biases that\nshape linguistic typology.",
+  "authors": [
+    "Imry Ziv",
+    "Nur Lan",
+    "Emmanuel Chemla",
+    "Roni Katzir"
+  ],
+  "published": "2025-10-08T16:17:13Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07178v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过对比GPT-2在自然语言与人为扰动生成的'不可能语言'上的学习曲线，发现LLM缺乏人类与生俱来的语言学习偏好。实验表明模型对自然语言和不可能语言的习得难度无显著差异，且无法系统区分两类语言，证明LLM未具备塑造语言类型学的人类先天认知偏置。",
+  "order": 42,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07178v1"
+}

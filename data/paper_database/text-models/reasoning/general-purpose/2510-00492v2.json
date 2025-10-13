@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2510.00492v2",
+  "title": "Rethinking Reward Models for Multi-Domain Test-Time Scaling",
+  "summary": "The reliability of large language models (LLMs) during test-time scaling is\noften assessed with \\emph{external verifiers} or \\emph{reward models} that\ndistinguish correct reasoning from flawed logic. Prior work generally assumes\nthat process reward models (PRMs), which score every intermediate reasoning\nstep, outperform outcome reward models (ORMs) that assess only the final\nanswer. This view is based mainly on evidence from narrow, math-adjacent\ndomains. We present the first unified evaluation of four reward model variants,\ndiscriminative ORM and PRM (\\DisORM, \\DisPRM) and generative ORM and PRM\n(\\GenORM, \\GenPRM), across 14 diverse domains. Contrary to conventional wisdom,\nwe find that (i) \\DisORM performs on par with \\DisPRM, (ii) \\GenPRM is not\ncompetitive, and (iii) overall, \\GenORM is the most robust, yielding\nsignificant and consistent gains across every tested domain. We attribute this\nto PRM-style stepwise scoring, which inherits label noise from LLM\nauto-labeling and has difficulty evaluating long reasoning trajectories,\nincluding those involving self-correcting reasoning. Our theoretical analysis\nshows that step-wise aggregation compounds errors as reasoning length grows,\nand our empirical observations confirm this effect. These findings challenge\nthe prevailing assumption that fine-grained supervision is always better and\nsupport generative outcome verification for multi-domain deployment. We\npublicly release our code, datasets, and checkpoints at\n\\href{https://github.com/db-Lee/Multi-RM}{\\underline{\\small\\texttt{https://github.com/db-Lee/Multi-RM}}}\nto facilitate future research in multi-domain settings.",
+  "authors": [
+    "Dong Bok Lee",
+    "Seanie Lee",
+    "Sangwoo Park",
+    "Minki Kang",
+    "Jinheon Baek",
+    "Dongki Kim",
+    "Dominik Wagner",
+    "Jiongdao Jin",
+    "Heejun Lee",
+    "Tobias Bocklet",
+    "Jinyu Wang",
+    "Jingjing Fu",
+    "Sung Ju Hwang",
+    "Jiang Bian",
+    "Lei Song"
+  ],
+  "published": "2025-10-01T04:21:14Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00492v2",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究挑战了过程奖励模型(PRM)优于结果奖励模型(ORM)的传统观点，通过对14个不同领域的评估发现：判别式ORM与PRM表现相当，生成式PRM不具竞争力，而生成式ORM在所有测试领域表现最稳健。研究揭示了逐步评分会因标签噪声和长推理轨迹而累积错误，支持在多领域部署中采用生成式结果验证方法。",
+  "order": 298,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00492v2"
+}

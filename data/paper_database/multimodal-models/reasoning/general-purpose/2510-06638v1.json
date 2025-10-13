@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06638v1",
+  "title": "StaR-KVQA: Structured Reasoning Traces for Implicit-Knowledge Visual\n  Question Answering",
+  "summary": "Knowledge-based Visual Question Answering (KVQA) requires models to ground\nentities in images and reason over factual knowledge. We study its\nimplicit-knowledge variant, IK-KVQA, where a multimodal large language model\n(MLLM) is the sole knowledge source, without external retrieval. Yet, MLLMs\nlack explicit reasoning supervision and produce inconsistent justifications,\nand generalize poorly after standard supervised fine-tuning (SFT). We present\nStaR-KVQA (Structured Reasoning Traces for IK-KVQA), which supervises\nstructured traces - dual symbolic relation paths plus path-grounded\nnatural-language explanations - so that reasoning becomes transparent and\nverifiable. With one open-source MLLM, StaR-KVQA constructs and selects\npath-grounded reasoning traces to form a trace-enriched dataset, then\nfine-tunes via structured self-distillation to align generation with\nsupervision; no external retrievers, verifiers, or curated knowledge bases\n(KBs) are used, traces are built offline, and inference is a single\nautoregressive pass. Across benchmarks, StaR-KVQA improves both accuracy and\ninterpretability, achieving up to +11.3% higher answer accuracy on OK-VQA over\nthe strongest baseline while exhibiting robust cross-domain generalization.",
+  "authors": [
+    "Zhihao Wen",
+    "Wenkang Wei",
+    "Yuan Fang",
+    "Xingtong Yu",
+    "Hui Zhang",
+    "Weicheng Zhu",
+    "Xin Zhang"
+  ],
+  "published": "2025-10-08T04:37:53Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06638v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出StaR-KVQA方法，通过构建结构化推理轨迹（符号关系路径+自然语言解释）来解决隐式知识视觉问答问题。该方法无需外部知识库，仅依赖多模态大语言模型，通过轨迹增强数据集和结构化自蒸馏技术，在OK-VQA基准上实现11.3%的准确率提升，同时增强了解释性和跨领域泛化能力。",
+  "order": 151,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06638v1"
+}

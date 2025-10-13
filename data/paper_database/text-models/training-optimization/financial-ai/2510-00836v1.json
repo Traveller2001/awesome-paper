@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00836v1",
+  "title": "Improving Cryptocurrency Pump-and-Dump Detection through Ensemble-Based\n  Models and Synthetic Oversampling Techniques",
+  "summary": "This study aims to detect pump and dump (P&D) manipulation in cryptocurrency\nmarkets, where the scarcity of such events causes severe class imbalance and\nhinders accurate detection. To address this issue, the Synthetic Minority\nOversampling Technique (SMOTE) was applied, and advanced ensemble learning\nmodels were evaluated to distinguish manipulative trading behavior from normal\nmarket activity. The experimental results show that applying SMOTE greatly\nenhanced the ability of all models to detect P&D events by increasing recall\nand improving the overall balance between precision and recall. In particular,\nXGBoost and LightGBM achieved high recall rates (94.87% and 93.59%,\nrespectively) with strong F1-scores and demonstrated fast computational\nperformance, making them suitable for near real time surveillance. These\nfindings indicate that integrating data balancing techniques with ensemble\nmethods significantly improves the early detection of manipulative activities,\ncontributing to a fairer, more transparent, and more stable cryptocurrency\nmarket.",
+  "authors": [
+    "Jieun Yu",
+    "Minjung Park",
+    "Sangmi Chai"
+  ],
+  "published": "2025-10-01T12:46:45Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00836v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本研究针对加密货币市场中拉高抛售操纵行为检测的类别不平衡问题，采用SMOTE过采样技术和集成学习模型。实验表明XGBoost和LightGBM在SMOTE增强下召回率分别达94.87%和93.59%，兼具高F1分数和快速计算性能，适用于近实时监控，能显著提升市场操纵行为的早期检测能力。",
+  "order": 235,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00836v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00929v2",
+  "title": "Equivariant Splitting: Self-supervised learning from incomplete data",
+  "summary": "Self-supervised learning for inverse problems allows to train a\nreconstruction network from noise and/or incomplete data alone. These methods\nhave the potential of enabling learning-based solutions when obtaining\nground-truth references for training is expensive or even impossible. In this\npaper, we propose a new self-supervised learning strategy devised for the\nchallenging setting where measurements are observed via a single incomplete\nobservation model. We introduce a new definition of equivariance in the context\nof reconstruction networks, and show that the combination of self-supervised\nsplitting losses and equivariant reconstruction networks results in the same\nminimizer in expectation as the one of a supervised loss. Through a series of\nexperiments on image inpainting, accelerated magnetic resonance imaging, and\ncompressive sensing, we demonstrate that the proposed loss achieves\nstate-of-the-art performance in settings with highly rank-deficient forward\nmodels.",
+  "authors": [
+    "Victor Sechaud",
+    "Jérémy Scanvic",
+    "Quentin Barthélemy",
+    "Patrice Abry",
+    "Julián Tachella"
+  ],
+  "published": "2025-10-01T14:08:17Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00929v2",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "提出一种新的自监督学习策略——等变分裂，针对单次不完整观测模型的逆问题重建。通过结合自监督分裂损失和等变重建网络，在图像修复、加速磁共振成像和压缩感知等任务中实现最先进性能，特别适用于高度秩不足的前向模型场景。",
+  "order": 615,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00929v2"
+}

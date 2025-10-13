@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06635v1",
+  "title": "StruSR: Structure-Aware Symbolic Regression with Physics-Informed Taylor\n  Guidance",
+  "summary": "Symbolic regression aims to find interpretable analytical expressions by\nsearching over mathematical formula spaces to capture underlying system\nbehavior, particularly in scientific modeling governed by physical laws.\nHowever, traditional methods lack mechanisms for extracting structured physical\npriors from time series observations, making it difficult to capture symbolic\nexpressions that reflect the system's global behavior. In this work, we propose\na structure-aware symbolic regression framework, called StruSR, that leverages\ntrained Physics-Informed Neural Networks (PINNs) to extract locally structured\nphysical priors from time series data. By performing local Taylor expansions on\nthe outputs of the trained PINN, we obtain derivative-based structural\ninformation to guide symbolic expression evolution. To assess the importance of\nexpression components, we introduce a masking-based attribution mechanism that\nquantifies each subtree's contribution to structural alignment and physical\nresidual reduction. These sensitivity scores steer mutation and crossover\noperations within genetic programming, preserving substructures with high\nphysical or structural significance while selectively modifying less\ninformative components. A hybrid fitness function jointly minimizes physics\nresiduals and Taylor coefficient mismatch, ensuring consistency with both the\ngoverning equations and the local analytical behavior encoded by the PINN.\nExperiments on benchmark PDE systems demonstrate that StruSR improves\nconvergence speed, structural fidelity, and expression interpretability\ncompared to conventional baselines, offering a principled paradigm for\nphysics-grounded symbolic discovery.",
+  "authors": [
+    "Yunpeng Gong",
+    "Sihan Lan",
+    "Can Yang",
+    "Kunpeng Xu",
+    "Min Jiang"
+  ],
+  "published": "2025-10-08T04:37:04Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06635v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出StruSR框架，通过物理信息泰勒展开引导符号回归，利用训练好的PINN从时间序列数据中提取局部结构先验，结合基于掩码的属性分析机制指导遗传编程进化，在PDE基准测试中显著提升了收敛速度、结构保真度和表达式可解释性。",
+  "order": 228,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06635v1"
+}

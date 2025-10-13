@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.06857v1",
+  "title": "Autoformalizer with Tool Feedback",
+  "summary": "Autoformalization addresses the scarcity of data for Automated Theorem\nProving (ATP) by translating mathematical problems from natural language into\nformal statements. Efforts in recent work shift from directly prompting large\nlanguage models to training an end-to-end formalizer model from scratch,\nachieving remarkable advancements. However, existing formalizer still struggles\nto consistently generate valid statements that meet syntactic validity and\nsemantic consistency. To address this issue, we propose the Autoformalizer with\nTool Feedback (ATF), a novel approach that incorporates syntactic and\nconsistency information as tools into the formalization process. By integrating\nLean 4 compilers for syntax corrections and employing a multi-LLMs-as-judge\napproach for consistency validation, the model is able to adaptively refine\ngenerated statements according to the tool feedback, enhancing both syntactic\nvalidity and semantic consistency. The training of ATF involves a cold-start\nphase on synthetic tool-calling data, an expert iteration phase to improve\nformalization capabilities, and Direct Preference Optimization to alleviate\nineffective revisions. Experimental results show that ATF markedly outperforms\na range of baseline formalizer models, with its superior performance further\nvalidated by human evaluations. Subsequent analysis reveals that ATF\ndemonstrates excellent inference scaling properties. Moreover, we open-source\nNumina-ATF, a dataset containing 750K synthetic formal statements to facilitate\nadvancements in autoformalization and ATP research.",
+  "authors": [
+    "Qi Guo",
+    "Jianing Wang",
+    "Jianfei Zhang",
+    "Deyang Kong",
+    "Xiangzhou Huang",
+    "Xiangyu Xi",
+    "Wei Wang",
+    "Jingang Wang",
+    "Xunliang Cai",
+    "Shikun Zhang",
+    "Wei Ye"
+  ],
+  "published": "2025-10-08T10:25:12Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06857v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ATF方法，通过集成Lean 4编译器进行语法修正和多LLM评判进行一致性验证，将工具反馈融入自动形式化过程。该方法采用冷启动训练、专家迭代和直接偏好优化三阶段训练策略，在合成数据集Numina-ATF上验证，显著提升了数学问题从自然语言到形式化语句转换的语法有效性和语义一致性。",
+  "order": 14,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06857v1"
+}

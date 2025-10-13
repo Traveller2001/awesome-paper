@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01555v1",
+  "title": "Rethinking KL Regularization in RLHF: From Value Estimation to Gradient\n  Optimization",
+  "summary": "Reinforcement Learning from Human Feedback (RLHF) leverages a\nKullback-Leibler (KL) divergence loss to stabilize training and prevent\noverfitting. However, in methods such as GRPO, its implementation may be guided\nby principles from numerical value estimation-a practice that overlooks the\nterm's functional role as an optimization loss. To analyze this issue, we\nestablish a unified framework that connects two seemingly distinct\nimplementation styles: using the mathematical term $k_n$ as a detached\ncoefficient for the policy's score function ('$k_n$ in reward') or as a direct\nloss function through which gradients are propagated ('$k_n$ as loss'). We show\nthat the latter can always be analyzed via an equivalent gradient coefficient\nin the former, unifying the two perspectives. Through this framework, we prove\nthat the conventional '$k_1$ in reward' (like in PPO) is the principled loss\nfor Reverse KL (RKL) regularization. We further establish a key finding: under\non-policy conditions, the '$k_2$ as loss' formulation is, in fact,\ngradient-equivalent to '$k_1$ in reward'. This equivalence, first proven in our\nwork, identifies both as the theoretically sound implementations of the RKL\nobjective. In contrast, we show that the recently adopted '$k_3$ as loss' (like\nin GRPO) is merely a first-order, biased approximation of the principled loss.\nFurthermore, we argue that common off-policy implementations of '$k_n$ as loss'\nmethods are biased due to neglected importance sampling, and we propose a\nprincipled correction. Our findings provide a comprehensive, gradient-based\nrationale for choosing and correctly implementing KL regularization, paving the\nway for more robust and effective RLHF systems.",
+  "authors": [
+    "Kezhao Liu",
+    "Jason Klein Liu",
+    "Mingtao Chen",
+    "Yiming Liu"
+  ],
+  "published": "2025-10-02T01:00:02Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01555v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文重新审视了RLHF中的KL正则化方法，建立了统一框架连接'k_n在奖励中'和'k_n作为损失'两种实现方式。研究证明在策略条件下，'k_2作为损失'与'k_1在奖励中'具有梯度等价性，均为理论正确的RKL正则化实现，而GRPO等采用的'k_3作为损失'仅为有偏近似。同时指出了离策略实现中的重要性采样偏差问题并提出了修正方案。",
+  "order": 130,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01555v1"
+}

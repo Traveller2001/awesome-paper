@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01375v1",
+  "title": "Fine-tuning with RAG for Improving LLM Learning of New Skills",
+  "summary": "Large language model (LLM) agents deployed for multi-step tasks frequently\nfail in predictable ways: attempting actions with unmet preconditions, issuing\nredundant commands, or mishandling environment constraints. While\nretrieval-augmented generation (RAG) can improve performance by providing\nruntime guidance, it requires maintaining external knowledge databases and adds\ncomputational overhead at every deployment. We propose a simple pipeline that\nconverts inference-time retrieval into learned competence through distillation.\nOur approach: (1) extracts compact, reusable hints from agent failures, (2)\nuses these hints to generate improved teacher trajectories via one-shot\nretrieval at episode start, and (3) trains student models on these trajectories\nwith hint strings removed, forcing internalization rather than memorization.\nAcross two interactive benchmarks, ALFWorld (household tasks) and WebShop\n(online shopping), distilled students consistently outperform baseline agents,\nachieving up to 91% success on ALFWorld (vs. 79% for baselines) and improving\nWebShop scores to 72 (vs. 61 for baselines), while using 10-60% fewer tokens\nthan retrieval-augmented teachers depending on the environment. The approach\ngeneralizes across model scales (7B/14B parameters) and agent architectures\n(ReAct/StateAct), demonstrating that retrieval benefits can be effectively\ninternalized through targeted fine-tuning without permanent runtime\ndependencies.",
+  "authors": [
+    "Humaid Ibrahim",
+    "Nikolai Rozanov",
+    "Marek Rei"
+  ],
+  "published": "2025-10-01T19:03:48Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01375v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种通过知识蒸馏将检索增强生成(RAG)转化为学习能力的方法，从智能体失败中提取紧凑提示，生成改进的教师轨迹，并训练学生模型内部化这些知识。在ALFWorld和WebShop基准测试中，该方法显著提升成功率(ALFWorld达91%，WebShop达72%)，同时减少10-60%的token使用量，证明检索优势可通过微调有效内化而无需运行时依赖。",
+  "order": 407,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01375v1"
+}

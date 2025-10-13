@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.05837v1",
+  "title": "EEPO: Exploration-Enhanced Policy Optimization via Sample-Then-Forget",
+  "summary": "Balancing exploration and exploitation remains a central challenge in\nreinforcement learning with verifiable rewards (RLVR) for large language models\n(LLMs). Current RLVR methods often overemphasize exploitation, leading to\nentropy collapse, diminished exploratory capacity, and ultimately limited\nperformance gains. Although techniques that increase policy stochasticity can\npromote exploration, they frequently fail to escape dominant behavioral modes.\nThis creates a self-reinforcing loop-repeatedly sampling and rewarding dominant\nmodes-that further erodes exploration. We introduce Exploration-Enhanced Policy\nOptimization (EEPO), a framework that promotes exploration via two-stage\nrollouts with adaptive unlearning. In the first stage, the model generates half\nof the trajectories; it then undergoes a lightweight unlearning step to\ntemporarily suppress these sampled responses, forcing the second stage to\nexplore different regions of the output space. This sample-then-forget\nmechanism disrupts the self-reinforcing loop and promotes wider exploration\nduring rollouts. Across five reasoning benchmarks, EEPO outperforms GRPO,\nachieving average relative gains of 24.3% on Qwen2.5-3B, 33.0% on\nLlama3.2-3B-Instruct, and 10.4% on Qwen3-8B-Base.",
+  "authors": [
+    "Liang Chen",
+    "Xueting Han",
+    "Qizhou Wang",
+    "Bo Han",
+    "Jing Bai",
+    "Hinrich Schutze",
+    "Kam-Fai Wong"
+  ],
+  "published": "2025-10-07T12:02:03Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05837v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出EEPO框架，通过'采样-遗忘'两阶段策略优化解决LLM强化学习中探索与利用失衡问题。该方法首先生成部分轨迹，随后进行轻量级遗忘以抑制已采样响应，强制模型探索输出空间的不同区域，在五个推理基准上显著优于GRPO方法。",
+  "order": 35,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05837v1"
+}

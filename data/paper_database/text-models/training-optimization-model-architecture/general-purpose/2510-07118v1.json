@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07118v1",
+  "title": "TRIM: Token-wise Attention-Derived Saliency for Data-Efficient\n  Instruction Tuning",
+  "summary": "Instruction tuning is essential for aligning large language models (LLMs) to\ndownstream tasks and commonly relies on large, diverse corpora. However, small,\nhigh-quality subsets, known as coresets, can deliver comparable or superior\nresults, though curating them remains challenging. Existing methods often rely\non coarse, sample-level signals like gradients, an approach that is\ncomputationally expensive and overlooks fine-grained features. To address this,\nwe introduce TRIM (Token Relevance via Interpretable Multi-layer Attention), a\nforward-only, token-centric framework. Instead of using gradients, TRIM\noperates by matching underlying representational patterns identified via\nattention-based \"fingerprints\" from a handful of target samples. Such an\napproach makes TRIM highly efficient and uniquely sensitive to the structural\nfeatures that define a task. Coresets selected by our method consistently\noutperform state-of-the-art baselines by up to 9% on downstream tasks and even\nsurpass the performance of full-data fine-tuning in some settings. By avoiding\nexpensive backward passes, TRIM achieves this at a fraction of the\ncomputational cost. These findings establish TRIM as a scalable and efficient\nalternative for building high-quality instruction-tuning datasets.",
+  "authors": [
+    "Manish Nagaraj",
+    "Sakshi Choudhary",
+    "Utkarsh Saxena",
+    "Deepak Ravikumar",
+    "Kaushik Roy"
+  ],
+  "published": "2025-10-08T15:11:04Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07118v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TRIM框架，通过基于注意力机制的token级显著性分析，实现数据高效的指令调优。该方法无需梯度计算，仅需少量目标样本即可识别关键数据，在部分任务上甚至超越全数据微调性能，同时大幅降低计算成本。",
+  "order": 49,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07118v1"
+}

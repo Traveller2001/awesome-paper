@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01669v1",
+  "title": "UniVerse: Unleashing the Scene Prior of Video Diffusion Models for\n  Robust Radiance Field Reconstruction",
+  "summary": "This paper tackles the challenge of robust reconstruction, i.e., the task of\nreconstructing a 3D scene from a set of inconsistent multi-view images. Some\nrecent works have attempted to simultaneously remove image inconsistencies and\nperform reconstruction by integrating image degradation modeling into neural 3D\nscene representations.However, these methods rely heavily on dense observations\nfor robustly optimizing model parameters.To address this issue, we propose to\ndecouple robust reconstruction into two subtasks: restoration and\nreconstruction, which naturally simplifies the optimization process.To this\nend, we introduce UniVerse, a unified framework for robust reconstruction based\non a video diffusion model. Specifically, UniVerse first converts inconsistent\nimages into initial videos, then uses a specially designed video diffusion\nmodel to restore them into consistent images, and finally reconstructs the 3D\nscenes from these restored images.Compared with case-by-case per-view\ndegradation modeling, the diffusion model learns a general scene prior from\nlarge-scale data, making it applicable to diverse image\ninconsistencies.Extensive experiments on both synthetic and real-world datasets\ndemonstrate the strong generalization capability and superior performance of\nour method in robust reconstruction. Moreover, UniVerse can control the style\nof the reconstructed 3D scene. Project page:\nhttps://jin-cao-tma.github.io/UniVerse.github.io/",
+  "authors": [
+    "Jin Cao",
+    "Hongrui Wu",
+    "Ziyong Feng",
+    "Hujun Bao",
+    "Xiaowei Zhou",
+    "Sida Peng"
+  ],
+  "published": "2025-10-02T04:50:18Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01669v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "UniVerse提出统一框架解决多视角图像不一致的3D场景重建难题，通过视频扩散模型将不一致图像转换为连续视频并修复为一致图像，最终重建3D场景。该方法利用大规模数据学习场景先验，无需逐案建模图像退化，在合成和真实数据集上展现强大泛化能力，并能控制重建场景风格。",
+  "order": 557,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01669v1"
+}

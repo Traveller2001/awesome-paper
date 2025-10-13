@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01685v1",
+  "title": "How Do Language Models Compose Functions?",
+  "summary": "While large language models (LLMs) appear to be increasingly capable of\nsolving compositional tasks, it is an open question whether they do so using\ncompositional mechanisms. In this work, we investigate how feedforward LLMs\nsolve two-hop factual recall tasks, which can be expressed compositionally as\n$g(f(x))$. We first confirm that modern LLMs continue to suffer from the\n\"compositionality gap\": i.e. their ability to compute both $z = f(x)$ and $y =\ng(z)$ does not entail their ability to compute the composition $y = g(f(x))$.\nThen, using logit lens on their residual stream activations, we identify two\nprocessing mechanisms, one which solves tasks $\\textit{compositionally}$,\ncomputing $f(x)$ along the way to computing $g(f(x))$, and one which solves\nthem $\\textit{directly}$, without any detectable signature of the intermediate\nvariable $f(x)$. Finally, we find that which mechanism is employed appears to\nbe related to the embedding space geometry, with the idiomatic mechanism being\ndominant in cases where there exists a linear mapping from $x$ to $g(f(x))$ in\nthe embedding spaces. We fully release our data and code at:\nhttps://github.com/apoorvkh/composing-functions .",
+  "authors": [
+    "Apoorv Khandelwal",
+    "Ellie Pavlick"
+  ],
+  "published": "2025-10-02T05:21:34Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01685v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探讨语言模型如何执行组合任务，发现模型存在'组合性差距'，即能分别计算f(x)和g(z)不代表能计算g(f(x))。通过分析残差流激活，识别出两种处理机制：组合式（计算中间结果f(x)）和直接式（无中间变量痕迹）。机制选择与嵌入空间几何相关，当存在从x到g(f(x))的线性映射时，直接式机制占主导。",
+  "order": 376,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01685v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00654v1",
+  "title": "Weakly Supervised Cloud Detection Combining Spectral Features and\n  Multi-Scale Deep Network",
+  "summary": "Clouds significantly affect the quality of optical satellite images, which\nseriously limits their precise application. Recently, deep learning has been\nwidely applied to cloud detection and has achieved satisfactory results.\nHowever, the lack of distinctive features in thin clouds and the low quality of\ntraining samples limit the cloud detection accuracy of deep learning methods,\nleaving space for further improvements. In this paper, we propose a weakly\nsupervised cloud detection method that combines spectral features and\nmulti-scale scene-level deep network (SpecMCD) to obtain highly accurate\npixel-level cloud masks. The method first utilizes a progressive training\nframework with a multi-scale scene-level dataset to train the multi-scale\nscene-level cloud detection network. Pixel-level cloud probability maps are\nthen obtained by combining the multi-scale probability maps and cloud thickness\nmap based on the characteristics of clouds in dense cloud coverage and large\ncloud-area coverage images. Finally, adaptive thresholds are generated based on\nthe differentiated regions of the scene-level cloud masks at different scales\nand combined with distance-weighted optimization to obtain binary cloud masks.\nTwo datasets, WDCD and GF1MS-WHU, comprising a total of 60 Gaofen-1\nmultispectral (GF1-MS) images, were used to verify the effectiveness of the\nproposed method. Compared to the other weakly supervised cloud detection\nmethods such as WDCD and WSFNet, the F1-score of the proposed SpecMCD method\nshows an improvement of over 7.82%, highlighting the superiority and potential\nof the SpecMCD method for cloud detection under different cloud coverage\nconditions.",
+  "authors": [
+    "Shaocong Zhu",
+    "Zhiwei Li",
+    "Xinghua Li",
+    "Huanfeng Shen"
+  ],
+  "published": "2025-10-01T08:32:49Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00654v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种结合光谱特征与多尺度深度网络的弱监督云检测方法(SpecMCD)，通过渐进式训练框架生成多尺度概率图，结合云厚度图和自适应阈值优化，在GF1-MS卫星图像上实现像素级云掩码检测，相比现有方法F1分数提升超过7.82%。",
+  "order": 648,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00654v1"
+}

@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06557v1",
+  "title": "The Markovian Thinker",
+  "summary": "Reinforcement learning (RL) has recently become a strong recipe for training\nreasoning LLMs that produce long chains of thought (LongCoT). Yet the standard\nRL \"thinking environment\", where the state is the prompt plus all prior\nreasoning tokens, makes the state unbounded and forces attention-based policies\nto pay quadratic compute as thoughts lengthen. We revisit the environment\nitself. We propose Markovian Thinking, a paradigm in which the policy advances\nreasoning while conditioning on a constant-size state, decoupling thinking\nlength from context size. As an immediate consequence this yields linear\ncompute with constant memory. We instantiate this idea with Delethink, an RL\nenvironment that structures reasoning into fixed-size chunks. Within each\nchunk, the model thinks as usual; at the boundary, the environment resets the\ncontext and reinitializes the prompt with a short carryover. Through RL, the\npolicy learns to write a textual state near the end of each chunk sufficient\nfor seamless continuation of reasoning after reset. Trained in this\nenvironment, an R1-Distill 1.5B model reasons in 8K-token chunks yet thinks up\nto 24K tokens, matching or surpassing LongCoT-RL trained with a 24K budget.\nWith test-time scaling, Delethink continues to improve where LongCoT plateaus.\nThe effect of linear compute is substantial: we empirically estimate at 96K\naverage thinking length LongCoT-RL costs 27 H100-months vs. 7 for Delethink.\nAnalysis at RL initialization shows off-the-shelf reasoning models (1.5B-120B)\noften sample Markovian traces zero-shot across diverse benchmarks, providing\npositive samples that make RL effective at scale. Our results show that\nredesigning the thinking environment is a powerful lever: it enables very long\nreasoning without quadratic overhead and opens a path toward efficient,\nscalable reasoning LLMs.",
+  "authors": [
+    "Milad Aghajohari",
+    "Kamran Chitsaz",
+    "Amirhossein Kazemnejad",
+    "Sarath Chandar",
+    "Alessandro Sordoni",
+    "Aaron Courville",
+    "Siva Reddy"
+  ],
+  "published": "2025-10-08T01:18:13Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06557v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出马尔可夫思维范式，通过将推理过程分解为固定大小的块，实现线性计算复杂度和恒定内存使用。Delethink环境训练模型在块边界处学习传递关键状态信息，使1.5B参数模型能以8K上下文实现24K令牌的推理，在96K推理长度下计算成本仅为传统方法的1/4。该方法突破了长链推理的二次计算瓶颈，为高效可扩展的推理LLM开辟了新路径。",
+  "order": 235,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06557v1"
+}

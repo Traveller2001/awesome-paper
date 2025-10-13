@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.01123v1",
+  "title": "Rethinking Thinking Tokens: LLMs as Improvement Operators",
+  "summary": "Reasoning training incentivizes LLMs to produce long chains of thought (long\nCoT), which among other things, allows them to explore solution strategies with\nself-checking. This results in higher accuracy, but inflates context length,\ntoken/compute cost, and answer latency. We ask: Can current models leverage\ntheir metacognition to provide other combinations on this Pareto frontier,\ne.g., better accuracy with lower context length and/or latency? Abstractly, we\nview the model as an improvement operator on its own \"thoughts\" with a\ncontinuum of possible strategies. We identify an interesting inference family\nParallel-Distill-Refine (PDR), which performs the following: (i) generate\ndiverse drafts in parallel; (ii) distill them into a bounded, textual\nworkspace; and (iii) refine conditioned on this workspace, producing an output\nthat seeds the next round. Importantly, context length (hence compute cost) is\ncontrollable via degree of parallelism, and is no longer conflated with the\ntotal number of generated tokens. We report PDR instantiations of current\nmodels that give better accuracy than long CoT while incurring lower latency.\nSetting degree of parallelism to 1 yields an interesting subcase, Sequential\nRefinement (SR) (iteratively improve a single candidate answer) which provides\nperformance superior to long CoT. Success of such model orchestrations raises\nthe question whether further training could shift the Pareto frontier. To this\nend, we train an 8B thinking model with Reinforcement Learning (RL) to make it\nconsistent with PDR as the inference method. On math tasks with verifiable\nanswers, iterative pipelines surpass single-pass baselines at matched\nsequential budgets, with PDR delivering the largest gains (e.g., +11% on AIME\n2024 and +9% on AIME 2025).",
+  "authors": [
+    "Lovish Madaan",
+    "Aniket Didolkar",
+    "Suchin Gururangan",
+    "John Quan",
+    "Ruan Silva",
+    "Ruslan Salakhutdinov",
+    "Manzil Zaheer",
+    "Sanjeev Arora",
+    "Anirudh Goyal"
+  ],
+  "published": "2025-10-01T17:08:59Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01123v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出并行蒸馏精炼(PDR)方法，将LLMs视为自身思维的改进算子，通过并行生成草稿、蒸馏到工作空间、迭代精炼的方式，在数学推理任务上实现比长思维链更高准确率且更低延迟，并训练8B模型验证该方法在AIME等任务上提升显著(+11%)。",
+  "order": 191,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01123v1"
+}

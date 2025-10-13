@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05670v1",
+  "title": "Quantifying the Accuracy-Interpretability Trade-Off in Concept-Based\n  Sidechannel Models",
+  "summary": "Concept Bottleneck Models (CBNMs) are deep learning models that provide\ninterpretability by enforcing a bottleneck layer where predictions are based\nexclusively on human-understandable concepts. However, this constraint also\nrestricts information flow and often results in reduced predictive accuracy.\nConcept Sidechannel Models (CSMs) address this limitation by introducing a\nsidechannel that bypasses the bottleneck and carry additional task-relevant\ninformation. While this improves accuracy, it simultaneously compromises\ninterpretability, as predictions may rely on uninterpretable representations\ntransmitted through sidechannels. Currently, there exists no principled\ntechnique to control this fundamental trade-off. In this paper, we close this\ngap. First, we present a unified probabilistic concept sidechannel meta-model\nthat subsumes existing CSMs as special cases. Building on this framework, we\nintroduce the Sidechannel Independence Score (SIS), a metric that quantifies a\nCSM's reliance on its sidechannel by contrasting predictions made with and\nwithout sidechannel information. We propose SIS regularization, which\nexplicitly penalizes sidechannel reliance to improve interpretability. Finally,\nwe analyze how the expressivity of the predictor and the reliance of the\nsidechannel jointly shape interpretability, revealing inherent trade-offs\nacross different CSM architectures. Empirical results show that\nstate-of-the-art CSMs, when trained solely for accuracy, exhibit low\nrepresentation interpretability, and that SIS regularization substantially\nimproves their interpretability, intervenability, and the quality of learned\ninterpretable task predictors. Our work provides both theoretical and practical\ntools for developing CSMs that balance accuracy and interpretability in a\nprincipled manner.",
+  "authors": [
+    "David Debot",
+    "Giuseppe Marra"
+  ],
+  "published": "2025-10-07T08:29:34Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05670v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'alignment']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出概念侧信道模型(CSMs)的统一概率框架，引入侧信道独立性评分(SIS)来量化模型在可解释性与准确性之间的权衡。通过SIS正则化方法，显著提升了现有CSM模型的可解释性、可干预性和学习质量，为平衡模型性能与可解释性提供了理论工具和实践方案。",
+  "order": 132,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05670v1"
+}

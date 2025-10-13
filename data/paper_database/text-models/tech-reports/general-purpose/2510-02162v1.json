@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02162v1",
+  "title": "NoMod: A Non-modular Attack on Module Learning With Errors",
+  "summary": "The advent of quantum computing threatens classical public-key cryptography,\nmotivating NIST's adoption of post-quantum schemes such as those based on the\nModule Learning With Errors (Module-LWE) problem. We present NoMod ML-Attack, a\nhybrid white-box cryptanalytic method that circumvents the challenge of\nmodeling modular reduction by treating wrap-arounds as statistical corruption\nand casting secret recovery as robust linear estimation. Our approach combines\noptimized lattice preprocessing--including reduced-vector saving and algebraic\namplification--with robust estimators trained via Tukey's Biweight loss.\nExperiments show NoMod achieves full recovery of binary secrets for dimension\n$n = 350$, recovery of sparse binomial secrets for $n = 256$, and successful\nrecovery of sparse secrets in CRYSTALS-Kyber settings with parameters $(n, k) =\n(128, 3)$ and $(256, 2)$. We release our implementation in an anonymous\nrepository https://anonymous.4open.science/r/NoMod-3BD4.",
+  "authors": [
+    "Cristian Bassotto",
+    "Ermes Franch",
+    "Marina Krček",
+    "Stjepan Picek"
+  ],
+  "published": "2025-10-02T16:12:13Z",
+  "primary_category": "cs.CR",
+  "arxiv_url": "https://arxiv.org/abs/2510.02162v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "NoMod攻击是一种针对模块学习错误问题的非模块化密码分析方法，通过将模运算包装视为统计噪声，将密钥恢复转化为鲁棒线性估计问题。该方法结合优化的格预处理技术和Tukey双权重损失训练的鲁棒估计器，实验显示能成功恢复CRYSTALS-Kyber等后量子密码方案中的稀疏密钥。",
+  "order": 735,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02162v1"
+}

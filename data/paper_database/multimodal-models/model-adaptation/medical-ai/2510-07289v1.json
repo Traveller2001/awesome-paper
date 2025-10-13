@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07289v1",
+  "title": "MolGA: Molecular Graph Adaptation with Pre-trained 2D Graph Encoder",
+  "summary": "Molecular graph representation learning is widely used in chemical and\nbiomedical research. While pre-trained 2D graph encoders have demonstrated\nstrong performance, they overlook the rich molecular domain knowledge\nassociated with submolecular instances (atoms and bonds). While molecular\npre-training approaches incorporate such knowledge into their pre-training\nobjectives, they typically employ designs tailored to a specific type of\nknowledge, lacking the flexibility to integrate diverse knowledge present in\nmolecules. Hence, reusing widely available and well-validated pre-trained 2D\nencoders, while incorporating molecular domain knowledge during downstream\nadaptation, offers a more practical alternative. In this work, we propose\nMolGA, which adapts pre-trained 2D graph encoders to downstream molecular\napplications by flexibly incorporating diverse molecular domain knowledge.\nFirst, we propose a molecular alignment strategy that bridge the gap between\npre-trained topological representations with domain-knowledge representations.\nSecond, we introduce a conditional adaptation mechanism that generates\ninstance-specific tokens to enable fine-grained integration of molecular domain\nknowledge for downstream tasks. Finally, we conduct extensive experiments on\neleven public datasets, demonstrating the effectiveness of MolGA.",
+  "authors": [
+    "Xingtong Yu",
+    "Chang Zhou",
+    "Xinming Zhang",
+    "Yuan Fang"
+  ],
+  "published": "2025-10-08T17:46:22Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07289v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_adaptation",
+  "application_domain": "medical_ai",
+  "tldr_zh": "MolGA提出一种分子图自适应方法，通过分子对齐策略和条件适应机制，将预训练的2D图编码器与分子领域知识相结合，在11个公共数据集上验证了其在下游分子应用中的有效性。",
+  "order": 166,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07289v1"
+}

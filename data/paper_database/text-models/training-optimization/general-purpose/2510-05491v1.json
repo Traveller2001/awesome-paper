@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.05491v1",
+  "title": "NorMuon: Making Muon more efficient and scalable",
+  "summary": "The choice of optimizer significantly impacts the training efficiency and\ncomputational costs of large language models (LLMs). Recently, the Muon\noptimizer has demonstrated promising results by orthogonalizing parameter\nupdates, improving optimization geometry through better conditioning. Despite\nMuon's emergence as a candidate successor to Adam, the potential for jointly\nleveraging their strengths has not been systematically explored. In this work,\nwe bridge this gap by proposing NorMuon (Neuron-wise Normalized Muon), an\noptimizer that synergistically combines orthogonalization with neuron-level\nadaptive learning rates. Our analysis reveals that while Muon effectively\nreduces condition numbers, the resulting updates exhibit highly non-uniform\nneuron norms, causing certain neurons to dominate the optimization process.\nNorMuon addresses this imbalance by maintaining second-order momentum\nstatistics for each neuron and applying row-wise normalization after\northogonalization, ensuring balanced parameter utilization while preserving\nMuon's conditioning benefits. To enable practical deployment at scale, we\ndevelop an efficient distributed implementation under the FSDP2 framework that\nstrategically distributes orthogonalization computations across devices.\nExperiments across multiple model scales demonstrate that NorMuon consistently\noutperforms both Adam and Muon, achieving 21.74% better training efficiency\nthan Adam and 11.31% improvement over Muon on 1.1 B pretraining setting, while\nmaintaining a comparable memory footprint to Muon. Our findings suggest that\northogonalization and adaptive learning rates are complementary rather than\ncompeting approaches, opening new avenues for optimizer design in large-scale\ndeep learning.",
+  "authors": [
+    "Zichong Li",
+    "Liming Liu",
+    "Chen Liang",
+    "Weizhu Chen",
+    "Tuo Zhao"
+  ],
+  "published": "2025-10-07T01:13:41Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05491v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出NorMuon优化器，通过将正交化更新与神经元级自适应学习率相结合，解决了Muon优化器中神经元更新范数不均衡的问题。在FSDP2框架下实现高效分布式部署，实验表明在1.1B参数预训练中，相比Adam和Muon分别提升21.74%和11.31%的训练效率，且内存占用与Muon相当。",
+  "order": 152,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05491v1"
+}

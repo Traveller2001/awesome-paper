@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00966v1",
+  "title": "Deep Learning-Based Approach for Improving Relational Aggregated Search",
+  "summary": "Due to an information explosion on the internet, there is a need for the\ndevelopment of aggregated search systems that can boost the retrieval and\nmanagement of content in various formats. To further improve the clustering of\nArabic text data in aggregated search environments, this research investigates\nthe application of advanced natural language processing techniques, namely\nstacked autoencoders and AraBERT embeddings. By transcending the limitations of\ntraditional search engines, which are imprecise, not contextually relevant, and\nnot personalized, we offer more enriched, context-aware characterizations of\nsearch results, so we used a K-means clustering algorithm to discover\ndistinctive features and relationships in these results, we then used our\napproach on different Arabic queries to evaluate its effectiveness. Our model\nillustrates that using stacked autoencoders in representation learning suits\nclustering tasks and can significantly improve clustering search results. It\nalso demonstrates improved accuracy and relevance of search results.",
+  "authors": [
+    "Sara Saad Soliman",
+    "Ahmed Younes",
+    "Islam Elkabani",
+    "Ashraf Elsayed"
+  ],
+  "published": "2025-10-01T14:37:38Z",
+  "primary_category": "cs.IR",
+  "arxiv_url": "https://arxiv.org/abs/2510.00966v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出一种基于堆叠自编码器和AraBERT嵌入的深度学习方法，用于改进阿拉伯语聚合搜索中的文本聚类效果。通过K-means算法发现搜索结果中的特征关系，实验表明该方法能显著提升搜索结果的准确性和相关性。",
+  "order": 212,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00966v1"
+}

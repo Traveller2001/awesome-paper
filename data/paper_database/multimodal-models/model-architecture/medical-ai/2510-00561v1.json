@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00561v1",
+  "title": "Assessing Foundation Models for Mold Colony Detection with Limited\n  Training Data",
+  "summary": "The process of quantifying mold colonies on Petri dish samples is of critical\nimportance for the assessment of indoor air quality, as high colony counts can\nindicate potential health risks and deficiencies in ventilation systems.\nConventionally the automation of such a labor-intensive process, as well as\nother tasks in microbiology, relies on the manual annotation of large datasets\nand the subsequent extensive training of models like YoloV9. To demonstrate\nthat exhaustive annotation is not a prerequisite anymore when tackling a new\nvision task, we compile a representative dataset of 5000 Petri dish images\nannotated with bounding boxes, simulating both a traditional data collection\napproach as well as few-shot and low-shot scenarios with well curated subsets\nwith instance level masks. We benchmark three vision foundation models against\ntraditional baselines on task specific metrics, reflecting realistic real-world\nrequirements. Notably, MaskDINO attains near-parity with an extensively trained\nYoloV9 model while finetuned only on 150 images, retaining competitive\nperformance with as few as 25 images, still being reliable on $\\approx$ 70% of\nthe samples. Our results show that data-efficient foundation models can match\ntraditional approaches with only a fraction of the required data, enabling\nearlier development and faster iterative improvement of automated\nmicrobiological systems with a superior upper-bound performance than\ntraditional models would achieve.",
+  "authors": [
+    "Henrik Pichler",
+    "Janis Keuper",
+    "Matthew Copping"
+  ],
+  "published": "2025-10-01T06:25:45Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00561v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究评估了基础模型在少量训练数据下检测培养皿霉菌菌落的能力。通过构建5000张标注图像数据集，在少样本场景下对比三种视觉基础模型与传统方法。结果显示MaskDINO仅用150张图像微调即可达到与充分训练的YoloV9相近性能，25张图像时仍能保持约70%的可靠性，证明基础模型能以极少数据实现传统方法同等效果，推动微生物检测系统高效开发。",
+  "order": 664,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00561v1"
+}

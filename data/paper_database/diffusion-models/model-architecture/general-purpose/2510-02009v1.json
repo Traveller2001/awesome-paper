@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02009v1",
+  "title": "ShapeGen3DCP: A Deep Learning Framework for Layer Shape Prediction in 3D\n  Concrete Printing",
+  "summary": "This work introduces ShapeGen3DCP, a deep learning framework for fast and\naccurate prediction of filament cross-sectional geometry in 3D Concrete\nPrinting (3DCP). The method is based on a neural network architecture that\ntakes as input both material properties in the fluid state (density, yield\nstress, plastic viscosity) and process parameters (nozzle diameter, nozzle\nheight, printing and flow velocities) to directly predict extruded layer\nshapes. To enhance generalization, some inputs are reformulated into\ndimensionless parameters that capture underlying physical principles. Predicted\ngeometries are compactly represented using Fourier descriptors, which enforce\nsmooth, closed, and symmetric profiles while reducing the prediction task to a\nsmall set of coefficients. The training dataset was synthetically generated\nusing a well-established Particle Finite Element (PFEM) model of 3DCP,\novercoming the scarcity of experimental data. Validation against diverse\nnumerical and experimental cases shows strong agreement, confirming the\nframework's accuracy and reliability. This opens the way to practical uses\nranging from pre-calibration of print settings, minimizing or even eliminating\ntrial-and-error adjustments, to toolpath optimization for more advanced\ndesigns. Looking ahead, coupling the framework with simulations and sensor\nfeedback could enable closed-loop digital twins for 3DCP, driving real-time\nprocess optimization, defect detection, and adaptive control of printing\nparameters.",
+  "authors": [
+    "Giacomo Rizzieri",
+    "Federico Lanteri",
+    "Liberato Ferrara",
+    "Massimiliano Cremonesi"
+  ],
+  "published": "2025-10-02T13:30:20Z",
+  "primary_category": "cs.CE",
+  "arxiv_url": "https://arxiv.org/abs/2510.02009v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ShapeGen3DCP是一个深度学习框架，用于3D混凝土打印中丝状截面几何形状的快速准确预测。该模型结合材料特性和工艺参数，通过傅里叶描述符紧凑表示预测形状，基于合成数据进行训练，验证显示与实验数据高度一致，可用于打印参数预校准和路径优化。",
+  "order": 763,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02009v1"
+}

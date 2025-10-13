@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01652v1",
+  "title": "Learning to Look at the Other Side: A Semantic Probing Study of Word\n  Embeddings in LLMs with Enabled Bidirectional Attention",
+  "summary": "Autoregressive Large Language Models (LLMs) demonstrate exceptional\nperformance in language understanding and generation. However, their\napplication in text embedding tasks has been relatively slow, along with the\nanalysis of their semantic representation in probing tasks, due to the\nconstraints of the unidirectional attention mechanism.\n  This paper aims to explore whether such constraints can be overcome by\nenabling bidirectional attention in LLMs. We tested different variants of the\nLlama architecture through additional training steps, progressively enabling\nbidirectional attention and unsupervised/supervised contrastive learning.",
+  "authors": [
+    "Zhaoxin Feng",
+    "Jianfei Ma",
+    "Emmanuele Chersoni",
+    "Xiaojing Zhao",
+    "Xiaoyi Bao"
+  ],
+  "published": "2025-10-02T04:18:13Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01652v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探讨了在自回归大语言模型中启用双向注意力机制以克服单向注意力的限制。通过训练Llama架构变体，逐步实现双向注意力和对比学习，分析了词嵌入语义表示在探测任务中的表现，旨在提升文本嵌入任务的性能。",
+  "order": 381,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01652v1"
+}

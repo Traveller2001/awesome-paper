@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00386v1",
+  "title": "Train on Validation (ToV): Fast data selection with applications to\n  fine-tuning",
+  "summary": "State-of-the-art machine learning often follows a two-stage process:\n$(i)$~pre-training on large, general-purpose datasets; $(ii)$~fine-tuning on\ntask-specific data. In fine-tuning, selecting training examples that closely\nreflect the target distribution is crucial. However, it is often the case that\nonly a few samples are available from the target distribution. Existing data\nselection methods treat these target samples as a validation set and estimate\nthe effect of adding or removing a single sample from the training pool by\nperforming inference on the validation set.\n  We propose a simpler and faster alternative that inverts the usual role of\ntrain and validation: we perform inference on the training pool before and\nafter fine-tuning on the validation set. We then select samples whose\npredictions change the most. Our key insight is that the training samples most\naffected by fine-tuning on a small validation set tend to be the most\nbeneficial for reducing test loss on the target distribution. Experiments on\ninstruction tuning and named entity recognition tasks show that, in most cases,\nour method achieves lower test log-loss than state-of-the-art approaches. We\nsupport our findings with theoretical analysis.",
+  "authors": [
+    "Ayush Jain",
+    "Andrea Montanari",
+    "Eren Sasoglu"
+  ],
+  "published": "2025-10-01T00:55:39Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00386v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出'训练验证集(ToV)'方法，通过反转训练集和验证集的传统角色来快速选择微调数据。核心思路是在验证集上微调后，选择预测变化最大的训练样本，实验证明该方法在指令调优和命名实体识别任务中能有效降低测试损失。",
+  "order": 323,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00386v1"
+}

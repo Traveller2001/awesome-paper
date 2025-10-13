@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06761v1",
+  "title": "Evolving and Executing Research Plans via Double-Loop Multi-Agent\n  Collaboration",
+  "summary": "Automating the end-to-end scientific research process poses a fundamental\nchallenge: it requires both evolving high-level plans that are novel and sound,\nand executing these plans correctly amidst dynamic and uncertain conditions. To\naddress this bilevel challenge, we propose a novel Double-Loop Multi-Agent\n(DLMA) framework to solve the given research problem automatically. The leader\nloop, composed of professor agents, is responsible for evolving research plans.\nIt employs an evolutionary algorithm through involvement, improvement, and\nintegration meetings to iteratively generate and refine a pool of research\nproposals, exploring the solution space effectively. The follower loop,\ncomposed of doctoral student agents, is responsible for executing the\nbest-evolved plan. It dynamically adjusts the plan during implementation via\npre-hoc and post-hoc meetings, ensuring each step (e.g., drafting, coding) is\nwell-supported by contextual and external observations. Extensive experiments\non benchmarks like ACLAward and Laboratory show that DLMA generates research\npapers that achieve state-of-the-art scores in automated evaluation,\nsignificantly outperforming strong baselines. Ablation studies confirm the\ncritical roles of both loops, with evolution driving novelty and execution\nensuring soundness.",
+  "authors": [
+    "Zhi Zhang",
+    "Yan Liu",
+    "Zhejing Hu",
+    "Gong Chen",
+    "Sheng-hua Zhong",
+    "Jiannong Cao"
+  ],
+  "published": "2025-10-08T08:40:58Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06761v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出双循环多智能体(DLMA)框架，通过教授智能体(上层循环)进化研究方案、博士生智能体(下层循环)动态执行方案，实现端到端科研自动化。在ACLAward等基准测试中取得最优效果，验证了进化驱动创新、执行保证严谨的双重优势。",
+  "order": 15,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06761v1"
+}

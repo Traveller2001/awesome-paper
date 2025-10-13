@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.06039v1",
+  "title": "CDTP: A Large-Scale Chinese Data-Text Pair Dataset for Comprehensive\n  Evaluation of Chinese LLMs",
+  "summary": "Large Language Models (LLMs) have achieved remarkable success across a wide\nrange of natural language processing tasks. However, Chinese LLMs face unique\nchallenges, primarily due to the dominance of unstructured free text and the\nlack of structured representations in Chinese corpora. While existing\nbenchmarks for LLMs partially assess Chinese LLMs, they are still predominantly\nEnglish-centric and fail to address the unique linguistic characteristics of\nChinese, lacking structured datasets essential for robust evaluation. To\naddress these challenges, we present a Comprehensive Benchmark for Evaluating\nChinese Large Language Models (CB-ECLLM) based on the newly constructed Chinese\nData-Text Pair (CDTP) dataset. Specifically, CDTP comprises over 7 million\naligned text pairs, each consisting of unstructured text coupled with one or\nmore corresponding triples, alongside a total of 15 million triples spanning\nfour critical domains. The core contributions of CDTP are threefold: (i)\nenriching Chinese corpora with high-quality structured information; (ii)\nenabling fine-grained evaluation tailored to knowledge-driven tasks; and (iii)\nsupporting multi-task fine-tuning to assess generalization and robustness\nacross scenarios, including Knowledge Graph Completion, Triple-to-Text\ngeneration, and Question Answering. Furthermore, we conduct rigorous\nevaluations through extensive experiments and ablation studies to assess the\neffectiveness, Supervised Fine-Tuning (SFT), and robustness of the benchmark.\nTo support reproducible research, we offer an open-source codebase and outline\npotential directions for future investigations based on our insights.",
+  "authors": [
+    "Chengwei Wu",
+    "Jiapu Wang",
+    "Mingyang Gao",
+    "Xingrui Zhuo",
+    "Jipeng Guo",
+    "Runlin Lei",
+    "Haoran Luo",
+    "Tianyu Chen",
+    "Haoyi Zhou",
+    "Shirui Pan",
+    "Zechao Li"
+  ],
+  "published": "2025-10-07T15:33:52Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06039v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CDTP数据集——包含700万对齐文本对和1500万三元组的大规模中文数据-文本配对数据集，用于全面评估中文大语言模型。该数据集覆盖四大关键领域，支持知识图谱补全、三元组到文本生成和问答等多任务评估，解决了中文语料缺乏结构化信息的问题，并提供开源代码库促进可复现研究。",
+  "order": 20,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06039v1"
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00665v2",
+  "title": "Multi-Domain Brain Vessel Segmentation Through Feature Disentanglement",
+  "summary": "The intricate morphology of brain vessels poses significant challenges for\nautomatic segmentation models, which usually focus on a single imaging\nmodality. However, accurately treating brain-related conditions requires a\ncomprehensive understanding of the cerebrovascular tree, regardless of the\nspecific acquisition procedure. Our framework effectively segments brain\narteries and veins in various datasets through image-to-image translation while\navoiding domain-specific model design and data harmonization between the source\nand the target domain. This is accomplished by employing disentanglement\ntechniques to independently manipulate different image properties, allowing\nthem to move from one domain to another in a label-preserving manner.\nSpecifically, we focus on manipulating vessel appearances during adaptation\nwhile preserving spatial information, such as shapes and locations, which are\ncrucial for correct segmentation. Our evaluation effectively bridges large and\nvaried domain gaps across medical centers, image modalities, and vessel types.\nAdditionally, we conduct ablation studies on the optimal number of required\nannotations and other architectural choices. The results highlight our\nframework's robustness and versatility, demonstrating the potential of domain\nadaptation methodologies to perform cerebrovascular image segmentation in\nmultiple scenarios accurately. Our code is available at\nhttps://github.com/i-vesseg/MultiVesSeg.",
+  "authors": [
+    "Francesco Galati",
+    "Daniele Falcetta",
+    "Rosa Cortese",
+    "Ferran Prados",
+    "Ninon Burgos",
+    "Maria A. Zuluaga"
+  ],
+  "published": "2025-10-01T08:48:11Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00665v2",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出一种通过特征解耦实现多领域脑血管分割的框架，利用图像到图像转换技术在不同数据集上分割脑动脉和静脉，无需针对特定领域设计模型或进行数据协调。该方法通过独立操控图像属性实现跨域迁移，同时保留对分割至关重要的空间信息，在多个医学中心、成像模态和血管类型上展现出强大的适应性和鲁棒性。",
+  "order": 644,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00665v2"
+}

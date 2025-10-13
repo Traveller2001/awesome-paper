@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01119v1",
+  "title": "Instant4D: 4D Gaussian Splatting in Minutes",
+  "summary": "Dynamic view synthesis has seen significant advances, yet reconstructing\nscenes from uncalibrated, casual video remains challenging due to slow\noptimization and complex parameter estimation. In this work, we present\nInstant4D, a monocular reconstruction system that leverages native 4D\nrepresentation to efficiently process casual video sequences within minutes,\nwithout calibrated cameras or depth sensors. Our method begins with geometric\nrecovery through deep visual SLAM, followed by grid pruning to optimize scene\nrepresentation. Our design significantly reduces redundancy while maintaining\ngeometric integrity, cutting model size to under 10% of its original footprint.\nTo handle temporal dynamics efficiently, we introduce a streamlined 4D Gaussian\nrepresentation, achieving a 30x speed-up and reducing training time to within\ntwo minutes, while maintaining competitive performance across several\nbenchmarks. Our method reconstruct a single video within 10 minutes on the\nDycheck dataset or for a typical 200-frame video. We further apply our model to\nin-the-wild videos, showcasing its generalizability. Our project website is\npublished at https://instant4d.github.io/.",
+  "authors": [
+    "Zhanpeng Luo",
+    "Haoxi Ran",
+    "Li Lu"
+  ],
+  "published": "2025-10-01T17:07:21Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01119v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Instant4D是一种单目4D重建系统，通过深度视觉SLAM和网格剪枝技术，在无需标定相机或深度传感器的情况下，能在10分钟内从普通视频重建动态场景。该方法将模型大小压缩至原尺寸10%以下，训练速度提升30倍，在多个基准测试中保持竞争力。",
+  "order": 599,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01119v1"
+}

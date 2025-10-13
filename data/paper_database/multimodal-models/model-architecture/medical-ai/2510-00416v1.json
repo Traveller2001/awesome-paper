@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00416v1",
+  "title": "Domain-Specialized Interactive Segmentation Framework for Meningioma\n  Radiotherapy Planning",
+  "summary": "Precise delineation of meningiomas is crucial for effective radiotherapy (RT)\nplanning, directly influencing treatment efficacy and preservation of adjacent\nhealthy tissues. While automated deep learning approaches have demonstrated\nconsiderable potential, achieving consistently accurate clinical segmentation\nremains challenging due to tumor heterogeneity. Interactive Medical Image\nSegmentation (IMIS) addresses this challenge by integrating advanced AI\ntechniques with clinical input. However, generic segmentation tools, despite\nwidespread applicability, often lack the specificity required for clinically\ncritical and disease-specific tasks like meningioma RT planning. To overcome\nthese limitations, we introduce Interactive-MEN-RT, a dedicated IMIS tool\nspecifically developed for clinician-assisted 3D meningioma segmentation in RT\nworkflows. The system incorporates multiple clinically relevant interaction\nmethods, including point annotations, bounding boxes, lasso tools, and\nscribbles, enhancing usability and clinical precision. In our evaluation\ninvolving 500 contrast-enhanced T1-weighted MRI scans from the BraTS 2025\nMeningioma RT Segmentation Challenge, Interactive-MEN-RT demonstrated\nsubstantial improvement compared to other segmentation methods, achieving Dice\nsimilarity coefficients of up to 77.6\\% and Intersection over Union scores of\n64.8\\%. These results emphasize the need for clinically tailored segmentation\nsolutions in critical applications such as meningioma RT planning. The code is\npublicly available at: https://github.com/snuh-rad-aicon/Interactive-MEN-RT",
+  "authors": [
+    "Junhyeok Lee",
+    "Han Jang",
+    "Kyu Sung Choi"
+  ],
+  "published": "2025-10-01T01:57:10Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00416v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出Interactive-MEN-RT，一种专用于脑膜瘤放疗规划的交互式医学图像分割框架。该系统整合多种临床交互方法（点标注、边界框、套索工具等），在BraTS 2025数据集上达到77.6% Dice系数和64.8% IoU，显著优于通用分割工具，强调临床定制化解决方案在关键医疗应用中的必要性。",
+  "order": 682,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00416v1"
+}

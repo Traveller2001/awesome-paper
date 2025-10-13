@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00628v1",
+  "title": "Hearing the Order: Investigating Selection Bias in Large Audio-Language\n  Models",
+  "summary": "Large audio-language models (LALMs) are often used in tasks that involve\nreasoning over ordered options. An open question is whether their predictions\nare influenced by the order of answer choices, which would indicate a form of\nselection bias and undermine their reliability. In this paper, we identify and\nanalyze this problem in LALMs. We demonstrate that no model is immune to this\nbias through extensive experiments on six LALMs across three widely used\nbenchmarks and their spoken counterparts. Shuffling the order of answer options\ncan cause performance fluctuations of up to 24% and even change model rankings,\nraising concerns about the reliability of current evaluation practices. We also\nstudy permutation-based strategies and show that they can mitigate bias in most\ncases. Our work represents the first systematic investigation of this issue in\nLALMs, and we hope it raises awareness and motivates further research in this\ndirection.",
+  "authors": [
+    "Yu-Xiang Lin",
+    "Chen-An Li",
+    "Sheng-Lun Wei",
+    "Po-Chun Chen",
+    "Hsin-Hsi Chen",
+    "Hung-yi Lee"
+  ],
+  "published": "2025-10-01T08:00:58Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.00628v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究首次系统性地揭示大型音频语言模型在有序选项推理任务中存在选择偏差问题。实验表明，答案选项的排列顺序会导致模型性能波动高达24%并改变模型排名，现有评估方法可靠性存疑。研究还验证了基于排列的策略在多数情况下能有效缓解此类偏差。",
+  "order": 461,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00628v1"
+}

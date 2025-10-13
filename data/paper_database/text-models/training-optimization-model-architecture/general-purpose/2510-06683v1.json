@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06683v1",
+  "title": "Distributed Algorithms for Multi-Agent Multi-Armed Bandits with\n  Collision",
+  "summary": "We study the stochastic Multiplayer Multi-Armed Bandit (MMAB) problem, where\nmultiple players select arms to maximize their cumulative rewards. Collisions\noccur when two or more players select the same arm, resulting in no reward, and\nare observed by the players involved. We consider a distributed setting without\ncentral coordination, where each player can only observe their own actions and\ncollision feedback. We propose a distributed algorithm with an adaptive,\nefficient communication protocol. The algorithm achieves near-optimal group and\nindividual regret, with a communication cost of only $\\mathcal{O}(\\log\\log T)$.\nOur experiments demonstrate significant performance improvements over existing\nbaselines. Compared to state-of-the-art (SOTA) methods, our approach achieves a\nnotable reduction in individual regret. Finally, we extend our approach to a\nperiodic asynchronous setting, proving the lower bound for this problem and\npresenting an algorithm that achieves logarithmic regret.",
+  "authors": [
+    "Daoyuan Zhou",
+    "Xuchuang Wang",
+    "Lin Yang",
+    "Yang Gao"
+  ],
+  "published": "2025-10-08T06:12:59Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06683v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究分布式多智能体多臂老虎机问题，提出一种具有自适应高效通信协议的分布式算法。该算法在无中心协调环境下，仅需𝒪(log log T)通信成本即可实现接近最优的群体与个体遗憾，实验显示其性能显著优于现有方法，并扩展至周期性异步场景。",
+  "order": 220,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06683v1"
+}

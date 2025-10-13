@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01997v1",
+  "title": "Pure-Pass: Fine-Grained, Adaptive Masking for Dynamic Token-Mixing\n  Routing in Lightweight Image Super-Resolution",
+  "summary": "Image Super-Resolution (SR) aims to reconstruct high-resolution images from\nlow-resolution counterparts, but the computational complexity of deep\nlearning-based methods often hinders practical deployment. CAMixer is the\npioneering work to integrate the advantages of existing lightweight SR methods\nand proposes a content-aware mixer to route token mixers of varied complexities\naccording to the difficulty of content recovery. However, several limitations\nremain, such as poor adaptability, coarse-grained masking and spatial\ninflexibility, among others. We propose Pure-Pass (PP), a pixel-level masking\nmechanism that identifies pure pixels and exempts them from expensive\ncomputations. PP utilizes fixed color center points to classify pixels into\ndistinct categories, enabling fine-grained, spatially flexible masking while\nmaintaining adaptive flexibility. Integrated into the state-of-the-art\nATD-light model, PP-ATD-light achieves superior SR performance with minimal\noverhead, outperforming CAMixer-ATD-light in reconstruction quality and\nparameter efficiency when saving a similar amount of computation.",
+  "authors": [
+    "Junyu Wu",
+    "Jie Tang",
+    "Jie Liu",
+    "Gangshan Wu"
+  ],
+  "published": "2025-10-02T13:18:43Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01997v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Pure-Pass提出一种像素级掩码机制，通过固定颜色中心点分类像素，在轻量级图像超分辨率中实现细粒度、自适应的动态令牌混合路由，相比CAMixer具有更好的重建质量和参数效率。",
+  "order": 529,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01997v1"
+}

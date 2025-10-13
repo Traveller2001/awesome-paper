@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00496v2",
+  "title": "Agent-ScanKit: Unraveling Memory and Reasoning of Multimodal Agents via\n  Sensitivity Perturbations",
+  "summary": "Although numerous strategies have recently been proposed to enhance the\nautonomous interaction capabilities of multimodal agents in graphical user\ninterface (GUI), their reliability remains limited when faced with complex or\nout-of-domain tasks. This raises a fundamental question: Are existing\nmultimodal agents reasoning spuriously? In this paper, we propose\n\\textbf{Agent-ScanKit}, a systematic probing framework to unravel the memory\nand reasoning capabilities of multimodal agents under controlled perturbations.\nSpecifically, we introduce three orthogonal probing paradigms: visual-guided,\ntext-guided, and structure-guided, each designed to quantify the contributions\nof memorization and reasoning without requiring access to model internals. In\nfive publicly available GUI benchmarks involving 18 multimodal agents, the\nresults demonstrate that mechanical memorization often outweighs systematic\nreasoning. Most of the models function predominantly as retrievers of\ntraining-aligned knowledge, exhibiting limited generalization. Our findings\nunderscore the necessity of robust reasoning modeling for multimodal agents in\nreal-world scenarios, offering valuable insights toward the development of\nreliable multimodal agents.",
+  "authors": [
+    "Pengzhou Cheng",
+    "Lingzhong Dong",
+    "Zeng Wu",
+    "Zongru Wu",
+    "Zhuosheng Zhang",
+    "Gongshen Liu"
+  ],
+  "published": "2025-10-01T04:29:39Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00496v2",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Agent-ScanKit框架，通过视觉、文本和结构三种扰动范式系统评估多模态代理的记忆与推理能力。在5个GUI基准测试中分析18个模型发现，现有代理主要依赖机械记忆而非系统推理，训练知识检索能力优于泛化能力，强调了开发具备稳健推理能力的多模态代理的必要性。",
+  "order": 478,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00496v2"
+}

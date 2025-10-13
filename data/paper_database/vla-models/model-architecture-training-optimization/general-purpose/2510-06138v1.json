@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.06138v1",
+  "title": "Multi-Task Reinforcement Learning with Language-Encoded Gated Policy\n  Networks",
+  "summary": "Multi-task reinforcement learning often relies on task metadata -- such as\nbrief natural-language descriptions -- to guide behavior across diverse\nobjectives. We present Lexical Policy Networks (LEXPOL), a language-conditioned\nmixture-of-policies architecture for multi-task RL. LEXPOL encodes task\nmetadata with a text encoder and uses a learned gating module to select or\nblend among multiple sub-policies, enabling end-to-end training across tasks.\nOn MetaWorld benchmarks, LEXPOL matches or exceeds strong multi-task baselines\nin success rate and sample efficiency, without task-specific retraining. To\nanalyze the mechanism, we further study settings with fixed expert policies\nobtained independently of the gate and show that the learned language gate\ncomposes these experts to produce behaviors appropriate to novel task\ndescriptions and unseen task combinations. These results indicate that\nnatural-language metadata can effectively index and recombine reusable skills\nwithin a single policy.",
+  "authors": [
+    "Rushiv Arora"
+  ],
+  "published": "2025-10-07T17:12:24Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06138v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LEXPOL语言编码门控策略网络，通过自然语言描述任务元数据，利用文本编码器和门控模块选择或混合多个子策略，实现多任务强化学习的端到端训练。在MetaWorld基准测试中，LEXPOL在成功率和样本效率上达到或超越强基线，无需任务特定重训练即可组合专家策略适应新任务。",
+  "order": 89,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06138v1"
+}

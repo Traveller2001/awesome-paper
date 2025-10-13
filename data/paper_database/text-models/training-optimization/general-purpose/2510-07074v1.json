@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07074v1",
+  "title": "LuxInstruct: A Cross-Lingual Instruction Tuning Dataset For\n  Luxembourgish",
+  "summary": "Instruction tuning has become a key technique for enhancing the performance\nof large language models, enabling them to better follow human prompts.\nHowever, low-resource languages such as Luxembourgish face severe limitations\ndue to the lack of high-quality instruction datasets. Traditional reliance on\nmachine translation often introduces semantic misalignment and cultural\ninaccuracies. In this work, we address these challenges by creating a\ncross-lingual instruction tuning dataset for Luxembourgish, without resorting\nto machine-generated translations into it. Instead, by leveraging aligned data\nfrom English, French, and German, we build a high-quality dataset that\npreserves linguistic and cultural nuances. We provide evidence that\ncross-lingual instruction tuning not only improves representational alignment\nacross languages but also the model's generative capabilities in Luxembourgish.\nThis highlights how cross-lingual data curation can avoid the common pitfalls\nof machine-translated data and directly benefit low-resource language\ndevelopment.",
+  "authors": [
+    "Fred Philippy",
+    "Laura Bernardy",
+    "Siwen Guo",
+    "Jacques Klein",
+    "Tegawendé F. Bissyandé"
+  ],
+  "published": "2025-10-08T14:35:59Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07074v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了LuxInstruct，一个针对卢森堡语的跨语言指令调优数据集。通过利用英语、法语和德语的对齐数据，避免了机器翻译带来的语义偏差和文化不准确问题。研究表明该方法不仅能改善语言间的表示对齐，还能提升模型在卢森堡语上的生成能力，为低资源语言发展提供了新思路。",
+  "order": 55,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07074v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01576v1",
+  "title": "Guiding Multimodal Large Language Models with Blind and Low Vision\n  People Visual Questions for Proactive Visual Interpretations",
+  "summary": "Multimodal large language models (MLLMs) have been integrated into visual\ninterpretation applications to support Blind and Low Vision (BLV) users because\nof their accuracy and ability to provide rich, human-like interpretations.\nHowever, these applications often default to comprehensive, lengthy\ndescriptions regardless of context. This leads to inefficient exchanges, as\nusers must go through irrelevant details rather than receiving the specific\ninformation they are likely to seek. To deliver more contextually-relevant\ninformation, we developed a system that draws on historical BLV users\nquestions. When given an image, our system identifies similar past visual\ncontexts from the VizWiz-LF dataset and uses the associated questions to guide\nthe MLLM generate descriptions more relevant to BLV users. An evaluation with\nthree human labelers who revised 92 context-aware and context-free descriptions\nshowed that context-aware descriptions anticipated and answered users'\nquestions in 76.1% of cases (70 out of 92) and were preferred in 54.4% of\ncomparisons (50 out of 92). Our paper reviews, and data analysis are publicly\navailable in a Github repository at\nhttps://github.com/rgonzalezp/guiding-multimodal-large-language-models-with-blind-and-low-vision-people-visual-questions .",
+  "authors": [
+    "Ricardo Gonzalez Penuela",
+    "Felipe Arias-Russi",
+    "Victor Capriles"
+  ],
+  "published": "2025-10-02T01:48:51Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01576v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究针对盲人和低视力用户开发了一种多模态大语言模型引导系统，通过分析历史视觉问题数据集，生成更具上下文相关性的图像描述，而非默认的冗长描述。评估显示76.1%的情境感知描述能预判并回答用户问题，54.4%的情况下更受偏好。",
+  "order": 571,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01576v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.02149v1",
+  "title": "Reinforcement Learning with Action-Triggered Observations",
+  "summary": "We study reinforcement learning problems where state observations are\nstochastically triggered by actions, a constraint common in many real-world\napplications. This framework is formulated as Action-Triggered Sporadically\nTraceable Markov Decision Processes (ATST-MDPs), where each action has a\nspecified probability of triggering a state observation. We derive tailored\nBellman optimality equations for this framework and introduce the\naction-sequence learning paradigm in which agents commit to executing a\nsequence of actions until the next observation arrives. Under the linear MDP\nassumption, value-functions are shown to admit linear representations in an\ninduced action-sequence feature map. Leveraging this structure, we propose\noff-policy estimators with statistical error guarantees for such feature maps\nand introduce ST-LSVI-UCB, a variant of LSVI-UCB adapted for action-triggered\nsettings. ST-LSVI-UCB achieves regret $\\widetilde\nO(\\sqrt{Kd^3(1-\\gamma)^{-3}})$, where $K$ is the number of episodes, $d$ the\nfeature dimension, and $\\gamma$ the discount factor (per-step episode\nnon-termination probability). Crucially, this work establishes the theoretical\nfoundation for learning with sporadic, action-triggered observations while\ndemonstrating that efficient learning remains feasible under such observation\nconstraints.",
+  "authors": [
+    "Alexander Ryabchenko",
+    "Wenlong Mou"
+  ],
+  "published": "2025-10-02T16:00:50Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02149v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究动作触发观测的强化学习问题，提出ATST-MDPs框架及动作序列学习范式。在线性MDP假设下，证明了价值函数的线性表示特性，并开发了具有统计误差保证的离策略估计器ST-LSVI-UCB算法，实现了次线性遗憾界，为稀疏观测环境下的高效学习奠定了理论基础。",
+  "order": 737,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02149v1"
+}

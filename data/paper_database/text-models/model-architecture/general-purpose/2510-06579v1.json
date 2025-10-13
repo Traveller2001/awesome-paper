@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06579v1",
+  "title": "TinyScientist: An Interactive, Extensible, and Controllable Framework\n  for Building Research Agents",
+  "summary": "Automatic research with Large Language Models (LLMs) is rapidly gaining\nimportance, driving the development of increasingly complex workflows involving\nmulti-agent systems, planning, tool usage, code execution, and human-agent\ninteraction to accelerate research processes. However, as more researchers and\ndevelopers begin to use and build upon these tools and platforms, the\ncomplexity and difficulty of extending and maintaining such agentic workflows\nhave become a significant challenge, particularly as algorithms and\narchitectures continue to advance. To address this growing complexity,\nTinyScientist identifies the essential components of the automatic research\nworkflow and proposes an interactive, extensible, and controllable framework\nthat easily adapts to new tools and supports iterative growth. We provide an\nopen-source codebase, an interactive web demonstration, and a PyPI Python\npackage to make state-of-the-art auto-research pipelines broadly accessible to\nevery researcher and developer.",
+  "authors": [
+    "Haofei Yu",
+    "Keyang Xuan",
+    "Fenghai Li",
+    "Kunlun Zhu",
+    "Zijie Lei",
+    "Jiaxun Zhang",
+    "Ziheng Qi",
+    "Kyle Richardson",
+    "Jiaxuan You"
+  ],
+  "published": "2025-10-08T02:18:57Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06579v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "TinyScientist是一个面向自动科研的交互式、可扩展、可控框架，通过模块化设计解决LLM研究流程的复杂性挑战，提供开源代码库、Web演示和PyPI包，支持工具集成与迭代优化，助力研究人员便捷构建智能研究代理。",
+  "order": 97,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06579v1"
+}

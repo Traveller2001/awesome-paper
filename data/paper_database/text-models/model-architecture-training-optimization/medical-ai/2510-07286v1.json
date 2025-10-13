@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.07286v1",
+  "title": "Evolutionary Profiles for Protein Fitness Prediction",
+  "summary": "Predicting the fitness impact of mutations is central to protein engineering\nbut constrained by limited assays relative to the size of sequence space.\nProtein language models (pLMs) trained with masked language modeling (MLM)\nexhibit strong zero-shot fitness prediction; we provide a unifying view by\ninterpreting natural evolution as implicit reward maximization and MLM as\ninverse reinforcement learning (IRL), in which extant sequences act as expert\ndemonstrations and pLM log-odds serve as fitness estimates. Building on this\nperspective, we introduce EvoIF, a lightweight model that integrates two\ncomplementary sources of evolutionary signal: (i) within-family profiles from\nretrieved homologs and (ii) cross-family structural-evolutionary constraints\ndistilled from inverse folding logits. EvoIF fuses sequence-structure\nrepresentations with these profiles via a compact transition block, yielding\ncalibrated probabilities for log-odds scoring. On ProteinGym (217 mutational\nassays; >2.5M mutants), EvoIF and its MSA-enabled variant achieve\nstate-of-the-art or competitive performance while using only 0.15% of the\ntraining data and fewer parameters than recent large models. Ablations confirm\nthat within-family and cross-family profiles are complementary, improving\nrobustness across function types, MSA depths, taxa, and mutation depths. The\ncodes will be made publicly available at https://github.com/aim-uofa/EvoIF.",
+  "authors": [
+    "Jigang Fan",
+    "Xiaoran Jiao",
+    "Shengdong Lin",
+    "Zhanming Liang",
+    "Weian Mao",
+    "Chenchen Jing",
+    "Hao Chen",
+    "Chunhua Shen"
+  ],
+  "published": "2025-10-08T17:46:02Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07286v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出EvoIF模型，通过将自然进化视为隐式奖励最大化、掩码语言建模作为逆强化学习，统一理解蛋白质语言模型的零样本适应度预测能力。该模型整合同源序列的家族内分布和跨家族结构进化约束，在ProteinGym基准上以仅0.15%训练数据和较少参数实现最优或竞争性性能，为蛋白质工程提供高效突变影响预测工具。",
+  "order": 167,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07286v1"
+}

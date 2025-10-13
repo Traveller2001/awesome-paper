@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06711v1",
+  "title": "Inefficiencies of Meta Agents for Agent Design",
+  "summary": "Recent works began to automate the design of agentic systems using\nmeta-agents that propose and iteratively refine new agent architectures. In\nthis paper, we examine three key challenges in a common class of meta-agents.\nFirst, we investigate how a meta-agent learns across iterations and find that\nsimply expanding the context with all previous agents, as proposed by previous\nworks, performs worse than ignoring prior designs entirely. We show that the\nperformance improves with an evolutionary approach. Second, although the\nmeta-agent designs multiple agents during training, it typically commits to a\nsingle agent at test time. We find that the designed agents have low behavioral\ndiversity, limiting the potential for their complementary use. Third, we assess\nwhen automated design is economically viable. We find that only in a few\ncases--specifically, two datasets--the overall cost of designing and deploying\nthe agents is lower than that of human-designed agents when deployed on over\n15,000 examples. In contrast, the performance gains for other datasets do not\njustify the design cost, regardless of scale.",
+  "authors": [
+    "Batu El",
+    "Mert Yuksekgonul",
+    "James Zou"
+  ],
+  "published": "2025-10-08T07:06:17Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06711v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文系统分析了元代理在智能体设计中的三大效率问题：发现简单扩展历史上下文的方法效果不如完全忽略先前设计，进化方法表现更优；设计的智能体行为多样性不足，限制了组合使用潜力；仅在少数数据集上自动化设计的成本效益优于人工设计，多数场景下性能提升无法覆盖设计成本。",
+  "order": 18,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06711v1"
+}

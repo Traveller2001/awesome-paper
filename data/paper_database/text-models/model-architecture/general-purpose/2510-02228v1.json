@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02228v1",
+  "title": "xLSTM Scaling Laws: Competitive Performance with Linear Time-Complexity",
+  "summary": "Scaling laws play a central role in the success of Large Language Models\n(LLMs), enabling the prediction of model performance relative to compute\nbudgets prior to training. While Transformers have been the dominant\narchitecture, recent alternatives such as xLSTM offer linear complexity with\nrespect to context length while remaining competitive in the billion-parameter\nregime. We conduct a comparative investigation on the scaling behavior of\nTransformers and xLSTM along the following lines, providing insights to guide\nfuture model design and deployment. First, we study the scaling behavior for\nxLSTM in compute-optimal and over-training regimes using both IsoFLOP and\nparametric fit approaches on a wide range of model sizes (80M-7B) and number of\ntraining tokens (2B-2T). Second, we examine the dependence of optimal model\nsizes on context length, a pivotal aspect that was largely ignored in previous\nwork. Finally, we analyze inference-time scaling characteristics. Our findings\nreveal that in typical LLM training and inference scenarios, xLSTM scales\nfavorably compared to Transformers. Importantly, xLSTM's advantage widens as\ntraining and inference contexts grow.",
+  "authors": [
+    "Maximilian Beck",
+    "Kajetan Schweighofer",
+    "Sebastian Böck",
+    "Sebastian Lehner",
+    "Sepp Hochreiter"
+  ],
+  "published": "2025-10-02T17:14:34Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02228v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究比较了Transformer与xLSTM的扩展规律，发现xLSTM在保持线性时间复杂度的同时，在大规模训练和长上下文推理场景下展现出优于Transformer的扩展性能，为未来模型设计提供了重要参考。",
+  "order": 715,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02228v1"
+}

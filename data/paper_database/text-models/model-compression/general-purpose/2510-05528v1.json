@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.05528v1",
+  "title": "ARMOR: High-Performance Semi-Structured Pruning via Adaptive Matrix\n  Factorization",
+  "summary": "Large language models (LLMs) present significant deployment challenges due to\ntheir immense computational and memory requirements. While semi-structured\npruning, particularly 2:4 sparsity, offers a path to practical hardware\nacceleration, existing methods often incur substantial performance degradation.\nTo bridge this gap, we introduce ARMOR: (Adaptive Representation with\nMatrix-factORization), a novel one-shot post-training pruning algorithm.\nInstead of directly pruning weights, ARMOR factorizes each weight matrix into a\n2:4 sparse core wrapped by two low-overhead, block diagonal matrices. These\nwrappers act as efficient pre and post-transformation error correctors,\noffering greater flexibility to preserve model quality compared to conventional\n2:4 pruning techniques. The sparse core and block diagonal wrappers are chosen\nthrough a block coordinate descent algorithm that minimizes a layer-wise proxy\nloss. We theoretically prove this optimization is guaranteed to converge to a\nsolution with a proxy loss less than or equal to state-of-the-art pruning\nalgorithms. Experiments on Llama (Touvron et al., 2023; Dubey et al., 2024) and\nQwen (Yang et al., 2025) model families demonstrate that ARMOR consistently and\nsignificantly outperforms state-of-the-art 2:4 pruning methods across a wide\nrange of downstream tasks and perplexity evaluations. ARMOR achieves this\nsuperior performance while retaining the inference speedups and substantial\nmemory usage reductions of 2:4 pruning, establishing a more effective trade-off\nbetween model compression and task accuracy",
+  "authors": [
+    "Lawrence Liu",
+    "Alexander Liu",
+    "Mengdi Wang",
+    "Tuo Zhao",
+    "Lin F. Yang"
+  ],
+  "published": "2025-10-07T02:39:20Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05528v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ARMOR提出了一种基于自适应矩阵分解的高性能半结构化剪枝方法，通过将权重矩阵分解为2:4稀疏核心和两个低开销块对角矩阵，在保持2:4剪枝推理加速和内存节省优势的同时，显著减少了模型性能损失。该方法在Llama和Qwen模型系列上验证了其优越性。",
+  "order": 145,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05528v1"
+}

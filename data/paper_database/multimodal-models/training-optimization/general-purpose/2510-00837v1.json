@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00837v1",
+  "title": "Feature Identification for Hierarchical Contrastive Learning",
+  "summary": "Hierarchical classification is a crucial task in many applications, where\nobjects are organized into multiple levels of categories. However, conventional\nclassification approaches often neglect inherent inter-class relationships at\ndifferent hierarchy levels, thus missing important supervisory signals. Thus,\nwe propose two novel hierarchical contrastive learning (HMLC) methods. The\nfirst, leverages a Gaussian Mixture Model (G-HMLC) and the second uses an\nattention mechanism to capture hierarchy-specific features (A-HMLC), imitating\nhuman processing. Our approach explicitly models inter-class relationships and\nimbalanced class distribution at higher hierarchy levels, enabling fine-grained\nclustering across all hierarchy levels. On the competitive CIFAR100 and\nModelNet40 datasets, our method achieves state-of-the-art performance in linear\nevaluation, outperforming existing hierarchical contrastive learning methods by\n2 percentage points in terms of accuracy. The effectiveness of our approach is\nbacked by both quantitative and qualitative results, highlighting its potential\nfor applications in computer vision and beyond.",
+  "authors": [
+    "Julius Ott",
+    "Nastassia Vysotskaya",
+    "Huawei Sun",
+    "Lorenzo Servadei",
+    "Robert Wille"
+  ],
+  "published": "2025-10-01T12:46:47Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00837v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出两种层次对比学习方法(G-HMLC和A-HMLC)，通过高斯混合模型和注意力机制捕捉层次化特征关系，在CIFAR100和ModelNet40数据集上实现最优性能，准确率提升2个百分点。",
+  "order": 622,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00837v1"
+}

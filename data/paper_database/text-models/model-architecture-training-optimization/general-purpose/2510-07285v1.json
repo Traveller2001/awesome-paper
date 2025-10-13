@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07285v1",
+  "title": "GTCN-G: A Residual Graph-Temporal Fusion Network for Imbalanced\n  Intrusion Detection (Preprint)",
+  "summary": "The escalating complexity of network threats and the inherent class imbalance\nin traffic data present formidable challenges for modern Intrusion Detection\nSystems (IDS). While Graph Neural Networks (GNNs) excel in modeling topological\nstructures and Temporal Convolutional Networks (TCNs) are proficient in\ncapturing time-series dependencies, a framework that synergistically integrates\nboth while explicitly addressing data imbalance remains an open challenge. This\npaper introduces a novel deep learning framework, named Gated Temporal\nConvolutional Network and Graph (GTCN-G), engineered to overcome these\nlimitations. Our model uniquely fuses a Gated TCN (G-TCN) for extracting\nhierarchical temporal features from network flows with a Graph Convolutional\nNetwork (GCN) designed to learn from the underlying graph structure. The core\ninnovation lies in the integration of a residual learning mechanism,\nimplemented via a Graph Attention Network (GAT). This mechanism preserves\noriginal feature information through residual connections, which is critical\nfor mitigating the class imbalance problem and enhancing detection sensitivity\nfor rare malicious activities (minority classes). We conducted extensive\nexperiments on two public benchmark datasets, UNSW-NB15 and ToN-IoT, to\nvalidate our approach. The empirical results demonstrate that the proposed\nGTCN-G model achieves state-of-the-art performance, significantly outperforming\nexisting baseline models in both binary and multi-class classification tasks.",
+  "authors": [
+    "Tianxiang Xu",
+    "Zhichao Wen",
+    "Xinyu Zhao",
+    "Qi Hu",
+    "Yan Li",
+    "Chang Liu"
+  ],
+  "published": "2025-10-08T17:45:59Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07285v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出GTCN-G框架，通过门控时序卷积网络与图卷积网络的残差融合，结合图注意力机制解决网络入侵检测中的类别不平衡问题。在UNSW-NB15和ToN-IoT数据集上的实验表明，该模型在二元与多分类任务中均优于现有基线方法。",
+  "order": 168,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07285v1"
+}

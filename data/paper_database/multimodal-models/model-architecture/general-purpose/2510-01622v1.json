@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01622v1",
+  "title": "LLM4Rec: Large Language Models for Multimodal Generative Recommendation\n  with Causal Debiasing",
+  "summary": "Contemporary generative recommendation systems face significant challenges in\nhandling multimodal data, eliminating algorithmic biases, and providing\ntransparent decision-making processes. This paper introduces an enhanced\ngenerative recommendation framework that addresses these limitations through\nfive key innovations: multimodal fusion architecture, retrieval-augmented\ngeneration mechanisms, causal inference-based debiasing, explainable\nrecommendation generation, and real-time adaptive learning capabilities. Our\nframework leverages advanced large language models as the backbone while\nincorporating specialized modules for cross-modal understanding, contextual\nknowledge integration, bias mitigation, explanation synthesis, and continuous\nmodel adaptation. Extensive experiments on three benchmark datasets\n(MovieLens-25M, Amazon-Electronics, Yelp-2023) demonstrate consistent\nimprovements in recommendation accuracy, fairness, and diversity compared to\nexisting approaches. The proposed framework achieves up to 2.3% improvement in\nNDCG@10 and 1.4% enhancement in diversity metrics while maintaining\ncomputational efficiency through optimized inference strategies.",
+  "authors": [
+    "Bo Ma",
+    "Hang Li",
+    "ZeHua Hu",
+    "XiaoFan Gui",
+    "LuYao Liu",
+    "Simon Lau"
+  ],
+  "published": "2025-10-02T02:53:05Z",
+  "primary_category": "cs.IR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01622v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LLM4Rec框架，通过多模态融合架构、检索增强生成、因果去偏、可解释推荐和实时自适应学习五大创新，解决生成式推荐系统在处理多模态数据、消除算法偏见和提供透明决策方面的挑战。在三个基准数据集上的实验表明，该框架在推荐准确性、公平性和多样性方面均优于现有方法，NDCG@10指标提升达2.3%。",
+  "order": 386,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01622v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00582v1",
+  "title": "SAGE-LD: Towards Scalable and Generalizable End-to-End Language\n  Diarization via Simulated Data Augmentation",
+  "summary": "In this paper, we present a neural spoken language diarization model that\nsupports an unconstrained span of languages within a single framework. Our\napproach integrates a learnable query-based architecture grounded in\nmultilingual awareness, with large-scale pretraining on simulated\ncode-switching data. By jointly leveraging these two components, our method\novercomes the limitations of conventional approaches in data scarcity and\narchitecture optimization, and generalizes effectively to real-world\nmultilingual settings across diverse environments. Experimental results\ndemonstrate that our approach achieves state-of-the-art performance on several\nlanguage diarization benchmarks, with a relative performance improvement of 23%\nto 52% over previous methods. We believe that this work not only advances\nresearch in language diarization but also establishes a foundational framework\nfor code-switching speech technologies.",
+  "authors": [
+    "Sangmin Lee",
+    "Woongjib Choi",
+    "Jihyun Kim",
+    "Hong-Goo Kang"
+  ],
+  "published": "2025-10-01T07:01:33Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00582v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SAGE-LD模型，通过可学习查询架构和模拟语码转换数据的大规模预训练，实现单框架内支持任意语言的端到端语音语言分离。该方法克服了传统方法在数据稀缺和架构优化上的局限，在多个基准测试中相对性能提升23%-52%，为语码转换语音技术建立了基础框架。",
+  "order": 466,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00582v1"
+}

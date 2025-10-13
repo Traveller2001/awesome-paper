@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07053v1",
+  "title": "Introspection in Learned Semantic Scene Graph Localisation",
+  "summary": "This work investigates how semantics influence localisation performance and\nrobustness in a learned self-supervised, contrastive semantic localisation\nframework. After training a localisation network on both original and perturbed\nmaps, we conduct a thorough post-hoc introspection analysis to probe whether\nthe model filters environmental noise and prioritises distinctive landmarks\nover routine clutter. We validate various interpretability methods and present\na comparative reliability analysis. Integrated gradients and Attention Weights\nconsistently emerge as the most reliable probes of learned behaviour. A\nsemantic class ablation further reveals an implicit weighting in which frequent\nobjects are often down-weighted. Overall, the results indicate that the model\nlearns noise-robust, semantically salient relations about place definition,\nthereby enabling explainable registration under challenging visual and\nstructural variations.",
+  "authors": [
+    "Manshika Charvi Bissessur",
+    "Efimia Panagiotaki",
+    "Daniele De Martini"
+  ],
+  "published": "2025-10-08T14:21:45Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07053v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过事后反思分析探究语义在自监督对比定位框架中的作用，发现模型能过滤环境噪声并优先关注显著地标。验证了积分梯度和注意力权重作为最可靠的行为探针，语义类别消融显示模型会隐式降低频繁物体的权重，最终学习到抗噪声的语义关系，实现可解释的场景配准。",
+  "order": 185,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07053v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01878v1",
+  "title": "Randomized Gradient Subspaces for Efficient Large Language Model\n  Training",
+  "summary": "Training large language models (LLMs) is often bottlenecked by extreme memory\ndemands, with optimizer states dominating the footprint. Recent works mitigates\nthis cost by projecting gradients into low-dimensional subspaces using\nsophisticated update strategies. In this paper, we analyze the dynamics of\ngradient space and its underlying subspaces. We find that while a small\nsubspace captures most gradient energy, a significant portion still resides in\nthe residual bulk; moreover, the influence of the core subspace diminishes over\ntime and in deeper layers. We also observe that the gradient space exhibits\nnear-flat curvature, calling for algorithms that explicitly account for this\ngeometry. Motivated by these insights, we introduce a suite of randomized\nalgorithms, GrassWalk and GrassJump, which exploit subspace and achieve\nstate-of-the-art memory savings while improving performance on LLaMA-1B and\nLLaMA-7B pretraining.",
+  "authors": [
+    "Sahar Rajabi",
+    "Nayeema Nonta",
+    "Samanvay Vajpayee",
+    "Sirisha Rambhatla"
+  ],
+  "published": "2025-10-02T10:35:38Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01878v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出GrassWalk和GrassJump两种随机算法，通过分析梯度空间动态特性，在低维子空间投影梯度以大幅降低大语言模型训练内存占用，在LLaMA-1B/7B预训练中实现最优内存节省与性能提升。",
+  "order": 782,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01878v1"
+}

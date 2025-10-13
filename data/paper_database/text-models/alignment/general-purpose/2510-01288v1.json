@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01288v1",
+  "title": "Microsaccade-Inspired Probing: Positional Encoding Perturbations Reveal\n  LLM Misbehaviours",
+  "summary": "We draw inspiration from microsaccades, tiny involuntary eye movements that\nreveal hidden dynamics of human perception, to propose an analogous probing\nmethod for large language models (LLMs). Just as microsaccades expose subtle\nbut informative shifts in vision, we show that lightweight position encoding\nperturbations elicit latent signals that indicate model misbehaviour. Our\nmethod requires no fine-tuning or task-specific supervision, yet detects\nfailures across diverse settings including factuality, safety, toxicity, and\nbackdoor attacks. Experiments on multiple state-of-the-art LLMs demonstrate\nthat these perturbation-based probes surface misbehaviours while remaining\ncomputationally efficient. These findings suggest that pretrained LLMs already\nencode the internal evidence needed to flag their own failures, and that\nmicrosaccade-inspired interventions provide a pathway for detecting and\nmitigating undesirable behaviours.",
+  "authors": [
+    "Rui Melo",
+    "Rui Abreu",
+    "Corina S. Pasareanu"
+  ],
+  "published": "2025-10-01T01:24:59Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01288v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "受微眼跳启发，提出一种通过位置编码扰动探测大语言模型潜在错误行为的方法。该方法无需微调或任务监督，即可高效检测事实性、安全性、毒性及后门攻击等多种问题，表明预训练模型已具备自我错误识别的内部证据。",
+  "order": 321,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01288v1"
+}

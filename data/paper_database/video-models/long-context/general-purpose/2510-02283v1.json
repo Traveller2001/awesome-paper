@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.02283v1",
+  "title": "Self-Forcing++: Towards Minute-Scale High-Quality Video Generation",
+  "summary": "Diffusion models have revolutionized image and video generation, achieving\nunprecedented visual quality. However, their reliance on transformer\narchitectures incurs prohibitively high computational costs, particularly when\nextending generation to long videos. Recent work has explored autoregressive\nformulations for long video generation, typically by distilling from\nshort-horizon bidirectional teachers. Nevertheless, given that teacher models\ncannot synthesize long videos, the extrapolation of student models beyond their\ntraining horizon often leads to pronounced quality degradation, arising from\nthe compounding of errors within the continuous latent space. In this paper, we\npropose a simple yet effective approach to mitigate quality degradation in\nlong-horizon video generation without requiring supervision from long-video\nteachers or retraining on long video datasets. Our approach centers on\nexploiting the rich knowledge of teacher models to provide guidance for the\nstudent model through sampled segments drawn from self-generated long videos.\nOur method maintains temporal consistency while scaling video length by up to\n20x beyond teacher's capability, avoiding common issues such as over-exposure\nand error-accumulation without recomputing overlapping frames like previous\nmethods. When scaling up the computation, our method shows the capability of\ngenerating videos up to 4 minutes and 15 seconds, equivalent to 99.9% of the\nmaximum span supported by our base model's position embedding and more than 50x\nlonger than that of our baseline model. Experiments on standard benchmarks and\nour proposed improved benchmark demonstrate that our approach substantially\noutperforms baseline methods in both fidelity and consistency. Our long-horizon\nvideos demo can be found at https://self-forcing-plus-plus.github.io/",
+  "authors": [
+    "Justin Cui",
+    "Jie Wu",
+    "Ming Li",
+    "Tao Yang",
+    "Xiaojie Li",
+    "Rui Wang",
+    "Andrew Bai",
+    "Yuanhao Ban",
+    "Cho-Jui Hsieh"
+  ],
+  "published": "2025-10-02T17:55:42Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02283v1",
+  "primary_area": "video_models",
+  "secondary_focus": "long_context",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Self-Forcing++方法，通过利用教师模型的丰富知识为自生成长视频提供片段指导，有效缓解长视频生成中的质量退化问题。该方法无需长视频教师监督或重新训练，即可将视频长度扩展至教师能力的20倍以上，最高支持生成4分15秒视频，在保真度和一致性上显著优于基线方法。",
+  "order": 498,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02283v1"
+}

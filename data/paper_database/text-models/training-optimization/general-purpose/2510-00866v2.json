@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00866v2",
+  "title": "The Data-Quality Illusion: Rethinking Classifier-Based Quality Filtering\n  for LLM Pretraining",
+  "summary": "Large-scale models are pretrained on massive web-crawled datasets containing\ndocuments of mixed quality, making data filtering essential. A popular method\nis Classifier-based Quality Filtering (CQF), which trains a binary classifier\nto distinguish between pretraining data and a small, high-quality set. It\nassigns each pretraining document a quality score defined as the classifier's\nscore and retains only the top-scoring ones. We provide an in-depth analysis of\nCQF. We show that while CQF improves downstream task performance, it does not\nnecessarily enhance language modeling on the high-quality dataset. We explain\nthis paradox by the fact that CQF implicitly filters the high-quality dataset\nas well. We further compare the behavior of models trained with CQF to those\ntrained on synthetic data of increasing quality, obtained via random token\npermutations, and find starkly different trends. Our results challenge the view\nthat CQF captures a meaningful notion of data quality.",
+  "authors": [
+    "Thiziri Nait Saada",
+    "Louis Bethune",
+    "Michal Klein",
+    "David Grangier",
+    "Marco Cuturi",
+    "Pierre Ablin"
+  ],
+  "published": "2025-10-01T13:15:15Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00866v2",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文深入分析了基于分类器的质量过滤方法在LLM预训练中的应用，发现该方法虽能提升下游任务性能，但未必改善高质量数据集上的语言建模能力。研究通过对比合成数据训练模型的行为，质疑了CQF方法对数据质量的有效衡量，揭示了其质量幻觉现象。",
+  "order": 444,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00866v2"
+}

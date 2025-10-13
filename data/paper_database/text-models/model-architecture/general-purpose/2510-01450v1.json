@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01450v1",
+  "title": "Local Linear Attention: An Optimal Interpolation of Linear and Softmax\n  Attention For Test-Time Regression",
+  "summary": "Transformer architectures have achieved remarkable success in various\ndomains. While efficient alternatives to Softmax Attention have been widely\nstudied, the search for more expressive mechanisms grounded in theoretical\ninsight-even at greater computational cost-has been relatively underexplored.\nIn this work, we bridge this gap by proposing Local Linear Attention (LLA), a\nnovel attention mechanism derived from nonparametric statistics through the\nlens of test-time regression. First, we show that LLA offers theoretical\nadvantages over Linear and Softmax Attention for associative memory via a\nbias-variance trade-off analysis. Next, we address its computational challenges\nand propose two memory-efficient primitives to tackle the $\\Theta(n^2 d)$ and\n$\\Theta(n d^2)$ complexity. We then introduce FlashLLA, a hardware-efficient,\nblockwise algorithm that enables scalable and parallel computation on modern\naccelerators. In addition, we implement and profile a customized inference\nkernel that significantly reduces memory overheads. Finally, we empirically\nvalidate the advantages and limitations of LLA on test-time regression,\nin-context regression, associative recall and state tracking tasks. Experiment\nresults demonstrate that LLA effectively adapts to non-stationarity,\noutperforming strong baselines in test-time training and in-context learning,\nand exhibiting promising evidence for its scalability and applicability in\nlarge-scale models. Code is available at\nhttps://github.com/Yifei-Zuo/Flash-LLA.",
+  "authors": [
+    "Yifei Zuo",
+    "Yutong Yin",
+    "Zhichen Zeng",
+    "Ang Li",
+    "Banghua Zhu",
+    "Zhaoran Wang"
+  ],
+  "published": "2025-10-01T20:42:21Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01450v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出局部线性注意力(LLA)，一种基于非参数统计和测试时回归的新型注意力机制。LLA在线性与Softmax注意力间实现最优插值，通过偏差-方差权衡分析展示理论优势，并开发FlashLLA算法解决计算复杂度问题。实验证明LLA在测试时回归、上下文学习等任务中有效适应非平稳性，优于基线方法。",
+  "order": 152,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01450v1"
+}

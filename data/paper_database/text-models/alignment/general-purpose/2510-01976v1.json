@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01976v1",
+  "title": "Taking a SEAT: Predicting Value Interpretations from Sentiment, Emotion,\n  Argument, and Topic Annotations",
+  "summary": "Our interpretation of value concepts is shaped by our sociocultural\nbackground and lived experiences, and is thus subjective. Recognizing\nindividual value interpretations is important for developing AI systems that\ncan align with diverse human perspectives and avoid bias toward majority\nviewpoints. To this end, we investigate whether a language model can predict\nindividual value interpretations by leveraging multi-dimensional subjective\nannotations as a proxy for their interpretive lens. That is, we evaluate\nwhether providing examples of how an individual annotates Sentiment, Emotion,\nArgument, and Topics (SEAT dimensions) helps a language model in predicting\ntheir value interpretations. Our experiment across different zero- and few-shot\nsettings demonstrates that providing all SEAT dimensions simultaneously yields\nsuperior performance compared to individual dimensions and a baseline where no\ninformation about the individual is provided. Furthermore, individual\nvariations across annotators highlight the importance of accounting for the\nincorporation of individual subjective annotators. To the best of our\nknowledge, this controlled setting, although small in size, is the first\nattempt to go beyond demographics and investigate the impact of annotation\nbehavior on value prediction, providing a solid foundation for future\nlarge-scale validation.",
+  "authors": [
+    "Adina Nicola Dobrinoiu",
+    "Ana Cristiana Marcu",
+    "Amir Homayounirad",
+    "Luciano Cavalcante Siebert",
+    "Enrico Liscio"
+  ],
+  "published": "2025-10-02T12:51:33Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01976v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出SEAT框架，通过情感、情绪、论证和主题等多维度主观标注作为个体解释视角的代理，探索语言模型预测个人价值观解释的能力。实验表明同时使用所有SEAT维度在零样本和少样本设置下表现最优，强调了考虑个体主观标注差异对AI系统与多样化人类视角对齐的重要性。",
+  "order": 358,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01976v1"
+}

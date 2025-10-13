@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.07022v1",
+  "title": "Federated Unlearning in the Wild: Rethinking Fairness and Data\n  Discrepancy",
+  "summary": "Machine unlearning is critical for enforcing data deletion rights like the\n\"right to be forgotten.\" As a decentralized paradigm, Federated Learning (FL)\nalso requires unlearning, but realistic implementations face two major\nchallenges. First, fairness in Federated Unlearning (FU) is often overlooked.\nExact unlearning methods typically force all clients into costly retraining,\neven those uninvolved. Approximate approaches, using gradient ascent or\ndistillation, make coarse interventions that can unfairly degrade performance\nfor clients with only retained data. Second, most FU evaluations rely on\nsynthetic data assumptions (IID/non-IID) that ignore real-world heterogeneity.\nThese unrealistic benchmarks obscure the true impact of unlearning and limit\nthe applicability of current methods. We first conduct a comprehensive\nbenchmark of existing FU methods under realistic data heterogeneity and\nfairness conditions. We then propose a novel, fairness-aware FU approach,\nFederated Cross-Client-Constrains Unlearning (FedCCCU), to explicitly address\nboth challenges. FedCCCU offers a practical and scalable solution for\nreal-world FU. Experimental results show that existing methods perform poorly\nin realistic settings, while our approach consistently outperforms them.",
+  "authors": [
+    "ZiHeng Huang",
+    "Di Wu",
+    "Jun Bai",
+    "Jiale Zhang",
+    "Sicong Cao",
+    "Ji Zhang",
+    "Yingjie Hu"
+  ],
+  "published": "2025-10-08T13:47:19Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07022v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对联邦学习中数据删除需求，提出公平性联邦遗忘方法FedCCCU。研究发现现有方法在真实异构数据下表现不佳，且忽视公平性——精确遗忘强制所有客户端重训练，近似方法则损害保留数据客户端的性能。通过全面基准测试和新方法设计，解决了现实场景中的公平性与数据差异问题。",
+  "order": 189,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07022v1"
+}

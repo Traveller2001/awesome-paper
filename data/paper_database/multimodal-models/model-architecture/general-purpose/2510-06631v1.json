@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06631v1",
+  "title": "AI-Driven Forecasting and Monitoring of Urban Water System",
+  "summary": "Underground water and wastewater pipelines are vital for city operations but\nplagued by anomalies like leaks and infiltrations, causing substantial water\nloss, environmental damage, and high repair costs. Conventional manual\ninspections lack efficiency, while dense sensor deployments are prohibitively\nexpensive. In recent years, artificial intelligence has advanced rapidly and is\nincreasingly applied to urban infrastructure. In this research, we propose an\nintegrated AI and remote-sensor framework to address the challenge of leak\ndetection in underground water pipelines, through deploying a sparse set of\nremote sensors to capture real-time flow and depth data, paired with HydroNet -\na dedicated model utilizing pipeline attributes (e.g., material, diameter,\nslope) in a directed graph for higher-precision modeling. Evaluations on a\nreal-world campus wastewater network dataset demonstrate that our system\ncollects effective spatio-temporal hydraulic data, enabling HydroNet to\noutperform advanced baselines. This integration of edge-aware message passing\nwith hydraulic simulations enables accurate network-wide predictions from\nlimited sensor deployments. We envision that this approach can be effectively\nextended to a wide range of underground water pipeline networks.",
+  "authors": [
+    "Qiming Guo",
+    "Bishal Khatri",
+    "Hua Zhang",
+    "Wenlu Wang"
+  ],
+  "published": "2025-10-08T04:28:38Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06631v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出了一种结合AI与远程传感器的城市地下水管网监测框架，通过稀疏部署传感器采集实时流量与深度数据，并开发HydroNet模型利用管道属性构建有向图进行精准建模。在实际校园污水管网数据集上的评估表明，该系统能有效收集时空水力数据，HydroNet在泄漏检测性能上优于先进基线方法，实现了有限传感器部署下的全网精准预测。",
+  "order": 231,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06631v1"
+}

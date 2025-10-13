@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07257v1",
+  "title": "Test-Time Graph Search for Goal-Conditioned Reinforcement Learning",
+  "summary": "Offline goal-conditioned reinforcement learning (GCRL) trains policies that\nreach user-specified goals at test time, providing a simple, unsupervised,\ndomain-agnostic way to extract diverse behaviors from unlabeled, reward-free\ndatasets. Nonetheless, long-horizon decision making remains difficult for GCRL\nagents due to temporal credit assignment and error accumulation, and the\noffline setting amplifies these effects. To alleviate this issue, we introduce\nTest-Time Graph Search (TTGS), a lightweight planning approach to solve the\nGCRL task. TTGS accepts any state-space distance or cost signal, builds a\nweighted graph over dataset states, and performs fast search to assemble a\nsequence of subgoals that a frozen policy executes. When the base learner is\nvalue-based, the distance is derived directly from the learned goal-conditioned\nvalue function, so no handcrafted metric is needed. TTGS requires no changes to\ntraining, no additional supervision, no online interaction, and no privileged\ninformation, and it runs entirely at inference. On the OGBench benchmark, TTGS\nimproves success rates of multiple base learners on challenging locomotion\ntasks, demonstrating the benefit of simple metric-guided test-time planning for\noffline GCRL.",
+  "authors": [
+    "Evgenii Opryshko",
+    "Junwei Quan",
+    "Claas Voelcker",
+    "Yilun Du",
+    "Igor Gilitschenski"
+  ],
+  "published": "2025-10-08T17:20:53Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07257v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出测试时图搜索(TTGS)方法，通过构建数据集状态加权图并快速搜索子目标序列，解决离线目标条件强化学习中的长时程决策难题。该方法无需修改训练过程或额外监督，在OGBench基准测试中显著提升了多个基础学习器的运动任务成功率。",
+  "order": 170,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07257v1"
+}

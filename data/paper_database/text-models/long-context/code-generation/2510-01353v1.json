@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01353v1",
+  "title": "MEMTRACK: Evaluating Long-Term Memory and State Tracking in\n  Multi-Platform Dynamic Agent Environments",
+  "summary": "Recent works on context and memory benchmarking have primarily focused on\nconversational instances but the need for evaluating memory in dynamic\nenterprise environments is crucial for its effective application. We introduce\nMEMTRACK, a benchmark designed to evaluate long-term memory and state tracking\nin multi-platform agent environments. MEMTRACK models realistic organizational\nworkflows by integrating asynchronous events across multiple communication and\nproductivity platforms such as Slack, Linear and Git. Each benchmark instance\nprovides a chronologically platform-interleaved timeline, with noisy,\nconflicting, cross-referring information as well as potential\ncodebase/file-system comprehension and exploration. Consequently, our benchmark\ntests memory capabilities such as acquistion, selection and conflict\nresolution. We curate the MEMTRACK dataset through both manual expert driven\ndesign and scalable agent based synthesis, generating ecologically valid\nscenarios grounded in real world software development processes. We introduce\npertinent metrics for Correctness, Efficiency, and Redundancy that capture the\neffectiveness of memory mechanisms beyond simple QA performance. Experiments\nacross SoTA LLMs and memory backends reveal challenges in utilizing memory\nacross long horizons, handling cross-platform dependencies, and resolving\ncontradictions. Notably, the best performing GPT-5 model only achieves a 60\\%\nCorrectness score on MEMTRACK. This work provides an extensible framework for\nadvancing evaluation research for memory-augmented agents, beyond existing\nfocus on conversational setups, and sets the stage for multi-agent,\nmulti-platform memory benchmarking in complex organizational settings",
+  "authors": [
+    "Darshan Deshpande",
+    "Varun Gangal",
+    "Hersh Mehta",
+    "Anand Kannappan",
+    "Rebecca Qian",
+    "Peng Wang"
+  ],
+  "published": "2025-10-01T18:34:03Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01353v1",
+  "primary_area": "text_models",
+  "secondary_focus": "long_context",
+  "application_domain": "code_generation",
+  "tldr_zh": "MEMTRACK是一个评估多平台动态代理环境中长期记忆与状态跟踪的基准测试，通过整合Slack、Linear和Git等平台的异步事件模拟真实组织工作流，测试记忆获取、选择和冲突解决等能力。研究显示当前最先进的GPT-5模型在MEMTRACK上仅获得60%的正确率，突显了长时程记忆、跨平台依赖处理和矛盾解决方面的挑战。",
+  "order": 410,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01353v1"
+}

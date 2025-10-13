@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01902v1",
+  "title": "Constrained Adaptive Rejection Sampling",
+  "summary": "Language Models (LMs) are increasingly used in applications where generated\noutputs must satisfy strict semantic or syntactic constraints. Existing\napproaches to constrained generation fall along a spectrum: greedy constrained\ndecoding methods enforce validity during decoding but distort the LM's\ndistribution, while rejection sampling (RS) preserves fidelity but wastes\ncomputation by discarding invalid outputs. Both extremes are problematic in\ndomains such as program fuzzing, where both validity and diversity of samples\nare essential. We present Constrained Adaptive Rejection Sampling (CARS), an\napproach that strictly improves the sample-efficiency of RS without\ndistributional distortion. CARS begins with unconstrained LM sampling and\nadaptively rules out constraint-violating continuations by recording them in a\ntrie and subtracting their probability mass from future draws. This adaptive\npruning ensures that prefixes proven invalid are never revisited, acceptance\nrates improve monotonically, and the resulting samples exactly follow the\nconstrained distribution. In experiments on a variety of domains -- e.g.,\nprogram fuzzing and molecular generation -- CARS consistently achieves higher\nefficiency -- measured in the number of LM forward passes per valid sample --\nwhile also producing stronger sample diversity than both GCD and methods that\napproximate the LM's distribution.",
+  "authors": [
+    "Paweł Parys",
+    "Sairam Vaidya",
+    "Taylor Berg-Kirkpatrick",
+    "Loris D'Antoni"
+  ],
+  "published": "2025-10-02T11:17:26Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01902v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文提出约束自适应拒绝采样(CARS)方法，在保持语言模型分布不变的前提下，通过自适应剪枝技术排除违反约束的文本延续，显著提升采样效率。相比传统约束解码和拒绝采样，CARS在程序模糊测试和分子生成等任务中实现了更高的采样效率和样本多样性。",
+  "order": 779,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01902v1"
+}

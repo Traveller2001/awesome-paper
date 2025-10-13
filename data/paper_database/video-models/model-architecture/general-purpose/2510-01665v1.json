@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01665v1",
+  "title": "Non-Rigid Structure-from-Motion via Differential Geometry with\n  Recoverable Conformal Scale",
+  "summary": "Non-rigid structure-from-motion (NRSfM), a promising technique for addressing\nthe mapping challenges in monocular visual deformable simultaneous localization\nand mapping (SLAM), has attracted growing attention. We introduce a novel\nmethod, called Con-NRSfM, for NRSfM under conformal deformations, encompassing\nisometric deformations as a subset. Our approach performs point-wise\nreconstruction using 2D selected image warps optimized through a graph-based\nframework. Unlike existing methods that rely on strict assumptions, such as\nlocally planar surfaces or locally linear deformations, and fail to recover the\nconformal scale, our method eliminates these constraints and accurately\ncomputes the local conformal scale. Additionally, our framework decouples\nconstraints on depth and conformal scale, which are inseparable in other\napproaches, enabling more precise depth estimation. To address the sensitivity\nof the formulated problem, we employ a parallel separable iterative\noptimization strategy. Furthermore, a self-supervised learning framework,\nutilizing an encoder-decoder network, is incorporated to generate dense 3D\npoint clouds with texture. Simulation and experimental results using both\nsynthetic and real datasets demonstrate that our method surpasses existing\napproaches in terms of reconstruction accuracy and robustness. The code for the\nproposed method will be made publicly available on the project website:\nhttps://sites.google.com/view/con-nrsfm.",
+  "authors": [
+    "Yongbo Chen",
+    "Yanhao Zhang",
+    "Shaifali Parashar",
+    "Liang Zhao",
+    "Shoudong Huang"
+  ],
+  "published": "2025-10-02T04:46:46Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01665v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Con-NRSfM方法，通过微分几何和可恢复共形尺度解决非刚性运动恢复结构问题。该方法采用图优化框架进行点对点重建，无需局部平面或线性变形假设，能精确计算共形尺度并分离深度约束。结合自监督学习生成带纹理的稠密3D点云，在合成和真实数据集上均展现优越的重建精度和鲁棒性。",
+  "order": 559,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01665v1"
+}

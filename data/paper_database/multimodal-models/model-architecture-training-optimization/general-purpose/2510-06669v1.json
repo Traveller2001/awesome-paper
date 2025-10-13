@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06669v1",
+  "title": "Automated Neural Architecture Design for Industrial Defect Detection",
+  "summary": "Industrial surface defect detection (SDD) is critical for ensuring product\nquality and manufacturing reliability. Due to the diverse shapes and sizes of\nsurface defects, SDD faces two main challenges: intraclass difference and\ninterclass similarity. Existing methods primarily utilize manually designed\nmodels, which require extensive trial and error and often struggle to address\nboth challenges effectively. To overcome this, we propose AutoNAD, an automated\nneural architecture design framework for SDD that jointly searches over\nconvolutions, transformers, and multi-layer perceptrons. This hybrid design\nenables the model to capture both fine-grained local variations and long-range\nsemantic context, addressing the two key challenges while reducing the cost of\nmanual network design. To support efficient training of such a diverse search\nspace, AutoNAD introduces a cross weight sharing strategy, which accelerates\nsupernet convergence and improves subnet performance. Additionally, a\nsearchable multi-level feature aggregation module (MFAM) is integrated to\nenhance multi-scale feature learning. Beyond detection accuracy, runtime\nefficiency is essential for industrial deployment. To this end, AutoNAD\nincorporates a latency-aware prior to guide the selection of efficient\narchitectures. The effectiveness of AutoNAD is validated on three industrial\ndefect datasets and further applied within a defect imaging and detection\nplatform. Code will be available at https://github.com/Yuxi104/AutoNAD.",
+  "authors": [
+    "Yuxi Liu",
+    "Yunfeng Ma",
+    "Yi Tang",
+    "Min Liu",
+    "Shuai Jiang",
+    "Yaonan Wang"
+  ],
+  "published": "2025-10-08T05:37:59Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06669v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出AutoNAD自动化神经网络架构设计框架，针对工业表面缺陷检测中的类内差异和类间相似性挑战，通过联合搜索卷积、Transformer和多层感知机的混合设计，结合跨权重共享策略和多级特征聚合模块，在保证检测精度的同时优化运行效率，并在工业缺陷数据集上验证了有效性。",
+  "order": 150,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06669v1"
+}

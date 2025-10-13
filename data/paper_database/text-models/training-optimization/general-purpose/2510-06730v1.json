@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06730v1",
+  "title": "PTEB: Towards Robust Text Embedding Evaluation via Stochastic\n  Paraphrasing at Evaluation Time with LLMs",
+  "summary": "Current evaluations of sentence embedding models typically rely on static\ntest beds such as the Massive Text Embedding Benchmark (MTEB). While\ninvaluable, repeated tuning on a fixed suite can inflate reported performance\nand obscure real-world robustness. We introduce the Paraphrasing Text Embedding\nBenchmark (PTEB), a dynamic protocol that stochastically generates\nmeaning-preserving paraphrases at evaluation time and aggregates results across\nmultiple runs. Using a cost-efficient LLM-based method grounded in semantic\ntextual similarity gold ratings, we show that LLMs generate token-diverse but\nsemantically preserving, paraphrases. Across 7 MTEB tasks, we validate our\nhypothesis that the performance of sentence encoders is sensitive to changes in\ntoken space even when semantics remain fixed. We also observe that smaller\nmodels are not disproportionately affected relative to larger ones. Our results\nare statistically robust over multiple runs and we extended our experiments to\n3 multilingual datasets covering 10 languages. More generally, we aim to\npropose a new evaluation paradigm in NLP that relies less on static,\npre-defined benchmarks but shifts towards dynamic, stochastic evaluation\nleveraging eval-time compute.",
+  "authors": [
+    "Manuel Frank",
+    "Haithem Afli"
+  ],
+  "published": "2025-10-08T07:37:19Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06730v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出PTEB评估框架，通过LLM在评估时随机生成语义保持的复述变体，动态测试文本嵌入模型的鲁棒性。实验表明现有模型对词汇变化敏感，且大小模型受影响程度相当，为NLP评估提供了新的动态范式。",
+  "order": 87,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06730v1"
+}

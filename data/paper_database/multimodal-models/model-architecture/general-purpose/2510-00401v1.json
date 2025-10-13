@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00401v1",
+  "title": "Physics-Informed Neural Controlled Differential Equations for Scalable\n  Long Horizon Multi-Agent Motion Forecasting",
+  "summary": "Long-horizon motion forecasting for multiple autonomous robots is challenging\ndue to non-linear agent interactions, compounding prediction errors, and\ncontinuous-time evolution of dynamics. Learned dynamics of such a system can be\nuseful in various applications such as travel time prediction,\nprediction-guided planning and generative simulation. In this work, we aim to\ndevelop an efficient trajectory forecasting model conditioned on multi-agent\ngoals. Motivated by the recent success of physics-guided deep learning for\npartially known dynamical systems, we develop a model based on neural\nControlled Differential Equations (CDEs) for long-horizon motion forecasting.\nUnlike discrete-time methods such as RNNs and transformers, neural CDEs operate\nin continuous time, allowing us to combine physics-informed constraints and\nbiases to jointly model multi-robot dynamics. Our approach, named PINCoDE\n(Physics-Informed Neural Controlled Differential Equations), learns\ndifferential equation parameters that can be used to predict the trajectories\nof a multi-agent system starting from an initial condition. PINCoDE is\nconditioned on future goals and enforces physics constraints for robot motion\nover extended periods of time. We adopt a strategy that scales our model from\n10 robots to 100 robots without the need for additional model parameters, while\nproducing predictions with an average ADE below 0.5 m for a 1-minute horizon.\nFurthermore, progressive training with curriculum learning for our PINCoDE\nmodel results in a 2.7X reduction of forecasted pose error over 4 minute\nhorizons compared to analytical models.",
+  "authors": [
+    "Shounak Sural",
+    "Charles Kekeh",
+    "Wenliang Liu",
+    "Federico Pecora",
+    "Mouhacine Benosman"
+  ],
+  "published": "2025-10-01T01:27:07Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.00401v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出PINCoDE模型，结合物理约束与神经控制微分方程，实现多机器人长时程运动预测。该连续时间模型支持10-100个智能体规模扩展，在1分钟预测范围内平均位移误差低于0.5米，相比解析模型将4分钟姿态预测误差降低2.7倍。",
+  "order": 320,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00401v1"
+}

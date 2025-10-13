@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06627v1",
+  "title": "POME: Post Optimization Model Edit via Muon-style Projection",
+  "summary": "We introduce Post-Optimization Model Edit (POME), a new algorithm that\nenhances the performance of fine-tuned large language models using only their\npretrained and fine-tuned checkpoints, without requiring extra data or further\noptimization. The core idea is to apply a muon-style projection to $\\Delta W$,\nthe difference between the fine-tuned and pretrained weights. This projection\nuses truncated singular value decomposition (SVD) to equalize the influence of\ndominant update directions and prune small singular values, which often\nrepresent noise. As a simple post-processing step, POME is completely decoupled\nfrom the training pipeline. It requires zero modifications and imposes no\noverhead, making it universally compatible with any optimizer or distributed\nframework. POME delivers consistent gains, boosting average performance by\n+2.5\\% on GSM8K and +1.0\\% on code generation. Its broad applicability -- from\n7B foundation models to 72B RLHF-instructed models -- establishes it as a\npractical, zero-cost enhancement for any fine-tuning pipeline. Code is\navailable at https://github.com/NUS-HPC-AI-Lab/POME.",
+  "authors": [
+    "Yong Liu",
+    "Di Fu",
+    "Yang Luo",
+    "Zirui Zhu",
+    "Minhao Cheng",
+    "Cho-Jui Hsieh",
+    "Yang You"
+  ],
+  "published": "2025-10-08T04:20:11Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06627v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "['code_generation', 'general_purpose']",
+  "tldr_zh": "本文提出POME算法，通过μ子式投影对微调后模型权重差异进行截断SVD处理，无需额外数据或优化即可提升模型性能。该后处理方法兼容性强，在数学推理和代码生成任务上分别提升2.5%和1.0%，适用于7B到72B等各种规模模型。",
+  "order": 232,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06627v1"
+}

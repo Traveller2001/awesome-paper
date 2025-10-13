@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01736v1",
+  "title": "Machine-interpretable Engineering Design Standards for Valve\n  Specification",
+  "summary": "Engineering design processes use technical specifications and must comply\nwith standards. Product specifications, product type data sheets, and design\nstandards are still mainly document-centric despite the ambition to digitalize\nindustrial work. In this paper, we demonstrate how to transform information\nheld in engineering design standards into modular, reusable,\nmachine-interpretable ontologies and use the ontologies in quality assurance of\nthe plant design and equipment selection process. We use modelling patterns to\ncreate modular ontologies for knowledge captured in the text and in frequently\nreferenced tables in International Standards for piping, material and valve\ndesign. These modules are exchangeable, as stored in a W3C compliant format,\nand interoperable as they are aligned with the top-level ontology ISO DIS\n23726-3: Industrial Data Ontology (IDO).\n  We test these ontologies, created based on international material and piping\nstandards and industry norms, on a valve selection process. Valves are\ninstantiated in semantic asset models as individuals along with a semantic\nrepresentation of the environmental condition at their location on the asset.\nWe create \"functional location tags\" as OWL individuals that become instances\nof OWL class Valve Data Sheet (VDS) specified valves. Similarly we create\ninstances of manufacturer product type. Our approach enables automated\nvalidation that a specific VDS is compliant with relevant industry standards.\nUsing semantic reasoning and executable design rules, we also determine whether\nthe product type meets the valve specification. Creation of shared, reusable\nIDO-based modular ontologies for design standards enables semantic reasoning to\nbe applied to equipment selection processes and demonstrates the potential of\nthis approach for Standards Bodies wanting to transition to digitized Smart\nStandards.",
+  "authors": [
+    "Anders Gjerver",
+    "Rune Frostad",
+    "Vedrana Barisic",
+    "Melinda Hodkiewicz",
+    "Caitlin Woods",
+    "Mihaly Fekete",
+    "Arild Braathen Torjusen",
+    "Johan Wilhelm Kluwer"
+  ],
+  "published": "2025-10-02T07:20:37Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01736v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出将工程设计标准转化为模块化、可复用、机器可解释的本体，应用于阀门选型过程的质量保证。通过建立符合W3C标准的本体模块，结合语义推理和可执行设计规则，实现阀门规格的自动化验证，展示了工业标准数字化应用的潜力。",
+  "order": 372,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01736v1"
+}

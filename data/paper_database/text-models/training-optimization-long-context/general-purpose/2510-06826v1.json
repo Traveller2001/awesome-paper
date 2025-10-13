@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06826v1",
+  "title": "Mid-Training of Large Language Models: A Survey",
+  "summary": "Large language models (LLMs) are typically developed through large-scale\npre-training followed by task-specific fine-tuning. Recent advances highlight\nthe importance of an intermediate mid-training stage, where models undergo\nmultiple annealing-style phases that refine data quality, adapt optimization\nschedules, and extend context length. This stage mitigates diminishing returns\nfrom noisy tokens, stabilizes convergence, and expands model capability in late\ntraining. Its effectiveness can be explained through gradient noise scale, the\ninformation bottleneck, and curriculum learning, which together promote\ngeneralization and abstraction. Despite widespread use in state-of-the-art\nsystems, there has been no prior survey of mid-training as a unified paradigm.\nWe introduce the first taxonomy of LLM mid-training spanning data distribution,\nlearning-rate scheduling, and long-context extension. We distill practical\ninsights, compile evaluation benchmarks, and report gains to enable structured\ncomparisons across models. We also identify open challenges and propose avenues\nfor future research and practice.",
+  "authors": [
+    "Kaixiang Mo",
+    "Yuxin Shi",
+    "Weiwei Weng",
+    "Zhiqiang Zhou",
+    "Shuman Liu",
+    "Haibo Zhang",
+    "Anxiang Zeng"
+  ],
+  "published": "2025-10-08T09:49:37Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06826v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'long_context']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文首次系统综述大语言模型的中期训练范式，提出涵盖数据分布、学习率调度和长上下文扩展的分类体系，分析其通过梯度噪声尺度、信息瓶颈和课程学习提升泛化能力的机理，并总结实践洞见、评估基准与未来研究方向。",
+  "order": 75,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06826v1"
+}

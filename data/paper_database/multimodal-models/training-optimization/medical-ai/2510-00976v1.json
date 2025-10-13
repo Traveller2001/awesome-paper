@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.00976v1",
+  "title": "Adaptive Federated Few-Shot Rare-Disease Diagnosis with Energy-Aware\n  Secure Aggregation",
+  "summary": "Rare-disease diagnosis remains one of the most pressing challenges in digital\nhealth, hindered by extreme data scarcity, privacy concerns, and the limited\nresources of edge devices. This paper proposes the Adaptive Federated Few-Shot\nRare-Disease Diagnosis (AFFR) framework, which integrates three pillars: (i)\nfew-shot federated optimization with meta-learning to generalize from limited\npatient samples, (ii) energy-aware client scheduling to mitigate device\ndropouts and ensure balanced participation, and (iii) secure aggregation with\ncalibrated differential privacy to safeguard sensitive model updates. Unlike\nprior work that addresses these aspects in isolation, AFFR unifies them into a\nmodular pipeline deployable on real-world clinical networks. Experimental\nevaluation on simulated rare-disease detection datasets demonstrates up to 10%\nimprovement in accuracy compared with baseline FL, while reducing client\ndropouts by over 50% without degrading convergence. Furthermore,\nprivacy-utility trade-offs remain within clinically acceptable bounds. These\nfindings highlight AFFR as a practical pathway for equitable and trustworthy\nfederated diagnosis of rare conditions.",
+  "authors": [
+    "Aueaphum Aueawatthanaphisut"
+  ],
+  "published": "2025-10-01T14:52:07Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00976v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出自适应联邦少样本罕见病诊断框架AFFR，整合元学习联邦优化、能量感知客户端调度和安全聚合三大模块，在模拟罕见病数据集上实现准确率提升10%、客户端退出率降低50%，为临床网络提供实用化公平可信诊断方案。",
+  "order": 210,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00976v1"
+}

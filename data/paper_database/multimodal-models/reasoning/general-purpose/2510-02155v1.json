@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02155v1",
+  "title": "Unlocking Vision-Language Models for Video Anomaly Detection via\n  Fine-Grained Prompting",
+  "summary": "Prompting has emerged as a practical way to adapt frozen vision-language\nmodels (VLMs) for video anomaly detection (VAD). Yet, existing prompts are\noften overly abstract, overlooking the fine-grained human-object interactions\nor action semantics that define complex anomalies in surveillance videos. We\npropose ASK-Hint, a structured prompting framework that leverages\naction-centric knowledge to elicit more accurate and interpretable reasoning\nfrom frozen VLMs. Our approach organizes prompts into semantically coherent\ngroups (e.g. violence, property crimes, public safety) and formulates\nfine-grained guiding questions that align model predictions with discriminative\nvisual cues. Extensive experiments on UCF-Crime and XD-Violence show that\nASK-Hint consistently improves AUC over prior baselines, achieving\nstate-of-the-art performance compared to both fine-tuned and training-free\nmethods. Beyond accuracy, our framework provides interpretable reasoning traces\ntowards anomaly and demonstrates strong generalization across datasets and VLM\nbackbones. These results highlight the critical role of prompt granularity and\nestablish ASK-Hint as a new training-free and generalizable solution for\nexplainable video anomaly detection.",
+  "authors": [
+    "Shu Zou",
+    "Xinyu Tian",
+    "Lukas Wesemann",
+    "Fabian Waschkowski",
+    "Zhaoyuan Yang",
+    "Jing Zhang"
+  ],
+  "published": "2025-10-02T16:06:31Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02155v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ASK-Hint框架，通过细粒度提示解锁视觉语言模型在视频异常检测中的应用。该方法构建结构化提示，利用动作相关知识引导模型关注人-物交互细节，在UCF-Crime和XD-Violence数据集上实现SOTA性能，无需训练即可提供可解释的异常推理轨迹。",
+  "order": 516,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02155v1"
+}

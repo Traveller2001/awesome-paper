@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02243v1",
+  "title": "AccurateRAG: A Framework for Building Accurate Retrieval-Augmented\n  Question-Answering Applications",
+  "summary": "We introduce AccurateRAG -- a novel framework for constructing\nhigh-performance question-answering applications based on retrieval-augmented\ngeneration (RAG). Our framework offers a pipeline for development efficiency\nwith tools for raw dataset processing, fine-tuning data generation, text\nembedding & LLM fine-tuning, output evaluation, and building RAG systems\nlocally. Experimental results show that our framework outperforms previous\nstrong baselines and obtains new state-of-the-art question-answering\nperformance on benchmark datasets.",
+  "authors": [
+    "Linh The Nguyen",
+    "Chi Tran",
+    "Dung Ngoc Nguyen",
+    "Van-Cuong Pham",
+    "Hoang Ngo",
+    "Dat Quoc Nguyen"
+  ],
+  "published": "2025-10-02T17:30:08Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02243v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "AccurateRAG是一个用于构建高精度检索增强生成问答应用的新框架，提供从数据处理、微调、评估到本地部署的完整流程，在基准测试中超越了现有基线并达到最先进的性能水平。",
+  "order": 340,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02243v1"
+}

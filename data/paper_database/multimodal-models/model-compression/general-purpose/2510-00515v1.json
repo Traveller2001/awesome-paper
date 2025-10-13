@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.00515v1",
+  "title": "Efficient Multi-modal Large Language Models via Progressive Consistency\n  Distillation",
+  "summary": "Visual tokens consume substantial computational resources in multi-modal\nlarge models (MLLMs), significantly compromising their efficiency. Recent works\nhave attempted to improve efficiency by compressing visual tokens during\ntraining, either through modifications to model components or by introducing\nadditional parameters. However, they often overlook the increased learning\ndifficulty caused by such compression, as the model's parameter space struggles\nto quickly adapt to the substantial perturbations in the feature space induced\nby token compression. In this work, we propose to develop Efficient MLLMs via\nProgressive Consistency Distillation (EPIC), a progressive learning framework.\nSpecifically, by decomposing the feature space perturbations introduced by\ntoken compression along the token-wise and layer-wise dimensions, we introduce\ntoken consistency distillation and layer consistency distillation,\nrespectively, aiming to reduce the training difficulty by leveraging guidance\nfrom a teacher model and following a progressive learning trajectory. Extensive\nexperiments demonstrate the superior effectiveness, robustness, and\ngeneralization capabilities of our proposed framework.",
+  "authors": [
+    "Zichen Wen",
+    "Shaobo Wang",
+    "Yufa Zhou",
+    "Junyuan Zhang",
+    "Qintong Zhang",
+    "Yifeng Gao",
+    "Zhaorun Chen",
+    "Bin Wang",
+    "Weijia Li",
+    "Conghui He",
+    "Linfeng Zhang"
+  ],
+  "published": "2025-10-01T04:56:40Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00515v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出EPIC框架，通过渐进一致性蒸馏解决多模态大模型中视觉令牌压缩导致的训练困难问题。该方法从令牌和层级两个维度分解特征空间扰动，分别引入令牌一致性蒸馏和层级一致性蒸馏，利用教师模型指导并遵循渐进学习轨迹，显著提升了模型效率、鲁棒性和泛化能力。",
+  "order": 669,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00515v1"
+}

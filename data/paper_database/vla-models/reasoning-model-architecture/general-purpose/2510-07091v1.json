@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.07091v1",
+  "title": "The Cognitive Bandwidth Bottleneck: Shifting Long-Horizon Agent from\n  Planning with Actions to Planning with Schemas",
+  "summary": "Enabling LLMs to effectively operate long-horizon task which requires\nlong-term planning and multiple interactions is essential for open-world\nautonomy. Conventional methods adopt planning with actions where a executable\naction list would be provided as reference. However, this action representation\nchoice would be impractical when the environment action space is combinatorial\nexploded (e.g., open-ended real world). This naturally leads to a question: As\nenvironmental action space scales, what is the optimal action representation\nfor long-horizon agents? In this paper, we systematically study the\neffectiveness of two different action representations. The first one is\nconventional planning with actions (PwA) which is predominantly adopted for its\neffectiveness on existing benchmarks. The other one is planning with schemas\n(PwS) which instantiate an action schema into action lists (e.g., \"move [OBJ]\nto [OBJ]\" -> \"move apple to desk\") to ensure concise action space and reliable\nscalability. This alternative is motivated by its alignment with human\ncognition and its compliance with environment-imposed action format\nrestriction. We propose cognitive bandwidth perspective as a conceptual\nframework to qualitatively understand the differences between these two action\nrepresentations and empirically observe a representation-choice inflection\npoint between ALFWorld (~35 actions) and SciWorld (~500 actions), which serve\nas evidence of the need for scalable representations. We further conduct\ncontrolled experiments to study how the location of this inflection point\ninteracts with different model capacities: stronger planning proficiency shifts\nthe inflection rightward, whereas better schema instantiation shifts it\nleftward. Finally, noting the suboptimal performance of PwS agents, we provide\nan actionable guide for building more capable PwS agents for better scalable\nautonomy.",
+  "authors": [
+    "Baixuan Xu",
+    "Tianshi Zheng",
+    "Zhaowei Wang",
+    "Hong Ting Tsang",
+    "Weiqi Wang",
+    "Tianqing Fang",
+    "Yangqiu Song"
+  ],
+  "published": "2025-10-08T14:47:40Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.07091v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究长视野智能体的动作表示问题，提出从传统动作规划转向图式规划以应对组合爆炸的动作空间。通过认知带宽理论框架，在ALFWorld和SciWorld实验中发现了表示选择的转折点，并分析了模型能力对转折点位置的影响，最后为构建更强大的图式规划智能体提供了实用指南。",
+  "order": 6,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07091v1"
+}

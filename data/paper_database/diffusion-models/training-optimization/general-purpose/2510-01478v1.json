@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.01478v1",
+  "title": "Purrception: Variational Flow Matching for Vector-Quantized Image\n  Generation",
+  "summary": "We introduce Purrception, a variational flow matching approach for\nvector-quantized image generation that provides explicit categorical\nsupervision while maintaining continuous transport dynamics. Our method adapts\nVariational Flow Matching to vector-quantized latents by learning categorical\nposteriors over codebook indices while computing velocity fields in the\ncontinuous embedding space. This combines the geometric awareness of continuous\nmethods with the discrete supervision of categorical approaches, enabling\nuncertainty quantification over plausible codes and temperature-controlled\ngeneration. We evaluate Purrception on ImageNet-1k 256x256 generation. Training\nconverges faster than both continuous flow matching and discrete flow matching\nbaselines while achieving competitive FID scores with state-of-the-art models.\nThis demonstrates that Variational Flow Matching can effectively bridge\ncontinuous transport and discrete supervision for improved training efficiency\nin image generation.",
+  "authors": [
+    "Răzvan-Andrei Matişan",
+    "Vincent Tao Hu",
+    "Grigory Bartosh",
+    "Björn Ommer",
+    "Cees G. M. Snoek",
+    "Max Welling",
+    "Jan-Willem van de Meent",
+    "Mohammad Mahdi Derakhshani",
+    "Floor Eijkelboom"
+  ],
+  "published": "2025-10-01T21:41:30Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01478v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Purrception是一种用于矢量量化图像生成的变分流匹配方法，通过在连续嵌入空间学习速度场的同时学习码书索引的类别后验，将连续方法的几何感知与离散监督相结合。该方法在ImageNet-1k 256×256生成任务上训练收敛速度优于连续和离散流匹配基线，同时达到竞争力的FID分数。",
+  "order": 581,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01478v1"
+}

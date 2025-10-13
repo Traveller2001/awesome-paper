@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06048v1",
+  "title": "BLISS: A Lightweight Bilevel Influence Scoring Method for Data Selection\n  in Language Model Pretraining",
+  "summary": "Effective data selection is essential for pretraining large language models\n(LLMs), enhancing efficiency and improving generalization to downstream tasks.\nHowever, existing approaches often require leveraging external pretrained\nmodels, making it difficult to disentangle the effects of data selection from\nthose of the external pretrained models. In addition, they often overlook the\nlong-term impact of selected data if the model is trained to convergence,\nprimarily due to the prohibitive cost of full-scale LLM pretraining. In this\npaper, we introduce BLISS (\\textbf{B}ileve\\textbf{L} \\textbf{I}nfluence\n\\textbf{S}coring method for data \\textbf{S}election): a lightweight data\nselection method that operates entirely \\emph{from scratch}, without relying on\nany external pretrained oracle models, while explicitly accounting for the\nlong-term impact of selected data. BLISS leverages a small proxy model as a\nsurrogate for the LLM and employs a score model to estimate the long-term\ninfluence of training samples if the proxy model is trained to convergence. We\nformulate data selection as a bilevel optimization problem, where the\nupper-level objective optimizes the score model to assign importance weights to\ntraining samples, ensuring that minimizing the lower-level objective (i.e.,\ntraining the proxy model over the weighted training loss until convergence)\nleads to best validation performance. Once optimized, the trained score model\npredicts influence scores for the dataset, enabling efficient selection of\nhigh-quality samples for LLM pretraining. We validate BLISS by pretraining\n410M/1B/2.8B Pythia and LLaMA-0.5B models on selected subsets of the C4\ndataset. Notably, under the 1B model setting, BLISS achieves $1.7\\times$\nspeedup in reaching the same performance as the state-of-the-art method,\ndemonstrating superior performance across multiple downstream tasks.",
+  "authors": [
+    "Jie Hao",
+    "Rui Yu",
+    "Wei Zhang",
+    "Huixia Wang",
+    "Jie Xu",
+    "Mingrui Liu"
+  ],
+  "published": "2025-10-07T15:42:33Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06048v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出BLISS，一种轻量级双层优化数据选择方法，无需依赖外部预训练模型即可评估训练样本对语言模型预训练的长期影响。通过代理模型和评分模型的协同优化，在C4数据集上验证显示，相比现有方法可提速1.7倍达到同等性能，并在多个下游任务中表现优异。",
+  "order": 101,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06048v1"
+}

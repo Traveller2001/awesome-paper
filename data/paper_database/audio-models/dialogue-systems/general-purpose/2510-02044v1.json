@@ -1,0 +1,33 @@
+{
+  "arxiv_id": "2510.02044v1",
+  "title": "Stream RAG: Instant and Accurate Spoken Dialogue Systems with Streaming\n  Tool Usage",
+  "summary": "End-to-end speech-in speech-out dialogue systems are emerging as a powerful\nalternative to traditional ASR-LLM-TTS pipelines, generating more natural,\nexpressive responses with significantly lower latency. However, these systems\nremain prone to hallucinations due to limited factual grounding. While\ntext-based dialogue systems address this challenge by integrating tools such as\nweb search and knowledge graph APIs, we introduce the first approach to extend\ntool use directly into speech-in speech-out systems. A key challenge is that\ntool integration substantially increases response latency, disrupting\nconversational flow. To mitigate this, we propose Streaming Retrieval-Augmented\nGeneration (Streaming RAG), a novel framework that reduces user-perceived\nlatency by predicting tool queries in parallel with user speech, even before\nthe user finishes speaking. Specifically, we develop a post-training pipeline\nthat teaches the model when to issue tool calls during ongoing speech and how\nto generate spoken summaries that fuse audio queries with retrieved text\nresults, thereby improving both accuracy and responsiveness. To evaluate our\napproach, we construct AudioCRAG, a benchmark created by converting queries\nfrom the publicly available CRAG dataset into speech form. Experimental results\ndemonstrate that our streaming RAG approach increases QA accuracy by up to 200%\nrelative (from 11.1% to 34.2% absolute) and further enhances user experience by\nreducing tool use latency by 20%. Importantly, our streaming RAG approach is\nmodality-agnostic and can be applied equally to typed input, paving the way for\nmore agentic, real-time AI assistants.",
+  "authors": [
+    "Siddhant Arora",
+    "Haidar Khan",
+    "Kai Sun",
+    "Xin Luna Dong",
+    "Sajal Choudhary",
+    "Seungwhan Moon",
+    "Xinyuan Zhang",
+    "Adithya Sagar",
+    "Surya Teja Appini",
+    "Kaushik Patnaik",
+    "Sanat Sharma",
+    "Shinji Watanabe",
+    "Anuj Kumar",
+    "Ahmed Aly",
+    "Yue Liu",
+    "Florian Metze",
+    "Zhaojiang Lin"
+  ],
+  "published": "2025-10-02T14:18:20Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02044v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Streaming RAG框架，将工具使用扩展至语音对话系统，通过在用户说话时并行预测工具查询来降低延迟，实验显示问答准确率提升200%，延迟减少20%，适用于实时AI助手。",
+  "order": 354,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02044v1"
+}

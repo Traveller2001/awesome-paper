@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02097v1",
+  "title": "Mapping Historic Urban Footprints in France: Balancing Quality,\n  Scalability and AI Techniques",
+  "summary": "Quantitative analysis of historical urban sprawl in France before the 1970s\nis hindered by the lack of nationwide digital urban footprint data. This study\nbridges this gap by developing a scalable deep learning pipeline to extract\nurban areas from the Scan Histo historical map series (1925-1950), which\nproduces the first open-access, national-scale urban footprint dataset for this\npivotal period. Our key innovation is a dual-pass U-Net approach designed to\nhandle the high radiometric and stylistic complexity of historical maps. The\nfirst pass, trained on an initial dataset, generates a preliminary map that\nidentifies areas of confusion, such as text and roads, to guide targeted data\naugmentation. The second pass uses a refined dataset and the binarized output\nof the first model to minimize radiometric noise, which significantly reduces\nfalse positives. Deployed on a high-performance computing cluster, our method\nprocesses 941 high-resolution tiles covering the entirety of metropolitan\nFrance. The final mosaic achieves an overall accuracy of 73%, effectively\ncapturing diverse urban patterns while overcoming common artifacts like labels\nand contour lines. We openly release the code, training datasets, and the\nresulting nationwide urban raster to support future research in long-term\nurbanization dynamics.",
+  "authors": [
+    "Walid Rabehi",
+    "Marion Le Texier",
+    "Rémi Lemoy"
+  ],
+  "published": "2025-10-02T15:04:53Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02097v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究开发了一种双通道U-Net深度学习流水线，从法国历史地图中提取1925-1950年间的城市足迹数据。该方法通过首轮模型识别混淆区域并指导数据增强，次轮模型利用二值化输出减少辐射噪声，成功处理了覆盖法国全境的941个高分辨率图块，最终生成首个全国尺度的历史城市足迹数据集，准确率达73%。",
+  "order": 520,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02097v1"
+}

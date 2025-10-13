@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06834v1",
+  "title": "Vectorized FlashAttention with Low-cost Exponential Computation in\n  RISC-V Vector Processors",
+  "summary": "Attention is a core operation in numerous machine learning and artificial\nintelligence models. This work focuses on the acceleration of attention kernel\nusing FlashAttention algorithm, in vector processors, particularly those based\non the RISC-V instruction set architecture (ISA). This work represents the\nfirst effort to vectorize FlashAttention, minimizing scalar code and\nsimplifying the computational complexity of evaluating exponentials needed by\nsoftmax used in attention. By utilizing a low-cost approximation for\nexponentials in floating-point arithmetic, we reduce the cost of computing the\nexponential function without the need to extend baseline vector ISA with new\ncustom instructions. Also, appropriate tiling strategies are explored with the\ngoal to improve memory locality. Experimental results highlight the scalability\nof our approach, demonstrating significant performance gains with the\nvectorized implementations when processing attention layers in practical\napplications.",
+  "authors": [
+    "Vasileios Titopoulos",
+    "Kosmas Alexandridis",
+    "Giorgos Dimitrakopoulos"
+  ],
+  "published": "2025-10-08T09:55:32Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06834v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出首个基于RISC-V向量处理器的FlashAttention向量化实现，通过低成本指数计算近似方法优化注意力机制中的softmax运算，无需扩展指令集即可显著提升注意力层处理性能，并探索了分块策略以改善内存局部性。",
+  "order": 207,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06834v1"
+}

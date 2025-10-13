@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.06987v1",
+  "title": "Spiral Model Technique For Data Science & Machine Learning Lifecycle",
+  "summary": "Analytics play an important role in modern business. Companies adapt data\nscience lifecycles to their culture to seek productivity and improve their\ncompetitiveness among others. Data science lifecycles are fairly an important\ncontributing factor to start and end a project that are data dependent. Data\nscience and Machine learning life cycles comprises of series of steps that are\ninvolved in a project. A typical life cycle states that it is a linear or\ncyclical model that revolves around. It is mostly depicted that it is possible\nin a traditional data science life cycle to start the process again after\nreaching the end of cycle. This paper suggests a new technique to incorporate\ndata science life cycle to business problems that have a clear end goal. A new\ntechnique called spiral technique is introduced to emphasize versatility,\nagility and iterative approach to business processes.",
+  "authors": [
+    "Rohith Mahadevan"
+  ],
+  "published": "2025-10-08T13:11:58Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06987v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出了一种用于数据科学与机器学习项目生命周期的新型螺旋模型技术。该技术针对具有明确目标的商业问题，强调多功能性、敏捷性和迭代方法，突破了传统线性或循环模型的局限，为企业数据分析流程提供了更灵活高效的实施框架。",
+  "order": 191,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06987v1"
+}

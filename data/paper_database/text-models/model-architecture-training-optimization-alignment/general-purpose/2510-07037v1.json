@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07037v1",
+  "title": "Beyond Monolingual Assumptions: A Survey of Code-Switched NLP in the Era\n  of Large Language Models",
+  "summary": "Code-switching (CSW), the alternation of languages and scripts within a\nsingle utterance, remains a fundamental challenge for multiling ual NLP, even\namidst the rapid advances of large language models (LLMs). Most LLMs still\nstruggle with mixed-language inputs, limited CSW datasets, and evaluation\nbiases, hindering deployment in multilingual societies. This survey provides\nthe first comprehensive analysis of CSW-aware LLM research, reviewing\n\\total{unique_references} studies spanning five research areas, 12 NLP tasks,\n30+ datasets, and 80+ languages. We classify recent advances by architecture,\ntraining strategy, and evaluation methodology, outlining how LLMs have reshaped\nCSW modeling and what challenges persist. The paper concludes with a roadmap\nemphasizing the need for inclusive datasets, fair evaluation, and\nlinguistically grounded models to achieve truly multilingual intelligence. A\ncurated collection of all resources is maintained at\nhttps://github.com/lingo-iitgn/awesome-code-mixing/.",
+  "authors": [
+    "Rajvee Sheth",
+    "Samridhi Raj Sinha",
+    "Mahavir Patil",
+    "Himanshu Beniwal",
+    "Mayank Singh"
+  ],
+  "published": "2025-10-08T14:04:14Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07037v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization', 'alignment']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本综述首次系统梳理了代码转换（CSW）与大语言模型（LLMs）交叉领域的研究进展，涵盖5大研究方向、12项NLP任务、30+数据集和80+语言。文章指出尽管LLMs快速发展，但混合语言处理仍是核心挑战，并从模型架构、训练策略和评估方法三个维度分类现有工作，最后提出构建包容性数据集、公平评估和语言基础模型的发展路线。",
+  "order": 59,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07037v1"
+}

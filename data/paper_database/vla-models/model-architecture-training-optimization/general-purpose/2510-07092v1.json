@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.07092v1",
+  "title": "Generative World Modelling for Humanoids: 1X World Model Challenge\n  Technical Report",
+  "summary": "World models are a powerful paradigm in AI and robotics, enabling agents to\nreason about the future by predicting visual observations or compact latent\nstates. The 1X World Model Challenge introduces an open-source benchmark of\nreal-world humanoid interaction, with two complementary tracks: sampling,\nfocused on forecasting future image frames, and compression, focused on\npredicting future discrete latent codes. For the sampling track, we adapt the\nvideo generation foundation model Wan-2.2 TI2V-5B to video-state-conditioned\nfuture frame prediction. We condition the video generation on robot states\nusing AdaLN-Zero, and further post-train the model using LoRA. For the\ncompression track, we train a Spatio-Temporal Transformer model from scratch.\nOur models achieve 23.0 dB PSNR in the sampling task and a Top-500 CE of 6.6386\nin the compression task, securing 1st place in both challenges.",
+  "authors": [
+    "Riccardo Mereu",
+    "Aidan Scannell",
+    "Yuxin Hou",
+    "Yi Zhao",
+    "Aditya Jitta",
+    "Antonio Dominguez",
+    "Luigi Acerbi",
+    "Amos Storkey",
+    "Paul Chang"
+  ],
+  "published": "2025-10-08T14:49:12Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07092v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对1X世界模型挑战赛，提出两种人类机器人世界建模方法：在采样赛道中，我们改进Wan-2.2 TI2V-5B视频生成模型，通过AdaLN-Zero融合机器人状态并使用LoRA微调，实现未来帧预测；在压缩赛道中，我们从头训练时空Transformer模型预测潜在编码。最终在两项任务中分别获得23.0 dB PSNR和6.6386 Top-500 CE的优异成绩，双双夺冠。",
+  "order": 181,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07092v1"
+}

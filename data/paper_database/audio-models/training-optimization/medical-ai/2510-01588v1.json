@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01588v1",
+  "title": "Enhancing Noise Robustness of Parkinson's Disease Telemonitoring via\n  Contrastive Feature Augmentation",
+  "summary": "Parkinson's disease (PD) is one of the most common neurodegenerative\ndisorder. PD telemonitoring emerges as a novel assessment modality enabling\nself-administered at-home tests of Unified Parkinson's Disease Rating Scale\n(UPDRS) scores, enhancing accessibility for PD patients. However, three types\nof noise would occur during measurements: (1) patient-induced measurement\ninaccuracies, (2) environmental noise, and (3) data packet loss during\ntransmission, resulting in higher prediction errors. To address these\nchallenges, NoRo, a noise-robust UPDRS prediction framework is proposed. First,\nthe original speech features are grouped into ordered bins, based on the\ncontinuous values of a selected feature, to construct contrastive pairs.\nSecond, the contrastive pairs are employed to train a multilayer perceptron\nencoder for generating noise-robust features. Finally, these features are\nconcatenated with the original features as the augmented features, which are\nthen fed into the UPDRS prediction models. Notably, we further introduces a\nnovel evaluation approach with customizable noise injection module, and\nextensive experiments show that NoRo can successfully enhance the noise\nrobustness of UPDRS prediction across various downstream prediction models\nunder different noisy environments.",
+  "authors": [
+    "Ziming Tang",
+    "Chengbin Hou",
+    "Tianyu Zhang",
+    "Bangxu Tian",
+    "Jinbao Wang",
+    "Hairong Lv"
+  ],
+  "published": "2025-10-02T02:07:41Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01588v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出NoRo框架，通过对比特征增强技术提升帕金森病远程监测系统的噪声鲁棒性。该方法将语音特征分组构建对比对，训练多层感知机编码器生成抗噪特征，并与原始特征拼接后输入预测模型。实验表明该方案能有效应对患者操作误差、环境噪声和数据丢包等干扰，显著提高UPDRS评分预测精度。",
+  "order": 123,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01588v1"
+}

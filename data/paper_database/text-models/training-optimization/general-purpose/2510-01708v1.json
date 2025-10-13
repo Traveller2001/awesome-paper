@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.01708v1",
+  "title": "PolySim: Bridging the Sim-to-Real Gap for Humanoid Control via\n  Multi-Simulator Dynamics Randomization",
+  "summary": "Humanoid whole-body control (WBC) policies trained in simulation often suffer\nfrom the sim-to-real gap, which fundamentally arises from simulator inductive\nbias, the inherent assumptions and limitations of any single simulator. These\nbiases lead to nontrivial discrepancies both across simulators and between\nsimulation and the real world. To mitigate the effect of simulator inductive\nbias, the key idea is to train policies jointly across multiple simulators,\nencouraging the learned controller to capture dynamics that generalize beyond\nany single simulator's assumptions. We thus introduce PolySim, a WBC training\nplatform that integrates multiple heterogeneous simulators. PolySim can launch\nparallel environments from different engines simultaneously within a single\ntraining run, thereby realizing dynamics-level domain randomization.\nTheoretically, we show that PolySim yields a tighter upper bound on simulator\ninductive bias than single-simulator training. In experiments, PolySim\nsubstantially reduces motion-tracking error in sim-to-sim evaluations; for\nexample, on MuJoCo, it improves execution success by 52.8 over an IsaacSim\nbaseline. PolySim further enables zero-shot deployment on a real Unitree G1\nwithout additional fine-tuning, showing effective transfer from simulation to\nthe real world. We will release the PolySim code upon acceptance of this work.",
+  "authors": [
+    "Zixing Lei",
+    "Zibo Zhou",
+    "Sheng Yin",
+    "Yueru Chen",
+    "Qingyao Xu",
+    "Weixin Li",
+    "Yunhong Wang",
+    "Bowei Tang",
+    "Wei Jing",
+    "Siheng Chen"
+  ],
+  "published": "2025-10-02T06:31:42Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.01708v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "PolySim提出多模拟器动态随机化方法，通过联合训练跨多个异构仿真器的人形机器人全身控制策略，有效缩小仿真与现实间的性能差距。理论证明该方法能降低模拟器归纳偏差上限，实验显示在MuJoCo上成功率提升52.8%，并实现Unitree G1机器人的零样本现实部署。",
+  "order": 90,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01708v1"
+}

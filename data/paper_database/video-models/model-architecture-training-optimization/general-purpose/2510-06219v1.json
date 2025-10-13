@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06219v1",
+  "title": "Human3R: Everyone Everywhere All at Once",
+  "summary": "We present Human3R, a unified, feed-forward framework for online 4D\nhuman-scene reconstruction, in the world frame, from casually captured\nmonocular videos. Unlike previous approaches that rely on multi-stage\npipelines, iterative contact-aware refinement between humans and scenes, and\nheavy dependencies, e.g., human detection, depth estimation, and SLAM\npre-processing, Human3R jointly recovers global multi-person SMPL-X bodies\n(\"everyone\"), dense 3D scene (\"everywhere\"), and camera trajectories in a\nsingle forward pass (\"all-at-once\"). Our method builds upon the 4D online\nreconstruction model CUT3R, and uses parameter-efficient visual prompt tuning,\nto strive to preserve CUT3R's rich spatiotemporal priors, while enabling direct\nreadout of multiple SMPL-X bodies. Human3R is a unified model that eliminates\nheavy dependencies and iterative refinement. After being trained on the\nrelatively small-scale synthetic dataset BEDLAM for just one day on one GPU, it\nachieves superior performance with remarkable efficiency: it reconstructs\nmultiple humans in a one-shot manner, along with 3D scenes, in one stage, at\nreal-time speed (15 FPS) with a low memory footprint (8 GB). Extensive\nexperiments demonstrate that Human3R delivers state-of-the-art or competitive\nperformance across tasks, including global human motion estimation, local human\nmesh recovery, video depth estimation, and camera pose estimation, with a\nsingle unified model. We hope that Human3R will serve as a simple yet strong\nbaseline, be easily extended for downstream applications.Code available in\nhttps://fanegg.github.io/Human3R",
+  "authors": [
+    "Yue Chen",
+    "Xingyu Chen",
+    "Yuxuan Xue",
+    "Anpei Chen",
+    "Yuliang Xiu",
+    "Gerard Pons-Moll"
+  ],
+  "published": "2025-10-07T17:59:52Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06219v1",
+  "primary_area": "video_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Human3R提出了一种单目视频实时4D人场景重建框架，通过前馈网络一次性恢复多人人体模型、密集3D场景和相机轨迹，无需多阶段流程或迭代优化，在单GPU训练一天后即可达到15FPS实时性能。",
+  "order": 57,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06219v1"
+}

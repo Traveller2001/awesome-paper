@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.05744v1",
+  "title": "Adaptive and Multi-Source Entity Matching for Name Standardization of\n  Astronomical Observation Facilities",
+  "summary": "This ongoing work focuses on the development of a methodology for generating\na multi-source mapping of astronomical observation facilities. To compare two\nentities, we compute scores with adaptable criteria and Natural Language\nProcessing (NLP) techniques (Bag-of-Words approaches, sequential approaches,\nand surface approaches) to map entities extracted from eight semantic\nartifacts, including Wikidata and astronomy-oriented resources. We utilize\nevery property available, such as labels, definitions, descriptions, external\nidentifiers, and more domain-specific properties, such as the observation\nwavebands, spacecraft launch dates, funding agencies, etc. Finally, we use a\nLarge Language Model (LLM) to accept or reject a mapping suggestion and provide\na justification, ensuring the plausibility and FAIRness of the validated\nsynonym pairs. The resulting mapping is composed of multi-source synonym sets\nproviding only one standardized label per entity. Those mappings will be used\nto feed our Name Resolver API and will be integrated into the International\nVirtual Observatory Alliance (IVOA) Vocabularies and the OntoPortal-Astro\nplatform.",
+  "authors": [
+    "Liza Fretel",
+    "Baptiste Cecconi",
+    "Laura Debisschop"
+  ],
+  "published": "2025-10-07T10:04:08Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05744v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究开发了一种天文观测设施名称标准化的自适应多源实体匹配方法，结合可调节评分标准与多种NLP技术（词袋、序列和表层方法），从八个语义资源中提取并映射实体。利用标签、定义、描述、外部标识符及观测波段、发射日期等专业属性，通过大语言模型验证映射建议的合理性，最终生成多源同义词集并为每个实体提供单一标准化标签，将用于名称解析API并集成至国际虚拟天文台联盟词汇表和OntoPortal-Astro平台。",
+  "order": 40,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05744v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06181v1",
+  "title": "Conformalized Gaussian processes for online uncertainty quantification\n  over graphs",
+  "summary": "Uncertainty quantification (UQ) over graphs arises in a number of\nsafety-critical applications in network science. The Gaussian process (GP), as\na classical Bayesian framework for UQ, has been developed to handle\ngraph-structured data by devising topology-aware kernel functions. However,\nsuch GP-based approaches are limited not only by the prohibitive computational\ncomplexity, but also the strict modeling assumptions that might yield poor\ncoverage, especially with labels arriving on the fly. To effect scalability, we\ndevise a novel graph-aware parametric GP model by leveraging the random feature\n(RF)-based kernel approximation, which is amenable to efficient recursive\nBayesian model updates. To further allow for adaptivity, an ensemble of\ngraph-aware RF-based scalable GPs have been leveraged, with per-GP weight\nadapted to data arriving incrementally. To ensure valid coverage with\nrobustness to model mis-specification, we wed the GP-based set predictors with\nthe online conformal prediction framework, which post-processes the prediction\nsets using adaptive thresholds. Experimental results the proposed method yields\nimproved coverage and efficient prediction sets over existing baselines by\nadaptively ensembling the GP models and setting the key threshold parameters in\nCP.",
+  "authors": [
+    "Jinwen Xu",
+    "Qin Lu",
+    "Georgios B. Giannakis"
+  ],
+  "published": "2025-10-07T17:44:13Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06181v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "['training_optimization', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种面向图数据的在线不确定性量化方法，结合高斯过程与保形预测框架。通过随机特征核近似实现计算效率，采用自适应集成策略和在线阈值调整，在保证覆盖度的同时提升预测集质量，适用于网络科学中的安全关键应用。",
+  "order": 83,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06181v1"
+}

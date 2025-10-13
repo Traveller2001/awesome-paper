@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.07317v1",
+  "title": "Quantum-enhanced Computer Vision: Going Beyond Classical Algorithms",
+  "summary": "Quantum-enhanced Computer Vision (QeCV) is a new research field at the\nintersection of computer vision, optimisation theory, machine learning and\nquantum computing. It has high potential to transform how visual signals are\nprocessed and interpreted with the help of quantum computing that leverages\nquantum-mechanical effects in computations inaccessible to classical (i.e.\nnon-quantum) computers. In scenarios where existing non-quantum methods cannot\nfind a solution in a reasonable time or compute only approximate solutions,\nquantum computers can provide, among others, advantages in terms of better time\nscalability for multiple problem classes. Parametrised quantum circuits can\nalso become, in the long term, a considerable alternative to classical neural\nnetworks in computer vision. However, specialised and fundamentally new\nalgorithms must be developed to enable compatibility with quantum hardware and\nunveil the potential of quantum computational paradigms in computer vision.\nThis survey contributes to the existing literature on QeCV with a holistic\nreview of this research field. It is designed as a quantum computing reference\nfor the computer vision community, targeting computer vision students,\nscientists and readers with related backgrounds who want to familiarise\nthemselves with QeCV. We provide a comprehensive introduction to QeCV, its\nspecifics, and methodologies for formulations compatible with quantum hardware\nand QeCV methods, leveraging two main quantum computational paradigms, i.e.\ngate-based quantum computing and quantum annealing. We elaborate on the\noperational principles of quantum computers and the available tools to access,\nprogram and simulate them in the context of QeCV. Finally, we review existing\nquantum computing tools and learning materials and discuss aspects related to\npublishing and reviewing QeCV papers, open challenges and potential social\nimplications.",
+  "authors": [
+    "Natacha Kuete Meli",
+    "Shuteng Wang",
+    "Marcel Seelbach Benkner",
+    "Michele Sasdelli",
+    "Tat-Jun Chin",
+    "Tolga Birdal",
+    "Michael Moeller",
+    "Vladislav Golyanik"
+  ],
+  "published": "2025-10-08T17:59:51Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07317v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文是关于量子增强计算机视觉(QeCV)的综述研究，系统介绍了这一结合计算机视觉与量子计算的新兴领域。文章涵盖量子计算基本原理、与视觉任务兼容的算法设计、基于门电路和量子退火两种计算范式，并讨论了可用工具、开放挑战和社会影响，为计算机视觉研究者提供量子计算的入门参考。",
+  "order": 102,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07317v1"
+}

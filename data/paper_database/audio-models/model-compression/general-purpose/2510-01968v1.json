@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01968v1",
+  "title": "Multi-bit Audio Watermarking",
+  "summary": "We present Timbru, a post-hoc audio watermarking model that achieves\nstate-of-the-art robustness and imperceptibility trade-offs without training an\nembedder-detector model. Given any 44.1 kHz stereo music snippet, our method\nperforms per-audio gradient optimization to add imperceptible perturbations in\nthe latent space of a pretrained audio VAE, guided by a combined message and\nperceptual loss. The watermark can then be extracted using a pretrained CLAP\nmodel. We evaluate 16-bit watermarking on MUSDB18-HQ against AudioSeal,\nWavMark, and SilentCipher across common filtering, noise, compression,\nresampling, cropping, and regeneration attacks. Our approach attains the best\naverage bit error rates, while preserving perceptual quality, demonstrating an\nefficient, dataset-free path to imperceptible audio watermarking.",
+  "authors": [
+    "Luca A. Lanzendörfer",
+    "Kyle Fearne",
+    "Florian Grötschla",
+    "Roger Wattenhofer"
+  ],
+  "published": "2025-10-02T12:41:01Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.01968v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Timbru音频水印模型，通过预训练音频VAE的潜在空间梯度优化，在不训练嵌入-检测模型的情况下实现16位水印。该方法在MUSDB18-HQ数据集上表现出最佳抗攻击能力和感知质量，为无数据集音频水印提供了高效解决方案。",
+  "order": 769,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01968v1"
+}

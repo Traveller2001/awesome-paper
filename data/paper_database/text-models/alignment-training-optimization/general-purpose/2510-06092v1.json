@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06092v1",
+  "title": "Learning from Failures: Understanding LLM Alignment through\n  Failure-Aware Inverse RL",
+  "summary": "Reinforcement Learning from Human Feedback (RLHF) aligns Large Language\nModels (LLMs) with human preferences, yet the underlying reward signals they\ninternalize remain hidden, posing a critical challenge for interpretability and\nsafety. Existing approaches attempt to extract these latent incentives using\nInverse Reinforcement Learning (IRL), but treat all preference pairs equally,\noften overlooking the most informative signals: those examples the extracted\nreward model misclassifies or assigns nearly equal scores, which we term\n\\emph{failures}. We introduce a novel \\emph{failure-aware} IRL algorithm that\nfocuses on misclassified or difficult examples to recover the latent rewards\ndefining model behaviors. By learning from these failures, our failure-aware\nIRL extracts reward functions that better reflect the true objectives behind\nRLHF. We demonstrate that failure-aware IRL outperforms existing IRL baselines\nacross multiple metrics when applied to LLM detoxification, without requiring\nexternal classifiers or supervision. Crucially, failure-aware IRL yields\nrewards that better capture the true incentives learned during RLHF, enabling\nmore effective re-RLHF training than standard IRL. This establishes\nfailure-aware IRL as a robust, scalable method for auditing model alignment and\nreducing ambiguity in the IRL process.",
+  "authors": [
+    "Nyal Patel",
+    "Matthieu Bou",
+    "Arjun Jagota",
+    "Satyapriya Krishna",
+    "Sonali Parbhoo"
+  ],
+  "published": "2025-10-07T16:20:14Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06092v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种故障感知逆向强化学习方法，通过重点关注RLHF过程中被误分类或难以判断的样本，更准确地提取大语言模型内化的奖励信号。相比传统IRL方法，该方法在模型去毒任务中表现更优，无需外部分类器即可提升对齐效果和可解释性。",
+  "order": 96,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06092v1"
+}

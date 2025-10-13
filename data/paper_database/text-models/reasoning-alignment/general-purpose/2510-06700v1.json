@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06700v1",
+  "title": "How Language Models Conflate Logical Validity with Plausibility: A\n  Representational Analysis of Content Effects",
+  "summary": "Both humans and large language models (LLMs) exhibit content effects: biases\nin which the plausibility of the semantic content of a reasoning problem\ninfluences judgments regarding its logical validity. While this phenomenon in\nhumans is best explained by the dual-process theory of reasoning, the\nmechanisms behind content effects in LLMs remain unclear. In this work, we\naddress this issue by investigating how LLMs encode the concepts of validity\nand plausibility within their internal representations. We show that both\nconcepts are linearly represented and strongly aligned in representational\ngeometry, leading models to conflate plausibility with validity. Using steering\nvectors, we demonstrate that plausibility vectors can causally bias validity\njudgements, and vice versa, and that the degree of alignment between these two\nconcepts predicts the magnitude of behavioral content effects across models.\nFinally, we construct debiasing vectors that disentangle these concepts,\nreducing content effects and improving reasoning accuracy. Our findings advance\nunderstanding of how abstract logical concepts are represented in LLMs and\nhighlight representational interventions as a path toward more logical systems.",
+  "authors": [
+    "Leonardo Bertolazzi",
+    "Sandro Pezzelle",
+    "Raffaelle Bernardi"
+  ],
+  "published": "2025-10-08T06:48:08Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06700v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'alignment']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究揭示大语言模型在内部表征中将逻辑有效性与语义合理性线性对齐，导致两者混淆而产生内容效应。通过表征几何分析发现，合理性向量可因果性地影响有效性判断，构建解偏向量可提升推理准确性。",
+  "order": 89,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06700v1"
+}

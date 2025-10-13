@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01146v1",
+  "title": "mR3: Multilingual Rubric-Agnostic Reward Reasoning Models",
+  "summary": "Evaluation using Large Language Model (LLM) judges has been widely adopted in\nEnglish and shown to be effective for automatic evaluation. However, their\nperformance does not generalize well to non-English settings, and it remains\nunclear what constitutes effective multilingual training for such judges. In\nthis paper, we introduce mR3, a massively multilingual, rubric-agnostic reward\nreasoning model trained on 72 languages, achieving the broadest language\ncoverage in reward modeling to date. We present a comprehensive study of data\nand curriculum selection for training to identify effective strategies and data\nsources for building high-quality reward models, including the integration of\ntarget-language reasoning datasets. Our approach attains state-of-the-art\nperformance on multilingual reward model benchmarks, surpassing much larger\nmodels (i.e., GPT-OSS-120B) while being up to 9x smaller, and its effectiveness\nis further confirmed through extensive ablation studies. Our models, data, and\ncode are available as open source at https://github.com/rubricreward/mr3.",
+  "authors": [
+    "David Anugraha",
+    "Shou-Yi Hung",
+    "Zilu Tang",
+    "Annie En-Shiun Lee",
+    "Derry Tanti Wijaya",
+    "Genta Indra Winata"
+  ],
+  "published": "2025-10-01T17:36:59Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01146v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "mR3是一个支持72种语言的多语言奖励推理模型，通过研究数据和课程选择策略，在保持模型规模较小（比GPT-OSS-120B小9倍）的同时，在多语言奖励模型基准测试中达到最先进性能，并开源模型、数据和代码。",
+  "order": 424,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01146v1"
+}

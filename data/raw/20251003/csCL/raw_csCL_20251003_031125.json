@@ -1,0 +1,507 @@
+{
+  "generated_at": "2025-10-06T03:11:25.648503Z",
+  "paper_date": "20251003",
+  "categories": [
+    "cs.CL"
+  ],
+  "paper_count": 33,
+  "papers": [
+    {
+      "arxiv_id": "2510.03231v1",
+      "title": "Reward Models are Metrics in a Trench Coat",
+      "summary": "The emergence of reinforcement learning in post-training of large language\nmodels has sparked significant interest in reward models. Reward models assess\nthe quality of sampled model outputs to generate training signals. This task is\nalso performed by evaluation metrics that monitor the performance of an AI\nmodel. We find that the two research areas are mostly separate, leading to\nredundant terminology and repeated pitfalls. Common challenges include\nsusceptibility to spurious correlations, impact on downstream reward hacking,\nmethods to improve data quality, and approaches to meta-evaluation. Our\nposition paper argues that a closer collaboration between the fields can help\novercome these issues. To that end, we show how metrics outperform reward\nmodels on specific tasks and provide an extensive survey of the two areas.\nGrounded in this survey, we point to multiple research topics in which closer\nalignment can improve reward models and metrics in areas such as preference\nelicitation methods, avoidance of spurious correlations and reward hacking, and\ncalibration-aware meta-evaluation.",
+      "authors": [
+        "Sebastian Gehrmann"
+      ],
+      "published": "2025-10-03T17:59:44Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03231v1"
+    },
+    {
+      "arxiv_id": "2510.03223v1",
+      "title": "Self-Anchor: Large Language Model Reasoning via Step-by-step Attention\n  Alignment",
+      "summary": "To solve complex reasoning tasks for Large Language Models (LLMs),\nprompting-based methods offer a lightweight alternative to fine-tuning and\nreinforcement learning. However, as reasoning chains extend, critical\nintermediate steps and the original prompt will be buried in the context,\nreceiving insufficient attention and leading to errors. In this paper, we\npropose Self-Anchor, a novel pipeline that leverages the inherent structure of\nreasoning to steer LLM attention. Self-Anchor decomposes reasoning trajectories\ninto structured plans and automatically aligns the model's attention to the\nmost relevant inference steps, allowing the model to maintain focus throughout\ngeneration. Our experiment shows that Self-Anchor outperforms SOTA prompting\nmethods across six benchmarks. Notably, Self-Anchor significantly reduces the\nperformance gap between ``non-reasoning'' models and specialized reasoning\nmodels, with the potential to enable most LLMs to tackle complex reasoning\ntasks without retraining.",
+      "authors": [
+        "Hongxiang Zhang",
+        "Yuan Tian",
+        "Tianyi Zhang"
+      ],
+      "published": "2025-10-03T17:56:33Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03223v1"
+    },
+    {
+      "arxiv_id": "2510.03215v1",
+      "title": "Cache-to-Cache: Direct Semantic Communication Between Large Language\n  Models",
+      "summary": "Multi-LLM systems harness the complementary strengths of diverse Large\nLanguage Models, achieving performance and efficiency gains unattainable by a\nsingle model. In existing designs, LLMs communicate through text, forcing\ninternal representations to be transformed into output token sequences. This\nprocess both loses rich semantic information and incurs token-by-token\ngeneration latency. Motivated by these limitations, we ask: Can LLMs\ncommunicate beyond text? Oracle experiments show that enriching the KV-Cache\nsemantics can improve response quality without increasing cache size,\nsupporting KV-Cache as an effective medium for inter-model communication. Thus,\nwe propose Cache-to-Cache (C2C), a new paradigm for direct semantic\ncommunication between LLMs. C2C uses a neural network to project and fuse the\nsource model's KV-cache with that of the target model to enable direct semantic\ntransfer. A learnable gating mechanism selects the target layers that benefit\nfrom cache communication. Compared with text communication, C2C utilizes the\ndeep, specialized semantics from both models, while avoiding explicit\nintermediate text generation. Experiments show that C2C achieves 8.5-10.5%\nhigher average accuracy than individual models. It further outperforms the text\ncommunication paradigm by approximately 3.0-5.0%, while delivering an average\n2.0x speedup in latency. Our code is available at\nhttps://github.com/thu-nics/C2C.",
+      "authors": [
+        "Tianyu Fu",
+        "Zihan Min",
+        "Hanling Zhang",
+        "Jichao Yan",
+        "Guohao Dai",
+        "Wanli Ouyang",
+        "Yu Wang"
+      ],
+      "published": "2025-10-03T17:52:32Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03215v1"
+    },
+    {
+      "arxiv_id": "2510.03204v1",
+      "title": "FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of\n  Web Agents",
+      "summary": "Web agents powered by large language models (LLMs) must process lengthy web\npage observations to complete user goals; these pages often exceed tens of\nthousands of tokens. This saturates context limits and increases computational\ncost processing; moreover, processing full pages exposes agents to security\nrisks such as prompt injection. Existing pruning strategies either discard\nrelevant content or retain irrelevant context, leading to suboptimal action\nprediction. We introduce FocusAgent, a simple yet effective approach that\nleverages a lightweight LLM retriever to extract the most relevant lines from\naccessibility tree (AxTree) observations, guided by task goals. By pruning\nnoisy and irrelevant content, FocusAgent enables efficient reasoning while\nreducing vulnerability to injection attacks. Experiments on WorkArena and\nWebArena benchmarks show that FocusAgent matches the performance of strong\nbaselines, while reducing observation size by over 50%. Furthermore, a variant\nof FocusAgent significantly reduces the success rate of prompt-injection\nattacks, including banner and pop-up attacks, while maintaining task success\nperformance in attack-free settings. Our results highlight that targeted\nLLM-based retrieval is a practical and robust strategy for building web agents\nthat are efficient, effective, and secure.",
+      "authors": [
+        "Imene Kerboua",
+        "Sahar Omidi Shayegan",
+        "Megh Thakkar",
+        "Xing Han Lù",
+        "Léo Boisvert",
+        "Massimo Caccia",
+        "Jérémy Espinas",
+        "Alexandre Aussem",
+        "Véronique Eglin",
+        "Alexandre Lacoste"
+      ],
+      "published": "2025-10-03T17:41:30Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03204v1"
+    },
+    {
+      "arxiv_id": "2510.03202v1",
+      "title": "Model-Based Ranking of Source Languages for Zero-Shot Cross-Lingual\n  Transfer",
+      "summary": "We present NN-Rank, an algorithm for ranking source languages for\ncross-lingual transfer, which leverages hidden representations from\nmultilingual models and unlabeled target-language data. We experiment with two\npretrained multilingual models and two tasks: part-of-speech tagging (POS) and\nnamed entity recognition (NER). We consider 51 source languages and evaluate on\n56 and 72 target languages for POS and NER, respectively. When using in-domain\ndata, NN-Rank beats state-of-the-art baselines that leverage lexical and\nlinguistic features, with average improvements of up to 35.56 NDCG for POS and\n18.14 NDCG for NER. As prior approaches can fall back to language-level\nfeatures if target language data is not available, we show that NN-Rank remains\ncompetitive using only the Bible, an out-of-domain corpus available for a large\nnumber of languages. Ablations on the amount of unlabeled target data show\nthat, for subsets consisting of as few as 25 examples, NN-Rank produces\nhigh-quality rankings which achieve 92.8% of the NDCG achieved using all\navailable target data for ranking.",
+      "authors": [
+        "Abteen Ebrahimi",
+        "Adam Wiemerslage",
+        "Katharina von der Wense"
+      ],
+      "published": "2025-10-03T17:39:44Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03202v1"
+    },
+    {
+      "arxiv_id": "2510.03174v1",
+      "title": "Topic Modeling as Long-Form Generation: Can Long-Context LLMs\n  revolutionize NTM via Zero-Shot Prompting?",
+      "summary": "Traditional topic models such as neural topic models rely on inference and\ngeneration networks to learn latent topic distributions. This paper explores a\nnew paradigm for topic modeling in the era of large language models, framing TM\nas a long-form generation task whose definition is updated in this paradigm. We\npropose a simple but practical approach to implement LLM-based topic model\ntasks out of the box (sample a data subset, generate topics and representative\ntext with our prompt, text assignment with keyword match). We then investigate\nwhether the long-form generation paradigm can beat NTMs via zero-shot\nprompting. We conduct a systematic comparison between NTMs and LLMs in terms of\ntopic quality and empirically examine the claim that \"a majority of NTMs are\noutdated.\"",
+      "authors": [
+        "Xuan Xu",
+        "Haolun Li",
+        "Zhongliang Yang",
+        "Beilin Chu",
+        "Jia Song",
+        "Moxuan Xu",
+        "Linna Zhou"
+      ],
+      "published": "2025-10-03T16:48:32Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03174v1"
+    },
+    {
+      "arxiv_id": "2510.03156v1",
+      "title": "Neural Correlates of Language Models Are Specific to Human Language",
+      "summary": "Previous work has shown correlations between the hidden states of large\nlanguage models and fMRI brain responses, on language tasks. These correlations\nhave been taken as evidence of the representational similarity of these models\nand brain states. This study tests whether these previous results are robust to\nseveral possible concerns. Specifically this study shows: (i) that the previous\nresults are still found after dimensionality reduction, and thus are not\nattributable to the curse of dimensionality; (ii) that previous results are\nconfirmed when using new measures of similarity; (iii) that correlations\nbetween brain representations and those from models are specific to models\ntrained on human language; and (iv) that the results are dependent on the\npresence of positional encoding in the models. These results confirm and\nstrengthen the results of previous research and contribute to the debate on the\nbiological plausibility and interpretability of state-of-the-art large language\nmodels.",
+      "authors": [
+        "Iñigo Parra"
+      ],
+      "published": "2025-10-03T16:28:31Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03156v1"
+    },
+    {
+      "arxiv_id": "2510.03154v1",
+      "title": "EditLens: Quantifying the Extent of AI Editing in Text",
+      "summary": "A significant proportion of queries to large language models ask them to edit\nuser-provided text, rather than generate new text from scratch. While previous\nwork focuses on detecting fully AI-generated text, we demonstrate that\nAI-edited text is distinguishable from human-written and AI-generated text.\nFirst, we propose using lightweight similarity metrics to quantify the\nmagnitude of AI editing present in a text given the original human-written text\nand validate these metrics with human annotators. Using these similarity\nmetrics as intermediate supervision, we then train EditLens, a regression model\nthat predicts the amount of AI editing present within a text. Our model\nachieves state-of-the-art performance on both binary (F1=94.7%) and ternary\n(F1=90.4%) classification tasks in distinguishing human, AI, and mixed writing.\nNot only do we show that AI-edited text can be detected, but also that the\ndegree of change made by AI to human writing can be detected, which has\nimplications for authorship attribution, education, and policy. Finally, as a\ncase study, we use our model to analyze the effects of AI-edits applied by\nGrammarly, a popular writing assistance tool. To encourage further research, we\ncommit to publicly releasing our models and dataset.",
+      "authors": [
+        "Katherine Thai",
+        "Bradley Emi",
+        "Elyas Masrour",
+        "Mohit Iyyer"
+      ],
+      "published": "2025-10-03T16:27:48Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03154v1"
+    },
+    {
+      "arxiv_id": "2510.03136v1",
+      "title": "Beyond the Final Layer: Intermediate Representations for Better\n  Multilingual Calibration in Large Language Models",
+      "summary": "Confidence calibration, the alignment of a model's predicted confidence with\nits actual accuracy, is crucial for the reliable deployment of Large Language\nModels (LLMs). However, this critical property remains largely under-explored\nin multilingual contexts. In this work, we conduct the first large-scale,\nsystematic studies of multilingual calibration across six model families and\nover 100 languages, revealing that non-English languages suffer from\nsystematically worse calibration. To diagnose this, we investigate the model's\ninternal representations and find that the final layer, biased by\nEnglish-centric training, provides a poor signal for multilingual confidence.\nIn contrast, our layer-wise analysis uncovers a key insight that\nlate-intermediate layers consistently offer a more reliable and\nbetter-calibrated signal. Building on this, we introduce a suite of\ntraining-free methods, including Language-Aware Confidence Ensemble (LACE),\nwhich adaptively selects an optimal ensemble of layers for each specific\nlanguage. Our study highlights the hidden costs of English-centric alignment\nand offer a new path toward building more globally equitable and trustworthy\nLLMs by looking beyond the final layer.",
+      "authors": [
+        "Ej Zhou",
+        "Caiqi Zhang",
+        "Tiancheng Hu",
+        "Chengzu Li",
+        "Nigel Collier",
+        "Ivan Vulić",
+        "Anna Korhonen"
+      ],
+      "published": "2025-10-03T16:07:15Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03136v1"
+    },
+    {
+      "arxiv_id": "2510.03120v1",
+      "title": "SurveyBench: How Well Can LLM(-Agents) Write Academic Surveys?",
+      "summary": "Academic survey writing, which distills vast literature into a coherent and\ninsightful narrative, remains a labor-intensive and intellectually demanding\ntask. While recent approaches, such as general DeepResearch agents and\nsurvey-specialized methods, can generate surveys automatically (a.k.a.\nLLM4Survey), their outputs often fall short of human standards and there lacks\na rigorous, reader-aligned benchmark for thoroughly revealing their\ndeficiencies. To fill the gap, we propose a fine-grained, quiz-driven\nevaluation framework SurveyBench, featuring (1) typical survey topics source\nfrom recent 11,343 arXiv papers and corresponding 4,947 high-quality surveys;\n(2) a multifaceted metric hierarchy that assesses the outline quality (e.g.,\ncoverage breadth, logical coherence), content quality (e.g., synthesis\ngranularity, clarity of insights), and non-textual richness; and (3) a\ndual-mode evaluation protocol that includes content-based and quiz-based\nanswerability tests, explicitly aligned with readers' informational needs.\nResults show SurveyBench effectively challenges existing LLM4Survey approaches\n(e.g., on average 21% lower than human in content-based evaluation).",
+      "authors": [
+        "Zhaojun Sun",
+        "Xuzhou Zhu",
+        "Xuanhe Zhou",
+        "Xin Tong",
+        "Shuo Wang",
+        "Jie Fu",
+        "Guoliang Li",
+        "Zhiyuan Liu",
+        "Fan Wu"
+      ],
+      "published": "2025-10-03T15:49:09Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03120v1"
+    },
+    {
+      "arxiv_id": "2510.03115v1",
+      "title": "Listening or Reading? Evaluating Speech Awareness in Chain-of-Thought\n  Speech-to-Text Translation",
+      "summary": "Speech-to-Text Translation (S2TT) systems built from Automatic Speech\nRecognition (ASR) and Text-to-Text Translation (T2TT) modules face two major\nlimitations: error propagation and the inability to exploit prosodic or other\nacoustic cues. Chain-of-Thought (CoT) prompting has recently been introduced,\nwith the expectation that jointly accessing speech and transcription will\novercome these issues. Analyzing CoT through attribution methods, robustness\nevaluations with corrupted transcripts, and prosody-awareness, we find that it\nlargely mirrors cascaded behavior, relying mainly on transcripts while barely\nleveraging speech. Simple training interventions, such as adding Direct S2TT\ndata or noisy transcript injection, enhance robustness and increase speech\nattribution. These findings challenge the assumed advantages of CoT and\nhighlight the need for architectures that explicitly integrate acoustic\ninformation into translation.",
+      "authors": [
+        "Jacobo Romero-Díaz",
+        "Gerard I. Gállego",
+        "Oriol Pareras",
+        "Federico Costa",
+        "Javier Hernando",
+        "Cristina España-Bonet"
+      ],
+      "published": "2025-10-03T15:42:38Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03115v1"
+    },
+    {
+      "arxiv_id": "2510.03102v1",
+      "title": "Semantic Similarity in Radiology Reports via LLMs and NER",
+      "summary": "Radiology report evaluation is a crucial part of radiologists' training and\nplays a key role in ensuring diagnostic accuracy. As part of the standard\nreporting workflow, a junior radiologist typically prepares a preliminary\nreport, which is then reviewed and edited by a senior radiologist to produce\nthe final report. Identifying semantic differences between preliminary and\nfinal reports is essential for junior doctors, both as a training tool and to\nhelp uncover gaps in clinical knowledge. While AI in radiology is a rapidly\ngrowing field, the application of large language models (LLMs) remains\nchallenging due to the need for specialised domain knowledge. In this paper, we\nexplore the ability of LLMs to provide explainable and accurate comparisons of\nreports in the radiology domain. We begin by comparing the performance of\nseveral LLMs in comparing radiology reports. We then assess a more traditional\napproach based on Named-Entity-Recognition (NER). However, both approaches\nexhibit limitations in delivering accurate feedback on semantic similarity. To\naddress this, we propose Llama-EntScore, a semantic similarity scoring method\nusing a combination of Llama 3.1 and NER with tunable weights to emphasise or\nde-emphasise specific types of differences. Our approach generates a\nquantitative similarity score for tracking progress and also gives an\ninterpretation of the score that aims to offer valuable guidance in reviewing\nand refining their reporting. We find our method achieves 67% exact-match\naccuracy and 93% accuracy within +/- 1 when compared to radiologist-provided\nground truth scores - outperforming both LLMs and NER used independently. Code\nis available at:\n\\href{https://github.com/otmive/llama_reports}{github.com/otmive/llama\\_reports}",
+      "authors": [
+        "Beth Pearson",
+        "Ahmed Adnan",
+        "Zahraa Abdallah"
+      ],
+      "published": "2025-10-03T15:31:11Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03102v1"
+    },
+    {
+      "arxiv_id": "2510.03093v1",
+      "title": "Revisiting Direct Speech-to-Text Translation with Speech LLMs: Better\n  Scaling than CoT Prompting?",
+      "summary": "Recent work on Speech-to-Text Translation (S2TT) has focused on LLM-based\nmodels, introducing the increasingly adopted Chain-of-Thought (CoT) prompting,\nwhere the model is guided to first transcribe the speech and then translate it.\nCoT typically outperforms direct prompting primarily because it can exploit\nabundant Automatic Speech Recognition (ASR) and Text-to-Text Translation (T2TT)\ndatasets to explicitly model its steps. In this paper, we systematically\ncompare CoT and Direct prompting under increasing amounts of S2TT data. To this\nend, we pseudo-label an ASR corpus by translating its transcriptions into six\nEuropean languages, and train LLM-based S2TT systems with both prompting\nstrategies at different data scales. Our results show that Direct improves more\nconsistently as the amount of data increases, suggesting that it may become a\nmore effective approach as larger S2TT resources are created.",
+      "authors": [
+        "Oriol Pareras",
+        "Gerard I. Gállego",
+        "Federico Costa",
+        "Cristina España-Bonet",
+        "Javier Hernando"
+      ],
+      "published": "2025-10-03T15:23:32Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03093v1"
+    },
+    {
+      "arxiv_id": "2510.03060v1",
+      "title": "Semantic Differentiation in Speech Emotion Recognition: Insights from\n  Descriptive and Expressive Speech Roles",
+      "summary": "Speech Emotion Recognition (SER) is essential for improving human-computer\ninteraction, yet its accuracy remains constrained by the complexity of\nemotional nuances in speech. In this study, we distinguish between descriptive\nsemantics, which represents the contextual content of speech, and expressive\nsemantics, which reflects the speaker's emotional state. After watching\nemotionally charged movie segments, we recorded audio clips of participants\ndescribing their experiences, along with the intended emotion tags for each\nclip, participants' self-rated emotional responses, and their valence/arousal\nscores. Through experiments, we show that descriptive semantics align with\nintended emotions, while expressive semantics correlate with evoked emotions.\nOur findings inform SER applications in human-AI interaction and pave the way\nfor more context-aware AI systems.",
+      "authors": [
+        "Rongchen Guo",
+        "Vincent Francoeur",
+        "Isar Nejadgholi",
+        "Sylvain Gagnon",
+        "Miodrag Bolic"
+      ],
+      "published": "2025-10-03T14:42:35Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.03060v1"
+    },
+    {
+      "arxiv_id": "2510.02967v1",
+      "title": "Grounding Large Language Models in Clinical Evidence: A\n  Retrieval-Augmented Generation System for Querying UK NICE Clinical\n  Guidelines",
+      "summary": "This paper presents the development and evaluation of a Retrieval-Augmented\nGeneration (RAG) system for querying the United Kingdom's National Institute\nfor Health and Care Excellence (NICE) clinical guidelines using Large Language\nModels (LLMs). The extensive length and volume of these guidelines can impede\ntheir utilisation within a time-constrained healthcare system, a challenge this\nproject addresses through the creation of a system capable of providing users\nwith precisely matched information in response to natural language queries. The\nsystem's retrieval architecture, composed of a hybrid embedding mechanism, was\nevaluated against a database of 10,195 text chunks derived from three hundred\nguidelines. It demonstrates high performance, with a Mean Reciprocal Rank (MRR)\nof 0.814, a Recall of 81% at the first chunk and of 99.1% within the top ten\nretrieved chunks, when evaluated on 7901 queries.\n  The most significant impact of the RAG system was observed during the\ngeneration phase. When evaluated on a manually curated dataset of seventy\nquestion-answer pairs, RAG-enhanced models showed substantial gains in\nperformance. Faithfulness, the measure of whether an answer is supported by the\nsource text, was increased by 64.7 percentage points to 99.5% for the\nRAG-enhanced O4-Mini model and significantly outperformed the medical-focused\nMeditron3-8B LLM, which scored 43%. This, combined with a perfect Context\nPrecision score of 1 for all RAG-enhanced models, confirms the system's ability\nto prevent information fabrication by grounding its answers in relevant source\nmaterial. This study thus establishes RAG as an effective, reliable, and\nscalable approach for applying generative AI in healthcare, enabling\ncost-effective access to medical guidelines.",
+      "authors": [
+        "Matthew Lewis",
+        "Samuel Thio",
+        "Richard JB Dobson",
+        "Spiros Denaxas"
+      ],
+      "published": "2025-10-03T12:57:13Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02967v1"
+    },
+    {
+      "arxiv_id": "2510.02962v1",
+      "title": "Leave No TRACE: Black-box Detection of Copyrighted Dataset Usage in\n  Large Language Models via Watermarking",
+      "summary": "Large Language Models (LLMs) are increasingly fine-tuned on smaller,\ndomain-specific datasets to improve downstream performance. These datasets\noften contain proprietary or copyrighted material, raising the need for\nreliable safeguards against unauthorized use. Existing membership inference\nattacks (MIAs) and dataset-inference methods typically require access to\ninternal signals such as logits, while current black-box approaches often rely\non handcrafted prompts or a clean reference dataset for calibration, both of\nwhich limit practical applicability. Watermarking is a promising alternative,\nbut prior techniques can degrade text quality or reduce task performance. We\npropose TRACE, a practical framework for fully black-box detection of\ncopyrighted dataset usage in LLM fine-tuning. \\texttt{TRACE} rewrites datasets\nwith distortion-free watermarks guided by a private key, ensuring both text\nquality and downstream utility. At detection time, we exploit the radioactivity\neffect of fine-tuning on watermarked data and introduce an entropy-gated\nprocedure that selectively scores high-uncertainty tokens, substantially\namplifying detection power. Across diverse datasets and model families, TRACE\nconsistently achieves significant detections (p<0.05), often with extremely\nstrong statistical evidence. Furthermore, it supports multi-dataset attribution\nand remains robust even after continued pretraining on large non-watermarked\ncorpora. These results establish TRACE as a practical route to reliable\nblack-box verification of copyrighted dataset usage. We will make our code\navailable at: https://github.com/NusIoraPrivacy/TRACE.",
+      "authors": [
+        "Jingqi Zhang",
+        "Ruibo Chen",
+        "Yingqing Yang",
+        "Peihua Mai",
+        "Heng Huang",
+        "Yan Pang"
+      ],
+      "published": "2025-10-03T12:53:02Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02962v1"
+    },
+    {
+      "arxiv_id": "2510.02938v1",
+      "title": "Finding Diamonds in Conversation Haystacks: A Benchmark for\n  Conversational Data Retrieval",
+      "summary": "We present the Conversational Data Retrieval (CDR) benchmark, the first\ncomprehensive test set for evaluating systems that retrieve conversation data\nfor product insights. With 1.6k queries across five analytical tasks and 9.1k\nconversations, our benchmark provides a reliable standard for measuring\nconversational data retrieval performance. Our evaluation of 16 popular\nembedding models shows that even the best models reach only around NDCG@10 of\n0.51, revealing a substantial gap between document and conversational data\nretrieval capabilities. Our work identifies unique challenges in conversational\ndata retrieval (implicit state recognition, turn dynamics, contextual\nreferences) while providing practical query templates and detailed error\nanalysis across different task categories. The benchmark dataset and code are\navailable at https://github.com/l-yohai/CDR-Benchmark.",
+      "authors": [
+        "Yohan Lee",
+        "Yongwoo Song",
+        "Sangyeop Kim"
+      ],
+      "published": "2025-10-03T12:29:44Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02938v1"
+    },
+    {
+      "arxiv_id": "2510.02919v1",
+      "title": "Self-Reflective Generation at Test Time",
+      "summary": "Large language models (LLMs) increasingly solve complex reasoning tasks via\nlong chain-of-thought, but their forward-only autoregressive generation process\nis fragile; early token errors can cascade, which creates a clear need for\nself-reflection mechanisms. However, existing self-reflection either performs\nrevisions over full drafts or learns self-correction via expensive training,\nboth fundamentally reactive and inefficient. To address this, we propose\nSelf-Reflective Generation at Test Time (SRGen), a lightweight test-time\nframework that reflects before generating at uncertain points. During token\ngeneration, SRGen utilizes dynamic entropy thresholding to identify\nhigh-uncertainty tokens. For each identified token, it trains a specific\ncorrective vector, which fully exploits the already generated context for a\nself-reflective generation to correct the token probability distribution. By\nretrospectively analyzing the partial output, this self-reflection enables more\ntrustworthy decisions, thereby significantly reducing the probability of errors\nat highly uncertain points. Evaluated on challenging mathematical reasoning\nbenchmarks and a diverse set of LLMs, SRGen can consistently strengthen model\nreasoning: improvements in single-pass quality also translate into stronger\nself-consistency voting. Especially, on AIME2024 with\nDeepSeek-R1-Distill-Qwen-7B, SRGen yields absolute improvements of +12.0% on\nPass@1 and +13.3% on Cons@5. Moreover, our findings position SRGen as a\nplug-and-play method that integrates reflection into the generation process for\nreliable LLM reasoning, achieving consistent gains with bounded overhead and\nbroad composability with other training-time (e.g., RLHF) and test-time (e.g.,\nSLOT) techniques.",
+      "authors": [
+        "Jian Mu",
+        "Qixin Zhang",
+        "Zhiyong Wang",
+        "Menglin Yang",
+        "Shuang Qiu",
+        "Chengwei Qin",
+        "Zhongxiang Dai",
+        "Yao Shu"
+      ],
+      "published": "2025-10-03T11:46:04Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02919v1"
+    },
+    {
+      "arxiv_id": "2510.02855v1",
+      "title": "Constraint Satisfaction Approaches to Wordle: Novel Heuristics and\n  Cross-Lexicon Validation",
+      "summary": "Wordle presents an algorithmically rich testbed for constraint satisfaction\nproblem (CSP) solving. While existing solvers rely on information-theoretic\nentropy maximization or frequency-based heuristics without formal constraint\ntreatment, we present the first comprehensive CSP formulation of Wordle with\nnovel constraint-aware solving strategies. We introduce CSP-Aware Entropy,\ncomputing information gain after constraint propagation rather than on raw\ncandidate sets, and a Probabilistic CSP framework integrating Bayesian\nword-frequency priors with logical constraints. Through evaluation on 2,315\nEnglish words, CSP-Aware Entropy achieves 3.54 average guesses with 99.9%\nsuccess rate, a statistically significant 1.7% improvement over Forward\nChecking (t=-4.82, p<0.001, Cohen's d=0.07) with 46% faster runtime (12.9ms\nversus 23.7ms per guess). Under 10% noise, CSP-aware approaches maintain 5.3\npercentage point advantages (29.0% versus 23.7%, p=0.041), while Probabilistic\nCSP achieves 100% success across all noise levels (0-20%) through constraint\nrecovery mechanisms. Cross-lexicon validation on 500 Spanish words demonstrates\n88% success with zero language-specific tuning, validating that core CSP\nprinciples transfer across languages despite an 11.2 percentage point gap from\nlinguistic differences (p<0.001, Fisher's exact test). Our open-source\nimplementation with 34 unit tests achieving 91% code coverage provides\nreproducible infrastructure for CSP research. The combination of formal CSP\ntreatment, constraint-aware heuristics, probabilistic-logical integration,\nrobustness analysis, and cross-lexicon validation establishes new performance\nbenchmarks demonstrating that principled constraint satisfaction techniques\noutperform classical information-theoretic and learning-based approaches for\nstructured puzzle-solving domains.",
+      "authors": [
+        "Jahidul Arafat",
+        "Fariha Tasmin",
+        "Sanjaya Poudel",
+        "Kamrujjaman",
+        "Eftakhar Ahmed Arnob",
+        "Ahsan Habib Tareq"
+      ],
+      "published": "2025-10-03T09:44:14Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02855v1"
+    },
+    {
+      "arxiv_id": "2510.02830v1",
+      "title": "Evaluating Large Language Models for IUCN Red List Species Information",
+      "summary": "Large Language Models (LLMs) are rapidly being adopted in conservation to\naddress the biodiversity crisis, yet their reliability for species evaluation\nis uncertain. This study systematically validates five leading models on 21,955\nspecies across four core IUCN Red List assessment components: taxonomy,\nconservation status, distribution, and threats. A critical paradox was\nrevealed: models excelled at taxonomic classification (94.9%) but consistently\nfailed at conservation reasoning (27.2% for status assessment). This\nknowledge-reasoning gap, evident across all models, suggests inherent\narchitectural constraints, not just data limitations. Furthermore, models\nexhibited systematic biases favoring charismatic vertebrates, potentially\namplifying existing conservation inequities. These findings delineate clear\nboundaries for responsible LLM deployment: they are powerful tools for\ninformation retrieval but require human oversight for judgment-based decisions.\nA hybrid approach is recommended, where LLMs augment expert capacity while\nhuman experts retain sole authority over risk assessment and policy.",
+      "authors": [
+        "Shinya Uryu"
+      ],
+      "published": "2025-10-03T09:09:35Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02830v1"
+    },
+    {
+      "arxiv_id": "2510.02827v1",
+      "title": "StepChain GraphRAG: Reasoning Over Knowledge Graphs for Multi-Hop\n  Question Answering",
+      "summary": "Recent progress in retrieval-augmented generation (RAG) has led to more\naccurate and interpretable multi-hop question answering (QA). Yet, challenges\npersist in integrating iterative reasoning steps with external knowledge\nretrieval. To address this, we introduce StepChain GraphRAG, a framework that\nunites question decomposition with a Breadth-First Search (BFS) Reasoning Flow\nfor enhanced multi-hop QA. Our approach first builds a global index over the\ncorpus; at inference time, only retrieved passages are parsed on-the-fly into a\nknowledge graph, and the complex query is split into sub-questions. For each\nsub-question, a BFS-based traversal dynamically expands along relevant edges,\nassembling explicit evidence chains without overwhelming the language model\nwith superfluous context. Experiments on MuSiQue, 2WikiMultiHopQA, and HotpotQA\nshow that StepChain GraphRAG achieves state-of-the-art Exact Match and F1\nscores. StepChain GraphRAG lifts average EM by 2.57% and F1 by 2.13% over the\nSOTA method, achieving the largest gain on HotpotQA (+4.70% EM, +3.44% F1).\nStepChain GraphRAG also fosters enhanced explainability by preserving the\nchain-of-thought across intermediate retrieval steps. We conclude by discussing\nhow future work can mitigate the computational overhead and address potential\nhallucinations from large language models to refine efficiency and reliability\nin multi-hop QA.",
+      "authors": [
+        "Tengjun Ni",
+        "Xin Yuan",
+        "Shenghong Li",
+        "Kai Wu",
+        "Ren Ping Liu",
+        "Wei Ni",
+        "Wenjie Zhang"
+      ],
+      "published": "2025-10-03T09:06:37Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02827v1"
+    },
+    {
+      "arxiv_id": "2510.02811v1",
+      "title": "A Computational Framework for Interpretable Text-Based Personality\n  Assessment from Social Media",
+      "summary": "Personality refers to individual differences in behavior, thinking, and\nfeeling. With the growing availability of digital footprints, especially from\nsocial media, automated methods for personality assessment have become\nincreasingly important. Natural language processing (NLP) enables the analysis\nof unstructured text data to identify personality indicators. However, two main\nchallenges remain central to this thesis: the scarcity of large,\npersonality-labeled datasets and the disconnect between personality psychology\nand NLP, which restricts model validity and interpretability. To address these\nchallenges, this thesis presents two datasets -- MBTI9k and PANDORA --\ncollected from Reddit, a platform known for user anonymity and diverse\ndiscussions. The PANDORA dataset contains 17 million comments from over 10,000\nusers and integrates the MBTI and Big Five personality models with demographic\ninformation, overcoming limitations in data size, quality, and label coverage.\nExperiments on these datasets show that demographic variables influence model\nvalidity. In response, the SIMPA (Statement-to-Item Matching Personality\nAssessment) framework was developed - a computational framework for\ninterpretable personality assessment that matches user-generated statements\nwith validated questionnaire items. By using machine learning and semantic\nsimilarity, SIMPA delivers personality assessments comparable to human\nevaluations while maintaining high interpretability and efficiency. Although\nfocused on personality assessment, SIMPA's versatility extends beyond this\ndomain. Its model-agnostic design, layered cue detection, and scalability make\nit suitable for various research and practical applications involving complex\nlabel taxonomies and variable cue associations with target concepts.",
+      "authors": [
+        "Matej Gjurković"
+      ],
+      "published": "2025-10-03T08:36:36Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02811v1"
+    },
+    {
+      "arxiv_id": "2510.02788v1",
+      "title": "XTRA: Cross-Lingual Topic Modeling with Topic and Representation\n  Alignments",
+      "summary": "Cross-lingual topic modeling aims to uncover shared semantic themes across\nlanguages. Several methods have been proposed to address this problem,\nleveraging both traditional and neural approaches. While previous methods have\nachieved some improvements in topic diversity, they often struggle to ensure\nhigh topic coherence and consistent alignment across languages. We propose XTRA\n(Cross-Lingual Topic Modeling with Topic and Representation Alignments), a\nnovel framework that unifies Bag-of-Words modeling with multilingual\nembeddings. XTRA introduces two core components: (1) representation alignment,\naligning document-topic distributions via contrastive learning in a shared\nsemantic space; and (2) topic alignment, projecting topic-word distributions\ninto the same space to enforce crosslingual consistency. This dual mechanism\nenables XTRA to learn topics that are interpretable (coherent and diverse) and\nwell-aligned across languages. Experiments on multilingual corpora confirm that\nXTRA significantly outperforms strong baselines in topic coherence, diversity,\nand alignment quality. Code and reproducible scripts are available at https:\n//github.com/tienphat140205/XTRA.",
+      "authors": [
+        "Tien Phat Nguyen",
+        "Vu Minh Ngo",
+        "Tung Nguyen",
+        "Linh Van Ngo",
+        "Duc Anh Nguyen",
+        "Sang Dinh",
+        "Trung Le"
+      ],
+      "published": "2025-10-03T07:46:23Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02788v1"
+    },
+    {
+      "arxiv_id": "2510.02752v1",
+      "title": "The Path of Self-Evolving Large Language Models: Achieving\n  Data-Efficient Learning via Intrinsic Feedback",
+      "summary": "Reinforcement learning (RL) has demonstrated potential in enhancing the\nreasoning capabilities of large language models (LLMs), but such training\ntypically demands substantial efforts in creating and annotating data. In this\nwork, we explore improving LLMs through RL with minimal data. Our approach\nalternates between the LLM proposing a task and then attempting to solve it. To\nminimize data dependency, we introduce two novel mechanisms grounded in\nself-awareness: (1) self-aware difficulty prediction, where the model learns to\nassess task difficulty relative to its own abilities and prioritize challenging\nyet solvable tasks, and (2) self-aware limit breaking, where the model\nrecognizes when a task is beyond its capability boundary and proactively\nrequests external data to break through that limit. Extensive experiments on\nnine benchmarks showing a 53.8% relative improvement with less than 1.2% extra\ndata demonstrate the efficacy of self-aware RL and underscore the promise of\nself-evolving agent training.",
+      "authors": [
+        "Hangfan Zhang",
+        "Siyuan Xu",
+        "Zhimeng Guo",
+        "Huaisheng Zhu",
+        "Shicheng Liu",
+        "Xinrun Wang",
+        "Qiaosheng Zhang",
+        "Yang Chen",
+        "Peng Ye",
+        "Lei Bai",
+        "Shuyue Hu"
+      ],
+      "published": "2025-10-03T06:32:10Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02752v1"
+    },
+    {
+      "arxiv_id": "2510.02742v1",
+      "title": "IndiCASA: A Dataset and Bias Evaluation Framework in LLMs Using\n  Contrastive Embedding Similarity in the Indian Context",
+      "summary": "Large Language Models (LLMs) have gained significant traction across critical\ndomains owing to their impressive contextual understanding and generative\ncapabilities. However, their increasing deployment in high stakes applications\nnecessitates rigorous evaluation of embedded biases, particularly in culturally\ndiverse contexts like India where existing embedding-based bias assessment\nmethods often fall short in capturing nuanced stereotypes. We propose an\nevaluation framework based on a encoder trained using contrastive learning that\ncaptures fine-grained bias through embedding similarity. We also introduce a\nnovel dataset - IndiCASA (IndiBias-based Contextually Aligned Stereotypes and\nAnti-stereotypes) comprising 2,575 human-validated sentences spanning five\ndemographic axes: caste, gender, religion, disability, and socioeconomic\nstatus. Our evaluation of multiple open-weight LLMs reveals that all models\nexhibit some degree of stereotypical bias, with disability related biases being\nnotably persistent, and religion bias generally lower likely due to global\ndebiasing efforts demonstrating the need for fairer model development.",
+      "authors": [
+        "Santhosh G S",
+        "Akshay Govind S",
+        "Gokul S Krishnan",
+        "Balaraman Ravindran",
+        "Sriraam Natarajan"
+      ],
+      "published": "2025-10-03T06:03:26Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02742v1"
+    },
+    {
+      "arxiv_id": "2510.02726v1",
+      "title": "PGMEL: Policy Gradient-based Generative Adversarial Network for\n  Multimodal Entity Linking",
+      "summary": "The task of entity linking, which involves associating mentions with their\nrespective entities in a knowledge graph, has received significant attention\ndue to its numerous potential applications. Recently, various multimodal entity\nlinking (MEL) techniques have been proposed, targeted to learn comprehensive\nembeddings by leveraging both text and vision modalities. The selection of\nhigh-quality negative samples can potentially play a crucial role in\nmetric/representation learning. However, to the best of our knowledge, this\npossibility remains unexplored in existing literature within the framework of\nMEL. To fill this gap, we address the multimodal entity linking problem in a\ngenerative adversarial setting where the generator is responsible for\ngenerating high-quality negative samples, and the discriminator is assigned the\nresponsibility for the metric learning tasks. Since the generator is involved\nin generating samples, which is a discrete process, we optimize it using policy\ngradient techniques and propose a policy gradient-based generative adversarial\nnetwork for multimodal entity linking (PGMEL). Experimental results based on\nWiki-MEL, Richpedia-MEL and WikiDiverse datasets demonstrate that PGMEL learns\nmeaningful representation by selecting challenging negative samples and\noutperforms state-of-the-art methods.",
+      "authors": [
+        "KM Pooja",
+        "Cheng Long",
+        "Aixin Sun"
+      ],
+      "published": "2025-10-03T05:09:47Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02726v1"
+    },
+    {
+      "arxiv_id": "2510.02719v1",
+      "title": "TravelBench : Exploring LLM Performance in Low-Resource Domains",
+      "summary": "Results on existing LLM benchmarks capture little information over the model\ncapabilities in low-resource tasks, making it difficult to develop effective\nsolutions in these domains. To address these challenges, we curated 14\ntravel-domain datasets spanning 7 common NLP tasks using anonymised data from\nreal-world scenarios, and analysed the performance across LLMs. We report on\nthe accuracy, scaling behaviour, and reasoning capabilities of LLMs in a\nvariety of tasks. Our results confirm that general benchmarking results are\ninsufficient for understanding model performance in low-resource tasks. Despite\nthe amount of training FLOPs, out-of-the-box LLMs hit performance bottlenecks\nin complex, domain-specific scenarios. Furthermore, reasoning provides a more\nsignificant boost for smaller LLMs by making the model a better judge on\ncertain tasks.",
+      "authors": [
+        "Srinivas Billa",
+        "Xiaonan Jing"
+      ],
+      "published": "2025-10-03T04:44:34Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02719v1"
+    },
+    {
+      "arxiv_id": "2510.02712v1",
+      "title": "Time-To-Inconsistency: A Survival Analysis of Large Language Model\n  Robustness to Adversarial Attacks",
+      "summary": "Large Language Models (LLMs) have revolutionized conversational AI, yet their\nrobustness in extended multi-turn dialogues remains poorly understood. Existing\nevaluation frameworks focus on static benchmarks and single-turn assessments,\nfailing to capture the temporal dynamics of conversational degradation that\ncharacterize real-world interactions. In this work, we present the first\ncomprehensive survival analysis of conversational AI robustness, analyzing\n36,951 conversation turns across 9 state-of-the-art LLMs to model failure as a\ntime-to-event process. Our survival modeling framework-employing Cox\nproportional hazards, Accelerated Failure Time, and Random Survival Forest\napproaches-reveals extraordinary temporal dynamics. We find that abrupt,\nprompt-to-prompt(P2P) semantic drift is catastrophic, dramatically increasing\nthe hazard of conversational failure. In stark contrast, gradual, cumulative\ndrift is highly protective, vastly reducing the failure hazard and enabling\nsignificantly longer dialogues. AFT models with interactions demonstrate\nsuperior performance, achieving excellent discrimination and exceptional\ncalibration. These findings establish survival analysis as a powerful paradigm\nfor evaluating LLM robustness, offer concrete insights for designing resilient\nconversational agents, and challenge prevailing assumptions about the necessity\nof semantic consistency in conversational AI Systems.",
+      "authors": [
+        "Yubo Li",
+        "Ramayya Krishnan",
+        "Rema Padman"
+      ],
+      "published": "2025-10-03T04:26:10Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02712v1"
+    },
+    {
+      "arxiv_id": "2510.02671v1",
+      "title": "Uncertainty as Feature Gaps: Epistemic Uncertainty Quantification of\n  LLMs in Contextual Question-Answering",
+      "summary": "Uncertainty Quantification (UQ) research has primarily focused on closed-book\nfactual question answering (QA), while contextual QA remains unexplored,\ndespite its importance in real-world applications. In this work, we focus on UQ\nfor the contextual QA task and propose a theoretically grounded approach to\nquantify epistemic uncertainty. We begin by introducing a task-agnostic,\ntoken-level uncertainty measure defined as the cross-entropy between the\npredictive distribution of the given model and the unknown true distribution.\nBy decomposing this measure, we isolate the epistemic component and approximate\nthe true distribution by a perfectly prompted, idealized model. We then derive\nan upper bound for epistemic uncertainty and show that it can be interpreted as\nsemantic feature gaps in the given model's hidden representations relative to\nthe ideal model. We further apply this generic framework to the contextual QA\ntask and hypothesize that three features approximate this gap: context-reliance\n(using the provided context rather than parametric knowledge), context\ncomprehension (extracting relevant information from context), and honesty\n(avoiding intentional lies). Using a top-down interpretability approach, we\nextract these features by using only a small number of labeled samples and\nensemble them to form a robust uncertainty score. Experiments on multiple QA\nbenchmarks in both in-distribution and out-of-distribution settings show that\nour method substantially outperforms state-of-the-art unsupervised\n(sampling-free and sampling-based) and supervised UQ methods, achieving up to a\n13-point PRR improvement while incurring a negligible inference overhead.",
+      "authors": [
+        "Yavuz Bakman",
+        "Sungmin Kang",
+        "Zhiqi Huang",
+        "Duygu Nur Yaldiz",
+        "Catarina G. Belém",
+        "Chenyang Zhu",
+        "Anoop Kumar",
+        "Alfy Samuel",
+        "Salman Avestimehr",
+        "Daben Liu",
+        "Sai Praneeth Karimireddy"
+      ],
+      "published": "2025-10-03T02:09:25Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02671v1"
+    },
+    {
+      "arxiv_id": "2510.02665v1",
+      "title": "Self-Improvement in Multimodal Large Language Models: A Survey",
+      "summary": "Recent advancements in self-improvement for Large Language Models (LLMs) have\nefficiently enhanced model capabilities without significantly increasing costs,\nparticularly in terms of human effort. While this area is still relatively\nyoung, its extension to the multimodal domain holds immense potential for\nleveraging diverse data sources and developing more general self-improving\nmodels. This survey is the first to provide a comprehensive overview of\nself-improvement in Multimodal LLMs (MLLMs). We provide a structured overview\nof the current literature and discuss methods from three perspectives: 1) data\ncollection, 2) data organization, and 3) model optimization, to facilitate the\nfurther development of self-improvement in MLLMs. We also include commonly used\nevaluations and downstream applications. Finally, we conclude by outlining open\nchallenges and future research directions.",
+      "authors": [
+        "Shijian Deng",
+        "Kai Wang",
+        "Tianyu Yang",
+        "Harsh Singh",
+        "Yapeng Tian"
+      ],
+      "published": "2025-10-03T01:48:26Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02665v1"
+    },
+    {
+      "arxiv_id": "2510.02648v1",
+      "title": "SoT: Structured-of-Thought Prompting Guides Multilingual Reasoning in\n  Large Language Models",
+      "summary": "Recent developments have enabled Large Language Models (LLMs) to engage in\ncomplex reasoning tasks through deep thinking. However, the capacity of\nreasoning has not been successfully transferred to non-high-resource languages\ndue to resource constraints, which struggles with multilingual reasoning tasks.\nTo this end, we propose Structured-of-Thought (SoT), a training-free method\nthat improves the performance on multilingual reasoning through a multi-step\ntransformation: Language Thinking Transformation and Structured Knowledge\nTransformation. The SoT method converts language-specific semantic information\ninto language-agnostic structured representations, enabling the models to\nunderstand the query in different languages more sophisticated. Besides, SoT\neffectively guides LLMs toward more concentrated reasoning to maintain\nconsistent underlying reasoning pathways when handling cross-lingual variations\nin expression. Experimental results demonstrate that SoT outperforms several\nstrong baselines on multiple multilingual reasoning benchmarks when adapting to\nvarious backbones of LLMs. It can also be integrated with other training-free\nstrategies for further improvements. Our code is available at\nhttps://github.com/Cherry-qwq/SoT.",
+      "authors": [
+        "Rui Qi",
+        "Zhibo Man",
+        "Yufeng Chen",
+        "Fengran Mo",
+        "Jinan Xu",
+        "Kaiyu Huang"
+      ],
+      "published": "2025-10-03T01:02:14Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02648v1"
+    },
+    {
+      "arxiv_id": "2510.02645v1",
+      "title": "Mind the Gap: Linguistic Divergence and Adaptation Strategies in\n  Human-LLM Assistant vs. Human-Human Interactions",
+      "summary": "As Large Language Models (LLMs) are increasingly deployed in customer-facing\napplications, a critical yet underexplored question is how users communicate\ndifferently with LLM chatbots compared to human agent. In this study, we\npresent empirical evidence that users adopt distinct communication styles when\nusers interact with chatbots versus human agents. Our analysis reveals\nsignificant differences in grammatical fluency, politeness, and lexical\ndiversity in user language between the two settings. These findings suggest\nthat models trained exclusively on human-human interaction data may not\nadequately accommodate the communication style shift that occurs once an LLM\nchatbot is deployed. To enhance LLM robustness to post-launch communication\nstyle changes, we experimented with two strategies: (1) data augmentation\nduring the post-training phase and (2) inference-time user message\nreformulation. Our results indicate that models trained on stylistically\ndiverse datasets significantly outperform those trained exclusively on original\nor stylistically uniform datasets, while inference-time reformulation proved\nless effective. These insights help us to better adapt our models for improved\nLLM-user interaction experiences.",
+      "authors": [
+        "Fulei Zhang",
+        "Zhou Yu"
+      ],
+      "published": "2025-10-03T00:45:37Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02645v1"
+    },
+    {
+      "arxiv_id": "2510.02629v1",
+      "title": "Evaluation Framework for Highlight Explanations of Context Utilisation\n  in Language Models",
+      "summary": "Context utilisation, the ability of Language Models (LMs) to incorporate\nrelevant information from the provided context when generating responses,\nremains largely opaque to users, who cannot determine whether models draw from\nparametric memory or provided context, nor identify which specific context\npieces inform the response. Highlight explanations (HEs) offer a natural\nsolution as they can point the exact context pieces and tokens that influenced\nmodel outputs. However, no existing work evaluates their effectiveness in\naccurately explaining context utilisation. We address this gap by introducing\nthe first gold standard HE evaluation framework for context attribution, using\ncontrolled test cases with known ground-truth context usage, which avoids the\nlimitations of existing indirect proxy evaluations. To demonstrate the\nframework's broad applicability, we evaluate four HE methods -- three\nestablished techniques and MechLight, a mechanistic interpretability approach\nwe adapt for this task -- across four context scenarios, four datasets, and\nfive LMs. Overall, we find that MechLight performs best across all context\nscenarios. However, all methods struggle with longer contexts and exhibit\npositional biases, pointing to fundamental challenges in explanation accuracy\nthat require new approaches to deliver reliable context utilisation\nexplanations at scale.",
+      "authors": [
+        "Jingyi Sun",
+        "Pepa Atanasova",
+        "Sagnik Ray Choudhury",
+        "Sekh Mainul Islam",
+        "Isabelle Augenstein"
+      ],
+      "published": "2025-10-03T00:15:36Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.02629v1"
+    }
+  ]
+}

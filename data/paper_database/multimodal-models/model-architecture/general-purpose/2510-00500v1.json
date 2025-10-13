@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00500v1",
+  "title": "Relative-Absolute Fusion: Rethinking Feature Extraction in Image-Based\n  Iterative Method Selection for Solving Sparse Linear Systems",
+  "summary": "Iterative method selection is crucial for solving sparse linear systems\nbecause these methods inherently lack robustness. Though image-based selection\napproaches have shown promise, their feature extraction techniques might encode\ndistinct matrices into identical image representations, leading to the same\nselection and suboptimal method. In this paper, we introduce RAF\n(Relative-Absolute Fusion), an efficient feature extraction technique to\nenhance image-based selection approaches. By simultaneously extracting and\nfusing image representations as relative features with corresponding numerical\nvalues as absolute features, RAF achieves comprehensive matrix representations\nthat prevent feature ambiguity across distinct matrices, thus improving\nselection accuracy and unlocking the potential of image-based selection\napproaches. We conducted comprehensive evaluations of RAF on SuiteSparse and\nour developed BMCMat (Balanced Multi-Classification Matrix dataset),\ndemonstrating solution time reductions of 0.08s-0.29s for sparse linear\nsystems, which is 5.86%-11.50% faster than conventional image-based selection\napproaches and achieves state-of-the-art (SOTA) performance. BMCMat is\navailable at https://github.com/zkqq/BMCMat.",
+  "authors": [
+    "Kaiqi Zhang",
+    "Mingguan Yang",
+    "Dali Chang",
+    "Chun Chen",
+    "Yuxiang Zhang",
+    "Kexun He",
+    "Jing Zhao"
+  ],
+  "published": "2025-10-01T04:33:23Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00500v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RAF（相对-绝对融合）特征提取技术，通过融合图像相对特征与数值绝对特征，解决稀疏线性系统求解中图像化方法选择时不同矩阵产生相同图像表示的问题。在SuiteSparse和BMCMat数据集上的实验表明，该方法比传统图像选择方法快5.86%-11.50%，达到最先进性能。",
+  "order": 672,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00500v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00778v1",
+  "title": "DIA: The Adversarial Exposure of Deterministic Inversion in Diffusion\n  Models",
+  "summary": "Diffusion models have shown to be strong representation learners, showcasing\nstate-of-the-art performance across multiple domains. Aside from accelerated\nsampling, DDIM also enables the inversion of real images back to their latent\ncodes. A direct inheriting application of this inversion operation is real\nimage editing, where the inversion yields latent trajectories to be utilized\nduring the synthesis of the edited image. Unfortunately, this practical tool\nhas enabled malicious users to freely synthesize misinformative or deepfake\ncontents with greater ease, which promotes the spread of unethical and abusive,\nas well as privacy-, and copyright-infringing contents. While defensive\nalgorithms such as AdvDM and Photoguard have been shown to disrupt the\ndiffusion process on these images, the misalignment between their objectives\nand the iterative denoising trajectory at test time results in weak disruptive\nperformance.In this work, we present the DDIM Inversion Attack (DIA) that\nattacks the integrated DDIM trajectory path. Our results support the effective\ndisruption, surpassing previous defensive methods across various editing\nmethods. We believe that our frameworks and results can provide practical\ndefense methods against the malicious use of AI for both the industry and the\nresearch community. Our code is available here:\nhttps://anonymous.4open.science/r/DIA-13419/.",
+  "authors": [
+    "Seunghoo Hong",
+    "Geonho Son",
+    "Juhun Lee",
+    "Simon S. Woo"
+  ],
+  "published": "2025-10-01T11:20:03Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00778v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DIA攻击方法，针对扩散模型中的DDIM确定性反演路径进行对抗性干扰，有效破坏恶意用户利用图像反演技术生成虚假内容的能力，在防御性能上超越现有方法，为防范AI恶意使用提供实用防御方案。",
+  "order": 248,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00778v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06664v1",
+  "title": "ToolMem: Enhancing Multimodal Agents with Learnable Tool Capability\n  Memory",
+  "summary": "Agents utilizing tools powered by large language models (LLMs) or\nvision-language models (VLMs) have demonstrated remarkable progress in diverse\ntasks across text and visual modalities. Unlike traditional tools such as\ncalculators, which give deterministic outputs, neural tools perform uncertainly\nacross task scenarios. While different tools for a task may excel in varied\nscenarios, existing agents typically rely on fixed tools, thus limiting the\nflexibility in selecting the most suitable tool for specific tasks. In\ncontrast, humans snowball their understanding of the capabilities of different\ntools by interacting with them, and apply this knowledge to select the optimal\ntool when solving a future task. To build agents that similarly benefit from\nthis process, we propose ToolMem that enables agents to develop memories of\ntool capabilities from previous interactions, by summarizing their strengths\nand weaknesses and storing them in memory; at inference, the agent can retrieve\nrelevant entries from ToolMem, and select the best tool to solve individual\ntasks more accurately. We evaluate ToolMem on learning varied text generation\nand text-to-image generation neural tools. Compared to no-memory, generic\nagents, we find ToolMem-augmented agents predict tool performance 14.8% and\n28.7% more accurately across text and multimodal generation scenarios.\nMoreover, ToolMem facilitates optimal tool selection among multiple choices by\n21% and 24% absolute increases in respective scenarios.",
+  "authors": [
+    "Yunzhong Xiao",
+    "Yangmin Li",
+    "Hewei Wang",
+    "Yunlong Tang",
+    "Zora Zhiruo Wang"
+  ],
+  "published": "2025-10-08T05:32:31Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06664v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ToolMem框架，通过让智能体从历史交互中学习工具能力记忆，总结各工具优缺点并存储，在推理时检索相关记忆以选择最优工具。实验表明，在文本和多模态生成任务中，ToolMem能显著提升工具性能预测准确率和最优工具选择能力。",
+  "order": 93,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06664v1"
+}

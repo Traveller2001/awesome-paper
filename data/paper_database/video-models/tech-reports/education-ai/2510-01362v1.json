@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01362v1",
+  "title": "EvoStruggle: A Dataset Capturing the Evolution of Struggle across\n  Activities and Skill Levels",
+  "summary": "The ability to determine when a person struggles during skill acquisition is\ncrucial for both optimizing human learning and enabling the development of\neffective assistive systems. As skills develop, the type and frequency of\nstruggles tend to change, and understanding this evolution is key to\ndetermining the user's current stage of learning. However, existing\nmanipulation datasets have not focused on how struggle evolves over time. In\nthis work, we collect a dataset for struggle determination, featuring 61.68\nhours of video recordings, 2,793 videos, and 5,385 annotated temporal struggle\nsegments collected from 76 participants. The dataset includes 18 tasks grouped\ninto four diverse activities -- tying knots, origami, tangram puzzles, and\nshuffling cards, representing different task variations. In addition,\nparticipants repeated the same task five times to capture their evolution of\nskill. We define the struggle determination problem as a temporal action\nlocalization task, focusing on identifying and precisely localizing struggle\nsegments with start and end times. Experimental results show that Temporal\nAction Localization models can successfully learn to detect struggle cues, even\nwhen evaluated on unseen tasks or activities. The models attain an overall\naverage mAP of 34.56% when generalizing across tasks and 19.24% across\nactivities, indicating that struggle is a transferable concept across various\nskill-based tasks while still posing challenges for further improvement in\nstruggle detection. Our dataset is available at\nhttps://github.com/FELIXFENG2019/EvoStruggle.",
+  "authors": [
+    "Shijia Feng",
+    "Michael Wray",
+    "Walterio Mayol-Cuevas"
+  ],
+  "published": "2025-10-01T18:41:10Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01362v1",
+  "primary_area": "video_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "education_ai",
+  "tldr_zh": "EvoStruggle数据集包含61.68小时视频、2,793个视频片段和5,385个标注的时间段，记录了76名参与者在18项任务中的技能学习过程。该数据集通过时间动作定位模型分析学习过程中的困难演变，在跨任务和跨活动测试中分别达到34.56%和19.24%的平均mAP，表明困难检测是可迁移的概念，对优化人类学习和开发辅助系统具有重要意义。",
+  "order": 589,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01362v1"
+}

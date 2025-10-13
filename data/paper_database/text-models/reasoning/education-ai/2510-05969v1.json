@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.05969v1",
+  "title": "Probing the Difficulty Perception Mechanism of Large Language Models",
+  "summary": "Large language models (LLMs) are increasingly deployed on complex reasoning\ntasks, yet little is known about their ability to internally evaluate problem\ndifficulty, which is an essential capability for adaptive reasoning and\nefficient resource allocation. In this work, we investigate whether LLMs\nimplicitly encode problem difficulty in their internal representations. Using a\nlinear probe on the final-token representations of LLMs, we demonstrate that\nthe difficulty level of math problems can be linearly modeled. We further\nlocate the specific attention heads of the final Transformer layer: these\nattention heads have opposite activation patterns for simple and difficult\nproblems, thus achieving perception of difficulty. Our ablation experiments\nprove the accuracy of the location. Crucially, our experiments provide\npractical support for using LLMs as automatic difficulty annotators,\npotentially substantially reducing reliance on costly human labeling in\nbenchmark construction and curriculum learning. We also uncover that there is a\nsignificant difference in entropy and difficulty perception at the token level.\nOur study reveals that difficulty perception in LLMs is not only present but\nalso structurally organized, offering new theoretical insights and practical\ndirections for future research.",
+  "authors": [
+    "Sunbowen Lee",
+    "Qingyu Yin",
+    "Chak Tou Leong",
+    "Jialiang Zhang",
+    "Yicheng Gong",
+    "Xiaoyu Shen"
+  ],
+  "published": "2025-10-07T14:24:32Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05969v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "education_ai",
+  "tldr_zh": "本研究通过线性探针分析大语言模型的内部表征，发现其能够线性建模数学问题难度，并定位到最终Transformer层中负责难度感知的特定注意力头。这些注意力头对简单和困难问题呈现相反激活模式，证明LLMs具备结构化难度感知能力。该发现为自动难度标注提供了实践支持，可显著减少基准构建和课程学习中的人力标注成本。",
+  "order": 25,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05969v1"
+}

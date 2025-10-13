@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02264v1",
+  "title": "Paving the Way Towards Kinematic Assessment Using Monocular Video: A\n  Preclinical Benchmark of State-of-the-Art Deep-Learning-Based 3D Human Pose\n  Estimators Against Inertial Sensors in Daily Living Activities",
+  "summary": "Advances in machine learning and wearable sensors offer new opportunities for\ncapturing and analyzing human movement outside specialized laboratories.\nAccurate assessment of human movement under real-world conditions is essential\nfor telemedicine, sports science, and rehabilitation. This preclinical\nbenchmark compares monocular video-based 3D human pose estimation models with\ninertial measurement units (IMUs), leveraging the VIDIMU dataset containing a\ntotal of 13 clinically relevant daily activities which were captured using both\ncommodity video cameras and five IMUs. During this initial study only healthy\nsubjects were recorded, so results cannot be generalized to pathological\ncohorts. Joint angles derived from state-of-the-art deep learning frameworks\n(MotionAGFormer, MotionBERT, MMPose 2D-to-3D pose lifting, and NVIDIA\nBodyTrack) were evaluated against joint angles computed from IMU data using\nOpenSim inverse kinematics following the Human3.6M dataset format with 17\nkeypoints. Among them, MotionAGFormer demonstrated superior performance,\nachieving the lowest overall RMSE ($9.27\\deg \\pm 4.80\\deg$) and MAE ($7.86\\deg\n\\pm 4.18\\deg$), as well as the highest Pearson correlation ($0.86 \\pm 0.15$)\nand the highest coefficient of determination $R^{2}$ ($0.67 \\pm 0.28$). The\nresults reveal that both technologies are viable for out-of-the-lab kinematic\nassessment. However, they also highlight key trade-offs between video- and\nsensor-based approaches including costs, accessibility, and precision. This\nstudy clarifies where off-the-shelf video models already provide clinically\npromising kinematics in healthy adults and where they lag behind IMU-based\nestimates while establishing valuable guidelines for researchers and clinicians\nseeking to develop robust, cost-effective, and user-friendly solutions for\ntelehealth and remote patient monitoring.",
+  "authors": [
+    "Mario Medrano-Paredes",
+    "Carmen Fernández-González",
+    "Francisco-Javier Díaz-Pernas",
+    "Hichem Saoudi",
+    "Javier González-Alonso",
+    "Mario Martínez-Zarzuela"
+  ],
+  "published": "2025-10-02T17:44:31Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02264v1",
+  "primary_area": "video_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究比较了基于单目视频的3D人体姿态估计模型与惯性传感器在日常生活活动中的性能，使用VIDIMU数据集评估了四种深度学习框架。MotionAGFormer表现最佳，整体RMSE为9.27°±4.80°，皮尔逊相关系数达0.86±0.15。研究揭示了视频与传感器方案在成本、可及性和精度间的权衡，为远程医疗和患者监测提供了实用指南。",
+  "order": 706,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02264v1"
+}

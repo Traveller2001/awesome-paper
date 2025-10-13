@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01176v1",
+  "title": "Audio Driven Real-Time Facial Animation for Social Telepresence",
+  "summary": "We present an audio-driven real-time system for animating photorealistic 3D\nfacial avatars with minimal latency, designed for social interactions in\nvirtual reality for anyone. Central to our approach is an encoder model that\ntransforms audio signals into latent facial expression sequences in real time,\nwhich are then decoded as photorealistic 3D facial avatars. Leveraging the\ngenerative capabilities of diffusion models, we capture the rich spectrum of\nfacial expressions necessary for natural communication while achieving\nreal-time performance (<15ms GPU time). Our novel architecture minimizes\nlatency through two key innovations: an online transformer that eliminates\ndependency on future inputs and a distillation pipeline that accelerates\niterative denoising into a single step. We further address critical design\nchallenges in live scenarios for processing continuous audio signals\nframe-by-frame while maintaining consistent animation quality. The versatility\nof our framework extends to multimodal applications, including semantic\nmodalities such as emotion conditions and multimodal sensors with head-mounted\neye cameras on VR headsets. Experimental results demonstrate significant\nimprovements in facial animation accuracy over existing offline\nstate-of-the-art baselines, achieving 100 to 1000 times faster inference speed.\nWe validate our approach through live VR demonstrations and across various\nscenarios such as multilingual speeches.",
+  "authors": [
+    "Jiye Lee",
+    "Chenghui Li",
+    "Linh Tran",
+    "Shih-En Wei",
+    "Jason Saragih",
+    "Alexander Richard",
+    "Hanbyul Joo",
+    "Shaojie Bai"
+  ],
+  "published": "2025-10-01T17:57:05Z",
+  "primary_category": "cs.GR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01176v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出基于音频驱动的实时3D面部动画系统，采用扩散模型将语音信号转换为逼真面部表情，通过在线Transformer和蒸馏技术实现毫秒级延迟，适用于VR社交临场感场景，推理速度比现有方法快100-1000倍。",
+  "order": 595,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01176v1"
+}

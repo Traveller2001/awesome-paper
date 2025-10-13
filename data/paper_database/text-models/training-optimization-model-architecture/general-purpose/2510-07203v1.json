@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2510.07203v1",
+  "title": "Sunflower: A New Approach To Expanding Coverage of African Languages in\n  Large Language Models",
+  "summary": "There are more than 2000 living languages in Africa, most of which have been\nbypassed by advances in language technology. Current leading LLMs exhibit\nstrong performance on a number of the most common languages (e.g. Swahili or\nYoruba), but prioritise support for the languages with the most speakers first,\nresulting in piecemeal ability across disparate languages. We contend that a\nregionally focussed approach is more efficient, and present a case study for\nUganda, a country with high linguistic diversity. We describe the development\nof Sunflower 14B and 32B, a pair of models based on Qwen 3 with state of the\nart comprehension in the majority of all Ugandan languages. These models are\nopen source and can be used to reduce language barriers in a number of\nimportant practical applications.",
+  "authors": [
+    "Benjamin Akera",
+    "Evelyn Nafula Ouma",
+    "Gilbert Yiga",
+    "Patrick Walukagga",
+    "Phionah Natukunda",
+    "Trevor Saaka",
+    "Solomon Nsumba",
+    "Lilian Teddy Nabukeera",
+    "Joel Muhanguzi",
+    "Imran Sekalala",
+    "Nimpamya Janat Namara",
+    "Engineer Bainomugisha",
+    "Ernest Mwebaze",
+    "John Quinn"
+  ],
+  "published": "2025-10-08T16:35:53Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07203v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Sunflower方法，针对非洲语言覆盖不足问题，以乌干达为例开发了14B和32B参数的大语言模型。基于Qwen 3架构，这些开源模型在多数乌干达语言上达到先进理解水平，通过区域聚焦策略有效提升语言技术普惠性。",
+  "order": 41,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07203v1"
+}

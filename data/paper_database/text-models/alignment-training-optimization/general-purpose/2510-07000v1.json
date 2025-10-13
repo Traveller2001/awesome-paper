@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07000v1",
+  "title": "Pragyaan: Designing and Curating High-Quality Cultural Post-Training\n  Datasets for Indian Languages",
+  "summary": "The effectiveness of Large Language Models (LLMs) depends heavily on the\navailability of high-quality post-training data, particularly\ninstruction-tuning and preference-based examples. Existing open-source\ndatasets, however, often lack multilingual coverage, cultural grounding, and\nsuffer from task diversity gaps that are especially pronounced for Indian\nlanguages. We introduce a human-in-the-loop pipeline that combines translations\nwith synthetic expansion to produce reliable and diverse Indic post-training\ndata. Using this pipeline, we curate two datasets: Pragyaan-IT (22.5K) and\nPragyaan-Align (100K) across 10 Indian languages covering 13 broad and 56\nsub-categories, leveraging 57 diverse datasets. Our dataset protocol\nincorporates several often-overlooked dimensions and emphasize task diversity,\nmulti-turn dialogue, instruction fidelity, safety alignment, and preservation\nof cultural nuance, providing a foundation for more inclusive and effective\nmultilingual LLMs.",
+  "authors": [
+    "Neel Prabhanjan Rachamalla",
+    "Aravind Konakalla",
+    "Gautam Rajeev",
+    "Ashish Kulkarni",
+    "Chandra Khatri",
+    "Shubham Agarwal"
+  ],
+  "published": "2025-10-08T13:23:45Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07000v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Pragyaan项目，针对印度语言构建高质量文化后训练数据集。通过人机协同流程结合翻译与合成扩展，创建了Pragyaan-IT（2.25万条）和Pragyaan-Align（10万条）两个数据集，涵盖10种印度语言、13大类56子类任务。该工作强调任务多样性、多轮对话、指令保真度、安全对齐和文化细微保护，为构建更具包容性的多语言大模型奠定基础。",
+  "order": 62,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07000v1"
+}

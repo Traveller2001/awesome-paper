@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01031v1",
+  "title": "Secure and reversible face anonymization with diffusion models",
+  "summary": "Face images processed by computer vision algorithms contain sensitive\npersonal information that malicious actors can capture without consent. These\nprivacy and security risks highlight the need for effective face anonymization\nmethods. Current methods struggle to propose a good trade-off between a secure\nscheme with high-quality image generation and reversibility for later person\nauthentication. Diffusion-based approaches produce high-quality anonymized\nimages but lack the secret key mechanism to ensure that only authorized parties\ncan reverse the process. In this paper, we introduce, to our knowledge, the\nfirst secure, high-quality reversible anonymization method based on a diffusion\nmodel. We propose to combine the secret key with the latent faces\nrepresentation of the diffusion model. To preserve identity-irrelevant\nfeatures, generation is constrained by a facial mask, maintaining high-quality\nimages. By using a deterministic forward and backward diffusion process, our\napproach enforces that the original face can be recovered with the correct\nsecret key. We also show that the proposed method produces anonymized faces\nthat are less visually similar to the original faces, compared to other\nprevious work.",
+  "authors": [
+    "Pol Labarbarie",
+    "Vincent Itier",
+    "William Puech"
+  ],
+  "published": "2025-10-01T15:37:20Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01031v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出首个基于扩散模型的安全、高质量可逆人脸匿名化方法，通过结合密钥与潜在人脸表示，在保持图像质量的同时实现仅授权方可恢复原始人脸的安全机制。",
+  "order": 604,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01031v1"
+}

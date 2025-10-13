@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02276v1",
+  "title": "BioX-Bridge: Model Bridging for Unsupervised Cross-Modal Knowledge\n  Transfer across Biosignals",
+  "summary": "Biosignals offer valuable insights into the physiological states of the human\nbody. Although biosignal modalities differ in functionality, signal fidelity,\nsensor comfort, and cost, they are often intercorrelated, reflecting the\nholistic and interconnected nature of human physiology. This opens up the\npossibility of performing the same tasks using alternative biosignal\nmodalities, thereby improving the accessibility, usability, and adaptability of\nhealth monitoring systems. However, the limited availability of large labeled\ndatasets presents challenges for training models tailored to specific tasks and\nmodalities of interest. Unsupervised cross-modal knowledge transfer offers a\npromising solution by leveraging knowledge from an existing modality to support\nmodel training for a new modality. Existing methods are typically based on\nknowledge distillation, which requires running a teacher model alongside\nstudent model training, resulting in high computational and memory overhead.\nThis challenge is further exacerbated by the recent development of foundation\nmodels that demonstrate superior performance and generalization across tasks at\nthe cost of large model sizes. To this end, we explore a new framework for\nunsupervised cross-modal knowledge transfer of biosignals by training a\nlightweight bridge network to align the intermediate representations and enable\ninformation flow between foundation models and across modalities. Specifically,\nwe introduce an efficient strategy for selecting alignment positions where the\nbridge should be constructed, along with a flexible prototype network as the\nbridge architecture. Extensive experiments across multiple biosignal\nmodalities, tasks, and datasets show that BioX-Bridge reduces the number of\ntrainable parameters by 88--99\\% while maintaining or even improving transfer\nperformance compared to state-of-the-art methods.",
+  "authors": [
+    "Chenqi Li",
+    "Yu Liu",
+    "Timothy Denison",
+    "Tingting Zhu"
+  ],
+  "published": "2025-10-02T17:51:19Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.02276v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "medical_ai",
+  "tldr_zh": "BioX-Bridge提出一种无监督跨模态知识迁移框架，通过轻量级桥接网络对齐生物信号基础模型的中间表示，在减少88-99%可训练参数的同时保持或提升迁移性能，解决了生物信号模态间知识迁移的计算效率问题。",
+  "order": 11,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02276v1"
+}

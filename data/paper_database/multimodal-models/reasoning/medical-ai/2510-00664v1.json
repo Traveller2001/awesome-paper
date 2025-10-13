@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00664v1",
+  "title": "Batch-CAM: Introduction to better reasoning in convolutional deep\n  learning models",
+  "summary": "Understanding the inner workings of deep learning models is crucial for\nadvancing artificial intelligence, particularly in high-stakes fields such as\nhealthcare, where accurate explanations are as vital as precision. This paper\nintroduces Batch-CAM, a novel training paradigm that fuses a batch\nimplementation of the Grad-CAM algorithm with a prototypical reconstruction\nloss. This combination guides the model to focus on salient image features,\nthereby enhancing its performance across classification tasks. Our results\ndemonstrate that Batch-CAM achieves a simultaneous improvement in accuracy and\nimage reconstruction quality while reducing training and inference times. By\nensuring models learn from evidence-relevant information,this approach makes a\nrelevant contribution to building more transparent, explainable, and\ntrustworthy AI systems.",
+  "authors": [
+    "Giacomo Ignesti",
+    "Davide Moroni",
+    "Massimo Martinelli"
+  ],
+  "published": "2025-10-01T08:47:00Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00664v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出Batch-CAM训练范式，融合批量Grad-CAM算法与原型重建损失，引导模型聚焦关键图像特征，在提升分类精度的同时优化图像重建质量并缩短训练/推理时间，为构建透明可信的AI系统（尤其适用于医疗等高风险领域）提供新思路。",
+  "order": 645,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00664v1"
+}

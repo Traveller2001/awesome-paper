@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02025v1",
+  "title": "Style Over Story: A Process-Oriented Study of Authorial Creativity in\n  Large Language Models",
+  "summary": "Evaluations of large language models (LLMs)' creativity have focused\nprimarily on the quality of their outputs rather than the processes that shape\nthem. This study takes a process-oriented approach, drawing on narratology to\nexamine LLMs as computational authors. We introduce constraint-based\ndecision-making as a lens for authorial creativity. Using controlled prompting\nto assign authorial personas, we analyze the creative preferences of the\nmodels. Our findings show that LLMs consistently emphasize Style over other\nelements, including Character, Event, and Setting. By also probing the\nreasoning the models provide for their choices, we show that distinctive\nprofiles emerge across models and argue that our approach provides a novel\nsystematic tool for analyzing AI's authorial creativity.",
+  "authors": [
+    "Donghoon Jung",
+    "Jiwoo Choi",
+    "Songeun Chae",
+    "Seohyon Jung"
+  ],
+  "published": "2025-10-02T13:57:14Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02025v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究采用过程导向方法，通过叙事学视角分析大语言模型作为计算作者的创作特性。研究发现LLMs在创作决策中普遍更重视风格而非角色、事件等其他元素，并通过约束提示揭示不同模型的创作偏好特征，为系统分析AI作者创造力提供了新工具。",
+  "order": 355,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02025v1"
+}

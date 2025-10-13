@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02115v1",
+  "title": "Hybrid Deep Learning Modeling Approach to Predict Natural Gas\n  Consumption of Home Subscribers on Limited Data",
+  "summary": "Today, natural gas, as a clean fuel and the best alternative to crude oil,\ncovers a significant part of global demand. Iran is one of the largest\ncountries with energy resources and in terms of gas is the second-largest\ncountry in the world. But, due to the increase in population and energy\nconsumption, it faces problems such as pressure drops and gas outages yearly in\ncold seasons and therefore it is necessary to control gas consumption,\nespecially in the residential sector, which has the largest share in Iran. This\nstudy aims to analyze and predict gas consumption for residential customers in\nZanjan province, Iran, using machine learning models, including LSTM, GRU, and\na hybrid BiLSTM-XGBoost model. The dataset consists of gas consumption and\nmeteorology data collected over six years, from 2017 to 2022. The models were\ntrained and evaluated based on their ability to accurately predict consumption\npatterns. The results indicate that the hybrid BiLSTM-XGBoost model\noutperformed the other models in terms of accuracy, with lower Root Mean\nSquared Error (RMSE), Mean Absolute Percentage Error (MAPE) values, and Mean\nPercentage Error (MPE). Additionally, the Hybrid model demonstrated robust\nperformance, particularly in scenarios with limited data. The findings suggest\nthat machine learning approaches, particularly hybrid models, can be\neffectively utilized to manage and predict gas consumption, contributing to\nmore efficient resource management and reducing seasonal shortages. This study\nhighlights the importance of incorporating geographical and climatic factors in\npredictive modeling, as these significantly influence gas usage across\ndifferent regions.",
+  "authors": [
+    "Milad Firoozeh",
+    "Nader Dashti",
+    "Mohammad Ali Hatefi"
+  ],
+  "published": "2025-10-02T15:22:19Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02115v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究针对伊朗赞詹省住宅用户的天然气消费预测问题，提出了一种混合BiLSTM-XGBoost深度学习模型。在六年消费与气象数据上，该模型相比LSTM和GRU模型表现出更优的预测精度（RMSE、MAPE和MPE指标更低），尤其在数据有限场景下稳健性突出。研究表明结合地理气候因素的混合机器学习方法可有效提升能源管理效率，缓解季节性短缺问题。",
+  "order": 747,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02115v1"
+}

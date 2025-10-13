@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06064v1",
+  "title": "Medical Vision Language Models as Policies for Robotic Surgery",
+  "summary": "Vision-based Proximal Policy Optimization (PPO) struggles with visual\nobservation-based robotic laparoscopic surgical tasks due to the\nhigh-dimensional nature of visual input, the sparsity of rewards in surgical\nenvironments, and the difficulty of extracting task-relevant features from raw\nvisual data. We introduce a simple approach integrating MedFlamingo, a medical\ndomain-specific Vision-Language Model, with PPO. Our method is evaluated on\nfive diverse laparoscopic surgery task environments in LapGym, using only\nendoscopic visual observations. MedFlamingo PPO outperforms and converges\nfaster compared to both standard vision-based PPO and OpenFlamingo PPO\nbaselines, achieving task success rates exceeding 70% across all environments,\nwith improvements ranging from 66.67% to 1114.29% compared to baseline. By\nprocessing task observations and instructions once per episode to generate\nhigh-level planning tokens, our method efficiently combines medical expertise\nwith real-time visual feedback. Our results highlight the value of specialized\nmedical knowledge in robotic surgical planning and decision-making.",
+  "authors": [
+    "Akshay Muppidi",
+    "Martin Radfar"
+  ],
+  "published": "2025-10-07T15:54:34Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06064v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出将医学专用视觉语言模型MedFlamingo与PPO算法结合，用于机器人腹腔镜手术任务。该方法通过单次处理任务观察和指令生成高级规划令牌，在LapGym五个手术环境中仅使用内窥镜视觉观测，成功率超70%，比基准方法提升66.67%-1114.29%，收敛更快，证明了医学专业知识在机器人手术决策中的价值。",
+  "order": 73,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06064v1"
+}

@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.01659v1",
+  "title": "MDSEval: A Meta-Evaluation Benchmark for Multimodal Dialogue\n  Summarization",
+  "summary": "Multimodal Dialogue Summarization (MDS) is a critical task with wide-ranging\napplications. To support the development of effective MDS models, robust\nautomatic evaluation methods are essential for reducing both cost and human\neffort. However, such methods require a strong meta-evaluation benchmark\ngrounded in human annotations. In this work, we introduce MDSEval, the first\nmeta-evaluation benchmark for MDS, consisting image-sharing dialogues,\ncorresponding summaries, and human judgments across eight well-defined quality\naspects. To ensure data quality and richfulness, we propose a novel filtering\nframework leveraging Mutually Exclusive Key Information (MEKI) across\nmodalities. Our work is the first to identify and formalize key evaluation\ndimensions specific to MDS. We benchmark state-of-the-art modal evaluation\nmethods, revealing their limitations in distinguishing summaries from advanced\nMLLMs and their susceptibility to various bias.",
+  "authors": [
+    "Yinhong Liu",
+    "Jianfeng He",
+    "Hang Su",
+    "Ruixue Lian",
+    "Yi Nian",
+    "Jake Vincent",
+    "Srikanth Vishnubhotla",
+    "Robinson Piramuthu",
+    "Saab Mansour"
+  ],
+  "published": "2025-10-02T04:38:27Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01659v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MDSEval——首个多模态对话摘要的元评估基准，包含图像共享对话、对应摘要及八项质量维度的人工标注。通过跨模态互斥关键信息筛选框架确保数据质量，首次系统定义MDS专属评估维度，并揭示现有评估方法在区分先进多模态大模型生成摘要时的局限性。",
+  "order": 379,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01659v1"
+}

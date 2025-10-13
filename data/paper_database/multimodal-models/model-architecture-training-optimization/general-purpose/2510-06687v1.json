@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06687v1",
+  "title": "Semantic Segmentation Algorithm Based on Light Field and LiDAR Fusion",
+  "summary": "Semantic segmentation serves as a cornerstone of scene understanding in\nautonomous driving but continues to face significant challenges under complex\nconditions such as occlusion. Light field and LiDAR modalities provide\ncomplementary visual and spatial cues that are beneficial for robust\nperception; however, their effective integration is hindered by limited\nviewpoint diversity and inherent modality discrepancies. To address these\nchallenges, the first multimodal semantic segmentation dataset integrating\nlight field data and point cloud data is proposed. Based on this dataset, we\nproposed a multi-modal light field point-cloud fusion segmentation\nnetwork(Mlpfseg), incorporating feature completion and depth perception to\nsegment both camera images and LiDAR point clouds simultaneously. The feature\ncompletion module addresses the density mismatch between point clouds and image\npixels by performing differential reconstruction of point-cloud feature maps,\nenhancing the fusion of these modalities. The depth perception module improves\nthe segmentation of occluded objects by reinforcing attention scores for better\nocclusion awareness. Our method outperforms image-only segmentation by 1.71\nMean Intersection over Union(mIoU) and point cloud-only segmentation by 2.38\nmIoU, demonstrating its effectiveness.",
+  "authors": [
+    "Jie Luo",
+    "Yuxuan Jiang",
+    "Xin Jin",
+    "Mingyu Liu",
+    "Yihui Fan"
+  ],
+  "published": "2025-10-08T06:15:06Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06687v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出首个融合光场与LiDAR的多模态语义分割数据集及Mlpfseg网络，通过特征补全模块解决点云与图像密度不匹配问题，利用深度感知模块增强遮挡物体分割能力，在自动驾驶场景中相比单模态方法提升1.71-2.38 mIoU。",
+  "order": 147,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06687v1"
+}

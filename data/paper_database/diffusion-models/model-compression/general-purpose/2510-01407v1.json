@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01407v1",
+  "title": "Ultra-Efficient Decoding for End-to-End Neural Compression and\n  Reconstruction",
+  "summary": "Image compression and reconstruction are crucial for various digital\napplications. While contemporary neural compression methods achieve impressive\ncompression rates, the adoption of such technology has been largely hindered by\nthe complexity and large computational costs of the convolution-based decoders\nduring data reconstruction. To address the decoder bottleneck in neural\ncompression, we develop a new compression-reconstruction framework based on\nincorporating low-rank representation in an autoencoder with vector\nquantization. We demonstrated that performing a series of computationally\nefficient low-rank operations on the learned latent representation of images\ncan efficiently reconstruct the data with high quality. Our approach\ndramatically reduces the computational overhead in the decoding phase of neural\ncompression/reconstruction, essentially eliminating the decoder compute\nbottleneck while maintaining high fidelity of image outputs.",
+  "authors": [
+    "Ethan G. Rogers",
+    "Cheng Wang"
+  ],
+  "published": "2025-10-01T19:42:59Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01407v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于低秩表示和向量量化的神经压缩重建框架，通过高效的低秩运算显著降低解码阶段计算成本，在保持图像高质量重建的同时基本消除解码器计算瓶颈。",
+  "order": 585,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01407v1"
+}

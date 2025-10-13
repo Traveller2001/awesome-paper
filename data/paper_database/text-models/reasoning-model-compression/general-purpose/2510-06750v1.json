@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06750v1",
+  "title": "Gold-Switch: Training-Free Superposition of Slow- and Fast- Thinking\n  LLMs",
+  "summary": "Large Reasoning Models (LRMs) excel in structured tasks by emulating\ndeliberate human reasoning but often suffer from overthinking, degrading\nperformance and wasting resources. One possible baseline is to deploy both LLM\nand LRM, then route input by predicting whether it requires reasoning and may\ncause overthinking. However, deploying multiple models can be costly or\nimpractical. We propose a superposed deployment strategy with a lightweight,\ntraining-free regulation to optimize inference by switching one model on and\noff. Instead of routing, we selectively unlearn from LRM at inference, scaling\ndown computation while preserving reasoning. By analyzing the cumulative energy\nof singular values, we identify optimal low-rank projections to adjust\nreasoning just right.",
+  "authors": [
+    "Jaeseong Lee",
+    "Dayoung Kwon",
+    "seung-won hwang"
+  ],
+  "published": "2025-10-08T08:17:57Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06750v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_compression']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Gold-Switch方法，通过分析奇异值累积能量识别最优低秩投影，在推理时选择性遗忘LRM的过思考倾向，实现单一模型内慢速思考与快速思考的叠加部署，无需训练即可优化推理效率并保持推理能力。",
+  "order": 82,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06750v1"
+}

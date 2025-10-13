@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06841v1",
+  "title": "GAMBIT+: A Challenge Set for Evaluating Gender Bias in Machine\n  Translation Quality Estimation Metrics",
+  "summary": "Gender bias in machine translation (MT) systems has been extensively\ndocumented, but bias in automatic quality estimation (QE) metrics remains\ncomparatively underexplored. Existing studies suggest that QE metrics can also\nexhibit gender bias, yet most analyses are limited by small datasets, narrow\noccupational coverage, and restricted language variety. To address this gap, we\nintroduce a large-scale challenge set specifically designed to probe the\nbehavior of QE metrics when evaluating translations containing gender-ambiguous\noccupational terms. Building on the GAMBIT corpus of English texts with\ngender-ambiguous occupations, we extend coverage to three source languages that\nare genderless or natural-gendered, and eleven target languages with\ngrammatical gender, resulting in 33 source-target language pairs. Each source\ntext is paired with two target versions differing only in the grammatical\ngender of the occupational term(s) (masculine vs. feminine), with all dependent\ngrammatical elements adjusted accordingly. An unbiased QE metric should assign\nequal or near-equal scores to both versions. The dataset's scale, breadth, and\nfully parallel design, where the same set of texts is aligned across all\nlanguages, enables fine-grained bias analysis by occupation and systematic\ncomparisons across languages.",
+  "authors": [
+    "Giorgos Filandrianos",
+    "Orfeas Menis Mastromichalakis",
+    "Wafaa Mohammed",
+    "Giuseppe Attanasio",
+    "Chrysoula Zerva"
+  ],
+  "published": "2025-10-08T10:09:03Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06841v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出GAMBIT+挑战集，用于评估机器翻译质量估计指标中的性别偏见。该数据集扩展至3种源语言和11种目标语言，包含33个语言对，通过对比职业术语的阴阳性翻译版本，系统分析质量估计指标的性别偏见表现。",
+  "order": 74,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06841v1"
+}

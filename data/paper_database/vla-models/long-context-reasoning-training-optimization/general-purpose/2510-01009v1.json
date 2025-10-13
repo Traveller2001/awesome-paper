@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01009v1",
+  "title": "POVQA: Preference-Optimized Video Question Answering with Rationales for\n  Data Efficiency",
+  "summary": "Video Question Answering (VQA) with Large Vision Language Models (LVLMs) has\ngained significant traction in research ever since the Flamingo was introduced\nby Deepmind. Recent advancements in large context/long video question answering\nhave allowed VQA tasks to have context window of 1500+ frames. However, this\nonly leads to 50 seconds of video footage without losing any significant\ninformation. We introduce POVQA, a data-efficient pipeline that compresses each\nsecond of video into a single temporally pooled image (via motion blur and\nweighted averaging variants) and then align LVLMs with lightweight supervision.\nConcretely, we build 1 fps input sources using Blend Blur with Last Frame,\nWeighted Average, Exponential and Ramp pooling and fine-tune QWEN-2.5-VL 7B\nwith supervised two turn target including reasoning and final answer. We apply\nSupervised Fine Tuning (SFT) and Direct Preference Optimization (DPO) on our\nnovel dataset ReasonVQA consisting of 12 movies with 239 human annotated\nquestion-answer with reasoning prompts. On our ReasonVQA dataset, this method\ndramatically improves performance over pooled baselines: F1 score improves from\n0.212 to 0.543, BLEU-4 from 0.031 to 0.291, and ROUGE-L from 0.196 to 0.528.\nRationale quality also significantly increases. Cross-evaluation of SFT + DPO\non various pooling functions show that the gains persist regardless of the\npooling scheme used at train or test time, indicating strong robustness on\nsummarization of temporal evidence. Similar observations were made on zero-shot\nin TVQA.",
+  "authors": [
+    "Ashim Dahal",
+    "Ankit Ghimire",
+    "Saydul Akbar Murad",
+    "Nick Rahimi"
+  ],
+  "published": "2025-10-01T15:15:36Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01009v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "['long_context', 'reasoning', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "POVQA提出一种数据高效的视频问答方法，通过时间池化将每秒视频压缩为单帧，结合监督微调和直接偏好优化，在ReasonVQA数据集上显著提升性能指标，并证明在不同池化方案下均保持鲁棒性。",
+  "order": 607,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01009v1"
+}

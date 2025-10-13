@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2510.02030v1",
+  "title": "kabr-tools: Automated Framework for Multi-Species Behavioral Monitoring",
+  "summary": "A comprehensive understanding of animal behavior ecology depends on scalable\napproaches to quantify and interpret complex, multidimensional behavioral\npatterns. Traditional field observations are often limited in scope,\ntime-consuming, and labor-intensive, hindering the assessment of behavioral\nresponses across landscapes. To address this, we present kabr-tools (Kenyan\nAnimal Behavior Recognition Tools), an open-source package for automated\nmulti-species behavioral monitoring. This framework integrates drone-based\nvideo with machine learning systems to extract behavioral, social, and spatial\nmetrics from wildlife footage. Our pipeline leverages object detection,\ntracking, and behavioral classification systems to generate key metrics,\nincluding time budgets, behavioral transitions, social interactions, habitat\nassociations, and group composition dynamics. Compared to ground-based methods,\ndrone-based observations significantly improved behavioral granularity,\nreducing visibility loss by 15% and capturing more transitions with higher\naccuracy and continuity. We validate kabr-tools through three case studies,\nanalyzing 969 behavioral sequences, surpassing the capacity of traditional\nmethods for data capture and annotation. We found that, like Plains zebras,\nvigilance in Grevy's zebras decreases with herd size, but, unlike Plains\nzebras, habitat has a negligible impact. Plains and Grevy's zebras exhibit\nstrong behavioral inertia, with rare transitions to alert behaviors and\nobserved spatial segregation between Grevy's zebras, Plains zebras, and\ngiraffes in mixed-species herds. By enabling automated behavioral monitoring at\nscale, kabr-tools offers a powerful tool for ecosystem-wide studies, advancing\nconservation, biodiversity research, and ecological monitoring.",
+  "authors": [
+    "Jenna Kline",
+    "Maksim Kholiavchenko",
+    "Samuel Stevens",
+    "Nina van Tiel",
+    "Alison Zhong",
+    "Namrata Banerji",
+    "Alec Sheets",
+    "Sowbaranika Balasubramaniam",
+    "Isla Duporge",
+    "Matthew Thompson",
+    "Elizabeth Campolongo",
+    "Jackson Miliko",
+    "Neil Rosser",
+    "Tanya Berger-Wolf",
+    "Charles V. Stewart",
+    "Daniel I. Rubenstein"
+  ],
+  "published": "2025-10-02T14:03:55Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02030v1",
+  "primary_area": "video_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "kabr-tools是一个开源的多物种行为自动监测框架，整合无人机视频与机器学习系统，通过目标检测、跟踪和行为分类提取野生动物行为指标。相比传统方法，该工具提升行为数据采集粒度15%，在三个案例研究中验证了其在大规模生态监测中的有效性。",
+  "order": 526,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02030v1"
+}

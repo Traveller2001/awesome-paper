@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01581v1",
+  "title": "Think Right: Learning to Mitigate Under-Over Thinking via Adaptive,\n  Attentive Compression",
+  "summary": "Recent thinking models solve complex reasoning tasks by scaling test-time\ncompute, but this scaling must be allocated in line with task difficulty. On\none hand, short reasoning (underthinking) leads to errors on harder problems\nthat require extended reasoning steps; but, excessively long reasoning\n(overthinking) can be token-inefficient, generating unnecessary steps even\nafter reaching a correct intermediate solution. We refer to this as\nunder-adaptivity, where the model fails to modulate its response length\nappropriately given problems of varying difficulty. To address under-adaptivity\nand strike a balance between under- and overthinking, we propose TRAAC (Think\nRight with Adaptive, Attentive Compression), an online post-training RL method\nthat leverages the model's self-attention over a long reasoning trajectory to\nidentify important steps and prune redundant ones. TRAAC also estimates\ndifficulty and incorporates it into training rewards, thereby learning to\nallocate reasoning budget commensurate with example difficulty. Our approach\nimproves accuracy, reduces reasoning steps, and enables adaptive thinking\ncompared to base models and other RL baselines. Across a variety of tasks\n(AIME, AMC, GPQA-D, BBEH), TRAAC (Qwen3-4B) achieves an average absolute\naccuracy gain of 8.4% with a relative reduction in reasoning length of 36.8%\ncompared to the base model, and a 7.9% accuracy gain paired with a 29.4% length\ndrop compared to the best RL baseline. TRAAC also shows strong generalization:\nalthough our models are trained on math datasets, they show accuracy and\nefficiency gains on out-of-distribution non-math datasets like GPQA-D, BBEH,\nand OptimalThinkingBench. Our analysis further verifies that TRAAC provides\nfine-grained adjustments to thinking budget based on difficulty and that a\ncombination of task-difficulty calibration and attention-based compression\nyields gains across diverse tasks.",
+  "authors": [
+    "Joykirat Singh",
+    "Justin Chih-Yao Chen",
+    "Archiki Prasad",
+    "Elias Stengel-Eskin",
+    "Akshay Nambi",
+    "Mohit Bansal"
+  ],
+  "published": "2025-10-02T02:00:20Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01581v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TRAAC方法，通过自适应注意力压缩解决思维模型中的欠适应问题，平衡推理不足与过度推理。该方法利用自注意力识别关键推理步骤并修剪冗余，根据问题难度分配计算资源，在多种任务上实现精度提升8.4%同时减少36.8%推理长度，并展现出良好的跨领域泛化能力。",
+  "order": 395,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01581v1"
+}

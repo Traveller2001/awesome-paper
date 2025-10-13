@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.00862v1",
+  "title": "Gather-Scatter Mamba: Accelerating Propagation with Efficient State\n  Space Model",
+  "summary": "State Space Models (SSMs)-most notably RNNs-have historically played a\ncentral role in sequential modeling. Although attention mechanisms such as\nTransformers have since dominated due to their ability to model global context,\ntheir quadratic complexity and limited scalability make them less suited for\nlong sequences. Video super-resolution (VSR) methods have traditionally relied\non recurrent architectures to propagate features across frames. However, such\napproaches suffer from well-known issues including vanishing gradients, lack of\nparallelism, and slow inference speed. Recent advances in selective SSMs like\nMamba offer a compelling alternative: by enabling input-dependent state\ntransitions with linear-time complexity, Mamba mitigates these issues while\nmaintaining strong long-range modeling capabilities. Despite this potential,\nMamba alone struggles to capture fine-grained spatial dependencies due to its\ncausal nature and lack of explicit context aggregation. To address this, we\npropose a hybrid architecture that combines shifted window self-attention for\nspatial context aggregation with Mamba-based selective scanning for efficient\ntemporal propagation. Furthermore, we introduce Gather-Scatter Mamba (GSM), an\nalignment-aware mechanism that warps features toward a center anchor frame\nwithin the temporal window before Mamba propagation and scatters them back\nafterward, effectively reducing occlusion artifacts and ensuring effective\nredistribution of aggregated information across all frames. The official\nimplementation is provided at: https://github.com/Ko-Lani/GSMamba.",
+  "authors": [
+    "Hyun-kyu Ko",
+    "Youbin Kim",
+    "Jihyeon Park",
+    "Dongheok Park",
+    "Gyeongjin Kang",
+    "Wonjun Cho",
+    "Hyung Yi",
+    "Eunbyung Park"
+  ],
+  "published": "2025-10-01T13:11:13Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00862v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Gather-Scatter Mamba (GSMamba)混合架构，结合移位窗口自注意力与Mamba选择性扫描，通过特征对齐机制解决视频超分辨率中的时空依赖建模问题，在保持线性复杂度的同时提升长序列处理性能。",
+  "order": 620,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00862v1"
+}

@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.07242v1",
+  "title": "Hybrid Reinforcement: When Reward Is Sparse, It's Better to Be Dense",
+  "summary": "Post-training for reasoning of large language models (LLMs) increasingly\nrelies on verifiable rewards: deterministic checkers that provide 0-1\ncorrectness signals. While reliable, such binary feedback is brittle--many\ntasks admit partially correct or alternative answers that verifiers\nunder-credit, and the resulting all-or-nothing supervision limits learning.\nReward models offer richer, continuous feedback, which can serve as a\ncomplementary supervisory signal to verifiers. We introduce HERO (Hybrid\nEnsemble Reward Optimization), a reinforcement learning framework that\nintegrates verifier signals with reward-model scores in a structured way. HERO\nemploys stratified normalization to bound reward-model scores within\nverifier-defined groups, preserving correctness while refining quality\ndistinctions, and variance-aware weighting to emphasize challenging prompts\nwhere dense signals matter most. Across diverse mathematical reasoning\nbenchmarks, HERO consistently outperforms RM-only and verifier-only baselines,\nwith strong gains on both verifiable and hard-to-verify tasks. Our results show\nthat hybrid reward design retains the stability of verifiers while leveraging\nthe nuance of reward models to advance reasoning.",
+  "authors": [
+    "Leitian Tao",
+    "Ilia Kulikov",
+    "Swarnadeep Saha",
+    "Tianlu Wang",
+    "Jing Xu",
+    "Yixuan Li",
+    "Jason E Weston",
+    "Ping Yu"
+  ],
+  "published": "2025-10-08T17:09:41Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07242v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出HERO混合强化学习框架，将可验证的二元奖励与连续奖励模型相结合，通过分层归一化和方差感知加权优化大语言模型的推理能力。在数学推理任务中显著优于单一奖励方法，兼顾稳定性与细粒度反馈。",
+  "order": 32,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07242v1"
+}

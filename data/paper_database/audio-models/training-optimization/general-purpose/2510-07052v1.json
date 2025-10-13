@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.07052v1",
+  "title": "Enhancing Speech Emotion Recognition via Fine-Tuning Pre-Trained Models\n  and Hyper-Parameter Optimisation",
+  "summary": "We propose a workflow for speech emotion recognition (SER) that combines\npre-trained representations with automated hyperparameter optimisation (HPO).\nUsing SpeechBrain wav2vec2-base model fine-tuned on IEMOCAP as the encoder, we\ncompare two HPO strategies, Gaussian Process Bayesian Optimisation (GP-BO) and\nTree-structured Parzen Estimators (TPE), under an identical four-dimensional\nsearch space and 15-trial budget, with balanced class accuracy (BCA) on the\nGerman EmoDB corpus as the objective. All experiments run on 8 CPU cores with\n32 GB RAM. GP-BO achieves 0.96 BCA in 11 minutes, and TPE (Hyperopt\nimplementation) attains 0.97 in 15 minutes. In contrast, grid search requires\n143 trials and 1,680 minutes to exceed 0.9 BCA, and the best AutoSpeech 2020\nbaseline reports only 0.85 in 30 minutes on GPU. For cross-lingual\ngeneralisation, an EmoDB-trained HPO-tuned model improves zero-shot accuracy by\n0.25 on CREMA-D and 0.26 on RAVDESS. Results show that efficient HPO with\npre-trained encoders delivers competitive SER on commodity CPUs. Source code to\nthis work is available at:\nhttps://github.com/youngaryan/speechbrain-emotion-hpo.",
+  "authors": [
+    "Aryan Golbaghi",
+    "Shuo Zhou"
+  ],
+  "published": "2025-10-08T14:20:43Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07052v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种结合预训练模型与超参数优化的语音情感识别方法。使用SpeechBrain wav2vec2-base模型在IEMOCAP上微调，比较高斯过程贝叶斯优化和树结构Parzen估计器两种策略。实验表明，在普通CPU上仅需15分钟即可达到0.97平衡准确率，远超网格搜索和现有基线，且跨语言泛化能力显著提升。",
+  "order": 186,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07052v1"
+}

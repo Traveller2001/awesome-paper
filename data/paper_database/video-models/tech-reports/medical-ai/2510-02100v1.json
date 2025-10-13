@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02100v1",
+  "title": "When Tracking Fails: Analyzing Failure Modes of SAM2 for Point-Based\n  Tracking in Surgical Videos",
+  "summary": "Video object segmentation (VOS) models such as SAM2 offer promising zero-shot\ntracking capabilities for surgical videos using minimal user input. Among the\navailable input types, point-based tracking offers an efficient and low-cost\nalternative, yet its reliability and failure cases in complex surgical\nenvironments are not well understood. In this work, we systematically analyze\nthe failure modes of point-based tracking in laparoscopic cholecystectomy\nvideos. Focusing on three surgical targets, the gallbladder, grasper, and\nL-hook electrocautery, we compare the performance of point-based tracking with\nsegmentation mask initialization. Our results show that point-based tracking is\ncompetitive for surgical tools but consistently underperforms for anatomical\ntargets, where tissue similarity and ambiguous boundaries lead to failure.\nThrough qualitative analysis, we reveal key factors influencing tracking\noutcomes and provide several actionable recommendations for selecting and\nplacing tracking points to improve performance in surgical video analysis.",
+  "authors": [
+    "Woowon Jang",
+    "Jiwon Im",
+    "Juseung Choi",
+    "Niki Rashidian",
+    "Wesley De Neve",
+    "Utku Ozbulak"
+  ],
+  "published": "2025-10-02T15:06:49Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02100v1",
+  "primary_area": "video_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究系统分析了SAM2模型在腹腔镜胆囊切除手术视频中点跟踪的失效模式。结果显示，点跟踪在手术器械上表现良好，但在胆囊等解剖目标上因组织相似性和边界模糊而表现不佳。研究提出了改进跟踪点选择和放置的具体建议。",
+  "order": 519,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02100v1"
+}

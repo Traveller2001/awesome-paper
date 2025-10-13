@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01298v1",
+  "title": "MorphGen: Controllable and Morphologically Plausible Generative\n  Cell-Imaging",
+  "summary": "Simulating in silico cellular responses to interventions is a promising\ndirection to accelerate high-content image-based assays, critical for advancing\ndrug discovery and gene editing. To support this, we introduce MorphGen, a\nstate-of-the-art diffusion-based generative model for fluorescent microscopy\nthat enables controllable generation across multiple cell types and\nperturbations. To capture biologically meaningful patterns consistent with\nknown cellular morphologies, MorphGen is trained with an alignment loss to\nmatch its representations to the phenotypic embeddings of OpenPhenom, a\nstate-of-the-art biological foundation model. Unlike prior approaches that\ncompress multichannel stains into RGB images -- thus sacrificing\norganelle-specific detail -- MorphGen generates the complete set of fluorescent\nchannels jointly, preserving per-organelle structures and enabling a\nfine-grained morphological analysis that is essential for biological\ninterpretation. We demonstrate biological consistency with real images via\nCellProfiler features, and MorphGen attains an FID score over $35\\%$ lower than\nthe prior state-of-the-art MorphoDiff, which only generates RGB images for a\nsingle cell type. Code is available at https://github.com/czi-ai/MorphGen.",
+  "authors": [
+    "Berker Demirel",
+    "Marco Fumero",
+    "Theofanis Karaletsos",
+    "Francesco Locatello"
+  ],
+  "published": "2025-10-01T13:34:29Z",
+  "primary_category": "q-bio.QM",
+  "arxiv_url": "https://arxiv.org/abs/2510.01298v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "alignment",
+  "application_domain": "medical_ai",
+  "tldr_zh": "MorphGen是一种先进的基于扩散模型的荧光显微镜图像生成方法，通过对齐损失与生物基础模型OpenPhenom的表型嵌入匹配，实现跨细胞类型和干预的可控生成。与先前将多通道染色压缩为RGB图像的方法不同，MorphGen联合生成完整的荧光通道，保留细胞器细节，FID分数比现有最佳方法降低35%以上，适用于药物发现和基因编辑研究。",
+  "order": 618,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01298v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00600v1",
+  "title": "Hybrid Training for Vision-Language-Action Models",
+  "summary": "Using Large Language Models to produce intermediate thoughts, a.k.a.\nChain-of-thought (CoT), before providing an answer has been a successful recipe\nfor solving complex language tasks. In robotics, similar embodied CoT\nstrategies, generating thoughts before actions, have also been shown to lead to\nimproved performance when using Vision-Language-Action models (VLAs). As these\ntechniques increase the length of the model's generated outputs to include the\nthoughts, the inference time is negatively affected. Delaying an agent's\nactions in real-world executions, as in robotic manipulation settings, strongly\naffects the usability of a method, as tasks require long sequences of actions.\nHowever, is the generation of long chains-of-thought a strong prerequisite for\nachieving performance improvements? In this work, we explore the idea of Hybrid\nTraining (HyT), a framework that enables VLAs to learn from thoughts and\nbenefit from the associated performance gains, while enabling the possibility\nto leave out CoT generation during inference. Furthermore, by learning to\nconditionally predict a diverse set of outputs, HyT supports flexibility at\ninference time, enabling the model to either predict actions directly, generate\nthoughts or follow instructions. We evaluate the proposed method in a series of\nsimulated benchmarks and real-world experiments.",
+  "authors": [
+    "Pietro Mazzaglia",
+    "Cansu Sancaktar",
+    "Markus Peschl",
+    "Daniel Dijkman"
+  ],
+  "published": "2025-10-01T07:27:15Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.00600v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出混合训练框架HyT，使视觉-语言-动作模型能在训练时学习思维链推理，但在推理时无需生成思维链即可保持性能提升，解决了机器人任务中长思维链导致推理延迟的问题，在仿真和真实实验中验证了有效性。",
+  "order": 658,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00600v1"
+}

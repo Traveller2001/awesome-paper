@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06096v1",
+  "title": "The Alignment Auditor: A Bayesian Framework for Verifying and Refining\n  LLM Objectives",
+  "summary": "The objectives that Large Language Models (LLMs) implicitly optimize remain\ndangerously opaque, making trustworthy alignment and auditing a grand\nchallenge. While Inverse Reinforcement Learning (IRL) can infer reward\nfunctions from behaviour, existing approaches either produce a single,\noverconfident reward estimate or fail to address the fundamental ambiguity of\nthe task (non-identifiability). This paper introduces a principled auditing\nframework that re-frames reward inference from a simple estimation task to a\ncomprehensive process for verification. Our framework leverages Bayesian IRL to\nnot only recover a distribution over objectives but to enable three critical\naudit capabilities: (i) Quantifying and systematically reducing\nnon-identifiability by demonstrating posterior contraction over sequential\nrounds of evidence; (ii) Providing actionable, uncertainty-aware diagnostics\nthat expose spurious shortcuts and identify out-of-distribution prompts where\nthe inferred objective cannot be trusted; and (iii) Validating policy-level\nutility by showing that the refined, low-uncertainty reward can be used\ndirectly in RLHF to achieve training dynamics and toxicity reductions\ncomparable to the ground-truth alignment process. Empirically, our framework\nsuccessfully audits a detoxified LLM, yielding a well-calibrated and\ninterpretable objective that strengthens alignment guarantees. Overall, this\nwork provides a practical toolkit for auditors, safety teams, and regulators to\nverify what LLMs are truly trying to achieve, moving us toward more trustworthy\nand accountable AI.",
+  "authors": [
+    "Matthieu Bou",
+    "Nyal Patel",
+    "Arjun Jagota",
+    "Satyapriya Krishna",
+    "Sonali Parbhoo"
+  ],
+  "published": "2025-10-07T16:25:14Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06096v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种基于贝叶斯逆强化学习的对齐审计框架，通过量化目标不确定性、提供可操作诊断和验证策略效用，解决大语言模型目标不透明问题。该框架能系统减少目标识别模糊性，在去毒任务中验证了其有效性，为AI安全审计提供实用工具。",
+  "order": 95,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06096v1"
+}

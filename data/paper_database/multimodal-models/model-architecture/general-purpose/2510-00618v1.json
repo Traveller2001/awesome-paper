@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00618v1",
+  "title": "Robust Context-Aware Object Recognition",
+  "summary": "In visual recognition, both the object of interest (referred to as\nforeground, FG, for simplicity) and its surrounding context (background, BG)\nplay an important role. However, standard supervised learning often leads to\nunintended over-reliance on the BG, known as shortcut learning of spurious\ncorrelations, limiting model robustness in real-world deployment settings. In\nthe literature, the problem is mainly addressed by suppressing the BG,\nsacrificing context information for improved generalization.\n  We propose RCOR -- Robust Context-Aware Object Recognition -- the first\napproach that jointly achieves robustness and context-awareness without\ncompromising either. RCOR treats localization as an integral part of\nrecognition to decouple object-centric and context-aware modelling, followed by\na robust, non-parametric fusion. It improves the performance of both supervised\nmodels and VLM on datasets with both in-domain and out-of-domain BG, even\nwithout fine-tuning. The results confirm that localization before recognition\nis now possible even in complex scenes as in ImageNet-1k.",
+  "authors": [
+    "Klara Janouskova",
+    "Cristian Gavrus",
+    "Jiri Matas"
+  ],
+  "published": "2025-10-01T07:45:38Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00618v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RCOR方法，通过将定位作为识别的重要组成部分，实现对象中心建模与上下文感知的分离，并采用鲁棒的非参数融合，在保持上下文感知的同时提升模型鲁棒性，无需微调即可在ImageNet-1k等复杂场景中改善监督模型和VLM的性能。",
+  "order": 655,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00618v1"
+}

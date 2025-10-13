@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02291v1",
+  "title": "Test-Time Anchoring for Discrete Diffusion Posterior Sampling",
+  "summary": "We study the problem of posterior sampling using pretrained discrete\ndiffusion foundation models, aiming to recover images from noisy measurements\nwithout retraining task-specific models. While diffusion models have achieved\nremarkable success in generative modeling, most advances rely on continuous\nGaussian diffusion. In contrast, discrete diffusion offers a unified framework\nfor jointly modeling categorical data such as text and images. Beyond\nunification, discrete diffusion provides faster inference, finer control, and\nprincipled training-free Bayesian inference, making it particularly well-suited\nfor posterior sampling. However, existing approaches to discrete diffusion\nposterior sampling face severe challenges: derivative-free guidance yields\nsparse signals, continuous relaxations limit applicability, and split Gibbs\nsamplers suffer from the curse of dimensionality. To overcome these\nlimitations, we introduce Anchored Posterior Sampling (APS) for masked\ndiffusion foundation models, built on two key innovations -- quantized\nexpectation for gradient-like guidance in discrete embedding space, and\nanchored remasking for adaptive decoding. Our approach achieves\nstate-of-the-art performance among discrete diffusion samplers across linear\nand nonlinear inverse problems on the standard benchmarks. We further\ndemonstrate the benefits of our approach in training-free stylization and\ntext-guided editing.",
+  "authors": [
+    "Litu Rout",
+    "Andreas Lugmayr",
+    "Yasamin Jafarian",
+    "Srivatsan Varadharajan",
+    "Constantine Caramanis",
+    "Sanjay Shakkottai",
+    "Ira Kemelmacher-Shlizerman"
+  ],
+  "published": "2025-10-02T17:58:37Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02291v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出锚定后验采样(APS)方法，针对离散扩散基础模型的后验采样问题。通过量化期望和锚定重掩码两项创新技术，在离散嵌入空间实现梯度式引导和自适应解码，在线性和非线性逆问题中达到最先进性能，支持无需训练的风格化和文本引导编辑。",
+  "order": 698,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02291v1"
+}

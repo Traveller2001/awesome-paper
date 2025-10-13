@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06855v1",
+  "title": "Online Generic Event Boundary Detection",
+  "summary": "Generic Event Boundary Detection (GEBD) aims to interpret long-form videos\nthrough the lens of human perception. However, current GEBD methods require\nprocessing complete video frames to make predictions, unlike humans processing\ndata online and in real-time. To bridge this gap, we introduce a new task,\nOnline Generic Event Boundary Detection (On-GEBD), aiming to detect boundaries\nof generic events immediately in streaming videos. This task faces unique\nchallenges of identifying subtle, taxonomy-free event changes in real-time,\nwithout the access to future frames. To tackle these challenges, we propose a\nnovel On-GEBD framework, Estimator, inspired by Event Segmentation Theory (EST)\nwhich explains how humans segment ongoing activity into events by leveraging\nthe discrepancies between predicted and actual information. Our framework\nconsists of two key components: the Consistent Event Anticipator (CEA), and the\nOnline Boundary Discriminator (OBD). Specifically, the CEA generates a\nprediction of the future frame reflecting current event dynamics based solely\non prior frames. Then, the OBD measures the prediction error and adaptively\nadjusts the threshold using statistical tests on past errors to capture\ndiverse, subtle event transitions. Experimental results demonstrate that\nEstimator outperforms all baselines adapted from recent online video\nunderstanding models and achieves performance comparable to prior offline-GEBD\nmethods on the Kinetics-GEBD and TAPOS datasets.",
+  "authors": [
+    "Hyungrok Jung",
+    "Daneul Kim",
+    "Seunggyun Lim",
+    "Jeany Son",
+    "Jonghyun Choi"
+  ],
+  "published": "2025-10-08T10:23:45Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06855v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出在线通用事件边界检测(On-GEBD)新任务及Estimator框架，通过事件预测器(CEA)和在线边界判别器(OBD)实时检测流媒体视频中的事件边界，无需未来帧信息，在Kinetics-GEBD和TAPOS数据集上达到与离线方法相当的性能。",
+  "order": 133,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06855v1"
+}

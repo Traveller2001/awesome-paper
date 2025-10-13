@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.05874v1",
+  "title": "MaNGO - Adaptable Graph Network Simulators via Meta-Learning",
+  "summary": "Accurately simulating physics is crucial across scientific domains, with\napplications spanning from robotics to materials science. While traditional\nmesh-based simulations are precise, they are often computationally expensive\nand require knowledge of physical parameters, such as material properties. In\ncontrast, data-driven approaches like Graph Network Simulators (GNSs) offer\nfaster inference but suffer from two key limitations: Firstly, they must be\nretrained from scratch for even minor variations in physical parameters, and\nsecondly they require labor-intensive data collection for each new parameter\nsetting. This is inefficient, as simulations with varying parameters often\nshare a common underlying latent structure. In this work, we address these\nchallenges by learning this shared structure through meta-learning, enabling\nfast adaptation to new physical parameters without retraining. To this end, we\npropose a novel architecture that generates a latent representation by encoding\ngraph trajectories using conditional neural processes (CNPs). To mitigate error\naccumulation over time, we combine CNPs with a novel neural operator\narchitecture. We validate our approach, Meta Neural Graph Operator (MaNGO), on\nseveral dynamics prediction tasks with varying material properties,\ndemonstrating superior performance over existing GNS methods. Notably, MaNGO\nachieves accuracy on unseen material properties close to that of an oracle\nmodel.",
+  "authors": [
+    "Philipp Dahlinger",
+    "Tai Hoang",
+    "Denis Blessing",
+    "Niklas Freymuth",
+    "Gerhard Neumann"
+  ],
+  "published": "2025-10-07T12:44:24Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05874v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MaNGO框架，通过元学习解决图网络模拟器在物理参数变化时需要重新训练的问题。结合条件神经过程和新型神经算子架构，能够快速适应新材料属性，在多个动力学预测任务中表现优于现有方法，接近理想模型的精度。",
+  "order": 115,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05874v1"
+}

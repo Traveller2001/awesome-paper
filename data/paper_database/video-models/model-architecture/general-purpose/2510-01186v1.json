@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01186v1",
+  "title": "IMAGEdit: Let Any Subject Transform",
+  "summary": "In this paper, we present IMAGEdit, a training-free framework for any number\nof video subject editing that manipulates the appearances of multiple\ndesignated subjects while preserving non-target regions, without finetuning or\nretraining. We achieve this by providing robust multimodal conditioning and\nprecise mask sequences through a prompt-guided multimodal alignment module and\na prior-based mask retargeting module. We first leverage large models'\nunderstanding and generation capabilities to produce multimodal information and\nmask motion sequences for multiple subjects across various types. Then, the\nobtained prior mask sequences are fed into a pretrained mask-driven video\ngeneration model to synthesize the edited video. With strong generalization\ncapability, IMAGEdit remedies insufficient prompt-side multimodal conditioning\nand overcomes mask boundary entanglement in videos with any number of subjects,\nthereby significantly expanding the applicability of video editing. More\nimportantly, IMAGEdit is compatible with any mask-driven video generation\nmodel, significantly improving overall performance. Extensive experiments on\nour newly constructed multi-subject benchmark MSVBench verify that IMAGEdit\nconsistently surpasses state-of-the-art methods. Code, models, and datasets are\npublicly available at https://github.com/XWH-A/IMAGEdit.",
+  "authors": [
+    "Fei Shen",
+    "Weihao Xu",
+    "Rui Yan",
+    "Dong Zhang",
+    "Xiangbo Shu",
+    "Jinhui Tang"
+  ],
+  "published": "2025-10-01T17:59:56Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01186v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "IMAGEdit是一种无需训练的通用视频编辑框架，通过多模态对齐模块和基于先验的掩码重定向模块，实现对任意数量视频主体的外观编辑，同时保持非目标区域不变。该方法兼容各类掩码驱动视频生成模型，在新建的多主体基准MSVBench上表现优于现有技术。",
+  "order": 593,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01186v1"
+}

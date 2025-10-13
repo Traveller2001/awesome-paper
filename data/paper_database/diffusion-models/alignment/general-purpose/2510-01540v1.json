@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.01540v1",
+  "title": "Towards Better Optimization For Listwise Preference in Diffusion Models",
+  "summary": "Reinforcement learning from human feedback (RLHF) has proven effectiveness\nfor aligning text-to-image (T2I) diffusion models with human preferences.\nAlthough Direct Preference Optimization (DPO) is widely adopted for its\ncomputational efficiency and avoidance of explicit reward modeling, its\napplications to diffusion models have primarily relied on pairwise preferences.\nThe precise optimization of listwise preferences remains largely unaddressed.\nIn practice, human feedback on image preferences often contains implicit ranked\ninformation, which conveys more precise human preferences than pairwise\ncomparisons. In this work, we propose Diffusion-LPO, a simple and effective\nframework for Listwise Preference Optimization in diffusion models with\nlistwise data. Given a caption, we aggregate user feedback into a ranked list\nof images and derive a listwise extension of the DPO objective under the\nPlackett-Luce model. Diffusion-LPO enforces consistency across the entire\nranking by encouraging each sample to be preferred over all of its lower-ranked\nalternatives. We empirically demonstrate the effectiveness of Diffusion-LPO\nacross various tasks, including text-to-image generation, image editing, and\npersonalized preference alignment. Diffusion-LPO consistently outperforms\npairwise DPO baselines on visual quality and preference alignment.",
+  "authors": [
+    "Jiamu Bai",
+    "Xin Yu",
+    "Meilong Xu",
+    "Weitao Lu",
+    "Xin Pan",
+    "Kiwan Maeng",
+    "Daniel Kifer",
+    "Jian Wang",
+    "Yu Wang"
+  ],
+  "published": "2025-10-02T00:26:37Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01540v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Diffusion-LPO框架，针对扩散模型中的列表偏好优化问题，通过将用户反馈聚合成图像排序列表并在Plackett-Luce模型下扩展DPO目标，实现在文本到图像生成、图像编辑和个性化偏好对齐等任务中优于传统成对DPO方法的性能表现。",
+  "order": 575,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01540v1"
+}

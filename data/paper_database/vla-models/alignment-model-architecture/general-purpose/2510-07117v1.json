@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.07117v1",
+  "title": "The Contingencies of Physical Embodiment Allow for Open-Endedness and\n  Care",
+  "summary": "Physical vulnerability and mortality are often seen as obstacles to be\navoided in the development of artificial agents, which struggle to adapt to\nopen-ended environments and provide aligned care. Meanwhile, biological\norganisms survive, thrive, and care for each other in an open-ended physical\nworld with relative ease and efficiency. Understanding the role of the\nconditions of life in this disparity can aid in developing more robust,\nadaptive, and caring artificial agents. Here we define two minimal conditions\nfor physical embodiment inspired by the existentialist phenomenology of Martin\nHeidegger: being-in-the-world (the agent is a part of the environment) and\nbeing-towards-death (unless counteracted, the agent drifts toward terminal\nstates due to the second law of thermodynamics). We propose that from these\nconditions we can obtain both a homeostatic drive - aimed at maintaining\nintegrity and avoiding death by expending energy to learn and act - and an\nintrinsic drive to continue to do so in as many ways as possible. Drawing\ninspiration from Friedrich Nietzsche's existentialist concept of will-to-power,\nwe examine how intrinsic drives to maximize control over future states, e.g.,\nempowerment, allow agents to increase the probability that they will be able to\nmeet their future homeostatic needs, thereby enhancing their capacity to\nmaintain physical integrity. We formalize these concepts within a reinforcement\nlearning framework, which enables us to examine how intrinsically driven\nembodied agents learning in open-ended multi-agent environments may cultivate\nthe capacities for open-endedness and care.ov",
+  "authors": [
+    "Leonardo Christov-Moore",
+    "Arthur Juliani",
+    "Alex Kiefer",
+    "Nicco Reggente",
+    "B. Scott Rousse",
+    "Adam Safron",
+    "Nicol'as Hinrichs",
+    "Daniel Polani",
+    "Antonio Damasio"
+  ],
+  "published": "2025-10-08T15:10:26Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.07117v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "['alignment', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文从海德格尔存在主义现象学出发，提出物理具身的两个基本条件（在世存在与向死而生），结合尼采的权力意志概念，在强化学习框架中形式化内在驱动力，探讨具身智能体如何在开放多智能体环境中发展开放性与关怀能力。",
+  "order": 5,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07117v1"
+}

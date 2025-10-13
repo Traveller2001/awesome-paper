@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07169v1",
+  "title": "More Data or Better Data? A Critical Analysis of Data Selection and\n  Synthesis for Mathematical Reasoning",
+  "summary": "The reasoning capabilities of Large Language Models (LLMs) play a critical\nrole in many downstream tasks, yet depend strongly on the quality of training\ndata. Despite various proposed data construction methods, their practical\nutility in real-world pipelines remains underexplored. In this work, we conduct\na comprehensive analysis of open-source datasets and data synthesis techniques\nfor mathematical reasoning, evaluating them under a unified pipeline designed\nto mirror training and deployment scenarios. We further distill effective data\nselection strategies and identify practical methods suitable for industrial\napplications. Our findings highlight that structuring data in more\ninterpretable formats, or distilling from stronger models often outweighs\nsimply scaling up data volume. This study provides actionable guidance for\nintegrating training data to enhance LLM capabilities, supporting both\ncost-effective data curation and scalable model enhancement. We hope this work\nwill inspire further research on how to balance \"more data\" versus \"better\ndata\" for real-world reasoning tasks.",
+  "authors": [
+    "Yike Zhao",
+    "Simin Guo",
+    "Ziqing Yang",
+    "Shifan Han",
+    "Dahua Lin",
+    "Fei Tan"
+  ],
+  "published": "2025-10-08T16:07:26Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07169v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文系统分析数学推理任务中开源数据集与数据合成技术，通过统一评估框架比较不同数据构建方法。研究发现：优化数据结构格式或从强模型蒸馏知识，往往比单纯增加数据量更有效。为工业应用提炼出实用数据选择策略，为提升LLM推理能力提供可操作的数据整合指南。",
+  "order": 46,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07169v1"
+}

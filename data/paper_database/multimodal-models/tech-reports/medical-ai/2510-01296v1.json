@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01296v1",
+  "title": "From 2D to 3D, Deep Learning-based Shape Reconstruction in Magnetic\n  Resonance Imaging: A Review",
+  "summary": "Deep learning-based 3-dimensional (3D) shape reconstruction from\n2-dimensional (2D) magnetic resonance imaging (MRI) has become increasingly\nimportant in medical disease diagnosis, treatment planning, and computational\nmodeling. This review surveys the methodological landscape of 3D MRI\nreconstruction, focusing on 4 primary approaches: point cloud, mesh-based,\nshape-aware, and volumetric models. For each category, we analyze the current\nstate-of-the-art techniques, their methodological foundation, limitations, and\napplications across anatomical structures. We provide an extensive overview\nranging from cardiac to neurological to lung imaging. We also focus on the\nclinical applicability of models to diseased anatomy, and the influence of\ntheir training and testing data. We examine publicly available datasets,\ncomputational demands, and evaluation metrics. Finally, we highlight the\nemerging research directions including multimodal integration and\ncross-modality frameworks. This review aims to provide researchers with a\nstructured overview of current 3D reconstruction methodologies to identify\nopportunities for advancing deep learning towards more robust, generalizable,\nand clinically impactful solutions.",
+  "authors": [
+    "Emma McMillian",
+    "Abhirup Banerjee",
+    "Alfonso Bueno-Orovio"
+  ],
+  "published": "2025-10-01T09:57:29Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01296v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文综述了基于深度学习的2D磁共振图像到3D形状重建方法，涵盖点云、网格、形状感知和体积模型四大技术路线，分析了各方法在心脏、神经、肺部等解剖结构的应用现状、临床价值、数据集及评估指标，并展望了多模态融合等未来研究方向。",
+  "order": 636,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01296v1"
+}

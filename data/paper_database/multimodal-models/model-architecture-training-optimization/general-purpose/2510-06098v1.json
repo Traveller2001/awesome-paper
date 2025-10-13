@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06098v1",
+  "title": "Compact Multi-level-prior Tensor Representation for Hyperspectral Image\n  Super-resolution",
+  "summary": "Fusing a hyperspectral image with a multispectral image acquired over the\nsame scene, \\textit{i.e.}, hyperspectral image super-resolution, has become a\npopular computational way to access the latent high-spatial-spectral-resolution\nimage. To date, a variety of fusion methods have been proposed, among which the\ntensor-based ones have testified that multiple priors, such as multidimensional\nlow-rankness and spatial total variation at multiple levels, effectively drive\nthe fusion process. However, existing tensor-based models can only effectively\nleverage one or two priors at one or two levels, since simultaneously\nincorporating multi-level priors inevitably increases model complexity. This\nintroduces challenges in both balancing the weights of different priors and\noptimizing multi-block structures. Concerning this, we present a novel\nhyperspectral super-resolution model compactly characterizing these multi-level\npriors of hyperspectral images within the tensor framework. Firstly, the\nproposed model decouples the spectral low-rankness and spatial priors by\ncasting the latent high-spatial-spectral-resolution image into spectral\nsubspace and spatial maps via block term decomposition. Secondly, these spatial\nmaps are stacked as the spatial tensor encoding the high-order spatial\nlow-rankness and smoothness priors, which are co-modeled via the proposed\nnon-convex mode-shuffled tensor correlated total variation. Finally, we draw\ninspiration from the linearized alternating direction method of multipliers to\ndesign an efficient algorithm to optimize the resulting model, theoretically\nproving its Karush-Kuhn-Tucker convergence under mild conditions. Experiments\non multiple datasets demonstrate the effectiveness of the proposed algorithm.\nThe code implementation will be available from https://github.com/WongYinJ.",
+  "authors": [
+    "Yinjian Wang",
+    "Wei Li",
+    "Yuanyuan Gui",
+    "Gemine Vivone"
+  ],
+  "published": "2025-10-07T16:26:34Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06098v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种紧凑的多级先验张量表示方法，用于高光谱图像超分辨率。通过块项分解将图像解耦到光谱子空间和空间映射，并利用非凸模式混洗张量相关总变分共同建模高阶空间低秩性和平滑性先验。实验证明该方法在多个数据集上有效提升了融合性能。",
+  "order": 68,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06098v1"
+}

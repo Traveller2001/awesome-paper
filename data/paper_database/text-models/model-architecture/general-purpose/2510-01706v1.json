@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01706v1",
+  "title": "Representational Alignment Across Model Layers and Brain Regions with\n  Hierarchical Optimal Transport",
+  "summary": "Standard representational similarity methods align each layer of a network to\nits best match in another independently, producing asymmetric results, lacking\na global alignment score, and struggling with networks of different depths.\nThese limitations arise from ignoring global activation structure and\nrestricting mappings to rigid one-to-one layer correspondences. We propose\nHierarchical Optimal Transport (HOT), a unified framework that jointly infers\nsoft, globally consistent layer-to-layer couplings and neuron-level transport\nplans. HOT allows source neurons to distribute mass across multiple target\nlayers while minimizing total transport cost under marginal constraints. This\nyields both a single alignment score for the entire network comparison and a\nsoft transport plan that naturally handles depth mismatches through mass\ndistribution. We evaluate HOT on vision models, large language models, and\nhuman visual cortex recordings. Across all domains, HOT matches or surpasses\nstandard pairwise matching in alignment quality. Moreover, it reveals smooth,\nfine-grained hierarchical correspondences: early layers map to early layers,\ndeeper layers maintain relative positions, and depth mismatches are resolved by\ndistributing representations across multiple layers. These structured patterns\nemerge naturally from global optimization without being imposed, yet are absent\nin greedy layer-wise methods. HOT thus enables richer, more interpretable\ncomparisons between representations, particularly when networks differ in\narchitecture or depth.",
+  "authors": [
+    "Shaan Shah",
+    "Meenakshi Khosla"
+  ],
+  "published": "2025-10-02T06:25:06Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01706v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出分层最优传输(HOT)框架，通过全局优化实现神经网络层间表示对齐，解决了传统方法在深度不匹配网络中的局限性，在视觉模型、大语言模型和人脑视觉皮层数据上均表现出优越的对齐效果和可解释性。",
+  "order": 91,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01706v1"
+}

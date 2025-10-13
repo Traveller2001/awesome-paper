@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.00415v1",
+  "title": "Towards Self-Evolving Benchmarks: Synthesizing Agent Trajectories via\n  Test-Time Exploration under Validate-by-Reproduce Paradigm",
+  "summary": "Recent advances in large language models (LLMs) and agent system designs have\nempowered agents with unprecedented levels of capability. However, existing\nagent benchmarks are showing a trend of rapid ceiling-hitting by newly\ndeveloped agents, making it difficult to meet the demands for evaluating agent\nabilities. To address this problem, we propose the Trajectory-based\nValidated-by-Reproducing Agent-benchmark Complexity Evolution (TRACE)\nframework. This framework takes an original task from an existing benchmark and\nencourages agents to freely explore and evolve it into a new task with higher\ndifficulty while recording validatable agent trajectories. The framework\nproceeds in three stages: (1) evolutionary proposal mining, which provides task\nevolution proposals through preliminary exploration and divergent thinking; (2)\nproblem formation and free exploration, where proposals are conceptualized into\nfeasible problem candidates and the agents then explore them freely while\nrecording their execution trajectories; and (3) multi-level validation, which\nensures that the evolved tasks are accompanied by validatable and reproducible\ntrajectories. Experiments on the GAIA benchmark demonstrate that the TRACE\nframework consistently enhances task complexity while improving the reliability\nof correctness through validatable execution trajectories. This work marks a\nparadigm shift from static, manually curated benchmarks to dynamic,\nself-evolving evaluation systems, providing a sustainable and challenging\nrunway for agent development.",
+  "authors": [
+    "Dadi Guo",
+    "Tianyi Zhou",
+    "Dongrui Liu",
+    "Chen Qian",
+    "Qihan Ren",
+    "Shuai Shao",
+    "Zhiyuan Fan",
+    "Yi R. Fung",
+    "Kun Wang",
+    "Linfeng Zhang",
+    "Jing Shao"
+  ],
+  "published": "2025-10-01T01:52:52Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00415v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TRACE框架，通过验证-重现范式实现基准测试的自进化：从现有任务出发，让智能体自由探索生成更高难度的新任务，并记录可验证的执行轨迹。该框架包含进化提议挖掘、问题形成与自由探索、多级验证三个阶段，在GAIA基准上验证了其能持续提升任务复杂度并增强评估可靠性，标志着从静态基准向动态自进化评估系统的范式转变。",
+  "order": 316,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00415v1"
+}

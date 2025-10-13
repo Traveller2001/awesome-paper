@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01982v1",
+  "title": "$\\text{G}^2$RPO: Granular GRPO for Precise Reward in Flow Models",
+  "summary": "The integration of online reinforcement learning (RL) into diffusion and flow\nmodels has recently emerged as a promising approach for aligning generative\nmodels with human preferences. Stochastic sampling via Stochastic Differential\nEquations (SDE) is employed during the denoising process to generate diverse\ndenoising directions for RL exploration. While existing methods effectively\nexplore potential high-value samples, they suffer from sub-optimal preference\nalignment due to sparse and narrow reward signals. To address these challenges,\nwe propose a novel Granular-GRPO ($\\text{G}^2$RPO ) framework that achieves\nprecise and comprehensive reward assessments of sampling directions in\nreinforcement learning of flow models. Specifically, a Singular Stochastic\nSampling strategy is introduced to support step-wise stochastic exploration\nwhile enforcing a high correlation between the reward and the injected noise,\nthereby facilitating a faithful reward for each SDE perturbation. Concurrently,\nto eliminate the bias inherent in fixed-granularity denoising, we introduce a\nMulti-Granularity Advantage Integration module that aggregates advantages\ncomputed at multiple diffusion scales, producing a more comprehensive and\nrobust evaluation of the sampling directions. Experiments conducted on various\nreward models, including both in-domain and out-of-domain evaluations,\ndemonstrate that our $\\text{G}^2$RPO significantly outperforms existing\nflow-based GRPO baselines,highlighting its effectiveness and robustness.",
+  "authors": [
+    "Yujie Zhou",
+    "Pengyang Ling",
+    "Jiazi Bu",
+    "Yibin Wang",
+    "Yuhang Zang",
+    "Jiaqi Wang",
+    "Li Niu",
+    "Guangtao Zhai"
+  ],
+  "published": "2025-10-02T12:57:12Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01982v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "G²RPO提出一种细粒度GRPO框架，通过奇异随机采样策略和多粒度优势集成模块，解决流模型强化学习中奖励信号稀疏和窄化问题，在多种奖励模型评估中显著优于现有基线方法。",
+  "order": 766,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01982v1"
+}

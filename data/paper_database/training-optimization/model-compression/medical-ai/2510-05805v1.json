@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.05805v1",
+  "title": "Improving Clinical Dataset Condensation with Mode Connectivity-based\n  Trajectory Surrogates",
+  "summary": "Dataset condensation (DC) enables the creation of compact, privacy-preserving\nsynthetic datasets that can match the utility of real patient records,\nsupporting democratised access to highly regulated clinical data for developing\ndownstream clinical models. State-of-the-art DC methods supervise synthetic\ndata by aligning the training dynamics of models trained on real and those\ntrained on synthetic data, typically using full stochastic gradient descent\n(SGD) trajectories as alignment targets; however, these trajectories are often\nnoisy, high-curvature, and storage-intensive, leading to unstable gradients,\nslow convergence, and substantial memory overhead. We address these limitations\nby replacing full SGD trajectories with smooth, low-loss parametric surrogates,\nspecifically quadratic B\\'ezier curves that connect the initial and final model\nstates from real training trajectories. These mode-connected paths provide\nnoise-free, low-curvature supervision signals that stabilise gradients,\naccelerate convergence, and eliminate the need for dense trajectory storage. We\ntheoretically justify B\\'ezier-mode connections as effective surrogates for SGD\npaths and empirically show that the proposed method outperforms\nstate-of-the-art condensation approaches across five clinical datasets,\nyielding condensed datasets that enable clinically effective model development.",
+  "authors": [
+    "Pafue Christy Nganjimi",
+    "Andrew Soltan",
+    "Danielle Belgrave",
+    "Lei Clifton",
+    "David A. Clifton",
+    "Anshul Thakur"
+  ],
+  "published": "2025-10-07T11:22:27Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05805v1",
+  "primary_area": "training_optimization",
+  "secondary_focus": "model_compression",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出一种基于模态连接轨迹代理的临床数据集压缩方法，用平滑的二次贝塞尔曲线替代传统噪声大、存储密集的SGD训练轨迹，在五个临床数据集上实现更稳定、高效的压缩效果，支持隐私保护的临床模型开发。",
+  "order": 120,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05805v1"
+}

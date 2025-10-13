@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05972v1",
+  "title": "LexiCon: a Benchmark for Planning under Temporal Constraints in Natural\n  Language",
+  "summary": "Owing to their reasoning capabilities, large language models (LLMs) have been\nevaluated on planning tasks described in natural language. However, LLMs have\nlargely been tested on planning domains without constraints. In order to deploy\nthem in real-world settings where adherence to constraints, in particular\nsafety constraints, is critical, we need to evaluate their performance on\nconstrained planning tasks. We introduce LexiCon -- a natural language-based\n(Lexi) constrained (Con) planning benchmark, consisting of a suite of\nenvironments, that can be used to evaluate the planning capabilities of LLMs in\na principled fashion. The core idea behind LexiCon is to take existing planning\nenvironments and impose temporal constraints on the states. These constrained\nproblems are then translated into natural language and given to an LLM to\nsolve. A key feature of LexiCon is its extensibility. That is, the set of\nsupported environments can be extended with new (unconstrained) environment\ngenerators, for which temporal constraints are constructed automatically. This\nrenders LexiCon future-proof: the hardness of the generated planning problems\ncan be increased as the planning capabilities of LLMs improve. Our experiments\nreveal that the performance of state-of-the-art LLMs, including reasoning\nmodels like GPT-5, o3, and R1, deteriorates as the degree of constrainedness of\nthe planning tasks increases.",
+  "authors": [
+    "Periklis Mantenoglou",
+    "Rishi Hazra",
+    "Pedro Zuidberg Dos Martires",
+    "Luc De Raedt"
+  ],
+  "published": "2025-10-07T14:28:30Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05972v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LexiCon基准测试，用于评估大语言模型在自然语言描述的时序约束规划任务中的表现。该基准通过为现有规划环境添加时间约束并转化为自然语言问题，系统测试LLMs的约束规划能力。实验表明，即使最先进的LLMs（包括GPT-5、o3、R1等推理模型）在约束复杂度增加时性能显著下降。该框架具有可扩展性，能随LLMs规划能力提升而调整问题难度。",
+  "order": 24,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05972v1"
+}

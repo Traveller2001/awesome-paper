@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06746v1",
+  "title": "DeRainMamba: A Frequency-Aware State Space Model with Detail Enhancement\n  for Image Deraining",
+  "summary": "Image deraining is crucial for improving visual quality and supporting\nreliable downstream vision tasks. Although Mamba-based models provide efficient\nsequence modeling, their limited ability to capture fine-grained details and\nlack of frequency-domain awareness restrict further improvements. To address\nthese issues, we propose DeRainMamba, which integrates a Frequency-Aware\nState-Space Module (FASSM) and Multi-Directional Perception Convolution\n(MDPConv). FASSM leverages Fourier transform to distinguish rain streaks from\nhigh-frequency image details, balancing rain removal and detail preservation.\nMDPConv further restores local structures by capturing anisotropic gradient\nfeatures and efficiently fusing multiple convolution branches. Extensive\nexperiments on four public benchmarks demonstrate that DeRainMamba consistently\noutperforms state-of-the-art methods in PSNR and SSIM, while requiring fewer\nparameters and lower computational costs. These results validate the\neffectiveness of combining frequency-domain modeling and spatial detail\nenhancement within a state-space framework for single image deraining.",
+  "authors": [
+    "Zhiliang Zhu",
+    "Tao Zeng",
+    "Tao Yang",
+    "Guoliang Luo",
+    "Jiyong Zeng"
+  ],
+  "published": "2025-10-08T08:05:11Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06746v1",
+  "primary_area": "video_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "DeRainMamba提出了一种结合频域感知状态空间模块和多向感知卷积的图像去雨方法。通过傅里叶变换区分雨纹与图像细节，并利用多分支卷积恢复局部结构，在多个公开数据集上以更少的参数和计算量实现了PSNR和SSIM指标的领先。",
+  "order": 144,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06746v1"
+}

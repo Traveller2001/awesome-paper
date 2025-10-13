@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06852v1",
+  "title": "Enhancing Bankruptcy Prediction of Banks through Advanced Machine\n  Learning Techniques: An Innovative Approach and Analysis",
+  "summary": "Context: Financial system stability is determined by the condition of the\nbanking system. A bank failure can destroy the stability of the financial\nsystem, as banks are subject to systemic risk, affecting not only individual\nbanks but also segments or the entire financial system. Calculating the\nprobability of a bank going bankrupt is one way to ensure the banking system is\nsafe and sound. Existing literature and limitations: Statistical models, such\nas Altman's Z-Score, are one of the common techniques for developing a\nbankruptcy prediction model. However, statistical methods rely on rigid and\nsometimes irrelevant assumptions, which can result in low forecast accuracy.\nNew approaches are necessary. Objective of the research: Bankruptcy models are\ndeveloped using machine learning techniques, such as logistic regression (LR),\nrandom forest (RF), and support vector machines (SVM). According to several\nstudies, machine learning is also more accurate and effective than statistical\nmethods for categorising and forecasting banking risk management. Present\nResearch: The commercial bank data are derived from the annual financial\nstatements of 44 active banks and 21 bankrupt banks in Turkey from 1994 to\n2004, and the rural bank data are derived from the quarterly financial reports\nof 43 active and 43 bankrupt rural banks in Indonesia between 2013 and 2019.\nFive rural banks in Indonesia have also been selected to demonstrate the\nfeasibility of analysing bank bankruptcy trends. Findings and implications: The\nresults of the research experiments show that RF can forecast data from\ncommercial banks with a 90% accuracy rate. Furthermore, the three machine\nlearning methods proposed accurately predict the likelihood of rural bank\nbankruptcy. Contribution and Conclusion: The proposed innovative machine\nlearning approach help to implement policies that reduce the costs of\nbankruptcy.",
+  "authors": [
+    "Zuherman Rustam",
+    "Sri Hartini",
+    "Sardar M. N. Islam",
+    "Fevi Novkaniza",
+    "Fiftitah R. Aszhari",
+    "Muhammad Rifqi"
+  ],
+  "published": "2025-10-08T10:16:10Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06852v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本研究采用机器学习方法（逻辑回归、随机森林、支持向量机）提升银行破产预测准确率。基于土耳其商业银行和印尼农村银行数据，随机森林模型预测准确率达90%，为金融风险监管提供创新技术方案。",
+  "order": 205,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06852v1"
+}

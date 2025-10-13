@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01494v1",
+  "title": "Understanding Adversarial Transfer: Why Representation-Space Attacks\n  Fail Where Data-Space Attacks Succeed",
+  "summary": "The field of adversarial robustness has long established that adversarial\nexamples can successfully transfer between image classifiers and that text\njailbreaks can successfully transfer between language models (LMs). However, a\npair of recent studies reported being unable to successfully transfer image\njailbreaks between vision-language models (VLMs). To explain this striking\ndifference, we propose a fundamental distinction regarding the transferability\nof attacks against machine learning models: attacks in the input data-space can\ntransfer, whereas attacks in model representation space do not, at least not\nwithout geometric alignment of representations. We then provide theoretical and\nempirical evidence of this hypothesis in four different settings. First, we\nmathematically prove this distinction in a simple setting where two networks\ncompute the same input-output map but via different representations. Second, we\nconstruct representation-space attacks against image classifiers that are as\nsuccessful as well-known data-space attacks, but fail to transfer. Third, we\nconstruct representation-space attacks against LMs that successfully jailbreak\nthe attacked models but again fail to transfer. Fourth, we construct data-space\nattacks against VLMs that successfully transfer to new VLMs, and we show that\nrepresentation space attacks \\emph{can} transfer when VLMs' latent geometries\nare sufficiently aligned in post-projector space. Our work reveals that\nadversarial transfer is not an inherent property of all attacks but contingent\non their operational domain - the shared data-space versus models' unique\nrepresentation spaces - a critical insight for building more robust models.",
+  "authors": [
+    "Isha Gupta",
+    "Rylan Schaeffer",
+    "Joshua Kazdan",
+    "Ken Liu",
+    "Sanmi Koyejo"
+  ],
+  "published": "2025-10-01T22:10:58Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01494v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文揭示了对抗性攻击迁移性的关键区别：数据空间攻击可迁移，而表示空间攻击无法迁移（除非表示几何对齐）。通过理论证明和四个实验场景验证，发现对抗迁移性取决于攻击操作域——共享数据空间vs模型独有表示空间，为构建更鲁棒模型提供重要见解。",
+  "order": 143,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01494v1"
+}

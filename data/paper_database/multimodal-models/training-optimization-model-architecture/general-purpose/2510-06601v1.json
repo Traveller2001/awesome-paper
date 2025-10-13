@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06601v1",
+  "title": "AIM 2025 Challenge on Real-World RAW Image Denoising",
+  "summary": "We introduce the AIM 2025 Real-World RAW Image Denoising Challenge, aiming to\nadvance efficient and effective denoising techniques grounded in data\nsynthesis. The competition is built upon a newly established evaluation\nbenchmark featuring challenging low-light noisy images captured in the wild\nusing five different DSLR cameras. Participants are tasked with developing\nnovel noise synthesis pipelines, network architectures, and training\nmethodologies to achieve high performance across different camera models.\nWinners are determined based on a combination of performance metrics, including\nfull-reference measures (PSNR, SSIM, LPIPS), and non-reference ones (ARNIQA,\nTOPIQ). By pushing the boundaries of camera-agnostic low-light RAW image\ndenoising trained on synthetic data, the competition promotes the development\nof robust and practical models aligned with the rapid progress in digital\nphotography. We expect the competition outcomes to influence multiple domains,\nfrom image restoration to night-time autonomous driving.",
+  "authors": [
+    "Feiran Li",
+    "Jiacheng Li",
+    "Marcos V. Conde",
+    "Beril Besbinar",
+    "Vlad Hosu",
+    "Daisuke Iso",
+    "Radu Timofte"
+  ],
+  "published": "2025-10-08T03:22:42Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06601v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "AIM 2025真实世界RAW图像去噪挑战赛旨在通过数据合成技术推动高效去噪方法发展。比赛基于包含五种不同单反相机拍摄的低光照噪声图像的新基准，要求参赛者开发噪声合成流程、网络架构和训练方法。优胜者将根据全参考指标（PSNR/SSIM/LPIPS）和无参考指标（ARNIQA/TOPIQ）综合评定，以促进跨相机模型的鲁棒去噪技术，服务于图像修复和夜间自动驾驶等领域。",
+  "order": 155,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06601v1"
+}

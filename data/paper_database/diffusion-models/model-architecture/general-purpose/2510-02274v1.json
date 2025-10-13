@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02274v1",
+  "title": "Diffusion^2: Turning 3D Environments into Radio Frequency Heatmaps",
+  "summary": "Modeling radio frequency (RF) signal propagation is essential for\nunderstanding the environment, as RF signals offer valuable insights beyond the\ncapabilities of RGB cameras, which are limited by the visible-light spectrum,\nlens coverage, and occlusions. It is also useful for supporting wireless\ndiagnosis, deployment, and optimization. However, accurately predicting RF\nsignals in complex environments remains a challenge due to interactions with\nobstacles such as absorption and reflection. We introduce Diffusion^2, a\ndiffusion-based approach that uses 3D point clouds to model the propagation of\nRF signals across a wide range of frequencies, from Wi-Fi to millimeter waves.\nTo effectively capture RF-related features from 3D data, we present the RF-3D\nEncoder, which encapsulates the complexities of 3D geometry along with\nsignal-specific details. These features undergo multi-scale embedding to\nsimulate the actual RF signal dissemination process. Our evaluation, based on\nsynthetic and real-world measurements, demonstrates that Diffusion^2 accurately\nestimates the behavior of RF signals in various frequency bands and\nenvironmental conditions, with an error margin of just 1.9 dB and 27x faster\nthan existing methods, marking a significant advancement in the field. Refer to\nhttps://rfvision-project.github.io/ for more information.",
+  "authors": [
+    "Kyoungjun Park",
+    "Yifan Yang",
+    "Changhan Ge",
+    "Lili Qiu",
+    "Shiqi Jiang"
+  ],
+  "published": "2025-10-02T17:50:22Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02274v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Diffusion^2是一种基于扩散模型的射频信号传播预测方法，利用3D点云数据模拟从Wi-Fi到毫米波等多种频率的射频信号传播。该方法通过RF-3D编码器捕捉3D几何特征，采用多尺度嵌入模拟信号传播过程，在合成和真实测量数据上相比现有方法误差仅1.9 dB且速度快27倍。",
+  "order": 704,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02274v1"
+}

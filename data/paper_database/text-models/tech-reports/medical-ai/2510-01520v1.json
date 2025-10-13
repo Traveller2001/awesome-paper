@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01520v1",
+  "title": "Predictive Modeling and Explainable AI for Veterinary Safety Profiles,\n  Residue Assessment, and Health Outcomes Using Real-World Data and\n  Physicochemical Properties",
+  "summary": "The safe use of pharmaceuticals in food-producing animals is vital to protect\nanimal welfare and human food safety. Adverse events (AEs) may signal\nunexpected pharmacokinetic or toxicokinetic effects, increasing the risk of\nviolative residues in the food chain. This study introduces a predictive\nframework for classifying outcomes (Death vs. Recovery) using ~1.28 million\nreports (1987-2025 Q1) from the U.S. FDA's OpenFDA Center for Veterinary\nMedicine. A preprocessing pipeline merged relational tables and standardized\nAEs through VeDDRA ontologies. Data were normalized, missing values imputed,\nand high-cardinality features reduced; physicochemical drug properties were\nintegrated to capture chemical-residue links. We evaluated supervised models,\nincluding Random Forest, CatBoost, XGBoost, ExcelFormer, and large language\nmodels (Gemma 3-27B, Phi 3-12B). Class imbalance was addressed, such as\nundersampling and oversampling, with a focus on prioritizing recall for fatal\noutcomes. Ensemble methods(Voting, Stacking) and CatBoost performed best,\nachieving precision, recall, and F1-scores of 0.95. Incorporating Average\nUncertainty Margin (AUM)-based pseudo-labeling of uncertain cases improved\nminority-class detection, particularly in ExcelFormer and XGBoost.\nInterpretability via SHAP identified biologically plausible predictors,\nincluding lung, heart, and bronchial disorders, animal demographics, and drug\nphysicochemical properties. These features were strongly linked to fatal\noutcomes. Overall, the framework shows that combining rigorous data\nengineering, advanced machine learning, and explainable AI enables accurate,\ninterpretable predictions of veterinary safety outcomes. The approach supports\nFARAD's mission by enabling early detection of high-risk drug-event profiles,\nstrengthening residue risk assessment, and informing regulatory and clinical\ndecision-making.",
+  "authors": [
+    "Hossein Sholehrasa",
+    "Xuan Xu",
+    "Doina Caragea",
+    "Jim E. Riviere",
+    "Majid Jaberi-Douraki"
+  ],
+  "published": "2025-10-01T23:34:46Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01520v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究开发了一个结合真实世界数据和药物理化性质的预测框架，用于兽医安全结果分类。基于FDA约128万份报告，采用多种机器学习模型和集成方法，在死亡与康复分类中达到0.95的精确度、召回率和F1分数。通过SHAP可解释性分析识别出与致命结果相关的生物合理性预测因子，支持早期高风险药物事件检测和监管决策。",
+  "order": 138,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01520v1"
+}

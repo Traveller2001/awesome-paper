@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06840v1",
+  "title": "CNN-TFT explained by SHAP with multi-head attention weights for time\n  series forecasting",
+  "summary": "Convolutional neural networks (CNNs) and transformer architectures offer\nstrengths for modeling temporal data: CNNs excel at capturing local patterns\nand translational invariances, while transformers effectively model long-range\ndependencies via self-attention. This paper proposes a hybrid architecture\nintegrating convolutional feature extraction with a temporal fusion transformer\n(TFT) backbone to enhance multivariate time series forecasting. The CNN module\nfirst applies a hierarchy of one-dimensional convolutional layers to distill\nsalient local patterns from raw input sequences, reducing noise and\ndimensionality. The resulting feature maps are then fed into the TFT, which\napplies multi-head attention to capture both short- and long-term dependencies\nand to weigh relevant covariates adaptively. We evaluate the CNN-TFT on a\nhydroelectric natural flow time series dataset. Experimental results\ndemonstrate that CNN-TFT outperforms well-established deep learning models,\nwith a mean absolute percentage error of up to 2.2%. The explainability of the\nmodel is obtained by a proposed Shapley additive explanations with multi-head\nattention weights (SHAP-MHAW). Our novel architecture, named CNN-TFT-SHAP-MHAW,\nis promising for applications requiring high-fidelity, multivariate time series\nforecasts, being available for future analysis at\nhttps://github.com/SFStefenon/CNN-TFT-SHAP-MHAW .",
+  "authors": [
+    "Stefano F. Stefenon",
+    "João P. Matos-Carvalho",
+    "Valderi R. Q. Leithardt",
+    "Kin-Choong Yow"
+  ],
+  "published": "2025-10-08T10:08:28Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06840v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'reasoning']",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出CNN-TFT-SHAP-MHAW混合架构，结合卷积神经网络的特征提取能力与时间融合变换器的多头注意力机制，用于多元时间序列预测。在水电自然流量数据集上取得2.2%的平均绝对百分比误差，并通过SHAP与注意力权重结合实现模型可解释性。",
+  "order": 206,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06840v1"
+}

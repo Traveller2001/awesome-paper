@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02067v1",
+  "title": "Adaptive Kernel Selection for Stein Variational Gradient Descent",
+  "summary": "A central challenge in Bayesian inference is efficiently approximating\nposterior distributions. Stein Variational Gradient Descent (SVGD) is a popular\nvariational inference method which transports a set of particles to approximate\na target distribution. The SVGD dynamics are governed by a reproducing kernel\nHilbert space (RKHS) and are highly sensitive to the choice of the kernel\nfunction, which directly influences both convergence and approximation quality.\nThe commonly used median heuristic offers a simple approach for setting kernel\nbandwidths but lacks flexibility and often performs poorly, particularly in\nhigh-dimensional settings. In this work, we propose an alternative strategy for\nadaptively choosing kernel parameters over an abstract family of kernels.\nRecent convergence analyses based on the kernelized Stein discrepancy (KSD)\nsuggest that optimizing the kernel parameters by maximizing the KSD can improve\nperformance. Building on this insight, we introduce Adaptive SVGD (Ad-SVGD), a\nmethod that alternates between updating the particles via SVGD and adaptively\ntuning kernel bandwidths through gradient ascent on the KSD. We provide a\nsimplified theoretical analysis that extends existing results on minimizing the\nKSD for fixed kernels to our adaptive setting, showing convergence properties\nfor the maximal KSD over our kernel class. Our empirical results further\nsupport this intuition: Ad-SVGD consistently outperforms standard heuristics in\na variety of tasks.",
+  "authors": [
+    "Moritz Melcher",
+    "Simon Weissmann",
+    "Ashia C. Wilson",
+    "Jakob Zech"
+  ],
+  "published": "2025-10-02T14:33:57Z",
+  "primary_category": "stat.ML",
+  "arxiv_url": "https://arxiv.org/abs/2510.02067v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出自适应Stein变分梯度下降(Ad-SVGD)方法，通过梯度上升优化核参数以最大化核化Stein差异，解决了传统中位数启发式在贝叶斯推理中核选择不灵活的问题。理论分析和实验表明该方法在多种任务中优于标准启发式方法。",
+  "order": 754,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02067v1"
+}

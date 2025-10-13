@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01030v1",
+  "title": "Uncovering the Computational Ingredients of Human-Like Representations\n  in LLMs",
+  "summary": "The ability to translate diverse patterns of inputs into structured patterns\nof behavior has been thought to rest on both humans' and machines' ability to\nlearn robust representations of relevant concepts. The rapid advancement of\ntransformer-based large language models (LLMs) has led to a diversity of\ncomputational ingredients -- architectures, fine tuning methods, and training\ndatasets among others -- but it remains unclear which of these ingredients are\nmost crucial for building models that develop human-like representations.\nFurther, most current LLM benchmarks are not suited to measuring\nrepresentational alignment between humans and models, making benchmark scores\nunreliable for assessing if current LLMs are making progress towards becoming\nuseful cognitive models. We address these limitations by first evaluating a set\nof over 70 models that widely vary in their computational ingredients on a\ntriplet similarity task, a method well established in the cognitive sciences\nfor measuring human conceptual representations, using concepts from the THINGS\ndatabase. Comparing human and model representations, we find that models that\nundergo instruction-finetuning and which have larger dimensionality of\nattention heads are among the most human aligned, while multimodal pretraining\nand parameter size have limited bearing on alignment. Correlations between\nalignment scores and scores on existing benchmarks reveal that while some\nbenchmarks (e.g., MMLU) are better suited than others (e.g., MUSR) for\ncapturing representational alignment, no existing benchmark is capable of fully\naccounting for the variance of alignment scores, demonstrating their\ninsufficiency in capturing human-AI alignment. Taken together, our findings\nhelp highlight the computational ingredients most essential for advancing LLMs\ntowards models of human conceptual representation and address a key\nbenchmarking gap in LLM evaluation.",
+  "authors": [
+    "Zach Studdiford",
+    "Timothy T. Rogers",
+    "Kushin Mukherjee",
+    "Siddharth Suresh"
+  ],
+  "published": "2025-10-01T15:37:19Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01030v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过三重相似性任务评估70多个LLM，发现指令微调和注意力头维度是获得人类对齐表征的关键因素，而多模态预训练和参数规模影响有限。现有基准测试无法充分捕捉人机表征对齐，揭示了LLM评估中的重要空白。",
+  "order": 205,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01030v1"
+}

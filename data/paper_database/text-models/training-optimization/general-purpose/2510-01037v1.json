@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.01037v1",
+  "title": "CurES: From Gradient Analysis to Efficient Curriculum Learning for\n  Reasoning LLMs",
+  "summary": "Curriculum learning plays a crucial role in enhancing the training efficiency\nof large language models (LLMs) on reasoning tasks. However, existing methods\noften fail to adequately account for variations in prompt difficulty or rely on\nsimplistic filtering mechanisms to select prompt datasets within a narrow\ncriterion range, resulting in significant computational waste. In this work, we\napproach the problem from the perspective of reinforcement learning gradient\noptimization, offering a systematic and theoretical investigation into how to\nimprove the training efficiency of LLMs. We identify two key factors\ninfluencing training efficiency: the selection of training prompts and the\nallocation of rollout quantities across different prompts. Our theoretical\nanalysis reveals that the sampling distribution of prompts dictates the\nconvergence rate of gradient descent, while the allocation of the rollout\nquantity influences the consistency and stability of overall gradient updates.\nBased on these insights, we propose CurES, an efficient training method that\naccelerates convergence and employs Bayesian posterior estimation to minimize\ncomputational overhead. Experiments demonstrate that our CurES outperforms\nGroup Relative Policy Optimization (GRPO) by \\textbf{+3.30} points and\n\\textbf{+4.82} points with 1.5B and 7B models, respectively. Additionally,\nCurES exhibits faster convergence compared to baselines, including GRPO.",
+  "authors": [
+    "Yongcheng Zeng",
+    "Zexu Sun",
+    "Bokai Ji",
+    "Erxue Min",
+    "Hengyi Cai",
+    "Shuaiqiang Wang",
+    "Dawei Yin",
+    "Haifeng Zhang",
+    "Xu Chen",
+    "Jun Wang"
+  ],
+  "published": "2025-10-01T15:41:27Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01037v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "CurES是一种基于梯度分析的高效课程学习方法，通过优化训练提示选择和rollout数量分配来提升大语言模型在推理任务上的训练效率。该方法从强化学习梯度优化角度出发，理论分析表明提示采样分布影响梯度下降收敛速度，rollout分配影响梯度更新稳定性。实验显示CurES在1.5B和7B模型上分别比GRPO提升3.30和4.82个点，且收敛速度更快。",
+  "order": 204,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01037v1"
+}

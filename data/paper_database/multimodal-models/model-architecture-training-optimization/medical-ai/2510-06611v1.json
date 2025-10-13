@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06611v1",
+  "title": "Self-supervised Physics-guided Model with Implicit Representation\n  Regularization for Fast MRI Reconstruction",
+  "summary": "Magnetic Resonance Imaging (MRI) is a vital clinical diagnostic tool, yet its\nwidespread application is limited by prolonged scan times. Fast MRI\nreconstruction techniques effectively reduce acquisition duration by\nreconstructing high-fidelity MR images from undersampled k-space data. In\nrecent years, deep learning-based methods have demonstrated remarkable progress\nin this field, with self-supervised and unsupervised learning approaches\nproving particularly valuable in scenarios where fully sampled data are\ndifficult to obtain. This paper proposes a novel zero-shot self-supervised\nreconstruction framework named UnrollINR, which enables scan-specific MRI\nreconstruction without relying on external training data. The method adopts a\nphysics-guided unrolled iterative reconstruction architecture and introduces\nImplicit Neural Representation (INR) as a regularization prior to effectively\nconstrain the solution space. By combining a deep unrolled structure with the\npowerful implicit representation capability of INR, the model's\ninterpretability and reconstruction performance are enhanced. Experimental\nresults demonstrate that even at a high acceleration rate of 10, UnrollINR\nachieves superior reconstruction performance compared to the supervised\nlearning method, validating the superiority of the proposed method.",
+  "authors": [
+    "Jingran Xu",
+    "Yuanyuan Liu",
+    "Yanjie Zhu"
+  ],
+  "published": "2025-10-08T03:40:40Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06611v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出UnrollINR，一种零样本自监督MRI重建框架，结合物理引导的展开迭代架构与隐式神经表示正则化，无需外部训练数据即可实现扫描特异性重建。在10倍加速率下性能优于监督学习方法，为快速MRI提供新解决方案。",
+  "order": 154,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06611v1"
+}

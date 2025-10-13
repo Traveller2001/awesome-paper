@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.05482v1",
+  "title": "ATOM: A Pretrained Neural Operator for Multitask Molecular Dynamics",
+  "summary": "Molecular dynamics (MD) simulations underpin modern computational drug dis-\ncovery, materials science, and biochemistry. Recent machine learning models\nprovide high-fidelity MD predictions without the need to repeatedly solve\nquantum mechanical forces, enabling significant speedups over conventional\npipelines. Yet many such methods typically enforce strict equivariance and rely\non sequential rollouts, thus limiting their flexibility and simulation\nefficiency. They are also com- monly single-task, trained on individual\nmolecules and fixed timeframes, which restricts generalization to unseen\ncompounds and extended timesteps. To address these issues, we propose Atomistic\nTransformer Operator for Molecules (ATOM), a pretrained transformer neural\noperator for multitask molecular dynamics. ATOM adopts a quasi-equivariant\ndesign that requires no explicit molecular graph and employs a temporal\nattention mechanism, allowing for the accurate parallel decod- ing of multiple\nfuture states. To support operator pretraining across chemicals and timescales,\nwe curate TG80, a large, diverse, and numerically stable MD dataset with over\n2.5 million femtoseconds of trajectories across 80 compounds. ATOM achieves\nstate-of-the-art performance on established single-task benchmarks, such as\nMD17, RMD17 and MD22. After multitask pretraining on TG80, ATOM shows\nexceptional zero-shot generalization to unseen molecules across varying time\nhori- zons. We believe ATOM represents a significant step toward accurate,\nefficient, and transferable molecular dynamics models",
+  "authors": [
+    "Luke Thompson",
+    "Davy Guan",
+    "Dai Shi",
+    "Slade Matthews",
+    "Junbin Gao",
+    "Andi Han"
+  ],
+  "published": "2025-10-07T00:56:39Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05482v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "['training_optimization', 'reasoning']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出ATOM，一种用于多任务分子动力学的预训练Transformer神经算子。该模型采用准等变设计，无需显式分子图，通过时间注意力机制实现多未来状态的并行解码。在包含80种化合物、250万飞秒轨迹的TG80数据集上预训练后，ATOM在MD17等基准测试中达到SOTA，并在未见分子上展现出卓越的零样本泛化能力，为计算药物发现和材料科学提供了更准确高效的分子动力学模型。",
+  "order": 154,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05482v1"
+}

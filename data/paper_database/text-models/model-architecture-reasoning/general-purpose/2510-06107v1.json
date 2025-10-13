@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06107v1",
+  "title": "Distributional Semantics Tracing: A Framework for Explaining\n  Hallucinations in Large Language Models",
+  "summary": "Large Language Models (LLMs) are prone to hallucination, the generation of\nplausible yet factually incorrect statements. This work investigates the\nintrinsic, architectural origins of this failure mode through three primary\ncontributions.First, to enable the reliable tracing of internal semantic\nfailures, we propose \\textbf{Distributional Semantics Tracing (DST)}, a unified\nframework that integrates established interpretability techniques to produce a\ncausal map of a model's reasoning, treating meaning as a function of context\n(distributional semantics). Second, we pinpoint the model's layer at which a\nhallucination becomes inevitable, identifying a specific \\textbf{commitment\nlayer} where a model's internal representations irreversibly diverge from\nfactuality. Third, we identify the underlying mechanism for these failures. We\nobserve a conflict between distinct computational pathways, which we interpret\nusing the lens of dual-process theory: a fast, heuristic \\textbf{associative\npathway} (akin to System 1) and a slow, deliberate \\textbf{contextual pathway}\n(akin to System 2), leading to predictable failure modes such as\n\\textit{Reasoning Shortcut Hijacks}. Our framework's ability to quantify the\ncoherence of the contextual pathway reveals a strong negative correlation\n($\\rho = -0.863$) with hallucination rates, implying that these failures are\npredictable consequences of internal semantic weakness. The result is a\nmechanistic account of how, when, and why hallucinations occur within the\nTransformer architecture.",
+  "authors": [
+    "Gagan Bhatia",
+    "Somayajulu G Sripada",
+    "Kevin Allan",
+    "Jacobo Azcona"
+  ],
+  "published": "2025-10-07T16:40:31Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06107v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出分布语义追踪(DST)框架，通过双过程理论揭示大语言模型产生幻觉的内在机制：在特定'承诺层'处，快速联想路径与慢速上下文路径冲突导致事实性偏离，框架可量化预测幻觉发生(相关性ρ=-0.863)，为Transformer架构中的幻觉问题提供机理解释。",
+  "order": 16,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06107v1"
+}

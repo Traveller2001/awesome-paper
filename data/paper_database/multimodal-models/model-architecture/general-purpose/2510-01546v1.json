@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.01546v1",
+  "title": "Growing Visual Generative Capacity for Pre-Trained MLLMs",
+  "summary": "Multimodal large language models (MLLMs) extend the success of language\nmodels to visual understanding, and recent efforts have sought to build unified\nMLLMs that support both understanding and generation. However, constructing\nsuch models remains challenging: hybrid approaches combine continuous\nembeddings with diffusion or flow-based objectives, producing high-quality\nimages but breaking the autoregressive paradigm, while pure autoregressive\napproaches unify text and image prediction over discrete visual tokens but\noften face trade-offs between semantic alignment and pixel-level fidelity. In\nthis work, we present Bridge, a pure autoregressive unified MLLM that augments\npre-trained visual understanding models with generative ability through a\nMixture-of-Transformers architecture, enabling both image understanding and\ngeneration within a single next-token prediction framework. To further improve\nvisual generation fidelity, we propose a semantic-to-pixel discrete\nrepresentation that integrates compact semantic tokens with fine-grained pixel\ntokens, achieving strong language alignment and precise description of visual\ndetails with only a 7.9% increase in sequence length. Extensive experiments\nacross diverse multimodal benchmarks demonstrate that Bridge achieves\ncompetitive or superior results in both understanding and generation\nbenchmarks, while requiring less training data and reduced training time\ncompared to prior unified MLLMs.",
+  "authors": [
+    "Hanyu Wang",
+    "Jiaming Han",
+    "Ziyan Yang",
+    "Qi Zhao",
+    "Shanchuan Lin",
+    "Xiangyu Yue",
+    "Abhinav Shrivastava",
+    "Zhenheng Yang",
+    "Hao Chen"
+  ],
+  "published": "2025-10-02T00:40:02Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01546v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Bridge模型，一种纯自回归统一多模态大语言模型，通过混合Transformer架构增强预训练视觉理解模型的生成能力。该模型采用语义到像素的离散表示方法，在仅增加7.9%序列长度的情况下实现语言对齐和视觉细节精确描述，在多项多模态基准测试中取得优异性能。",
+  "order": 574,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01546v1"
+}

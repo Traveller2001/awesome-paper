@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01912v1",
+  "title": "Flow-Matching Guided Deep Unfolding for Hyperspectral Image\n  Reconstruction",
+  "summary": "Hyperspectral imaging (HSI) provides rich spatial-spectral information but\nremains costly to acquire due to hardware limitations and the difficulty of\nreconstructing three-dimensional data from compressed measurements. Although\ncompressive sensing systems such as CASSI improve efficiency, accurate\nreconstruction is still challenged by severe degradation and loss of fine\nspectral details. We propose the Flow-Matching-guided Unfolding network (FMU),\nwhich, to our knowledge, is the first to integrate flow matching into HSI\nreconstruction by embedding its generative prior within a deep unfolding\nframework. To further strengthen the learned dynamics, we introduce a mean\nvelocity loss that enforces global consistency of the flow, leading to a more\nrobust and accurate reconstruction. This hybrid design leverages the\ninterpretability of optimization-based methods and the generative capacity of\nflow matching. Extensive experiments on both simulated and real datasets show\nthat FMU significantly outperforms existing approaches in reconstruction\nquality. Code and models will be available at https://github.com/YiAi03/FMU.",
+  "authors": [
+    "Yi Ai",
+    "Yuanhao Cai",
+    "Yulun Zhang",
+    "Xiaokang Yang"
+  ],
+  "published": "2025-10-02T11:32:00Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01912v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出FMU网络，首次将流匹配技术融入高光谱图像重建，通过深度展开框架嵌入生成先验，并引入平均速度损失增强流一致性，在模拟和真实数据集上显著优于现有方法。",
+  "order": 540,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01912v1"
+}

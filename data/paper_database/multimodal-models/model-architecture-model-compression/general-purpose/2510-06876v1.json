@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06876v1",
+  "title": "HARP-NeXt: High-Speed and Accurate Range-Point Fusion Network for 3D\n  LiDAR Semantic Segmentation",
+  "summary": "LiDAR semantic segmentation is crucial for autonomous vehicles and mobile\nrobots, requiring high accuracy and real-time processing, especially on\nresource-constrained embedded systems. Previous state-of-the-art methods often\nface a trade-off between accuracy and speed. Point-based and sparse\nconvolution-based methods are accurate but slow due to the complexity of\nneighbor searching and 3D convolutions. Projection-based methods are faster but\nlose critical geometric information during the 2D projection. Additionally,\nmany recent methods rely on test-time augmentation (TTA) to improve\nperformance, which further slows the inference. Moreover, the pre-processing\nphase across all methods increases execution time and is demanding on embedded\nplatforms. Therefore, we introduce HARP-NeXt, a high-speed and accurate LiDAR\nsemantic segmentation network. We first propose a novel pre-processing\nmethodology that significantly reduces computational overhead. Then, we design\nthe Conv-SE-NeXt feature extraction block to efficiently capture\nrepresentations without deep layer stacking per network stage. We also employ a\nmulti-scale range-point fusion backbone that leverages information at multiple\nabstraction levels to preserve essential geometric details, thereby enhancing\naccuracy. Experiments on the nuScenes and SemanticKITTI benchmarks show that\nHARP-NeXt achieves a superior speed-accuracy trade-off compared to all\nstate-of-the-art methods, and, without relying on ensemble models or TTA, is\ncomparable to the top-ranked PTv3, while running 24$\\times$ faster. The code is\navailable at https://github.com/SamirAbouHaidar/HARP-NeXt",
+  "authors": [
+    "Samir Abou Haidar",
+    "Alexandre Chariot",
+    "Mehdi Darouich",
+    "Cyril Joly",
+    "Jean-Emmanuel Deschaud"
+  ],
+  "published": "2025-10-08T10:46:07Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06876v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'model_compression']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "HARP-NeXt是一种高速精确的3D LiDAR语义分割网络，通过新型预处理方法和多尺度距离-点融合主干网络，在保持几何细节的同时显著提升处理速度。在nuScenes和SemanticKITTI基准测试中，达到与顶级方法PTv3相当的精度，但速度快24倍，且无需测试时增强。",
+  "order": 131,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06876v1"
+}

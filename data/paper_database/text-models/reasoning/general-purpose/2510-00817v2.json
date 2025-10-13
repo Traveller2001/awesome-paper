@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00817v2",
+  "title": "Semantic Bridges Between First Order c-Representations and Cost-Based\n  Semantics: An Initial Perspective",
+  "summary": "Weighted-knowledge bases and cost-based semantics represent a recent\nformalism introduced by Bienvenu et al. for Ontology Mediated Data Querying in\nthe case where a given knowledge base is inconsistent. This is done by adding a\nweight to each statement in the knowledge base (KB), and then giving each DL\ninterpretation a cost based on how often it breaks rules in the KB. In this\npaper we compare this approach with c-representations, a form of non-monotonic\nreasoning originally introduced by Kern-Isberner. c-Representations describe a\nmeans to interpret defeasible concept inclusions in the first-order case. This\nis done by assigning a numerical ranking to each interpretations via penalties\nfor each violated conditional. We compare these two approaches on a semantic\nlevel. In particular, we show that under certain conditions a weighted\nknowledge base and a set of defeasible conditionals can generate the same\nordering on interpretations, and therefore an equivalence of semantic\nstructures up to relative cost. Moreover, we compare entailment described in\nboth cases, where certain notions are equivalently expressible in both\nformalisms. Our results have the potential to benefit further work on both\ncost-based semantics and c-representations",
+  "authors": [
+    "Nicholas Leisegang",
+    "Giovanni Casini",
+    "Thomas Meyer"
+  ],
+  "published": "2025-10-01T12:27:19Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00817v2",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文比较了加权知识库的成本语义与c-表示法在语义层面的关系，证明在特定条件下两者可生成相同的解释排序，并探讨了它们在可废止条件推理中的等价表达潜力。",
+  "order": 240,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00817v2"
+}

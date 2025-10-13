@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.05862v1",
+  "title": "Revisiting Long-context Modeling from Context Denoising Perspective",
+  "summary": "Long-context models (LCMs) have demonstrated great potential in processing\nlong sequences, facilitating many real-world applications. The success of LCMs\ncan be attributed to their ability to locate implicit critical information\nwithin the context for further prediction. However, recent research reveals\nthat LCMs are often susceptible to contextual noise, i.e., irrelevant tokens,\nthat can mislead model attention. In this paper, we conduct a fine-grained\nanalysis of the context noise and propose an effective metric, the Integrated\nGradient (IG) score, to detect and quantify the noise information within the\ncontext. Our findings reveal that even simple mitigation of detected context\nnoise can substantially boost the model's attention on critical tokens and\nbenefit subsequent predictions. Building on this insight, we propose Context\nDenoising Training (CDT), a straightforward yet effective training strategy\nthat improves attention on critical tokens while reinforcing their influence on\nmodel predictions. Extensive experiments across four tasks, under both context\nwindow scaling and long-context alignment settings, demonstrate the superiority\nof CDT. Notably, when trained with CDT, an open-source 8B model can achieve\nperformance (50.92) comparable to GPT-4o (51.00).",
+  "authors": [
+    "Zecheng Tang",
+    "Baibei Ji",
+    "Juntao Li",
+    "Lijun Wu",
+    "Haijia Gui",
+    "Min Zhang"
+  ],
+  "published": "2025-10-07T12:32:23Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05862v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['long_context', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文从上下文去噪角度重新审视长上下文建模，提出集成梯度评分来检测上下文噪声，并设计上下文去噪训练策略。实验表明该方法能显著提升模型对关键信息的注意力，使8B开源模型达到接近GPT-4o的性能。",
+  "order": 31,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05862v1"
+}

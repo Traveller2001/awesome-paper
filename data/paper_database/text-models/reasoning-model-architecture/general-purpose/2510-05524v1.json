@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.05524v1",
+  "title": "KEO: Knowledge Extraction on OMIn via Knowledge Graphs and RAG for\n  Safety-Critical Aviation Maintenance",
+  "summary": "We present Knowledge Extraction on OMIn (KEO), a domain-specific knowledge\nextraction and reasoning framework with large language models (LLMs) in\nsafety-critical contexts. Using the Operations and Maintenance Intelligence\n(OMIn) dataset, we construct a QA benchmark spanning global sensemaking and\nactionable maintenance tasks. KEO builds a structured Knowledge Graph (KG) and\nintegrates it into a retrieval-augmented generation (RAG) pipeline, enabling\nmore coherent, dataset-wide reasoning than traditional text-chunk RAG. We\nevaluate locally deployable LLMs (Gemma-3, Phi-4, Mistral-Nemo) and employ\nstronger models (GPT-4o, Llama-3.3) as judges. Experiments show that KEO\nmarkedly improves global sensemaking by revealing patterns and system-level\ninsights, while text-chunk RAG remains effective for fine-grained procedural\ntasks requiring localized retrieval. These findings underscore the promise of\nKG-augmented LLMs for secure, domain-specific QA and their potential in\nhigh-stakes reasoning.",
+  "authors": [
+    "Kuangshi Ai",
+    "Jonathan A. Karr Jr",
+    "Meng Jiang",
+    "Nitesh V. Chawla",
+    "Chaoli Wang"
+  ],
+  "published": "2025-10-07T02:29:13Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05524v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出KEO框架，结合知识图谱与检索增强生成技术，在航空安全维护领域实现知识提取与推理。通过构建结构化知识图谱并集成到RAG流程中，显著提升全局感知能力，同时保持传统文本块RAG在细粒度任务上的优势。实验表明KG增强的LLM在安全关键领域具有重要应用潜力。",
+  "order": 51,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05524v1"
+}

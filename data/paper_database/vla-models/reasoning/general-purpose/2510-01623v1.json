@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01623v1",
+  "title": "VLA-R1: Enhancing Reasoning in Vision-Language-Action Models",
+  "summary": "Vision-Language-Action (VLA) models aim to unify perception, language\nunderstanding, and action generation, offering strong cross-task and\ncross-scene generalization with broad impact on embodied AI. However, current\nVLA models often lack explicit step-by-step reasoning, instead emitting final\nactions without considering affordance constraints or geometric relations.\nTheir post-training pipelines also rarely reinforce reasoning quality, relying\nprimarily on supervised fine-tuning with weak reward design. To address these\nchallenges, we present VLA-R1, a reasoning-enhanced VLA that integrates\nReinforcement Learning from Verifiable Rewards (RLVR) with Group Relative\nPolicy Optimization (GRPO) to systematically optimize both reasoning and\nexecution. Specifically, we design an RLVR-based post-training strategy with\nverifiable rewards for region alignment, trajectory consistency, and output\nformatting, thereby strengthening reasoning robustness and execution accuracy.\nMoreover, we develop VLA-CoT-13K, a high-quality dataset that provides\nchain-of-thought supervision explicitly aligned with affordance and trajectory\nannotations. Furthermore, extensive evaluations on in-domain, out-of-domain,\nsimulation, and real-robot platforms demonstrate that VLA-R1 achieves superior\ngeneralization and real-world performance compared to prior VLA methods. We\nplan to release the model, code, and dataset following the publication of this\nwork. Code: https://github.com/GigaAI-research/VLA-R1. Website:\nhttps://gigaai-research.github.io/VLA-R1.",
+  "authors": [
+    "Angen Ye",
+    "Zeyu Zhang",
+    "Boyuan Wang",
+    "Xiaofeng Wang",
+    "Dapeng Zhang",
+    "Zheng Zhu"
+  ],
+  "published": "2025-10-02T02:54:03Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01623v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VLA-R1提出一种增强视觉-语言-动作模型推理能力的方法，通过可验证奖励强化学习和群体相对策略优化，结合新构建的VLA-CoT-13K数据集，显著提升了模型在跨领域和真实机器人环境中的推理鲁棒性与执行准确性。",
+  "order": 565,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01623v1"
+}

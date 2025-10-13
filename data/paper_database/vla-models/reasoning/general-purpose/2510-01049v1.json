@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01049v1",
+  "title": "KeySG: Hierarchical Keyframe-Based 3D Scene Graphs",
+  "summary": "In recent years, 3D scene graphs have emerged as a powerful world\nrepresentation, offering both geometric accuracy and semantic richness.\nCombining 3D scene graphs with large language models enables robots to reason,\nplan, and navigate in complex human-centered environments. However, current\napproaches for constructing 3D scene graphs are semantically limited to a\npredefined set of relationships, and their serialization in large environments\ncan easily exceed an LLM's context window. We introduce KeySG, a framework that\nrepresents 3D scenes as a hierarchical graph consisting of floors, rooms,\nobjects, and functional elements, where nodes are augmented with multi-modal\ninformation extracted from keyframes selected to optimize geometric and visual\ncoverage. The keyframes allow us to efficiently leverage VLM to extract scene\ninformation, alleviating the need to explicitly model relationship edges\nbetween objects, enabling more general, task-agnostic reasoning and planning.\nOur approach can process complex and ambiguous queries while mitigating the\nscalability issues associated with large scene graphs by utilizing a\nhierarchical retrieval-augmented generation (RAG) pipeline to extract relevant\ncontext from the graph. Evaluated across four distinct benchmarks -- including\n3D object segmentation and complex query retrieval -- KeySG outperforms prior\napproaches on most metrics, demonstrating its superior semantic richness and\nefficiency.",
+  "authors": [
+    "Abdelrhman Werby",
+    "Dennis Rotondi",
+    "Fabio Scaparro",
+    "Kai O. Arras"
+  ],
+  "published": "2025-10-01T15:53:27Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01049v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "KeySG提出了一种基于关键帧的分层3D场景图框架，通过构建包含楼层、房间、物体和功能元素的多层次图结构，结合视觉语言模型提取多模态信息。该方法采用分层检索增强生成管道处理复杂查询，在四个基准测试中表现出优越的语义丰富性和效率，解决了传统3D场景图关系预定义限制和规模扩展问题。",
+  "order": 601,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01049v1"
+}

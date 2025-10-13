@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00592v1",
+  "title": "Multi-level Dynamic Style Transfer for NeRFs",
+  "summary": "As the application of neural radiance fields (NeRFs) in various 3D vision\ntasks continues to expand, numerous NeRF-based style transfer techniques have\nbeen developed. However, existing methods typically integrate style statistics\ninto the original NeRF pipeline, often leading to suboptimal results in both\ncontent preservation and artistic stylization. In this paper, we present\nmulti-level dynamic style transfer for NeRFs (MDS-NeRF), a novel approach that\nreengineers the NeRF pipeline specifically for stylization and incorporates an\ninnovative dynamic style injection module. Particularly, we propose a\nmulti-level feature adaptor that helps generate a multi-level feature grid\nrepresentation from the content radiance field, effectively capturing the\nmulti-scale spatial structure of the scene. In addition, we present a dynamic\nstyle injection module that learns to extract relevant style features and\nadaptively integrates them into the content patterns. The stylized multi-level\nfeatures are then transformed into the final stylized view through our proposed\nmulti-level cascade decoder. Furthermore, we extend our 3D style transfer\nmethod to support omni-view style transfer using 3D style references. Extensive\nexperiments demonstrate that MDS-NeRF achieves outstanding performance for 3D\nstyle transfer, preserving multi-scale spatial structures while effectively\ntransferring stylistic characteristics.",
+  "authors": [
+    "Zesheng Li",
+    "Shuaibo Li",
+    "Wei Ma",
+    "Jianwei Guo",
+    "Hongbin Zha"
+  ],
+  "published": "2025-10-01T07:19:27Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00592v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MDS-NeRF方法，通过重构NeRF流程并引入动态风格注入模块，实现多层级3D风格迁移。该方法采用多层级特征适配器捕捉场景多尺度空间结构，通过级联解码器生成风格化视图，支持全视角3D风格迁移，在保持内容结构和风格特征方面表现优异。",
+  "order": 659,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00592v1"
+}

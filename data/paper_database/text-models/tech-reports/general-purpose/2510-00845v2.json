@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00845v2",
+  "title": "Mechanistic Interpretability as Statistical Estimation: A Variance\n  Analysis of EAP-IG",
+  "summary": "The development of trustworthy artificial intelligence requires moving beyond\nblack-box performance metrics toward an understanding of models' internal\ncomputations. Mechanistic Interpretability (MI) aims to meet this need by\nidentifying the algorithmic mechanisms underlying model behaviors. Yet, the\nscientific rigor of MI critically depends on the reliability of its findings.\nIn this work, we argue that interpretability methods, such as circuit\ndiscovery, should be viewed as statistical estimators, subject to questions of\nvariance and robustness. To illustrate this statistical framing, we present a\nsystematic stability analysis of a state-of-the-art circuit discovery method:\nEAP-IG. We evaluate its variance and robustness through a comprehensive suite\nof controlled perturbations, including input resampling, prompt paraphrasing,\nhyperparameter variation, and injected noise within the causal analysis itself.\nAcross a diverse set of models and tasks, our results demonstrate that EAP-IG\nexhibits high structural variance and sensitivity to hyperparameters,\nquestioning the stability of its findings. Based on these results, we offer a\nset of best-practice recommendations for the field, advocating for the routine\nreporting of stability metrics to promote a more rigorous and statistically\ngrounded science of interpretability.",
+  "authors": [
+    "Maxime Méloux",
+    "François Portet",
+    "Maxime Peyrard"
+  ],
+  "published": "2025-10-01T12:55:34Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00845v2",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究将机制可解释性视为统计估计问题，对EAP-IG电路发现方法进行方差分析。通过输入重采样、提示改写、超参数变化等扰动测试，发现该方法存在高结构方差和超参数敏感性，质疑其发现稳定性。建议在可解释性研究中常规报告稳定性指标以提升科学严谨性。",
+  "order": 448,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00845v2"
+}

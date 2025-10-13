@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01780v1",
+  "title": "Secure Multi-Modal Data Fusion in Federated Digital Health Systems via\n  MCP",
+  "summary": "Secure and interoperable integration of heterogeneous medical data remains a\ngrand challenge in digital health. Current federated learning (FL) frameworks\noffer privacy-preserving model training but lack standardized mechanisms to\norchestrate multi-modal data fusion across distributed and resource-constrained\nenvironments. This study introduces a novel framework that leverages the Model\nContext Protocol (MCP) as an interoperability layer for secure, cross-agent\ncommunication in multi-modal federated healthcare systems. The proposed\narchitecture unifies three pillars: (i) multi-modal feature alignment for\nclinical imaging, electronic medical records, and wearable IoT data; (ii)\nsecure aggregation with differential privacy to protect patient-sensitive\nupdates; and (iii) energy-aware scheduling to mitigate dropouts in mobile\nclients. By employing MCP as a schema-driven interface, the framework enables\nadaptive orchestration of AI agents and toolchains while ensuring compliance\nwith privacy regulations. Experimental evaluation on benchmark datasets and\npilot clinical cohorts demonstrates up to 9.8\\% improvement in diagnostic\naccuracy compared with baseline FL, a 54\\% reduction in client dropout rates,\nand clinically acceptable privacy--utility trade-offs. These results highlight\nMCP-enabled multi-modal fusion as a scalable and trustworthy pathway toward\nequitable, next-generation federated health infrastructures.",
+  "authors": [
+    "Aueaphum Aueawatthanaphisut"
+  ],
+  "published": "2025-10-02T08:19:56Z",
+  "primary_category": "cs.CR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01780v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出一种基于模型上下文协议(MCP)的安全多模态联邦学习框架，用于医疗健康系统。该框架整合了多模态特征对齐、差分隐私安全聚合和能耗感知调度三大支柱，在基准数据集和临床队列实验中显示诊断准确率提升9.8%，客户端退出率降低54%，实现了隐私保护与效用的良好平衡。",
+  "order": 82,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01780v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01944v1",
+  "title": "Uniform-in-time convergence bounds for Persistent Contrastive Divergence\n  Algorithms",
+  "summary": "We propose a continuous-time formulation of persistent contrastive divergence\n(PCD) for maximum likelihood estimation (MLE) of unnormalised densities. Our\napproach expresses PCD as a coupled, multiscale system of stochastic\ndifferential equations (SDEs), which perform optimisation of the parameter and\nsampling of the associated parametrised density, simultaneously.\n  From this novel formulation, we are able to derive explicit bounds for the\nerror between the PCD iterates and the MLE solution for the model parameter.\nThis is made possible by deriving uniform-in-time (UiT) bounds for the\ndifference in moments between the multiscale system and the averaged regime. An\nefficient implementation of the continuous-time scheme is introduced,\nleveraging a class of explicit, stable intregators, stochastic orthogonal\nRunge-Kutta Chebyshev (S-ROCK), for which we provide explicit error estimates\nin the long-time regime. This leads to a novel method for training energy-based\nmodels (EBMs) with explicit error guarantees.",
+  "authors": [
+    "Paul Felix Valsecchi Oliva",
+    "O. Deniz Akyildiz",
+    "Andrew Duncan"
+  ],
+  "published": "2025-10-02T12:12:33Z",
+  "primary_category": "stat.ML",
+  "arxiv_url": "https://arxiv.org/abs/2510.01944v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出持续性对比散度(PCD)的连续时间公式，通过多尺度随机微分方程系统同时进行参数优化和采样。推导了PCD迭代与最大似然估计解之间的误差界，并引入高效数值实现方法，为基于能量的模型训练提供具有明确误差保证的新方法。",
+  "order": 771,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01944v1"
+}

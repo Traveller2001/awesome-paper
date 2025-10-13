@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01686v1",
+  "title": "FreeViS: Training-free Video Stylization with Inconsistent References",
+  "summary": "Video stylization plays a key role in content creation, but it remains a\nchallenging problem. Na\\\"ively applying image stylization frame-by-frame hurts\ntemporal consistency and reduces style richness. Alternatively, training a\ndedicated video stylization model typically requires paired video data and is\ncomputationally expensive. In this paper, we propose FreeViS, a training-free\nvideo stylization framework that generates stylized videos with rich style\ndetails and strong temporal coherence. Our method integrates multiple stylized\nreferences to a pretrained image-to-video (I2V) model, effectively mitigating\nthe propagation errors observed in prior works, without introducing flickers\nand stutters. In addition, it leverages high-frequency compensation to\nconstrain the content layout and motion, together with flow-based motion cues\nto preserve style textures in low-saliency regions. Through extensive\nevaluations, FreeViS delivers higher stylization fidelity and superior temporal\nconsistency, outperforming recent baselines and achieving strong human\npreference. Our training-free pipeline offers a practical and economic solution\nfor high-quality, temporally coherent video stylization. The code and videos\ncan be accessed via https://xujiacong.github.io/FreeViS/",
+  "authors": [
+    "Jiacong Xu",
+    "Yiqun Mei",
+    "Ke Zhang",
+    "Vishal M. Patel"
+  ],
+  "published": "2025-10-02T05:27:06Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01686v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "FreeViS是一种无需训练的视频风格化框架，通过整合多个风格化参考到预训练图像转视频模型中，在保持时间一致性的同时提供丰富的风格细节。该方法采用高频补偿和基于光流的运动线索，有效解决了传统方法中的闪烁和卡顿问题，无需配对视频数据即可实现高质量视频风格化。",
+  "order": 552,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01686v1"
+}

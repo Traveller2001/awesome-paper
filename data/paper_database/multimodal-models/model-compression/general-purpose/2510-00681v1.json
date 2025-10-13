@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00681v1",
+  "title": "Adaptive Event Stream Slicing for Open-Vocabulary Event-Based Object\n  Detection via Vision-Language Knowledge Distillation",
+  "summary": "Event cameras offer advantages in object detection tasks due to high-speed\nresponse, low latency, and robustness to motion blur. However, event cameras\nlack texture and color information, making open-vocabulary detection\nparticularly challenging. Current event-based detection methods are typically\ntrained on predefined categories, limiting their ability to generalize to novel\nobjects, where encountering previously unseen objects is common.\nVision-language models (VLMs) have enabled open-vocabulary object detection in\nRGB images. However, the modality gap between images and event streams makes it\nineffective to directly transfer CLIP to event data, as CLIP was not designed\nfor event streams. To bridge this gap, we propose an event-image knowledge\ndistillation framework that leverages CLIP's semantic understanding to achieve\nopen-vocabulary object detection on event data. Instead of training CLIP\ndirectly on event streams, we use image frames as inputs to a teacher model,\nguiding the event-based student model to learn CLIP's rich visual\nrepresentations. Through spatial attention-based distillation, the student\nnetwork learns meaningful visual features directly from raw event inputs while\ninheriting CLIP's broad visual knowledge. Furthermore, to prevent information\nloss due to event data segmentation, we design a hybrid spiking neural network\n(SNN) and convolutional neural network (CNN) framework. Unlike fixed-group\nevent segmentation methods, which often discard crucial temporal information,\nour SNN adaptively determines the optimal event segmentation moments, ensuring\nthat key temporal features are extracted. The extracted event features are then\nprocessed by CNNs for object detection.",
+  "authors": [
+    "Jinchang Zhang",
+    "Zijun Li",
+    "Jiakai Lin",
+    "Guoyu Lu"
+  ],
+  "published": "2025-10-01T09:03:30Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00681v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于视觉-语言知识蒸馏的自适应事件流切片方法，用于解决事件相机在开放词汇目标检测中的挑战。通过教师-学生框架，利用CLIP模型的语义理解能力指导事件数据学习，结合脉冲神经网络自适应确定事件分割时机，保留关键时序特征，实现无需预定义类别的通用目标检测。",
+  "order": 641,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00681v1"
+}

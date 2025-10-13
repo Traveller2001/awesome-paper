@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06612v1",
+  "title": "A Bridge from Audio to Video: Phoneme-Viseme Alignment Allows Every Face\n  to Speak Multiple Languages",
+  "summary": "Speech-driven talking face synthesis (TFS) focuses on generating lifelike\nfacial animations from audio input. Current TFS models perform well in English\nbut unsatisfactorily in non-English languages, producing wrong mouth shapes and\nrigid facial expressions. The terrible performance is caused by the\nEnglish-dominated training datasets and the lack of cross-language\ngeneralization abilities. Thus, we propose Multilingual Experts (MuEx), a novel\nframework featuring a Phoneme-Guided Mixture-of-Experts (PG-MoE) architecture\nthat employs phonemes and visemes as universal intermediaries to bridge audio\nand video modalities, achieving lifelike multilingual TFS. To alleviate the\ninfluence of linguistic differences and dataset bias, we extract audio and\nvideo features as phonemes and visemes respectively, which are the basic units\nof speech sounds and mouth movements. To address audiovisual synchronization\nissues, we introduce the Phoneme-Viseme Alignment Mechanism (PV-Align), which\nestablishes robust cross-modal correspondences between phonemes and visemes. In\naddition, we build a Multilingual Talking Face Benchmark (MTFB) comprising 12\ndiverse languages with 95.04 hours of high-quality videos for training and\nevaluating multilingual TFS performance. Extensive experiments demonstrate that\nMuEx achieves superior performance across all languages in MTFB and exhibits\neffective zero-shot generalization to unseen languages without additional\ntraining.",
+  "authors": [
+    "Zibo Su",
+    "Kun Wei",
+    "Jiahua Li",
+    "Xu Yang",
+    "Cheng Deng"
+  ],
+  "published": "2025-10-08T03:46:39Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06612v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MuEx框架，通过音素-视素对齐机制解决多语言说话人脸合成的跨语言泛化问题。该框架采用音素引导的混合专家架构，构建包含12种语言的数据集，实现了高质量的多语言面部动画生成，并在未见语言上展现零样本泛化能力。",
+  "order": 153,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06612v1"
+}

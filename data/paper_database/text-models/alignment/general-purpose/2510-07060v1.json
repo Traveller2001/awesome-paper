@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07060v1",
+  "title": "Does Local News Stay Local?: Online Content Shifts in Sinclair-Acquired\n  Stations",
+  "summary": "Local news stations are often considered to be reliable sources of\nnon-politicized information, particularly local concerns that residents care\nabout. Because these stations are trusted news sources, viewers are\nparticularly susceptible to the information they report. The Sinclair Broadcast\ngroup is a broadcasting company that has acquired many local news stations in\nthe last decade. We investigate the effects of local news stations being\nacquired by Sinclair: how does coverage change? We use computational methods to\ninvestigate changes in internet content put out by local news stations before\nand after being acquired by Sinclair and in comparison to national news\noutlets. We find that there is clear evidence that local news stations report\nmore frequently on national news at the expense of local topics, and that their\ncoverage of polarizing national topics increases.",
+  "authors": [
+    "Miriam Wanner",
+    "Sophia Hager",
+    "Anjalie Field"
+  ],
+  "published": "2025-10-08T14:27:00Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07060v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过计算方法分析辛克莱广播集团收购地方新闻台后网络内容的变化。研究发现，被收购后的地方新闻台显著增加了全国性新闻的报道频率，同时减少了地方议题的覆盖，且对极化全国议题的报道明显增多。",
+  "order": 57,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07060v1"
+}

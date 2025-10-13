@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05856v1",
+  "title": "How to model Human Actions distribution with Event Sequence Data",
+  "summary": "This paper studies forecasting of the future distribution of events in human\naction sequences, a task essential in domains like retail, finance, healthcare,\nand recommendation systems where the precise temporal order is often less\ncritical than the set of outcomes. We challenge the dominant autoregressive\nparadigm and investigate whether explicitly modeling the future distribution or\norder-invariant multi-token approaches outperform order-preserving methods. We\nanalyze local order invariance and introduce a KL-based metric to quantify\ntemporal drift. We find that a simple explicit distribution forecasting\nobjective consistently surpasses complex implicit baselines. We further\ndemonstrate that mode collapse of predicted categories is primarily driven by\ndistributional imbalance. This work provides a principled framework for\nselecting modeling strategies and offers practical guidance for building more\naccurate and robust forecasting systems.",
+  "authors": [
+    "Egor Surkov",
+    "Dmitry Osin",
+    "Evgeny Burnaev",
+    "Egor Shvetsov"
+  ],
+  "published": "2025-10-07T12:24:54Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05856v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文挑战了传统自回归范式，研究如何通过显式建模未来事件分布或顺序无关的多标记方法来预测人类行为序列的未来分布。研究发现简单的显式分布预测目标优于复杂隐式基线，并提出KL度量量化时间漂移，为构建更准确的预测系统提供理论框架。",
+  "order": 116,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05856v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01336v1",
+  "title": "HiSpec: Hierarchical Speculative Decoding for LLMs",
+  "summary": "Speculative decoding accelerates LLM inference by using a smaller draft model\nto speculate tokens that a larger target model verifies. Verification is often\nthe bottleneck (e.g. verification is $4\\times$ slower than token generation\nwhen a 3B model speculates for a 70B target model), but most prior works focus\nonly on accelerating drafting. $\\textit{``Intermediate\"}$ verification reduces\nverification time by discarding inaccurate draft tokens early, but existing\nmethods incur substantial training overheads in incorporating the intermediate\nverifier, increase the memory footprint to orchestrate the intermediate\nverification step, and compromise accuracy by relying on approximate\nheuristics.\n  We propose $\\underline{\\textit{Hi}}\\textit{erarchical\n}\\underline{\\textit{Spec}}\\textit{ulative Decoding (HiSpec)}$, a framework for\nhigh-throughput speculative decoding that exploits $\\textit{early-exit (EE)\nmodels}$ for low-overhead intermediate verification. EE models allow tokens to\nexit early by skipping layer traversal and are explicitly trained so that\nhidden states at selected layers can be interpreted, making them uniquely\nsuited for intermediate verification without drastically increasing compute and\nmemory overheads. To improve resource-efficiency even further, we design a\nmethodology that enables HiSpec to re-use key-value caches and hidden states\nbetween the draft, intermediate verifier, and target models. To maintain\naccuracy, HiSpec periodically validates the draft tokens accepted by the\nintermediate verifier against the target model. Our evaluations using various\nrepresentative benchmarks and models show that HiSpec improves throughput by\n1.28$\\times$ on average and by up to 2.01$\\times$ compared to the baseline\nsingle-layer speculation without compromising accuracy.",
+  "authors": [
+    "Avinash Kumar",
+    "Sujay Sanghavi",
+    "Poulami Das"
+  ],
+  "published": "2025-10-01T18:04:14Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01336v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "HiSpec提出了一种分层推测解码框架，利用早退模型进行低开销中间验证，通过重用KV缓存和隐藏状态提升资源效率，在保持准确性的同时将大语言模型推理吞吐量平均提升1.28倍。",
+  "order": 412,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01336v1"
+}

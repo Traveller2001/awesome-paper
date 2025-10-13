@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06067v1",
+  "title": "Reasoning under Vision: Understanding Visual-Spatial Cognition in\n  Vision-Language Models for CAPTCHA",
+  "summary": "CAPTCHA, originally designed to distinguish humans from robots, has evolved\ninto a real-world benchmark for assessing the spatial reasoning capabilities of\nvision-language models. In this work, we first show that step-by-step reasoning\nis crucial for vision-language models (VLMs) to solve CAPTCHAs, which represent\nhigh-difficulty spatial reasoning tasks, and that current commercial\nvision-language models still struggle with such reasoning. In particular, we\nobserve that most commercial VLMs (e.g., Gemini, Claude, GPT, etc.) fail to\neffectively solve CAPTCHAs and thus achieve low accuracy (around 21.9 percent).\nHowever, our findings indicate that requiring the model to perform step-by-step\nreasoning before generating the final coordinates can significantly enhance its\nsolving accuracy, underscoring the severity of the gap. To systematically study\nthis issue, we introduce CAPTCHA-X, the first real-world CAPTCHA benchmark with\nreasoning, covering seven categories of CAPTCHAs (such as Gobang, hCaptcha,\netc.) with step-by-step action solutions and grounding annotations. We further\ndefine five reasoning-oriented metrics that enable a comprehensive evaluation\nof models reasoning capabilities. To validate the effectiveness of reasoning,\nwe also propose a general agentic VLM-based framework that incorporates the\nmodels inherent reasoning abilities. Our method achieves state-of-the-art\nperformance across five high-difficulty CAPTCHA types, with an average solving\naccuracy of 83.9 percent, substantially surpassing existing baselines. These\nresults reveal the limitations of current models and highlight the importance\nof reasoning in advancing visual-spatial challenges in the future.",
+  "authors": [
+    "Python Song",
+    "Luke Tenyi Chang",
+    "Yun-Yun Tsai",
+    "Penghui Li",
+    "Junfeng Yang"
+  ],
+  "published": "2025-10-07T15:56:21Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06067v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究将CAPTCHA作为评估视觉语言模型空间推理能力的基准，发现现有商业模型在解决CAPTCHA任务时准确率仅21.9%。通过引入逐步推理机制，模型性能显著提升至83.9%。论文提出了首个带推理标注的真实CAPTCHA基准CAPTCHA-X和五类评估指标，揭示了当前模型在视觉空间推理方面的局限性。",
+  "order": 72,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06067v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00555v1",
+  "title": "PromptPilot: Improving Human-AI Collaboration Through LLM-Enhanced\n  Prompt Engineering",
+  "summary": "Effective prompt engineering is critical to realizing the promised\nproductivity gains of large language models (LLMs) in knowledge-intensive\ntasks. Yet, many users struggle to craft prompts that yield high-quality\noutputs, limiting the practical benefits of LLMs. Existing approaches, such as\nprompt handbooks or automated optimization pipelines, either require\nsubstantial effort, expert knowledge, or lack interactive guidance. To address\nthis gap, we design and evaluate PromptPilot, an interactive prompting\nassistant grounded in four empirically derived design objectives for\nLLM-enhanced prompt engineering. We conducted a randomized controlled\nexperiment with 80 participants completing three realistic, work-related\nwriting tasks. Participants supported by PromptPilot achieved significantly\nhigher performance (median: 78.3 vs. 61.7; p = .045, d = 0.56), and reported\nenhanced efficiency, ease-of-use, and autonomy during interaction. These\nfindings empirically validate the effectiveness of our proposed design\nobjectives, establishing LLM-enhanced prompt engineering as a viable technique\nfor improving human-AI collaboration.",
+  "authors": [
+    "Niklas Gutheil",
+    "Valentin Mayer",
+    "Leopold Müller",
+    "Jörg Rommelt",
+    "Niklas Kühl"
+  ],
+  "published": "2025-10-01T06:14:42Z",
+  "primary_category": "cs.HC",
+  "arxiv_url": "https://arxiv.org/abs/2510.00555v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "PromptPilot是一个基于LLM增强的交互式提示工程助手，通过四项实证设计目标改善人机协作。在80名参与者的随机对照实验中，使用该系统的用户在写作任务中表现显著提升（中位数：78.3 vs 61.7），并报告了更高的效率、易用性和自主性。",
+  "order": 283,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00555v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05527v1",
+  "title": "Transfer Learning on Edge Connecting Probability Estimation under\n  Graphon Model",
+  "summary": "Graphon models provide a flexible nonparametric framework for estimating\nlatent connectivity probabilities in networks, enabling a range of downstream\napplications such as link prediction and data augmentation. However, accurate\ngraphon estimation typically requires a large graph, whereas in practice, one\noften only observes a small-sized network. One approach to addressing this\nissue is to adopt a transfer learning framework, which aims to improve\nestimation in a small target graph by leveraging structural information from a\nlarger, related source graph. In this paper, we propose a novel method, namely\nGTRANS, a transfer learning framework that integrates neighborhood smoothing\nand Gromov-Wasserstein optimal transport to align and transfer structural\npatterns between graphs. To prevent negative transfer, GTRANS includes an\nadaptive debiasing mechanism that identifies and corrects for target-specific\ndeviations via residual smoothing. We provide theoretical guarantees on the\nstability of the estimated alignment matrix and demonstrate the effectiveness\nof GTRANS in improving the accuracy of target graph estimation through\nextensive synthetic and real data experiments. These improvements translate\ndirectly to enhanced performance in downstream applications, such as the graph\nclassification task and the link prediction task.",
+  "authors": [
+    "Yuyao Wang",
+    "Yu-Hung Cheng",
+    "Debarghya Mukherjee",
+    "Huimin Cheng"
+  ],
+  "published": "2025-10-07T02:37:12Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05527v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出GTRANS迁移学习框架，通过邻域平滑和Gromov-Wasserstein最优传输在Graphon模型下实现图结构对齐与迁移，包含自适应去偏机制防止负迁移，理论证明对齐矩阵稳定性并在图分类和链接预测任务中验证有效性。",
+  "order": 146,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05527v1"
+}

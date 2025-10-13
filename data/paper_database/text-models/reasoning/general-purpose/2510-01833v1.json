@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.01833v1",
+  "title": "Plan Then Action:High-Level Planning Guidance Reinforcement Learning for\n  LLM Reasoning",
+  "summary": "Large language models (LLMs) have demonstrated remarkable reasoning abilities\nin complex tasks, often relying on Chain-of-Thought (CoT) reasoning. However,\ndue to their autoregressive token-level generation, the reasoning process is\nlargely constrained to local decision-making and lacks global planning. This\nlimitation frequently results in redundant, incoherent, or inaccurate\nreasoning, which significantly degrades overall performance. Existing\napproaches, such as tree-based algorithms and reinforcement learning (RL),\nattempt to address this issue but suffer from high computational costs and\noften fail to produce optimal reasoning trajectories. To tackle this challenge,\nwe propose Plan-Then-Action Enhanced Reasoning with Group Relative Policy\nOptimization PTA-GRPO, a two-stage framework designed to improve both\nhigh-level planning and fine-grained CoT reasoning. In the first stage, we\nleverage advanced LLMs to distill CoT into compact high-level guidance, which\nis then used for supervised fine-tuning (SFT). In the second stage, we\nintroduce a guidance-aware RL method that jointly optimizes the final output\nand the quality of high-level guidance, thereby enhancing reasoning\neffectiveness. We conduct extensive experiments on multiple mathematical\nreasoning benchmarks, including MATH, AIME2024, AIME2025, and AMC, across\ndiverse base models such as Qwen2.5-7B-Instruct, Qwen3-8B, Qwen3-14B, and\nLLaMA3.2-3B. Experimental results demonstrate that PTA-GRPO consistently\nachieves stable and significant improvements across different models and tasks,\nvalidating its effectiveness and generalization.",
+  "authors": [
+    "Zhihao Dou",
+    "Qinjian Zhao",
+    "Zhongwei Wan",
+    "Dinggen Zhang",
+    "Weida Wang",
+    "Towsif Raiyan",
+    "Benteng Chen",
+    "Qingtao Pan",
+    "Yang Ouyang",
+    "Zhiqiang Gao",
+    "Shufei Zhang",
+    "Sumon Biswas"
+  ],
+  "published": "2025-10-02T09:28:13Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01833v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出PTA-GRPO两阶段框架，通过高层规划指导增强大语言模型的推理能力。第一阶段利用先进LLM将思维链提炼为紧凑的高层指导进行监督微调；第二阶段引入指导感知的强化学习方法，联合优化最终输出与高层指导质量。在多个数学推理基准测试中验证了该方法能稳定提升不同模型的推理性能。",
+  "order": 365,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01833v1"
+}

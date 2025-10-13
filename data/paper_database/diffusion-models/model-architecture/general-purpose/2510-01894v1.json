@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01894v1",
+  "title": "Multi-marginal temporal Schrödinger Bridge Matching for video\n  generation from unpaired data",
+  "summary": "Many natural dynamic processes -- such as in vivo cellular differentiation or\ndisease progression -- can only be observed through the lens of static sample\nsnapshots. While challenging, reconstructing their temporal evolution to\ndecipher underlying dynamic properties is of major interest to scientific\nresearch. Existing approaches enable data transport along a temporal axis but\nare poorly scalable in high dimension and require restrictive assumptions to be\nmet. To address these issues, we propose \\textit{\\textbf{Multi-Marginal\ntemporal Schr\\\"odinger Bridge Matching}} (\\textbf{MMtSBM}) \\textit{for video\ngeneration from unpaired data}, extending the theoretical guarantees and\nempirical efficiency of Diffusion Schr\\\"odinger Bridge Matching\n(arXiv:archive/2303.16852) by deriving the Iterative Markovian Fitting\nalgorithm to multiple marginals in a novel factorized fashion. Experiments show\nthat MMtSBM retains theoretical properties on toy examples, achieves\nstate-of-the-art performance on real world datasets such as transcriptomic\ntrajectory inference in 100 dimensions, and for the first time recovers\ncouplings and dynamics in very high dimensional image settings. Our work\nestablishes multi-marginal Schr\\\"odinger bridges as a practical and principled\napproach for recovering hidden dynamics from static data.",
+  "authors": [
+    "Thomas Gravier",
+    "Thomas Boyer",
+    "Auguste Genovesio"
+  ],
+  "published": "2025-10-02T11:00:58Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01894v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出多边际时间薛定谔桥匹配方法，用于从非配对数据生成视频，通过因子化多边际推导迭代马尔可夫拟合算法，在转录组轨迹推断和高维图像动态恢复中实现最先进性能。",
+  "order": 781,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01894v1"
+}

@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.06783v1",
+  "title": "TTRV: Test-Time Reinforcement Learning for Vision Language Models",
+  "summary": "Existing methods for extracting reward signals in Reinforcement Learning\ntypically rely on labeled data and dedicated training splits, a setup that\ncontrasts with how humans learn directly from their environment. In this work,\nwe propose TTRV to enhance vision language understanding by adapting the model\non the fly at inference time, without the need for any labeled data.\nConcretely, we enhance the Group Relative Policy Optimization (GRPO) framework\nby designing rewards based on the frequency of the base model's output, while\ninferring on each test sample multiple times. Further, we also propose to\ncontrol the diversity of the model's output by simultaneously rewarding the\nmodel for obtaining low entropy of the output empirical distribution. Our\napproach delivers consistent gains across both object recognition and visual\nquestion answering (VQA), with improvements of up to 52.4% and 29.8%,\nrespectively, and average boosts of 24.6% and 10.0% across 16\ndatasets.Remarkably, on image recognition, TTRV applied to InternVL 8B\nsurpasses GPT-4o by an average of 2.3% over 8 benchmarks, while remaining\nhighly competitive on VQA, demonstrating that test-time reinforcement learning\ncan match or exceed the strongest proprietary models. Finally, we find many\ninteresting properties of test-time RL for VLMs: for example, even in extremely\ndata-constrained scenarios, where adaptation is performed on a single randomly\nchosen unlabeled test example, TTRV still yields non-trivial improvements of up\nto 5.5% in recognition tasks.",
+  "authors": [
+    "Akshit Singh",
+    "Shyam Marjit",
+    "Wei Lin",
+    "Paul Gavrikov",
+    "Serena Yeung-Levy",
+    "Hilde Kuehne",
+    "Rogerio Feris",
+    "Sivan Doveh",
+    "James Glass",
+    "M. Jehanzeb Mirza"
+  ],
+  "published": "2025-10-08T09:10:31Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06783v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TTRV方法，在推理时通过强化学习动态优化视觉语言模型，无需标注数据。通过基于输出频率设计奖励函数并控制输出多样性，在目标识别和视觉问答任务中分别实现最高52.4%和29.8%的性能提升，InternVL 8B模型在图像识别上平均超越GPT-4o达2.3%。",
+  "order": 140,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06783v1"
+}

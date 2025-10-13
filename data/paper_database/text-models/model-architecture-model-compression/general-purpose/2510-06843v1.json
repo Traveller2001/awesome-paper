@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06843v1",
+  "title": "SID: Multi-LLM Debate Driven by Self Signals",
+  "summary": "Large Language Models (LLMs) have exhibited impressive capabilities across\ndiverse application domains. Recent work has explored Multi-LLM Agent Debate\n(MAD) as a way to enhance performance by enabling multiple LLMs to discuss and\nrefine responses iteratively. Nevertheless, existing MAD methods predominantly\nfocus on utilizing external structures, such as debate graphs, using\nLLM-as-a-Judge, while neglecting the application of self signals, such as token\nlogits and attention, that arise during generation. This omission leads to\nredundant computation and potential performance degradation. In this paper, we\nshift the focus to the self signals of multi-LLM debate and introduce a\nSelf-Signals Driven Multi-LLM Debate (SID), which leverages two types of\nself-signals: model-level confidence and token-level semantic focus, to\nadaptively guide the debate process. Our approach enables high-confidence\nagents to exit early at the model level and compress the redundant debate\ncontents based on the attention mechanism. We evaluate our method on various\nLLMs and Multimodal LLMs across multiple challenging benchmarks. Experimental\nresults demonstrate that our method not only outperforms existing MAD\ntechniques in accuracy but also reduces token consumption, highlighting the\neffectiveness of utilizing self signals in enhancing both the performance and\nefficiency of multi-agent debate systems. Our code will be available\nat~\\href{https://github.com/xuhang2019/SID}{\\texttt{https://github.com/xuhang2019/SID}}.",
+  "authors": [
+    "Xuhang Chen",
+    "Zhifan Song",
+    "Deyi Ji",
+    "Shuo Gao",
+    "Lanyun Zhu"
+  ],
+  "published": "2025-10-08T10:10:11Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06843v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'model_compression']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SID方法，通过利用模型级置信度和词级语义焦点两种自信号，自适应指导多LLM辩论过程。该方法让高置信度代理提前退出，并基于注意力机制压缩冗余辩论内容，在提升准确率的同时显著降低计算消耗。",
+  "order": 73,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06843v1"
+}

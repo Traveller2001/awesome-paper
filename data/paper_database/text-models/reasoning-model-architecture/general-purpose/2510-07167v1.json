@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07167v1",
+  "title": "Reasoning for Hierarchical Text Classification: The Case of Patents",
+  "summary": "Hierarchical text classification (HTC) assigns documents to multiple levels\nof a pre-defined taxonomy. Automated patent subject classification represents\none of the hardest HTC scenarios because of domain knowledge difficulty and a\nhuge number of labels. Prior approaches only output a flat label set, which\noffers little insight into the reason behind predictions. Therefore, we propose\nReasoning for Hierarchical Classification (RHC), a novel framework that\nreformulates HTC as a step-by-step reasoning task to sequentially deduce\nhierarchical labels. RHC trains large language models (LLMs) in two stages: a\ncold-start stage that aligns outputs with chain-of-thought (CoT) reasoning\nformat and a reinforcement learning (RL) stage to enhance multi-step reasoning\nability. RHC demonstrates four advantages in our experiments. (1)\nEffectiveness: RHC surpasses previous baselines and outperforms the supervised\nfine-tuning counterparts by approximately 3% in accuracy and macro F1. (2)\nExplainability: RHC produces natural-language justifications before prediction\nto facilitate human inspection. (3) Scalability: RHC scales favorably with\nmodel size with larger gains compared to standard fine-tuning. (4)\nApplicability: Beyond patents, we further demonstrate that RHC achieves\nstate-of-the-art performance on other widely used HTC benchmarks, which\nhighlights its broad applicability.",
+  "authors": [
+    "Lekang Jiang",
+    "Wenjun Sun",
+    "Stephan Goetz"
+  ],
+  "published": "2025-10-08T16:06:04Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07167v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RHC框架，将层次文本分类重构为逐步推理任务，通过两阶段训练（冷启动对齐思维链格式+强化学习增强多步推理）在专利分类等HTC任务中实现SOTA性能，具备有效性、可解释性、可扩展性和广泛适用性四大优势。",
+  "order": 47,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07167v1"
+}

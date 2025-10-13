@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00457v1",
+  "title": "UrbanGraph: Physics-Informed Spatio-Temporal Dynamic Heterogeneous\n  Graphs for Urban Microclimate Prediction",
+  "summary": "With rapid urbanization, predicting urban microclimates has become critical,\nas it affects building energy demand and public health risks. However, existing\ngenerative and homogeneous graph approaches fall short in capturing physical\nconsistency, spatial dependencies, and temporal variability. To address this,\nwe introduce UrbanGraph, a physics-informed framework integrating heterogeneous\nand dynamic spatio-temporal graphs. It encodes key physical processes --\nvegetation evapotranspiration, shading, and convective diffusion -- while\nmodeling complex spatial dependencies among diverse urban entities and their\ntemporal evolution. We evaluate UrbanGraph on UMC4/12, a physics-based\nsimulation dataset covering diverse urban configurations and climates. Results\nshow that UrbanGraph improves $R^2$ by up to 10.8% and reduces FLOPs by 17.0%\nover all baselines, with heterogeneous and dynamic graphs contributing 3.5% and\n7.1% gains. Our dataset provides the first high-resolution benchmark for\nspatio-temporal microclimate modeling, and our method extends to broader urban\nheterogeneous dynamic computing tasks.",
+  "authors": [
+    "Weilin Xin",
+    "Chenyu Huang",
+    "Peilin Li",
+    "Jing Zhong",
+    "Jiawei Yao"
+  ],
+  "published": "2025-10-01T03:14:05Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00457v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "UrbanGraph是一种物理信息驱动的时空动态异构图框架，用于城市微气候预测。该模型整合植被蒸腾、遮荫和对流扩散等物理过程，在UMC4/12数据集上相比基线方法R²提升10.8%，计算量降低17%，为城市异质动态计算任务提供了新解决方案。",
+  "order": 308,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00457v1"
+}

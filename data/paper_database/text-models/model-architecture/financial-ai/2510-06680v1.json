@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06680v1",
+  "title": "TimeFormer: Transformer with Attention Modulation Empowered by Temporal\n  Characteristics for Time Series Forecasting",
+  "summary": "Although Transformers excel in natural language processing, their extension\nto time series forecasting remains challenging due to insufficient\nconsideration of the differences between textual and temporal modalities. In\nthis paper, we develop a novel Transformer architecture designed for time\nseries data, aiming to maximize its representational capacity. We identify two\nkey but often overlooked characteristics of time series: (1) unidirectional\ninfluence from the past to the future, and (2) the phenomenon of decaying\ninfluence over time. These characteristics are introduced to enhance the\nattention mechanism of Transformers. We propose TimeFormer, whose core\ninnovation is a self-attention mechanism with two modulation terms (MoSA),\ndesigned to capture these temporal priors of time series under the constraints\nof the Hawkes process and causal masking. Additionally, TimeFormer introduces a\nframework based on multi-scale and subsequence analysis to capture semantic\ndependencies at different temporal scales, enriching the temporal dependencies.\nExtensive experiments conducted on multiple real-world datasets show that\nTimeFormer significantly outperforms state-of-the-art methods, achieving up to\na 7.45% reduction in MSE compared to the best baseline and setting new\nbenchmarks on 94.04\\% of evaluation metrics. Moreover, we demonstrate that the\nMoSA mechanism can be broadly applied to enhance the performance of other\nTransformer-based models.",
+  "authors": [
+    "Zhipeng Liu",
+    "Peibo Duan",
+    "Xuan Tang",
+    "Baixin Li",
+    "Yongsheng Huang",
+    "Mingyang Geng",
+    "Changsheng Zhang",
+    "Bin Zhang",
+    "Binwu Wang"
+  ],
+  "published": "2025-10-08T06:07:30Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06680v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture']",
+  "application_domain": "financial_ai",
+  "tldr_zh": "TimeFormer提出了一种专为时间序列预测设计的Transformer架构，通过引入受霍克斯过程和因果掩码约束的自注意力调制机制，捕捉时间序列的过去到未来单向影响和随时间衰减的特性。该模型结合多尺度和子序列分析框架，在多个真实数据集上显著优于现有方法，MSE降低最高达7.45%，并在94.04%的评估指标上创下新纪录。",
+  "order": 221,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06680v1"
+}

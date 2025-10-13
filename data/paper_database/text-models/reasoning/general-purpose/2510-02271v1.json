@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.02271v1",
+  "title": "InfoMosaic-Bench: Evaluating Multi-Source Information Seeking in\n  Tool-Augmented Agents",
+  "summary": "Information seeking is a fundamental requirement for humans. However,\nexisting LLM agents rely heavily on open-web search, which exposes two\nfundamental weaknesses: online content is noisy and unreliable, and many\nreal-world tasks require precise, domain-specific knowledge unavailable from\nthe web. The emergence of the Model Context Protocol (MCP) now allows agents to\ninterface with thousands of specialized tools, seemingly resolving this\nlimitation. Yet it remains unclear whether agents can effectively leverage such\ntools -- and more importantly, whether they can integrate them with\ngeneral-purpose search to solve complex tasks. Therefore, we introduce\nInfoMosaic-Bench, the first benchmark dedicated to multi-source information\nseeking in tool-augmented agents. Covering six representative domains\n(medicine, finance, maps, video, web, and multi-domain integration),\nInfoMosaic-Bench requires agents to combine general-purpose search with\ndomain-specific tools. Tasks are synthesized with InfoMosaic-Flow, a scalable\npipeline that grounds task conditions in verified tool outputs, enforces\ncross-source dependencies, and filters out shortcut cases solvable by trivial\nlookup. This design guarantees both reliability and non-triviality. Experiments\nwith 14 state-of-the-art LLM agents reveal three findings: (i) web information\nalone is insufficient, with GPT-5 achieving only 38.2% accuracy and 67.5% pass\nrate; (ii) domain tools provide selective but inconsistent benefits, improving\nsome domains while degrading others; and (iii) 22.4% of failures arise from\nincorrect tool usage or selection, highlighting that current LLMs still\nstruggle with even basic tool handling.",
+  "authors": [
+    "Yaxin Du",
+    "Yuanshuo Zhang",
+    "Xiyuan Yang",
+    "Yifan Zhou",
+    "Cheng Wang",
+    "Gongyi Zou",
+    "Xianghe Pang",
+    "Wenhao Wang",
+    "Menglan Chen",
+    "Shuo Tang",
+    "Zhiyu Li",
+    "Siheng Chen"
+  ],
+  "published": "2025-10-02T17:48:03Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02271v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "InfoMosaic-Bench是首个专门评估工具增强型智能体多源信息检索能力的基准测试，涵盖医疗、金融、地图等六大领域。研究发现：仅靠网络信息不足（GPT-5准确率仅38.2%），领域工具效果不稳定，22.4%失败源于工具使用错误，揭示当前LLM在工具整合方面仍存在显著缺陷。",
+  "order": 335,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02271v1"
+}

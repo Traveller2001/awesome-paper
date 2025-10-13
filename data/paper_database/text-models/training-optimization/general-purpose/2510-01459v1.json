@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01459v1",
+  "title": "LSPO: Length-aware Dynamic Sampling for Policy Optimization in LLM\n  Reasoning",
+  "summary": "Since the release of Deepseek-R1, reinforcement learning with verifiable\nrewards (RLVR) has become a central approach for training large language models\n(LLMs) on reasoning tasks. Recent work has largely focused on modifying loss\nfunctions to make RLVR more efficient and effective. In this paper, motivated\nby studies of overthinking in LLMs, we propose Length-aware Sampling for Policy\nOptimization (LSPO), a novel meta-RLVR algorithm that dynamically selects\ntraining data at each step based on the average response length. We evaluate\nLSPO across multiple base models and datasets, demonstrating that it\nconsistently improves learning effectiveness. In addition, we conduct a\ndetailed ablation study to examine alternative ways of incorporating length\nsignals into dynamic sampling, offering further insights and highlighting\npromising directions for future research.",
+  "authors": [
+    "Weizhe Chen",
+    "Sven Koenig",
+    "Bistra Dilkina"
+  ],
+  "published": "2025-10-01T20:57:22Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01459v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LSPO算法，一种基于响应长度的动态采样策略优化方法，用于提升大语言模型在推理任务中的训练效率。通过根据平均响应长度动态选择训练数据，该算法在多个基础模型和数据集上均能有效提升学习效果，并提供了关于长度信号融入采样策略的深入分析。",
+  "order": 403,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01459v1"
+}

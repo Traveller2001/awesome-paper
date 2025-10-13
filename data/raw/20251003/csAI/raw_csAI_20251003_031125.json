@@ -1,0 +1,260 @@
+{
+  "generated_at": "2025-10-06T03:11:25.648503Z",
+  "paper_date": "20251003",
+  "categories": [
+    "cs.AI"
+  ],
+  "paper_count": 16,
+  "papers": [
+    {
+      "arxiv_id": "2510.03206v1",
+      "title": "Coevolutionary Continuous Discrete Diffusion: Make Your Diffusion\n  Language Model a Latent Reasoner",
+      "summary": "Diffusion language models, especially masked discrete diffusion models, have\nachieved great success recently. While there are some theoretical and primary\nempirical results showing the advantages of latent reasoning with looped\ntransformers or continuous chain-of-thoughts, continuous diffusion models\ntypically underperform their discrete counterparts. In this paper, we argue\nthat diffusion language models do not necessarily need to be in the discrete\nspace. In particular, we prove that continuous diffusion models have stronger\nexpressivity than discrete diffusions and looped transformers. We attribute the\ncontradiction between the theoretical expressiveness and empirical performance\nto their practical trainability: while continuous diffusion provides\nintermediate supervision that looped transformers lack, they introduce\nadditional difficulty decoding tokens into the discrete token space from the\ncontinuous representation space. We therefore propose Coevolutionary Continuous\nDiscrete Diffusion (CCDD), which defines a joint multimodal diffusion process\non the union of a continuous representation space and a discrete token space,\nleveraging a single model to simultaneously denoise in the joint space. By\ncombining two modalities, CCDD is expressive with rich semantics in the latent\nspace, as well as good trainability and sample quality with the help of\nexplicit discrete tokens. We also propose effective architectures and advanced\ntraining/sampling techniques for CCDD, which reveals strong empirical\nperformance in extensive language modeling experiments on real-world tasks.",
+      "authors": [
+        "Cai Zhou",
+        "Chenxiao Yang",
+        "Yi Hu",
+        "Chenyu Wang",
+        "Chubin Zhang",
+        "Muhan Zhang",
+        "Lester Mackey",
+        "Tommi Jaakkola",
+        "Stephen Bates",
+        "Dinghuai Zhang"
+      ],
+      "published": "2025-10-03T17:44:41Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.03206v1"
+    },
+    {
+      "arxiv_id": "2510.03194v1",
+      "title": "CoDA: Agentic Systems for Collaborative Data Visualization",
+      "summary": "Deep research has revolutionized data analysis, yet data scientists still\ndevote substantial time to manually crafting visualizations, highlighting the\nneed for robust automation from natural language queries. However, current\nsystems struggle with complex datasets containing multiple files and iterative\nrefinement. Existing approaches, including simple single- or multi-agent\nsystems, often oversimplify the task, focusing on initial query parsing while\nfailing to robustly manage data complexity, code errors, or final visualization\nquality. In this paper, we reframe this challenge as a collaborative\nmulti-agent problem. We introduce CoDA, a multi-agent system that employs\nspecialized LLM agents for metadata analysis, task planning, code generation,\nand self-reflection. We formalize this pipeline, demonstrating how\nmetadata-focused analysis bypasses token limits and quality-driven refinement\nensures robustness. Extensive evaluations show CoDA achieves substantial gains\nin the overall score, outperforming competitive baselines by up to 41.5%. This\nwork demonstrates that the future of visualization automation lies not in\nisolated code generation but in integrated, collaborative agentic workflows.",
+      "authors": [
+        "Zichen Chen",
+        "Jiefeng Chen",
+        "Sercan Ö. Arik",
+        "Misha Sra",
+        "Tomas Pfister",
+        "Jinsung Yoon"
+      ],
+      "published": "2025-10-03T17:30:16Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.03194v1"
+    },
+    {
+      "arxiv_id": "2510.03153v1",
+      "title": "Improving Cooperation in Collaborative Embodied AI",
+      "summary": "The integration of Large Language Models (LLMs) into multiagent systems has\nopened new possibilities for collaborative reasoning and cooperation with AI\nagents. This paper explores different prompting methods and evaluates their\neffectiveness in enhancing agent collaborative behaviour and decision-making.\nWe enhance CoELA, a framework designed for building Collaborative Embodied\nAgents that leverage LLMs for multi-agent communication, reasoning, and task\ncoordination in shared virtual spaces. Through systematic experimentation, we\nexamine different LLMs and prompt engineering strategies to identify optimised\ncombinations that maximise collaboration performance. Furthermore, we extend\nour research by integrating speech capabilities, enabling seamless\ncollaborative voice-based interactions. Our findings highlight the\neffectiveness of prompt optimisation in enhancing collaborative agent\nperformance; for example, our best combination improved the efficiency of the\nsystem running with Gemma3 by 22% compared to the original CoELA system. In\naddition, the speech integration provides a more engaging user interface for\niterative system development and demonstrations.",
+      "authors": [
+        "Hima Jacob Leven Suprabha",
+        "Laxmi Nag Laxminarayan Nagesh",
+        "Ajith Nair",
+        "Alvin Reuben Amal Selvaster",
+        "Ayan Khan",
+        "Raghuram Damarla",
+        "Sanju Hannah Samuel",
+        "Sreenithi Saravana Perumal",
+        "Titouan Puech",
+        "Venkataramireddy Marella",
+        "Vishal Sonar",
+        "Alessandro Suglia",
+        "Oliver Lemon"
+      ],
+      "published": "2025-10-03T16:25:48Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.03153v1"
+    },
+    {
+      "arxiv_id": "2510.03127v1",
+      "title": "A Study of Rule Omission in Raven's Progressive Matrices",
+      "summary": "Analogical reasoning lies at the core of human cognition and remains a\nfundamental challenge for artificial intelligence. Raven's Progressive Matrices\n(RPM) serve as a widely used benchmark to assess abstract reasoning by\nrequiring the inference of underlying structural rules. While many vision-based\nand language-based models have achieved success on RPM tasks, it remains\nunclear whether their performance reflects genuine reasoning ability or\nreliance on statistical shortcuts. This study investigates the generalization\ncapacity of modern AI systems under conditions of incomplete training by\ndeliberately omitting several structural rules during training. Both\nsequence-to-sequence transformer models and vision-based architectures such as\nCoPINet and the Dual-Contrast Network are evaluated on the Impartial-RAVEN\n(I-RAVEN) dataset. Experiments reveal that although transformers demonstrate\nstrong performance on familiar rules, their accuracy declines sharply when\nfaced with novel or omitted rules. Moreover, the gap between token-level\naccuracy and complete answer accuracy highlights fundamental limitations in\ncurrent approaches. These findings provide new insights into the reasoning\nmechanisms underlying deep learning models and underscore the need for\narchitectures that move beyond pattern recognition toward robust abstract\nreasoning.",
+      "authors": [
+        "Binze Li"
+      ],
+      "published": "2025-10-03T15:53:28Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.03127v1"
+    },
+    {
+      "arxiv_id": "2510.03078v1",
+      "title": "From Facts to Foils: Designing and Evaluating Counterfactual\n  Explanations for Smart Environments",
+      "summary": "Explainability is increasingly seen as an essential feature of rule-based\nsmart environments. While counterfactual explanations, which describe what\ncould have been done differently to achieve a desired outcome, are a powerful\ntool in eXplainable AI (XAI), no established methods exist for generating them\nin these rule-based domains. In this paper, we present the first formalization\nand implementation of counterfactual explanations tailored to this domain. It\nis implemented as a plugin that extends an existing explanation engine for\nsmart environments. We conducted a user study (N=17) to evaluate our generated\ncounterfactuals against traditional causal explanations. The results show that\nuser preference is highly contextual: causal explanations are favored for their\nlinguistic simplicity and in time-pressured situations, while counterfactuals\nare preferred for their actionable content, particularly when a user wants to\nresolve a problem. Our work contributes a practical framework for a new type of\nexplanation in smart environments and provides empirical evidence to guide the\nchoice of when each explanation type is most effective.",
+      "authors": [
+        "Anna Trapp",
+        "Mersedeh Sadeghi",
+        "Andreas Vogelsang"
+      ],
+      "published": "2025-10-03T15:06:53Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.03078v1"
+    },
+    {
+      "arxiv_id": "2510.02996v1",
+      "title": "Onto-Epistemological Analysis of AI Explanations",
+      "summary": "Artificial intelligence (AI) is being applied in almost every field. At the\nsame time, the currently dominant deep learning methods are fundamentally\nblack-box systems that lack explanations for their inferences, significantly\nlimiting their trustworthiness and adoption. Explainable AI (XAI) methods aim\nto overcome this challenge by providing explanations of the models' decision\nprocess. Such methods are often proposed and developed by engineers and\nscientists with a predominantly technical background and incorporate their\nassumptions about the existence, validity, and explanatory utility of different\nconceivable explanatory mechanisms. However, the basic concept of an\nexplanation -- what it is, whether we can know it, whether it is absolute or\nrelative -- is far from trivial and has been the subject of deep philosophical\ndebate for millennia. As we point out here, the assumptions incorporated into\ndifferent XAI methods are not harmless and have important consequences for the\nvalidity and interpretation of AI explanations in different domains. We\ninvestigate ontological and epistemological assumptions in explainability\nmethods when they are applied to AI systems, meaning the assumptions we make\nabout the existence of explanations and our ability to gain knowledge about\nthose explanations. Our analysis shows how seemingly small technical changes to\nan XAI method may correspond to important differences in the underlying\nassumptions about explanations. We furthermore highlight the risks of ignoring\nthe underlying onto-epistemological paradigm when choosing an XAI method for a\ngiven application, and we discuss how to select and adapt appropriate XAI\nmethods for different domains of application.",
+      "authors": [
+        "Martina Mattioli",
+        "Eike Petersen",
+        "Aasa Feragen",
+        "Marcello Pelillo",
+        "Siavash A. Bigdeli"
+      ],
+      "published": "2025-10-03T13:36:57Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02996v1"
+    },
+    {
+      "arxiv_id": "2510.02880v1",
+      "title": "Consolidating Reinforcement Learning for Multimodal Discrete Diffusion\n  Models",
+      "summary": "Optimizing discrete diffusion model (DDM) with rewards remains a challenge:\nthe non-autoregressive paradigm makes importance sampling intractable and\nrollout complex, puzzling reinforcement learning methods such as Group Relative\nPolicy Optimization (GRPO). In this study, we introduce MaskGRPO, the first\nviable approach to enable scalable multimodal reinforcement learning in\ndiscrete diffusion with effective importance sampling and modality-specific\nadaptations. To this end, we first clarify the theoretical foundation for DDMs,\nwhich facilitates building an importance estimator that captures valuable token\nfluctuation for gradient updates. We then delicately tailored the rollout\nmethod for visual sequences, which yields diverse completions and reliable\noptimization gradients. Upon math reasoning, coding, and visual generation\nbenchmarks, MaskGRPO brings more stable and efficient updates, leading to\nstronger reasoning performance and better generation quality. This study\nestablishes MaskGRPO as a systematic policy optimization approach and the first\npractical way for discretized visual diffusion.",
+      "authors": [
+        "Tianren Ma",
+        "Mu Zhang",
+        "Yibing Wang",
+        "Qixiang Ye"
+      ],
+      "published": "2025-10-03T10:36:24Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02880v1"
+    },
+    {
+      "arxiv_id": "2510.02850v1",
+      "title": "Reward Model Routing in Alignment",
+      "summary": "Reinforcement learning from human or AI feedback (RLHF / RLAIF) has become\nthe standard paradigm for aligning large language models (LLMs). However, most\npipelines rely on a single reward model (RM), limiting alignment quality and\nrisking overfitting. Recent work explores RM routing--dynamically selecting an\nRM from a candidate pool to exploit complementary strengths while maintaining\n$O(1)$ RM calls--but existing methods suffer from cold-start and insufficient\nexploration. We propose BayesianRouter, a hybrid routing framework that\ncombines offline RM strengths learning with online Bayesian selection. In the\noffline stage, a multi-task router is trained on preference data to estimate\nper-RM reliability. In the online stage, a Bayesian Thompson sampling router\nperforms per-query RM selection, initializing RM-specific weight vectors with\noffline embeddings as Gaussian priors and adaptively updating their posteriors\nwith online rewards to adapt to the evolving policy distribution. Extensive\nexperiments on instruction-following (AlpacaEval-2, Arena-Hard, MT-Bench) and\nreasoning (GSM8K, MMLU) benchmarks show that BayesianRouter consistently\noutperforms individual RMs, RM ensembling, and existing routing methods.",
+      "authors": [
+        "Xinle Wu",
+        "Yao Lu"
+      ],
+      "published": "2025-10-03T09:37:59Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02850v1"
+    },
+    {
+      "arxiv_id": "2510.02840v1",
+      "title": "Take Goodhart Seriously: Principled Limit on General-Purpose AI\n  Optimization",
+      "summary": "A common but rarely examined assumption in machine learning is that training\nyields models that actually satisfy their specified objective function. We call\nthis the Objective Satisfaction Assumption (OSA). Although deviations from OSA\nare acknowledged, their implications are overlooked. We argue, in a\nlearning-paradigm-agnostic framework, that OSA fails in realistic conditions:\napproximation, estimation, and optimization errors guarantee systematic\ndeviations from the intended objective, regardless of the quality of its\nspecification. Beyond these technical limitations, perfectly capturing and\ntranslating the developer's intent, such as alignment with human preferences,\ninto a formal objective is practically impossible, making misspecification\ninevitable. Building on recent mathematical results, absent a mathematical\ncharacterization of these gaps, they are indistinguishable from those that\ncollapse into Goodhart's law failure modes under strong optimization pressure.\nBecause the Goodhart breaking point cannot be located ex ante, a principled\nlimit on the optimization of General-Purpose AI systems is necessary. Absent\nsuch a limit, continued optimization is liable to push systems into predictable\nand irreversible loss of control.",
+      "authors": [
+        "Antoine Maier",
+        "Aude Maier",
+        "Tom David"
+      ],
+      "published": "2025-10-03T09:25:12Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02840v1"
+    },
+    {
+      "arxiv_id": "2510.02837v1",
+      "title": "Beyond the Final Answer: Evaluating the Reasoning Trajectories of\n  Tool-Augmented Agents",
+      "summary": "Although recent tool-augmented benchmarks incorporate complex user requests\nand diverse tools, the evaluation methods for most of them remain limited to\nanswer matching. However, as the number of steps required to resolve a user\nrequest increases, a proper evaluation of an agent's performance must go beyond\nthe final answer to also assess the problem-solving trajectory, including\npreviously ignored aspects such as efficiency, hallucination, and adaptivity.\nThe most straightforward method for evaluating these aspects is to compare an\nagent's trajectory with the ground-truth trajectory, but this approach is\nfundamentally limited since annotating all valid ground-truth trajectories is\nprohibitively expensive. However, a simple LLM-based evaluator struggles to\nassess trajectories in detail without ground truth. To effectively evaluate the\nagents in this manner, we introduce TRACE, a framework for the\nmulti-dimensional evaluation of tool-augmented LLM agent performance. By\nincorporating an evidence bank, which accumulates knowledge gathered from\npreceding reasoning steps, TRACE enables a multi-faceted analysis and\nevaluation of an agent's reasoning trajectory effectively. To validate our\nframework, we develop a new meta-evaluation dataset by augmenting existing\nbenchmarks with diverse and flawed trajectories, each labeled with\nmulti-faceted performance scores. Our results confirm that TRACE accurately\nevaluates these complex behaviors in a scalable and cost-effective manner, even\nwith small open-source LLMs. Furthermore, we apply our method to evaluate the\ntrajectories that agents produce while solving tool-augmented tasks, presenting\npreviously unreported observations and their corresponding insights.",
+      "authors": [
+        "Wonjoong Kim",
+        "Sangwu Park",
+        "Yeonjun In",
+        "Sein Kim",
+        "Dongha Lee",
+        "Chanyoung Park"
+      ],
+      "published": "2025-10-03T09:19:15Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02837v1"
+    },
+    {
+      "arxiv_id": "2510.02816v1",
+      "title": "NCV: A Node-Wise Consistency Verification Approach for Low-Cost\n  Structured Error Localization in LLM Reasoning",
+      "summary": "Verifying multi-step reasoning in large language models is difficult due to\nimprecise error localization and high token costs. Existing methods either\nassess entire reasoning chains, suffering attention dilution, or rely on\nexpensive multi-sampling. We introduce Node-wise Consistency Verification\n(NCV), a training-free framework that recasts verification as lightweight\nbinary consistency checks at the node level. By decomposing the chain of\nthought into interconnected verification nodes, NCV precisely localizes errors\nand avoids unnecessary long-form generation. Experiments demonstrate that our\napproach enhances interpretability and efficiency, presenting a scalable\nsolution for reliable LLM reasoning verification. On public datasets, NCV\nachieves a 10\\% to 25\\% improvement in F1 scores over baselines while utilizing\n$6\\times$~$58\\times$ fewer tokens than traditional methods like CoT-based\nverifiers.",
+      "authors": [
+        "Yulong Zhang",
+        "Li Wang",
+        "Wei Du",
+        "Peilin Li",
+        "Yuqin Dai Zhiyuan Zhao",
+        "Lingyong Fang",
+        "Ziniu Liu",
+        "Ru Zhang",
+        "Huijia Zhu",
+        "Gongshen Liu"
+      ],
+      "published": "2025-10-03T08:48:04Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02816v1"
+    },
+    {
+      "arxiv_id": "2510.02679v1",
+      "title": "Automated Constraint Specification for Job Scheduling by Regulating\n  Generative Model with Domain-Specific Representation",
+      "summary": "Advanced Planning and Scheduling (APS) systems have become indispensable for\nmodern manufacturing operations, enabling optimized resource allocation and\nproduction efficiency in increasingly complex and dynamic environments. While\nalgorithms for solving abstracted scheduling problems have been extensively\ninvestigated, the critical prerequisite of specifying manufacturing\nrequirements into formal constraints remains manual and labor-intensive.\nAlthough recent advances of generative models, particularly Large Language\nModels (LLMs), show promise in automating constraint specification from\nheterogeneous raw manufacturing data, their direct application faces challenges\ndue to natural language ambiguity, non-deterministic outputs, and limited\ndomain-specific knowledge. This paper presents a constraint-centric\narchitecture that regulates LLMs to perform reliable automated constraint\nspecification for production scheduling. The architecture defines a\nhierarchical structural space organized across three levels, implemented\nthrough domain-specific representation to ensure precision and reliability\nwhile maintaining flexibility. Furthermore, an automated production scenario\nadaptation algorithm is designed and deployed to efficiently customize the\narchitecture for specific manufacturing configurations. Experimental results\ndemonstrate that the proposed approach successfully balances the generative\ncapabilities of LLMs with the reliability requirements of manufacturing\nsystems, significantly outperforming pure LLM-based approaches in constraint\nspecification tasks.",
+      "authors": [
+        "Yu-Zhe Shi",
+        "Qiao Xu",
+        "Yanjia Li",
+        "Mingchen Liu",
+        "Huamin Qu",
+        "Lecheng Ruan",
+        "Qining Wang"
+      ],
+      "published": "2025-10-03T02:34:11Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02679v1"
+    },
+    {
+      "arxiv_id": "2510.02677v1",
+      "title": "ARMs: Adaptive Red-Teaming Agent against Multimodal Models with\n  Plug-and-Play Attacks",
+      "summary": "As vision-language models (VLMs) gain prominence, their multimodal interfaces\nalso introduce new safety vulnerabilities, making the safety evaluation\nchallenging and critical. Existing red-teaming efforts are either restricted to\na narrow set of adversarial patterns or depend heavily on manual engineering,\nlacking scalable exploration of emerging real-world VLM vulnerabilities. To\nbridge this gap, we propose ARMs, an adaptive red-teaming agent that\nsystematically conducts comprehensive risk assessments for VLMs. Given a target\nharmful behavior or risk definition, ARMs automatically optimizes diverse\nred-teaming strategies with reasoning-enhanced multi-step orchestration, to\neffectively elicit harmful outputs from target VLMs. We propose 11 novel\nmultimodal attack strategies, covering diverse adversarial patterns of VLMs\n(e.g., reasoning hijacking, contextual cloaking), and integrate 17 red-teaming\nalgorithms into ARMs via model context protocol (MCP). To balance the diversity\nand effectiveness of the attack, we design a layered memory with an\nepsilon-greedy attack exploration algorithm. Extensive experiments on instance-\nand policy-based benchmarks show that ARMs achieves SOTA attack success rates,\nexceeding baselines by an average of 52.1% and surpassing 90% on\nClaude-4-Sonnet. We show that the diversity of red-teaming instances generated\nby ARMs is significantly higher, revealing emerging vulnerabilities in VLMs.\nLeveraging ARMs, we construct ARMs-Bench, a large-scale multimodal safety\ndataset comprising over 30K red-teaming instances spanning 51 diverse risk\ncategories, grounded in both real-world multimodal threats and regulatory\nrisks. Safety fine-tuning with ARMs-Bench substantially improves the robustness\nof VLMs while preserving their general utility, providing actionable guidance\nto improve multimodal safety alignment against emerging threats.",
+      "authors": [
+        "Zhaorun Chen",
+        "Xun Liu",
+        "Mintong Kang",
+        "Jiawei Zhang",
+        "Minzhou Pan",
+        "Shuang Yang",
+        "Bo Li"
+      ],
+      "published": "2025-10-03T02:28:02Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02677v1"
+    },
+    {
+      "arxiv_id": "2510.02669v1",
+      "title": "AutoMaAS: Self-Evolving Multi-Agent Architecture Search for Large\n  Language Models",
+      "summary": "Multi-agent systems powered by large language models have demonstrated\nremarkable capabilities across diverse domains, yet existing automated design\napproaches seek monolithic solutions that fail to adapt resource allocation\nbased on query complexity and domain requirements. This paper introduces\nAutoMaAS, a self-evolving multi-agent architecture search framework that\nleverages neural architecture search principles to automatically discover\noptimal agent configurations through dynamic operator lifecycle management and\nautomated machine learning techniques. Our approach incorporates four key\ninnovations: (1) automatic operator generation, fusion, and elimination based\non performance-cost analysis, (2) dynamic cost-aware optimization with\nreal-time parameter adjustment, (3) online feedback integration for continuous\narchitecture refinement, and (4) enhanced interpretability through decision\ntracing mechanisms. Extensive experiments across six benchmarks demonstrate\nthat AutoMaAS achieves 1.0-7.1\\% performance improvement while reducing\ninference costs by 3-5\\% compared to state-of-the-art methods. The framework\nshows superior transferability across datasets and LLM backbones, establishing\na new paradigm for automated multi-agent system design in the era of large\nlanguage models.",
+      "authors": [
+        "Bo Ma",
+        "Hang Li",
+        "ZeHua Hu",
+        "XiaoFan Gui",
+        "LuYao Liu",
+        "Simon Liu"
+      ],
+      "published": "2025-10-03T01:57:07Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02669v1"
+    },
+    {
+      "arxiv_id": "2510.02655v1",
+      "title": "A Concept of Possibility for Real-World Events",
+      "summary": "This paper offers a new concept of {\\it possibility} as an alternative to the\nnow-a-days standard concept originally introduced by L.A. Zadeh in 1978. This\nnew version was inspired by the original but, formally, has nothing in common\nwith it other than that they both adopt the {\\L}ukasiewicz multivalent\ninterpretation of the logical connectives. Moreover, rather than seeking to\nprovide a general notion of possibility, this focuses specifically on the\npossibility of a real-world event. An event is viewed as having prerequisites\nthat enable its occurrence and constraints that may impede its occurrence, and\nthe possibility of the event is computed as a function of the probabilities\nthat the prerequisites hold and the constraints do not. This version of\npossibility might appropriately be applied to problems of planning. When there\nare multiple plans available for achieving a goal, this theory can be used to\ndetermine which plan is most possible, i.e., easiest or most feasible to\ncomplete. It is speculated that this model of reasoning correctly captures\nnormal human reasoning about plans. The theory is elaborated and an\nillustrative example for vehicle route planning is provided. There is also a\nsuggestion of potential future applications.",
+      "authors": [
+        "Daniel G. Schwartz"
+      ],
+      "published": "2025-10-03T01:15:06Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02655v1"
+    },
+    {
+      "arxiv_id": "2510.02653v1",
+      "title": "Geolog-IA: Conversational System for Academic Theses",
+      "summary": "This study presents the development of Geolog-IA, a novel conversational\nsystem based on artificial intelligence that responds naturally to questions\nabout geology theses from the Central University of Ecuador. Our proposal uses\nthe Llama 3.1 and Gemini 2.5 language models, which are complemented by a\nRetrieval Augmented Generation (RAG) architecture and an SQLite database. This\nstrategy allows us to overcome problems such as hallucinations and outdated\nknowledge. The evaluation of Geolog-IA's performance with the BLEU metric\nreaches an average of 0.87, indicating high consistency and accuracy in the\nresponses generated. The system offers an intuitive, web-based interface that\nfacilitates interaction and information retrieval for directors, teachers,\nstudents, and administrative staff at the institution. This tool can be a key\nsupport in education, training, and research and establishes a basis for future\napplications in other disciplines.",
+      "authors": [
+        "Micaela Fuel Pozo",
+        "Andrea Guatumillo Saltos",
+        "Yeseña Tipan Llumiquinga",
+        "Kelly Lascano Aguirre",
+        "Marilyn Castillo Jara",
+        "Christian Mejia-Escobar"
+      ],
+      "published": "2025-10-03T01:11:47Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.02653v1"
+    }
+  ]
+}

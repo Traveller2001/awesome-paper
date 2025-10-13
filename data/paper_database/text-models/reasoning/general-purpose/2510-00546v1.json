@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00546v1",
+  "title": "ThinkBrake: Mitigating Overthinking in Tool Reasoning",
+  "summary": "Small reasoning models (SRMs) often overthink during tool use: they reach a\ncorrect tool-argument configuration, then continue reasoning and overwrite it\nwith an incorrect final call. We diagnose overthinking via oracle rollouts that\ninject </think> at sentence boundaries. On the Berkeley Function Calling\nLeaderboard (BFCL), this oracle termination lifts average accuracy from 85.8\\%\nto 94.2\\% while reducing tokens by 80-94\\%, revealing substantial recoverable\nheadroom and potential redundant reasoning. While prior work on concise\nreasoning has largely targeted mathematics, tool reasoning remains\nunderexplored. We adapt various early-termination baselines to tool use and\nintroduce ThinkBrake, a training-free decoding heuristic. ThinkBrake monitors\nthe log-probability margin between </think> and the current top token at\nsentence boundaries and triggers termination when this margin becomes small.\nAcross BFCL's single turn, non-live and live splits, ThinkBrake preserves or\nimproves accuracy while reducing tokens up to 25\\%, outperforming various\nbaselines.",
+  "authors": [
+    "Minjae Oh",
+    "Sangjun Song",
+    "Seungkyu Lee",
+    "Sungmin Jo",
+    "Yohan Jo"
+  ],
+  "published": "2025-10-01T06:04:57Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00546v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ThinkBrake是一种无需训练的推理解码方法，针对小型推理模型在工具使用中的过度思考问题。通过监控句子边界处</think>与当前最佳token的对数概率差，在差值较小时触发终止，在BFCL基准上保持或提升准确率的同时减少25%的token使用，优于多种基线方法。",
+  "order": 470,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00546v1"
+}

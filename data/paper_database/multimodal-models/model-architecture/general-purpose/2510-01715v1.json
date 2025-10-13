@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01715v1",
+  "title": "PyramidStyler: Transformer-Based Neural Style Transfer with Pyramidal\n  Positional Encoding and Reinforcement Learning",
+  "summary": "Neural Style Transfer (NST) has evolved from Gatys et al.'s (2015) CNN-based\nalgorithm, enabling AI-driven artistic image synthesis. However, existing CNN\nand transformer-based models struggle to scale efficiently to complex styles\nand high-resolution inputs. We introduce PyramidStyler, a transformer framework\nwith Pyramidal Positional Encoding (PPE): a hierarchical, multi-scale encoding\nthat captures both local details and global context while reducing\ncomputational load. We further incorporate reinforcement learning to\ndynamically optimize stylization, accelerating convergence. Trained on\nMicrosoft COCO and WikiArt, PyramidStyler reduces content loss by 62.6% (to\n2.07) and style loss by 57.4% (to 0.86) after 4000 epochs--achieving 1.39 s\ninference--and yields further improvements (content 2.03; style 0.75) with\nminimal speed penalty (1.40 s) when using RL. These results demonstrate\nreal-time, high-quality artistic rendering, with broad applications in media\nand design.",
+  "authors": [
+    "Raahul Krishna Durairaju",
+    "K. Saruladha"
+  ],
+  "published": "2025-10-02T06:54:52Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01715v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "PyramidStyler是一种基于Transformer的神经风格迁移框架，采用金字塔位置编码和强化学习技术。该模型通过分层多尺度编码捕获局部细节和全局上下文，同时降低计算负载，在COCO和WikiArt数据集上训练后，内容损失降低62.6%，风格损失降低57.4%，推理速度达1.39秒，实现了实时高质量艺术渲染。",
+  "order": 548,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01715v1"
+}

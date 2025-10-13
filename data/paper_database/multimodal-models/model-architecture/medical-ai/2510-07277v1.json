@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.07277v1",
+  "title": "Evaluating Fundus-Specific Foundation Models for Diabetic Macular Edema\n  Detection",
+  "summary": "Diabetic Macular Edema (DME) is a leading cause of vision loss among patients\nwith Diabetic Retinopathy (DR). While deep learning has shown promising results\nfor automatically detecting this condition from fundus images, its application\nremains challenging due the limited availability of annotated data. Foundation\nModels (FM) have emerged as an alternative solution. However, it is unclear if\nthey can cope with DME detection in particular. In this paper, we\nsystematically compare different FM and standard transfer learning approaches\nfor this task. Specifically, we compare the two most popular FM for retinal\nimages--RETFound and FLAIR--and an EfficientNet-B0 backbone, across different\ntraining regimes and evaluation settings in IDRiD, MESSIDOR-2 and\nOCT-and-Eye-Fundus-Images (OEFI). Results show that despite their scale, FM do\nnot consistently outperform fine-tuned CNNs in this task. In particular, an\nEfficientNet-B0 ranked first or second in terms of area under the ROC and\nprecision/recall curves in most evaluation settings, with RETFound only showing\npromising results in OEFI. FLAIR, on the other hand, demonstrated competitive\nzero-shot performance, achieving notable AUC-PR scores when prompted\nappropriately. These findings reveal that FM might not be a good tool for\nfine-grained ophthalmic tasks such as DME detection even after fine-tuning,\nsuggesting that lightweight CNNs remain strong baselines in data-scarce\nenvironments.",
+  "authors": [
+    "Franco Javier Arellano",
+    "José Ignacio Orlando"
+  ],
+  "published": "2025-10-08T17:41:02Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07277v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究系统评估了RETFound、FLAIR等眼底专用基础模型与EfficientNet-B0在糖尿病黄斑水肿检测任务中的表现。结果表明，尽管基础模型规模庞大，但在多数测试场景下未能稳定超越经过微调的轻量CNN模型，其中EfficientNet-B0在ROC曲线下面积和精确率-召回率曲线指标上表现最优，提示在数据稀缺的医疗影像任务中，传统CNN仍具竞争优势。",
+  "order": 107,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07277v1"
+}

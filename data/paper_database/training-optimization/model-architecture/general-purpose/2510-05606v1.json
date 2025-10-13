@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05606v1",
+  "title": "Riddled basin geometry sets fundamental limits to predictability and\n  reproducibility in deep learning",
+  "summary": "Fundamental limits to predictability are central to our understanding of many\nphysical and computational systems. Here we show that, despite its remarkable\ncapabilities, deep learning exhibits such fundamental limits rooted in the\nfractal, riddled geometry of its basins of attraction: any initialization that\nleads to one solution lies arbitrarily close to another that leads to a\ndifferent one. We derive sufficient conditions for the emergence of riddled\nbasins by analytically linking features widely observed in deep learning,\nincluding chaotic learning dynamics and symmetry-induced invariant subspaces,\nto reveal a general route to riddling in realistic deep networks. The resulting\nbasins of attraction possess an infinitely fine-scale fractal structure\ncharacterized by an uncertainty exponent near zero, so that even large\nincreases in the precision of initial conditions yield only marginal gains in\noutcome predictability. Riddling thus imposes a fundamental limit on the\npredictability and hence reproducibility of neural network training, providing\na unified account of many empirical observations. These results reveal a\ngeneral organizing principle of deep learning with important implications for\noptimization and the safe deployment of artificial intelligence.",
+  "authors": [
+    "Andrew Ly",
+    "Pulin Gong"
+  ],
+  "published": "2025-10-07T06:02:58Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05606v1",
+  "primary_area": "training_optimization",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文揭示了深度学习训练中吸引盆的混沌分形几何结构会从根本上限制模型的可预测性与可复现性。研究表明，任何收敛到某个解的初始化参数都无限接近另一组会导致不同解的参数，这种'迷宫式吸引盆'结构使得即使大幅提高参数初始化精度，对训练结果的预测能力提升也微乎其微。该发现为理解深度学习优化过程提供了统一的理论框架，对AI安全部署具有重要意义。",
+  "order": 135,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05606v1"
+}

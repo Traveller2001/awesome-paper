@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00552v1",
+  "title": "Data Quality Challenges in Retrieval-Augmented Generation",
+  "summary": "Organizations increasingly adopt Retrieval-Augmented Generation (RAG) to\nenhance Large Language Models with enterprise-specific knowledge. However,\ncurrent data quality (DQ) frameworks have been primarily developed for static\ndatasets, and only inadequately address the dynamic, multi-stage nature of RAG\nsystems. This study aims to develop DQ dimensions for this new type of AI-based\nsystems. We conduct 16 semi-structured interviews with practitioners of leading\nIT service companies. Through a qualitative content analysis, we inductively\nderive 15 distinct DQ dimensions across the four processing stages of RAG\nsystems: data extraction, data transformation, prompt & search, and generation.\nOur findings reveal that (1) new dimensions have to be added to traditional DQ\nframeworks to also cover RAG contexts; (2) these new dimensions are\nconcentrated in early RAG steps, suggesting the need for front-loaded quality\nmanagement strategies, and (3) DQ issues transform and propagate through the\nRAG pipeline, necessitating a dynamic, step-aware approach to quality\nmanagement.",
+  "authors": [
+    "Leopold Müller",
+    "Joshua Holstein",
+    "Sarah Bause",
+    "Gerhard Satzger",
+    "Niklas Kühl"
+  ],
+  "published": "2025-10-01T06:13:40Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00552v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究针对检索增强生成(RAG)系统开发数据质量维度框架。通过对16位IT服务公司从业者的访谈，识别出覆盖RAG四个处理阶段的15个数据质量维度。研究发现：传统数据质量框架需新增维度以适应RAG场景；新维度集中于前期处理阶段，需前置质量管理策略；数据质量问题会在RAG流程中传递演变，需动态分阶段管理。",
+  "order": 285,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00552v1"
+}

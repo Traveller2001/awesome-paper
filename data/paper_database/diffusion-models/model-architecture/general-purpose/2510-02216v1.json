@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.02216v1",
+  "title": "Diffusion Transformers for Imputation: Statistical Efficiency and\n  Uncertainty Quantification",
+  "summary": "Imputation methods play a critical role in enhancing the quality of practical\ntime-series data, which often suffer from pervasive missing values. Recently,\ndiffusion-based generative imputation methods have demonstrated remarkable\nsuccess compared to autoregressive and conventional statistical approaches.\nDespite their empirical success, the theoretical understanding of how well\ndiffusion-based models capture complex spatial and temporal dependencies\nbetween the missing values and observed ones remains limited. Our work\naddresses this gap by investigating the statistical efficiency of conditional\ndiffusion transformers for imputation and quantifying the uncertainty in\nmissing values. Specifically, we derive statistical sample complexity bounds\nbased on a novel approximation theory for conditional score functions using\ntransformers, and, through this, construct tight confidence regions for missing\nvalues. Our findings also reveal that the efficiency and accuracy of imputation\nare significantly influenced by the missing patterns. Furthermore, we validate\nthese theoretical insights through simulation and propose a mixed-masking\ntraining strategy to enhance the imputation performance.",
+  "authors": [
+    "Zeqi Ye",
+    "Minshuo Chen"
+  ],
+  "published": "2025-10-02T17:00:18Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02216v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究针对扩散变换器在时间序列数据填补中的统计效率与不确定性量化问题，提出了基于条件得分函数近似理论的样本复杂度边界，构建了缺失值的紧致置信区域，并揭示了缺失模式对填补性能的影响，同时通过混合掩码训练策略验证了理论发现。",
+  "order": 720,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02216v1"
+}

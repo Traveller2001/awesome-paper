@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01480v1",
+  "title": "Pharmacophore-Guided Generative Design of Novel Drug-Like Molecules",
+  "summary": "The integration of artificial intelligence (AI) in early-stage drug discovery\noffers unprecedented opportunities for exploring chemical space and\naccelerating hit-to-lead optimization. However, docking optimization in\ngenerative approaches is computationally expensive and may lead to inaccurate\nresults. Here, we present a novel generative framework that balances\npharmacophore similarity to reference compounds with structural diversity from\nactive molecules. The framework allows users to provide custom reference sets,\nincluding FDA-approved drugs or clinical candidates, and guides the \\textit{de\nnovo} generation of potential therapeutics. We demonstrate its applicability\nthrough a case study targeting estrogen receptor modulators and antagonists for\nbreast cancer. The generated compounds maintain high pharmacophoric fidelity to\nknown active molecules while introducing substantial structural novelty,\nsuggesting strong potential for functional innovation and patentability.\nComprehensive evaluation of the generated molecules against common drug-like\nproperties confirms the robustness and pharmaceutical relevance of the\napproach.",
+  "authors": [
+    "Ekaterina Podplutova",
+    "Anastasia Vepreva",
+    "Olga A. Konovalova",
+    "Vladimir Vinogradov",
+    "Dmitrii O. Shkil",
+    "Andrei Dmitrenko"
+  ],
+  "published": "2025-10-01T21:45:58Z",
+  "primary_category": "q-bio.QM",
+  "arxiv_url": "https://arxiv.org/abs/2510.01480v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出一种基于药效团指导的生成式AI框架，用于设计新型药物分子。该方法平衡参考化合物的药效团相似性与活性分子的结构多样性，通过雌激素受体调节剂的案例验证，生成分子既保持高药效团保真度又具备结构新颖性，在乳腺癌治疗领域展现创新潜力。",
+  "order": 145,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01480v1"
+}

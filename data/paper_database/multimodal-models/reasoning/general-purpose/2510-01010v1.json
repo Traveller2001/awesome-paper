@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.01010v1",
+  "title": "ImageDoctor: Diagnosing Text-to-Image Generation via Grounded Image\n  Reasoning",
+  "summary": "The rapid advancement of text-to-image (T2I) models has increased the need\nfor reliable human preference modeling, a demand further amplified by recent\nprogress in reinforcement learning for preference alignment. However, existing\napproaches typically quantify the quality of a generated image using a single\nscalar, limiting their ability to provide comprehensive and interpretable\nfeedback on image quality. To address this, we introduce ImageDoctor, a unified\nmulti-aspect T2I model evaluation framework that assesses image quality across\nfour complementary dimensions: plausibility, semantic alignment, aesthetics,\nand overall quality. ImageDoctor also provides pixel-level flaw indicators in\nthe form of heatmaps, which highlight misaligned or implausible regions, and\ncan be used as a dense reward for T2I model preference alignment. Inspired by\nthe diagnostic process, we improve the detail sensitivity and reasoning\ncapability of ImageDoctor by introducing a \"look-think-predict\" paradigm, where\nthe model first localizes potential flaws, then generates reasoning, and\nfinally concludes the evaluation with quantitative scores. Built on top of a\nvision-language model and trained through a combination of supervised\nfine-tuning and reinforcement learning, ImageDoctor demonstrates strong\nalignment with human preference across multiple datasets, establishing its\neffectiveness as an evaluation metric. Furthermore, when used as a reward model\nfor preference tuning, ImageDoctor significantly improves generation quality --\nachieving an improvement of 10% over scalar-based reward models.",
+  "authors": [
+    "Yuxiang Guo",
+    "Jiang Liu",
+    "Ze Wang",
+    "Hao Chen",
+    "Ximeng Sun",
+    "Yang Zhao",
+    "Jialian Wu",
+    "Xiaodong Yu",
+    "Zicheng Liu",
+    "Emad Barsoum"
+  ],
+  "published": "2025-10-01T15:15:55Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01010v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ImageDoctor是一个多维度文本到图像生成评估框架，通过'观察-思考-预测'范式在四个维度（合理性、语义对齐、美学、整体质量）评估图像质量，并提供像素级缺陷热力图，作为强化学习的密集奖励信号，相比标量奖励模型提升10%生成质量。",
+  "order": 606,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01010v1"
+}

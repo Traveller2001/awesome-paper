@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.05577v1",
+  "title": "Mission Impossible: Feedback-Guided Dynamic Interactive Planning for\n  Improving Reasoning on LLMs",
+  "summary": "Recent advancements in language agents have led to significant improvements\nin multi-hop reasoning tasks. However, existing approaches often struggle with\nhandling open-domain problems, which require massive information retrieval due\nto their reliance on a fixed sequence of actions. To address this, we propose\nFeedback-Guided Dynamic Interactive Planning (FGDIP), a novel framework\ntailored to enhance reasoning in LLMs by utilizing dynamic and adaptive\nstrategies for information exploration in open-domain multi-hop reasoning\ntasks. Our approach begins by identifying key entities relevant to the problem,\nwhich serve as the initial nodes in the reasoning process. From these initial\nnodes, we then generate reasoning child nodes with the process being refined\nthrough a combination of historical error analysis and real-time feedback,\nwhich allows the framework to dynamically adjust and optimize its reasoning\nstrategies. By integrating depth-first search with an innovative node\ngeneration technique, our framework adapts based on both prior error paths and\nconcurrently generated nodes at the same hierarchical level. This dynamic\nstrategy effectively expands the search space while ensuring the reasoning\nprocess systematically converges toward accurate solutions. Experimental\nresults show that FGDIP achieved up to 54.47% F1 score on the HotpotQA dataset\nand 70.05% on the StrategyQA dataset, surpassing the best baseline by 5.03% and\n7.25% respectively, highlighting its versatility and potential to enhance\nlanguage agents in multi-hop reasoning tasks.",
+  "authors": [
+    "Dong Yan",
+    "Gaochen Wu",
+    "Bowen Zhou"
+  ],
+  "published": "2025-10-07T04:46:58Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05577v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出FGDIP框架，通过反馈引导的动态交互规划增强LLM在开放域多跳推理任务中的表现。该方法结合历史错误分析和实时反馈动态调整推理策略，在HotpotQA和StrategyQA数据集上分别达到54.47%和70.05%的F1分数，显著优于基线方法。",
+  "order": 46,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05577v1"
+}

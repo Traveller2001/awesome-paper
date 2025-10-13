@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06714v1",
+  "title": "Dual Goal Representations",
+  "summary": "In this work, we introduce dual goal representations for goal-conditioned\nreinforcement learning (GCRL). A dual goal representation characterizes a state\nby \"the set of temporal distances from all other states\"; in other words, it\nencodes a state through its relations to every other state, measured by\ntemporal distance. This representation provides several appealing theoretical\nproperties. First, it depends only on the intrinsic dynamics of the environment\nand is invariant to the original state representation. Second, it contains\nprovably sufficient information to recover an optimal goal-reaching policy,\nwhile being able to filter out exogenous noise. Based on this concept, we\ndevelop a practical goal representation learning method that can be combined\nwith any existing GCRL algorithm. Through diverse experiments on the OGBench\ntask suite, we empirically show that dual goal representations consistently\nimprove offline goal-reaching performance across 20 state- and pixel-based\ntasks.",
+  "authors": [
+    "Seohong Park",
+    "Deepinder Mann",
+    "Sergey Levine"
+  ],
+  "published": "2025-10-08T07:07:39Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06714v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出双重目标表示方法，用于目标条件强化学习。该表示通过状态与所有其他状态的时间距离关系来编码状态，具有环境动态内在依赖性和最优策略恢复能力。实验表明，该方法在20个状态和像素任务中能持续提升离线目标达成性能。",
+  "order": 216,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06714v1"
+}

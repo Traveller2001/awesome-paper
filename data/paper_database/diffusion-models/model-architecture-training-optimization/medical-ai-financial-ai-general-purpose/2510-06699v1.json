@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06699v1",
+  "title": "A Diffusion Model for Regular Time Series Generation from Irregular Data\n  with Completion and Masking",
+  "summary": "Generating realistic time series data is critical for applications in\nhealthcare, finance, and science. However, irregular sampling and missing\nvalues present significant challenges. While prior methods address these\nirregularities, they often yield suboptimal results and incur high\ncomputational costs. Recent advances in regular time series generation, such as\nthe diffusion-based ImagenTime model, demonstrate strong, fast, and scalable\ngenerative capabilities by transforming time series into image representations,\nmaking them a promising solution. However, extending ImagenTime to irregular\nsequences using simple masking introduces \"unnatural\" neighborhoods, where\nmissing values replaced by zeros disrupt the learning process. To overcome\nthis, we propose a novel two-step framework: first, a Time Series Transformer\ncompletes irregular sequences, creating natural neighborhoods; second, a\nvision-based diffusion model with masking minimizes dependence on the completed\nvalues. This approach leverages the strengths of both completion and masking,\nenabling robust and efficient generation of realistic time series. Our method\nachieves state-of-the-art performance, achieving a relative improvement in\ndiscriminative score by $70\\%$ and in computational cost by $85\\%$. Code is at\nhttps://github.com/azencot-group/ImagenI2R.",
+  "authors": [
+    "Gal Fadlon",
+    "Idan Arbiv",
+    "Nimrod Berman",
+    "Omri Azencot"
+  ],
+  "published": "2025-10-08T06:47:58Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06699v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "['medical_ai', 'financial_ai', 'general_purpose']",
+  "tldr_zh": "本文提出一种两阶段扩散模型框架，首先生成完整时间序列以构建自然邻域，再结合掩码机制进行扩散生成。该方法有效解决了不规则采样时间序列生成中的'非自然邻域'问题，在判别分数上实现70%相对提升，计算成本降低85%，适用于医疗、金融等领域的时间序列数据生成。",
+  "order": 217,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06699v1"
+}

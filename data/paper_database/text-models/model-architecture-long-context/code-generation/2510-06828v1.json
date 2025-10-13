@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.06828v1",
+  "title": "Recurrence-Complete Frame-based Action Models",
+  "summary": "In recent years, attention-like mechanisms have been used to great success in\nthe space of large language models, unlocking scaling potential to a previously\nunthinkable extent. \"Attention Is All You Need\" famously claims RNN cells are\nnot needed in conjunction with attention. We challenge this view. In this\npaper, we point to existing proofs that architectures with fully parallelizable\nforward or backward passes cannot represent classes of problems specifically\ninteresting for long-running agentic tasks. We further conjecture a critical\ntime t beyond which non-recurrence-complete models fail to aggregate inputs\ncorrectly, with concrete implications for agentic systems (e.g., software\nengineering agents). To address this, we introduce a recurrence-complete\narchitecture and train it on GitHub-derived action sequences. Loss follows a\npower law in the trained sequence length while the parameter count remains\nfixed. Moreover, longer-sequence training always amortizes its linearly\nincreasing wall-time cost, yielding lower loss as a function of wall time.",
+  "authors": [
+    "Michael Keiblinger"
+  ],
+  "published": "2025-10-08T09:50:41Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06828v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'long_context']",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文挑战了'注意力机制足以替代RNN'的主流观点，提出非循环完备模型在长时间智能体任务中存在理论缺陷。作者设计了循环完备架构并在GitHub动作序列上验证：固定参数下损失随训练序列长度呈幂律下降，长序列训练能线性摊薄时间成本。",
+  "order": 209,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06828v1"
+}

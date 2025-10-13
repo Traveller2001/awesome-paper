@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06548v1",
+  "title": "From Acceleration to Saturation: Scaling Behavior of Bootstrapped\n  Language Model Pretraining",
+  "summary": "Bootstrapped pretraining, i.e., the reuse of a pretrained base model for\nfurther pretraining, such as continual pretraining or model growth, is\npromising at reducing the cost of training language models from scratch.\nHowever, its effectiveness remains unclear, especially when applied to\novertrained base models. In this work, we empirically study the scaling\nbehavior of bootstrapped pretraining and find that its scaling efficiency\ndiminishes in a predictable manner: The scaling exponent with respect to\nsecond-stage pretraining tokens decreases logarithmically with the number of\ntokens used to pretrain the base model. The joint dependence on first- and\nsecond-stage tokens is accurately modeled by a simple scaling law. Such\nsaturation effect reveals a fundamental trade-off in multi-stage pretraining\nstrategies: the more extensively a model is pretrained, the less additional\nbenefit bootstrapping provides. Our findings provide practical insights for\nefficient language model training and raise important considerations for the\nreuse of overtrained models.",
+  "authors": [
+    "Seng Pei Liew",
+    "Takuya Kato"
+  ],
+  "published": "2025-10-08T00:59:33Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06548v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文实证研究了语言模型引导式预训练的扩展规律，发现当基础模型经过充分训练后，继续预训练的收益会呈现饱和效应。研究提出了一个简单的扩展定律模型，揭示了多阶段预训练策略中的基本权衡：基础模型预训练越充分，引导式预训练带来的额外收益越小。这些发现为高效语言模型训练提供了实用见解。",
+  "order": 100,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06548v1"
+}

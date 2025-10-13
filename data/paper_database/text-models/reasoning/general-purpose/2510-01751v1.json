@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01751v1",
+  "title": "A cybersecurity AI agent selection and decision support framework",
+  "summary": "This paper presents a novel, structured decision support framework that\nsystematically aligns diverse artificial intelligence (AI) agent architectures,\nreactive, cognitive, hybrid, and learning, with the comprehensive National\nInstitute of Standards and Technology (NIST) Cybersecurity Framework (CSF) 2.0.\nBy integrating agent theory with industry guidelines, this framework provides a\ntransparent and stepwise methodology for selecting and deploying AI solutions\nto address contemporary cyber threats. Employing a granular decomposition of\nNIST CSF 2.0 functions into specific tasks, the study links essential AI agent\nproperties such as autonomy, adaptive learning, and real-time responsiveness to\neach subcategory's security requirements. In addition, it outlines graduated\nlevels of autonomy (assisted, augmented, and fully autonomous) to accommodate\norganisations at varying stages of cybersecurity maturity. This holistic\napproach transcends isolated AI applications, providing a unified detection,\nincident response, and governance strategy. Through conceptual validation, the\nframework demonstrates how tailored AI agent deployments can align with\nreal-world constraints and risk profiles, enhancing situational awareness,\naccelerating response times, and fortifying long-term resilience via adaptive\nrisk management. Ultimately, this research bridges the gap between theoretical\nAI constructs and operational cybersecurity demands, establishing a foundation\nfor robust, empirically validated multi-agent systems that adhere to industry\nstandards.",
+  "authors": [
+    "Masike Malatji"
+  ],
+  "published": "2025-10-02T07:38:21Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01751v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种网络安全AI代理选择与决策支持框架，将反应式、认知式、混合式和学习式四种AI代理架构与NIST网络安全框架2.0系统对齐。通过将网络安全功能分解为具体任务，该框架将AI代理的自主性、自适应学习和实时响应等特性与安全需求关联，提供分级的自主水平以适应不同成熟度的组织需求，为构建符合行业标准的稳健多代理系统奠定基础。",
+  "order": 84,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01751v1"
+}

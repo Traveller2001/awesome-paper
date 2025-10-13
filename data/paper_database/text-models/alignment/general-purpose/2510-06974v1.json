@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06974v1",
+  "title": "Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and\n  Social Groups",
+  "summary": "Large language models (LLMs) are increasingly deployed in user-facing\napplications, raising concerns about their potential to reflect and amplify\nsocial biases. We investigate social identity framing in Chinese LLMs using\nMandarin-specific prompts across ten representative Chinese LLMs, evaluating\nresponses to ingroup (\"We\") and outgroup (\"They\") framings, and extending the\nsetting to 240 social groups salient in the Chinese context. To complement\ncontrolled experiments, we further analyze Chinese-language conversations from\na corpus of real interactions between users and chatbots. Across models, we\nobserve systematic ingroup-positive and outgroup-negative tendencies, which are\nnot confined to synthetic prompts but also appear in naturalistic dialogue,\nindicating that bias dynamics might strengthen in real interactions. Our study\nprovides a language-aware evaluation framework for Chinese LLMs, demonstrating\nthat social identity biases documented in English generalize\ncross-linguistically and intensify in user-facing contexts.",
+  "authors": [
+    "Geng Liu",
+    "Feng Li",
+    "Junjie Mu",
+    "Mengxiao Zhu",
+    "Francesco Pierri"
+  ],
+  "published": "2025-10-08T13:00:12Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06974v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究针对10个主流中文大语言模型，通过设计包含'我们/他们'代词框架的中文提示词，评估了240个中国社会语境中的群体偏见。研究发现模型普遍存在'内群体偏好'和'外群体贬损'的系统性倾向，且在真实对话语料中偏见表现更为突出。该工作构建了中文语境下的社会身份偏见评估框架，证实英文模型中发现的偏见问题在中文环境下同样存在并在实际交互中加剧。",
+  "order": 64,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06974v1"
+}

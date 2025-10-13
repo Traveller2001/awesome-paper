@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00512v1",
+  "title": "Adaptive Data-Knowledge Alignment in Genetic Perturbation Prediction",
+  "summary": "The transcriptional response to genetic perturbation reveals fundamental\ninsights into complex cellular systems. While current approaches have made\nprogress in predicting genetic perturbation responses, they provide limited\nbiological understanding and cannot systematically refine existing knowledge.\nOvercoming these limitations requires an end-to-end integration of data-driven\nlearning and existing knowledge. However, this integration is challenging due\nto inconsistencies between data and knowledge bases, such as noise,\nmisannotation, and incompleteness. To address this challenge, we propose\nALIGNED (Adaptive aLignment for Inconsistent Genetic kNowledgE and Data), a\nneuro-symbolic framework based on the Abductive Learning (ABL) paradigm. This\nend-to-end framework aligns neural and symbolic components and performs\nsystematic knowledge refinement. We introduce a balanced consistency metric to\nevaluate the predictions' consistency against both data and knowledge. Our\nresults show that ALIGNED outperforms state-of-the-art methods by achieving the\nhighest balanced consistency, while also re-discovering biologically meaningful\nknowledge. Our work advances beyond existing methods to enable both the\ntransparency and the evolution of mechanistic biological understanding.",
+  "authors": [
+    "Yuanfang Xiang",
+    "Lun Ai"
+  ],
+  "published": "2025-10-01T04:48:43Z",
+  "primary_category": "q-bio.MN",
+  "arxiv_url": "https://arxiv.org/abs/2510.00512v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出ALIGNED框架，一种基于溯因学习的神经符号方法，用于解决遗传扰动预测中数据与知识库不一致的问题。该框架通过平衡一致性度量整合数据驱动学习与现有知识，在提升预测性能的同时实现知识系统精炼，超越现有方法并重新发现具有生物学意义的知识。",
+  "order": 291,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00512v1"
+}

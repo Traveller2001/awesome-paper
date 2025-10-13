@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00894v1",
+  "title": "FusionAdapter for Few-Shot Relation Learning in Multimodal Knowledge\n  Graphs",
+  "summary": "Multimodal Knowledge Graphs (MMKGs) incorporate various modalities, including\ntext and images, to enhance entity and relation representations. Notably,\ndifferent modalities for the same entity often present complementary and\ndiverse information. However, existing MMKG methods primarily align modalities\ninto a shared space, which tends to overlook the distinct contributions of\nspecific modalities, limiting their performance particularly in low-resource\nsettings. To address this challenge, we propose FusionAdapter for the learning\nof few-shot relationships (FSRL) in MMKG. FusionAdapter introduces (1) an\nadapter module that enables efficient adaptation of each modality to unseen\nrelations and (2) a fusion strategy that integrates multimodal entity\nrepresentations while preserving diverse modality-specific characteristics. By\neffectively adapting and fusing information from diverse modalities,\nFusionAdapter improves generalization to novel relations with minimal\nsupervision. Extensive experiments on two benchmark MMKG datasets demonstrate\nthat FusionAdapter achieves superior performance over state-of-the-art methods.",
+  "authors": [
+    "Ran Liu",
+    "Yuan Fang",
+    "Xiaoli Li"
+  ],
+  "published": "2025-10-01T13:36:56Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00894v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出FusionAdapter方法，针对多模态知识图谱中的少样本关系学习问题。通过适配器模块实现各模态对新关系的有效适应，并采用融合策略在整合多模态实体表征的同时保留各模态特性，在低资源场景下显著提升对新关系的泛化能力。",
+  "order": 224,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00894v1"
+}

@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00549v2",
+  "title": "EMR-AGENT: Automating Cohort and Feature Extraction from EMR Databases",
+  "summary": "Machine learning models for clinical prediction rely on structured data\nextracted from Electronic Medical Records (EMRs), yet this process remains\ndominated by hardcoded, database-specific pipelines for cohort definition,\nfeature selection, and code mapping. These manual efforts limit scalability,\nreproducibility, and cross-institutional generalization. To address this, we\nintroduce EMR-AGENT (Automated Generalized Extraction and Navigation Tool), an\nagent-based framework that replaces manual rule writing with dynamic, language\nmodel-driven interaction to extract and standardize structured clinical data.\nOur framework automates cohort selection, feature extraction, and code mapping\nthrough interactive querying of databases. Our modular agents iteratively\nobserve query results and reason over schema and documentation, using SQL not\njust for data retrieval but also as a tool for database observation and\ndecision making. This eliminates the need for hand-crafted, schema-specific\nlogic. To enable rigorous evaluation, we develop a benchmarking codebase for\nthree EMR databases (MIMIC-III, eICU, SICdb), including both seen and unseen\nschema settings. Our results demonstrate strong performance and generalization\nacross these databases, highlighting the feasibility of automating a process\npreviously thought to require expert-driven design. The code will be released\npublicly at https://github.com/AITRICS/EMR-AGENT/tree/main. For a\ndemonstration, please visit our anonymous demo page:\nhttps://anonymoususer-max600.github.io/EMR_AGENT/",
+  "authors": [
+    "Kwanhyung Lee",
+    "Sungsoo Hong",
+    "Joonhyung Park",
+    "Jeonghyeop Lim",
+    "Juhwan Choi",
+    "Donghwee Yoon",
+    "Eunho Yang"
+  ],
+  "published": "2025-10-01T06:10:04Z",
+  "primary_category": "cs.DB",
+  "arxiv_url": "https://arxiv.org/abs/2510.00549v2",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "medical_ai",
+  "tldr_zh": "EMR-AGENT是一个基于语言模型的自动化框架，用于从电子病历数据库中提取结构化临床数据。该系统通过智能代理动态交互，自动化完成队列选择、特征提取和代码映射，无需手动编写特定数据库规则。在MIMIC-III、eICU和SICdb三个EMR数据库上的测试表明，该方法具有良好的性能和泛化能力，显著提升了临床数据提取的可扩展性和跨机构通用性。",
+  "order": 286,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00549v2"
+}

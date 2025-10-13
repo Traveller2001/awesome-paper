@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01618v1",
+  "title": "Automated Genomic Interpretation via Concept Bottleneck Models for\n  Medical Robotics",
+  "summary": "We propose an automated genomic interpretation module that transforms raw DNA\nsequences into actionable, interpretable decisions suitable for integration\ninto medical automation and robotic systems. Our framework combines Chaos Game\nRepresentation (CGR) with a Concept Bottleneck Model (CBM), enforcing\npredictions to flow through biologically meaningful concepts such as GC\ncontent, CpG density, and k mer motifs. To enhance reliability, we incorporate\nconcept fidelity supervision, prior consistency alignment, KL distribution\nmatching, and uncertainty calibration. Beyond accurate classification of HIV\nsubtypes across both in-house and LANL datasets, our module delivers\ninterpretable evidence that can be directly validated against biological\npriors. A cost aware recommendation layer further translates predictive outputs\ninto decision policies that balance accuracy, calibration, and clinical\nutility, reducing unnecessary retests and improving efficiency. Extensive\nexperiments demonstrate that the proposed system achieves state of the art\nclassification performance, superior concept prediction fidelity, and more\nfavorable cost benefit trade-offs compared to existing baselines. By bridging\nthe gap between interpretable genomic modeling and automated decision-making,\nthis work establishes a reliable foundation for robotic and clinical automation\nin genomic medicine.",
+  "authors": [
+    "Zijun Li",
+    "Jinchang Zhang",
+    "Ming Zhang",
+    "Guoyu Lu"
+  ],
+  "published": "2025-10-02T02:51:34Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01618v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "提出一种结合混沌游戏表示与概念瓶颈模型的自动化基因组解释模块，通过生物意义概念（如GC含量、CpG密度等）进行HIV亚型分类，具备可解释性验证和成本感知决策功能，为医疗机器人和临床自动化提供可靠基础。",
+  "order": 567,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01618v1"
+}

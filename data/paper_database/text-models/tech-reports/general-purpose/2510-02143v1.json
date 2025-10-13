@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.02143v1",
+  "title": "How to Find Fantastic Papers: Self-Rankings as a Powerful Predictor of\n  Scientific Impact Beyond Peer Review",
+  "summary": "Peer review in academic research aims not only to ensure factual correctness\nbut also to identify work of high scientific potential that can shape future\nresearch directions. This task is especially critical in fast-moving fields\nsuch as artificial intelligence (AI), yet it has become increasingly difficult\ngiven the rapid growth of submissions. In this paper, we investigate an\nunderexplored measure for identifying high-impact research: authors' own\nrankings of their multiple submissions to the same AI conference. Grounded in\ngame-theoretic reasoning, we hypothesize that self-rankings are informative\nbecause authors possess unique understanding of their work's conceptual depth\nand long-term promise. To test this hypothesis, we conducted a large-scale\nexperiment at a leading AI conference, where 1,342 researchers self-ranked\ntheir 2,592 submissions by perceived quality. Tracking outcomes over more than\na year, we found that papers ranked highest by their authors received twice as\nmany citations as their lowest-ranked counterparts; self-rankings were\nespecially effective at identifying highly cited papers (those with over 150\ncitations). Moreover, we showed that self-rankings outperformed peer review\nscores in predicting future citation counts. Our results remained robust after\naccounting for confounders such as preprint posting time and self-citations.\nTogether, these findings demonstrate that authors' self-rankings provide a\nreliable and valuable complement to peer review for identifying and elevating\nhigh-impact research in AI.",
+  "authors": [
+    "Buxin Su",
+    "Natalie Collina",
+    "Garrett Wen",
+    "Didong Li",
+    "Kyunghyun Cho",
+    "Jianqing Fan",
+    "Bingxin Zhao",
+    "Weijie Su"
+  ],
+  "published": "2025-10-02T15:50:21Z",
+  "primary_category": "stat.AP",
+  "arxiv_url": "https://arxiv.org/abs/2510.02143v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过大规模实验发现，作者对自身多篇投稿的排名能有效预测论文的科学影响力。在AI顶会中，作者自评最高的论文引用量是最低的两倍，且自评比同行评审更能准确预测未来引用量。这为快速发展的AI领域提供了一种补充同行评审的有效方法。",
+  "order": 739,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02143v1"
+}

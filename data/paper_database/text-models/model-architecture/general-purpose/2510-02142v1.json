@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.02142v1",
+  "title": "Catalyst GFlowNet for electrocatalyst design: A hydrogen evolution\n  reaction case study",
+  "summary": "Efficient and inexpensive energy storage is essential for accelerating the\nadoption of renewable energy and ensuring a stable supply, despite fluctuations\nin sources such as wind and solar. Electrocatalysts play a key role in hydrogen\nenergy storage (HES), allowing the energy to be stored as hydrogen. However,\nthe development of affordable and high-performance catalysts for this process\nremains a significant challenge. We introduce Catalyst GFlowNet, a generative\nmodel that leverages machine learning-based predictors of formation and\nadsorption energy to design crystal surfaces that act as efficient catalysts.\nWe demonstrate the performance of the model through a proof-of-concept\napplication to the hydrogen evolution reaction, a key reaction in HES, for\nwhich we successfully identified platinum as the most efficient known catalyst.\nIn future work, we aim to extend this approach to the oxygen evolution\nreaction, where current optimal catalysts are expensive metal oxides, and open\nthe search space to discover new materials. This generative modeling framework\noffers a promising pathway for accelerating the search for novel and efficient\ncatalysts.",
+  "authors": [
+    "Lena Podina",
+    "Christina Humer",
+    "Alexandre Duval",
+    "Victor Schmidt",
+    "Ali Ramlaoui",
+    "Shahana Chatterjee",
+    "Yoshua Bengio",
+    "Alex Hernandez-Garcia",
+    "David Rolnick",
+    "Félix Therrien"
+  ],
+  "published": "2025-10-02T15:49:39Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02142v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Catalyst GFlowNet生成模型，利用机器学习预测形成能和吸附能来设计高效电催化剂晶体表面。以氢析出反应为案例研究，成功识别铂为最优催化剂，为加速新型催化剂发现提供了有前景的生成建模框架。",
+  "order": 740,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02142v1"
+}

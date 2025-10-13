@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.02173v1",
+  "title": "Learning to Reason for Hallucination Span Detection",
+  "summary": "Large language models (LLMs) often generate hallucinations -- unsupported\ncontent that undermines reliability. While most prior works frame hallucination\ndetection as a binary task, many real-world applications require identifying\nhallucinated spans, which is a multi-step decision making process. This\nnaturally raises the question of whether explicit reasoning can help the\ncomplex task of detecting hallucination spans. To answer this question, we\nfirst evaluate pretrained models with and without Chain-of-Thought (CoT)\nreasoning, and show that CoT reasoning has the potential to generate at least\none correct answer when sampled multiple times. Motivated by this, we propose\nRL4HS, a reinforcement learning framework that incentivizes reasoning with a\nspan-level reward function. RL4HS builds on Group Relative Policy Optimization\nand introduces Class-Aware Policy Optimization to mitigate reward imbalance\nissue. Experiments on the RAGTruth benchmark (summarization, question\nanswering, data-to-text) show that RL4HS surpasses pretrained reasoning models\nand supervised fine-tuning, demonstrating the necessity of reinforcement\nlearning with span-level rewards for detecting hallucination spans.",
+  "authors": [
+    "Hsuan Su",
+    "Ting-Yao Hu",
+    "Hema Swetha Koppula",
+    "Kundan Krishna",
+    "Hadi Pouransari",
+    "Cheng-Yu Hsieh",
+    "Cem Koc",
+    "Joseph Yitan Cheng",
+    "Oncel Tuzel",
+    "Raviteja Vemulapalli"
+  ],
+  "published": "2025-10-02T16:24:28Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02173v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RL4HS强化学习框架，通过链式思维推理和跨度级奖励函数检测大语言模型生成的幻觉内容。相比传统二分类方法，该方法能精确定位幻觉片段，在RAGTruth基准测试中优于预训练模型和监督微调。",
+  "order": 734,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02173v1"
+}

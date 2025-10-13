@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.05516v1",
+  "title": "NeST-BO: Fast Local Bayesian Optimization via Newton-Step Targeting of\n  Gradient and Hessian Information",
+  "summary": "Bayesian optimization (BO) is effective for expensive black-box problems but\nremains challenging in high dimensions. We propose NeST-BO, a local BO method\nthat targets the Newton step by jointly learning gradient and Hessian\ninformation with Gaussian process surrogates, and selecting evaluations via a\none-step lookahead bound on Newton-step error. We show that this bound (and\nhence the step error) contracts with batch size, so NeST-BO directly inherits\ninexact-Newton convergence: global progress under mild stability assumptions\nand quadratic local rates once steps are sufficiently accurate. To scale, we\noptimize the acquisition in low-dimensional subspaces (e.g., random embeddings\nor learned sparse subspaces), reducing the dominant cost of learning curvature\nfrom $O(d^2)$ to $O(m^2)$ with $m \\ll d$ while preserving step targeting.\nAcross high-dimensional synthetic and real-world problems, including cases with\nthousands of variables and unknown active subspaces, NeST-BO consistently\nyields faster convergence and lower regret than state-of-the-art local and\nhigh-dimensional BO baselines.",
+  "authors": [
+    "Wei-Ting Tang",
+    "Akshay Kudva",
+    "Joel A. Paulson"
+  ],
+  "published": "2025-10-07T02:09:00Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05516v1",
+  "primary_area": "training_optimization",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "NeST-BO是一种高效的局部贝叶斯优化方法，通过高斯过程代理模型联合学习梯度和海森矩阵信息，利用牛顿步误差的一步前瞻边界选择评估点。该方法在高维问题上展现出快速收敛和低遗憾特性，通过低维子空间优化将计算成本从O(d²)降至O(m²)，在包含数千变量的合成和真实问题中均优于现有方法。",
+  "order": 148,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05516v1"
+}

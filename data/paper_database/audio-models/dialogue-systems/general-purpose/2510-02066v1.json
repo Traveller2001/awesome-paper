@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02066v1",
+  "title": "Chain-of-Thought Reasoning in Streaming Full-Duplex End-to-End Spoken\n  Dialogue Systems",
+  "summary": "Most end-to-end (E2E) spoken dialogue systems (SDS) rely on voice activity\ndetection (VAD) for turn-taking, but VAD fails to distinguish between pauses\nand turn completions. Duplex SDS models address this by predicting output\ncontinuously, including silence tokens, thus removing the need for explicit\nVAD. However, they often have complex dual-channel architecture and lag behind\ncascaded models in semantic reasoning. To overcome these challenges, we propose\nSCoT: a Streaming Chain-of-Thought (CoT) framework for Duplex SDS, alternating\nbetween processing fixed-duration user input and generating responses in a\nblockwise manner. Using frame-level alignments, we create intermediate\ntargets-aligned user transcripts and system responses for each block.\nExperiments show that our approach produces more coherent and interpretable\nresponses than existing duplex methods while supporting lower-latency and\noverlapping interactions compared to turn-by-turn systems.",
+  "authors": [
+    "Siddhant Arora",
+    "Jinchuan Tian",
+    "Hayato Futami",
+    "Jiatong Shi",
+    "Yosuke Kashiwagi",
+    "Emiru Tsunoo",
+    "Shinji Watanabe"
+  ],
+  "published": "2025-10-02T14:33:05Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02066v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SCoT流式思维链框架，用于全双工端到端语音对话系统。通过分块处理用户输入和生成响应，结合帧级对齐创建中间目标，解决了传统VAD无法区分停顿与对话结束的问题。相比现有双工方法，该系统能产生更连贯可解释的响应，同时支持更低延迟和重叠交互。",
+  "order": 353,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02066v1"
+}

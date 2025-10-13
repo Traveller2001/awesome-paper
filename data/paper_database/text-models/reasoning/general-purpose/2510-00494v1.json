@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.00494v1",
+  "title": "Exploring System 1 and 2 communication for latent reasoning in LLMs",
+  "summary": "Should LLM reasoning live in a separate module, or within a single model's\nforward pass and representational space? We study dual-architecture latent\nreasoning, where a fluent Base exchanges latent messages with a Coprocessor,\nand test two hypotheses aimed at improving latent communication over Liu et al.\n(2024): (H1) increase channel capacity; (H2) learn communication via joint\nfinetuning. Under matched latent-token budgets on GPT-2 and Qwen-3, H2 is\nconsistently strongest while H1 yields modest gains. A unified soft-embedding\nbaseline, a single model with the same forward pass and shared representations,\nusing the same latent-token budget, nearly matches H2 and surpasses H1,\nsuggesting current dual designs mostly add compute rather than qualitatively\nimproving reasoning. Across GSM8K, ProsQA, and a Countdown stress test with\nincreasing branching factor, scaling the latent-token budget beyond small\nvalues fails to improve robustness. Latent analyses show overlapping subspaces\nwith limited specialization, consistent with weak reasoning gains. We conclude\ndual-model latent reasoning remains promising in principle, but likely requires\nobjectives and communication mechanisms that explicitly shape latent spaces for\nalgorithmic planning.",
+  "authors": [
+    "Julian Coda-Forno",
+    "Zhuokai Zhao",
+    "Qiang Zhang",
+    "Dipesh Tamboli",
+    "Weiwei Li",
+    "Xiangjun Fan",
+    "Lizhu Zhang",
+    "Eric Schulz",
+    "Hsiao-Ping Tseng"
+  ],
+  "published": "2025-10-01T04:26:09Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00494v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探索大语言模型中的双架构潜在推理机制，比较分离模块与统一模型的推理性能。实验表明，联合微调通信机制优于单纯增加信道容量，但统一软嵌入基线表现相当，提示当前双模型设计主要增加计算而非实质性提升推理能力。潜在空间分析显示有限的专业化程度，未来需开发能显式塑造算法规划潜空间的目标与通信机制。",
+  "order": 297,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00494v1"
+}

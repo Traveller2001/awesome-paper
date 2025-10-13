@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06790v1",
+  "title": "Get RICH or Die Scaling: Profitably Trading Inference Compute for\n  Robustness",
+  "summary": "Models are susceptible to adversarially out-of-distribution (OOD) data\ndespite large training-compute investments into their robustification. Zaremba\net al. (2025) make progress on this problem at test time, showing LLM reasoning\nimproves satisfaction of model specifications designed to thwart attacks,\nresulting in a correlation between reasoning effort and robustness to\njailbreaks. However, this benefit of test compute fades when attackers are\ngiven access to gradients or multimodal inputs. We address this gap, clarifying\nthat inference-compute offers benefits even in such cases. Our approach argues\nthat compositional generalization, through which OOD data is understandable via\nits in-distribution (ID) components, enables adherence to defensive\nspecifications on adversarially OOD inputs. Namely, we posit the Robustness\nfrom Inference Compute Hypothesis (RICH): inference-compute defenses profit as\nthe model's training data better reflects the attacked data's components. We\nempirically support this hypothesis across vision language model and attack\ntypes, finding robustness gains from test-time compute if specification\nfollowing on OOD data is unlocked by compositional generalization, while RL\nfinetuning and protracted reasoning are not critical. For example, increasing\nemphasis on defensive specifications via prompting lowers the success rate of\ngradient-based multimodal attacks on VLMs robustified by adversarial\npretraining, but this same intervention provides no such benefit to\nnot-robustified models. This correlation of inference-compute's robustness\nbenefit with base model robustness is the rich-get-richer dynamic of the RICH:\nattacked data components are more ID for robustified models, aiding\ncompositional generalization to OOD data. Accordingly, we advise layering\ntrain-time and test-time defenses to obtain their synergistic benefit.",
+  "authors": [
+    "Tavish McDonald",
+    "Bo Lei",
+    "Stanislav Fort",
+    "Bhavya Kailkhura",
+    "Brian Bartoldson"
+  ],
+  "published": "2025-10-08T09:18:53Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06790v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RICH假说：推理计算可在对抗性分布外数据上提升模型鲁棒性，关键在于组合泛化能力。研究表明，当训练数据更好地覆盖攻击数据的组成要素时，测试时计算投入能有效抵御梯度攻击和多模态攻击，形成'强者愈强'的防御动态。建议结合训练时与测试时防御策略以获得协同效益。",
+  "order": 212,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06790v1"
+}

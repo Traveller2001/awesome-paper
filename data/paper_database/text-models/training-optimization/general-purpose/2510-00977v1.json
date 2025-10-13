@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.00977v1",
+  "title": "It Takes Two: Your GRPO Is Secretly DPO",
+  "summary": "Group Relative Policy Optimization (GRPO) is a prominent reinforcement\nlearning algorithm for post-training Large Language Models (LLMs). It is\ncommonly believed that GRPO necessitates a large group size to ensure stable\ntraining via precise statistical estimation, which incurs substantial\ncomputational overhead. In this work, we challenge this assumption by reframing\nGRPO as a form of contrastive learning, which reveals a fundamental connection\nto Direct Preference Optimization (DPO). Motivated by DPO's empirical success,\nwe investigate the minimal two-rollout case (2-GRPO), a configuration\npreviously deemed infeasible. We provide a rigorous theoretical analysis to\nvalidate 2-GRPO and demonstrate empirically that it achieves performance on par\nwith 16-GRPO, despite using only 1/8 of the rollouts and reducing training time\nby over 70%.",
+  "authors": [
+    "Yihong Wu",
+    "Liheng Ma",
+    "Lei Ding",
+    "Muzhi Li",
+    "Xinyu Wang",
+    "Kejia Chen",
+    "Zhan Su",
+    "Zhanguang Zhang",
+    "Chenyang Huang",
+    "Yingxue Zhang",
+    "Mark Coates",
+    "Jian-Yun Nie"
+  ],
+  "published": "2025-10-01T14:52:11Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00977v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究挑战了GRPO算法需要大组规模的传统认知，通过将其重构为对比学习形式，揭示了与DPO的根本联系。理论分析和实验证明，仅需两个rollout的2-GRPO即可达到与16-GRPO相当的性能，同时减少70%以上训练时间和7/8的rollout需求。",
+  "order": 437,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00977v1"
+}

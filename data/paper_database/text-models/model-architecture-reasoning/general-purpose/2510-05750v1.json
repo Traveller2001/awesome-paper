@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.05750v1",
+  "title": "Are Heterogeneous Graph Neural Networks Truly Effective? A Causal\n  Perspective",
+  "summary": "Graph neural networks (GNNs) have achieved remarkable success in node\nclassification. Building on this progress, heterogeneous graph neural networks\n(HGNNs) integrate relation types and node and edge semantics to leverage\nheterogeneous information. Causal analysis for HGNNs is advancing rapidly,\naiming to separate genuine causal effects from spurious correlations. However,\nwhether HGNNs are intrinsically effective remains underexamined, and most\nstudies implicitly assume rather than establish this effectiveness. In this\nwork, we examine HGNNs from two perspectives: model architecture and\nheterogeneous information. We conduct a systematic reproduction across 21\ndatasets and 20 baselines, complemented by comprehensive hyperparameter\nretuning. To further disentangle the source of performance gains, we develop a\ncausal effect estimation framework that constructs and evaluates candidate\nfactors under standard assumptions through factual and counterfactual analyses,\nwith robustness validated via minimal sufficient adjustment sets, cross-method\nconsistency checks, and sensitivity analyses. Our results lead to two\nconclusions. First, model architecture and complexity have no causal effect on\nperformance. Second, heterogeneous information exerts a positive causal effect\nby increasing homophily and local-global distribution discrepancy, which makes\nnode classes more distinguishable. The implementation is publicly available at\nhttps://github.com/YXNTU/CausalHGNN.",
+  "authors": [
+    "Xiao Yang",
+    "Xuejiao Zhao",
+    "Zhiqi Shen"
+  ],
+  "published": "2025-10-07T10:12:21Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05750v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文从因果视角系统评估异质图神经网络(HGNNs)的有效性，通过对21个数据集和20个基线的复现实验，结合因果效应估计框架发现：模型架构对性能无因果影响，而异质信息通过增强同配性和局部分布差异产生正向因果效应。",
+  "order": 123,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05750v1"
+}

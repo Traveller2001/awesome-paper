@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06889v1",
+  "title": "MeXtract: Light-Weight Metadata Extraction from Scientific Papers",
+  "summary": "Metadata plays a critical role in indexing, documenting, and analyzing\nscientific literature, yet extracting it accurately and efficiently remains a\nchallenging task. Traditional approaches often rely on rule-based or\ntask-specific models, which struggle to generalize across domains and schema\nvariations. In this paper, we present MeXtract, a family of lightweight\nlanguage models designed for metadata extraction from scientific papers. The\nmodels, ranging from 0.5B to 3B parameters, are built by fine-tuning Qwen 2.5\ncounterparts. In their size family, MeXtract achieves state-of-the-art\nperformance on metadata extraction on the MOLE benchmark. To further support\nevaluation, we extend the MOLE benchmark to incorporate model-specific\nmetadata, providing an out-of-domain challenging subset. Our experiments show\nthat fine-tuning on a given schema not only yields high accuracy but also\ntransfers effectively to unseen schemas, demonstrating the robustness and\nadaptability of our approach. We release all the code, datasets, and models\nopenly for the research community.",
+  "authors": [
+    "Zaid Alyafeai",
+    "Maged S. Al-Shaibani",
+    "Bernard Ghanem"
+  ],
+  "published": "2025-10-08T11:12:28Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06889v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_compression', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MeXtract系列轻量级语言模型（0.5B-3B参数），通过微调Qwen 2.5实现科研论文元数据的高效提取。该模型在MOLE基准测试中达到SOTA性能，并展示了优秀的跨领域泛化能力。作者扩展了测试集并开源所有资源。",
+  "order": 69,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06889v1"
+}

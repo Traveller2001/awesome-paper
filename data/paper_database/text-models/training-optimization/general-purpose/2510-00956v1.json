@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00956v1",
+  "title": "Bridging the Gap Between Simulated and Real Network Data Using Transfer\n  Learning",
+  "summary": "Machine Learning (ML)-based network models provide fast and accurate\npredictions for complex network behaviors but require substantial training\ndata. Collecting such data from real networks is often costly and limited,\nespecially for critical scenarios like failures. As a result, researchers\ncommonly rely on simulated data, which reduces accuracy when models are\ndeployed in real environments. We propose a hybrid approach leveraging transfer\nlearning to combine simulated and real-world data. Using RouteNet-Fermi, we\nshow that fine-tuning a pre-trained model with a small real dataset\nsignificantly improves performance. Our experiments with OMNeT++ and a custom\ntestbed reduce the Mean Absolute Percentage Error (MAPE) in packet delay\nprediction by up to 88%. With just 10 real scenarios, MAPE drops by 37%, and\nwith 50 scenarios, by 48%.",
+  "authors": [
+    "Carlos Güemes-Palau",
+    "Miquel Ferriol-Galmés",
+    "Jordi Paillisse-Vilanova",
+    "Albert López-Brescó",
+    "Pere Barlet-Ros",
+    "Albert Cabellos-Aparicio"
+  ],
+  "published": "2025-10-01T14:29:47Z",
+  "primary_category": "cs.NI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00956v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种结合迁移学习的混合方法，利用模拟数据预训练网络模型，再通过少量真实数据微调，显著提升网络性能预测精度。实验表明仅需10个真实场景即可将包延迟预测误差降低37%，50个场景可降低48%。",
+  "order": 215,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00956v1"
+}

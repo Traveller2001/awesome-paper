@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.00694v1",
+  "title": "ALARB: An Arabic Legal Argument Reasoning Benchmark",
+  "summary": "We introduce ALARB, a dataset and suite of tasks designed to evaluate the\nreasoning capabilities of large language models (LLMs) within the Arabic legal\ndomain. While existing Arabic benchmarks cover some knowledge-intensive tasks\nsuch as retrieval and understanding, substantial datasets focusing specifically\non multistep reasoning for Arabic LLMs, especially in open-ended contexts, are\nlacking. The dataset comprises over 13K commercial court cases from Saudi\nArabia, with each case including the facts presented, the reasoning of the\ncourt, the verdict, as well as the cited clauses extracted from the regulatory\ndocuments. We define a set of challenging tasks leveraging this dataset and\nreflecting the complexity of real-world legal reasoning, including verdict\nprediction, completion of reasoning chains in multistep legal arguments, and\nidentification of relevant regulations based on case facts. We benchmark a\nrepresentative selection of current open and closed Arabic LLMs on these tasks\nand demonstrate the dataset's utility for instruction tuning. Notably, we show\nthat instruction-tuning a modest 12B parameter model using ALARB significantly\nenhances its performance in verdict prediction and Arabic verdict generation,\nreaching a level comparable to that of GPT-4o.",
+  "authors": [
+    "Harethah Abu Shairah",
+    "Somayah AlHarbi",
+    "Abdulaziz AlHussein",
+    "Sameer Alsabea",
+    "Omar Shaqaqi",
+    "Hebah AlShamlan",
+    "Omar Knio",
+    "George Turkiyyah"
+  ],
+  "published": "2025-10-01T09:15:41Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00694v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "legal_ai",
+  "tldr_zh": "ALARB是一个阿拉伯语法律论证推理基准数据集，包含13K+沙特商业法庭案例，用于评估大语言模型在阿拉伯法律领域的多步推理能力，包括判决预测、推理链补全和相关法规识别等任务。研究表明，使用该数据集进行指令微调可显著提升模型性能。",
+  "order": 453,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00694v1"
+}

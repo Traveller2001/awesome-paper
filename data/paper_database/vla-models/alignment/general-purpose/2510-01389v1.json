@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01389v1",
+  "title": "INSIGHT: INference-time Sequence Introspection for Generating Help\n  Triggers in Vision-Language-Action Models",
+  "summary": "Recent Vision-Language-Action (VLA) models show strong generalization\ncapabilities, yet they lack introspective mechanisms for anticipating failures\nand requesting help from a human supervisor. We present \\textbf{INSIGHT}, a\nlearning framework for leveraging token-level uncertainty signals to predict\nwhen a VLA should request help. Using $\\pi_0$-FAST as the underlying model, we\nextract per-token \\emph{entropy}, \\emph{log-probability}, and Dirichlet-based\nestimates of \\emph{aleatoric and epistemic uncertainty}, and train compact\ntransformer classifiers to map these sequences to help triggers. We explore\nsupervision regimes for strong or weak supervision, and extensively compare\nthem across in-distribution and out-of-distribution tasks. Our results show a\ntrade-off: strong labels enable models to capture fine-grained uncertainty\ndynamics for reliable help detection, while weak labels, though noisier, still\nsupport competitive introspection when training and evaluation are aligned,\noffering a scalable path when dense annotation is impractical. Crucially, we\nfind that modeling the temporal evolution of token-level uncertainty signals\nwith transformers provides far greater predictive power than static\nsequence-level scores. This study provides the first systematic evaluation of\nuncertainty-based introspection in VLAs, opening future avenues for active\nlearning and for real-time error mitigation through selective human\nintervention.",
+  "authors": [
+    "Ulas Berk Karli",
+    "Ziyao Shangguan",
+    "Tesca FItzgerald"
+  ],
+  "published": "2025-10-01T19:22:48Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.01389v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "INSIGHT提出一种基于推理时序列自省的视觉-语言-动作模型求助触发框架，通过分析token级不确定性信号（熵、对数概率、偶然/认知不确定性），利用紧凑Transformer分类器预测何时需要人工干预。研究比较了强监督与弱监督策略，证明建模不确定性时序演化比静态序列评分更具预测力，为VLA模型的主动学习和实时错误缓解开辟了新途径。",
+  "order": 164,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01389v1"
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02250v1",
+  "title": "The Unreasonable Effectiveness of Scaling Agents for Computer Use",
+  "summary": "Computer-use agents (CUAs) hold promise for automating everyday digital\ntasks, but their unreliability and high variance hinder their application to\nlong-horizon, complex tasks. We introduce Behavior Best-of-N (bBoN), a method\nthat scales over agents by generating multiple rollouts and selecting among\nthem using behavior narratives that describe the agents' rollouts. It enables\nboth wide exploration and principled trajectory selection, substantially\nimproving robustness and success rates. On OSWorld, our bBoN scaling method\nestablishes a new state of the art (SoTA) at 69.9%, significantly outperforming\nprior methods and approaching human-level performance at 72%, with\ncomprehensive ablations validating key design choices. We further demonstrate\nstrong generalization results to different operating systems on\nWindowsAgentArena and AndroidWorld. Crucially, our results highlight the\nunreasonable effectiveness of scaling CUAs, when you do it right: effective\nscaling requires structured trajectory understanding and selection, and bBoN\nprovides a practical framework to achieve this.",
+  "authors": [
+    "Gonzalo Gonzalez-Pumariega",
+    "Vincent Tu",
+    "Chih-Lun Lee",
+    "Jiachen Yang",
+    "Ang Li",
+    "Xin Eric Wang"
+  ],
+  "published": "2025-10-02T17:37:08Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.02250v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Behavior Best-of-N (bBoN)方法，通过生成多个执行轨迹并使用行为描述进行选择，显著提升计算机使用代理的可靠性和成功率。在OSWorld基准测试中达到69.9%的新SOTA，接近人类72%的水平，并在跨操作系统任务中展现强大泛化能力，证明规模化代理在具备结构化轨迹理解时的非凡效果。",
+  "order": 710,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02250v1"
+}

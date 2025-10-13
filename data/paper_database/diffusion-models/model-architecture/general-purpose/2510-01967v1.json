@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01967v1",
+  "title": "ZK-WAGON: Imperceptible Watermark for Image Generation Models using\n  ZK-SNARKs",
+  "summary": "As image generation models grow increasingly powerful and accessible,\nconcerns around authenticity, ownership, and misuse of synthetic media have\nbecome critical. The ability to generate lifelike images indistinguishable from\nreal ones introduces risks such as misinformation, deepfakes, and intellectual\nproperty violations. Traditional watermarking methods either degrade image\nquality, are easily removed, or require access to confidential model internals\n- making them unsuitable for secure and scalable deployment. We are the first\nto introduce ZK-WAGON, a novel system for watermarking image generation models\nusing the Zero-Knowledge Succinct Non Interactive Argument of Knowledge\n(ZK-SNARKs). Our approach enables verifiable proof of origin without exposing\nmodel weights, generation prompts, or any sensitive internal information. We\npropose Selective Layer ZK-Circuit Creation (SL-ZKCC), a method to selectively\nconvert key layers of an image generation model into a circuit, reducing proof\ngeneration time significantly. Generated ZK-SNARK proofs are imperceptibly\nembedded into a generated image via Least Significant Bit (LSB) steganography.\nWe demonstrate this system on both GAN and Diffusion models, providing a\nsecure, model-agnostic pipeline for trustworthy AI image generation.",
+  "authors": [
+    "Aadarsh Anantha Ramakrishnan",
+    "Shubham Agarwal",
+    "Selvanayagam S",
+    "Kunwar Singh"
+  ],
+  "published": "2025-10-02T12:39:57Z",
+  "primary_category": "cs.CR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01967v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ZK-WAGON是一种基于ZK-SNARKs的图像生成模型水印系统，通过选择性层电路转换技术实现高效验证，利用LSB隐写术在图像中嵌入不可感知的水印，保护模型知识产权而不泄露敏感信息。",
+  "order": 534,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01967v1"
+}

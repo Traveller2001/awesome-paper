@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06915v1",
+  "title": "LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling",
+  "summary": "Reward model (RM) plays a pivotal role in aligning large language model (LLM)\nwith human preferences. As real-world applications increasingly involve long\nhistory trajectories, e.g., LLM agent, it becomes indispensable to evaluate\nwhether a model's responses are not only high-quality but also grounded in and\nconsistent with the provided context. Yet, current RMs remain confined to\nshort-context settings and primarily focus on response-level attributes (e.g.,\nsafety or helpfulness), while largely neglecting the critical dimension of long\ncontext-response consistency. In this work, we introduce Long-RewardBench, a\nbenchmark specifically designed for long-context RM evaluation, featuring both\nPairwise Comparison and Best-of-N tasks. Our preliminary study reveals that\neven state-of-the-art generative RMs exhibit significant fragility in\nlong-context scenarios, failing to maintain context-aware preference judgments.\nMotivated by the analysis of failure patterns observed in model outputs, we\npropose a general multi-stage training strategy that effectively scales\narbitrary models into robust Long-context RMs (LongRMs). Experiments show that\nour approach not only substantially improves performance on long-context\nevaluation but also preserves strong short-context capability. Notably, our 8B\nLongRM outperforms much larger 70B-scale baselines and matches the performance\nof the proprietary Gemini 2.5 Pro model.",
+  "authors": [
+    "Zecheng Tang",
+    "Baibei Ji",
+    "Quantong Qiu",
+    "Haitian Wang",
+    "Xiaobo Liang",
+    "Juntao Li",
+    "Min Zhang"
+  ],
+  "published": "2025-10-08T11:48:16Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06915v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['long_context', 'alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LongRM方法解决长上下文奖励建模的边界问题。通过构建Long-RewardBench基准测试，发现现有奖励模型在长上下文场景下表现脆弱，进而设计多阶段训练策略提升模型的长上下文一致性判断能力。实验表明8B参数的LongRM超越70B基线模型，性能媲美Gemini 2.5 Pro，同时保持短上下文能力。",
+  "order": 68,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06915v1"
+}

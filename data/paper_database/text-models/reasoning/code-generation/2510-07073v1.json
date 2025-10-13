@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.07073v1",
+  "title": "VRPAgent: LLM-Driven Discovery of Heuristic Operators for Vehicle\n  Routing Problems",
+  "summary": "Designing high-performing heuristics for vehicle routing problems (VRPs) is a\ncomplex task that requires both intuition and deep domain knowledge. Large\nlanguage model (LLM)-based code generation has recently shown promise across\nmany domains, but it still falls short of producing heuristics that rival those\ncrafted by human experts. In this paper, we propose VRPAgent, a framework that\nintegrates LLM-generated components into a metaheuristic and refines them\nthrough a novel genetic search. By using the LLM to generate problem-specific\noperators, embedded within a generic metaheuristic framework, VRPAgent keeps\ntasks manageable, guarantees correctness, and still enables the discovery of\nnovel and powerful strategies. Across multiple problems, including the\ncapacitated VRP, the VRP with time windows, and the prize-collecting VRP, our\nmethod discovers heuristic operators that outperform handcrafted methods and\nrecent learning-based approaches while requiring only a single CPU core. To our\nknowledge, \\VRPAgent is the first LLM-based paradigm to advance the\nstate-of-the-art in VRPs, highlighting a promising future for automated\nheuristics discovery.",
+  "authors": [
+    "André Hottung",
+    "Federico Berto",
+    "Chuanbo Hua",
+    "Nayeli Gast Zepeda",
+    "Daniel Wetzel",
+    "Michael Römer",
+    "Haoran Ye",
+    "Davide Zago",
+    "Michael Poli",
+    "Stefano Massaroli",
+    "Jinkyoo Park",
+    "Kevin Tierney"
+  ],
+  "published": "2025-10-08T14:35:09Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.07073v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文提出VRPAgent框架，利用大语言模型生成车辆路径问题的启发式算子，并通过遗传搜索进行优化。该框架在多个VRP变体上超越了人工设计的启发式方法和近期学习型方法，首次实现了LLM在车辆路径问题领域的性能突破，为自动化启发式发现开辟了新途径。",
+  "order": 7,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07073v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01528v1",
+  "title": "Towards Interpretable and Inference-Optimal COT Reasoning with Sparse\n  Autoencoder-Guided Generation",
+  "summary": "We propose a novel method that leverages sparse autoencoders (SAEs) and\nclustering techniques to analyze the internal token representations of large\nlanguage models (LLMs) and guide generations in mathematical reasoning tasks.\nOur approach first trains an SAE to generate sparse vector representations for\ntraining tokens, then applies k-means clustering to construct a graph where\nvertices represent token clusters and weighted edges capture sequential token\ntransitions. Using this graph, we define an edge-weight based reward function\nto quantify adherence to established reasoning traces, thereby identifying\nexploitative reasoning trajectories. Additionally, we measure generation\ndiversity from clustering to assess the extent of exploration. Our findings\nindicate that balancing both exploitation and exploration is crucial for\nachieving high accuracy in mathematical reasoning tasks. During generation, the\nSAE can serve as a scalable reward model to guide generations, ensuring a\nbalanced trade-off between exploitation and exploration. This prevents extreme\nbehaviors in either direction, ultimately fostering a higher-quality reasoning\nprocess in LLMs.",
+  "authors": [
+    "Daniel Zhao",
+    "Abhilash Shankarampeta",
+    "Lanxiang Hu",
+    "Tajana Rosing",
+    "Hao Zhang"
+  ],
+  "published": "2025-10-02T00:01:08Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01528v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种利用稀疏自编码器和聚类技术分析大语言模型内部表征的新方法，通过构建词元转移图定义奖励函数来平衡推理过程中的利用与探索，从而提升数学推理任务的准确性和可解释性。",
+  "order": 136,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01528v1"
+}

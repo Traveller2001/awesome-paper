@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06139v1",
+  "title": "Deforming Videos to Masks: Flow Matching for Referring Video\n  Segmentation",
+  "summary": "Referring Video Object Segmentation (RVOS) requires segmenting specific\nobjects in a video guided by a natural language description. The core challenge\nof RVOS is to anchor abstract linguistic concepts onto a specific set of pixels\nand continuously segment them through the complex dynamics of a video. Faced\nwith this difficulty, prior work has often decomposed the task into a pragmatic\n`locate-then-segment' pipeline. However, this cascaded design creates an\ninformation bottleneck by simplifying semantics into coarse geometric prompts\n(e.g, point), and struggles to maintain temporal consistency as the segmenting\nprocess is often decoupled from the initial language grounding. To overcome\nthese fundamental limitations, we propose FlowRVS, a novel framework that\nreconceptualizes RVOS as a conditional continuous flow problem. This allows us\nto harness the inherent strengths of pretrained T2V models, fine-grained pixel\ncontrol, text-video semantic alignment, and temporal coherence. Instead of\nconventional generating from noise to mask or directly predicting mask, we\nreformulate the task by learning a direct, language-guided deformation from a\nvideo's holistic representation to its target mask. Our one-stage, generative\napproach achieves new state-of-the-art results across all major RVOS\nbenchmarks. Specifically, achieving a $\\mathcal{J}\\&\\mathcal{F}$ of 51.1 in\nMeViS (+1.6 over prior SOTA) and 73.3 in the zero shot Ref-DAVIS17 (+2.7),\ndemonstrating the significant potential of modeling video understanding tasks\nas continuous deformation processes.",
+  "authors": [
+    "Zanyi Wang",
+    "Dengyang Jiang",
+    "Liuzhuozheng Li",
+    "Sizhe Dang",
+    "Chengzu Li",
+    "Harry Yang",
+    "Guang Dai",
+    "Mengmeng Wang",
+    "Jingdong Wang"
+  ],
+  "published": "2025-10-07T17:14:10Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06139v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'video_models']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出FlowRVS框架，将指代视频分割任务重新定义为条件连续流问题，通过语言引导的视频到掩码变形方法，在多个基准测试中达到最先进性能，显著优于传统的'定位-分割'级联方法。",
+  "order": 64,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06139v1"
+}

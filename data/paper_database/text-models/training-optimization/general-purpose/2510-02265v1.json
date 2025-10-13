@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02265v1",
+  "title": "How to Combat Reactive and Dynamic Jamming Attacks with Reinforcement\n  Learning",
+  "summary": "This paper studies the problem of mitigating reactive jamming, where a jammer\nadopts a dynamic policy of selecting channels and sensing thresholds to detect\nand jam ongoing transmissions. The transmitter-receiver pair learns to avoid\njamming and optimize throughput over time (without prior knowledge of channel\nconditions or jamming strategies) by using reinforcement learning (RL) to adapt\ntransmit power, modulation, and channel selection. Q-learning is employed for\ndiscrete jamming-event states, while Deep Q-Networks (DQN) are employed for\ncontinuous states based on received power. Through different reward functions\nand action sets, the results show that RL can adapt rapidly to spectrum\ndynamics and sustain high rates as channels and jamming policies change over\ntime.",
+  "authors": [
+    "Yalin E. Sagduyu",
+    "Tugba Erpek",
+    "Kemal Davaslioglu",
+    "Sastry Kompella"
+  ],
+  "published": "2025-10-02T17:44:38Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02265v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究如何利用强化学习对抗反应式动态干扰攻击，通过Q学习和深度Q网络自适应调整传输功率、调制方式和信道选择，在未知信道条件和干扰策略的情况下维持高传输速率。",
+  "order": 705,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02265v1"
+}

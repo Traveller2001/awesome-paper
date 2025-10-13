@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06660v1",
+  "title": "Rethinking Nonlinearity: Trainable Gaussian Mixture Modules for Modern\n  Neural Architectures",
+  "summary": "Neural networks in general, from MLPs and CNNs to attention-based\nTransformers, are constructed from layers of linear combinations followed by\nnonlinear operations such as ReLU, Sigmoid, or Softmax. Despite their strength,\nthese conventional designs are often limited in introducing non-linearity by\nthe choice of activation functions. In this work, we introduce Gaussian\nMixture-Inspired Nonlinear Modules (GMNM), a new class of differentiable\nmodules that draw on the universal density approximation Gaussian mixture\nmodels (GMMs) and distance properties (metric space) of Gaussian kernal. By\nrelaxing probabilistic constraints and adopting a flexible parameterization of\nGaussian projections, GMNM can be seamlessly integrated into diverse neural\narchitectures and trained end-to-end with gradient-based methods. Our\nexperiments demonstrate that incorporating GMNM into architectures such as\nMLPs, CNNs, attention mechanisms, and LSTMs consistently improves performance\nover standard baselines. These results highlight GMNM's potential as a powerful\nand flexible module for enhancing efficiency and accuracy across a wide range\nof machine learning applications.",
+  "authors": [
+    "Weiguo Lu",
+    "Gangnan Yuan",
+    "Hong-kun Zhang",
+    "Shangyang Li"
+  ],
+  "published": "2025-10-08T05:20:34Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06660v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出高斯混合非线性模块(GMNM)，通过高斯核距离特性和灵活参数化，替代传统激活函数增强神经网络非线性能力。该模块可端到端训练并兼容MLP、CNN、Transformer等多种架构，实验表明能显著提升模型性能。",
+  "order": 224,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06660v1"
+}

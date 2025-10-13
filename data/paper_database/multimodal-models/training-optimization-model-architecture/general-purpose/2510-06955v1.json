@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06955v1",
+  "title": "High-Rate Mixout: Revisiting Mixout for Robust Domain Generalization",
+  "summary": "Ensembling fine-tuned models initialized from powerful pre-trained weights is\na common strategy to improve robustness under distribution shifts, but it comes\nwith substantial computational costs due to the need to train and store\nmultiple models. Dropout offers a lightweight alternative by simulating\nensembles through random neuron deactivation; however, when applied to\npre-trained models, it tends to over-regularize and disrupt critical\nrepresentations necessary for generalization. In this work, we investigate\nMixout, a stochastic regularization technique that provides an alternative to\nDropout for domain generalization. Rather than deactivating neurons, Mixout\nmitigates overfitting by probabilistically swapping a subset of fine-tuned\nweights with their pre-trained counterparts during training, thereby\nmaintaining a balance between adaptation and retention of prior knowledge. Our\nstudy reveals that achieving strong performance with Mixout on domain\ngeneralization benchmarks requires a notably high masking probability of 0.9\nfor ViTs and 0.8 for ResNets. While this may seem like a simple adjustment, it\nyields two key advantages for domain generalization: (1) higher masking rates\nmore strongly penalize deviations from the pre-trained parameters, promoting\nbetter generalization to unseen domains; and (2) high-rate masking\nsubstantially reduces computational overhead, cutting gradient computation by\nup to 45% and gradient memory usage by up to 90%. Experiments across five\ndomain generalization benchmarks, PACS, VLCS, OfficeHome, TerraIncognita, and\nDomainNet, using ResNet and ViT architectures, show that our approach,\nHigh-rate Mixout, achieves out-of-domain accuracy comparable to ensemble-based\nmethods while significantly reducing training costs.",
+  "authors": [
+    "Masih Aminbeidokhti",
+    "Heitor Rapela Medeiros",
+    "Eric Granger",
+    "Marco Pedersoli"
+  ],
+  "published": "2025-10-08T12:37:56Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06955v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出高比率Mixout方法，通过以0.8-0.9的高概率在训练过程中将微调权重与预训练权重进行随机替换，在保持预训练知识的同时提升领域泛化能力。在五个基准测试中，该方法在达到集成方法相当性能的同时，显著降低45%梯度计算和90%显存开销。",
+  "order": 193,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06955v1"
+}

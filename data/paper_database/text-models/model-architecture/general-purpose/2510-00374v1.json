@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00374v1",
+  "title": "GDLNN: Marriage of Programming Language and Neural Networks for Accurate\n  and Easy-to-Explain Graph Classification",
+  "summary": "We present GDLNN, a new graph machine learning architecture, for graph\nclassification tasks. GDLNN combines a domain-specific programming language,\ncalled GDL, with neural networks. The main strength of GDLNN lies in its GDL\nlayer, which generates expressive and interpretable graph representations.\nSince the graph representation is interpretable, existing model explanation\ntechniques can be directly applied to explain GDLNN's predictions. Our\nevaluation shows that the GDL-based representation achieves high accuracy on\nmost graph classification benchmark datasets, outperforming dominant graph\nlearning methods such as GNNs. Applying an existing model explanation technique\nalso yields high-quality explanations of GDLNN's predictions. Furthermore, the\ncost of GDLNN is low when the explanation cost is included.",
+  "authors": [
+    "Minseok Jeon",
+    "Seunghyun Park"
+  ],
+  "published": "2025-10-01T00:44:58Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00374v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "GDLNN是一种新型图机器学习架构，通过结合领域特定编程语言GDL与神经网络，在图形分类任务中实现高精度且易于解释的预测。该模型在多数基准数据集上超越主流图学习方法，并能直接应用现有解释技术提供高质量预测解释。",
+  "order": 485,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00374v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06940v1",
+  "title": "Revisiting Node Affinity Prediction in Temporal Graphs",
+  "summary": "Node affinity prediction is a common task that is widely used in temporal\ngraph learning with applications in social and financial networks, recommender\nsystems, and more. Recent works have addressed this task by adapting\nstate-of-the-art dynamic link property prediction models to node affinity\nprediction. However, simple heuristics, such as Persistent Forecast or Moving\nAverage, outperform these models. In this work, we analyze the challenges in\ntraining current Temporal Graph Neural Networks for node affinity prediction\nand suggest appropriate solutions. Combining the solutions, we develop NAViS -\nNode Affinity prediction model using Virtual State, by exploiting the\nequivalence between heuristics and state space models. While promising,\ntraining NAViS is non-trivial. Therefore, we further introduce a novel loss\nfunction for node affinity prediction. We evaluate NAViS on TGB and show that\nit outperforms the state-of-the-art, including heuristics. Our source code is\navailable at https://github.com/orfeld415/NAVIS",
+  "authors": [
+    "Krishna Sri Ipsit Mantri",
+    "Or Feldman",
+    "Moshe Eliasof",
+    "Chaim Baskin"
+  ],
+  "published": "2025-10-08T12:21:52Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06940v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "['financial_ai', 'general_purpose']",
+  "tldr_zh": "本文针对时序图中节点亲和性预测任务，分析了现有时序图神经网络训练的挑战并提出解决方案。通过建立启发式方法与状态空间模型的等价关系，开发了NAViS模型，并设计了新颖的损失函数。在TGB基准测试中，NAViS超越了包括启发式方法在内的现有最优方法，适用于社交网络、金融网络和推荐系统等场景。",
+  "order": 197,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06940v1"
+}

@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02200v1",
+  "title": "ARUQULA -- An LLM based Text2SPARQL Approach using ReAct and Knowledge\n  Graph Exploration Utilities",
+  "summary": "Interacting with knowledge graphs can be a daunting task for people without a\nbackground in computer science since the query language that is used (SPARQL)\nhas a high barrier of entry. Large language models (LLMs) can lower that\nbarrier by providing support in the form of Text2SPARQL translation. In this\npaper we introduce a generalized method based on SPINACH, an LLM backed agent\nthat translates natural language questions to SPARQL queries not in a single\nshot, but as an iterative process of exploration and execution. We describe the\noverall architecture and reasoning behind our design decisions, and also\nconduct a thorough analysis of the agent behavior to gain insights into future\nareas for targeted improvements. This work was motivated by the Text2SPARQL\nchallenge, a challenge that was held to facilitate improvements in the\nText2SPARQL domain.",
+  "authors": [
+    "Felix Brei",
+    "Lorenz Bühmann",
+    "Johannes Frey",
+    "Daniel Gerber",
+    "Lars-Peter Meyer",
+    "Claus Stadler",
+    "Kirill Bulert"
+  ],
+  "published": "2025-10-02T16:49:27Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02200v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ARUQULA方法，基于SPINACH框架，利用大语言模型和知识图谱探索工具，通过迭代探索与执行过程将自然语言问题转换为SPARQL查询，降低非专业人士使用知识图谱的门槛。",
+  "order": 347,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02200v1"
+}

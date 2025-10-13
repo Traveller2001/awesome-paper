@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00806v1",
+  "title": "From Seeing to Predicting: A Vision-Language Framework for Trajectory\n  Forecasting and Controlled Video Generation",
+  "summary": "Current video generation models produce physically inconsistent motion that\nviolates real-world dynamics. We propose TrajVLM-Gen, a two-stage framework for\nphysics-aware image-to-video generation. First, we employ a Vision Language\nModel to predict coarse-grained motion trajectories that maintain consistency\nwith real-world physics. Second, these trajectories guide video generation\nthrough attention-based mechanisms for fine-grained motion refinement. We build\na trajectory prediction dataset based on video tracking data with realistic\nmotion patterns. Experiments on UCF-101 and MSR-VTT demonstrate that\nTrajVLM-Gen outperforms existing methods, achieving competitive FVD scores of\n545 on UCF-101 and 539 on MSR-VTT.",
+  "authors": [
+    "Fan Yang",
+    "Zhiyang Chen",
+    "Yousong Zhu",
+    "Xin Li",
+    "Jinqiao Wang"
+  ],
+  "published": "2025-10-01T12:11:36Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00806v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出TrajVLM-Gen两阶段框架，通过视觉语言模型预测符合物理规律的运动轨迹，并基于注意力机制引导视频生成，在UCF-101和MSR-VTT数据集上取得优于现有方法的FVD分数。",
+  "order": 626,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00806v1"
+}

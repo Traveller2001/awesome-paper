@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01545v1",
+  "title": "Predictive Preference Learning from Human Interventions",
+  "summary": "Learning from human involvement aims to incorporate the human subject to\nmonitor and correct agent behavior errors. Although most interactive imitation\nlearning methods focus on correcting the agent's action at the current state,\nthey do not adjust its actions in future states, which may be potentially more\nhazardous. To address this, we introduce Predictive Preference Learning from\nHuman Interventions (PPL), which leverages the implicit preference signals\ncontained in human interventions to inform predictions of future rollouts. The\nkey idea of PPL is to bootstrap each human intervention into L future time\nsteps, called the preference horizon, with the assumption that the agent\nfollows the same action and the human makes the same intervention in the\npreference horizon. By applying preference optimization on these future states,\nexpert corrections are propagated into the safety-critical regions where the\nagent is expected to explore, significantly improving learning efficiency and\nreducing human demonstrations needed. We evaluate our approach with experiments\non both autonomous driving and robotic manipulation benchmarks and demonstrate\nits efficiency and generality. Our theoretical analysis further shows that\nselecting an appropriate preference horizon L balances coverage of risky states\nwith label correctness, thereby bounding the algorithmic optimality gap. Demo\nand code are available at: https://metadriverse.github.io/ppl",
+  "authors": [
+    "Haoyuan Cai",
+    "Zhenghao Peng",
+    "Bolei Zhou"
+  ],
+  "published": "2025-10-02T00:38:18Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01545v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出预测性偏好学习(PPL)方法，通过人类干预的隐式偏好信号预测未来状态，将专家修正传播至安全关键区域，显著提升学习效率并减少人工演示需求。在自动驾驶和机器人操作基准测试中验证了方法的有效性和通用性。",
+  "order": 132,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01545v1"
+}

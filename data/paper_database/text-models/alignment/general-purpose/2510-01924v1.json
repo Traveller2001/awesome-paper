@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01924v1",
+  "title": "To Mask or to Mirror: Human-AI Alignment in Collective Reasoning",
+  "summary": "As large language models (LLMs) are increasingly used to model and augment\ncollective decision-making, it is critical to examine their alignment with\nhuman social reasoning. We present an empirical framework for assessing\ncollective alignment, in contrast to prior work on the individual level. Using\nthe Lost at Sea social psychology task, we conduct a large-scale online\nexperiment (N=748), randomly assigning groups to leader elections with either\nvisible demographic attributes (e.g. name, gender) or pseudonymous aliases. We\nthen simulate matched LLM groups conditioned on the human data, benchmarking\nGemini 2.5, GPT 4.1, Claude Haiku 3.5, and Gemma 3. LLM behaviors diverge: some\nmirror human biases; others mask these biases and attempt to compensate for\nthem. We empirically demonstrate that human-AI alignment in collective\nreasoning depends on context, cues, and model-specific inductive biases.\nUnderstanding how LLMs align with collective human behavior is critical to\nadvancing socially-aligned AI, and demands dynamic benchmarks that capture the\ncomplexities of collective reasoning.",
+  "authors": [
+    "Crystal Qian",
+    "Aaron Parisi",
+    "Clémentine Bouleau",
+    "Vivian Tsai",
+    "Maël Lebreton",
+    "Lucas Dixon"
+  ],
+  "published": "2025-10-02T11:41:30Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01924v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过大规模在线实验（N=748）和LLM模拟，探讨了在集体推理任务中人类与AI的对齐问题。研究发现不同LLM在反映人类偏见方面表现各异：有些模型会镜像人类偏见，有些则会掩盖并试图补偿这些偏见。集体推理中的人机对齐取决于具体情境、社会线索和模型特定的归纳偏好。",
+  "order": 59,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01924v1"
+}

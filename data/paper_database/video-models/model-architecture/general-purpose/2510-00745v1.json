@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.00745v1",
+  "title": "Defect Segmentation in OCT scans of ceramic parts for non-destructive\n  inspection using deep learning",
+  "summary": "Non-destructive testing (NDT) is essential in ceramic manufacturing to ensure\nthe quality of components without compromising their integrity. In this\ncontext, Optical Coherence Tomography (OCT) enables high-resolution internal\nimaging, revealing defects such as pores, delaminations, or inclusions. This\npaper presents an automatic defect detection system based on Deep Learning\n(DL), trained on OCT images with manually segmented annotations. A neural\nnetwork based on the U-Net architecture is developed, evaluating multiple\nexperimental configurations to enhance its performance. Post-processing\ntechniques enable both quantitative and qualitative evaluation of the\npredictions. The system shows an accurate behavior of 0.979 Dice Score,\noutperforming comparable studies. The inference time of 18.98 seconds per\nvolume supports its viability for detecting inclusions, enabling more\nefficient, reliable, and automated quality control.",
+  "authors": [
+    "Andrés Laveda-Martínez",
+    "Natalia P. García-de-la-Puente",
+    "Fernando García-Torres",
+    "Niels Møller Israelsen",
+    "Ole Bang",
+    "Dominik Brouczek",
+    "Niels Benson",
+    "Adrián Colomer",
+    "Valery Naranjo"
+  ],
+  "published": "2025-10-01T10:30:24Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00745v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出基于U-Net架构的深度学习系统，用于陶瓷部件OCT扫描中的缺陷分割。通过手动标注的OCT图像训练，在孔隙、分层和夹杂物检测上达到0.979 Dice分数，推理时间18.98秒/体积，为无损检测提供自动化质量控制方案。",
+  "order": 632,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00745v1"
+}

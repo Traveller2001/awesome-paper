@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01157v1",
+  "title": "Backdoor Attacks Against Speech Language Models",
+  "summary": "Large Language Models (LLMs) and their multimodal extensions are becoming\nincreasingly popular. One common approach to enable multimodality is to cascade\ndomain-specific encoders with an LLM, making the resulting model inherit\nvulnerabilities from all of its components. In this work, we present the first\nsystematic study of audio backdoor attacks against speech language models. We\ndemonstrate its effectiveness across four speech encoders and three datasets,\ncovering four tasks: automatic speech recognition (ASR), speech emotion\nrecognition, and gender and age prediction. The attack consistently achieves\nhigh success rates, ranging from 90.76% to 99.41%. To better understand how\nbackdoors propagate, we conduct a component-wise analysis to identify the most\nvulnerable stages of the pipeline. Finally, we propose a fine-tuning-based\ndefense that mitigates the threat of poisoned pretrained encoders.",
+  "authors": [
+    "Alexandrine Fortier",
+    "Thomas Thebaud",
+    "Jesús Villalba",
+    "Najim Dehak",
+    "Patrick Cardinal"
+  ],
+  "published": "2025-10-01T17:45:04Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01157v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究首次系统性地探讨了针对语音语言模型的音频后门攻击，在四种语音编码器和三个数据集上验证了攻击有效性，攻击成功率高达90.76%-99.41%。通过组件分析识别了流程中最脆弱环节，并提出基于微调的防御方法以缓解预训练编码器中毒威胁。",
+  "order": 422,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01157v1"
+}

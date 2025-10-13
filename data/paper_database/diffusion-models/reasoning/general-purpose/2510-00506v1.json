@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00506v1",
+  "title": "Affordance-Guided Diffusion Prior for 3D Hand Reconstruction",
+  "summary": "How can we reconstruct 3D hand poses when large portions of the hand are\nheavily occluded by itself or by objects? Humans often resolve such ambiguities\nby leveraging contextual knowledge -- such as affordances, where an object's\nshape and function suggest how the object is typically grasped. Inspired by\nthis observation, we propose a generative prior for hand pose refinement guided\nby affordance-aware textual descriptions of hand-object interactions (HOI). Our\nmethod employs a diffusion-based generative model that learns the distribution\nof plausible hand poses conditioned on affordance descriptions, which are\ninferred from a large vision-language model (VLM). This enables the refinement\nof occluded regions into more accurate and functionally coherent hand poses.\nExtensive experiments on HOGraspNet, a 3D hand-affordance dataset with severe\nocclusions, demonstrate that our affordance-guided refinement significantly\nimproves hand pose estimation over both recent regression methods and\ndiffusion-based refinement lacking contextual reasoning.",
+  "authors": [
+    "Naru Suzuki",
+    "Takehiko Ohkawa",
+    "Tatsuro Banno",
+    "Jihyun Lee",
+    "Ryosuke Furuta",
+    "Yoichi Sato"
+  ],
+  "published": "2025-10-01T04:36:11Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00506v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于功能感知引导的扩散先验方法，用于解决严重遮挡下的3D手部重建问题。通过结合视觉语言模型推断的手-物体交互功能描述，利用扩散模型生成符合功能逻辑的合理手部姿态，在严重遮挡场景下显著提升了手部姿态估计的准确性。",
+  "order": 670,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00506v1"
+}

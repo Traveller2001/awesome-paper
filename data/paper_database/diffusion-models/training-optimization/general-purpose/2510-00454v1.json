@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00454v1",
+  "title": "Measuring and Controlling the Spectral Bias for Self-Supervised Image\n  Denoising",
+  "summary": "Current self-supervised denoising methods for paired noisy images typically\ninvolve mapping one noisy image through the network to the other noisy image.\nHowever, after measuring the spectral bias of such methods using our proposed\nImage Pair Frequency-Band Similarity, it suffers from two practical\nlimitations. Firstly, the high-frequency structural details in images are not\npreserved well enough. Secondly, during the process of fitting high\nfrequencies, the network learns high-frequency noise from the mapped noisy\nimages. To address these challenges, we introduce a Spectral Controlling\nnetwork (SCNet) to optimize self-supervised denoising of paired noisy images.\nFirst, we propose a selection strategy to choose frequency band components for\nnoisy images, to accelerate the convergence speed of training. Next, we present\na parameter optimization method that restricts the learning ability of\nconvolutional kernels to high-frequency noise using the Lipschitz constant,\nwithout changing the network structure. Finally, we introduce the Spectral\nSeparation and low-rank Reconstruction module (SSR module), which separates\nnoise and high-frequency details through frequency domain separation and\nlow-rank space reconstruction, to retain the high-frequency structural details\nof images. Experiments performed on synthetic and real-world datasets verify\nthe effectiveness of SCNet.",
+  "authors": [
+    "Wang Zhang",
+    "Huaqiu Li",
+    "Xiaowan Hu",
+    "Tao Jiang",
+    "Zikang Chen",
+    "Haoqian Wang"
+  ],
+  "published": "2025-10-01T03:07:05Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00454v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SCNet方法解决自监督图像去噪中的频谱偏差问题。通过频率带选择策略加速训练收敛，利用Lipschitz常数限制卷积核学习高频噪声的能力，并设计频谱分离与低秩重建模块保留图像高频细节。在合成和真实数据集上验证了有效性。",
+  "order": 678,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00454v1"
+}

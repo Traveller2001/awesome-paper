@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01388v1",
+  "title": "VENTURA: Adapting Image Diffusion Models for Unified Task Conditioned\n  Navigation",
+  "summary": "Robots must adapt to diverse human instructions and operate safely in\nunstructured, open-world environments. Recent Vision-Language models (VLMs)\noffer strong priors for grounding language and perception, but remain difficult\nto steer for navigation due to differences in action spaces and pretraining\nobjectives that hamper transferability to robotics tasks. Towards addressing\nthis, we introduce VENTURA, a vision-language navigation system that finetunes\ninternet-pretrained image diffusion models for path planning. Instead of\ndirectly predicting low-level actions, VENTURA generates a path mask (i.e. a\nvisual plan) in image space that captures fine-grained, context-aware\nnavigation behaviors. A lightweight behavior-cloning policy grounds these\nvisual plans into executable trajectories, yielding an interface that follows\nnatural language instructions to generate diverse robot behaviors. To scale\ntraining, we supervise on path masks derived from self-supervised tracking\nmodels paired with VLM-augmented captions, avoiding manual pixel-level\nannotation or highly engineered data collection setups. In extensive real-world\nevaluations, VENTURA outperforms state-of-the-art foundation model baselines on\nobject reaching, obstacle avoidance, and terrain preference tasks, improving\nsuccess rates by 33% and reducing collisions by 54% across both seen and unseen\nscenarios. Notably, we find that VENTURA generalizes to unseen combinations of\ndistinct tasks, revealing emergent compositional capabilities. Videos, code,\nand additional materials: https://venturapath.github.io",
+  "authors": [
+    "Arthur Zhang",
+    "Xiangyun Meng",
+    "Luca Calliari",
+    "Dong-Ki Kim",
+    "Shayegan Omidshafiei",
+    "Joydeep Biswas",
+    "Ali Agha",
+    "Amirreza Shaban"
+  ],
+  "published": "2025-10-01T19:21:28Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.01388v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VENTURA是一种视觉语言导航系统，通过微调图像扩散模型生成路径掩码进行路径规划，结合轻量级行为克隆策略执行轨迹，在真实世界评估中相比基线方法成功率提升33%，碰撞率降低54%，并展现出对未见任务组合的泛化能力。",
+  "order": 587,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01388v1"
+}

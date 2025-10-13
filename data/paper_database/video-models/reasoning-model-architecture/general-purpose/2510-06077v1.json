@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06077v1",
+  "title": "When Thinking Drifts: Evidential Grounding for Robust Video Reasoning",
+  "summary": "Video reasoning, the task of enabling machines to infer from dynamic visual\ncontent through multi-step logic, is crucial for advanced AI. While the\nChain-of-Thought (CoT) mechanism has enhanced reasoning in text-based tasks,\nits application to video understanding remains underexplored. This paper\npresents a systematic analysis revealing that CoT often degrades performance in\nvideo reasoning, generating verbose but misleading internal monologues, and\nleading to hallucinated visual details and overridden correct intuitions - a\nphenomenon we term \"visual thinking drift\". We explain this drift through a\nBayesian lens, positing that CoT traces often diverge from actual visual\nevidence, instead amplifying internal biases or language priors, causing models\nto storytell rather than engage in grounded reasoning. To counteract this, we\nintroduce Visual Evidence Reward (VER), a novel reinforcement learning\nframework that explicitly rewards the generation of reasoning traces that are\nverifiably grounded in visual evidence. Comprehensive evaluation across 10\ndiverse video understanding benchmarks demonstrates that our Video-VER\nconsistently achieves top performance. Our work sheds light on the distinct\nchallenges of video-centric reasoning and encourages the development of AI that\nrobustly grounds its inferences in visual evidence - for large multimodal\nmodels that not only \"think before answering\", but also \"see while thinking\".",
+  "authors": [
+    "Mi Luo",
+    "Zihui Xue",
+    "Alex Dimakis",
+    "Kristen Grauman"
+  ],
+  "published": "2025-10-07T16:03:33Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06077v1",
+  "primary_area": "video_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文发现思维链机制在视频推理中会产生'视觉思维漂移'现象，导致模型生成与视觉证据脱节的推理过程。作者提出视觉证据奖励框架，通过强化学习确保推理轨迹基于实际视觉内容，在10个视频理解基准测试中取得最优性能。",
+  "order": 70,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06077v1"
+}

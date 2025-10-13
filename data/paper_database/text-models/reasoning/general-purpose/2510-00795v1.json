@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2510.00795v1",
+  "title": "Benchmarking Agentic Systems in Automated Scientific Information\n  Extraction with ChemX",
+  "summary": "The emergence of agent-based systems represents a significant advancement in\nartificial intelligence, with growing applications in automated data\nextraction. However, chemical information extraction remains a formidable\nchallenge due to the inherent heterogeneity of chemical data. Current\nagent-based approaches, both general-purpose and domain-specific, exhibit\nlimited performance in this domain. To address this gap, we present ChemX, a\ncomprehensive collection of 10 manually curated and domain-expert-validated\ndatasets focusing on nanomaterials and small molecules. These datasets are\ndesigned to rigorously evaluate and enhance automated extraction methodologies\nin chemistry. To demonstrate their utility, we conduct an extensive\nbenchmarking study comparing existing state-of-the-art agentic systems such as\nChatGPT Agent and chemical-specific data extraction agents. Additionally, we\nintroduce our own single-agent approach that enables precise control over\ndocument preprocessing prior to extraction. We further evaluate the performance\nof modern baselines, such as GPT-5 and GPT-5 Thinking, to compare their\ncapabilities with agentic approaches. Our empirical findings reveal persistent\nchallenges in chemical information extraction, particularly in processing\ndomain-specific terminology, complex tabular and schematic representations, and\ncontext-dependent ambiguities. The ChemX benchmark serves as a critical\nresource for advancing automated information extraction in chemistry,\nchallenging the generalization capabilities of existing methods, and providing\nvaluable insights into effective evaluation strategies.",
+  "authors": [
+    "Anastasia Vepreva",
+    "Julia Razlivina",
+    "Maria Eremeeva",
+    "Nina Gubina",
+    "Anastasia Orlova",
+    "Aleksei Dmitrenko",
+    "Ksenya Kapranova",
+    "Susan Jyakhwo",
+    "Nikita Vasilev",
+    "Arsen Sarkisyan",
+    "Ivan Yu. Chernyshov",
+    "Vladimir Vinogradov",
+    "Andrei Dmitrenko"
+  ],
+  "published": "2025-10-01T11:50:11Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00795v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ChemX基准数据集，用于评估化学信息提取中的智能体系统性能。通过对比ChatGPT Agent、GPT-5等现有方法，发现化学领域术语、复杂表格和上下文歧义仍是主要挑战。ChemX为化学信息自动化提取提供了关键评估资源。",
+  "order": 246,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00795v1"
+}

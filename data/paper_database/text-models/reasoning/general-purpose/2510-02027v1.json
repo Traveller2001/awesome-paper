@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.02027v1",
+  "title": "Zero-shot reasoning for simulating scholarly peer-review",
+  "summary": "The scholarly publishing ecosystem faces a dual crisis of unmanageable\nsubmission volumes and unregulated AI, creating an urgent need for new\ngovernance models to safeguard scientific integrity. The traditional human-only\npeer review regime lacks a scalable, objective benchmark, making editorial\nprocesses opaque and difficult to audit. Here we investigate a deterministic\nsimulation framework that provides the first stable, evidence-based standard\nfor evaluating AI-generated peer review reports. Analyzing 352 peer-review\nsimulation reports, we identify consistent system state indicators that\ndemonstrate its reliability. First, the system is able to simulate calibrated\neditorial judgment, with 'Revise' decisions consistently forming the majority\noutcome (>50%) across all disciplines, while 'Reject' rates dynamically adapt\nto field-specific norms, rising to 45% in Health Sciences. Second, it maintains\nunwavering procedural integrity, enforcing a stable 29% evidence-anchoring\ncompliance rate that remains invariant across diverse review tasks and\nscientific domains. These findings demonstrate a system that is predictably\nrule-bound, mitigating the stochasticity of generative AI. For the scientific\ncommunity, this provides a transparent tool to ensure fairness; for publishing\nstrategists, it offers a scalable instrument for auditing workflows, managing\nintegrity risks, and implementing evidence-based governance. The framework\nrepositions AI as an essential component of institutional accountability,\nproviding the critical infrastructure to maintain trust in scholarly\ncommunication.",
+  "authors": [
+    "Khalid M. Saqr"
+  ],
+  "published": "2025-10-02T13:59:14Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.02027v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出一种确定性模拟框架，为零样本AI生成同行评审报告提供首个稳定评估标准。通过分析352份模拟评审报告，系统展现出校准的编辑判断能力（修订决定占主导）和稳定的程序完整性（29%证据锚定合规率），为科学出版提供可扩展的透明审计工具，将AI重新定位为机构问责的关键基础设施。",
+  "order": 53,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02027v1"
+}

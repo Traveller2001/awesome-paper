@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02056v1",
+  "title": "Adaptive Heterogeneous Mixtures of Normalising Flows for Robust\n  Variational Inference",
+  "summary": "Normalising-flow variational inference (VI) can approximate complex\nposteriors, yet single-flow models often behave inconsistently across\nqualitatively different distributions. We propose Adaptive Mixture Flow\nVariational Inference (AMF-VI), a heterogeneous mixture of complementary flows\n(MAF, RealNVP, RBIG) trained in two stages: (i) sequential expert training of\nindividual flows, and (ii) adaptive global weight estimation via\nlikelihood-driven updates, without per-sample gating or architectural changes.\nEvaluated on six canonical posterior families of banana, X-shape, two-moons,\nrings, a bimodal, and a five-mode mixture, AMF-VI achieves consistently lower\nnegative log-likelihood than each single-flow baseline and delivers stable\ngains in transport metrics (Wasserstein-2) and maximum mean discrepancy (MDD),\nindicating improved robustness across shapes and modalities. The procedure is\nefficient and architecture-agnostic, incurring minimal overhead relative to\nstandard flow training, and demonstrates that adaptive mixtures of diverse\nflows provide a reliable route to robust VI across diverse posterior families\nwhilst preserving each expert's inductive bias.",
+  "authors": [
+    "Benjamin Wiriyapong",
+    "Oktay Karakuş",
+    "Kirill Sidorov"
+  ],
+  "published": "2025-10-02T14:25:29Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02056v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出自适应混合流变分推理(AMF-VI)，通过异质归一化流混合(MAF、RealNVP、RBIG)和两阶段训练策略，在六种典型后验分布上实现更稳健的变分推理，显著提升负对数似然和分布匹配指标。",
+  "order": 756,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02056v1"
+}

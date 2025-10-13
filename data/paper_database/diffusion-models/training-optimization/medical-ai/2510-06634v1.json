@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06634v1",
+  "title": "Three Forms of Stochastic Injection for Improved\n  Distribution-to-Distribution Generative Modeling",
+  "summary": "Modeling transformations between arbitrary data distributions is a\nfundamental scientific challenge, arising in applications like drug discovery\nand evolutionary simulation. While flow matching offers a natural framework for\nthis task, its use has thus far primarily focused on the noise-to-data setting,\nwhile its application in the general distribution-to-distribution setting is\nunderexplored. We find that in the latter case, where the source is also a data\ndistribution to be learned from limited samples, standard flow matching fails\ndue to sparse supervision. To address this, we propose a simple and\ncomputationally efficient method that injects stochasticity into the training\nprocess by perturbing source samples and flow interpolants. On five diverse\nimaging tasks spanning biology, radiology, and astronomy, our method\nsignificantly improves generation quality, outperforming existing baselines by\nan average of 9 FID points. Our approach also reduces the transport cost\nbetween input and generated samples to better highlight the true effect of the\ntransformation, making flow matching a more practical tool for simulating the\ndiverse distribution transformations that arise in science.",
+  "authors": [
+    "Shiye Su",
+    "Yuhui Zhang",
+    "Linqi Zhou",
+    "Rajesh Ranganath",
+    "Serena Yeung-Levy"
+  ],
+  "published": "2025-10-08T04:36:34Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06634v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文针对分布到分布生成建模中流匹配方法存在的稀疏监督问题，提出三种随机注入策略，通过在源样本和流插值中引入随机扰动，显著提升了生物、放射和天文等五个成像任务的生成质量（平均提升9个FID分数），同时降低了传输成本以更好揭示真实变换效应。",
+  "order": 229,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06634v1"
+}

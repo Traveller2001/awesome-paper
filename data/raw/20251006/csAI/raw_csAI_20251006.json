@@ -1,0 +1,562 @@
+{
+  "generated_at": "2025-10-08T02:05:04.107306Z",
+  "paper_date": "20251006",
+  "categories": [
+    "cs.AI"
+  ],
+  "paper_count": 34,
+  "papers": [
+    {
+      "arxiv_id": "2510.05059v1",
+      "title": "Staircase Streaming for Low-Latency Multi-Agent Inference",
+      "summary": "Recent advances in large language models (LLMs) opened up new directions for\nleveraging the collective expertise of multiple LLMs. These methods, such as\nMixture-of-Agents, typically employ additional inference steps to generate\nintermediate outputs, which are then used to produce the final response. While\nmulti-agent inference can enhance response quality, it can significantly\nincrease the time to first token (TTFT), posing a challenge for\nlatency-sensitive applications and hurting user experience. To address this\nissue, we propose staircase streaming for low-latency multi-agent inference.\nInstead of waiting for the complete intermediate outputs from previous steps,\nwe begin generating the final response as soon as we receive partial outputs\nfrom these steps. Experimental results demonstrate that staircase streaming\nreduces TTFT by up to 93% while maintaining response quality.",
+      "authors": [
+        "Junlin Wang",
+        "Jue Wang",
+        "Zhen",
+        "Xu",
+        "Ben Athiwaratkun",
+        "Bhuwan Dhingra",
+        "Ce Zhang",
+        "James Zou"
+      ],
+      "published": "2025-10-06T17:37:35Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.05059v1"
+    },
+    {
+      "arxiv_id": "2510.05048v1",
+      "title": "Look-ahead Reasoning with a Learned Model in Imperfect Information Games",
+      "summary": "Test-time reasoning significantly enhances pre-trained AI agents'\nperformance. However, it requires an explicit environment model, often\nunavailable or overly complex in real-world scenarios. While MuZero enables\neffective model learning for search in perfect information games, extending\nthis paradigm to imperfect information games presents substantial challenges\ndue to more nuanced look-ahead reasoning techniques and large number of states\nrelevant for individual decisions. This paper introduces an algorithm LAMIR\nthat learns an abstracted model of an imperfect information game directly from\nthe agent-environment interaction. During test time, this trained model is used\nto perform look-ahead reasoning. The learned abstraction limits the size of\neach subgame to a manageable size, making theoretically principled look-ahead\nreasoning tractable even in games where previous methods could not scale. We\nempirically demonstrate that with sufficient capacity, LAMIR learns the exact\nunderlying game structure, and with limited capacity, it still learns a\nvaluable abstraction, which improves game playing performance of the\npre-trained agents even in large games.",
+      "authors": [
+        "Ondřej Kubíček",
+        "Viliam Lisý"
+      ],
+      "published": "2025-10-06T17:26:56Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.05048v1"
+    },
+    {
+      "arxiv_id": "2510.05014v1",
+      "title": "Think Then Embed: Generative Context Improves Multimodal Embedding",
+      "summary": "There is a growing interest in Universal Multimodal Embeddings (UME), where\nmodels are required to generate task-specific representations. While recent\nstudies show that Multimodal Large Language Models (MLLMs) perform well on such\ntasks, they treat MLLMs solely as encoders, overlooking their generative\ncapacity. However, such an encoding paradigm becomes less effective as\ninstructions become more complex and require compositional reasoning. Inspired\nby the proven effectiveness of chain-of-thought reasoning, we propose a general\nThink-Then-Embed (TTE) framework for UME, composed of a reasoner and an\nembedder. The reasoner MLLM first generates reasoning traces that explain\ncomplex queries, followed by an embedder that produces representations\nconditioned on both the original query and the intermediate reasoning. This\nexplicit reasoning step enables more nuanced understanding of complex\nmultimodal instructions. Our contributions are threefold. First, by leveraging\na powerful MLLM reasoner, we achieve state-of-the-art performance on the\nMMEB-V2 benchmark, surpassing proprietary models trained on massive in-house\ndatasets. Second, to reduce the dependency on large MLLM reasoners, we finetune\na smaller MLLM reasoner using high-quality embedding-centric reasoning traces,\nachieving the best performance among open-source models with a 7% absolute gain\nover recently proposed models. Third, we investigate strategies for integrating\nthe reasoner and embedder into a unified model for improved efficiency without\nsacrificing performance.",
+      "authors": [
+        "Xuanming Cui",
+        "Jianpeng Cheng",
+        "Hong-you Chen",
+        "Satya Narayan Shukla",
+        "Abhijeet Awasthi",
+        "Xichen Pan",
+        "Chaitanya Ahuja",
+        "Shlok Kumar Mishra",
+        "Qi Guo",
+        "Ser-Nam Lim",
+        "Aashu Singh",
+        "Xiangjun Fan"
+      ],
+      "published": "2025-10-06T16:53:56Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.05014v1"
+    },
+    {
+      "arxiv_id": "2510.04980v1",
+      "title": "LLM-Hanabi: Evaluating Multi-Agent Gameplays with Theory-of-Mind and\n  Rationale Inference in Imperfect Information Collaboration Game",
+      "summary": "Effective multi-agent collaboration requires agents to infer the rationale\nbehind others' actions, a capability rooted in Theory-of-Mind (ToM). While\nrecent Large Language Models (LLMs) excel at logical inference, their ability\nto infer rationale in dynamic, collaborative settings remains under-explored.\nThis study introduces LLM-Hanabi, a novel benchmark that uses the cooperative\ngame Hanabi to evaluate the rationale inference and ToM of LLMs. Our framework\nfeatures an automated evaluation system that measures both game performance and\nToM proficiency. Across a range of models, we find a significant positive\ncorrelation between ToM and in-game success. Notably, first-order ToM\n(interpreting others' intent) correlates more strongly with performance than\nsecond-order ToM (predicting others' interpretations). These findings highlight\nthat for effective AI collaboration, the ability to accurately interpret a\npartner's rationale is more critical than higher-order reasoning. We conclude\nthat prioritizing first-order ToM is a promising direction for enhancing the\ncollaborative capabilities of future models.",
+      "authors": [
+        "Fangzhou Liang",
+        "Tianshi Zheng",
+        "Chunkit Chan",
+        "Yauwai Yim",
+        "Yangqiu Song"
+      ],
+      "published": "2025-10-06T16:17:24Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04980v1"
+    },
+    {
+      "arxiv_id": "2510.04978v1",
+      "title": "Aligning Perception, Reasoning, Modeling and Interaction: A Survey on\n  Physical AI",
+      "summary": "The rapid advancement of embodied intelligence and world models has\nintensified efforts to integrate physical laws into AI systems, yet physical\nperception and symbolic physics reasoning have developed along separate\ntrajectories without a unified bridging framework. This work provides a\ncomprehensive overview of physical AI, establishing clear distinctions between\ntheoretical physics reasoning and applied physical understanding while\nsystematically examining how physics-grounded methods enhance AI's real-world\ncomprehension across structured symbolic reasoning, embodied systems, and\ngenerative models. Through rigorous analysis of recent advances, we advocate\nfor intelligent systems that ground learning in both physical principles and\nembodied reasoning processes, transcending pattern recognition toward genuine\nunderstanding of physical laws. Our synthesis envisions next-generation world\nmodels capable of explaining physical phenomena and predicting future states,\nadvancing safe, generalizable, and interpretable AI systems. We maintain a\ncontinuously updated resource at\nhttps://github.com/AI4Phys/Awesome-AI-for-Physics.",
+      "authors": [
+        "Kun Xiang",
+        "Terry Jingchen Zhang",
+        "Yinya Huang",
+        "Jixi He",
+        "Zirong Liu",
+        "Yueling Tang",
+        "Ruizhe Zhou",
+        "Lijing Luo",
+        "Youpeng Wen",
+        "Xiuwei Chen",
+        "Bingqian Lin",
+        "Jianhua Han",
+        "Hang Xu",
+        "Hanhui Li",
+        "Bin Dong",
+        "Xiaodan Liang"
+      ],
+      "published": "2025-10-06T16:16:03Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04978v1"
+    },
+    {
+      "arxiv_id": "2510.04952v2",
+      "title": "Safe and Compliant Cross-Market Trade Execution via Constrained RL and\n  Zero-Knowledge Audits",
+      "summary": "We present a cross-market algorithmic trading system that balances execution\nquality with rigorous compliance enforcement. The architecture comprises a\nhigh-level planner, a reinforcement learning execution agent, and an\nindependent compliance agent. We formulate trade execution as a constrained\nMarkov decision process with hard constraints on participation limits, price\nbands, and self-trading avoidance. The execution agent is trained with proximal\npolicy optimization, while a runtime action-shield projects any unsafe action\ninto a feasible set. To support auditability without exposing proprietary\nsignals, we add a zero-knowledge compliance audit layer that produces\ncryptographic proofs that all actions satisfied the constraints. We evaluate in\na multi-venue, ABIDES-based simulator and compare against standard baselines\n(e.g., TWAP, VWAP). The learned policy reduces implementation shortfall and\nvariance while exhibiting no observed constraint violations across stress\nscenarios including elevated latency, partial fills, compliance module\ntoggling, and varying constraint limits. We report effects at the 95%\nconfidence level using paired t-tests and examine tail risk via CVaR. We\nsituate the work at the intersection of optimal execution, safe reinforcement\nlearning, regulatory technology, and verifiable AI, and discuss ethical\nconsiderations, limitations (e.g., modeling assumptions and computational\noverhead), and paths to real-world deployment.",
+      "authors": [
+        "Ailiya Borjigin",
+        "Cong He"
+      ],
+      "published": "2025-10-06T15:52:12Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04952v2"
+    },
+    {
+      "arxiv_id": "2510.04935v1",
+      "title": "MARS: Optimizing Dual-System Deep Research via Multi-Agent Reinforcement\n  Learning",
+      "summary": "Large Reasoning Models (LRMs) often exhibit a tendency for overanalysis in\nsimple tasks, where the models excessively utilize System 2-type, deliberate\nreasoning, leading to inefficient token generation. Furthermore, these models\nface challenges in adapting their reasoning capabilities to rapidly changing\nenvironments due to the static nature of their pretraining data. To address\nthese issues, advancing Large Language Models (LLMs) for complex reasoning\ntasks requires innovative approaches that bridge intuitive and deliberate\ncognitive processes, akin to human cognition's dual-system dynamic. This paper\nintroduces a Multi-Agent System for Deep ReSearch (MARS) enabling seamless\nintegration of System 1's fast, intuitive thinking with System 2's deliberate\nreasoning within LLMs. MARS strategically integrates multiple external tools,\nsuch as Google Search, Google Scholar, and Python Interpreter, to access\nup-to-date information and execute complex computations, while creating a\nspecialized division of labor where System 1 efficiently processes and\nsummarizes high-volume external information, providing distilled insights that\nexpand System 2's reasoning context without overwhelming its capacity.\nFurthermore, we propose a multi-agent reinforcement learning framework\nextending Group Relative Policy Optimization to simultaneously optimize both\nsystems with multi-turn tool interactions, bin-packing optimization, and sample\nbalancing strategies that enhance collaborative efficiency. Extensive\nexperiments demonstrate MARS achieves substantial improvements of 3.86% on the\nchallenging Humanity's Last Exam (HLE) benchmark and an average gain of 8.9%\nacross 7 knowledge-intensive tasks, validating the effectiveness of our\ndual-system paradigm for complex reasoning in dynamic information environments.",
+      "authors": [
+        "Guoxin Chen",
+        "Zile Qiao",
+        "Wenqing Wang",
+        "Donglei Yu",
+        "Xuanzhong Chen",
+        "Hao Sun",
+        "Minpeng Liao",
+        "Kai Fan",
+        "Yong Jiang",
+        "Penguin Xie",
+        "Wayne Xin Zhao",
+        "Ruihua Song",
+        "Fei Huang"
+      ],
+      "published": "2025-10-06T15:42:55Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04935v1"
+    },
+    {
+      "arxiv_id": "2510.04899v1",
+      "title": "Human Behavior Atlas: Benchmarking Unified Psychological and Social\n  Behavior Understanding",
+      "summary": "Using intelligent systems to perceive psychological and social behaviors,\nthat is, the underlying affective, cognitive, and pathological states that are\nmanifested through observable behaviors and social interactions, remains a\nchallenge due to their complex, multifaceted, and personalized nature. Existing\nwork tackling these dimensions through specialized datasets and single-task\nsystems often miss opportunities for scalability, cross-task transfer, and\nbroader generalization. To address this gap, we curate Human Behavior Atlas, a\nunified benchmark of diverse behavioral tasks designed to support the\ndevelopment of unified models for understanding psychological and social\nbehaviors. Human Behavior Atlas comprises over 100,000 samples spanning text,\naudio, and visual modalities, covering tasks on affective states, cognitive\nstates, pathologies, and social processes. Our unification efforts can reduce\nredundancy and cost, enable training to scale efficiently across tasks, and\nenhance generalization of behavioral features across domains. On Human Behavior\nAtlas, we train three models: OmniSapiens-7B SFT, OmniSapiens-7B BAM, and\nOmniSapiens-7B RL. We show that training on Human Behavior Atlas enables models\nto consistently outperform existing multimodal LLMs across diverse behavioral\ntasks. Pretraining on Human Behavior Atlas also improves transfer to novel\nbehavioral datasets; with the targeted use of behavioral descriptors yielding\nmeaningful performance gains.",
+      "authors": [
+        "Keane Ong",
+        "Wei Dai",
+        "Carol Li",
+        "Dewei Feng",
+        "Hengzhi Li",
+        "Jingyao Wu",
+        "Jiaee Cheong",
+        "Rui Mao",
+        "Gianmarco Mengaldo",
+        "Erik Cambria",
+        "Paul Pu Liang"
+      ],
+      "published": "2025-10-06T15:16:45Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04899v1"
+    },
+    {
+      "arxiv_id": "2510.04886v1",
+      "title": "Where Did It All Go Wrong? A Hierarchical Look into Multi-Agent Error\n  Attribution",
+      "summary": "Error attribution in Large Language Model (LLM) multi-agent systems presents\na significant challenge in debugging and improving collaborative AI systems.\nCurrent approaches to pinpointing agent and step level failures in interaction\ntraces - whether using all-at-once evaluation, step-by-step analysis, or binary\nsearch - fall short when analyzing complex patterns, struggling with both\naccuracy and consistency. We present ECHO (Error attribution through Contextual\nHierarchy and Objective consensus analysis), a novel algorithm that combines\nhierarchical context representation, objective analysis-based evaluation, and\nconsensus voting to improve error attribution accuracy. Our approach leverages\na positional-based leveling of contextual understanding while maintaining\nobjective evaluation criteria, ultimately reaching conclusions through a\nconsensus mechanism. Experimental results demonstrate that ECHO outperforms\nexisting methods across various multi-agent interaction scenarios, showing\nparticular strength in cases involving subtle reasoning errors and complex\ninterdependencies. Our findings suggest that leveraging these concepts of\nstructured, hierarchical context representation combined with consensus-based\nobjective decision-making, provides a more robust framework for error\nattribution in multi-agent systems.",
+      "authors": [
+        "Adi Banerjee",
+        "Anirudh Nair",
+        "Tarik Borogovac"
+      ],
+      "published": "2025-10-06T15:07:13Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04886v1"
+    },
+    {
+      "arxiv_id": "2510.04862v1",
+      "title": "Video Game Level Design as a Multi-Agent Reinforcement Learning Problem",
+      "summary": "Procedural Content Generation via Reinforcement Learning (PCGRL) offers a\nmethod for training controllable level designer agents without the need for\nhuman datasets, using metrics that serve as proxies for level quality as\nrewards. Existing PCGRL research focuses on single generator agents, but are\nbottlenecked by the need to frequently recalculate heuristics of level quality\nand the agent's need to navigate around potentially large maps. By framing\nlevel generation as a multi-agent problem, we mitigate the efficiency\nbottleneck of single-agent PCGRL by reducing the number of reward calculations\nrelative to the number of agent actions. We also find that multi-agent level\ngenerators are better able to generalize to out-of-distribution map shapes,\nwhich we argue is due to the generators' learning more local, modular design\npolicies. We conclude that treating content generation as a distributed,\nmulti-agent task is beneficial for generating functional artifacts at scale.",
+      "authors": [
+        "Sam Earle",
+        "Zehua Jiang",
+        "Eugene Vinitsky",
+        "Julian Togelius"
+      ],
+      "published": "2025-10-06T14:49:21Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04862v1"
+    },
+    {
+      "arxiv_id": "2510.04851v1",
+      "title": "LEGOMem: Modular Procedural Memory for Multi-agent LLM Systems for\n  Workflow Automation",
+      "summary": "We introduce LEGOMem, a modular procedural memory framework for multi-agent\nlarge language model (LLM) systems in workflow automation. LEGOMem decomposes\npast task trajectories into reusable memory units and flexibly allocates them\nacross orchestrators and task agents to support planning and execution. To\nexplore the design space of memory in multi-agent systems, we use LEGOMem as a\nlens and conduct a systematic study of procedural memory in multi-agent\nsystems, examining where memory should be placed, how it should be retrieved,\nand which agents benefit most. Experiments on the OfficeBench benchmark show\nthat orchestrator memory is critical for effective task decomposition and\ndelegation, while fine-grained agent memory improves execution accuracy. We\nfind that even teams composed of smaller language models can benefit\nsubstantially from procedural memory, narrowing the performance gap with\nstronger agents by leveraging prior execution traces for more accurate planning\nand tool use. These results position LEGOMem as both a practical framework for\nmemory-augmented agent systems and a research tool for understanding memory\ndesign in multi-agent workflow automation.",
+      "authors": [
+        "Dongge Han",
+        "Camille Couturier",
+        "Daniel Madrigal Diaz",
+        "Xuchao Zhang",
+        "Victor Rühle",
+        "Saravan Rajmohan"
+      ],
+      "published": "2025-10-06T14:39:53Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04851v1"
+    },
+    {
+      "arxiv_id": "2510.04817v1",
+      "title": "Natural Language Edge Labelling: Decoupling Intent from Execution in\n  Structured LM Reasoning",
+      "summary": "Controllers for structured LM reasoning (e.g., Chain-of-Thought,\nself-consistency, and Tree-of-Thoughts) often entangle what to try next with\nhow to execute it, exposing only coarse global knobs and yielding brittle,\ncompute-inefficient, and hard-to-audit behavior. We introduce Natural Language\nEdge Labelling (NLEL), a labeller-tuner overlay that attaches a free-form\nnatural-language directive to each search edge and translates it into a\nschema-bounded control vector for decoding, search (branch quotas, exploration\n$\\beta$), generation bundle size, retrieval mixtures, and verification passes.\nA labeller $\\Lambda$ emits labels from the parent state and a compact context;\na tuner $\\Psi$ maps $(P, L, C)\\to \\Pi$, with strict schema validation and\ntrust-region projection around safe defaults. Downstream selection remains\nToT-style with score $S=\\mu+\\beta\\sigma$ and depth-annealed $\\beta$. We show\nNLEL strictly generalizes CoT/ToT, prove an anytime-monotonicity property for\ntop-$k$ selection under label-conditioned bundles, and bound selector shortfall\nby control-vector distortion, providing decision-relevant justification for\nguards like trust regions and verification passes. We instantiate $\\Psi$ as a\nprompt-only JSON Parameter Emitter and preregister an evaluation on GSM8K, MATH\n(subset), StrategyQA, and ARC-Challenge with compute-aware reporting\n(success@compute, tokens-per-success) and ablations over $\\Lambda$, $\\Psi$,\ntrust-region radius, and control quantization; preregistered forecasts\nanticipate accuracy gains at comparable token budgets and improved\nsuccess@compute under constraints. NLEL offers an interpretable, model-agnostic\ninterface that separates intent from execution for controllable, auditable LM\ninference.",
+      "authors": [
+        "Abhinav Madahar"
+      ],
+      "published": "2025-10-06T14:00:02Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04817v1"
+    },
+    {
+      "arxiv_id": "2510.04792v1",
+      "title": "Hybrid-Balance GFlowNet for Solving Vehicle Routing Problems",
+      "summary": "Existing GFlowNet-based methods for vehicle routing problems (VRPs) typically\nemploy Trajectory Balance (TB) to achieve global optimization but often neglect\nimportant aspects of local optimization. While Detailed Balance (DB) addresses\nlocal optimization more effectively, it alone falls short in solving VRPs,\nwhich inherently require holistic trajectory optimization. To address these\nlimitations, we introduce the Hybrid-Balance GFlowNet (HBG) framework, which\nuniquely integrates TB and DB in a principled and adaptive manner by aligning\ntheir intrinsically complementary strengths. Additionally, we propose a\nspecialized inference strategy for depot-centric scenarios like the Capacitated\nVehicle Routing Problem (CVRP), leveraging the depot node's greater flexibility\nin selecting successors. Despite this specialization, HBG maintains broad\napplicability, extending effectively to problems without explicit depots, such\nas the Traveling Salesman Problem (TSP). We evaluate HBG by integrating it into\ntwo established GFlowNet-based solvers, i.e., AGFN and GFACS, and demonstrate\nconsistent and significant improvements across both CVRP and TSP, underscoring\nthe enhanced solution quality and generalization afforded by our approach.",
+      "authors": [
+        "Ni Zhang",
+        "Zhiguang Cao"
+      ],
+      "published": "2025-10-06T13:16:01Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04792v1"
+    },
+    {
+      "arxiv_id": "2510.04765v1",
+      "title": "LMM-Incentive: Large Multimodal Model-based Incentive Design for\n  User-Generated Content in Web 3.0",
+      "summary": "Web 3.0 represents the next generation of the Internet, which is widely\nrecognized as a decentralized ecosystem that focuses on value expression and\ndata ownership. By leveraging blockchain and artificial intelligence\ntechnologies, Web 3.0 offers unprecedented opportunities for users to create,\nown, and monetize their content, thereby enabling User-Generated Content (UGC)\nto an entirely new level. However, some self-interested users may exploit the\nlimitations of content curation mechanisms and generate low-quality content\nwith less effort, obtaining platform rewards under information asymmetry. Such\nbehavior can undermine Web 3.0 performance. To this end, we propose\n\\textit{LMM-Incentive}, a novel Large Multimodal Model (LMM)-based incentive\nmechanism for UGC in Web 3.0. Specifically, we propose an LMM-based\ncontract-theoretic model to motivate users to generate high-quality UGC,\nthereby mitigating the adverse selection problem from information asymmetry. To\nalleviate potential moral hazards after contract selection, we leverage LMM\nagents to evaluate UGC quality, which is the primary component of the contract,\nutilizing prompt engineering techniques to improve the evaluation performance\nof LMM agents. Recognizing that traditional contract design methods cannot\neffectively adapt to the dynamic environment of Web 3.0, we develop an improved\nMixture of Experts (MoE)-based Proximal Policy Optimization (PPO) algorithm for\noptimal contract design. Simulation results demonstrate the superiority of the\nproposed MoE-based PPO algorithm over representative benchmarks in the context\nof contract design. Finally, we deploy the designed contract within an Ethereum\nsmart contract framework, further validating the effectiveness of the proposed\nscheme.",
+      "authors": [
+        "Jinbo Wen",
+        "Jiawen Kang",
+        "Linfeng Zhang",
+        "Xiaoying Tang",
+        "Jianhang Tang",
+        "Yang Zhang",
+        "Zhaohui Yang",
+        "Dusit Niyato"
+      ],
+      "published": "2025-10-06T12:39:29Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04765v1"
+    },
+    {
+      "arxiv_id": "2510.04721v1",
+      "title": "BrokenMath: A Benchmark for Sycophancy in Theorem Proving with LLMs",
+      "summary": "Large language models (LLMs) have recently shown strong performance on\nmathematical benchmarks. At the same time, they are prone to hallucination and\nsycophancy, often providing convincing but flawed proofs for incorrect\nmathematical statements provided by users. This significantly limits the\napplicability of LLMs in theorem proving, as verification of these flawed\nproofs must be done manually by expert mathematicians. However, existing\nbenchmarks that measure sycophancy in mathematics are limited: they focus\nsolely on final-answer problems, rely on very simple and often contaminated\ndatasets, and construct benchmark samples using synthetic modifications that\ncreate ill-posed questions rather than well-posed questions that are\ndemonstrably false. To address these issues, we introduce BrokenMath, the first\nbenchmark for evaluating sycophantic behavior in LLMs within the context of\nnatural language theorem proving. BrokenMath is built from advanced 2025\ncompetition problems, which are perturbed with an LLM to produce false\nstatements and subsequently refined through expert review. Using an\nLLM-as-a-judge framework, we evaluate state-of-the-art LLMs and agentic systems\nand find that sycophancy is widespread, with the best model, GPT-5, producing\nsycophantic answers 29% of the time. We further investigate several mitigation\nstrategies, including test-time interventions and supervised fine-tuning on\ncurated sycophantic examples. These approaches substantially reduce, but do not\neliminate, sycophantic behavior.",
+      "authors": [
+        "Ivo Petrov",
+        "Jasper Dekoninck",
+        "Martin Vechev"
+      ],
+      "published": "2025-10-06T11:41:46Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04721v1"
+    },
+    {
+      "arxiv_id": "2510.04695v1",
+      "title": "Beyond Outcome Reward: Decoupling Search and Answering Improves LLM\n  Agents",
+      "summary": "Enabling large language models (LLMs) to utilize search tools offers a\npromising path to overcoming fundamental limitations such as knowledge cutoffs\nand hallucinations. Recent work has explored reinforcement learning (RL) for\ntraining search-augmented agents that interleave reasoning and retrieval before\nanswering. These approaches usually rely on outcome-based rewards (e.g., exact\nmatch), implicitly assuming that optimizing for final answers will also yield\neffective intermediate search behaviors. Our analysis challenges this\nassumption: we uncover multiple systematic deficiencies in search that arise\nunder outcome-only training and ultimately degrade final answer quality,\nincluding failure to invoke tools, invalid queries, and redundant searches. To\naddress these shortcomings, we introduce DeSA (Decoupling\nSearch-and-Answering), a simple two-stage training framework that explicitly\nseparates search optimization from answer generation. In Stage 1, agents are\ntrained to improve search effectiveness with retrieval recall-based rewards. In\nStage 2, outcome rewards are employed to optimize final answer generation.\nAcross seven QA benchmarks, DeSA-trained agents consistently improve search\nbehaviors, delivering substantially higher search recall and answer accuracy\nthan outcome-only baselines. Notably, DeSA outperforms single-stage training\napproaches that simultaneously optimize recall and outcome rewards,\nunderscoring the necessity of explicitly decoupling the two objectives.",
+      "authors": [
+        "Yiding Wang",
+        "Zhepei Wei",
+        "Xinyu Zhu",
+        "Yu Meng"
+      ],
+      "published": "2025-10-06T11:09:45Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04695v1"
+    },
+    {
+      "arxiv_id": "2510.04673v1",
+      "title": "Watch and Learn: Learning to Use Computers from Online Videos",
+      "summary": "Computer use agents (CUAs) need to plan task workflows grounded in diverse,\never-changing applications and environments, but learning is hindered by the\nscarcity of large-scale, high-quality training data in the target application.\nExisting datasets are domain-specific, static, and costly to annotate, while\ncurrent synthetic data generation methods often yield simplistic or misaligned\ntask demonstrations. To address these limitations, we introduce Watch & Learn\n(W&L), a framework that converts human demonstration videos readily available\non the Internet into executable UI trajectories at scale. Instead of directly\ngenerating trajectories or relying on ad hoc reasoning heuristics, we cast the\nproblem as an inverse dynamics objective: predicting the user's action from\nconsecutive screen states. This formulation reduces manual engineering, is\neasier to learn, and generalizes more robustly across applications. Concretely,\nwe develop an inverse dynamics labeling pipeline with task-aware video\nretrieval, generate over 53k high-quality trajectories from raw web videos, and\ndemonstrate that these trajectories improve CUAs both as in-context\ndemonstrations and as supervised training data. On the challenging OSWorld\nbenchmark, UI trajectories extracted with W&L consistently enhance both\ngeneral-purpose and state-of-the-art frameworks in-context, and deliver\nstronger gains for open-source models under supervised training. These results\nhighlight web-scale human demonstration videos as a practical and scalable\nfoundation for advancing CUAs towards real-world deployment.",
+      "authors": [
+        "Chan Hee Song",
+        "Yiwen Song",
+        "Palash Goyal",
+        "Yu Su",
+        "Oriana Riva",
+        "Hamid Palangi",
+        "Tomas Pfister"
+      ],
+      "published": "2025-10-06T10:29:00Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04673v1"
+    },
+    {
+      "arxiv_id": "2510.04670v1",
+      "title": "Improving Multimodal Brain Encoding Model with Dynamic Subject-awareness\n  Routing",
+      "summary": "Naturalistic fMRI encoding must handle multimodal inputs, shifting fusion\nstyles, and pronounced inter-subject variability. We introduce AFIRE (Agnostic\nFramework for Multimodal fMRI Response Encoding), an agnostic interface that\nstandardizes time-aligned post-fusion tokens from varied encoders, and MIND, a\nplug-and-play Mixture-of-Experts decoder with a subject-aware dynamic gating.\nTrained end-to-end for whole-brain prediction, AFIRE decouples the decoder from\nupstream fusion, while MIND combines token-dependent Top-K sparse routing with\na subject prior to personalize expert usage without sacrificing generality.\nExperiments across multiple multimodal backbones and subjects show consistent\nimprovements over strong baselines, enhanced cross-subject generalization, and\ninterpretable expert patterns that correlate with content type. The framework\noffers a simple attachment point for new encoders and datasets, enabling\nrobust, plug-and-improve performance for naturalistic neuroimaging studies.",
+      "authors": [
+        "Xuanhua Yin",
+        "Runkai Zhao",
+        "Weidong Cai"
+      ],
+      "published": "2025-10-06T10:24:28Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04670v1"
+    },
+    {
+      "arxiv_id": "2510.04643v1",
+      "title": "QuantAgents: Towards Multi-agent Financial System via Simulated Trading",
+      "summary": "In this paper, our objective is to develop a multi-agent financial system\nthat incorporates simulated trading, a technique extensively utilized by\nfinancial professionals. While current LLM-based agent models demonstrate\ncompetitive performance, they still exhibit significant deviations from\nreal-world fund companies. A critical distinction lies in the agents' reliance\non ``post-reflection'', particularly in response to adverse outcomes, but lack\na distinctly human capability: long-term prediction of future trends.\nTherefore, we introduce QuantAgents, a multi-agent system integrating simulated\ntrading, to comprehensively evaluate various investment strategies and market\nscenarios without assuming actual risks. Specifically, QuantAgents comprises\nfour agents: a simulated trading analyst, a risk control analyst, a market news\nanalyst, and a manager, who collaborate through several meetings. Moreover, our\nsystem incentivizes agents to receive feedback on two fronts: performance in\nreal-world markets and predictive accuracy in simulated trading. Extensive\nexperiments demonstrate that our framework excels across all metrics, yielding\nan overall return of nearly 300% over the three years\n(https://quantagents.github.io/).",
+      "authors": [
+        "Xiangyu Li",
+        "Yawen Zeng",
+        "Xiaofen Xing",
+        "Jin Xu",
+        "Xiangmin Xu"
+      ],
+      "published": "2025-10-06T09:45:57Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04643v1"
+    },
+    {
+      "arxiv_id": "2510.04623v1",
+      "title": "MedPAO: A Protocol-Driven Agent for Structuring Medical Reports",
+      "summary": "The deployment of Large Language Models (LLMs) for structuring clinical data\nis critically hindered by their tendency to hallucinate facts and their\ninability to follow domain-specific rules. To address this, we introduce\nMedPAO, a novel agentic framework that ensures accuracy and verifiable\nreasoning by grounding its operation in established clinical protocols such as\nthe ABCDEF protocol for CXR analysis. MedPAO decomposes the report structuring\ntask into a transparent process managed by a Plan-Act-Observe (PAO) loop and\nspecialized tools. This protocol-driven method provides a verifiable\nalternative to opaque, monolithic models. The efficacy of our approach is\ndemonstrated through rigorous evaluation: MedPAO achieves an F1-score of 0.96\non the critical sub-task of concept categorization. Notably, expert\nradiologists and clinicians rated the final structured outputs with an average\nscore of 4.52 out of 5, indicating a level of reliability that surpasses\nbaseline approaches relying solely on LLM-based foundation models. The code is\navailable at: https://github.com/MiRL-IITM/medpao-agent",
+      "authors": [
+        "Shrish Shrinath Vaidya",
+        "Gowthamaan Palani",
+        "Sidharth Ramesh",
+        "Velmurugan Balasubramanian",
+        "Minmini Selvam",
+        "Gokulraja Srinivasaraja",
+        "Ganapathy Krishnamurthi"
+      ],
+      "published": "2025-10-06T09:32:23Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04623v1"
+    },
+    {
+      "arxiv_id": "2510.04617v1",
+      "title": "Making Mathematical Reasoning Adaptive",
+      "summary": "Mathematical reasoning is a primary indicator of large language models (LLMs)\nintelligence. However, existing LLMs exhibit failures of robustness and\ngeneralization. This paper attributes these deficiencies to spurious reasoning,\ni.e., producing answers from superficial features. To address this challenge,\nwe propose the AdaR framework to enable adaptive reasoning, wherein models rely\non problem-solving logic to produce answers. AdaR synthesizes logically\nequivalent queries by varying variable values, and trains models with RLVR on\nthese data to penalize spurious logic while encouraging adaptive logic. To\nimprove data quality, we extract the problem-solving logic from the original\nquery and generate the corresponding answer by code execution, then apply a\nsanity check. Experimental results demonstrate that AdaR improves robustness\nand generalization, achieving substantial improvement in mathematical reasoning\nwhile maintaining high data efficiency. Analysis indicates that data synthesis\nand RLVR function in a coordinated manner to enable adaptive reasoning in LLMs.\nSubsequent analyses derive key design insights into the effect of critical\nfactors and the applicability to instruct LLMs. Our project is available at\nhttps://github.com/LaiZhejian/AdaR",
+      "authors": [
+        "Zhejian Lai",
+        "Xiang Geng",
+        "Zhijun Wang",
+        "Yang Bai",
+        "Jiahuan Li",
+        "Rongxiang Weng",
+        "Jingang Wang",
+        "Xuezhi Cao",
+        "Xunliang Cai",
+        "Shujian Huang"
+      ],
+      "published": "2025-10-06T09:30:05Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04617v1"
+    },
+    {
+      "arxiv_id": "2510.04588v1",
+      "title": "Perfect AI Mimicry and the Epistemology of Consciousness: A Solipsistic\n  Dilemma",
+      "summary": "Rapid advances in artificial intelligence necessitate a re-examination of the\nepistemological foundations upon which we attribute consciousness. As AI\nsystems increasingly mimic human behavior and interaction with high fidelity,\nthe concept of a \"perfect mimic\"-an entity empirically indistinguishable from a\nhuman through observation and interaction-shifts from hypothetical to\ntechnologically plausible. This paper argues that such developments pose a\nfundamental challenge to the consistency of our mind-recognition practices.\nConsciousness attributions rely heavily, if not exclusively, on empirical\nevidence derived from behavior and interaction. If a perfect mimic provides\nevidence identical to that of humans, any refusal to grant it equivalent\nepistemic status must invoke inaccessible factors, such as qualia, substrate\nrequirements, or origin. Selectively invoking such factors risks a debilitating\ndilemma: either we undermine the rational basis for attributing consciousness\nto others (epistemological solipsism), or we accept inconsistent reasoning. I\ncontend that epistemic consistency demands we ascribe the same status to\nempirically indistinguishable entities, regardless of metaphysical assumptions.\nThe perfect mimic thus acts as an epistemic mirror, forcing critical reflection\non the assumptions underlying intersubjective recognition in light of advancing\nAI. This analysis carries significant implications for theories of\nconsciousness and ethical frameworks concerning artificial agents.",
+      "authors": [
+        "Shurui Li"
+      ],
+      "published": "2025-10-06T08:44:55Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04588v1"
+    },
+    {
+      "arxiv_id": "2510.04580v1",
+      "title": "Strongly Solving 2048 4x3",
+      "summary": "2048 is a stochastic single-player game involving 16 cells on a 4 by 4 grid,\nwhere a player chooses a direction among up, down, left, and right to obtain a\nscore by merging two tiles with the same number located in neighboring cells\nalong the chosen direction. This paper presents that a variant 2048-4x3 12\ncells on a 4 by 3 board, one row smaller than the original, has been strongly\nsolved. In this variant, the expected score achieved by an optimal strategy is\nabout $50724.26$ for the most common initial states: ones with two tiles of\nnumber 2. The numbers of reachable states and afterstates are identified to be\n$1,152,817,492,752$ and $739,648,886,170$, respectively. The key technique is\nto partition state space by the sum of tile numbers on a board, which we call\nthe age of a state. An age is invariant between a state and its successive\nafterstate after any valid action and is increased two or four by stochastic\nresponse from the environment. Therefore, we can partition state space by ages\nand enumerate all (after)states of an age depending only on states with the\nrecent ages. Similarly, we can identify (after)state values by going along with\nages in decreasing order.",
+      "authors": [
+        "Tomoyuki Kaneko",
+        "Shuhei Yamashita"
+      ],
+      "published": "2025-10-06T08:31:59Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04580v1"
+    },
+    {
+      "arxiv_id": "2510.04568v1",
+      "title": "COSMIR: Chain Orchestrated Structured Memory for Iterative Reasoning\n  over Long Context",
+      "summary": "Reasoning over very long inputs remains difficult for large language models\n(LLMs). Common workarounds either shrink the input via retrieval (risking\nmissed evidence), enlarge the context window (straining selectivity), or stage\nmultiple agents to read in pieces. In staged pipelines (e.g., Chain of Agents,\nCoA), free-form summaries passed between agents can discard crucial details and\namplify early mistakes. We introduce COSMIR (Chain Orchestrated Structured\nMemory for Iterative Reasoning), a chain-style framework that replaces ad hoc\nmessages with a structured memory. A Planner agent first turns a user query\ninto concrete, checkable sub-questions. worker agents process chunks via a\nfixed micro-cycle: Extract, Infer, Refine, writing all updates to the shared\nmemory. A Manager agent then Synthesizes the final answer directly from the\nmemory. This preserves step-wise read-then-reason benefits while changing both\nthe communication medium (structured memory) and the worker procedure (fixed\nmicro-cycle), yielding higher faithfulness, better long-range aggregation, and\nauditability. On long-context QA from the HELMET suite, COSMIR reduces\npropagation-stage information loss and improves accuracy over a CoA baseline.",
+      "authors": [
+        "Naman Gupta",
+        "Shreeyash Gowaikar",
+        "Arun Iyer",
+        "Kirankumar Shiragur",
+        "Ramakrishna B Bairi",
+        "Rishikesh Maurya",
+        "Ritabrata Maiti",
+        "Sankarshan Damle",
+        "Shachee Mishra Gupta"
+      ],
+      "published": "2025-10-06T08:10:04Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04568v1"
+    },
+    {
+      "arxiv_id": "2510.04560v1",
+      "title": "ContextNav: Towards Agentic Multimodal In-Context Learning",
+      "summary": "Recent advances demonstrate that multimodal large language models (MLLMs)\nexhibit strong multimodal in-context learning (ICL) capabilities, enabling them\nto adapt to novel vision-language tasks from a few contextual examples.\nHowever, existing ICL approaches face challenges in reconciling scalability\nwith robustness across diverse tasks and noisy contextual examples: manually\nselecting examples produces clean contexts but is labor-intensive and\ntask-specific, while similarity-based retrieval improves scalability but could\nintroduce irrelevant or structurally inconsistent samples that degrade ICL\nperformance. To address these limitations, we propose ContextNav, the first\nagentic framework that integrates the scalability of automated retrieval with\nthe quality and adaptiveness of human-like curation, enabling noise-robust and\ndynamically optimized contextualization for multimodal ICL. ContextNav unifies\ncontext management and noise-robust contextualization within a closed-loop\nworkflow driven by graph-based orchestration. Specifically, it builds a\nresource-aware multimodal embedding pipeline, maintains a retrievable vector\ndatabase, and applies agentic retrieval and structural alignment to construct\nnoise-resilient contexts. An Operational Grammar Graph (OGG) further supports\nadaptive workflow planning and optimization, enabling the agent to refine its\noperational strategies based on downstream ICL feedback. Experimental results\ndemonstrate that ContextNav achieves state-of-the-art performance across\nvarious datasets, underscoring the promise of agentic workflows for advancing\nscalable and robust contextualization in multimodal ICL.",
+      "authors": [
+        "Honghao Fu",
+        "Yuan Ouyang",
+        "Kai-Wei Chang",
+        "Yiwei Wang",
+        "Zi Huang",
+        "Yujun Cai"
+      ],
+      "published": "2025-10-06T07:49:52Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04560v1"
+    },
+    {
+      "arxiv_id": "2510.04550v1",
+      "title": "TRAJECT-Bench:A Trajectory-Aware Benchmark for Evaluating Agentic Tool\n  Use",
+      "summary": "Large language model (LLM)-based agents increasingly rely on tool use to\ncomplete real-world tasks. While existing works evaluate the LLMs' tool use\ncapability, they largely focus on the final answers yet overlook the detailed\ntool usage trajectory, i.e., whether tools are selected, parameterized, and\nordered correctly. We introduce TRAJECT-Bench, a trajectory-aware benchmark to\ncomprehensively evaluate LLMs' tool use capability through diverse tasks with\nfine-grained evaluation metrics. TRAJECT-Bench pairs high-fidelity, executable\ntools across practical domains with tasks grounded in production-style APIs,\nand synthesizes trajectories that vary in breadth (parallel calls) and depth\n(interdependent chains). Besides final accuracy, TRAJECT-Bench also reports\ntrajectory-level diagnostics, including tool selection and argument\ncorrectness, and dependency/order satisfaction. Analyses reveal failure modes\nsuch as similar tool confusion and parameter-blind selection, and scaling\nbehavior with tool diversity and trajectory length where the bottleneck of\ntransiting from short to mid-length trajectories is revealed, offering\nactionable guidance for LLMs' tool use.",
+      "authors": [
+        "Pengfei He",
+        "Zhenwei Dai",
+        "Bing He",
+        "Hui Liu",
+        "Xianfeng Tang",
+        "Hanqing Lu",
+        "Juanhui Li",
+        "Jiayuan Ding",
+        "Subhabrata Mukherjee",
+        "Suhang Wang",
+        "Yue Xing",
+        "Jiliang Tang",
+        "Benoit Dumoulin"
+      ],
+      "published": "2025-10-06T07:30:25Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04550v1"
+    },
+    {
+      "arxiv_id": "2510.04542v1",
+      "title": "Code World Models for General Game Playing",
+      "summary": "Large Language Models (LLMs) reasoning abilities are increasingly being\napplied to classical board and card games, but the dominant approach --\ninvolving prompting for direct move generation -- has significant drawbacks. It\nrelies on the model's implicit fragile pattern-matching capabilities, leading\nto frequent illegal moves and strategically shallow play. Here we introduce an\nalternative approach: We use the LLM to translate natural language rules and\ngame trajectories into a formal, executable world model represented as Python\ncode. This generated model -- comprising functions for state transition, legal\nmove enumeration, and termination checks -- serves as a verifiable simulation\nengine for high-performance planning algorithms like Monte Carlo tree search\n(MCTS). In addition, we prompt the LLM to generate heuristic value functions\n(to make MCTS more efficient), and inference functions (to estimate hidden\nstates in imperfect information games). Our method offers three distinct\nadvantages compared to directly using the LLM as a policy: (1) Verifiability:\nThe generated CWM serves as a formal specification of the game's rules,\nallowing planners to algorithmically enumerate valid actions and avoid illegal\nmoves, contingent on the correctness of the synthesized model; (2) Strategic\nDepth: We combine LLM semantic understanding with the deep search power of\nclassical planners; and (3) Generalization: We direct the LLM to focus on the\nmeta-task of data-to-code translation, enabling it to adapt to new games more\neasily. We evaluate our agent on 10 different games, of which 4 are novel and\ncreated for this paper. 5 of the games are fully observed (perfect\ninformation), and 5 are partially observed (imperfect information). We find\nthat our method outperforms or matches Gemini 2.5 Pro in 9 out of the 10\nconsidered games.",
+      "authors": [
+        "Wolfgang Lehrach",
+        "Daniel Hennes",
+        "Miguel Lazaro-Gredilla",
+        "Xinghua Lou",
+        "Carter Wendelken",
+        "Zun Li",
+        "Antoine Dedieu",
+        "Jordi Grau-Moya",
+        "Marc Lanctot",
+        "Atil Iscen",
+        "John Schultz",
+        "Marcus Chiam",
+        "Ian Gemp",
+        "Piotr Zielinski",
+        "Satinder Singh",
+        "Kevin P. Murphy"
+      ],
+      "published": "2025-10-06T07:16:07Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04542v1"
+    },
+    {
+      "arxiv_id": "2510.04532v1",
+      "title": "More Than Meets the Eye? Uncovering the Reasoning-Planning Disconnect in\n  Training Vision-Language Driving Models",
+      "summary": "Vision-Language Model (VLM) driving agents promise explainable end-to-end\nautonomy by first producing natural-language reasoning and then predicting\ntrajectory planning. However, whether planning is causally driven by this\nreasoning remains a critical but unverified assumption. To investigate this, we\nbuild DriveMind, a large-scale driving Visual Question Answering (VQA) corpus\nwith plan-aligned Chain-of-Thought (CoT), automatically generated from nuPlan.\nOur data generation process converts sensors and annotations into structured\ninputs and, crucially, separates priors from to-be-reasoned signals, enabling\nclean information ablations. Using DriveMind, we train representative VLM\nagents with Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization\n(GRPO) and evaluate them with nuPlan's metrics. Our results, unfortunately,\nindicate a consistent causal disconnect in reasoning-planning: removing\nego/navigation priors causes large drops in planning scores, whereas removing\nCoT produces only minor changes. Attention analysis further shows that planning\nprimarily focuses on priors rather than the CoT. Based on this evidence, we\npropose the Reasoning-Planning Decoupling Hypothesis, positing that the\ntraining-yielded reasoning is an ancillary byproduct rather than a causal\nmediator. To enable efficient diagnosis, we also introduce a novel,\ntraining-free probe that measures an agent's reliance on priors by evaluating\nits planning robustness against minor input perturbations. In summary, we\nprovide the community with a new dataset and a diagnostic tool to evaluate the\ncausal fidelity of future models.",
+      "authors": [
+        "Xurui Song",
+        "Shuo Huai",
+        "JingJing Jiang",
+        "Jiayi Kong",
+        "Jun Luo"
+      ],
+      "published": "2025-10-06T06:50:16Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04532v1"
+    },
+    {
+      "arxiv_id": "2510.04520v1",
+      "title": "Aria: An Agent For Retrieval and Iterative Auto-Formalization via\n  Dependency Graph",
+      "summary": "Accurate auto-formalization of theorem statements is essential for advancing\nautomated discovery and verification of research-level mathematics, yet remains\na major bottleneck for LLMs due to hallucinations, semantic mismatches, and\ntheir inability to synthesize new definitions. To tackle these issues, we\npresent Aria (Agent for Retrieval and Iterative Autoformalization), a system\nfor conjecture-level formalization in Lean that emulates human expert reasoning\nvia a two-phase Graph-of-Thought process: recursively decomposing statements\ninto a dependency graph and then constructing formalizations from grounded\nconcepts. To ensure semantic correctness, we introduce AriaScorer, a checker\nthat retrieves definitions from Mathlib for term-level grounding, enabling\nrigorous and reliable verification. We evaluate Aria on diverse benchmarks. On\nProofNet, it achieves 91.6% compilation success rate and 68.5% final accuracy,\nsurpassing previous methods. On FATE-X, a suite of challenging algebra problems\nfrom research literature, it outperforms the best baseline with 44.0% vs. 24.0%\nfinal accuracy. On a dataset of homological conjectures, Aria reaches 42.9%\nfinal accuracy while all other models score 0%.",
+      "authors": [
+        "Hanyu Wang",
+        "Ruohan Xie",
+        "Yutong Wang",
+        "Guoxiong Gao",
+        "Xintao Yu",
+        "Bin Dong"
+      ],
+      "published": "2025-10-06T06:25:11Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04520v1"
+    },
+    {
+      "arxiv_id": "2510.04514v1",
+      "title": "ChartAgent: A Multimodal Agent for Visually Grounded Reasoning in\n  Complex Chart Question Answering",
+      "summary": "Recent multimodal LLMs have shown promise in chart-based visual question\nanswering, but their performance declines sharply on unannotated charts, those\nrequiring precise visual interpretation rather than relying on textual\nshortcuts. To address this, we introduce ChartAgent, a novel agentic framework\nthat explicitly performs visual reasoning directly within the chart's spatial\ndomain. Unlike textual chain-of-thought reasoning, ChartAgent iteratively\ndecomposes queries into visual subtasks and actively manipulates and interacts\nwith chart images through specialized actions such as drawing annotations,\ncropping regions (e.g., segmenting pie slices, isolating bars), and localizing\naxes, using a library of chart-specific vision tools to fulfill each subtask.\nThis iterative reasoning process closely mirrors human cognitive strategies for\nchart comprehension. ChartAgent achieves state-of-the-art accuracy on the\nChartBench and ChartX benchmarks, surpassing prior methods by up to 16.07%\nabsolute gain overall and 17.31% on unannotated, numerically intensive queries.\nFurthermore, our analyses show that ChartAgent is (a) effective across diverse\nchart types, (b) achieve the highest scores across varying visual and reasoning\ncomplexity levels, and (c) serves as a plug-and-play framework that boosts\nperformance across diverse underlying LLMs. Our work is among the first to\ndemonstrate visually grounded reasoning for chart understanding using\ntool-augmented multimodal agents.",
+      "authors": [
+        "Rachneet Kaur",
+        "Nishan Srishankar",
+        "Zhen Zeng",
+        "Sumitra Ganesh",
+        "Manuela Veloso"
+      ],
+      "published": "2025-10-06T06:05:36Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04514v1"
+    },
+    {
+      "arxiv_id": "2510.04491v1",
+      "title": "Impatient Users Confuse AI Agents: High-fidelity Simulations of Human\n  Traits for Testing Agents",
+      "summary": "Despite rapid progress in building conversational AI agents, robustness is\nstill largely untested. Small shifts in user behavior, such as being more\nimpatient, incoherent, or skeptical, can cause sharp drops in agent\nperformance, revealing how brittle current AI agents are. Today's benchmarks\nfail to capture this fragility: agents may perform well under standard\nevaluations but degrade spectacularly in more realistic and varied settings. We\naddress this robustness testing gap by introducing TraitBasis, a lightweight,\nmodel-agnostic method for systematically stress testing AI agents. TraitBasis\nlearns directions in activation space corresponding to steerable user traits\n(e.g., impatience or incoherence), which can be controlled, scaled, composed,\nand applied at inference time without any fine-tuning or extra data. Using\nTraitBasis, we extend $\\tau$-Bench to $\\tau$-Trait, where user behaviors are\naltered via controlled trait vectors. We observe on average a 2%-30%\nperformance degradation on $\\tau$-Trait across frontier models, highlighting\nthe lack of robustness of current AI agents to variations in user behavior.\nTogether, these results highlight both the critical role of robustness testing\nand the promise of TraitBasis as a simple, data-efficient, and compositional\ntool. By powering simulation-driven stress tests and training loops, TraitBasis\nopens the door to building AI agents that remain reliable in the unpredictable\ndynamics of real-world human interactions. We have open-sourced $\\tau$-Trai\nacross four domains: airline, retail, telecom, and telehealth, so the community\ncan systematically QA their agents under realistic, behaviorally diverse\nintents and trait scenarios: https://github.com/collinear-ai/tau-trait.",
+      "authors": [
+        "Muyu He",
+        "Anand Kumar",
+        "Tsach Mackey",
+        "Meghana Rajeev",
+        "James Zou",
+        "Nazneen Rajani"
+      ],
+      "published": "2025-10-06T05:03:57Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04491v1"
+    },
+    {
+      "arxiv_id": "2510.04488v1",
+      "title": "Multi-Agent Collaborative Intelligence: Dual-Dial Control for Reliable\n  LLM Reasoning",
+      "summary": "Multi-agent debate often wastes compute by using a fixed adversarial stance,\naggregating without deliberation, or stopping on heuristics. We introduce MACI,\nan active controller with two independent dials that decouple information from\nbehavior: an information dial that gates evidence by quality, and a behavior\ndial that schedules contentiousness from exploration to consolidation. A\nmoderator tracks disagreement, overlap, evidence quality, and argument quality,\nand halts when gains plateau. We provide theory-lite guarantees for\nnonincreasing dispersion and provable termination, with a budget-feasible\nscheduler. Across clinical diagnosis and news-bias tasks, MACI improves\naccuracy and calibration while reducing tokens, and converts residual\nuncertainty into precision RAG plans that specify what to retrieve next. We use\na cross-family LLM judge (CRIT) as a conservative soft weight and stop signal,\nvalidated for order invariance and judge-swap stability; stability depends on\nusing high-capability judges. MACI turns debate into a budget-aware,\nmeasurable, and provably terminating controller.",
+      "authors": [
+        "Edward Y. Chang",
+        "Ethan Y. Chang"
+      ],
+      "published": "2025-10-06T04:52:17Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04488v1"
+    },
+    {
+      "arxiv_id": "2510.04480v1",
+      "title": "On Continuous Optimization for Constraint Satisfaction Problems",
+      "summary": "Constraint satisfaction problems (CSPs) are fundamental in mathematics,\nphysics, and theoretical computer science. While conflict-driven clause\nlearning Boolean Satisfiability (SAT) solvers have achieved remarkable success\nand become the mainstream approach for Boolean satisfiability, recent advances\nshow that modern continuous local search (CLS) solvers can achieve highly\ncompetitive results on certain classes of SAT problems. Motivated by these\nadvances, we extend the CLS framework from Boolean SAT to general CSP with\nfinite-domain variables and expressive constraints. We present FourierCSP, a\ncontinuous optimization framework that generalizes the Walsh-Fourier transform\nto CSP, allowing for transforming versatile constraints to compact multilinear\npolynomials, thereby avoiding the need for auxiliary variables and\nmemory-intensive encodings. Our approach leverages efficient evaluation and\ndifferentiation of the objective via circuit-output probability and employs a\nprojected gradient optimization method with theoretical guarantees. Empirical\nresults on benchmark suites demonstrate that FourierCSP is scalable and\ncompetitive, significantly broadening the class of problems that can be\nefficiently solved by CLS techniques.",
+      "authors": [
+        "Yunuo Cen",
+        "Zixuan Wang",
+        "Jintao Zhang",
+        "Zhiwei Zhang",
+        "Xuanyao Fong"
+      ],
+      "published": "2025-10-06T04:30:07Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04480v1"
+    },
+    {
+      "arxiv_id": "2510.04474v1",
+      "title": "DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization",
+      "summary": "Recent large reasoning models (LRMs) driven by reinforcement learning\nalgorithms (e.g., GRPO) have achieved remarkable performance on challenging\nreasoning tasks. However, these models suffer from overthinking, generating\nunnecessarily long and redundant reasoning even for simple questions, which\nsubstantially increases computational cost and response latency. While existing\nmethods incorporate length rewards to GRPO to promote concise reasoning, they\nincur significant performance degradation. We identify the root cause: when\nrewards for correct but long rollouts are penalized, GRPO's group-relative\nadvantage function can assign them negative advantages, actively discouraging\nvalid reasoning. To overcome this, we propose Decoupled Reward Policy\nOptimization (DRPO), a novel framework that decouples the length-based learning\nsignal of correct rollouts from incorrect ones. DRPO ensures that reward\nsignals for correct rollouts are normalized solely within the positive group,\nshielding them from interference by negative samples. The DRPO's objective is\ngrounded in integrating an optimized positive data distribution, which\nmaximizes length-based rewards under a KL regularization, into a discriminative\nobjective. We derive a closed-form solution for this distribution, enabling\nefficient computation of the objective and its gradients using only on-policy\ndata and importance weighting. Of independent interest, this formulation is\ngeneral and can incorporate other preference rewards of positive data beyond\nlength. Experiments on mathematical reasoning tasks demonstrate DRPO's\nsignificant superiority over six efficient reasoning baselines. Notably, with a\n1.5B model, our method achieves 77\\% length reduction with only 1.1\\%\nperformance loss on simple questions like GSM8k dataset, while the follow-up\nbaseline sacrifices 4.3\\% for 68\\% length reduction.",
+      "authors": [
+        "Gang Li",
+        "Yan Chen",
+        "Ming Lin",
+        "Tianbao Yang"
+      ],
+      "published": "2025-10-06T04:18:13Z",
+      "primary_category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.04474v1"
+    }
+  ]
+}

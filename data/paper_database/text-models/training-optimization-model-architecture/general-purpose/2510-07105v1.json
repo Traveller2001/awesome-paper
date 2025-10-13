@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.07105v1",
+  "title": "Opt-ICL at LeWiDi-2025: Maximizing In-Context Signal from Rater Examples\n  via Meta-Learning",
+  "summary": "Many natural language processing (NLP) tasks involve subjectivity, ambiguity,\nor legitimate disagreement between annotators. In this paper, we outline our\nsystem for modeling human variation. Our system leverages language models'\n(LLMs) in-context learning abilities, along with a two-step meta-learning\ntraining procedure for 1) post-training on many datasets requiring in-context\nlearning and 2) specializing the model via in-context meta-learning to the\nparticular data distribution of interest. We also evaluate the performance of\nour system submission to the Learning With Disagreements (LeWiDi) competition,\nwhere it was the overall winner on both tasks. Additionally, we perform an\nablation study to measure the importance of each system component. We find that\nincluding rater examples in-context is crucial for our system's performance,\ndataset-specific fine-tuning is helpful on the larger datasets, post-training\non other in-context datasets is helpful on one of the competition datasets, and\nthat performance improves with model scale.",
+  "authors": [
+    "Taylor Sorensen",
+    "Yejin Choi"
+  ],
+  "published": "2025-10-08T14:59:24Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07105v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Opt-ICL系统，通过元学习最大化利用标注者示例的上下文信号。采用两阶段训练：先在多数据集上进行后训练，再通过上下文元学习针对特定数据分布进行专业化。该系统在LeWiDi-2025竞赛中双任务夺冠，消融研究表明标注者示例对性能至关重要，且模型规模越大性能越好。",
+  "order": 50,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07105v1"
+}

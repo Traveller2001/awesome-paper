@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00818v1",
+  "title": "PhraseStereo: The First Open-Vocabulary Stereo Image Segmentation\n  Dataset",
+  "summary": "Understanding how natural language phrases correspond to specific regions in\nimages is a key challenge in multimodal semantic segmentation. Recent advances\nin phrase grounding are largely limited to single-view images, neglecting the\nrich geometric cues available in stereo vision. For this, we introduce\nPhraseStereo, the first novel dataset that brings phrase-region segmentation to\nstereo image pairs. PhraseStereo builds upon the PhraseCut dataset by\nleveraging GenStereo to generate accurate right-view images from existing\nsingle-view data, enabling the extension of phrase grounding into the stereo\ndomain. This new setting introduces unique challenges and opportunities for\nmultimodal learning, particularly in leveraging depth cues for more precise and\ncontext-aware grounding. By providing stereo image pairs with aligned\nsegmentation masks and phrase annotations, PhraseStereo lays the foundation for\nfuture research at the intersection of language, vision, and 3D perception,\nencouraging the development of models that can reason jointly over semantics\nand geometry. The PhraseStereo dataset will be released online upon acceptance\nof this work.",
+  "authors": [
+    "Thomas Campagnolo",
+    "Ezio Malis",
+    "Philippe Martinet",
+    "Gaetan Bahl"
+  ],
+  "published": "2025-10-01T12:29:24Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00818v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "PhraseStereo是首个面向立体图像对的开源短语分割数据集，通过GenStereo技术将单视图的PhraseCut数据集扩展为立体视觉数据，为语言-视觉-3D感知的交叉研究提供基础，推动模型在语义与几何联合推理方面的发展。",
+  "order": 624,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00818v1"
+}

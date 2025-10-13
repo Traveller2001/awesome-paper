@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06952v1",
+  "title": "OBJVanish: Physically Realizable Text-to-3D Adv. Generation of\n  LiDAR-Invisible Objects",
+  "summary": "LiDAR-based 3D object detectors are fundamental to autonomous driving, where\nfailing to detect objects poses severe safety risks. Developing effective 3D\nadversarial attacks is essential for thoroughly testing these detection systems\nand exposing their vulnerabilities before real-world deployment. However,\nexisting adversarial attacks that add optimized perturbations to 3D points have\ntwo critical limitations: they rarely cause complete object disappearance and\nprove difficult to implement in physical environments. We introduce the\ntext-to-3D adversarial generation method, a novel approach enabling physically\nrealizable attacks that can generate 3D models of objects truly invisible to\nLiDAR detectors and be easily realized in the real world. Specifically, we\npresent the first empirical study that systematically investigates the factors\ninfluencing detection vulnerability by manipulating the topology, connectivity,\nand intensity of individual pedestrian 3D models and combining pedestrians with\nmultiple objects within the CARLA simulation environment. Building on the\ninsights, we propose the physically-informed text-to-3D adversarial generation\n(Phy3DAdvGen) that systematically optimizes text prompts by iteratively\nrefining verbs, objects, and poses to produce LiDAR-invisible pedestrians. To\nensure physical realizability, we construct a comprehensive object pool\ncontaining 13 3D models of real objects and constrain Phy3DAdvGen to generate\n3D objects based on combinations of objects in this set. Extensive experiments\ndemonstrate that our approach can generate 3D pedestrians that evade six\nstate-of-the-art (SOTA) LiDAR 3D detectors in both CARLA simulation and\nphysical environments, thereby highlighting vulnerabilities in safety-critical\napplications.",
+  "authors": [
+    "Bing Li",
+    "Wuqi Wang",
+    "Yanan Zhang",
+    "Jingzheng Li",
+    "Haigen Min",
+    "Wei Feng",
+    "Xingyu Zhao",
+    "Jie Zhang",
+    "Qing Guo"
+  ],
+  "published": "2025-10-08T12:35:35Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06952v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出OBJVanish方法，首次实现基于文本到3D的物理可执行对抗生成，通过系统优化文本提示词生成激光雷达不可见的3D行人模型。在CARLA仿真和真实环境中成功规避六种先进LiDAR 3D检测器，揭示了自动驾驶安全关键应用的潜在漏洞。",
+  "order": 127,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06952v1"
+}

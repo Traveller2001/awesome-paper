@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.05571v1",
+  "title": "Presenting a Paper is an Art: Self-Improvement Aesthetic Agents for\n  Academic Presentations",
+  "summary": "The promotion of academic papers has become an important means of enhancing\nresearch visibility. However, existing automated methods struggle limited\nstorytelling, insufficient aesthetic quality, and constrained self-adjustment,\nmaking it difficult to achieve efficient and engaging dissemination. At the\nheart of those challenges is a simple principle: \\emph{there is no way to\nimprove it when you cannot evaluate it right}. To address this, we introduce\n\\textbf{EvoPresent}, a self-improvement agent framework that unifies coherent\nnarratives, aesthetic-aware designs, and realistic presentation delivery via\nvirtual characters. Central to EvoPresent is \\textbf{PresAesth}, a multi-task\nreinforcement learning (RL) aesthetic model that provides reliable aesthetic\nscoring, defect adjustment, and comparative feedback, enabling iterative\nself-improvement even under limited aesthetic training data. To systematically\nevaluate the methods, we introduce \\textbf{EvoPresent Benchmark}, a\ncomprehensive benchmark comprising: \\textit{Presentation Generation Quality},\nbuilt on 650 top-tier AI conference papers with multimodal resources (slides,\nvideos and scripts) to assess both content and design; and \\textit{Aesthetic\nAwareness}, consisting of 2,000 slide pairs with varying aesthetic levels,\nsupporting joint training and evaluation on scoring, defect adjustment, and\ncomparison. Our findings highlight that (i) High-quality feedback is essential\nfor agent self-improvement, while initial capability alone does not guarantee\neffective self-correction. (ii) Automated generation pipelines exhibit a\ntrade-off between visual design and content construction. (iii) Multi-task RL\ntraining shows stronger generalization in aesthetic awareness tasks.",
+  "authors": [
+    "Chengzhi Liu",
+    "Yuzhe Yang",
+    "Kaiwen Zhou",
+    "Zhen Zhang",
+    "Yue Fan",
+    "Yannan Xie",
+    "Peng Qi",
+    "Xin Eric Wang"
+  ],
+  "published": "2025-10-07T04:24:26Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05571v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "education_ai",
+  "tldr_zh": "本文提出EvoPresent框架，通过多任务强化学习的美学评估模型PresAesth，解决学术演示自动化生成中的叙事连贯性、美学质量和自我调整问题。该框架包含包含650篇顶级AI会议论文的多模态基准，证明高质量反馈对智能体自我改进至关重要，并在美学感知任务中展现出更强的泛化能力。",
+  "order": 47,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05571v1"
+}

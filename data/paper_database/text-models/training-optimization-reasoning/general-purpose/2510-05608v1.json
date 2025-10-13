@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.05608v1",
+  "title": "A Goal Without a Plan Is Just a Wish: Efficient and Effective Global\n  Planner Training for Long-Horizon Agent Tasks",
+  "summary": "Agents based on large language models (LLMs) struggle with brainless\ntrial-and-error and generating hallucinatory actions due to a lack of global\nplanning in long-horizon tasks. In this paper, we introduce a plan-and-execute\nframework and propose EAGLET, an efficient and effective planner training\nmethod to enhance the executor agent's planning abilities without human effort.\nSpecifically, we train a plug-and-play global planner through a two-step\nprocess: we first synthesize high-quality plans from an advanced LLM using our\nproposed homologous consensus filtering strategy, and apply fine-tuning as a\ncold start. Moreover, we further improve the planner with a rule-based\nreinforcement learning stage using a novel executor capability gain reward,\nensuring it can handle task instructions of varying difficulty. Experiments on\nthree long-horizon agent tasks show that executor agents equipped with our\nplanner outperform existing methods, achieving new state-of-the-art\nperformance. Meanwhile, EAGLET reduces training costs by 8x compared to\nRL-based baselines, and it does not require manual effort or extra training\ndata, offering an efficient and effective solution.",
+  "authors": [
+    "Shuzheng Si",
+    "Haozhe Zhao",
+    "Kangyang Luo",
+    "Gang Chen",
+    "Fanchao Qi",
+    "Minjia Zhang",
+    "Baobao Chang",
+    "Maosong Sun"
+  ],
+  "published": "2025-10-07T06:10:53Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05608v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出EAGLET方法，通过两步训练流程（同源共识过滤+规则强化学习）高效训练全局规划器，解决LLM智能体在长程任务中缺乏全局规划的问题，在三个任务上实现SOTA性能，训练成本降低8倍且无需人工标注。",
+  "order": 45,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05608v1"
+}

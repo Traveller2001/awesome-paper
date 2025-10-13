@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07098v1",
+  "title": "TALENT: Table VQA via Augmented Language-Enhanced Natural-text\n  Transcription",
+  "summary": "Table Visual Question Answering (Table VQA) is typically addressed by large\nvision-language models (VLMs). While such models can answer directly from\nimages, they often miss fine-grained details unless scaled to very large sizes,\nwhich are computationally prohibitive, especially for mobile deployment. A\nlighter alternative is to have a small VLM perform OCR and then use a large\nlanguage model (LLM) to reason over structured outputs such as Markdown tables.\nHowever, these representations are not naturally optimized for LLMs and still\nintroduce substantial errors. We propose TALENT (Table VQA via Augmented\nLanguage-Enhanced Natural-text Transcription), a lightweight framework that\nleverages dual representations of tables. TALENT prompts a small VLM to produce\nboth OCR text and natural language narration, then combines them with the\nquestion for reasoning by an LLM. This reframes Table VQA as an LLM-centric\nmultimodal reasoning task, where the VLM serves as a perception-narration\nmodule rather than a monolithic solver. Additionally, we construct ReTabVQA, a\nmore challenging Table VQA dataset requiring multi-step quantitative reasoning\nover table images. Experiments show that TALENT enables a small VLM-LLM\ncombination to match or surpass a single large VLM at significantly lower\ncomputational cost on both public datasets and ReTabVQA.",
+  "authors": [
+    "Guo Yutong",
+    "Wanying Wang",
+    "Yue Wu",
+    "Zichen Miao",
+    "Haoyu Wang"
+  ],
+  "published": "2025-10-08T14:56:42Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07098v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['reasoning', 'model_compression', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TALENT框架，通过结合OCR文本和自然语言叙述的双重表格表示，将Table VQA重构为以LLM为中心的多模态推理任务。该方法使用小型VLM作为感知-叙述模块，配合LLM进行推理，在显著降低计算成本的同时达到或超越大型VLM的性能，并构建了需要多步定量推理的ReTabVQA数据集进行验证。",
+  "order": 51,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07098v1"
+}

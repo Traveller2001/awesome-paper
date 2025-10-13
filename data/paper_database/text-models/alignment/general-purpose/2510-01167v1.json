@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01167v1",
+  "title": "Simultaneous Multi-objective Alignment Across Verifiable and\n  Non-verifiable Rewards",
+  "summary": "Aligning large language models to human preferences is inherently\nmultidimensional, yet most pipelines collapse heterogeneous signals into a\nsingle optimizeable objective. We seek to answer what it would take to\nsimultaneously align a model across various domains spanning those with:\nverifiable rewards (mathematical accuracy), non-verifiable subjective\npreferences (human values), and complex interactive scenarios (multi-turn AI\ntutoring dialogues). Such multi-objective reinforcement learning setups are\noften plagued by the individual objectives being at odds with each other,\nresulting in inefficient training and little user control during inference. We\npropose a unified framework that: (i) standardizes {process reward model} (PRM)\ntraining across both verifiable and non-verifiable settings to better supervise\nmodels' chain-of-thought reasoning; (ii) performs {multi-objective alignment}\nby training the LLM with our $\\textbf{M}$ulti-$\\textbf{A}$ction-$\\textbf{H}$ead\n$\\textbf{DPO}$ (MAH-DPO) and a vectorized reward where the dimensions of the\nvector correspond to the various objectives instead of a single scalar; and\n(iii) demonstrates how such a system provides fine-grained inference-time user\ncontrol. Experiments across math reasoning, value alignment, and multi-turn\ndialogue show that our framework improves performance across multiple\nobjectives simultaneously, while minimizing cross-objective trade-offs and\nenabling flexible inference time user control. The code can be found at\nhttps://github.com/pearls-lab/multiobj-align.",
+  "authors": [
+    "Yiran Shen",
+    "Yu Xia",
+    "Jonathan Chang",
+    "Prithviraj Ammanabrolu"
+  ],
+  "published": "2025-10-01T17:54:15Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01167v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出统一框架解决大语言模型多目标对齐问题，涵盖可验证奖励（数学准确性）与不可验证主观偏好（人类价值观）。通过标准化过程奖励模型训练、多动作头DPO方法和向量化奖励，在数学推理、价值对齐和多轮对话中实现多目标同步优化，减少目标间权衡，并提供细粒度推理时用户控制。",
+  "order": 419,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01167v1"
+}

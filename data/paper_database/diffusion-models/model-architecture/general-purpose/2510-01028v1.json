@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01028v1",
+  "title": "Syntax-Guided Diffusion Language Models with User-Integrated\n  Personalization",
+  "summary": "Large language models have made revolutionary progress in generating\nhuman-like text, yet their outputs often tend to be generic, exhibiting\ninsufficient structural diversity, which limits personalized expression. Recent\nadvances in diffusion models have opened new opportunities for improving\nlanguage generation beyond the limitations of autoregressive paradigms. In this\nwork, we propose a syntax-guided diffusion language model that integrates\nstructural supervision and personalized conditioning to enhance text quality,\ndiversity, and controllability. We introduce a cascaded framework that\ngenerates syntactic guidance before conditional text generation, and further\ngeneralize it to a novel noncascaded architecture for better alignment between\nstructure and content. By incorporating syntactic information in the generating\nprocess, the proposed model better captures the lexical and structural\ncharacteristics of stylistic sentence construction. To enable fine-grained\npersonalization, we develop a shared representation mechanism that facilitates\ninformation integration across users, supporting both faithful stylistic\ngeneration and generalizable zero-shot inference. Extensive experiments on\nmultiple tasks demonstrate the superiority of our approach in fluency,\ndiversity, and stylistic fidelity. Further qualitative analyses highlight its\ninterpretability and flexibility in learning personalized patterns.",
+  "authors": [
+    "Ruqian Zhang",
+    "Yijiao Zhang",
+    "Juan Shen",
+    "Zhongyi Zhu",
+    "Annie Qu"
+  ],
+  "published": "2025-10-01T15:33:12Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01028v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种语法引导的扩散语言模型，通过结构监督和个性化条件增强文本生成的质量、多样性和可控性。该模型采用级联和非级联架构，在生成过程中融入句法信息以更好地捕捉风格化句子的词汇和结构特征，并通过共享表示机制实现细粒度个性化，在多个任务上展现出优越的流畅性、多样性和风格保真度。",
+  "order": 433,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01028v1"
+}

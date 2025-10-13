@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01047v1",
+  "title": "Authentic Discrete Diffusion Model",
+  "summary": "We propose an Authentic Discrete Diffusion (ADD) framework that fundamentally\nredefines prior pseudo-discrete approaches by preserving core diffusion\ncharacteristics directly in the one-hot space through a suite of coordinated\nmechanisms. Unlike conventional \"pseudo\" discrete diffusion (PDD) methods, ADD\nreformulates the diffusion input by directly using float-encoded one-hot class\ndata, without relying on diffusing in the continuous latent spaces or masking\npolicies. At its core, a timestep-conditioned cross-entropy loss is introduced\nbetween the diffusion model's outputs and the original one-hot labels. This\nsynergistic design establishes a bridge between discriminative and generative\nlearning. Our experiments demonstrate that ADD not only achieves superior\nperformance on classification tasks compared to the baseline, but also exhibits\nexcellent text generation capabilities on Image captioning. Extensive ablations\nvalidate the measurable gains of each component.",
+  "authors": [
+    "Xiao Li",
+    "Jiaqi Zhang",
+    "Shuxiang Zhang",
+    "Tianshui Chen",
+    "Liang Lin",
+    "Guangrun Wang"
+  ],
+  "published": "2025-10-01T15:51:10Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01047v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出真实离散扩散(ADD)框架，通过在一热空间中直接保留核心扩散特性，重新定义离散扩散方法。该框架使用浮点编码的一热类别数据作为输入，引入时间步条件交叉熵损失，在分类任务上表现优于基线，并在图像描述生成中展现出优秀文本生成能力。",
+  "order": 602,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01047v1"
+}

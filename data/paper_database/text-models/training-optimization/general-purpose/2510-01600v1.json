@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01600v1",
+  "title": "A Comparison of Independent and Joint Fine-tuning Strategies for\n  Retrieval-Augmented Generation",
+  "summary": "A Comparison of Independent and Joint Fine-tuning Strategies for\nRetrieval-Augmented Generation Download PDF Neal Gregory Lawton, Alfy Samuel,\nAnoop Kumar, Daben Liu Published: 20 Aug 2025, Last Modified: 17 Sept 2025EMNLP\n2025 FindingsConference, Publication Chairs, AuthorsRevisionsBibTeXCC BY 4.0\nKeywords: Retrieval-Augmented Generation (RAG), Large Language Models (LLMs),\nFine-tuning, Question Answering, Joint fine-tuning TL;DR: We evaluate and\ncompare strategies for fine-tuning Retrieval Augmented Generation (RAG)\npipelines, including independent fine-tuning, joint fine-tuning, and two-phase\nfine-tuning. Abstract: Retrieval augmented generation (RAG) is a popular\nframework for question answering that is powered by two large language models\n(LLMs): an embedding model that retrieves context documents from a database\nthat are relevant to a given question, and a generator model that uses the\nretrieved context to generate an answer to the question. Both the embedding and\ngenerator models can be fine-tuned to increase performance of a RAG pipeline on\na new task, but multiple fine-tuning strategies exist with different costs and\nbenefits. In this paper, we evaluate and compare several RAG fine-tuning\nstrategies, including independent, joint, and two-phase fine-tuning. In our\nexperiments, we observe that all of these strategies achieve about equal\nimprovement in EM and F1 generation quality metrics, although they have\nsignificantly different computational costs. We conclude the optimal\nfine-tuning strategy to use depends on whether the training dataset includes\ncontext labels and whether a grid search over the learning rates for the\nembedding and generator models is required.",
+  "authors": [
+    "Neal Gregory Lawton",
+    "Alfy Samuel",
+    "Anoop Kumar",
+    "Daben Liu"
+  ],
+  "published": "2025-10-02T02:30:28Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01600v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文比较了检索增强生成(RAG)管道的不同微调策略，包括独立微调、联合微调和两阶段微调。实验表明这些策略在生成质量指标上提升相当，但计算成本差异显著，最优策略选择取决于训练数据是否包含上下文标签以及是否需要学习率网格搜索。",
+  "order": 392,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01600v1"
+}

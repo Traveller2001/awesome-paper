@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.07300v1",
+  "title": "Think Natively: Unlocking Multilingual Reasoning with\n  Consistency-Enhanced Reinforcement Learning",
+  "summary": "Large Reasoning Models (LRMs) have achieved remarkable performance on complex\nreasoning tasks by adopting the \"think-then-answer\" paradigm, which enhances\nboth accuracy and interpretability. However, current LRMs exhibit two critical\nlimitations when processing non-English languages: (1) They often struggle to\nmaintain input-output language consistency; (2) They generally perform poorly\nwith wrong reasoning paths and lower answer accuracy compared to English. These\nlimitations significantly degrade the user experience for non-English speakers\nand hinder the global deployment of LRMs. To address these limitations, we\npropose M-Thinker, which is trained by the GRPO algorithm that involves a\nLanguage Consistency (LC) reward and a novel Cross-lingual Thinking Alignment\n(CTA) reward. Specifically, the LC reward defines a strict constraint on the\nlanguage consistency between the input, thought, and answer. Besides, the CTA\nreward compares the model's non-English reasoning paths with its English\nreasoning path to transfer its own reasoning capability from English to\nnon-English languages. Through an iterative RL procedure, our M-Thinker-1.5B/7B\nmodels not only achieve nearly 100% language consistency and superior\nperformance on two multilingual benchmarks (MMATH and PolyMath), but also\nexhibit excellent generalization on out-of-domain languages.",
+  "authors": [
+    "Xue Zhang",
+    "Yunlong Liang",
+    "Fandong Meng",
+    "Songming Zhang",
+    "Kaiyu Huang",
+    "Yufeng Chen",
+    "Jinan Xu",
+    "Jie Zhou"
+  ],
+  "published": "2025-10-08T17:55:02Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07300v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出M-Thinker模型，通过GRPO算法结合语言一致性奖励和跨语言思维对齐奖励，解决大型推理模型在非英语语言处理中的语言不一致和推理能力下降问题。实验表明，该模型在多语言基准测试中实现了近100%的语言一致性和优越性能，并具备良好的跨语言泛化能力。",
+  "order": 27,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07300v1"
+}

@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.07231v1",
+  "title": "Benchmarking LLM Causal Reasoning with Scientifically Validated\n  Relationships",
+  "summary": "Causal reasoning is fundamental for Large Language Models (LLMs) to\nunderstand genuine cause-and-effect relationships beyond pattern matching.\nExisting benchmarks suffer from critical limitations such as reliance on\nsynthetic data and narrow domain coverage. We introduce a novel benchmark\nconstructed from casually identified relationships extracted from top-tier\neconomics and finance journals, drawing on rigorous methodologies including\ninstrumental variables, difference-in-differences, and regression discontinuity\ndesigns. Our benchmark comprises 40,379 evaluation items covering five task\ntypes across domains such as health, environment, technology, law, and culture.\nExperimental results on eight state-of-the-art LLMs reveal substantial\nlimitations, with the best model achieving only 57.6\\% accuracy. Moreover,\nmodel scale does not consistently translate to superior performance, and even\nadvanced reasoning models struggle with fundamental causal relationship\nidentification. These findings underscore a critical gap between current LLM\ncapabilities and demands of reliable causal reasoning in high-stakes\napplications.",
+  "authors": [
+    "Donggyu Lee",
+    "Sungwon Park",
+    "Yerin Hwang",
+    "Hyunwoo Oh",
+    "Hyoshin Kim",
+    "Jungwon Kim",
+    "Meeyoung Cha",
+    "Sangyoon Park",
+    "Jihee Kim"
+  ],
+  "published": "2025-10-08T17:00:49Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07231v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究构建了一个基于顶级经济金融期刊科学验证因果关系的新型基准测试，包含40,379个评估项目，涵盖健康、环境、技术等五大领域。实验发现当前最先进大语言模型在因果推理方面存在显著局限，最佳模型准确率仅57.6%，且模型规模与性能不成正比，揭示了现有模型与高风险应用所需可靠因果推理能力之间的关键差距。",
+  "order": 36,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07231v1"
+}

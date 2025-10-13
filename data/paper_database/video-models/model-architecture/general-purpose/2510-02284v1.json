@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02284v1",
+  "title": "Learning to Generate Object Interactions with Physics-Guided Video\n  Diffusion",
+  "summary": "Recent models for video generation have achieved remarkable progress and are\nnow deployed in film, social media production, and advertising. Beyond their\ncreative potential, such models also hold promise as world simulators for\nrobotics and embodied decision making. Despite strong advances, however,\ncurrent approaches still struggle to generate physically plausible object\ninteractions and lack physics-grounded control mechanisms. To address this\nlimitation, we introduce KineMask, an approach for physics-guided video\ngeneration that enables realistic rigid body control, interactions, and\neffects. Given a single image and a specified object velocity, our method\ngenerates videos with inferred motions and future object interactions. We\npropose a two-stage training strategy that gradually removes future motion\nsupervision via object masks. Using this strategy we train video diffusion\nmodels (VDMs) on synthetic scenes of simple interactions and demonstrate\nsignificant improvements of object interactions in real scenes. Furthermore,\nKineMask integrates low-level motion control with high-level textual\nconditioning via predictive scene descriptions, leading to effective support\nfor synthesis of complex dynamical phenomena. Extensive experiments show that\nKineMask achieves strong improvements over recent models of comparable size.\nAblation studies further highlight the complementary roles of low- and\nhigh-level conditioning in VDMs. Our code, model, and data will be made\npublicly available.",
+  "authors": [
+    "David Romero",
+    "Ariana Bermudez",
+    "Hao Li",
+    "Fabio Pizzati",
+    "Ivan Laptev"
+  ],
+  "published": "2025-10-02T17:56:46Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02284v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出KineMask方法，通过物理引导的视频扩散模型实现逼真的物体交互生成。该方法采用两阶段训练策略，结合单张图像和指定物体速度生成未来交互视频，在合成场景和真实场景中均显著提升了物体交互的物理合理性，并支持低层运动控制与高层文本条件的有效结合。",
+  "order": 700,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02284v1"
+}

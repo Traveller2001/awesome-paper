@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00585v1",
+  "title": "U-DFA: A Unified DINOv2-Unet with Dual Fusion Attention for\n  Multi-Dataset Medical Segmentation",
+  "summary": "Accurate medical image segmentation plays a crucial role in overall diagnosis\nand is one of the most essential tasks in the diagnostic pipeline. CNN-based\nmodels, despite their extensive use, suffer from a local receptive field and\nfail to capture the global context. A common approach that combines CNNs with\ntransformers attempts to bridge this gap but fails to effectively fuse the\nlocal and global features. With the recent emergence of VLMs and foundation\nmodels, they have been adapted for downstream medical imaging tasks; however,\nthey suffer from an inherent domain gap and high computational cost. To this\nend, we propose U-DFA, a unified DINOv2-Unet encoder-decoder architecture that\nintegrates a novel Local-Global Fusion Adapter (LGFA) to enhance segmentation\nperformance. LGFA modules inject spatial features from a CNN-based Spatial\nPattern Adapter (SPA) module into frozen DINOv2 blocks at multiple stages,\nenabling effective fusion of high-level semantic and spatial features. Our\nmethod achieves state-of-the-art performance on the Synapse and ACDC datasets\nwith only 33\\% of the trainable model parameters. These results demonstrate\nthat U-DFA is a robust and scalable framework for medical image segmentation\nacross multiple modalities.",
+  "authors": [
+    "Zulkaif Sajjad",
+    "Furqan Shaukat",
+    "Junaid Mir"
+  ],
+  "published": "2025-10-01T07:06:49Z",
+  "primary_category": "eess.IV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00585v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "U-DFA提出了一种统一的DINOv2-Unet架构，通过新型局部-全局融合适配器(LGFA)有效结合CNN的空间特征与DINOv2的语义特征，在医学图像分割任务中仅用33%可训练参数即在Synapse和ACDC数据集上达到最先进性能。",
+  "order": 660,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00585v1"
+}

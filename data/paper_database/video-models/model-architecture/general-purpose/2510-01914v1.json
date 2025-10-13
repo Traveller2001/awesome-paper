@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01914v1",
+  "title": "Automated Defect Detection for Mass-Produced Electronic Components Based\n  on YOLO Object Detection Models",
+  "summary": "Since the defect detection of conventional industry components is\ntime-consuming and labor-intensive, it leads to a significant burden on quality\ninspection personnel and makes it difficult to manage product quality. In this\npaper, we propose an automated defect detection system for the dual in-line\npackage (DIP) that is widely used in industry, using digital camera optics and\na deep learning (DL)-based model. The two most common defect categories of DIP\nare examined: (1) surface defects, and (2) pin-leg defects. However, the lack\nof defective component images leads to a challenge for detection tasks. To\nsolve this problem, the ConSinGAN is used to generate a suitable-sized dataset\nfor training and testing. Four varieties of the YOLO model are investigated\n(v3, v4, v7, and v9), both in isolation and with the ConSinGAN augmentation.\nThe proposed YOLOv7 with ConSinGAN is superior to the other YOLO versions in\naccuracy of 95.50\\%, detection time of 285 ms, and is far superior to\nthreshold-based approaches. In addition, the supervisory control and data\nacquisition (SCADA) system is developed, and the associated sensor architecture\nis described. The proposed automated defect detection can be easily established\nwith numerous types of defects or insufficient defect data.",
+  "authors": [
+    "Wei-Lung Mao",
+    "Chun-Chi Wang",
+    "Po-Heng Chou",
+    "Yen-Ting Liu"
+  ],
+  "published": "2025-10-02T11:33:16Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01914v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出基于YOLO目标检测模型的自动化缺陷检测系统，用于工业双列直插封装元件。采用ConSinGAN解决缺陷样本不足问题，比较四种YOLO版本性能，其中YOLOv7结合ConSinGAN在精度(95.50%)和检测时间(285ms)上表现最优，并集成SCADA系统实现工业应用。",
+  "order": 776,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01914v1"
+}

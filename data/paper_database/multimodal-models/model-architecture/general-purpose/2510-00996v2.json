@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00996v2",
+  "title": "SoftCFG: Uncertainty-guided Stable Guidance for Visual Autoregressive\n  Model",
+  "summary": "Autoregressive (AR) models have emerged as powerful tools for image\ngeneration by modeling images as sequences of discrete tokens. While\nClassifier-Free Guidance (CFG) has been adopted to improve conditional\ngeneration, its application in AR models faces two key issues: guidance\ndiminishing, where the conditional-unconditional gap quickly vanishes as\ndecoding progresses, and over-guidance, where strong conditions distort visual\ncoherence. To address these challenges, we propose SoftCFG, an\nuncertainty-guided inference method that distributes adaptive perturbations\nacross all tokens in the sequence. The key idea behind SoftCFG is to let each\ngenerated token contribute certainty-weighted guidance, ensuring that the\nsignal persists across steps while resolving conflicts between text guidance\nand visual context. To further stabilize long-sequence generation, we introduce\nStep Normalization, which bounds cumulative perturbations of SoftCFG. Our\nmethod is training-free, model-agnostic, and seamlessly integrates with\nexisting AR pipelines. Experiments show that SoftCFG significantly improves\nimage quality over standard CFG and achieves state-of-the-art FID on ImageNet\n256*256 among autoregressive models.",
+  "authors": [
+    "Dongli Xu",
+    "Aleksei Tiulpin",
+    "Matthew B. Blaschko"
+  ],
+  "published": "2025-10-01T15:04:00Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00996v2",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "SoftCFG是一种针对自回归视觉模型提出的不确定性引导推理方法，通过自适应扰动分布解决传统分类器自由引导中的引导衰减和过度引导问题。该方法采用步长归一化技术稳定长序列生成，无需额外训练且与现有AR流程兼容，在ImageNet 256×256上实现了自回归模型中最优的FID指标。",
+  "order": 609,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00996v2"
+}

@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.06949v1",
+  "title": "Grouped Differential Attention",
+  "summary": "The self-attention mechanism, while foundational to modern Transformer\narchitectures, suffers from a critical inefficiency: it frequently allocates\nsubstantial attention to redundant or noisy context. Differential Attention\naddressed this by using subtractive attention maps for signal and noise, but\nits required balanced head allocation imposes rigid constraints on\nrepresentational flexibility and scalability.\n  To overcome this, we propose Grouped Differential Attention (GDA), a novel\napproach that introduces unbalanced head allocation between signal-preserving\nand noise-control groups. GDA significantly enhances signal focus by\nstrategically assigning more heads to signal extraction and fewer to\nnoise-control, stabilizing the latter through controlled repetition (akin to\nGQA). This design achieves stronger signal fidelity with minimal computational\noverhead. We further extend this principle to group-differentiated growth, a\nscalable strategy that selectively replicates only the signal-focused heads,\nthereby ensuring efficient capacity expansion.\n  Through large-scale pretraining and continual training experiments, we\ndemonstrate that moderate imbalance ratios in GDA yield substantial\nimprovements in generalization and stability compared to symmetric baselines.\nOur results collectively establish that ratio-aware head allocation and\nselective expansion offer an effective and practical path toward designing\nscalable, computation-efficient Transformer architectures.",
+  "authors": [
+    "Junghwan Lim",
+    "Sungmin Lee",
+    "Dongseok Kim",
+    "Wai Ting Cheung",
+    "Beomgyu Kim",
+    "Taehwan Kim",
+    "Haesol Lee",
+    "Junhyeok Lee",
+    "Dongpin Oh",
+    "Eunhwan Park"
+  ],
+  "published": "2025-10-08T12:32:28Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06949v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出分组差分注意力(GDA)，通过非均衡分配信号提取与噪声控制头数，在保持计算效率的同时显著提升Transformer的信号保真度和泛化能力。该方法采用选择性扩展策略，为构建可扩展的高效Transformer架构提供了新路径。",
+  "order": 195,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06949v1"
+}

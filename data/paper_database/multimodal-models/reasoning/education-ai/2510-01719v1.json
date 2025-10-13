@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01719v1",
+  "title": "What MLLMs Learn about When they Learn about Multimodal Reasoning:\n  Perception, Reasoning, or their Integration?",
+  "summary": "Multimodal reasoning models have recently shown promise on challenging\ndomains such as olympiad-level geometry, yet their evaluation remains dominated\nby aggregate accuracy, a single score that obscures where and how models are\nimproving. We introduce MathLens, a benchmark designed to disentangle the\nsubskills of multimodal reasoning while preserving the complexity of\ntextbook-style geometry problems. The benchmark separates performance into\nthree components: Perception: extracting information from raw inputs,\nReasoning: operating on available information, and Integration: selecting\nrelevant perceptual evidence and applying it within reasoning. To support each\ntest, we provide annotations: visual diagrams, textual descriptions to evaluate\nreasoning in isolation, controlled questions that require both modalities, and\nprobes for fine-grained perceptual skills, all derived from symbolic\nspecifications of the problems to ensure consistency and robustness. Our\nanalysis reveals that different training approaches have uneven effects: First,\nreinforcement learning chiefly strengthens perception, especially when\nsupported by textual supervision, while textual SFT indirectly improves\nperception through reflective reasoning. Second, reasoning improves only in\ntandem with perception. Third, integration remains the weakest capacity, with\nresidual errors concentrated there once other skills advance. Finally,\nrobustness diverges: RL improves consistency under diagram variation, whereas\nmultimodal SFT reduces it through overfitting. We will release all data and\nexperimental logs.",
+  "authors": [
+    "Jiwan Chung",
+    "Neel Joshi",
+    "Pratyusha Sharma",
+    "Youngjae Yu",
+    "Vibhav Vineet"
+  ],
+  "published": "2025-10-02T06:58:29Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01719v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "education_ai",
+  "tldr_zh": "本研究提出MathLens基准，用于解构多模态推理模型的三个核心能力：感知（信息提取）、推理（信息处理）和整合（感知与推理结合）。研究发现：强化学习主要提升感知能力，文本监督微调通过反思推理间接改善感知；推理能力需与感知同步提升；整合能力最为薄弱；不同训练方法在鲁棒性上表现各异。",
+  "order": 373,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01719v1"
+}

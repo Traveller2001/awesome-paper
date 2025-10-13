@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00591v1",
+  "title": "AI-Driven Self-Evolving Software: A Promising Path Toward Software\n  Automation",
+  "summary": "Software automation has long been a central goal of software engineering,\nstriving for software development that proceeds without human intervention.\nRecent efforts have leveraged Artificial Intelligence (AI) to advance software\nautomation with notable progress. However, current AI functions primarily as\nassistants to human developers, leaving software development still dependent on\nexplicit human intervention. This raises a fundamental question: Can AI move\nbeyond its role as an assistant to become a core component of software, thereby\nenabling genuine software automation? To investigate this vision, we introduce\nAI-Driven Self-Evolving Software, a new form of software that evolves\ncontinuously through direct interaction with users. We demonstrate the\nfeasibility of this idea with a lightweight prototype built on a multi-agent\narchitecture that autonomously interprets user requirements, generates and\nvalidates code, and integrates new functionalities. Case studies across\nmultiple representative scenarios show that the prototype can reliably\nconstruct and reuse functionality, providing early evidence that such software\nsystems can scale to more sophisticated applications and pave the way toward\ntruly automated software development. We make code and cases in this work\npublicly available at https://anonymous.4open.science/r/live-software.",
+  "authors": [
+    "Liyi Cai",
+    "Yijie Ren",
+    "Yitong Zhang",
+    "Jia Li"
+  ],
+  "published": "2025-10-01T07:17:51Z",
+  "primary_category": "cs.SE",
+  "arxiv_url": "https://arxiv.org/abs/2510.00591v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文提出AI驱动的自进化软件概念，通过多智能体架构实现软件与用户直接交互下的持续演化。原型系统能自主解析需求、生成验证代码并集成新功能，案例研究表明该系统可可靠构建复用功能，为真正自动化软件开发铺平道路。",
+  "order": 275,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00591v1"
+}

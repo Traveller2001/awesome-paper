@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07069v1",
+  "title": "Inductive Learning for Possibilistic Logic Programs Under Stable Models",
+  "summary": "Possibilistic logic programs (poss-programs) under stable models are a major\nvariant of answer set programming (ASP). While its semantics (possibilistic\nstable models) and properties have been well investigated, the problem of\ninductive reasoning has not been investigated yet. This paper presents an\napproach to extracting poss-programs from a background program and examples\n(parts of intended possibilistic stable models). To this end, the notion of\ninduction tasks is first formally defined, its properties are investigated and\ntwo algorithms ilpsm and ilpsmmin for computing induction solutions are\npresented. An implementation of ilpsmmin is also provided and experimental\nresults show that when inputs are ordinary logic programs, the prototype\noutperforms a major inductive learning system for normal logic programs from\nstable models on the datasets that are randomly generated.",
+  "authors": [
+    "Hongbo Hu",
+    "Yisong Wang",
+    "Yi Huang",
+    "Kewen Wang"
+  ],
+  "published": "2025-10-08T14:32:10Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.07069v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文首次研究了可能性逻辑程序在稳定模型下的归纳学习问题，提出了形式化的归纳任务定义和两种求解算法(ilpsm和ilpsmmin)。实验表明，当输入为普通逻辑程序时，该原型在随机生成数据集上优于主流归纳学习系统。",
+  "order": 8,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07069v1"
+}

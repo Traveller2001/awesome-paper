@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06727v1",
+  "title": "Scaling LLM Multi-turn RL with End-to-end Summarization-based Context\n  Management",
+  "summary": "We study reinforcement learning (RL) fine-tuning of large language model\n(LLM) agents for long-horizon multi-turn tool use, where context length quickly\nbecomes a fundamental bottleneck. Existing RL pipelines can suffer from\ndegraded instruction following, excessive rollout costs, and most importantly,\nstrict context limits. To address these challenges, we introduce\nsummarization-based context management to training. In specific, it\nperiodically compresses the tool using history by LLM-generated summaries that\nretain task-relevant information to keep a compact context while enabling the\nagent to scale beyond the fixed context window. Building on this formulation,\nwe derive a policy gradient representation that seamlessly enables standard LLM\nRL infrastructures to optimize both tool-use behaviors as well as summarization\nstrategies in an end-to-end fashion. We instantiate this framework with\n\\underline{SU}mmarization augmented \\underline{P}olicy \\underline{O}ptimization\n(\\texttt{SUPO}), an LLM RL algorithm that enables long-horizon training beyond\na fixed context limit. Experiments on interactive function calling and\nsearching tasks demonstrate that \\texttt{SUPO} significantly improves the\nsuccess rate while maintaining the same or even lower working context length\ncompared to baselines. We also demonstrate that for complex searching tasks,\n\\texttt{SUPO} can further improve the evaluation performance when scaling\ntest-time maximum round of summarization beyond that of training time. Our\nresults establish summarization-based context management as a principled and\nscalable approach for training RL agents beyond a fixed context length limit.",
+  "authors": [
+    "Miao Lu",
+    "Weiwei Sun",
+    "Weihua Du",
+    "Zhan Ling",
+    "Xuesong Yao",
+    "Kang Liu",
+    "Jiecao Chen"
+  ],
+  "published": "2025-10-08T07:29:22Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06727v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['long_context', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SUPO算法，通过基于摘要的上下文管理解决大语言模型在多轮工具使用中的上下文长度瓶颈。该方法能周期性压缩历史记录为任务相关摘要，在保持紧凑上下文的同时实现超越固定上下文窗口的强化学习训练。实验表明SUPO在交互式函数调用和搜索任务中显著提升成功率，并维持更低的工作上下文长度。",
+  "order": 88,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06727v1"
+}

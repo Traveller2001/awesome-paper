@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00446v1",
+  "title": "LongCodeZip: Compress Long Context for Code Language Models",
+  "summary": "Code generation under long contexts is becoming increasingly critical as\nLarge Language Models (LLMs) are required to reason over extensive information\nin the codebase. While recent advances enable code LLMs to process long inputs,\nhigh API costs and generation latency remain substantial bottlenecks. Existing\ncontext pruning techniques, such as LLMLingua, achieve promising results for\ngeneral text but overlook code-specific structures and dependencies, leading to\nsuboptimal performance in programming tasks. In this paper, we propose\nLongCodeZip, a novel plug-and-play code compression framework designed\nspecifically for code LLMs. LongCodeZip employs a dual-stage strategy: (1)\ncoarse-grained compression, which identifies and ranks function-level chunks\nusing conditional perplexity with respect to the instruction, retaining only\nthe most relevant functions; and (2) fine-grained compression, which segments\nretained functions into blocks based on perplexity and selects an optimal\nsubset under an adaptive token budget to maximize relevance. Evaluations across\nmultiple tasks, including code completion, summarization, and question\nanswering, show that LongCodeZip consistently outperforms baseline methods,\nachieving up to a 5.6x compression ratio without degrading task performance. By\neffectively reducing context size while preserving essential information,\nLongCodeZip enables LLMs to better scale to real-world, large-scale code\nscenarios, advancing the efficiency and capability of code intelligence\napplications.",
+  "authors": [
+    "Yuling Shi",
+    "Yichun Qian",
+    "Hongyu Zhang",
+    "Beijun Shen",
+    "Xiaodong Gu"
+  ],
+  "published": "2025-10-01T02:54:57Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00446v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['long_context', 'model_compression']",
+  "application_domain": "code_generation",
+  "tldr_zh": "LongCodeZip是针对代码大模型设计的双阶段压缩框架，通过粗粒度函数筛选和细粒度代码块选择，在保持任务性能的同时实现高达5.6倍压缩比，有效解决长代码上下文处理中的API成本和延迟问题。",
+  "order": 481,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00446v1"
+}

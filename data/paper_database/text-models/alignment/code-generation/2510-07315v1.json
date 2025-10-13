@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.07315v1",
+  "title": "Vibe Checker: Aligning Code Evaluation with Human Preference",
+  "summary": "Large Language Models (LLMs) have catalyzed vibe coding, where users leverage\nLLMs to generate and iteratively refine code through natural language\ninteractions until it passes their vibe check. Vibe check is tied to real-world\nhuman preference and goes beyond functionality: the solution should feel right,\nread cleanly, preserve intent, and remain correct. However, current code\nevaluation remains anchored to pass@k and captures only functional correctness,\noverlooking the non-functional instructions that users routinely apply. In this\npaper, we hypothesize that instruction following is the missing piece\nunderlying vibe check that represents human preference in coding besides\nfunctional correctness. To quantify models' code instruction following\ncapabilities with measurable signals, we present VeriCode, a taxonomy of 30\nverifiable code instructions together with corresponding deterministic\nverifiers. We use the taxonomy to augment established evaluation suites,\nresulting in Vibe Checker, a testbed to assess both code instruction following\nand functional correctness. Upon evaluating 31 leading LLMs, we show that even\nthe strongest models struggle to comply with multiple instructions and exhibit\nclear functional regression. Most importantly, a composite score of functional\ncorrectness and instruction following correlates the best with human\npreference, with the latter emerging as the primary differentiator on\nreal-world programming tasks. Our work identifies core factors of the vibe\ncheck, providing a concrete path for benchmarking and developing models that\nbetter align with user preferences in coding.",
+  "authors": [
+    "Ming Zhong",
+    "Xiang Zhou",
+    "Ting-Yun Chang",
+    "Qingze Wang",
+    "Nan Xu",
+    "Xiance Si",
+    "Dan Garrette",
+    "Shyam Upadhyay",
+    "Jeremiah Liu",
+    "Jiawei Han",
+    "Benoit Schillings",
+    "Jiao Sun"
+  ],
+  "published": "2025-10-08T17:59:19Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07315v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文提出Vibe Checker评估框架，通过构建包含30种可验证代码指令的VeriCode分类法，量化LLM在代码生成中遵循人类偏好的能力。研究发现：当前顶尖模型在多指令遵循方面表现不佳，且功能正确性与指令遵循的复合评分与人类偏好最相关，为代码生成模型的对齐提供了新基准。",
+  "order": 25,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07315v1"
+}

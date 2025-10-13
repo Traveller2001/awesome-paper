@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.01145v1",
+  "title": "Automatic Speech Recognition (ASR) for African Low-Resource Languages: A\n  Systematic Literature Review",
+  "summary": "ASR has achieved remarkable global progress, yet African low-resource\nlanguages remain rigorously underrepresented, producing barriers to digital\ninclusion across the continent with more than +2000 languages. This systematic\nliterature review (SLR) explores research on ASR for African languages with a\nfocus on datasets, models and training methods, evaluation techniques,\nchallenges, and recommends future directions. We employ the PRISMA 2020\nprocedures and search DBLP, ACM Digital Library, Google Scholar, Semantic\nScholar, and arXiv for studies published between January 2020 and July 2025. We\ninclude studies related to ASR datasets, models or metrics for African\nlanguages, while excluding non-African, duplicates, and low-quality studies\n(score <3/5). We screen 71 out of 2,062 records and we record a total of 74\ndatasets across 111 languages, encompassing approximately 11,206 hours of\nspeech. Fewer than 15% of research provided reproducible materials, and dataset\nlicensing is not clear. Self-supervised and transfer learning techniques are\npromising, but are hindered by limited pre-training data, inadequate coverage\nof dialects, and the availability of resources. Most of the researchers use\nWord Error Rate (WER), with very minimal use of linguistically informed scores\nsuch as Character Error Rate (CER) or Diacritic Error Rate (DER), and thus with\nlimited application in tonal and morphologically rich languages. The existing\nevidence on ASR systems is inconsistent, hindered by issues like dataset\navailability, poor annotations, licensing uncertainties, and limited\nbenchmarking. Nevertheless, the rise of community-driven initiatives and\nmethodological advancements indicates a pathway for improvement. Sustainable\ndevelopment for this area will also include stakeholder partnership, creation\nof ethically well-balanced datasets, use of lightweight modelling techniques,\nand active benchmarking.",
+  "authors": [
+    "Sukairaj Hafiz Imam",
+    "Tadesse Destaw Belay",
+    "Kedir Yassin Husse",
+    "Ibrahim Said Ahmad",
+    "Idris Abdulmumin",
+    "Hadiza Ali Umar",
+    "Muhammad Yahuza Bello",
+    "Joyce Nakatumba-Nabende",
+    "Seid Muhie Yimam",
+    "Shamsuddeen Hassan Muhammad"
+  ],
+  "published": "2025-10-01T17:36:06Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01145v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文系统综述了2020-2025年间非洲低资源语言自动语音识别(ASR)研究现状。分析了74个数据集(覆盖111种语言、约1.1万小时语音)，发现仅15%研究提供可复现材料。自监督与迁移学习虽有效但受限于数据稀缺、方言覆盖不足。评估主要依赖WER，缺乏对声调语言的针对性指标。未来发展需加强社区合作、伦理数据集构建和轻量化建模。",
+  "order": 425,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01145v1"
+}

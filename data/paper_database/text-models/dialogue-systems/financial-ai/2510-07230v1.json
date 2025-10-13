@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07230v1",
+  "title": "Customer-R1: Personalized Simulation of Human Behaviors via RL-based LLM\n  Agent in Online Shopping",
+  "summary": "Simulating step-wise human behavior with Large Language Models (LLMs) has\nbecome an emerging research direction, enabling applications in various\npractical domains. While prior methods, including prompting, supervised\nfine-tuning (SFT), and reinforcement learning (RL), have shown promise in\nmodeling step-wise behavior, they primarily learn a population-level policy\nwithout conditioning on a user's persona, yielding generic rather than\npersonalized simulations. In this work, we pose a critical question: how can\nLLM agents better simulate personalized user behavior? We introduce\nCustomer-R1, an RL-based method for personalized, step-wise user behavior\nsimulation in online shopping environments. Our policy is conditioned on an\nexplicit persona, and we optimize next-step rationale and action generation via\naction correctness reward signals. Experiments on the OPeRA dataset emonstrate\nthat Customer-R1 not only significantly outperforms prompting and SFT-based\nbaselines in next-action prediction tasks, but also better matches users'\naction distribution, indicating higher fidelity in personalized behavior\nsimulation.",
+  "authors": [
+    "Ziyi Wang",
+    "Yuxuan Lu",
+    "Yimeng Zhang",
+    "Jing Huang",
+    "Dakuo Wang"
+  ],
+  "published": "2025-10-08T17:00:25Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07230v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出Customer-R1方法，基于强化学习的LLM智能体实现在线购物场景中的个性化用户行为模拟。该方法通过显式用户画像条件化策略，优化下一步推理和行动生成，在OPeRA数据集上显著优于提示学习和监督微调基线，能更准确地匹配用户行为分布，实现高保真个性化模拟。",
+  "order": 37,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07230v1"
+}

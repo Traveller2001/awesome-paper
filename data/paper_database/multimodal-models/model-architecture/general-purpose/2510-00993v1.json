@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.00993v1",
+  "title": "Visual Self-Refinement for Autoregressive Models",
+  "summary": "Autoregressive models excel in sequential modeling and have proven to be\neffective for vision-language data. However, the spatial nature of visual\nsignals conflicts with the sequential dependencies of next-token prediction,\nleading to suboptimal results. This work proposes a plug-and-play refinement\nmodule to enhance the complex spatial correspondence modeling within the\ngenerated visual sequence. This module operates as a post-pretraining step to\njointly refine all generated tokens of autoregressive model, enhancing\nvision-language modeling under a shared sequential prediction framework. By\nleveraging global context and relationship across the tokens, our method\nmitigates the error accumulation issue within the sequential generation.\nExperiments demonstrate that the proposed method improves the generation\nquality, enhancing the model's ability to produce semantically consistent\nresults.",
+  "authors": [
+    "Jiamian Wang",
+    "Ziqi Zhou",
+    "Chaithanya Kumar Mummadi",
+    "Sohail Dianat",
+    "Majid Rabbani",
+    "Raghuveer Rao",
+    "Chen Qiu",
+    "Zhiqiang Tao"
+  ],
+  "published": "2025-10-01T15:03:32Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00993v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种即插即用的视觉自优化模块，用于增强自回归模型在视觉序列生成中的空间对应关系建模。该模块作为后预训练步骤，通过利用全局上下文和token间关系，联合优化所有生成token，缓解序列生成中的错误累积问题，提升视觉语言模型的语义一致性生成质量。",
+  "order": 610,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00993v1"
+}

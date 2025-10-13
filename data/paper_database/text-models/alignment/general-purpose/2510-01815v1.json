@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01815v1",
+  "title": "Human-AI Teaming Co-Learning in Military Operations",
+  "summary": "In a time of rapidly evolving military threats and increasingly complex\noperational environments, the integration of AI into military operations proves\nsignificant advantages. At the same time, this implies various challenges and\nrisks regarding building and deploying human-AI teaming systems in an effective\nand ethical manner. Currently, understanding and coping with them are often\ntackled from an external perspective considering the human-AI teaming system as\na collective agent. Nevertheless, zooming into the dynamics involved inside the\nsystem assures dealing with a broader palette of relevant multidimensional\nresponsibility, safety, and robustness aspects. To this end, this research\nproposes the design of a trustworthy co-learning model for human-AI teaming in\nmilitary operations that encompasses a continuous and bidirectional exchange of\ninsights between the human and AI agents as they jointly adapt to evolving\nbattlefield conditions. It does that by integrating four dimensions. First,\nadjustable autonomy for dynamically calibrating the autonomy levels of agents\ndepending on aspects like mission state, system confidence, and environmental\nuncertainty. Second, multi-layered control which accounts continuous oversight,\nmonitoring of activities, and accountability. Third, bidirectional feedback\nwith explicit and implicit feedback loops between the agents to assure a proper\ncommunication of reasoning, uncertainties, and learned adaptations that each of\nthe agents has. And fourth, collaborative decision-making which implies the\ngeneration, evaluation, and proposal of decisions associated with confidence\nlevels and rationale behind them. The model proposed is accompanied by concrete\nexemplifications and recommendations that contribute to further developing\nresponsible and trustworthy human-AI teaming systems in military operations.",
+  "authors": [
+    "Clara Maathuis",
+    "Kasper Cools"
+  ],
+  "published": "2025-10-02T09:01:01Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01815v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出一种可信赖的人机协同学习模型，用于军事行动中的人-AI团队协作。该模型整合四个维度：可调节自主性、多层控制、双向反馈和协作决策，通过双向洞察交流使人类与AI在动态战场环境中共同适应，旨在解决军事应用中的人-AI团队系统在责任、安全和鲁棒性方面的挑战。",
+  "order": 74,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01815v1"
+}

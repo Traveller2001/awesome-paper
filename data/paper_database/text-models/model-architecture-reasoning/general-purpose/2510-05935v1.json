@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05935v1",
+  "title": "LLM-FS-Agent: A Deliberative Role-based Large Language Model\n  Architecture for Transparent Feature Selection",
+  "summary": "High-dimensional data remains a pervasive challenge in machine learning,\noften undermining model interpretability and computational efficiency. While\nLarge Language Models (LLMs) have shown promise for dimensionality reduction\nthrough feature selection, existing LLM-based approaches frequently lack\nstructured reasoning and transparent justification for their decisions. This\npaper introduces LLM-FS-Agent, a novel multi-agent architecture designed for\ninterpretable and robust feature selection. The system orchestrates a\ndeliberative \"debate\" among multiple LLM agents, each assigned a specific role,\nenabling collective evaluation of feature relevance and generation of detailed\njustifications. We evaluate LLM-FS-Agent in the cybersecurity domain using the\nCIC-DIAD 2024 IoT intrusion detection dataset and compare its performance\nagainst strong baselines, including LLM-Select and traditional methods such as\nPCA. Experimental results demonstrate that LLM-FS-Agent consistently achieves\nsuperior or comparable classification performance while reducing downstream\ntraining time by an average of 46% (statistically significant improvement, p =\n0.028 for XGBoost). These findings highlight that the proposed deliberative\narchitecture enhances both decision transparency and computational efficiency,\nestablishing LLM-FS-Agent as a practical and reliable solution for real-world\napplications.",
+  "authors": [
+    "Mohamed Bal-Ghaoui",
+    "Fayssal Sabri"
+  ],
+  "published": "2025-10-07T13:46:06Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05935v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LLM-FS-Agent，一种基于角色分工的多智能体大语言模型架构，通过模拟'辩论'机制实现透明特征选择。在网络安全领域的实验表明，该方法在保持分类性能的同时显著降低46%训练时间，并提供了可解释的决策依据。",
+  "order": 110,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05935v1"
+}

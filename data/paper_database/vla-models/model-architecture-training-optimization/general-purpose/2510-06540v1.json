@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06540v1",
+  "title": "Scalable Policy-Based RL Algorithms for POMDPs",
+  "summary": "The continuous nature of belief states in POMDPs presents significant\ncomputational challenges in learning the optimal policy. In this paper, we\nconsider an approach that solves a Partially Observable Reinforcement Learning\n(PORL) problem by approximating the corresponding POMDP model into a\nfinite-state Markov Decision Process (MDP) (called Superstate MDP). We first\nderive theoretical guarantees that improve upon prior work that relate the\noptimal value function of the transformed Superstate MDP to the optimal value\nfunction of the original POMDP. Next, we propose a policy-based learning\napproach with linear function approximation to learn the optimal policy for the\nSuperstate MDP. Consequently, our approach shows that a POMDP can be\napproximately solved using TD-learning followed by Policy Optimization by\ntreating it as an MDP, where the MDP state corresponds to a finite history. We\nshow that the approximation error decreases exponentially with the length of\nthis history. To the best of our knowledge, our finite-time bounds are the\nfirst to explicitly quantify the error introduced when applying standard TD\nlearning to a setting where the true dynamics are not Markovian.",
+  "authors": [
+    "Ameya Anjarlekar",
+    "Rasoul Etesami",
+    "R Srikant"
+  ],
+  "published": "2025-10-08T00:33:38Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06540v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对部分可观测马尔可夫决策过程(POMDP)提出了一种基于策略的可扩展强化学习算法。通过将POMDP近似为有限状态的超状态MDP，建立了变换后MDP与原始POMDP最优值函数关系的理论保证，并采用线性函数逼近的策略学习方法。研究表明，通过TD学习和策略优化处理历史有限长度的MDP，近似误差随历史长度呈指数下降，首次量化了在非马尔可夫环境中应用标准TD学习的误差界限。",
+  "order": 237,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06540v1"
+}

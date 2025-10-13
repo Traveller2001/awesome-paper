@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01453v1",
+  "title": "The Command Line GUIde: Graphical Interfaces from Man Pages via AI",
+  "summary": "Although birthed in the era of teletypes, the command line shell survived the\ngraphical interface revolution of the 1980's and lives on in modern desktop\noperating systems. The command line provides access to powerful functionality\nnot otherwise exposed on the computer, but requires users to recall textual\nsyntax and carefully scour documentation. In contrast, graphical interfaces let\nusers organically discover and invoke possible actions through widgets and\nmenus. To better expose the power of the command line, we demonstrate a\nmechanism for automatically creating graphical interfaces for command line\ntools by translating their documentation (in the form of man pages) into\ninterface specifications via AI. Using these specifications, our user-facing\nsystem, called GUIde, presents the command options to the user graphically. We\nevaluate the generated interfaces on a corpus of commands to show to what\ndegree GUIde offers thorough graphical interfaces for users' real-world command\nline tasks.",
+  "authors": [
+    "Saketh Ram Kasibatla",
+    "Kiran Medleri Hiremath",
+    "Raven Rothkopf",
+    "Sorin Lerner",
+    "Haijun Xia",
+    "Brian Hempel"
+  ],
+  "published": "2025-10-01T20:46:53Z",
+  "primary_category": "cs.HC",
+  "arxiv_url": "https://arxiv.org/abs/2510.01453v1",
+  "primary_area": "text_models",
+  "secondary_focus": "code_generation",
+  "application_domain": "general_purpose",
+  "tldr_zh": "GUIde系统利用AI技术将命令行工具的手册页自动转换为图形界面规范，通过可视化组件展示命令选项，降低用户记忆负担并提升命令行工具的可发现性。该系统评估了多命令的界面生成效果，证明能为真实世界命令行任务提供全面的图形界面支持。",
+  "order": 151,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01453v1"
+}

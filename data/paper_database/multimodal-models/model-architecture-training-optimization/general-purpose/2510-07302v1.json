@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07302v1",
+  "title": "SpecGuard: Spectral Projection-based Advanced Invisible Watermarking",
+  "summary": "Watermarking embeds imperceptible patterns into images for authenticity\nverification. However, existing methods often lack robustness against various\ntransformations primarily including distortions, image regeneration, and\nadversarial perturbation, creating real-world challenges. In this work, we\nintroduce SpecGuard, a novel watermarking approach for robust and invisible\nimage watermarking. Unlike prior approaches, we embed the message inside hidden\nconvolution layers by converting from the spatial domain to the frequency\ndomain using spectral projection of a higher frequency band that is decomposed\nby wavelet projection. Spectral projection employs Fast Fourier Transform\napproximation to transform spatial data into the frequency domain efficiently.\nIn the encoding phase, a strength factor enhances resilience against diverse\nattacks, including adversarial, geometric, and regeneration-based distortions,\nensuring the preservation of copyrighted information. Meanwhile, the decoder\nleverages Parseval's theorem to effectively learn and extract the watermark\npattern, enabling accurate retrieval under challenging transformations. We\nevaluate the proposed SpecGuard based on the embedded watermark's invisibility,\ncapacity, and robustness. Comprehensive experiments demonstrate the proposed\nSpecGuard outperforms the state-of-the-art models. To ensure reproducibility,\nthe full code is released on\n\\href{https://github.com/inzamamulDU/SpecGuard_ICCV_2025}{\\textcolor{blue}{\\textbf{GitHub}}}.",
+  "authors": [
+    "Inzamamul Alam",
+    "Md Tanvir Islam",
+    "Khan Muhammad",
+    "Simon S. Woo"
+  ],
+  "published": "2025-10-08T17:56:21Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07302v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SpecGuard，一种基于频谱投影的先进不可见水印技术。该方法通过小波投影分解高频带，利用快速傅里叶变换将空间数据转换到频域，在隐藏卷积层中嵌入水印。编码阶段采用强度因子增强对对抗攻击、几何变形和再生干扰的鲁棒性，解码器基于Parseval定理有效提取水印。实验表明SpecGuard在不可见性、容量和鲁棒性方面优于现有方法。",
+  "order": 106,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07302v1"
+}

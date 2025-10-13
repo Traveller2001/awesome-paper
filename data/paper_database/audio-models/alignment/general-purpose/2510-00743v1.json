@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2510.00743v1",
+  "title": "From Scores to Preferences: Redefining MOS Benchmarking for Speech\n  Quality Reward Modeling",
+  "summary": "Assessing the perceptual quality of synthetic speech is crucial for guiding\nthe development and refinement of speech generation models. However, it has\ntraditionally relied on human subjective ratings such as the Mean Opinion Score\n(MOS), which depend on manual annotations and often suffer from inconsistent\nrating standards and poor reproducibility. To address these limitations, we\nintroduce MOS-RMBench, a unified benchmark that reformulates diverse MOS\ndatasets into a preference-comparison setting, enabling rigorous evaluation\nacross different datasets. Building on MOS-RMBench, we systematically construct\nand evaluate three paradigms for reward modeling: scalar reward models,\nsemi-scalar reward models, and generative reward models (GRMs). Our experiments\nreveal three key findings: (1) scalar models achieve the strongest overall\nperformance, consistently exceeding 74% accuracy; (2) most models perform\nconsiderably worse on synthetic speech than on human speech; and (3) all models\nstruggle on pairs with very small MOS differences. To improve performance on\nthese challenging pairs, we propose a MOS-aware GRM that incorporates an\nMOS-difference-based reward function, enabling the model to adaptively scale\nrewards according to the difficulty of each sample pair. Experimental results\nshow that the MOS-aware GRM significantly improves fine-grained quality\ndiscrimination and narrows the gap with scalar models on the most challenging\ncases. We hope this work will establish both a benchmark and a methodological\nframework to foster more rigorous and scalable research in automatic speech\nquality assessment.",
+  "authors": [
+    "Yifei Cao",
+    "Changhao Jiang",
+    "Jiabao Zhuang",
+    "Jiajun Sun",
+    "Ming Zhang",
+    "Zhiheng Xi",
+    "Hui Li",
+    "Shihan Dou",
+    "Yuran Wang",
+    "Yunke Zhang",
+    "Tao Ji",
+    "Tao Gui",
+    "Qi Zhang",
+    "Xuanjing Huang"
+  ],
+  "published": "2025-10-01T10:27:51Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.00743v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MOS-RMBench基准，将传统语音质量评分MOS转换为偏好比较设置，系统评估了标量、半标量和生成式奖励模型三种范式。研究发现标量模型性能最佳（准确率超74%），但所有模型在合成语音和小MOS差异样本上表现较差。提出的MOS感知生成奖励模型通过自适应奖励缩放，显著提升了细粒度质量判别能力。",
+  "order": 452,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00743v1"
+}

@@ -1,0 +1,316 @@
+{
+  "generated_at": "2025-10-08T15:40:18.794441Z",
+  "paper_date": "20251007",
+  "categories": [
+    "cs.CL"
+  ],
+  "paper_count": 18,
+  "papers": [
+    {
+      "arxiv_id": "2510.06198v1",
+      "title": "Peeking inside the Black-Box: Reinforcement Learning for Explainable and\n  Accurate Relation Extraction",
+      "summary": "This paper introduces a framework for relation extraction (RE) that enhances\nboth accuracy and explainability. The framework has two key components: (i) a\nreasoning mechanism that formulates relation extraction as a series of\ntext-processing steps inspired by cognitive science, and (ii) an optimization\nprocess driven by reinforcement learning (RL) with a novel reward function\ndesigned to improve both task accuracy and explanation quality. We call our\napproach CogRE. Our framework addresses the lack of supervision for\nlanguage-based explanations in traditional RE by promoting outputs that include\nimportant relation keywords. These keywords are drawn from a high-quality\ndictionary that is automatically constructed using an LLM. We evaluate our\napproach for the task of one-shot RE using two LLMs and two RE datasets. Our\nexperiments show that CogRE improves explanation quality by addressing two\ncommon failure patterns in one-shot RE: poor attention focus and limited\none-shot learning capability. For example, our cognitive-structured reasoning\nwith Qwen2.5-15B-Instruct on One-shot NYT29 achieves 24.65% F1, surpassing\nprior reasoning-based designs. Optimizing this approach with RL using our\nreward further improves performance by +23.46% (absolute). Finally, human\nevaluation shows that our best model generates relational keywords closely\naligned with gold labels, increasing human explanation quality ratings by 54%\n(relative).",
+      "authors": [
+        "Xinyu Guo",
+        "Zhengliang Shi",
+        "Minglai Yang",
+        "Mahdi Rahimi",
+        "Mihai Surdeanu"
+      ],
+      "published": "2025-10-07T17:53:55Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06198v1"
+    },
+    {
+      "arxiv_id": "2510.06195v1",
+      "title": "Latent Speech-Text Transformer",
+      "summary": "Auto-regressive speech-text models are typically pre-trained on a large\nnumber of interleaved sequences of text tokens and raw speech encoded as speech\ntokens using vector quantization. These models have demonstrated\nstate-of-the-art performance in speech-to-speech understanding and generation\nbenchmarks, together with promising scaling laws, primarily enabled by the\nrepresentational alignment between text and speech. Nevertheless, they suffer\nfrom shortcomings, partly owing to the disproportionately longer sequences of\nspeech tokens in contrast to textual tokens. This results in a large compute\nimbalance between modalities during pre-training as well as during inference,\nand a potential hindrance to effectively aligning speech and text, ultimately\ntranslating to several orders of magnitude slower scaling laws. We introduce\nthe Latent Speech-Text Transformer (LST), which makes pre-training speech-text\nmodels more data-efficient by dynamically and inexpensively aggregating speech\ntokens into latent speech patches. These patches serve as higher-level units\nthat can either align with corresponding textual units to aid capability\ntransfer or even encapsulate common speech sequences like silences to be more\ncompute-efficient. We show that LST outperforms vanilla approaches on\nspeech-to-speech as well as text-to-text benchmarks in both data- and\ncompute-controlled settings, the former indicating more effective\nrepresentational alignment and the latter indicating steeper scaling laws for\nspeech-text models. On HellaSwag story completion, LST achieves 6.5% absolute\ngain in speech accuracy under compute-controlled training and 5.3% under\ndata-controlled training, while also improving text performance. We will\nrelease our models, code, and the evaluation data to facilitate further\nresearch.",
+      "authors": [
+        "Yen-Ju Lu",
+        "Yashesh Gaur",
+        "Wei Zhou",
+        "Benjamin Muller",
+        "Jesus Villalba",
+        "Najim Dehak",
+        "Luke Zettlemoyer",
+        "Gargi Ghosh",
+        "Mike Lewis",
+        "Srinivasan Iyer",
+        "Duc Le"
+      ],
+      "published": "2025-10-07T17:52:08Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06195v1"
+    },
+    {
+      "arxiv_id": "2510.06188v1",
+      "title": "BanglaTalk: Towards Real-Time Speech Assistance for Bengali Regional\n  Dialects",
+      "summary": "Real-time speech assistants are becoming increasingly popular for ensuring\nimproved accessibility to information. Bengali, being a low-resource language\nwith a high regional dialectal diversity, has seen limited progress in\ndeveloping such systems. Existing systems are not optimized for real-time use\nand focus only on standard Bengali. In this work, we present BanglaTalk, the\nfirst real-time speech assistance system for Bengali regional dialects.\nBanglaTalk follows the client-server architecture and uses the Real-time\nTransport Protocol (RTP) to ensure low-latency communication. To address\ndialectal variation, we introduce a dialect-aware ASR system, BRDialect,\ndeveloped by fine-tuning the IndicWav2Vec model in ten Bengali regional\ndialects. It outperforms the baseline ASR models by 12.41-33.98% on the\nRegSpeech12 dataset. Furthermore, BanglaTalk can operate at a low bandwidth of\n24 kbps while maintaining an average end-to-end delay of 4.9 seconds. Low\nbandwidth usage and minimal end-to-end delay make the system both\ncost-effective and interactive for real-time use cases, enabling inclusive and\naccessible speech technology for the diverse community of Bengali speakers.",
+      "authors": [
+        "Jakir Hasan",
+        "Shubhashis Roy Dipta"
+      ],
+      "published": "2025-10-07T17:47:39Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06188v1"
+    },
+    {
+      "arxiv_id": "2510.06186v1",
+      "title": "RECODE-H: A Benchmark for Research Code Development with Interactive\n  Human Feedback",
+      "summary": "Large language models (LLMs) show the promise in supporting scientific\nresearch implementation, yet their ability to generate correct and executable\ncode remains limited. Existing works largely adopt one-shot settings, ignoring\nthe iterative and feedback-driven nature of realistic workflows of scientific\nresearch development. To address this gap, we present RECODE-H, a benchmark of\n102 tasks from research papers and repositories that evaluates LLM agents\nthrough multi-turn interactions with LLM-simulated human feedback. It includes\nstructured instructions,unit tests, and a five-level feedback hierarchy to\nreflect realistic researcher-agent collaboration. We further present\nReCodeAgent, a framework that integrates feedback into iterative code\ngeneration. Experiments with leading LLMs, including GPT-5, Claude-Sonnet-4,\nDeepSeek-V3.1, and Gemini 2.5, show substantial performance gains with richer\nfeedback, while also highlighting ongoing challenges in the generation of\ncomplex research code. RECODE-H establishes a foundation for developing\nadaptive, feedback-driven LLM agents in scientific research implementation",
+      "authors": [
+        "Chunyu Miao",
+        "Henry Peng Zou",
+        "Yangning Li",
+        "Yankai Chen",
+        "Yibo Wang",
+        "Fangxin Wang",
+        "Yifan Li",
+        "Wooseong Yang",
+        "Bowei He",
+        "Xinni Zhang",
+        "Dianzhi Yu",
+        "Hanchen Yang",
+        "Hoang H Nguyen",
+        "Yue Zhou",
+        "Jie Yang",
+        "Jizhou Guo",
+        "Wenzhe Fan",
+        "Chin-Yuan Yeh",
+        "Panpan Meng",
+        "Liancheng Fang",
+        "Jinhu Qi",
+        "Wei-Chieh Huang",
+        "Zhengyao Gu",
+        "Yuwei Han",
+        "Langzhou He",
+        "Yuyao Yang",
+        "Xue Liu",
+        "Irwin King",
+        "Philip S. Yu"
+      ],
+      "published": "2025-10-07T17:45:35Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06186v1"
+    },
+    {
+      "arxiv_id": "2510.06182v1",
+      "title": "Mixing Mechanisms: How Language Models Retrieve Bound Entities\n  In-Context",
+      "summary": "A key component of in-context reasoning is the ability of language models\n(LMs) to bind entities for later retrieval. For example, an LM might represent\n\"Ann loves pie\" by binding \"Ann\" to \"pie\", allowing it to later retrieve \"Ann\"\nwhen asked \"Who loves pie?\" Prior research on short lists of bound entities\nfound strong evidence that LMs implement such retrieval via a positional\nmechanism, where \"Ann\" is retrieved based on its position in context. In this\nwork, we find that this mechanism generalizes poorly to more complex settings;\nas the number of bound entities in context increases, the positional mechanism\nbecomes noisy and unreliable in middle positions. To compensate for this, we\nfind that LMs supplement the positional mechanism with a lexical mechanism\n(retrieving \"Ann\" using its bound counterpart \"pie\") and a reflexive mechanism\n(retrieving \"Ann\" through a direct pointer). Through extensive experiments on\nnine models and ten binding tasks, we uncover a consistent pattern in how LMs\nmix these mechanisms to drive model behavior. We leverage these insights to\ndevelop a causal model combining all three mechanisms that estimates next token\ndistributions with 95% agreement. Finally, we show that our model generalizes\nto substantially longer inputs of open-ended text interleaved with entity\ngroups, further demonstrating the robustness of our findings in more natural\nsettings. Overall, our study establishes a more complete picture of how LMs\nbind and retrieve entities in-context.",
+      "authors": [
+        "Yoav Gur-Arieh",
+        "Mor Geva",
+        "Atticus Geiger"
+      ],
+      "published": "2025-10-07T17:44:30Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06182v1"
+    },
+    {
+      "arxiv_id": "2510.06175v1",
+      "title": "VecInfer: Efficient LLM Inference with Low-Bit KV Cache via\n  Outlier-Suppressed Vector Quantization",
+      "summary": "The Key-Value (KV) cache introduces substantial memory overhead during large\nlanguage model (LLM) inference. Although existing vector quantization (VQ)\nmethods reduce KV cache usage and provide flexible representational capacity\nacross bit-widths, they suffer severe performance degradation at ultra-low\nbit-widths due to key cache outliers that hinder effective codebook\nutilization. To address this challenge, we propose VecInfer, a novel VQ method\nfor aggressive KV cache compression while enabling efficient inference. By\napplying smooth and Hadamard transformations, VecInfer suppresses outliers in\nthe key cache, enabling the codebook to comprehensively cover the original data\ndistribution and thereby reducing quantization difficulty. To facilitate\nefficient deployment, we design an optimized CUDA kernel that fuses computation\nwith dequantization to minimize memory access overhead. Extensive evaluations\ndemonstrate that VecInfer consistently outperforms existing quantization\nbaselines across both long-context understanding and mathematical reasoning\ntasks. With only 2-bit quantization, VecInfer achieves performance comparable\nto full precision, while delivering up to $\\mathbf{2.7\\times}$ speedup in\nlarge-batch self-attention computation and $\\mathbf{8.3\\times}$ reduction in\nsingle-batch end-to-end latency on Llama-3.1-8B with a 196k sequence length.",
+      "authors": [
+        "Dingyu Yao",
+        "Chenxu Yang",
+        "Zhengyang Tong",
+        "Zheng Lin",
+        "Wei Liu",
+        "Jian Luan",
+        "Weiping Wang"
+      ],
+      "published": "2025-10-07T17:35:28Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06175v1"
+    },
+    {
+      "arxiv_id": "2510.06143v1",
+      "title": "RoSE: Round-robin Synthetic Data Evaluation for Selecting LLM Generators\n  without Human Test Sets",
+      "summary": "LLMs are powerful generators of synthetic data, which are used for training\nsmaller, specific models. This is especially valuable for low-resource\nlanguages, where human-labelled data is scarce but LLMs can still produce\nhigh-quality text. However, LLMs differ in how useful their outputs are for\ntraining. Selecting the best LLM as a generator is challenging because\nextrinsic evaluation requires costly human annotations (which are often\nunavailable for low-resource languages), while intrinsic metrics correlate\npoorly with downstream performance. We introduce Round robin Synthetic data\nEvaluation (RoSE), a proxy metric for selecting the best LLM generator without\nhuman test sets. RoSE trains a small model on the outputs of a candidate\ngenerator (LLM) and then evaluates it on generated synthetic examples from all\nother candidate LLMs. The final RoSE score is the mean performance of this\nsmall model. Across six LLMs, eleven languages, and three tasks (sentiment,\ntopic, intent), RoSE identifies the optimal generator more often than any other\nintrinsic heuristics. RoSE outperforms intrinsic heuristics and comes within\n0.76 percentage points of the optimal generator baseline. This result is\nmeasured in terms of downstream performance, obtained by training a small model\non the chosen generator's outputs (optimal vs. proxy metric selected) and\nevaluating it on human-labelled test data. Additionally, RoSE is the only\nmetric to achieve a positive correlation with performance on human test data.",
+      "authors": [
+        "Jan Cegin",
+        "Branislav Pecher",
+        "Ivan Srba",
+        "Jakub Simko"
+      ],
+      "published": "2025-10-07T17:17:14Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06143v1"
+    },
+    {
+      "arxiv_id": "2510.06133v1",
+      "title": "CreditDecoding: Accelerating Parallel Decoding in Diffusion Large\n  Language Models with Trace Credits",
+      "summary": "Diffusion large language models (dLLMs) generate text through iterative\ndenoising steps, achieving parallel decoding by denoising only high-confidence\npositions at each step. However, existing approaches often repetitively remask\ntokens due to initially low confidence scores, leading to redundant iterations\nand limiting overall acceleration. Through the analysis of dLLM decoding\ntraces, we observe that the model often determines the final prediction for a\ntoken several steps before the decoding step. To leverage this historical\ninformation and avoid redundant steps, we introduce the concept of Trace\nCredit, which quantifies each token's convergence potential by accumulating\nhistorical logits. Furthermore, we propose CreditDecoding, a training-free\nparallel decoding algorithm that accelerates the confidence convergence of\ncorrect but underconfident tokens by fusing current logits with Trace Credit.\nThis process significantly reduces redundant iterations and enhances decoding\nrobustness. On eight benchmarks, CreditDecoding achieves a 5.48 times speedup\nand a 0.48 performance improvement over LLaDA-8B-Instruct, and a 4.11 times\nspeedup with a 0.15 performance improvement over LLaDA-MoE-Instruct.\nImportantly, CreditDecoding scales effectively to long sequences and is\northogonal to mainstream inference optimizations, making it a readily\nintegrable and versatile solution.",
+      "authors": [
+        "Kangyu Wang",
+        "Zhiyun Jiang",
+        "Haibo Feng",
+        "Weijia Zhao",
+        "Lin Liu",
+        "Jianguo Li",
+        "Zhenzhong Lan",
+        "Weiyao Lin"
+      ],
+      "published": "2025-10-07T17:08:33Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06133v1"
+    },
+    {
+      "arxiv_id": "2510.06128v1",
+      "title": "Parallel Tokenizers: Rethinking Vocabulary Design for Cross-Lingual\n  Transfer",
+      "summary": "Tokenization defines the foundation of multilingual language models by\ndetermining how words are represented and shared across languages. However,\nexisting methods often fail to support effective cross-lingual transfer because\nsemantically equivalent words are assigned distinct embeddings. For example, \"I\neat rice\" in English and \"Ina cin shinkafa\" in Hausa are typically mapped to\ndifferent vocabulary indices, preventing shared representations and limiting\ncross-lingual generalization. We introduce parallel tokenizers. This new\nframework trains tokenizers monolingually and then aligns their vocabularies\nexhaustively using bilingual dictionaries or word-to-word translation, ensuring\nconsistent indices for semantically equivalent words. This alignment enforces a\nshared semantic space across languages while naturally improving fertility\nbalance. To assess their effectiveness, we pretrain a transformer encoder from\nscratch on thirteen low-resource languages and evaluate it on sentiment\nanalysis, hate speech detection, emotion classification, and sentence embedding\nsimilarity. Across all tasks, models trained with parallel tokenizers\noutperform conventional multilingual baselines, confirming that rethinking\ntokenization is essential for advancing multilingual representation\nlearning--especially in low-resource settings.",
+      "authors": [
+        "Muhammad Dehan Al Kautsar",
+        "Fajri Koto"
+      ],
+      "published": "2025-10-07T17:05:49Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06128v1"
+    },
+    {
+      "arxiv_id": "2510.06107v1",
+      "title": "Distributional Semantics Tracing: A Framework for Explaining\n  Hallucinations in Large Language Models",
+      "summary": "Large Language Models (LLMs) are prone to hallucination, the generation of\nplausible yet factually incorrect statements. This work investigates the\nintrinsic, architectural origins of this failure mode through three primary\ncontributions.First, to enable the reliable tracing of internal semantic\nfailures, we propose \\textbf{Distributional Semantics Tracing (DST)}, a unified\nframework that integrates established interpretability techniques to produce a\ncausal map of a model's reasoning, treating meaning as a function of context\n(distributional semantics). Second, we pinpoint the model's layer at which a\nhallucination becomes inevitable, identifying a specific \\textbf{commitment\nlayer} where a model's internal representations irreversibly diverge from\nfactuality. Third, we identify the underlying mechanism for these failures. We\nobserve a conflict between distinct computational pathways, which we interpret\nusing the lens of dual-process theory: a fast, heuristic \\textbf{associative\npathway} (akin to System 1) and a slow, deliberate \\textbf{contextual pathway}\n(akin to System 2), leading to predictable failure modes such as\n\\textit{Reasoning Shortcut Hijacks}. Our framework's ability to quantify the\ncoherence of the contextual pathway reveals a strong negative correlation\n($\\rho = -0.863$) with hallucination rates, implying that these failures are\npredictable consequences of internal semantic weakness. The result is a\nmechanistic account of how, when, and why hallucinations occur within the\nTransformer architecture.",
+      "authors": [
+        "Gagan Bhatia",
+        "Somayajulu G Sripada",
+        "Kevin Allan",
+        "Jacobo Azcona"
+      ],
+      "published": "2025-10-07T16:40:31Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06107v1"
+    },
+    {
+      "arxiv_id": "2510.06101v1",
+      "title": "The Valley of Code Reasoning: Scaling Knowledge Distillation of Large\n  Language Models",
+      "summary": "Distilling the thinking traces of a Large Language Model (LLM) with reasoning\ncapabilities into a smaller model has been proven effective. Yet, there is a\nscarcity of work done on how model performances scale with the quantity of\ndistillation data. In this work, we study the scaling trend of distilling\ncompetitive coding skills on two small non-reasoning LLMs. We validate the\nhypothesis that there is a $\\textit{valley of code reasoning}$: downstream\nperformance on competitive coding first drops as data quantity increases, then\nit steadily increases in a sharper-than-log-linear fashion. Having identified\nthe trend, we further fine-tune the models at two different distillation stages\non the same data to ground conclusions on their respective learning phases. We\nlearn that across stages in the low and medium-low data regimes, small models\nbenefit significantly from easier coding questions than from harder ones. We\nalso find that, surprisingly, the correctness of outputs in training data makes\nno difference to distillation outcomes. Our work represents a step forward in\nunderstanding the training dynamics of code reasoning distillation outside\nintuition",
+      "authors": [
+        "Muyu He",
+        "Muhammad Ali Shafique",
+        "Anand Kumar",
+        "Tsach Mackey",
+        "Nazneen Rajani"
+      ],
+      "published": "2025-10-07T16:32:09Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06101v1"
+    },
+    {
+      "arxiv_id": "2510.06084v1",
+      "title": "Spectrum Tuning: Post-Training for Distributional Coverage and\n  In-Context Steerability",
+      "summary": "Language model post-training has enhanced instruction-following and\nperformance on many downstream tasks, but also comes with an often-overlooked\ncost on tasks with many possible valid answers. We characterize three\ndesiderata for conditional distributional modeling: in-context steerability,\nvalid output space coverage, and distributional alignment, and document across\nthree model families how current post-training can reduce these properties. In\nparticular, we disambiguate between two kinds of in-context learning: ICL for\neliciting existing underlying knowledge or capabilities, and in-context\nsteerability, where a model must use in-context information to override its\npriors and steer to a novel data generating distribution. To better evaluate\nand improve these desiderata, we introduce Spectrum Suite, a large-scale\nresource compiled from >40 data sources and spanning >90 tasks requiring models\nto steer to and match diverse distributions ranging from varied human\npreferences to numerical distributions and more. We find that while current\npost-training techniques help elicit underlying capabilities and knowledge,\nthey hurt models' ability to flexibly steer in-context. To mitigate these\nissues, we propose Spectrum Tuning, a post-training method using Spectrum Suite\nto improve steerability and distributional coverage. We find that Spectrum\nTuning often improves over pretrained models and their instruction-tuned\ncounterparts, enhancing steerability, spanning more of the output space, and\nimproving distributional alignment on held-out datasets.",
+      "authors": [
+        "Taylor Sorensen",
+        "Benjamin Newman",
+        "Jared Moore",
+        "Chan Park",
+        "Jillian Fisher",
+        "Niloofar Mireshghallah",
+        "Liwei Jiang",
+        "Yejin Choi"
+      ],
+      "published": "2025-10-07T16:10:26Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06084v1"
+    },
+    {
+      "arxiv_id": "2510.06062v1",
+      "title": "ASPO: Asymmetric Importance Sampling Policy Optimization",
+      "summary": "Recent Large Language Model (LLM) post-training methods rely on token-level\nclipping mechanisms during Reinforcement Learning (RL). However, we identify a\nfundamental flaw in this Outcome-Supervised RL (OSRL) paradigm: the Importance\nSampling (IS) ratios of positive-advantage tokens are mismatched, leading to\nunbalanced token weighting for positive and negative tokens. This mismatch\nsuppresses the update of low-probability tokens while over-amplifying already\nhigh-probability ones. To address this, we propose Asymmetric Importance\nSampling Policy Optimization (ASPO), which uses a simple yet effective strategy\nthat flips the IS ratios of positive-advantage tokens, aligning their update\ndirection with the learning dynamics of negative ones. AIS further incorporates\na soft dual-clipping mechanism to stabilize extreme updates while maintaining\ngradient flow. Comprehensive experiments on coding and mathematical reasoning\nbenchmarks demonstrate that ASPO significantly mitigates premature convergence,\nimproves training stability, and enhances final performance over strong\nGRPO-based baselines. Our analysis provides new insights into the role of\ntoken-level weighting in OSRL and highlights the critical importance of\ncorrecting IS in LLM RL. The code and models of ASPO are available at\nhttps://github.com/wizard-III/Archer2.0.",
+      "authors": [
+        "Jiakang Wang",
+        "Runze Liu",
+        "Lei Lin",
+        "Wenping Hu",
+        "Xiu Li",
+        "Fuzheng Zhang",
+        "Guorui Zhou",
+        "Kun Gai"
+      ],
+      "published": "2025-10-07T15:54:24Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06062v1"
+    },
+    {
+      "arxiv_id": "2510.06039v1",
+      "title": "CDTP: A Large-Scale Chinese Data-Text Pair Dataset for Comprehensive\n  Evaluation of Chinese LLMs",
+      "summary": "Large Language Models (LLMs) have achieved remarkable success across a wide\nrange of natural language processing tasks. However, Chinese LLMs face unique\nchallenges, primarily due to the dominance of unstructured free text and the\nlack of structured representations in Chinese corpora. While existing\nbenchmarks for LLMs partially assess Chinese LLMs, they are still predominantly\nEnglish-centric and fail to address the unique linguistic characteristics of\nChinese, lacking structured datasets essential for robust evaluation. To\naddress these challenges, we present a Comprehensive Benchmark for Evaluating\nChinese Large Language Models (CB-ECLLM) based on the newly constructed Chinese\nData-Text Pair (CDTP) dataset. Specifically, CDTP comprises over 7 million\naligned text pairs, each consisting of unstructured text coupled with one or\nmore corresponding triples, alongside a total of 15 million triples spanning\nfour critical domains. The core contributions of CDTP are threefold: (i)\nenriching Chinese corpora with high-quality structured information; (ii)\nenabling fine-grained evaluation tailored to knowledge-driven tasks; and (iii)\nsupporting multi-task fine-tuning to assess generalization and robustness\nacross scenarios, including Knowledge Graph Completion, Triple-to-Text\ngeneration, and Question Answering. Furthermore, we conduct rigorous\nevaluations through extensive experiments and ablation studies to assess the\neffectiveness, Supervised Fine-Tuning (SFT), and robustness of the benchmark.\nTo support reproducible research, we offer an open-source codebase and outline\npotential directions for future investigations based on our insights.",
+      "authors": [
+        "Chengwei Wu",
+        "Jiapu Wang",
+        "Mingyang Gao",
+        "Xingrui Zhuo",
+        "Jipeng Guo",
+        "Runlin Lei",
+        "Haoran Luo",
+        "Tianyu Chen",
+        "Haoyi Zhou",
+        "Shirui Pan",
+        "Zechao Li"
+      ],
+      "published": "2025-10-07T15:33:52Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06039v1"
+    },
+    {
+      "arxiv_id": "2510.06018v1",
+      "title": "Evaluating The Impact of Stimulus Quality in Investigations of LLM\n  Language Performance",
+      "summary": "Recent studies employing Large Language Models (LLMs) to test the Argument\nfrom the Poverty of the Stimulus (APS) have yielded contrasting results across\nsyntactic phenomena. This paper investigates the hypothesis that\ncharacteristics of the stimuli used in recent studies, including lexical\nambiguities and structural complexities, may confound model performance. A\nmethodology is proposed for re-evaluating LLM competence on syntactic\nprediction, focusing on GPT-2. This involves: 1) establishing a baseline on\npreviously used (both filtered and unfiltered) stimuli, and 2) generating a\nnew, refined dataset using a state-of-the-art (SOTA) generative LLM (Gemini 2.5\nPro Preview) guided by linguistically-informed templates designed to mitigate\nidentified confounds. Our preliminary findings indicate that GPT-2 demonstrates\nnotably improved performance on these refined PG stimuli compared to baselines,\nsuggesting that stimulus quality significantly influences outcomes in\nsurprisal-based evaluations of LLM syntactic competency.",
+      "authors": [
+        "Timothy Pistotti",
+        "Jason Brown",
+        "Michael Witbrock"
+      ],
+      "published": "2025-10-07T15:16:47Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06018v1"
+    },
+    {
+      "arxiv_id": "2510.06005v1",
+      "title": "MASA: Rethinking the Representational Bottleneck in LoRA with Multi-A\n  Shared Adaptation",
+      "summary": "Low-Rank Adaptation (LoRA) has emerged as a dominant method in\nParameter-Efficient Fine-Tuning (PEFT) for large language models, which\naugments the transformer layer with one down-projection $A$ and one\nup-projection $B$. However, LoRA's reliance on a single down-projection matrix\n($A$) creates a representational bottleneck, as this solitary feature extractor\nis inherently insufficient for capturing the diverse signals required by\ncomplex tasks. This motivates our architectural shift to focus on enriching the\nfeature adaptation to improve the downstream task adaptation ability. We\npropose MASA (Multi-$A$ Shared Adaptation), an architecture that implements a\nmulti-$A$, single-$B$ structure where the multi-$A$ expert ensemble is\nasymmetrically shared across layers to ensure parameter efficiency. In MASA,\nthese specialized experts capture diverse features, which are then integrated\nby a single, layer-specific $B$-matrix. The effectiveness and versatility of\nour method are validated through a comprehensive suite of experiments spanning\nmulti-domain generalization, single-domain specialization, and multi-task\nreasoning. For example, on the MMLU benchmark, MASA achieves an average\naccuracy of 59.62%, outperforming the standard LoRA by 1.08 points (a relative\nimprovement of 1.84%) with comparable learnable parameters of 0.52%.",
+      "authors": [
+        "Qin Dong",
+        "Yuntian Tang",
+        "Heming Jia",
+        "Yunhang Shen",
+        "Bohan Jia",
+        "Wenxuan Huang",
+        "Lianyue Zhang",
+        "Jiao Xie",
+        "Shaohui Lin"
+      ],
+      "published": "2025-10-07T15:06:46Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06005v1"
+    },
+    {
+      "arxiv_id": "2510.06001v1",
+      "title": "Exploring Gaps in the APS: Direct Minimal Pair Analysis in LLM Syntactic\n  Assessments",
+      "summary": "Recent studies probing the Argument from the Poverty of the Stimulus (APS)\nhave applied Large Language Models (LLMs) to test the learnability of complex\nsyntax through surprisal-based metrics. However, divergent conclusions raise\nquestions concerning the insights these metrics offer. While Wilcox et al.\n(2024) used direct minimal pair comparisons (the \"wh-effect\") to demonstrate\nthat models successfully generalise knowledge of filler-gap dependencies, Lan\net al. (2024) used a Difference-in-Differences (DiD) metric and found that\nmodels largely fail on parasitic gaps (PGs). This paper argues that the direct\nminimal pair approach offers greater diagnostic transparency. We demonstrate\nthis by generating a full 8-permutation paradigm of refined PG stimuli and\nevaluating the GPT-2 model used in previous studies with a systematic\nWilcox-style wh-effect analysis. Our results show that GPT-2 succeeds across\nall four tested conditions, indicating robust knowledge of filler-gap licensing\nprinciples even in complex PG environments. This finding, which contrasts with\nthe more ambiguous results from DiD-style metrics, suggests that the choice of\nevaluation metric is critical for assessing an LLM's syntactic competence.",
+      "authors": [
+        "Timothy Pistotti",
+        "Jason Brown",
+        "Michael Witbrock"
+      ],
+      "published": "2025-10-07T15:03:09Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.06001v1"
+    },
+    {
+      "arxiv_id": "2510.05972v1",
+      "title": "LexiCon: a Benchmark for Planning under Temporal Constraints in Natural\n  Language",
+      "summary": "Owing to their reasoning capabilities, large language models (LLMs) have been\nevaluated on planning tasks described in natural language. However, LLMs have\nlargely been tested on planning domains without constraints. In order to deploy\nthem in real-world settings where adherence to constraints, in particular\nsafety constraints, is critical, we need to evaluate their performance on\nconstrained planning tasks. We introduce LexiCon -- a natural language-based\n(Lexi) constrained (Con) planning benchmark, consisting of a suite of\nenvironments, that can be used to evaluate the planning capabilities of LLMs in\na principled fashion. The core idea behind LexiCon is to take existing planning\nenvironments and impose temporal constraints on the states. These constrained\nproblems are then translated into natural language and given to an LLM to\nsolve. A key feature of LexiCon is its extensibility. That is, the set of\nsupported environments can be extended with new (unconstrained) environment\ngenerators, for which temporal constraints are constructed automatically. This\nrenders LexiCon future-proof: the hardness of the generated planning problems\ncan be increased as the planning capabilities of LLMs improve. Our experiments\nreveal that the performance of state-of-the-art LLMs, including reasoning\nmodels like GPT-5, o3, and R1, deteriorates as the degree of constrainedness of\nthe planning tasks increases.",
+      "authors": [
+        "Periklis Mantenoglou",
+        "Rishi Hazra",
+        "Pedro Zuidberg Dos Martires",
+        "Luc De Raedt"
+      ],
+      "published": "2025-10-07T14:28:30Z",
+      "primary_category": "cs.CL",
+      "arxiv_url": "https://arxiv.org/abs/2510.05972v1"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01038v1",
+  "title": "Activation-Deactivation: A General Framework for Robust Post-hoc\n  Explainable AI",
+  "summary": "Black-box explainability methods are popular tools for explaining the\ndecisions of image classifiers. A major drawback of these tools is their\nreliance on mutants obtained by occluding parts of the input, leading to\nout-of-distribution images. This raises doubts about the quality of the\nexplanations. Moreover, choosing an appropriate occlusion value often requires\ndomain knowledge. In this paper we introduce a novel forward-pass paradigm\nActivation-Deactivation (AD), which removes the effects of occluded input\nfeatures from the model's decision-making by switching off the parts of the\nmodel that correspond to the occlusions. We introduce ConvAD, a drop-in\nmechanism that can be easily added to any trained Convolutional Neural Network\n(CNN), and which implements the AD paradigm. This leads to more robust\nexplanations without any additional training or fine-tuning. We prove that the\nConvAD mechanism does not change the decision-making process of the network. We\nprovide experimental evaluation across several datasets and model\narchitectures. We compare the quality of AD-explanations with explanations\nachieved using a set of masking values, using the proxies of robustness, size,\nand confidence drop-off. We observe a consistent improvement in robustness of\nAD explanations (up to 62.5%) compared to explanations obtained with\nocclusions, demonstrating that ConvAD extracts more robust explanations without\nthe need for domain knowledge.",
+  "authors": [
+    "Akchunya Chanchal",
+    "David A. Kelly",
+    "Hana Chockler"
+  ],
+  "published": "2025-10-01T15:42:58Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01038v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出激活-失活(AD)框架，通过关闭模型中与遮挡输入特征对应的部分来改进黑盒可解释AI方法。提出的ConvAD机制可轻松集成到任何训练好的CNN中，无需额外训练即可生成更鲁棒的解释，实验显示其鲁棒性比传统遮挡方法提升高达62.5%。",
+  "order": 603,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01038v1"
+}

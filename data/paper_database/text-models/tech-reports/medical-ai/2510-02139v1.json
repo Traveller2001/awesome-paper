@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02139v1",
+  "title": "BioinfoMCP: A Unified Platform Enabling MCP Interfaces in Agentic\n  Bioinformatics",
+  "summary": "Bioinformatics tools are essential for complex computational biology tasks,\nyet their integration with emerging AI-agent frameworks is hindered by\nincompatible interfaces, heterogeneous input-output formats, and inconsistent\nparameter conventions. The Model Context Protocol (MCP) provides a standardized\nframework for tool-AI communication, but manually converting hundreds of\nexisting and rapidly growing specialized bioinformatics tools into\nMCP-compliant servers is labor-intensive and unsustainable. Here, we present\nBioinfoMCP, a unified platform comprising two components: BioinfoMCP Converter,\nwhich automatically generates robust MCP servers from tool documentation using\nlarge language models, and BioinfoMCP Benchmark, which systematically validates\nthe reliability and versatility of converted tools across diverse computational\ntasks. We present a platform of 38 MCP-converted bioinformatics tools,\nextensively validated to show that 94.7% successfully executed complex\nworkflows across three widely used AI-agent platforms. By removing technical\nbarriers to AI automation, BioinfoMCP enables natural-language interaction with\nsophisticated bioinformatics analyses without requiring extensive programming\nexpertise, offering a scalable path to intelligent, interoperable computational\nbiology.",
+  "authors": [
+    "Florensia Widjaja",
+    "Zhangtianyi Chen",
+    "Juexiao Zhou"
+  ],
+  "published": "2025-10-02T15:47:59Z",
+  "primary_category": "q-bio.QM",
+  "arxiv_url": "https://arxiv.org/abs/2510.02139v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "medical_ai",
+  "tldr_zh": "BioinfoMCP是一个统一平台，通过自动转换生物信息学工具为MCP兼容服务器，解决了AI代理框架与生物信息工具集成中的接口不兼容问题。该平台包含转换器和基准测试两大组件，已成功转换38种工具，94.7%能在主流AI平台上执行复杂工作流，为计算生物学提供了可扩展的智能互操作解决方案。",
+  "order": 741,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02139v1"
+}

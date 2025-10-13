@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.05879v1",
+  "title": "OBSR: Open Benchmark for Spatial Representations",
+  "summary": "GeoAI is evolving rapidly, fueled by diverse geospatial datasets like traffic\npatterns, environmental data, and crowdsourced OpenStreetMap (OSM) information.\nWhile sophisticated AI models are being developed, existing benchmarks are\noften concentrated on single tasks and restricted to a single modality. As\nsuch, progress in GeoAI is limited by the lack of a standardized, multi-task,\nmodality-agnostic benchmark for their systematic evaluation. This paper\nintroduces a novel benchmark designed to assess the performance, accuracy, and\nefficiency of geospatial embedders. Our benchmark is modality-agnostic and\ncomprises 7 distinct datasets from diverse cities across three continents,\nensuring generalizability and mitigating demographic biases. It allows for the\nevaluation of GeoAI embedders on various phenomena that exhibit underlying\ngeographic processes. Furthermore, we establish a simple and intuitive\ntask-oriented model baselines, providing a crucial reference point for\ncomparing more complex solutions.",
+  "authors": [
+    "Julia Moska",
+    "Oleksii Furman",
+    "Kacper Kozaczko",
+    "Szymon Leszkiewicz",
+    "Jakub Polczyk",
+    "Piotr Gramacki",
+    "Piotr Szymański"
+  ],
+  "published": "2025-10-07T12:48:48Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05879v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了OBSR——首个用于评估地理空间嵌入表示的开源基准测试，包含来自三大洲7个城市的多样化数据集，支持多任务、多模态评估，并建立了基础模型基准，旨在推动GeoAI领域的标准化发展。",
+  "order": 114,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05879v1"
+}

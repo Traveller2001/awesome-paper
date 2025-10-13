@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07019v1",
+  "title": "Native Hybrid Attention for Efficient Sequence Modeling",
+  "summary": "Transformers excel at sequence modeling but face quadratic complexity, while\nlinear attention offers improved efficiency but often compromises recall\naccuracy over long contexts. In this work, we introduce Native Hybrid Attention\n(NHA), a novel hybrid architecture of linear and full attention that integrates\nboth intra \\& inter-layer hybridization into a unified layer design. NHA\nmaintains long-term context in key-value slots updated by a linear RNN, and\naugments them with short-term tokens from a sliding window. A single\n\\texttt{softmax attention} operation is then applied over all keys and values,\nenabling per-token and per-head context-dependent weighting without requiring\nadditional fusion parameters. The inter-layer behavior is controlled through a\nsingle hyperparameter, the sliding window size, which allows smooth adjustment\nbetween purely linear and full attention while keeping all layers structurally\nuniform. Experimental results show that NHA surpasses Transformers and other\nhybrid baselines on recall-intensive and commonsense reasoning tasks.\nFurthermore, pretrained LLMs can be structurally hybridized with NHA, achieving\ncompetitive accuracy while delivering significant efficiency gains. Code is\navailable at https://github.com/JusenD/NHA.",
+  "authors": [
+    "Jusen Du",
+    "Jiaxi Hu",
+    "Tao Zhang",
+    "Weigao Sun",
+    "Yu Cheng"
+  ],
+  "published": "2025-10-08T13:44:57Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07019v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'long_context']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出原生混合注意力(NHA)，通过在线性RNN更新的长时上下文与滑动窗口的短时token间进行单次softmax注意力计算，实现线性与全注意力的层内/层间混合。该方法在保持结构统一的同时，仅需调节窗口大小即可平滑切换注意力模式，在召回密集型任务和常识推理上超越Transformer，并为预训练大模型提供显著效率提升。",
+  "order": 61,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07019v1"
+}

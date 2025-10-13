@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00906v1",
+  "title": "TubeDAgger: Reducing the Number of Expert Interventions with Stochastic\n  Reach-Tubes",
+  "summary": "Interactive Imitation Learning deals with training a novice policy from\nexpert demonstrations in an online fashion. The established DAgger algorithm\ntrains a robust novice policy by alternating between interacting with the\nenvironment and retraining of the network. Many variants thereof exist, that\ndiffer in the method of discerning whether to allow the novice to act or return\ncontrol to the expert. We propose the use of stochastic reachtubes - common in\nverification of dynamical systems - as a novel method for estimating the\nnecessity of expert intervention. Our approach does not require fine-tuning of\ndecision thresholds per environment and effectively reduces the number of\nexpert interventions, especially when compared with related approaches that\nmake use of a doubt classification model.",
+  "authors": [
+    "Julian Lemmel",
+    "Manuel Kranzl",
+    "Adam Lamine",
+    "Philipp Neubauer",
+    "Radu Grosu",
+    "Sophie A. Neubauer"
+  ],
+  "published": "2025-10-01T13:45:16Z",
+  "primary_category": "eess.SY",
+  "arxiv_url": "https://arxiv.org/abs/2510.00906v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "TubeDAgger提出了一种基于随机可达管的交互式模仿学习方法，通过估计专家干预的必要性，无需针对每个环境微调决策阈值，有效减少了专家干预次数，相比基于怀疑分类模型的现有方法表现更优。",
+  "order": 223,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00906v1"
+}

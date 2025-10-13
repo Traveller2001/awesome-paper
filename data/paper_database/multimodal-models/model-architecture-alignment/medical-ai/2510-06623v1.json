@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06623v1",
+  "title": "DPA-Net: A Dual-Path Attention Neural Network for Inferring Glycemic\n  Control Metrics from Self-Monitored Blood Glucose Data",
+  "summary": "Continuous glucose monitoring (CGM) provides dense and dynamic glucose\nprofiles that enable reliable estimation of Ambulatory Glucose Profile (AGP)\nmetrics, such as Time in Range (TIR), Time Below Range (TBR), and Time Above\nRange (TAR). However, the high cost and limited accessibility of CGM restrict\nits widespread adoption, particularly in low- and middle-income regions. In\ncontrast, self-monitoring of blood glucose (SMBG) is inexpensive and widely\navailable but yields sparse and irregular data that are challenging to\ntranslate into clinically meaningful glycemic metrics.\n  In this work, we propose a Dual-Path Attention Neural Network (DPA-Net) to\nestimate AGP metrics directly from SMBG data. DPA-Net integrates two\ncomplementary paths: (1) a spatial-channel attention path that reconstructs a\nCGM-like trajectory from sparse SMBG observations, and (2) a multi-scale ResNet\npath that directly predicts AGP metrics. An alignment mechanism between the two\npaths is introduced to reduce bias and mitigate overfitting. In addition, we\ndevelop an active point selector to identify realistic and informative SMBG\nsampling points that reflect patient behavioral patterns.\n  Experimental results on a large, real-world dataset demonstrate that DPA-Net\nachieves robust accuracy with low errors while reducing systematic bias. To the\nbest of our knowledge, this is the first supervised machine learning framework\nfor estimating AGP metrics from SMBG data, offering a practical and clinically\nrelevant decision-support tool in settings where CGM is not accessible.",
+  "authors": [
+    "Canyu Lei",
+    "Benjamin Lobo",
+    "Jianxin Xie"
+  ],
+  "published": "2025-10-08T04:06:22Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06623v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'alignment']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出DPA-Net双路径注意力神经网络，通过空间通道注意力路径重建CGM轨迹与多尺度ResNet路径直接预测血糖指标的双路径架构，结合对齐机制降低偏差，并开发主动点选择器优化采样策略，首次实现从稀疏SMBG数据准确估算临床血糖指标，为无法使用连续血糖监测的地区提供实用解决方案。",
+  "order": 233,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06623v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00621v1",
+  "title": "FAME: Adaptive Functional Attention with Expert Routing for\n  Function-on-Function Regression",
+  "summary": "Functional data play a pivotal role across science and engineering, yet their\ninfinite-dimensional nature makes representation learning challenging.\nConventional statistical models depend on pre-chosen basis expansions or\nkernels, limiting the flexibility of data-driven discovery, while many\ndeep-learning pipelines treat functions as fixed-grid vectors, ignoring\ninherent continuity. In this paper, we introduce Functional Attention with a\nMixture-of-Experts (FAME), an end-to-end, fully data-driven framework for\nfunction-on-function regression. FAME forms continuous attention by coupling a\nbidirectional neural controlled differential equation with MoE-driven vector\nfields to capture intra-functional continuity, and further fuses change to\ninter-functional dependencies via multi-head cross attention. Extensive\nexperiments on synthetic and real-world functional-regression benchmarks show\nthat FAME achieves state-of-the-art accuracy, strong robustness to arbitrarily\nsampled discrete observations of functions.",
+  "authors": [
+    "Yifei Gao",
+    "Yong Chen",
+    "Chen Zhang"
+  ],
+  "published": "2025-10-01T07:53:55Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00621v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "FAME提出了一种用于函数对函数回归的自适应功能注意力框架，结合神经控制微分方程和专家混合路由，在保持函数连续性的同时实现数据驱动的表示学习，在合成和真实数据集上达到最先进性能。",
+  "order": 270,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00621v1"
+}

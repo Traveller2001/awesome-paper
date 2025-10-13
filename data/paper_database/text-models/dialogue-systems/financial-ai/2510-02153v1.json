@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02153v1",
+  "title": "Human-Robo-advisor collaboration in decision-making: Evidence from a\n  multiphase mixed methods experimental study",
+  "summary": "Robo-advisors (RAs) are cost-effective, bias-resistant alternatives to human\nfinancial advisors, yet adoption remains limited. While prior research has\nexamined user interactions with RAs, less is known about how individuals\ninterpret RA roles and integrate their advice into decision-making. To address\nthis gap, this study employs a multiphase mixed methods design integrating a\nbehavioral experiment (N = 334), thematic analysis, and follow-up quantitative\ntesting. Findings suggest that people tend to rely on RAs, with reliance shaped\nby information about RA performance and the framing of advice as gains or\nlosses. Thematic analysis reveals three RA roles in decision-making and four\nuser types, each reflecting distinct patterns of advice integration. In\naddition, a 2 x 2 typology categorizes antecedents of acceptance into enablers\nand inhibitors at both the individual and algorithmic levels. By combining\nbehavioral, interpretive, and confirmatory evidence, this study advances\nunderstanding of human-RA collaboration and provides actionable insights for\ndesigning more trustworthy and adaptive RA systems.",
+  "authors": [
+    "Hasan Mahmud",
+    "Najmul Islam",
+    "Satish Krishnan"
+  ],
+  "published": "2025-10-02T16:04:31Z",
+  "primary_category": "cs.HC",
+  "arxiv_url": "https://arxiv.org/abs/2510.02153v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本研究通过多阶段混合方法实验，探讨人机协作决策中用户对机器人顾问的依赖模式。研究发现：用户依赖度受机器人表现信息和损益框架影响；识别出三种机器人决策角色和四类用户类型；提出个体与算法层面的2×2接受度前因分类。为设计更可信赖的自适应机器人顾问系统提供实证依据。",
+  "order": 38,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02153v1"
+}

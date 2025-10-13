@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.06106v1",
+  "title": "The Physics of Data and Tasks: Theories of Locality and Compositionality\n  in Deep Learning",
+  "summary": "Deep neural networks have achieved remarkable success, yet our understanding\nof how they learn remains limited. These models can learn high-dimensional\ntasks, which is generally statistically intractable due to the curse of\ndimensionality. This apparent paradox suggests that learnable data must have an\nunderlying latent structure. What is the nature of this structure? How do\nneural networks encode and exploit it, and how does it quantitatively impact\nperformance - for instance, how does generalization improve with the number of\ntraining examples? This thesis addresses these questions by studying the roles\nof locality and compositionality in data, tasks, and deep learning\nrepresentations.",
+  "authors": [
+    "Alessandro Favero"
+  ],
+  "published": "2025-10-07T16:40:06Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06106v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本论文从物理学视角研究深度学习，探讨数据与任务中的局部性和组合性理论。通过分析深度神经网络如何学习高维任务的内在潜在结构，揭示了局部性和组合性在数据表示与模型性能中的关键作用，为理解神经网络泛化能力与训练样本数量的定量关系提供理论框架。",
+  "order": 94,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06106v1"
+}

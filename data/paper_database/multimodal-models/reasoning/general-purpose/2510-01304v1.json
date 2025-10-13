@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.01304v1",
+  "title": "Agentic Jigsaw Interaction Learning for Enhancing Visual Perception and\n  Reasoning in Vision-Language Models",
+  "summary": "Although current large Vision-Language Models (VLMs) have advanced in\nmultimodal understanding and reasoning, their fundamental perceptual and\nreasoning abilities remain limited. Specifically, even on simple jigsaw tasks,\nexisting VLMs perform near randomly, revealing deficiencies in core perception\nand reasoning capabilities. While high-quality vision-language data can enhance\nthese capabilities, its scarcity and limited scalability impose significant\nconstraints. To address this, we propose AGILE, an Agentic jiGsaw Interaction\nLearning for Enhancing visual perception and reasoning in VLMs. AGILE\nformulates jigsaw solving as an interactive process, enabling the model to\nprogressively engage with the environment. At each step, the model generates\nexecutable code to perform an action based on the current state, while the\nenvironment provides fine-grained visual feedback to guide task completion.\nThrough this iterative cycle of observation and interaction, the model\nincrementally improves its perceptual and reasoning capabilities via\nexploration and feedback. Experimental results show that AGILE not only\nsubstantially boosts performance on jigsaw tasks of varying complexity (e.g.,\nincreasing accuracy from 9.5% to 82.8% under the 2 $\\times$ 2 setting) but also\ndemonstrates strong generalization across 9 general vision tasks, achieving an\naverage improvement of 3.1%. These results indicate notable enhancements in\nboth perceptual and reasoning abilities. This work opens a new avenue for\nadvancing reasoning and generalization in multimodal models and provides an\nefficient, scalable solution to the scarcity of multimodal reinforcement\nlearning data. The code and datasets is available at\nhttps://github.com/yuzeng0-0/AGILE .",
+  "authors": [
+    "Yu Zeng",
+    "Wenxuan Huang",
+    "Shiting Huang",
+    "Xikun Bao",
+    "Yukun Qi",
+    "Yiming Zhao",
+    "Qiuchen Wang",
+    "Lin Chen",
+    "Zehui Chen",
+    "Huaian Chen",
+    "Wanli Ouyang",
+    "Feng Zhao"
+  ],
+  "published": "2025-10-01T17:58:05Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01304v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出AGILE方法，通过将拼图任务构建为交互式学习过程，增强视觉语言模型的感知与推理能力。该方法让模型生成可执行代码与环境交互，通过渐进式探索和视觉反馈提升性能。实验显示在2×2拼图任务中准确率从9.5%提升至82.8%，并在9个通用视觉任务上平均提升3.1%，为解决多模态强化学习数据稀缺问题提供了可扩展方案。",
+  "order": 414,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01304v1"
+}

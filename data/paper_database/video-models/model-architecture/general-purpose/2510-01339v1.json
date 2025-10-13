@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01339v1",
+  "title": "LVTINO: LAtent Video consisTency INverse sOlver for High Definition\n  Video Restoration",
+  "summary": "Computational imaging methods increasingly rely on powerful generative\ndiffusion models to tackle challenging image restoration tasks. In particular,\nstate-of-the-art zero-shot image inverse solvers leverage distilled\ntext-to-image latent diffusion models (LDMs) to achieve unprecedented accuracy\nand perceptual quality with high computational efficiency. However, extending\nthese advances to high-definition video restoration remains a significant\nchallenge, due to the need to recover fine spatial detail while capturing\nsubtle temporal dependencies. Consequently, methods that naively apply\nimage-based LDM priors on a frame-by-frame basis often result in temporally\ninconsistent reconstructions. We address this challenge by leveraging recent\nadvances in Video Consistency Models (VCMs), which distill video latent\ndiffusion models into fast generators that explicitly capture temporal\ncausality. Building on this foundation, we propose LVTINO, the first zero-shot\nor plug-and-play inverse solver for high definition video restoration with\npriors encoded by VCMs. Our conditioning mechanism bypasses the need for\nautomatic differentiation and achieves state-of-the-art video reconstruction\nquality with only a few neural function evaluations, while ensuring strong\nmeasurement consistency and smooth temporal transitions across frames.\nExtensive experiments on a diverse set of video inverse problems show\nsignificant perceptual improvements over current state-of-the-art methods that\napply image LDMs frame by frame, establishing a new benchmark in both\nreconstruction fidelity and computational efficiency.",
+  "authors": [
+    "Alessio Spagnoletti",
+    "Andrés Almansa",
+    "Marcelo Pereyra"
+  ],
+  "published": "2025-10-01T18:10:08Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01339v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "LVTINO是一种基于视频一致性模型的零样本高清视频修复方法，通过利用视频潜在扩散模型的蒸馏技术，在保持测量一致性和时间平滑性的同时，显著提升了视频重建质量与计算效率。",
+  "order": 592,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01339v1"
+}

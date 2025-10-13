@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06113v1",
+  "title": "Multimodal Feature Prototype Learning for Interpretable and\n  Discriminative Cancer Survival Prediction",
+  "summary": "Survival analysis plays a vital role in making clinical decisions. However,\nthe models currently in use are often difficult to interpret, which reduces\ntheir usefulness in clinical settings. Prototype learning presents a potential\nsolution, yet traditional methods focus on local similarities and static\nmatching, neglecting the broader tumor context and lacking strong semantic\nalignment with genomic data. To overcome these issues, we introduce an\ninnovative prototype-based multimodal framework, FeatProto, aimed at enhancing\ncancer survival prediction by addressing significant limitations in current\nprototype learning methodologies within pathology. Our framework establishes a\nunified feature prototype space that integrates both global and local features\nof whole slide images (WSI) with genomic profiles. This integration facilitates\ntraceable and interpretable decision-making processes. Our approach includes\nthree main innovations: (1) A robust phenotype representation that merges\ncritical patches with global context, harmonized with genomic data to minimize\nlocal bias. (2) An Exponential Prototype Update Strategy (EMA ProtoUp) that\nsustains stable cross-modal associations and employs a wandering mechanism to\nadapt prototypes flexibly to tumor heterogeneity. (3) A hierarchical prototype\nmatching scheme designed to capture global centrality, local typicality, and\ncohort-level trends, thereby refining prototype inference. Comprehensive\nevaluations on four publicly available cancer datasets indicate that our method\nsurpasses current leading unimodal and multimodal survival prediction\ntechniques in both accuracy and interoperability, providing a new perspective\non prototype learning for critical medical applications. Our source code is\navailable at https://github.com/JSLiam94/FeatProto.",
+  "authors": [
+    "Shuo Jiang",
+    "Zhuwen Chen",
+    "Liaoman Xu",
+    "Yanming Zhu",
+    "Changmiao Wang",
+    "Jiong Zhang",
+    "Feiwei Qin",
+    "Yifei Chen",
+    "Zhu Zhu"
+  ],
+  "published": "2025-10-07T16:49:52Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06113v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出FeatProto框架，通过构建统一特征原型空间整合病理图像全局/局部特征与基因组数据，采用指数原型更新策略和分层匹配机制，显著提升癌症生存预测的准确性和可解释性，在四个公开数据集上超越现有方法。",
+  "order": 67,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06113v1"
+}

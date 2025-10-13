@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01470v1",
+  "title": "Extracting O*NET Features from the NLx Corpus to Build Public Use\n  Aggregate Labor Market Data",
+  "summary": "Data from online job postings are difficult to access and are not built in a\nstandard or transparent manner. Data included in the standard taxonomy and\noccupational information database (O*NET) are updated infrequently and based on\nsmall survey samples. We adopt O*NET as a framework for building natural\nlanguage processing tools that extract structured information from job\npostings. We publish the Job Ad Analysis Toolkit (JAAT), a collection of\nopen-source tools built for this purpose, and demonstrate its reliability and\naccuracy in out-of-sample and LLM-as-a-Judge testing. We extract more than 10\nbillion data points from more than 155 million online job ads provided by the\nNational Labor Exchange (NLx) Research Hub, including O*NET tasks, occupation\ncodes, tools, and technologies, as well as wages, skills, industry, and more\nfeatures. We describe the construction of a dataset of occupation, state, and\nindustry level features aggregated by monthly active jobs from 2015 - 2025. We\nillustrate the potential for research and future uses in education and\nworkforce development.",
+  "authors": [
+    "Stephen Meisenbacher",
+    "Svetlozar Nestorov",
+    "Peter Norlander"
+  ],
+  "published": "2025-10-01T21:27:11Z",
+  "primary_category": "cs.CY",
+  "arxiv_url": "https://arxiv.org/abs/2510.01470v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "education_ai",
+  "tldr_zh": "本研究开发了基于O*NET框架的自然语言处理工具JAAT，用于从在线招聘广告中提取结构化劳动力市场数据。该工具从1.55亿条招聘广告中提取了超过100亿个数据点，构建了2015-2025年月度活跃工作的职业、州和行业级特征数据集，为教育和劳动力发展研究提供公开可用的聚合数据。",
+  "order": 401,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01470v1"
+}

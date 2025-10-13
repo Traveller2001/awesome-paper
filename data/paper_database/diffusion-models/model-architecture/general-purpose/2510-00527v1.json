@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00527v1",
+  "title": "Cascaded Diffusion Framework for Probabilistic Coarse-to-Fine Hand Pose\n  Estimation",
+  "summary": "Deterministic models for 3D hand pose reconstruction, whether single-staged\nor cascaded, struggle with pose ambiguities caused by self-occlusions and\ncomplex hand articulations. Existing cascaded approaches refine predictions in\na coarse-to-fine manner but remain deterministic and cannot capture pose\nuncertainties. Recent probabilistic methods model pose distributions yet are\nrestricted to single-stage estimation, which often fails to produce accurate 3D\nreconstructions without refinement. To address these limitations, we propose a\ncoarse-to-fine cascaded diffusion framework that combines probabilistic\nmodeling with cascaded refinement. The first stage is a joint diffusion model\nthat samples diverse 3D joint hypotheses, and the second stage is a Mesh Latent\nDiffusion Model (Mesh LDM) that reconstructs a 3D hand mesh conditioned on a\njoint sample. By training Mesh LDM with diverse joint hypotheses in a learned\nlatent space, our framework learns distribution-aware joint-mesh relationships\nand robust hand priors. Furthermore, the cascaded design mitigates the\ndifficulty of directly mapping 2D images to dense 3D poses, enhancing accuracy\nthrough sequential refinement. Experiments on FreiHAND and HO3Dv2 demonstrate\nthat our method achieves state-of-the-art performance while effectively\nmodeling pose distributions.",
+  "authors": [
+    "Taeyun Woo",
+    "Jinah Park",
+    "Tae-Kyun Kim"
+  ],
+  "published": "2025-10-01T05:19:15Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00527v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种级联扩散框架，通过两阶段概率建模解决3D手部姿态估计中的模糊性问题：首阶段使用关节扩散模型生成多样3D关节假设，次阶段通过网格隐扩散模型重建手部网格。该方法在FreiHAND和HO3Dv2数据集上实现最先进性能，有效建模姿态分布并提升重建精度。",
+  "order": 666,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00527v1"
+}

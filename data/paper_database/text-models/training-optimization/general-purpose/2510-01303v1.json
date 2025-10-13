@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01303v1",
+  "title": "Low Rank Gradients and Where to Find Them",
+  "summary": "This paper investigates low-rank structure in the gradients of the training\nloss for two-layer neural networks while relaxing the usual isotropy\nassumptions on the training data and parameters. We consider a spiked data\nmodel in which the bulk can be anisotropic and ill-conditioned, we do not\nrequire independent data and weight matrices and we also analyze both the\nmean-field and neural-tangent-kernel scalings. We show that the gradient with\nrespect to the input weights is approximately low rank and is dominated by two\nrank-one terms: one aligned with the bulk data-residue , and another aligned\nwith the rank one spike in the input data. We characterize how properties of\nthe training data, the scaling regime and the activation function govern the\nbalance between these two components. Additionally, we also demonstrate that\nstandard regularizers, such as weight decay, input noise and Jacobian\npenalties, also selectively modulate these components. Experiments on synthetic\nand real data corroborate our theoretical predictions.",
+  "authors": [
+    "Rishi Sonthalia",
+    "Michael Murray",
+    "Guido Montúfar"
+  ],
+  "published": "2025-10-01T16:20:19Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01303v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究两层神经网络训练损失梯度的低秩结构，放宽了训练数据和参数的各向同性假设。在尖峰数据模型中，证明了输入权重梯度近似低秩且由两个秩一分量主导：一个与数据残差对齐，另一个与输入数据中的尖峰对齐。分析了数据特性、缩放机制和激活函数对这两个分量的影响，并展示了标准正则化方法的选择性调节作用。",
+  "order": 197,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01303v1"
+}

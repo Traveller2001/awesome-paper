@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02305v1",
+  "title": "Diffusion Models and the Manifold Hypothesis: Log-Domain Smoothing is\n  Geometry Adaptive",
+  "summary": "Diffusion models have achieved state-of-the-art performance, demonstrating\nremarkable generalisation capabilities across diverse domains. However, the\nmechanisms underpinning these strong capabilities remain only partially\nunderstood. A leading conjecture, based on the manifold hypothesis, attributes\nthis success to their ability to adapt to low-dimensional geometric structure\nwithin the data. This work provides evidence for this conjecture, focusing on\nhow such phenomena could result from the formulation of the learning problem\nthrough score matching. We inspect the role of implicit regularisation by\ninvestigating the effect of smoothing minimisers of the empirical score\nmatching objective. Our theoretical and empirical results confirm that\nsmoothing the score function -- or equivalently, smoothing in the log-density\ndomain -- produces smoothing tangential to the data manifold. In addition, we\nshow that the manifold along which the diffusion model generalises can be\ncontrolled by choosing an appropriate smoothing.",
+  "authors": [
+    "Tyler Farghly",
+    "Peter Potaptchik",
+    "Samuel Howard",
+    "George Deligiannidis",
+    "Jakiw Pidstrigach"
+  ],
+  "published": "2025-10-02T17:59:39Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02305v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究验证了扩散模型成功的关键在于其对数据流形几何结构的自适应能力。通过分析分数匹配学习问题，发现对数密度域平滑处理能产生沿数据流形的切向平滑，且可通过选择不同平滑方式控制模型泛化的流形结构。",
+  "order": 692,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02305v1"
+}

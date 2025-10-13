@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00475v1",
+  "title": "Diagnosing Shortcut-Induced Rigidity in Continual Learning: The\n  Einstellung Rigidity Index (ERI)",
+  "summary": "Deep neural networks frequently exploit shortcut features, defined as\nincidental correlations between inputs and labels without causal meaning.\nShortcut features undermine robustness and reduce reliability under\ndistribution shifts. In continual learning (CL), the consequences of shortcut\nexploitation can persist and intensify: weights inherited from earlier tasks\nbias representation reuse toward whatever features most easily satisfied prior\nlabels, mirroring the cognitive Einstellung effect, a phenomenon where past\nhabits block optimal solutions. Whereas catastrophic forgetting erodes past\nskills, shortcut-induced rigidity throttles the acquisition of new ones. We\nintroduce the Einstellung Rigidity Index (ERI), a compact diagnostic that\ndisentangles genuine transfer from cue-inflated performance using three\ninterpretable facets: (i) Adaptation Delay (AD), (ii) Performance Deficit (PD),\nand (iii) Relative Suboptimal Feature Reliance (SFR_rel). On a two-phase\nCIFAR-100 CL benchmark with a deliberately spurious magenta patch in Phase 2,\nwe evaluate Naive fine-tuning (SGD), online Elastic Weight Consolidation\n(EWC_on), Dark Experience Replay (DER++), Gradient Projection Memory (GPM), and\nDeep Generative Replay (DGR). Across these continual learning methods, we\nobserve that CL methods reach accuracy thresholds earlier than a Scratch-T2\nbaseline (negative AD) but achieve slightly lower final accuracy on patched\nshortcut classes (positive PD). Masking the patch improves accuracy for CL\nmethods while slightly reducing Scratch-T2, yielding negative SFR_rel. This\npattern indicates the patch acted as a distractor for CL models in this setting\nrather than a helpful shortcut.",
+  "authors": [
+    "Kai Gu",
+    "Weishi Shi"
+  ],
+  "published": "2025-10-01T03:52:40Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00475v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Einstellung刚性指数(ERI)，用于诊断持续学习中的捷径特征诱导刚性现象。通过三个可解释维度(适应延迟、性能赤字、相对次优特征依赖)量化模型对非因果捷径特征的依赖程度，在CIFAR-100基准测试中发现持续学习方法易受虚假特征干扰，揭示了类似认知定势效应的学习刚性问题。",
+  "order": 675,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00475v1"
+}

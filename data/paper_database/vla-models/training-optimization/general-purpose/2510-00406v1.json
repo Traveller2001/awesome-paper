@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.00406v1",
+  "title": "VLA-RFT: Vision-Language-Action Reinforcement Fine-tuning with Verified\n  Rewards in World Simulators",
+  "summary": "Vision-Language-Action (VLA) models enable embodied decision-making but rely\nheavily on imitation learning, leading to compounding errors and poor\nrobustness under distribution shift. Reinforcement learning (RL) can mitigate\nthese issues yet typically demands costly real-world interactions or suffers\nfrom sim-to-real gaps. We introduce VLA-RFT, a reinforcement fine-tuning\nframework that leverages a data-driven world model as a controllable simulator.\nTrained from real interaction data, the simulator predicts future visual\nobservations conditioned on actions, allowing policy rollouts with dense,\ntrajectory-level rewards derived from goal-achieving references. This design\ndelivers an efficient and action-aligned learning signal, drastically lowering\nsample requirements. With fewer than 400 fine-tuning steps, VLA-RFT surpasses\nstrong supervised baselines and achieves greater efficiency than\nsimulator-based RL. Moreover, it exhibits strong robustness under perturbed\nconditions, sustaining stable task execution. Our results establish\nworld-model-based RFT as a practical post-training paradigm to enhance the\ngeneralization and robustness of VLA models. For more details, please refer to\nhttps://vla-rft.github.io/.",
+  "authors": [
+    "Hengtao Li",
+    "Pengxiang Ding",
+    "Runze Suo",
+    "Yihao Wang",
+    "Zirui Ge",
+    "Dongyuan Zang",
+    "Kexian Yu",
+    "Mingyang Sun",
+    "Hongyin Zhang",
+    "Donglin Wang",
+    "Weihua Su"
+  ],
+  "published": "2025-10-01T01:33:10Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.00406v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VLA-RFT提出一种基于世界模型的强化微调框架，通过数据驱动的可控模拟器生成密集奖励信号，仅需不到400步微调即可超越监督基线，显著提升VLA模型的泛化能力和鲁棒性。",
+  "order": 685,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00406v1"
+}

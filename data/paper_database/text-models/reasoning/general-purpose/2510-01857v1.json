@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01857v1",
+  "title": "Learning a Dense Reasoning Reward Model from Expert Demonstration via\n  Inverse Reinforcement Learning",
+  "summary": "We reframe and operationalise adversarial inverse reinforcement learning\n(IRL) to large language model reasoning, learning a dense, token-level reward\nmodel for process supervision directly from expert demonstrations rather than\nimitating style via supervised fine-tuning. The learned reasoning reward serves\ntwo complementary roles: (i) it provides step-level feedback to optimise a\nreasoning policy during training; and (ii) it functions at inference as a\ncritic to rerank sampled traces under fixed compute budgets. We demonstrate\nthat our approach prioritises correctness over surface form, yielding scores\nthat correlate with eventual answer validity and enabling interpretable\nlocalisation of errors within a trace. Empirically, on GSM8K with Llama3 and\nQwen2.5 backbones, we demonstrate: (i) dense reasoning rewards can be used as a\nlearning signal to elicit reasoning, and (ii) predictive performance is\nimproved from reward-guided reranking (notably for Llama-based policies). By\nunifying training signals, inference-time selection, and token-level\ndiagnostics into a single reasoning reward, this work suggests reusable\nprocess-level rewards with broad potential to enhance multi-step reasoning in\nlanguage models.",
+  "authors": [
+    "Claudio Fanconi",
+    "Nicolás Astorga",
+    "Mihaela van der Schaar"
+  ],
+  "published": "2025-10-02T09:55:26Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01857v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过逆向强化学习从专家演示中学习密集的token级推理奖励模型，用于过程监督而非风格模仿。该奖励模型在训练时提供步骤级反馈优化推理策略，在推理时作为评判器重排采样轨迹。实验证明该方法优先考虑正确性而非表面形式，在GSM8K数据集上提升了Llama3和Qwen2.5的推理性能。",
+  "order": 70,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01857v1"
+}

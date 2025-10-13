@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01677v1",
+  "title": "Beyond Simple Fusion: Adaptive Gated Fusion for Robust Multimodal\n  Sentiment Analysis",
+  "summary": "Multimodal sentiment analysis (MSA) leverages information fusion from diverse\nmodalities (e.g., text, audio, visual) to enhance sentiment prediction.\nHowever, simple fusion techniques often fail to account for variations in\nmodality quality, such as those that are noisy, missing, or semantically\nconflicting. This oversight leads to suboptimal performance, especially in\ndiscerning subtle emotional nuances. To mitigate this limitation, we introduce\na simple yet efficient \\textbf{A}daptive \\textbf{G}ated \\textbf{F}usion\n\\textbf{N}etwork that adaptively adjusts feature weights via a dual gate fusion\nmechanism based on information entropy and modality importance. This mechanism\nmitigates the influence of noisy modalities and prioritizes informative cues\nfollowing unimodal encoding and cross-modal interaction. Experiments on\nCMU-MOSI and CMU-MOSEI show that AGFN significantly outperforms strong\nbaselines in accuracy, effectively discerning subtle emotions with robust\nperformance. Visualization analysis of feature representations demonstrates\nthat AGFN enhances generalization by learning from a broader feature\ndistribution, achieved by reducing the correlation between feature location and\nprediction error, thereby decreasing reliance on specific locations and\ncreating more robust multimodal feature representations.",
+  "authors": [
+    "Han Wu",
+    "Yanming Sun",
+    "Yunhe Yang",
+    "Derek F. Wong"
+  ],
+  "published": "2025-10-02T05:05:41Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01677v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出自适应门控融合网络(AGFN)，通过基于信息熵和模态重要性的双门融合机制，动态调整多模态特征权重，有效处理噪声、缺失或语义冲突的模态数据，在CMU-MOSI和CMU-MOSEI数据集上显著提升情感分析准确率，增强模型对细微情感的识别能力和泛化性能。",
+  "order": 556,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01677v1"
+}

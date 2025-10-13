@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02306v1",
+  "title": "Drawing Conclusions from Draws: Rethinking Preference Semantics in\n  Arena-Style LLM Evaluation",
+  "summary": "In arena-style evaluation of large language models (LLMs), two LLMs respond\nto a user query, and the user chooses the winning response or deems the\n\"battle\" a draw, resulting in an adjustment to the ratings of both models. The\nprevailing approach for modeling these rating dynamics is to view battles as\ntwo-player game matches, as in chess, and apply the Elo rating system and its\nderivatives. In this paper, we critically examine this paradigm. Specifically,\nwe question whether a draw genuinely means that the two models are equal and\nhence whether their ratings should be equalized. Instead, we conjecture that\ndraws are more indicative of query difficulty: if the query is too easy, then\nboth models are more likely to succeed equally. On three real-world arena\ndatasets, we show that ignoring rating updates for draws yields a 1-3% relative\nincrease in battle outcome prediction accuracy (which includes draws) for all\nfour rating systems studied. Further analyses suggest that draws occur more for\nqueries rated as very easy and those as highly objective, with risk ratios of\n1.37 and 1.35, respectively. We recommend future rating systems to reconsider\nexisting draw semantics and to account for query properties in rating updates.",
+  "authors": [
+    "Raphael Tang",
+    "Crystina Zhang",
+    "Wenyan Li",
+    "Carmen Lai",
+    "Pontus Stenetorp",
+    "Yao Lu"
+  ],
+  "published": "2025-10-02T17:59:41Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02306v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文批判性审视了竞技场式大语言模型评估中平局处理的现有范式，挑战了平局意味着模型能力相等的传统观点。通过三个真实数据集分析发现，平局更可能反映查询难度而非模型对等，忽略平局时的评分更新可提升1-3%的预测准确率。研究建议未来评分系统应重新考虑平局语义并纳入查询属性。",
+  "order": 329,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02306v1"
+}

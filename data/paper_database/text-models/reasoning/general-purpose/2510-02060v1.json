@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.02060v1",
+  "title": "ReTabAD: A Benchmark for Restoring Semantic Context in Tabular Anomaly\n  Detection",
+  "summary": "In tabular anomaly detection (AD), textual semantics often carry critical\nsignals, as the definition of an anomaly is closely tied to domain-specific\ncontext. However, existing benchmarks provide only raw data points without\nsemantic context, overlooking rich textual metadata such as feature\ndescriptions and domain knowledge that experts rely on in practice. This\nlimitation restricts research flexibility and prevents models from fully\nleveraging domain knowledge for detection. ReTabAD addresses this gap by\nrestoring textual semantics to enable context-aware tabular AD research. We\nprovide (1) 20 carefully curated tabular datasets enriched with structured\ntextual metadata, together with implementations of state-of-the-art AD\nalgorithms including classical, deep learning, and LLM-based approaches, and\n(2) a zero-shot LLM framework that leverages semantic context without\ntask-specific training, establishing a strong baseline for future research.\nFurthermore, this work provides insights into the role and utility of textual\nmetadata in AD through experiments and analysis. Results show that semantic\ncontext improves detection performance and enhances interpretability by\nsupporting domain-aware reasoning. These findings establish ReTabAD as a\nbenchmark for systematic exploration of context-aware AD.",
+  "authors": [
+    "Sanghyu Yoon",
+    "Dongmin Kim",
+    "Suhee Yoon",
+    "Ye Seul Sim",
+    "Seungdong Yoa",
+    "Hye-Seung Cho",
+    "Soonyoung Lee",
+    "Hankook Lee",
+    "Woohyung Lim"
+  ],
+  "published": "2025-10-02T14:28:45Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.02060v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ReTabAD是一个用于表格异常检测的基准数据集，通过恢复文本语义上下文来解决现有基准缺乏领域知识的问题。该工作提供20个包含结构化文本元数据的表格数据集，实现了包括传统方法、深度学习和LLM在内的先进异常检测算法，并提出了无需任务特定训练的零样本LLM框架。实验表明语义上下文能提升检测性能并增强可解释性。",
+  "order": 755,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02060v1"
+}

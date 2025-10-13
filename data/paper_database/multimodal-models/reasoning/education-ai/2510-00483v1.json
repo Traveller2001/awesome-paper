@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.00483v1",
+  "title": "MathSticks: A Benchmark for Visual Symbolic Compositional Reasoning with\n  Matchstick Puzzles",
+  "summary": "We introduce \\textsc{MathSticks}, a benchmark for Visual Symbolic\nCompositional Reasoning (VSCR), which unifies visual perception, symbolic\nmanipulation, and arithmetic consistency. Each task presents an incorrect\nmatchstick equation that must be corrected by moving one or two sticks under\nstrict conservation rules. The benchmark includes both text-guided and purely\nvisual settings, systematically covering digit scale, move complexity, solution\nmultiplicity, and operator variation, with 1.4M generated instances and a\ncurated test set. Evaluations of 14 vision--language models reveal substantial\nlimitations: closed-source models succeed only on simple cases, open-source\nmodels fail in the visual regime, while humans exceed 90\\% accuracy. These\nfindings establish \\textsc{MathSticks} as a rigorous testbed for advancing\ncompositional reasoning across vision and symbols. Our code and dataset are\npublicly available at https://github.com/Yuheng2000/MathSticks.",
+  "authors": [
+    "Yuheng Ji",
+    "Huajie Tan",
+    "Cheng Chi",
+    "Yijie Xu",
+    "Yuting Zhao",
+    "Enshen Zhou",
+    "Huaihai Lyu",
+    "Pengwei Wang",
+    "Zhongyuan Wang",
+    "Shanghang Zhang",
+    "Xiaolong Zheng"
+  ],
+  "published": "2025-10-01T04:04:54Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00483v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "education_ai",
+  "tldr_zh": "MathSticks是一个视觉符号组合推理基准，通过火柴棒拼图任务评估模型在视觉感知、符号操作和算术一致性方面的能力。该基准包含140万生成实例和精选测试集，评估显示现有视觉语言模型在此类组合推理任务上存在显著局限，而人类准确率超过90%。",
+  "order": 674,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00483v1"
+}

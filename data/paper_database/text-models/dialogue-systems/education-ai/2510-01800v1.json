@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01800v1",
+  "title": "REBot: From RAG to CatRAG with Semantic Enrichment and Graph Routing",
+  "summary": "Academic regulation advising is essential for helping students interpret and\ncomply with institutional policies, yet building effective systems requires\ndomain specific regulatory resources. To address this challenge, we propose\nREBot, an LLM enhanced advisory chatbot powered by CatRAG, a hybrid retrieval\nreasoning framework that integrates retrieval augmented generation with graph\nbased reasoning. CatRAG unifies dense retrieval and graph reasoning, supported\nby a hierarchical, category labeled knowledge graph enriched with semantic\nfeatures for domain alignment. A lightweight intent classifier routes queries\nto the appropriate retrieval modules, ensuring both factual accuracy and\ncontextual depth. We construct a regulation specific dataset and evaluate REBot\non classification and question answering tasks, achieving state of the art\nperformance with an F1 score of 98.89%. Finally, we implement a web application\nthat demonstrates the practical value of REBot in real world academic advising\nscenarios.",
+  "authors": [
+    "Thanh Ma",
+    "Tri-Tam La",
+    "Lam-Thu Le Huu",
+    "Minh-Nghi Nguyen",
+    "Khanh-Van Pham Luu",
+    "Huu-Hoa Nguyen"
+  ],
+  "published": "2025-10-02T08:40:55Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01800v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "education_ai",
+  "tldr_zh": "REBot是一款基于CatRAG框架的学术咨询聊天机器人，通过结合检索增强生成与图推理技术，构建分层分类知识图谱并利用语义特征进行领域对齐。该系统在学术政策咨询任务中达到98.89%的F1分数，并通过轻量级意图分类器实现精准查询路由，已部署为实际可用的网络应用。",
+  "order": 76,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01800v1"
+}

@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.00438v1",
+  "title": "BindWeave: Subject-Consistent Video Generation via Cross-Modal\n  Integration",
+  "summary": "Diffusion Transformer has shown remarkable abilities in generating\nhigh-fidelity videos, delivering visually coherent frames and rich details over\nextended durations. However, existing video generation models still fall short\nin subject-consistent video generation due to an inherent difficulty in parsing\nprompts that specify complex spatial relationships, temporal logic, and\ninteractions among multiple subjects. To address this issue, we propose\nBindWeave, a unified framework that handles a broad range of subject-to-video\nscenarios from single-subject cases to complex multi-subject scenes with\nheterogeneous entities. To bind complex prompt semantics to concrete visual\nsubjects, we introduce an MLLM-DiT framework in which a pretrained multimodal\nlarge language model performs deep cross-modal reasoning to ground entities and\ndisentangle roles, attributes, and interactions, yielding subject-aware hidden\nstates that condition the diffusion transformer for high-fidelity\nsubject-consistent video generation. Experiments on the OpenS2V benchmark\ndemonstrate that our method achieves superior performance across subject\nconsistency, naturalness, and text relevance in generated videos, outperforming\nexisting open-source and commercial models.",
+  "authors": [
+    "Zhaoyang Li",
+    "Dongjun Qian",
+    "Kai Su",
+    "Qishuai Diao",
+    "Xiangyang Xia",
+    "Chang Liu",
+    "Wenfei Yang",
+    "Tianzhu Zhang",
+    "Zehuan Yuan"
+  ],
+  "published": "2025-10-01T02:41:11Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00438v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "BindWeave提出了一种通过多模态大语言模型与扩散Transformer结合的框架，解决现有视频生成模型在复杂多主体场景下主题一致性的难题。该方法通过跨模态推理解析提示中的空间关系、时间逻辑和主体交互，在OpenS2V基准测试中在主题一致性、自然度和文本相关性方面优于现有模型。",
+  "order": 679,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00438v1"
+}

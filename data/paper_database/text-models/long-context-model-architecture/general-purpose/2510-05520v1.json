@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.05520v1",
+  "title": "CAM: A Constructivist View of Agentic Memory for LLM-Based Reading\n  Comprehension",
+  "summary": "Current Large Language Models (LLMs) are confronted with overwhelming\ninformation volume when comprehending long-form documents. This challenge\nraises the imperative of a cohesive memory module, which can elevate vanilla\nLLMs into autonomous reading agents. Despite the emergence of some heuristic\napproaches, a systematic design principle remains absent. To fill this void, we\ndraw inspiration from Jean Piaget's Constructivist Theory, illuminating three\ntraits of the agentic memory -- structured schemata, flexible assimilation, and\ndynamic accommodation. This blueprint forges a clear path toward a more robust\nand efficient memory system for LLM-based reading comprehension. To this end,\nwe develop CAM, a prototype implementation of Constructivist Agentic Memory\nthat simultaneously embodies the structurality, flexibility, and dynamicity. At\nits core, CAM is endowed with an incremental overlapping clustering algorithm\nfor structured memory development, supporting both coherent hierarchical\nsummarization and online batch integration. During inference, CAM adaptively\nexplores the memory structure to activate query-relevant information for\ncontextual response, akin to the human associative process. Compared to\nexisting approaches, our design demonstrates dual advantages in both\nperformance and efficiency across diverse long-text reading comprehension\ntasks, including question answering, query-based summarization, and claim\nverification.",
+  "authors": [
+    "Rui Li",
+    "Zeyu Zhang",
+    "Xiaohe Bo",
+    "Zihang Tian",
+    "Xu Chen",
+    "Quanyu Dai",
+    "Zhenhua Dong",
+    "Ruiming Tang"
+  ],
+  "published": "2025-10-07T02:16:30Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05520v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['long_context', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CAM（建构主义能动记忆）框架，受皮亚杰建构主义理论启发，为LLM长文档阅读理解设计结构化记忆系统。通过增量重叠聚类算法实现层次化记忆构建，在问答、查询摘要等任务中展现优越性能与效率。",
+  "order": 52,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05520v1"
+}

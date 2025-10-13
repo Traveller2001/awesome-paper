@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05583v1",
+  "title": "When Does Global Attention Help? A Unified Empirical Study on Atomistic\n  Graph Learning",
+  "summary": "Graph neural networks (GNNs) are widely used as surrogates for costly\nexperiments and first-principles simulations to study the behavior of compounds\nat atomistic scale, and their architectural complexity is constantly increasing\nto enable the modeling of complex physics. While most recent GNNs combine more\ntraditional message passing neural networks (MPNNs) layers to model short-range\ninteractions with more advanced graph transformers (GTs) with global attention\nmechanisms to model long-range interactions, it is still unclear when global\nattention mechanisms provide real benefits over well-tuned MPNN layers due to\ninconsistent implementations, features, or hyperparameter tuning. We introduce\nthe first unified, reproducible benchmarking framework - built on HydraGNN -\nthat enables seamless switching among four controlled model classes: MPNN, MPNN\nwith chemistry/topology encoders, GPS-style hybrids of MPNN with global\nattention, and fully fused local - global models with encoders. Using seven\ndiverse open-source datasets for benchmarking across regression and\nclassification tasks, we systematically isolate the contributions of message\npassing, global attention, and encoder-based feature augmentation. Our study\nshows that encoder-augmented MPNNs form a robust baseline, while fused\nlocal-global models yield the clearest benefits for properties governed by\nlong-range interaction effects. We further quantify the accuracy - compute\ntrade-offs of attention, reporting its overhead in memory. Together, these\nresults establish the first controlled evaluation of global attention in\natomistic graph learning and provide a reproducible testbed for future model\ndevelopment.",
+  "authors": [
+    "Arindam Chowdhury",
+    "Massimiliano Lupo Pasini"
+  ],
+  "published": "2025-10-07T05:01:19Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05583v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究首次系统评估了全局注意力机制在原子图学习中的作用，提出了统一的可复现基准框架HydraGNN，通过七大数据集对比了四种模型架构。研究发现：编码器增强的MPNN构成稳健基线，而融合局部-全局的模型在长程相互作用主导的性质中表现最佳，同时量化了注意力机制的计算开销与内存占用。",
+  "order": 137,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05583v1"
+}

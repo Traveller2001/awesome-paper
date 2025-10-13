@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01932v1",
+  "title": "Veri-R1: Toward Precise and Faithful Claim Verification via Online\n  Reinforcement Learning",
+  "summary": "Claim verification with large language models (LLMs) has recently attracted\nconsiderable attention, owing to their superior reasoning capabilities and\ntransparent verification pathways compared to traditional answer-only\njudgments. Online claim verification requires iterative evidence retrieval and\nreasoning, yet existing approaches mainly rely on prompt engineering or\npredesigned reasoning workflows without offering a unified training paradigm to\nimprove necessary skills. Therefore, we introduce Veri-R1, an online\nreinforcement learning (RL) framework that enables an LLM to interact with a\nsearch engine and to receive reward signals that explicitly shape its planning,\nretrieval, and reasoning behaviors. The dynamic interaction between models and\nretrieval systems more accurately reflects real-world verification scenarios\nand fosters comprehensive verification skills. Empirical results show that\nVeri-R1 improves joint accuracy by up to 30% and doubles evidence score, often\nsurpassing larger-scale counterparts. Ablation studies further reveal the\nimpact of reward components and the link between output logits and label\naccuracy. Our results highlight the effectiveness of online RL for precise and\nfaithful claim verification and provide a foundation for future research. We\nrelease our code to support community progress in LLM empowered claim\nverification.",
+  "authors": [
+    "Qi He",
+    "Cheng Qian",
+    "Xiusi Chen",
+    "Bingxiang He",
+    "Yi R.",
+    "Fung",
+    "Heng Ji"
+  ],
+  "published": "2025-10-02T11:49:48Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01932v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Veri-R1是一种基于在线强化学习的框架，通过让大语言模型与搜索引擎交互并接收奖励信号，提升其在声明验证中的规划、检索和推理能力。实验表明该方法将联合准确率提升高达30%，证据分数翻倍，优于更大规模的模型，为精确可信的声明验证提供了有效解决方案。",
+  "order": 359,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01932v1"
+}

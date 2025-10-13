@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01666v1",
+  "title": "Median2Median: Zero-shot Suppression of Structured Noise in Images",
+  "summary": "Image denoising is a fundamental problem in computer vision and medical\nimaging. However, real-world images are often degraded by structured noise with\nstrong anisotropic correlations that existing methods struggle to remove. Most\ndata-driven approaches rely on large datasets with high-quality labels and\nstill suffer from limited generalizability, whereas existing zero-shot methods\navoid this limitation but remain effective only for independent and identically\ndistributed (i.i.d.) noise. To address this gap, we propose Median2Median\n(M2M), a zero-shot denoising framework designed for structured noise. M2M\nintroduces a novel sampling strategy that generates pseudo-independent\nsub-image pairs from a single noisy input. This strategy leverages directional\ninterpolation and generalized median filtering to adaptively exclude values\ndistorted by structured artifacts. To further enlarge the effective sampling\nspace and eliminate systematic bias, a randomized assignment strategy is\nemployed, ensuring that the sampled sub-image pairs are suitable for\nNoise2Noise training. In our realistic simulation studies, M2M performs on par\nwith state-of-the-art zero-shot methods under i.i.d. noise, while consistently\noutperforming them under correlated noise. These findings establish M2M as an\nefficient, data-free solution for structured noise suppression and mark the\nfirst step toward effective zero-shot denoising beyond the strict i.i.d.\nassumption.",
+  "authors": [
+    "Jianxu Wang",
+    "Ge Wang"
+  ],
+  "published": "2025-10-02T04:47:00Z",
+  "primary_category": "eess.IV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01666v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "提出Median2Median零样本去噪框架，专门针对具有强各向异性相关的结构化噪声。通过方向插值和广义中值滤波生成伪独立子图像对，无需训练数据即可有效抑制医学图像等领域的结构化噪声，在相关噪声条件下优于现有零样本方法。",
+  "order": 558,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01666v1"
+}

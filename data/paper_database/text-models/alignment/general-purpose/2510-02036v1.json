@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02036v1",
+  "title": "The Current State of AI Bias Bounties: An Overview of Existing\n  Programmes and Research",
+  "summary": "Current bias evaluation methods rarely engage with communities impacted by AI\nsystems. Inspired by bug bounties, bias bounties have been proposed as a\nreward-based method that involves communities in AI bias detection by asking\nusers of AI systems to report biases they encounter when interacting with such\nsystems. In the absence of a state-of-the-art review, this survey aimed to\nidentify and analyse existing AI bias bounty programmes and to present academic\nliterature on bias bounties. Google, Google Scholar, PhilPapers, and IEEE\nXplore were searched, and five bias bounty programmes, as well as five research\npublications, were identified. All bias bounties were organised by U.S.-based\norganisations as time-limited contests, with public participation in four\nprogrammes and prize pools ranging from 7,000 to 24,000 USD. The five research\npublications included a report on the application of bug bounties to\nalgorithmic harms, an article addressing Twitter's bias bounty, a proposal for\nbias bounties as an institutional mechanism to increase AI scrutiny, a workshop\ndiscussing bias bounties from queer perspectives, and an algorithmic framework\nfor bias bounties. We argue that reducing the technical requirements to enter\nbounty programmes is important to include those without coding experience.\nGiven the limited adoption of bias bounties, future efforts should explore the\ntransferability of the best practices from bug bounties and examine how such\nprogrammes can be designed to be sensitive to underrepresented groups while\nlowering adoption barriers for organisations.",
+  "authors": [
+    "Sergej Kucenko",
+    "Nathaniel Dennler",
+    "Fengxiang He"
+  ],
+  "published": "2025-10-02T14:09:11Z",
+  "primary_category": "cs.CY",
+  "arxiv_url": "https://arxiv.org/abs/2510.02036v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文综述了AI偏见悬赏项目现状，分析了5个现有项目和5篇相关研究。偏见悬赏借鉴漏洞悬赏模式，通过奖励机制鼓励用户报告AI系统中的偏见问题。研究发现现有项目多为美国机构组织的限时竞赛，奖金在7000-24000美元之间。文章建议降低技术门槛以吸纳非编程人员参与，并探索如何借鉴漏洞悬赏最佳实践，设计对弱势群体更敏感的项目方案。",
+  "order": 51,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02036v1"
+}

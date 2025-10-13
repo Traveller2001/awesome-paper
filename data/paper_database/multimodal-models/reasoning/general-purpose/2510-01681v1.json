@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01681v1",
+  "title": "Look Less, Reason More: Rollout-Guided Adaptive Pixel-Space Reasoning",
+  "summary": "Vision-Language Models (VLMs) excel at many multimodal tasks, yet they\nfrequently struggle with tasks requiring precise understanding and handling of\nfine-grained visual elements. This is mainly due to information loss during\nimage encoding or insufficient attention to critical regions. Recent work has\nshown promise by incorporating pixel-level visual information into the\nreasoning process, enabling VLMs to access high-resolution visual details\nduring their thought process. However, this pixel-level information is often\noverused, leading to inefficiency and distraction from irrelevant visual\ndetails. To address these challenges, we propose the first framework for\nadaptive pixel reasoning that dynamically determines necessary pixel-level\noperations based on the input query. Specifically, we first apply\noperation-aware supervised fine-tuning to establish baseline competence in\ntextual reasoning and visual operations, then design a novel rollout-guided\nreinforcement learning framework relying on feedback of the model's own\nresponses, which enables the VLM to determine when pixel operations should be\ninvoked based on query difficulty. Experiments on extensive multimodal\nreasoning benchmarks show that our model achieves superior performance while\nsignificantly reducing unnecessary visual operations. Impressively, our model\nachieves 73.4\\% accuracy on HR-Bench 4K while maintaining a tool usage ratio of\nonly 20.1\\%, improving accuracy and simultaneously reducing tool usage by\n66.5\\% compared to the previous methods.",
+  "authors": [
+    "Xuchen Li",
+    "Xuzhao Li",
+    "Jiahui Gao",
+    "Renjie Pi",
+    "Shiyu Hu",
+    "Wentao Zhang"
+  ],
+  "published": "2025-10-02T05:14:52Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01681v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出首个自适应像素推理框架，通过操作感知微调和基于模型自身反馈的强化学习，动态决定何时调用像素级操作。在HR-Bench 4K上达到73.4%准确率，同时将工具使用率降至20.1%，相比之前方法在提升精度的同时减少66.5%的不必要视觉操作。",
+  "order": 554,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01681v1"
+}

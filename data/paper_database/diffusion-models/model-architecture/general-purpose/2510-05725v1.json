@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05725v1",
+  "title": "Improving Discrete Diffusion Unmasking Policies Beyond Explicit\n  Reference Policies",
+  "summary": "Masked diffusion models (MDMs) have recently emerged as a novel framework for\nlanguage modeling. MDMs generate sentences by iteratively denoising masked\nsequences, filling in [MASK] tokens step by step. Although MDMs support\nany-order sampling, performance is highly sensitive to the choice of which\nposition to unmask next. Prior work typically relies on rule-based schedules\n(e.g., max-confidence, max-margin), which provide ad hoc improvements. In\ncontrast, we replace these heuristics with a learned scheduler. Specifically,\nwe cast denoising as a KL-regularized Markov decision process (MDP) with an\nexplicit reference policy and optimize a regularized objective that admits\npolicy improvement and convergence guarantees under standard assumptions. We\nprove that the optimized policy under this framework generates samples that\nmore closely match the data distribution than heuristic schedules. Empirically,\nacross four benchmarks, our learned policy consistently outperforms\nmax-confidence: for example, on SUDOKU, where unmasking order is critical, it\nyields a 20.1% gain over random and a 11.2% gain over max-confidence.",
+  "authors": [
+    "Chunsan Hong",
+    "Seonho An",
+    "Min-Soo Kim",
+    "Jong Chul Ye"
+  ],
+  "published": "2025-10-07T09:44:24Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05725v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于KL正则化MDP框架的学习型调度器，替代传统掩码扩散模型中的启发式解掩策略。通过理论证明和四组基准实验验证，该策略在SUDOKU任务上相比随机策略提升20.1%，较最大置信度策略提升11.2%，能生成更贴合数据分布的文本。",
+  "order": 125,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05725v1"
+}

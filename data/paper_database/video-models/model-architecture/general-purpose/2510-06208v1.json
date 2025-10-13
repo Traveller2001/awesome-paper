@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.06208v1",
+  "title": "ShapeGen4D: Towards High Quality 4D Shape Generation from Videos",
+  "summary": "Video-conditioned 4D shape generation aims to recover time-varying 3D\ngeometry and view-consistent appearance directly from an input video. In this\nwork, we introduce a native video-to-4D shape generation framework that\nsynthesizes a single dynamic 3D representation end-to-end from the video. Our\nframework introduces three key components based on large-scale pre-trained 3D\nmodels: (i) a temporal attention that conditions generation on all frames while\nproducing a time-indexed dynamic representation; (ii) a time-aware point\nsampling and 4D latent anchoring that promote temporally consistent geometry\nand texture; and (iii) noise sharing across frames to enhance temporal\nstability. Our method accurately captures non-rigid motion, volume changes, and\neven topological transitions without per-frame optimization. Across diverse\nin-the-wild videos, our method improves robustness and perceptual fidelity and\nreduces failure modes compared with the baselines.",
+  "authors": [
+    "Jiraphon Yenphraphai",
+    "Ashkan Mirzaei",
+    "Jianqi Chen",
+    "Jiaxu Zou",
+    "Sergey Tulyakov",
+    "Raymond A. Yeh",
+    "Peter Wonka",
+    "Chaoyang Wang"
+  ],
+  "published": "2025-10-07T17:58:11Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06208v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ShapeGen4D框架，直接从视频端到端生成动态4D形状。基于预训练3D模型，引入时序注意力、时间感知点采样和4D潜在锚定、帧间噪声共享三大组件，能够准确捕捉非刚性运动、体积变化甚至拓扑转换，无需逐帧优化，在多样真实视频中展现出更高的鲁棒性和感知质量。",
+  "order": 62,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06208v1"
+}

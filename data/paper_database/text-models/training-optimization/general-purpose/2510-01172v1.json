@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01172v1",
+  "title": "Energy-Regularized Sequential Model Editing on Hyperspheres",
+  "summary": "Large language models (LLMs) require constant updates to remain aligned with\nevolving real-world knowledge. Model editing offers a lightweight alternative\nto retraining, but sequential editing often destabilizes representations and\ninduces catastrophic forgetting. In this work, we seek to better understand and\nmitigate performance degradation caused by sequential editing. We hypothesize\nthat hyperspherical uniformity, a property that maintains uniform distribution\nof neuron weights on a hypersphere, helps the model remain stable, retain prior\nknowledge, while still accommodate new updates. We use Hyperspherical Energy\n(HE) to quantify neuron uniformity during editing, and examine its correlation\nwith editing performance. Empirical studies across widely used editing methods\nreveals a strong correlation between HE dynamics and editing performance, with\nediting failures consistently coinciding with high HE fluctuations. We further\ntheoretically prove that HE dynamics impose a lower bound on the degradation of\npretrained knowledge, highlighting why HE stability is crucial for knowledge\nretention. Motivated by these insights, we propose SPHERE (Sparse Projection\nfor Hyperspherical Energy-Regularized Editing), an HE-driven regularization\nstrategy that stabilizes neuron weight distributions, ultimately preserving\nprior knowledge while enabling reliable sequential updates. Specifically,\nSPHERE identifies a sparse space complementary to the principal hyperspherical\ndirections of the pretrained weight matrices and projects new knowledge onto\nit, attenuating perturbations on the principal directions. Extensive\nexperiments on LLaMA3 (8B) and Qwen2.5 (7B) show that SPHERE outperforms the\nbest baseline in editing capability by an average of 16.41%, while most\nfaithfully preserving general model performance, thereby offering a principled\npath toward reliable large-scale knowledge editing.",
+  "authors": [
+    "Qingyuan Liu",
+    "Jia-Chen Gu",
+    "Yunzhi Yao",
+    "Hong Wang",
+    "Nanyun Peng"
+  ],
+  "published": "2025-10-01T17:55:43Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01172v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SPHERE方法，通过超球面能量正则化稳定神经元权重分布，解决大语言模型顺序编辑中的灾难性遗忘问题。该方法在保持原有知识的同时实现可靠更新，在LLaMA3和Qwen2.5上编辑能力平均提升16.41%。",
+  "order": 417,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01172v1"
+}

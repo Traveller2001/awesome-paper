@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.02116v1",
+  "title": "Ensemble Threshold Calibration for Stable Sensitivity Control",
+  "summary": "Precise recall control is critical in large-scale spatial conflation and\nentity-matching tasks, where missing even a few true matches can break\ndownstream analytics, while excessive manual review inflates cost. Classical\nconfidence-interval cuts such as Clopper-Pearson or Wilson provide lower bounds\non recall, but they routinely overshoot the target by several percentage points\nand exhibit high run-to-run variance under skewed score distributions. We\npresent an end-to-end framework that achieves exact recall with sub-percent\nvariance over tens of millions of geometry pairs, while remaining TPU-friendly.\nOur pipeline starts with an equigrid bounding-box filter and compressed sparse\nrow (CSR) candidate representation, reducing pair enumeration by two orders of\nmagnitude. A deterministic xxHash bootstrap sample trains a lightweight neural\nranker; its scores are propagated to all remaining pairs via a single forward\npass and used to construct a reproducible, score-decile-stratified calibration\nset. Four complementary threshold estimators - Clopper-Pearson, Jeffreys,\nWilson, and an exact quantile - are aggregated via inverse-variance weighting,\nthen fused across nine independent subsamples. This ensemble reduces threshold\nvariance compared to any single method. Evaluated on two real cadastral\ndatasets (approximately 6.31M and 67.34M pairs), our approach consistently hits\na recall target within a small error, decreases redundant verifications\nrelative to other calibrations, and runs end-to-end on a single TPU v3 core.",
+  "authors": [
+    "John N. Daras"
+  ],
+  "published": "2025-10-02T15:22:28Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02116v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种集成阈值校准框架，用于在大规模空间匹配任务中实现精确的召回率控制。通过结合边界框过滤、轻量级神经排序器和四种阈值估计器的集成方法，在数千万几何对数据上实现亚百分比方差的稳定召回控制，相比传统方法显著减少冗余验证并保持TPU兼容性。",
+  "order": 746,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02116v1"
+}

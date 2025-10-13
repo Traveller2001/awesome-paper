@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01649v1",
+  "title": "Source-Free Cross-Domain Continual Learning",
+  "summary": "Although existing cross-domain continual learning approaches successfully\naddress many streaming tasks having domain shifts, they call for a fully\nlabeled source domain hindering their feasibility in the privacy constrained\nenvironments. This paper goes one step ahead with the problem of source-free\ncross-domain continual learning where the use of source-domain samples are\ncompletely prohibited. We propose the idea of rehearsal-free frequency-aware\ndynamic prompt collaborations (REFEREE) to cope with the absence of labeled\nsource-domain samples in realm of cross-domain continual learning. REFEREE is\nbuilt upon a synergy between a source-pre-trained model and a large-scale\nvision-language model, thus overcoming the problem of sub-optimal\ngeneralizations when relying only on a source pre-trained model. The domain\nshift problem between the source domain and the target domain is handled by a\nfrequency-aware prompting technique encouraging low-frequency components while\nsuppressing high-frequency components. This strategy generates frequency-aware\naugmented samples, robust against noisy pseudo labels. The noisy pseudo-label\nproblem is further addressed with the uncertainty-aware weighting strategy\nwhere the mean and covariance matrix are weighted by prediction uncertainties,\nthus mitigating the adverse effects of the noisy pseudo label. Besides, the\nissue of catastrophic forgetting (CF) is overcome by kernel linear discriminant\nanalysis (KLDA) where the backbone network is frozen while the classification\nis performed using the linear discriminant analysis approach guided by the\nrandom kernel method. Our rigorous numerical studies confirm the advantage of\nour approach where it beats prior arts having access to source domain samples\nwith significant margins.",
+  "authors": [
+    "Muhammad Tanzil Furqon",
+    "Mahardhika Pratama",
+    "Igor Škrjanc",
+    "Lin Liu",
+    "Habibullah Habibullah",
+    "Kutluyil Dogancay"
+  ],
+  "published": "2025-10-02T04:09:25Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01649v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出REFEREE方法解决无源跨域持续学习问题，通过频率感知提示技术和不确定性加权策略处理域偏移和噪声伪标签，利用核线性判别分析缓解灾难性遗忘，在隐私受限环境下超越现有方法。",
+  "order": 108,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01649v1"
+}

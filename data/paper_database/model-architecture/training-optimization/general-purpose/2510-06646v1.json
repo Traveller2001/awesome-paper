@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06646v1",
+  "title": "The False Promise of Zero-Shot Super-Resolution in Machine-Learned\n  Operators",
+  "summary": "A core challenge in scientific machine learning, and scientific computing\nmore generally, is modeling continuous phenomena which (in practice) are\nrepresented discretely. Machine-learned operators (MLOs) have been introduced\nas a means to achieve this modeling goal, as this class of architecture can\nperform inference at arbitrary resolution. In this work, we evaluate whether\nthis architectural innovation is sufficient to perform \"zero-shot\nsuper-resolution,\" namely to enable a model to serve inference on\nhigher-resolution data than that on which it was originally trained. We\ncomprehensively evaluate both zero-shot sub-resolution and super-resolution\n(i.e., multi-resolution) inference in MLOs. We decouple multi-resolution\ninference into two key behaviors: 1) extrapolation to varying frequency\ninformation; and 2) interpolating across varying resolutions. We empirically\ndemonstrate that MLOs fail to do both of these tasks in a zero-shot manner.\nConsequently, we find MLOs are not able to perform accurate inference at\nresolutions different from those on which they were trained, and instead they\nare brittle and susceptible to aliasing. To address these failure modes, we\npropose a simple, computationally-efficient, and data-driven multi-resolution\ntraining protocol that overcomes aliasing and that provides robust\nmulti-resolution generalization.",
+  "authors": [
+    "Mansi Sakarvadia",
+    "Kareem Hegazy",
+    "Amin Totounferoush",
+    "Kyle Chard",
+    "Yaoqing Yang",
+    "Ian Foster",
+    "Michael W. Mahoney"
+  ],
+  "published": "2025-10-08T04:59:56Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06646v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文揭示了机器学习算子(MLOs)在零样本超分辨率任务中的局限性，发现其无法在未经专门训练的分辨率下进行准确推理，容易产生混叠效应。作者通过解构多分辨率推理的两个关键行为——频率信息外推和分辨率插值，实证了MLOs的脆弱性，并提出了一种简单高效的数据驱动多分辨率训练方案来解决这些问题。",
+  "order": 226,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06646v1"
+}

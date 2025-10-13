@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.02189v1",
+  "title": "Hybrid Physics-ML Framework for Pan-Arctic Permafrost Infrastructure\n  Risk at Record 2.9-Million Observation Scale",
+  "summary": "Arctic warming threatens over 100 billion in permafrost-dependent\ninfrastructure across Northern territories, yet existing risk assessment\nframeworks lack spatiotemporal validation, uncertainty quantification, and\noperational decision-support capabilities. We present a hybrid physics-machine\nlearning framework integrating 2.9 million observations from 171,605 locations\n(2005-2021) combining permafrost fraction data with climate reanalysis. Our\nstacked ensemble model (Random Forest + Histogram Gradient Boosting + Elastic\nNet) achieves R2=0.980 (RMSE=5.01 pp) with rigorous spatiotemporal\ncross-validation preventing data leakage. To address machine learning\nlimitations in extrapolative climate scenarios, we develop a hybrid approach\ncombining learned climate-permafrost relationships (60%) with physical\npermafrost sensitivity models (40%, -10 pp/C). Under RCP8.5 forcing (+5C over\n10 years), we project mean permafrost fraction decline of -20.3 pp (median:\n-20.0 pp), with 51.5% of Arctic Russia experiencing over 20 percentage point\nloss. Infrastructure risk classification identifies 15% high-risk zones (25%\nmedium-risk) with spatially explicit uncertainty maps. Our framework represents\nthe largest validated permafrost ML dataset globally, provides the first\noperational hybrid physics-ML forecasting system for Arctic infrastructure, and\ndelivers open-source tools enabling probabilistic permafrost projections for\nengineering design codes and climate adaptation planning. The methodology is\ngeneralizable to other permafrost regions and demonstrates how hybrid\napproaches can overcome pure data-driven limitations in climate change\napplications.",
+  "authors": [
+    "Boris Kriuk"
+  ],
+  "published": "2025-10-02T16:38:36Z",
+  "primary_category": "stat.ML",
+  "arxiv_url": "https://arxiv.org/abs/2510.02189v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出了一种混合物理-机器学习框架，整合290万观测数据评估泛北极永久冻土基础设施风险。通过集成随机森林、直方图梯度提升和弹性网络模型，实现了R²=0.980的高精度预测。该框架结合60%机器学习学习的气候-冻土关系和40%物理敏感性模型，预测在RCP8.5情景下永久冻土层平均减少20.3个百分点，并识别出15%的高风险区域。这是全球最大的验证冻土机器学习数据集，为北极工程设计和气候适应提供开源工具。",
+  "order": 728,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02189v1"
+}

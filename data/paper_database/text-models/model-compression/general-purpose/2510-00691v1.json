@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.00691v1",
+  "title": "Inclusive Easy-to-Read Generation for Individuals with Cognitive\n  Impairments",
+  "summary": "Ensuring accessibility for individuals with cognitive impairments is\nessential for autonomy, self-determination, and full citizenship. However,\nmanual Easy-to-Read (ETR) text adaptations are slow, costly, and difficult to\nscale, limiting access to crucial information in healthcare, education, and\ncivic life. AI-driven ETR generation offers a scalable solution but faces key\nchallenges, including dataset scarcity, domain adaptation, and balancing\nlightweight learning of Large Language Models (LLMs). In this paper, we\nintroduce ETR-fr, the first dataset for ETR text generation fully compliant\nwith European ETR guidelines. We implement parameter-efficient fine-tuning on\nPLMs and LLMs to establish generative baselines. To ensure high-quality and\naccessible outputs, we introduce an evaluation framework based on automatic\nmetrics supplemented by human assessments. The latter is conducted using a\n36-question evaluation form that is aligned with the guidelines. Overall\nresults show that PLMs perform comparably to LLMs and adapt effectively to\nout-of-domain texts.",
+  "authors": [
+    "François Ledoyen",
+    "Gaël Dias",
+    "Alexis Lechervy",
+    "Jeremie Pantin",
+    "Fabrice Maurel",
+    "Youssef Chahir",
+    "Elisa Gouzonnat",
+    "Mélanie Berthelot",
+    "Stanislas Moravac",
+    "Armony Altinier",
+    "Amy Khairalla"
+  ],
+  "published": "2025-10-01T09:13:18Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00691v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出首个符合欧洲简易阅读指南的ETR-fr数据集，通过参数高效微调方法在预训练模型和大语言模型上建立生成基线，并开发了结合自动指标与人工评估的质量框架。研究表明预训练模型在简易阅读文本生成任务中表现与大模型相当，并能有效适应跨领域文本。",
+  "order": 454,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00691v1"
+}

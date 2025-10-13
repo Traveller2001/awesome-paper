@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00428v1",
+  "title": "Automated Structured Radiology Report Generation with Rich Clinical\n  Context",
+  "summary": "Automated structured radiology report generation (SRRG) from chest X-ray\nimages offers significant potential to reduce workload of radiologists by\ngenerating reports in structured formats that ensure clarity, consistency, and\nadherence to clinical reporting standards. While radiologists effectively\nutilize available clinical contexts in their diagnostic reasoning, existing\nSRRG systems overlook these essential elements. This fundamental gap leads to\ncritical problems including temporal hallucinations when referencing\nnon-existent clinical contexts. To address these limitations, we propose\ncontextualized SRRG (C-SRRG) that comprehensively incorporates rich clinical\ncontext for SRRG. We curate C-SRRG dataset by integrating comprehensive\nclinical context encompassing 1) multi-view X-ray images, 2) clinical\nindication, 3) imaging techniques, and 4) prior studies with corresponding\ncomparisons based on patient histories. Through extensive benchmarking with\nstate-of-the-art multimodal large language models, we demonstrate that\nincorporating clinical context with the proposed C-SRRG significantly improves\nreport generation quality. We publicly release dataset, code, and checkpoints\nto facilitate future research for clinically-aligned automated RRG at\nhttps://github.com/vuno/contextualized-srrg.",
+  "authors": [
+    "Seongjae Kang",
+    "Dong Bok Lee",
+    "Juho Jung",
+    "Dongseop Kim",
+    "Won Hwa Kim",
+    "Sunghoon Joo"
+  ],
+  "published": "2025-10-01T02:14:23Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00428v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出C-SRRG方法，通过整合多视角X光图像、临床指征、成像技术和既往研究等丰富临床背景，解决现有结构化放射报告生成系统忽略临床上下文导致的时序幻觉问题。在基准测试中显著提升报告质量，并公开数据集和代码推动临床对齐的自动化报告生成研究。",
+  "order": 314,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00428v1"
+}

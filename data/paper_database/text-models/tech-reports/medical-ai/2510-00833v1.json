@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00833v1",
+  "title": "Towards Verifiable Federated Unlearning: Framework, Challenges, and The\n  Road Ahead",
+  "summary": "Federated unlearning (FUL) enables removing the data influence from the model\ntrained across distributed clients, upholding the right to be forgotten as\nmandated by privacy regulations. FUL facilitates a value exchange where clients\ngain privacy-preserving control over their data contributions, while service\nproviders leverage decentralized computing and data freshness. However, this\nentire proposition is undermined because clients have no reliable way to verify\nthat their data influence has been provably removed, as current metrics and\nsimple notifications offer insufficient assurance. We envision unlearning\nverification becoming a pivotal and trust-by-design part of the FUL life-cycle\ndevelopment, essential for highly regulated and data-sensitive services and\napplications like healthcare. This article introduces veriFUL, a reference\nframework for verifiable FUL that formalizes verification entities, goals,\napproaches, and metrics. Specifically, we consolidate existing efforts and\ncontribute new insights, concepts, and metrics to this domain. Finally, we\nhighlight research challenges and identify potential applications and\ndevelopments for verifiable FUL and veriFUL.",
+  "authors": [
+    "Thanh Linh Nguyen",
+    "Marcela Tuler de Oliveira",
+    "An Braeken",
+    "Aaron Yi Ding",
+    "Quoc-Viet Pham"
+  ],
+  "published": "2025-10-01T12:45:46Z",
+  "primary_category": "cs.DC",
+  "arxiv_url": "https://arxiv.org/abs/2510.00833v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出veriFUL框架，解决联邦学习中数据遗忘的可验证性问题。针对现有联邦遗忘方法缺乏可靠验证机制的缺陷，该框架通过形式化验证实体、目标和指标，确保用户数据影响被彻底移除。特别适用于医疗等高度监管领域，为隐私法规要求的'被遗忘权'提供技术保障。",
+  "order": 236,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00833v1"
+}

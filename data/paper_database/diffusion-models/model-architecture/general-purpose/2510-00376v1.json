@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00376v1",
+  "title": "Discrete Wavelet Transform as a Facilitator for Expressive Latent Space\n  Representation in Variational Autoencoders in Satellite Imagery",
+  "summary": "Latent Diffusion Models (LDM), a subclass of diffusion models, mitigate the\ncomputational complexity of pixel-space diffusion by operating within a\ncompressed latent space constructed by Variational Autoencoders (VAEs),\ndemonstrating significant advantages in Remote Sensing (RS) applications.\nThough numerous studies enhancing LDMs have been conducted, investigations\nexplicitly targeting improvements within the intrinsic latent space remain\nscarce. This paper proposes an innovative perspective, utilizing the Discrete\nWavelet Transform (DWT) to enhance the VAE's latent space representation,\ndesigned for satellite imagery. The proposed method, ExpDWT-VAE, introduces\ndual branches: one processes spatial domain input through convolutional\noperations, while the other extracts and processes frequency-domain features\nvia 2D Haar wavelet decomposition, convolutional operation, and inverse DWT\nreconstruction. These branches merge to create an integrated spatial-frequency\nrepresentation, further refined through convolutional and diagonal Gaussian\nmapping into a robust latent representation. We utilize a new satellite imagery\ndataset housed by the TerraFly mapping system to validate our method.\nExperimental results across several performance metrics highlight the efficacy\nof the proposed method at enhancing latent space representation.",
+  "authors": [
+    "Arpan Mahara",
+    "Md Rezaul Karim Khan",
+    "Naphtali Rishe",
+    "Wenjia Wang",
+    "Seyed Masoud Sadjadi"
+  ],
+  "published": "2025-10-01T00:49:41Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00376v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ExpDWT-VAE方法，通过离散小波变换增强变分自编码器的潜在空间表示，结合空间域和频域特征处理，在卫星影像数据集上验证了改进的潜在空间表达能力。",
+  "order": 688,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00376v1"
+}

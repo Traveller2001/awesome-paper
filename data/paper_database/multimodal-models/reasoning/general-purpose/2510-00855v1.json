@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.00855v1",
+  "title": "Can World Models Benefit VLMs for World Dynamics?",
+  "summary": "Trained on internet-scale video data, generative world models are\nincreasingly recognized as powerful world simulators that can generate\nconsistent and plausible dynamics over structure, motion, and physics. This\nraises a natural question: with the advent of strong video foundational models,\nmight they supplant conventional vision encoder paradigms for general-purpose\nmultimodal understanding? While recent studies have begun to explore the\npotential of world models on common vision tasks, these explorations typically\nlack a systematic investigation of generic, multimodal tasks. In this work, we\nstrive to investigate the capabilities when world model priors are transferred\ninto Vision-Language Models: we re-purpose a video diffusion model as a\ngenerative encoder to perform a single denoising step and treat the resulting\nlatents as a set of visual embedding. We empirically investigate this class of\nmodels, which we refer to as World-Language Models (WorldLMs), and we find that\ngenerative encoders can capture latents useful for downstream understanding\nthat show distinctions from conventional encoders. Naming our best-performing\nvariant Dynamic Vision Aligner (DyVA), we further discover that this method\nsignificantly enhances spatial reasoning abilities and enables single-image\nmodels to perform multi-frame reasoning. Through the curation of a suite of\nvisual reasoning tasks, we find DyVA to surpass both open-source and\nproprietary baselines, achieving state-of-the-art or comparable performance. We\nattribute these gains to WorldLM's inherited motion-consistency internalization\nfrom video pre-training. Finally, we systematically explore extensive model\ndesigns to highlight promising directions for future work. We hope our study\ncan pave the way for a new family of VLMs that leverage priors from world\nmodels and are on a promising path towards generalist vision learners.",
+  "authors": [
+    "Kevin Zhang",
+    "Kuangzhi Ge",
+    "Xiaowei Chi",
+    "Renrui Zhang",
+    "Shaojun Shi",
+    "Zhen Dong",
+    "Sirui Han",
+    "Shanghang Zhang"
+  ],
+  "published": "2025-10-01T13:07:05Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00855v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探索将世界模型先验知识融入视觉语言模型，提出WorldLM框架及最佳变体DyVA。通过将视频扩散模型重构为生成式编码器，该方法显著提升了空间推理能力，使单图像模型具备多帧推理功能，在视觉推理任务中达到领先性能。",
+  "order": 621,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00855v1"
+}

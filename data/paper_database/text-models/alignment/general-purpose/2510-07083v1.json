@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07083v1",
+  "title": "All Claims Are Equal, but Some Claims Are More Equal Than Others:\n  Importance-Sensitive Factuality Evaluation of LLM Generations",
+  "summary": "Existing methods for evaluating the factuality of large language model (LLM)\nresponses treat all claims as equally important. This results in misleading\nevaluations when vital information is missing or incorrect as it receives the\nsame weight as peripheral details, raising the question: how can we reliably\ndetect such differences when there are errors in key information? Current\napproaches that measure factuality tend to be insensitive to omitted or false\nkey information. To investigate this lack of sensitivity, we construct\nVITALERRORS, a benchmark of 6,733 queries with minimally altered LLM responses\ndesigned to omit or falsify key information. Using this dataset, we demonstrate\nthe insensitivities of existing evaluation metrics to key information errors.\nTo address this gap, we introduce VITAL, a set of metrics that provide greater\nsensitivity in measuring the factuality of responses by incorporating the\nrelevance and importance of claims with respect to the query. Our analysis\ndemonstrates that VITAL metrics more reliably detect errors in key information\nthan previous methods. Our dataset, metrics, and analysis provide a foundation\nfor more accurate and robust assessment of LLM factuality.",
+  "authors": [
+    "Miriam Wanner",
+    "Leif Azzopardi",
+    "Paul Thomas",
+    "Soham Dan",
+    "Benjamin Van Durme",
+    "Nick Craswell"
+  ],
+  "published": "2025-10-08T14:40:33Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07083v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对现有LLM事实性评估方法对所有声明平等对待的缺陷，提出了VITALERRORS基准数据集和VITAL评估指标，通过考虑声明的重要性和相关性，更敏感地检测关键信息错误，为LLM事实性评估提供了更准确的方法。",
+  "order": 53,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07083v1"
+}

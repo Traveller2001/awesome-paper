@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02315v1",
+  "title": "Optimal Control Meets Flow Matching: A Principled Route to Multi-Subject\n  Fidelity",
+  "summary": "Text-to-image (T2I) models excel on single-entity prompts but struggle with\nmulti-subject descriptions, often showing attribute leakage, identity\nentanglement, and subject omissions. We introduce the first theoretical\nframework with a principled, optimizable objective for steering sampling\ndynamics toward multi-subject fidelity. Viewing flow matching (FM) through\nstochastic optimal control (SOC), we formulate subject disentanglement as\ncontrol over a trained FM sampler. This yields two architecture-agnostic\nalgorithms: (i) a training-free test-time controller that perturbs the base\nvelocity with a single-pass update, and (ii) Adjoint Matching, a lightweight\nfine-tuning rule that regresses a control network to a backward adjoint signal\nwhile preserving base-model capabilities. The same formulation unifies prior\nattention heuristics, extends to diffusion models via a flow-diffusion\ncorrespondence, and provides the first fine-tuning route explicitly designed\nfor multi-subject fidelity. Empirically, on Stable Diffusion 3.5, FLUX, and\nStable Diffusion XL, both algorithms consistently improve multi-subject\nalignment while maintaining base-model style. Test-time control runs\nefficiently on commodity GPUs, and fine-tuned controllers trained on limited\nprompts generalize to unseen ones. We further highlight FOCUS (Flow Optimal\nControl for Unentangled Subjects), which achieves state-of-the-art\nmulti-subject fidelity across models.",
+  "authors": [
+    "Eric Tillmann Bill",
+    "Enis Simsar",
+    "Thomas Hofmann"
+  ],
+  "published": "2025-10-02T17:59:58Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02315v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出首个理论框架，通过随机最优控制优化流匹配采样过程，解决多主体文本到图像生成中的属性泄漏、身份纠缠和主体遗漏问题。开发了两种架构无关算法：无需训练的测试时控制器和轻量级微调方法Adjoint Matching，在多个主流模型上显著提升多主体对齐效果，同时保持基础模型风格。",
+  "order": 486,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02315v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02120v1",
+  "title": "VarCoNet: A variability-aware self-supervised framework for functional\n  connectome extraction from resting-state fMRI",
+  "summary": "Accounting for inter-individual variability in brain function is key to\nprecision medicine. Here, by considering functional inter-individual\nvariability as meaningful data rather than noise, we introduce VarCoNet, an\nenhanced self-supervised framework for robust functional connectome (FC)\nextraction from resting-state fMRI (rs-fMRI) data. VarCoNet employs\nself-supervised contrastive learning to exploit inherent functional\ninter-individual variability, serving as a brain function encoder that\ngenerates FC embeddings readily applicable to downstream tasks even in the\nabsence of labeled data. Contrastive learning is facilitated by a novel\naugmentation strategy based on segmenting rs-fMRI signals. At its core,\nVarCoNet integrates a 1D-CNN-Transformer encoder for advanced time-series\nprocessing, enhanced with a robust Bayesian hyperparameter optimization. Our\nVarCoNet framework is evaluated on two downstream tasks: (i) subject\nfingerprinting, using rs-fMRI data from the Human Connectome Project, and (ii)\nautism spectrum disorder (ASD) classification, using rs-fMRI data from the\nABIDE I and ABIDE II datasets. Using different brain parcellations, our\nextensive testing against state-of-the-art methods, including 13 deep learning\nmethods, demonstrates VarCoNet's superiority, robustness, interpretability, and\ngeneralizability. Overall, VarCoNet provides a versatile and robust framework\nfor FC analysis in rs-fMRI.",
+  "authors": [
+    "Charalampos Lamprou",
+    "Aamna Alshehhi",
+    "Leontios J. Hadjileontiadis",
+    "Mohamed L. Seghier"
+  ],
+  "published": "2025-10-02T15:29:17Z",
+  "primary_category": "cs.NE",
+  "arxiv_url": "https://arxiv.org/abs/2510.02120v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "VarCoNet是一种变异性感知的自监督框架，通过对比学习利用个体间功能变异性，结合1D-CNN-Transformer编码器和贝叶斯超参数优化，从静息态fMRI数据中提取功能连接组，在人类连接组项目和自闭症分类任务中表现出优越性能。",
+  "order": 743,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02120v1"
+}

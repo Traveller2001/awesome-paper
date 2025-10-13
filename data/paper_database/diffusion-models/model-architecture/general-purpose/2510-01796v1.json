@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01796v1",
+  "title": "Rethinking the shape convention of an MLP",
+  "summary": "Multi-layer perceptrons (MLPs) conventionally follow a narrow-wide-narrow\ndesign where skip connections operate at the input/output dimensions while\nprocessing occurs in expanded hidden spaces. We challenge this convention by\nproposing wide-narrow-wide (Hourglass) MLP blocks where skip connections\noperate at expanded dimensions while residual computation flows through narrow\nbottlenecks. This inversion leverages higher-dimensional spaces for incremental\nrefinement while maintaining computational efficiency through parameter-matched\ndesigns. Implementing Hourglass MLPs requires an initial projection to lift\ninput signals to expanded dimensions. We propose that this projection can\nremain fixed at random initialization throughout training, enabling efficient\ntraining and inference implementations. We evaluate both architectures on\ngenerative tasks over popular image datasets, characterizing\nperformance-parameter Pareto frontiers through systematic architectural search.\nResults show that Hourglass architectures consistently achieve superior Pareto\nfrontiers compared to conventional designs. As parameter budgets increase,\noptimal Hourglass configurations favor deeper networks with wider skip\nconnections and narrower bottlenecks-a scaling pattern distinct from\nconventional MLPs. Our findings suggest reconsidering skip connection placement\nin modern architectures, with potential applications extending to Transformers\nand other residual networks.",
+  "authors": [
+    "Meng-Hsi Chen",
+    "Yu-Ang Lee",
+    "Feng-Ting Liao",
+    "Da-shan Shiu"
+  ],
+  "published": "2025-10-02T08:38:15Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01796v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文挑战传统MLP的窄-宽-窄结构，提出宽-窄-宽（沙漏型）MLP块，其中跳跃连接在扩展维度操作而残差计算流经窄瓶颈。在图像生成任务上的实验表明，沙漏架构在性能-参数帕累托边界上优于传统设计，且随着参数增加更倾向于更深的网络和更宽的跳跃连接。",
+  "order": 77,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01796v1"
+}

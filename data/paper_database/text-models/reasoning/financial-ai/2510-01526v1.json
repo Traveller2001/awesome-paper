@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01526v1",
+  "title": "One More Question is Enough, Expert Question Decomposition (EQD) Model\n  for Domain Quantitative Reasoning",
+  "summary": "Domain-specific quantitative reasoning remains a major challenge for large\nlanguage models (LLMs), especially in fields requiring expert knowledge and\ncomplex question answering (QA). In this work, we propose Expert Question\nDecomposition (EQD), an approach designed to balance the use of domain\nknowledge with computational efficiency. EQD is built on a two-step fine-tuning\nframework and guided by a reward function that measures the effectiveness of\ngenerated sub-questions in improving QA outcomes. It requires only a few\nthousand training examples and a single A100 GPU for fine-tuning, with\ninference time comparable to zero-shot prompting. Beyond its efficiency, EQD\noutperforms state-of-the-art domain-tuned models and advanced prompting\nstrategies. We evaluate EQD in the financial domain, characterized by\nspecialized knowledge and complex quantitative reasoning, across four benchmark\ndatasets. Our method consistently improves QA performance by 0.6% to 10.5%\nacross different LLMs. Our analysis reveals an important insight: in\ndomain-specific QA, a single supporting question often provides greater benefit\nthan detailed guidance steps.",
+  "authors": [
+    "Mengyu Wang",
+    "Sotirios Sabanis",
+    "Miguel de Carvalho",
+    "Shay B. Cohen",
+    "Tiejun Ma"
+  ],
+  "published": "2025-10-01T23:45:45Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01526v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "financial_ai",
+  "tldr_zh": "提出专家问题分解(EQD)模型，通过两步微调框架和奖励函数优化领域定量推理，在金融领域四个基准数据集上提升问答性能0.6%-10.5%，发现单一支持性问题比详细指导步骤更有效。",
+  "order": 399,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01526v1"
+}

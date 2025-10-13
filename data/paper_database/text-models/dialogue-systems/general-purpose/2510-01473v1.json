@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01473v1",
+  "title": "From keywords to semantics: Perceptions of large language models in data\n  discovery",
+  "summary": "Current approaches to data discovery match keywords between metadata and\nqueries. This matching requires researchers to know the exact wording that\nother researchers previously used, creating a challenging process that could\nlead to missing relevant data. Large Language Models (LLMs) could enhance data\ndiscovery by removing this requirement and allowing researchers to ask\nquestions with natural language. However, we do not currently know if\nresearchers would accept LLMs for data discovery. Using a human-centered\nartificial intelligence (HCAI) focus, we ran focus groups (N = 27) to\nunderstand researchers' perspectives towards LLMs for data discovery. Our\nconceptual model shows that the potential benefits are not enough for\nresearchers to use LLMs instead of current technology. Barriers prevent\nresearchers from fully accepting LLMs, but features around transparency could\novercome them. Using our model will allow developers to incorporate features\nthat result in an increased acceptance of LLMs for data discovery.",
+  "authors": [
+    "Maura E Halstead",
+    "Mark A. Green",
+    "Caroline Jay",
+    "Richard Kingston",
+    "David Topping",
+    "Alexander Singleton"
+  ],
+  "published": "2025-10-01T21:31:54Z",
+  "primary_category": "cs.HC",
+  "arxiv_url": "https://arxiv.org/abs/2510.01473v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过焦点小组(N=27)探讨研究人员对使用大语言模型进行数据发现的接受度。研究发现，尽管LLMs能通过自然语言查询改善传统关键词匹配的局限性，但研究人员不会仅因潜在优势就放弃现有技术。透明性相关的功能设计是克服使用障碍、提升接受度的关键因素。",
+  "order": 148,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01473v1"
+}

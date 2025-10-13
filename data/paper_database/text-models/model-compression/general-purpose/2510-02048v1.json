@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02048v1",
+  "title": "Variational Secret Common Randomness Extraction",
+  "summary": "This paper studies the problem of extracting common randomness (CR) or secret\nkeys from correlated random sources observed by two legitimate parties, Alice\nand Bob, through public discussion in the presence of an eavesdropper, Eve. We\npropose a practical two-stage CR extraction framework. In the first stage, the\nvariational probabilistic quantization (VPQ) step is introduced, where Alice\nand Bob employ probabilistic neural network (NN) encoders to map their\nobservations into discrete, nearly uniform random variables (RVs) with high\nagreement probability while minimizing information leakage to Eve. This is\nrealized through a variational learning objective combined with adversarial\ntraining. In the second stage, a secure sketch using code-offset construction\nreconciles the encoder outputs into identical secret keys, whose secrecy is\nguaranteed by the VPQ objective. As a representative application, we study\nphysical layer key (PLK) generation. Beyond the traditional methods, which rely\non the channel reciprocity principle and require two-way channel probing, thus\nsuffering from large protocol overhead and being unsuitable in high mobility\nscenarios, we propose a sensing-based PLK generation method for integrated\nsensing and communications (ISAC) systems, where paired range-angle (RA) maps\nmeasured at Alice and Bob serve as correlated sources. The idea is verified\nthrough both end-to-end simulations and real-world software-defined radio (SDR)\nmeasurements, including scenarios where Eve has partial knowledge about Bob's\nposition. The results demonstrate the feasibility and convincing performance of\nboth the proposed CR extraction framework and sensing-based PLK generation\nmethod.",
+  "authors": [
+    "Xinyang Li",
+    "Vlad C. Andrei",
+    "Peter J. Gu",
+    "Yiqi Chen",
+    "Ullrich J. Mönich",
+    "Holger Boche"
+  ],
+  "published": "2025-10-02T14:22:21Z",
+  "primary_category": "cs.IT",
+  "arxiv_url": "https://arxiv.org/abs/2510.02048v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种两阶段变分秘密共同随机性提取框架：第一阶段采用变分概率量化，通过神经网络编码器将相关源映射为离散均匀随机变量，结合对抗训练最小化信息泄露；第二阶段使用安全草图实现密钥一致。应用于集成感知通信系统，提出基于感知的物理层密钥生成方法，通过端到端仿真和软件无线电实测验证了在移动场景下的可行性和优越性能。",
+  "order": 759,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02048v1"
+}

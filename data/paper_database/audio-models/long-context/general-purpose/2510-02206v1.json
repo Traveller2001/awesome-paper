@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.02206v1",
+  "title": "Poolformer: Recurrent Networks with Pooling for Long-Sequence Modeling",
+  "summary": "Sequence-to-sequence models have become central in Artificial Intelligence,\nparticularly following the introduction of the transformer architecture. While\ninitially developed for Natural Language Processing, these models have\ndemonstrated utility across domains, including Computer Vision. Such models\nrequire mechanisms to exchange information along the time dimension, typically\nusing recurrent or self-attention layers. However, self-attention scales\nquadratically with sequence length, limiting its practicality for very long\nsequences.\n  We introduce Poolformer, a sequence-to-sequence model that replaces\nself-attention with recurrent layers and incorporates pooling operations to\nreduce sequence length. Poolformer is defined recursively using SkipBlocks,\nwhich contain residual blocks, a down-pooling layer, a nested SkipBlock, an\nup-pooling layer, and additional residual blocks. We conduct extensive\nexperiments to support our architectural choices.\n  Our results show that pooling greatly accelerates training, improves\nperceptual metrics (FID and IS), and prevents overfitting. Our experiments also\nsuggest that long-range dependencies are handled by deep layers, while shallow\nlayers take care of short-term features.\n  Evaluated on raw audio, which naturally features long sequence lengths,\nPoolformer outperforms state-of-the-art models such as SaShiMi and Mamba.\nFuture directions include applications to text and vision, as well as\nmulti-modal scenarios, where a Poolformer-based LLM could effectively process\ndense representations of images and videos.",
+  "authors": [
+    "Daniel Gallo Fernández"
+  ],
+  "published": "2025-10-02T16:52:45Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02206v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "long_context",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Poolformer是一种序列到序列模型，用循环层和池化操作替代自注意力机制，解决了长序列建模中二次复杂度问题。在原始音频处理任务中表现优于Sashimi和Mamba等先进模型，通过池化加速训练、提升感知指标并防止过拟合。",
+  "order": 725,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02206v1"
+}

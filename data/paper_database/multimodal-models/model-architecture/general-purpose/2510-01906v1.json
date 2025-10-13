@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01906v1",
+  "title": "A Methodology for Transparent Logic-Based Classification Using a\n  Multi-Task Convolutional Tsetlin Machine",
+  "summary": "The Tsetlin Machine (TM) is a novel machine learning paradigm that employs\nfinite-state automata for learning and utilizes propositional logic to\nrepresent patterns. Due to its simplistic approach, TMs are inherently more\ninterpretable than learning algorithms based on Neural Networks. The\nConvolutional TM has shown comparable performance on various datasets such as\nMNIST, K-MNIST, F-MNIST and CIFAR-2. In this paper, we explore the\napplicability of the TM architecture for large-scale multi-channel (RGB) image\nclassification. We propose a methodology to generate both local interpretations\nand global class representations. The local interpretations can be used to\nexplain the model predictions while the global class representations aggregate\nimportant patterns for each class. These interpretations summarize the\nknowledge captured by the convolutional clauses, which can be visualized as\nimages. We evaluate our methods on MNIST and CelebA datasets, using models that\nachieve 98.5\\% accuracy on MNIST and 86.56\\% F1-score on CelebA (compared to\n88.07\\% for ResNet50) respectively. We show that the TM performs competitively\nto this deep learning model while maintaining its interpretability, even in\nlarge-scale complex training environments. This contributes to a better\nunderstanding of TM clauses and provides insights into how these models can be\napplied to more complex and diverse datasets.",
+  "authors": [
+    "Mayur Kishor Shende",
+    "Ole-Christoffer Granmo",
+    "Runar Helin",
+    "Vladimir I. Zadorozhny",
+    "Rishad Shafik"
+  ],
+  "published": "2025-10-02T11:25:08Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01906v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于Tsetlin机的透明逻辑分类方法，通过多任务卷积架构实现大规模RGB图像分类。该方法能生成局部解释和全局类别表示，在MNIST和CelebA数据集上分别达到98.5%准确率和86.56% F1分数，性能接近ResNet50但保持可解释性，为复杂数据集上的可解释AI提供新思路。",
+  "order": 778,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01906v1"
+}

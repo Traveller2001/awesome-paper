@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.07249v1",
+  "title": "TalkCuts: A Large-Scale Dataset for Multi-Shot Human Speech Video\n  Generation",
+  "summary": "In this work, we present TalkCuts, a large-scale dataset designed to\nfacilitate the study of multi-shot human speech video generation. Unlike\nexisting datasets that focus on single-shot, static viewpoints, TalkCuts offers\n164k clips totaling over 500 hours of high-quality human speech videos with\ndiverse camera shots, including close-up, half-body, and full-body views. The\ndataset includes detailed textual descriptions, 2D keypoints and 3D SMPL-X\nmotion annotations, covering over 10k identities, enabling multimodal learning\nand evaluation. As a first attempt to showcase the value of the dataset, we\npresent Orator, an LLM-guided multi-modal generation framework as a simple\nbaseline, where the language model functions as a multi-faceted director,\norchestrating detailed specifications for camera transitions, speaker\ngesticulations, and vocal modulation. This architecture enables the synthesis\nof coherent long-form videos through our integrated multi-modal video\ngeneration module. Extensive experiments in both pose-guided and audio-driven\nsettings show that training on TalkCuts significantly enhances the\ncinematographic coherence and visual appeal of generated multi-shot speech\nvideos. We believe TalkCuts provides a strong foundation for future work in\ncontrollable, multi-shot speech video generation and broader multimodal\nlearning.",
+  "authors": [
+    "Jiaben Chen",
+    "Zixin Wang",
+    "Ailing Zeng",
+    "Yang Fu",
+    "Xueyang Yu",
+    "Siyuan Cen",
+    "Julian Tanke",
+    "Yihang Chen",
+    "Koichi Saito",
+    "Yuki Mitsufuji",
+    "Chuang Gan"
+  ],
+  "published": "2025-10-08T17:16:09Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07249v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TalkCuts大规模多镜头人声视频数据集，包含16.4万段视频、500多小时内容，涵盖多种镜头视角和详细标注。同时提出Orator框架，利用语言模型指导多模态视频生成，显著提升多镜头语音视频的连贯性和视觉效果。",
+  "order": 108,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07249v1"
+}

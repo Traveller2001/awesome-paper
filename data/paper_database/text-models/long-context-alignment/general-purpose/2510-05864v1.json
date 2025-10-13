@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05864v1",
+  "title": "Evaluating the Sensitivity of LLMs to Harmful Contents in Long Input",
+  "summary": "Large language models (LLMs) increasingly support applications that rely on\nextended context, from document processing to retrieval-augmented generation.\nWhile their long-context capabilities are well studied for reasoning and\nretrieval, little is known about their behavior in safety-critical scenarios.\nWe evaluate LLMs' sensitivity to harmful content under extended context,\nvarying type (explicit vs. implicit), position (beginning, middle, end),\nprevalence (0.01-0.50 of the prompt), and context length (600-6000 tokens).\nAcross harmful content categories such as toxic, offensive, and hate speech,\nwith LLaMA-3, Qwen-2.5, and Mistral, we observe similar patterns: performance\npeaks at moderate harmful prevalence (0.25) but declines when content is very\nsparse or dominant; recall decreases with increasing context length; harmful\nsentences at the beginning are generally detected more reliably; and explicit\ncontent is more consistently recognized than implicit. These findings provide\nthe first systematic view of how LLMs prioritize and calibrate harmful content\nin long contexts, highlighting both their emerging strengths and the challenges\nthat remain for safety-critical use.",
+  "authors": [
+    "Faeze Ghorbanpour",
+    "Alexander Fraser"
+  ],
+  "published": "2025-10-07T12:33:21Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05864v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['long_context', 'alignment']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究系统评估了LLaMA-3、Qwen-2.5和Mistral等大语言模型在长上下文（600-6000词）中对有害内容的敏感度。研究发现：有害内容占比25%时检测效果最佳；上下文越长召回率越低；开头位置的有害语句更易被识别；显性内容比隐性内容检测更准确。这为长文本场景下的AI安全应用提供了重要参考。",
+  "order": 30,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05864v1"
+}

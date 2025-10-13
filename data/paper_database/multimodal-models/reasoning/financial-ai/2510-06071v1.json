@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06071v1",
+  "title": "Benchmark It Yourself (BIY): Preparing a Dataset and Benchmarking AI\n  Models for Scatterplot-Related Tasks",
+  "summary": "AI models are increasingly used for data analysis and visualization, yet\nbenchmarks rarely address scatterplot-specific tasks, limiting insight into\nperformance. To address this gap for one of the most common chart types, we\nintroduce a synthetic, annotated dataset of over 18,000 scatterplots from six\ndata generators and 17 chart designs, and a benchmark based on it. We evaluate\nproprietary models from OpenAI and Google using N-shot prompting on five\ndistinct tasks derived from annotations of cluster bounding boxes, their center\ncoordinates, and outlier coordinates. OpenAI models and Gemini 2.5 Flash,\nespecially when prompted with examples, are viable options for counting\nclusters and, in Flash's case, outliers (90%+ Accuracy). However, the results\nfor localization-related tasks are unsatisfactory: Precision and Recall are\nnear or below 50%, except for Flash in outlier identification (65.01%).\nFurthermore, the impact of chart design on performance appears to be a\nsecondary factor, but it is advisable to avoid scatterplots with wide aspect\nratios (16:9 and 21:9) or those colored randomly. Supplementary materials are\navailable at https://github.com/feedzai/biy-paper.",
+  "authors": [
+    "João Palmeiro",
+    "Diogo Duarte",
+    "Rita Costa",
+    "Pedro Bizarro"
+  ],
+  "published": "2025-10-07T15:59:19Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06071v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出BIY基准测试框架，构建包含1.8万+散点图的数据集，评估OpenAI和Google模型在聚类计数、异常值检测等五项任务上的表现。结果显示模型在计数任务上表现良好（准确率>90%），但定位任务表现欠佳（精确率/召回率≤50%），并发现宽高比和随机配色会降低模型性能。",
+  "order": 98,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06071v1"
+}

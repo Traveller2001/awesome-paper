@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.05825v1",
+  "title": "Mitigating Premature Exploitation in Particle-based Monte Carlo for\n  Inference-Time Scaling",
+  "summary": "Inference-Time Scaling (ITS) improves language models by allocating more\ncomputation at generation time. Particle Filtering (PF) has emerged as a strong\nITS method for complex mathematical reasoning tasks, but it is vulnerable when\nguided by process reward models, which often assign overconfident scores early\nin the reasoning process. This causes PF to suffer from premature exploitation:\nit myopically commits to locally promising trajectories, prunes potentially\ncorrect hypotheses, and converges to suboptimal solutions. This failure mode,\nknown as particle impoverishment, is especially severe under constrained\ncomputational budgets. To address this, we analyze the problem and identify two\nroot causes: a lack of diversity in the particle set due to overconfident\nresampling and consequent inability to assess the potential of a reasoning\npath. We introduce Entropic Particle Filtering (ePF), an algorithm that\nintegrates two new techniques to solve these issues. The first technique,\nEntropic Annealing (EA), directly mitigates particle impoverishment by\nmonitoring search diversity via entropy; when diversity drops, it intervenes by\ndynamically annealing the resampling distribution to preserve exploration. The\nsecond, an enhancement called Look-ahead Modulation (LaM), adds a predictive\nguide to evaluate a state's potential based on its successors. On several\nchallenging math benchmarks, ePF significantly outperforms strong baselines and\nachieves up to a 50 % relative improvement in task reward. Together, these\nmethods improve PF's resilience by balancing the exploration of diverse\nsolution spaces with the exploitation of high-reward regions, ultimately\nleading to higher-quality solutions.",
+  "authors": [
+    "Giorgio Giannone",
+    "Guangxuan Xu",
+    "Nikhil Shivakumar Nayak",
+    "Rohan Mahesh Awhad",
+    "Shivchander Sudalairaj",
+    "Kai Xu",
+    "Akash Srivastava"
+  ],
+  "published": "2025-10-07T11:48:32Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05825v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对推理时扩展中的粒子滤波方法提出改进，解决过程奖励模型导致的过早利用问题。通过引入熵粒子滤波算法，结合熵退火和前瞻调制技术，在数学推理任务上实现高达50%的性能提升，有效平衡探索与利用。",
+  "order": 119,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05825v1"
+}

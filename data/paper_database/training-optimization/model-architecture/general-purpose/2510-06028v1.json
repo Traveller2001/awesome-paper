@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06028v1",
+  "title": "Generalization of Gibbs and Langevin Monte Carlo Algorithms in the\n  Interpolation Regime",
+  "summary": "The paper provides data-dependent bounds on the test error of the Gibbs\nalgorithm in the overparameterized interpolation regime, where low training\nerrors are also obtained for impossible data, such as random labels in\nclassification. The bounds are stable under approximation with Langevin Monte\nCarlo algorithms. Experiments on the MNIST and CIFAR-10 datasets verify that\nthe bounds yield nontrivial predictions on true labeled data and correctly\nupper bound the test error for random labels. Our method indicates that\ngeneralization in the low-temperature, interpolation regime is already signaled\nby small training errors in the more classical high temperature regime.",
+  "authors": [
+    "Andreas Maurer",
+    "Erfan Mirzaei",
+    "Massimiliano Pontil"
+  ],
+  "published": "2025-10-07T15:25:56Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06028v1",
+  "primary_area": "training_optimization",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文在过参数化插值区域为Gibbs算法提供了数据依赖的测试误差边界，证明该边界在Langevin蒙特卡洛算法近似下保持稳定。通过MNIST和CIFAR-10实验验证，这些边界能在真实标注数据上给出有效预测，并对随机标签正确上界测试误差。研究表明，低温插值区域的泛化性能可通过经典高温区域的小训练误差提前预示。",
+  "order": 104,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06028v1"
+}

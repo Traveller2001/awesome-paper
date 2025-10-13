@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00647v1",
+  "title": "MCM-DPO: Multifaceted Cross-Modal Direct Preference Optimization for\n  Alt-text Generation",
+  "summary": "The alt-text generation task produces concise, context-relevant descriptions\nof images, enabling blind and low-vision users to access online images. Despite\nthe capabilities of large vision-language models, alt-text generation\nperformance remains limited due to noisy user annotations, inconsistent\nstandards, and MLLMs' insensitivity to contextual information. Previous efforts\nto fine-tune MLLMs using supervised fine-tuning (SFT) have struggled, as SFT\nrelies on accurate target annotations, which are often flawed in user-generated\nalt-text. To address this, we propose Multi-faceted Cross-modal Direct\nPreference Optimization (MCM-DPO), which improves alt-text generation by\nlearning to identify better options in preference pairs without requiring\nprecise annotations. MCM-DPO optimizes preferences across single, paired, and\nmulti-preference dimensions, covering textual, visual, and cross-modal factors.\nIn light of the scarcity of high-quality annotated and preference-labeled\ndatasets for alt-text, we constructed two large-scale, high-quality datasets\nnamed TAlt and PAlt, sourced from Twitter and Pinterest. These datasets include\n202k annotated alt-text samples and 18k preference pairs that cover diverse\npreference dimensions, aiming to support further research in this domain.\nExperimental results show that our proposed MCM-DPO method consistently\noutperforms both DPO and SFT, establishing a new state of the art in alt-text\ngeneration. We release the code and data here:\nhttps://github.com/LVUGAI/MCM-DPO",
+  "authors": [
+    "Jinlan Fu",
+    "Shenzhen Huangfu",
+    "Hao Fei",
+    "Yichong Huang",
+    "Xiaoyu Shen",
+    "Xipeng Qiu",
+    "See-Kiong Ng"
+  ],
+  "published": "2025-10-01T08:25:18Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00647v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MCM-DPO方法，通过多维度跨模态直接偏好优化改进替代文本生成，无需精确标注即可从偏好对中学习更好选项。该方法在文本、视觉和跨模态因素上优化偏好，并构建了两个大规模高质量数据集TAlt和PAlt。实验表明MCM-DPO在替代文本生成任务上优于DPO和SFT方法，达到新的最优性能。",
+  "order": 458,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00647v1"
+}

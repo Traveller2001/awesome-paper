@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02028v1",
+  "title": "LiLa-Net: Lightweight Latent LiDAR Autoencoder for 3D Point Cloud\n  Reconstruction",
+  "summary": "This work proposed a 3D autoencoder architecture, named LiLa-Net, which\nencodes efficient features from real traffic environments, employing only the\nLiDAR's point clouds. For this purpose, we have real semi-autonomous vehicle,\nequipped with Velodyne LiDAR. The system leverage skip connections concept to\nimprove the performance without using extensive resources as the\nstate-of-the-art architectures. Key changes include reducing the number of\nencoder layers and simplifying the skip connections, while still producing an\nefficient and representative latent space which allows to accurately\nreconstruct the original point cloud. Furthermore, an effective balance has\nbeen achieved between the information carried by the skip connections and the\nlatent encoding, leading to improved reconstruction quality without\ncompromising performance. Finally, the model demonstrates strong generalization\ncapabilities, successfully reconstructing objects unrelated to the original\ntraffic environment.",
+  "authors": [
+    "Mario Resino",
+    "Borja Pérez",
+    "Jaime Godoy",
+    "Abdulla Al-Kaff",
+    "Fernando García"
+  ],
+  "published": "2025-10-02T14:00:20Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02028v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "LiLa-Net是一种轻量级3D点云自编码器，通过减少编码器层数和简化跳跃连接，在保持重建精度的同时降低计算资源需求，展示了在非交通环境物体上的良好泛化能力。",
+  "order": 527,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02028v1"
+}

@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2510.02202v1",
+  "title": "Detection of Chagas Disease from the ECG: The George B. Moody PhysioNet\n  Challenge 2025",
+  "summary": "Objective: Chagas disease is a parasitic infection that is endemic to South\nAmerica, Central America, and, more recently, the U.S., primarily transmitted\nby insects. Chronic Chagas disease can cause cardiovascular diseases and\ndigestive problems. Serological testing capacities for Chagas disease are\nlimited, but Chagas cardiomyopathy often manifests in ECGs, providing an\nopportunity to prioritize patients for testing and treatment. Approach: The\nGeorge B. Moody PhysioNet Challenge 2025 invites teams to develop algorithmic\napproaches for identifying Chagas disease from electrocardiograms (ECGs). Main\nresults: This Challenge provides multiple innovations. First, we leveraged\nseveral datasets with labels from patient reports and serological testing,\nprovided a large dataset with weak labels and smaller datasets with strong\nlabels. Second, we augmented the data to support model robustness and\ngeneralizability to unseen data sources. Third, we applied an evaluation metric\nthat captured the local serological testing capacity for Chagas disease to\nframe the machine learning problem as a triage task. Significance: Over 630\nparticipants from 111 teams submitted over 1300 entries during the Challenge,\nrepresenting diverse approaches from academia and industry worldwide.",
+  "authors": [
+    "Matthew A. Reyna",
+    "Zuzana Koscova",
+    "Jan Pavlus",
+    "Soheil Saghafi",
+    "James Weigle",
+    "Andoni Elola",
+    "Salman Seyedi",
+    "Kiersten Campbell",
+    "Qiao Li",
+    "Ali Bahrami Rad",
+    "Antônio H. Ribeiro",
+    "Antonio Luiz P. Ribeiro",
+    "Reza Sameni",
+    "Gari D. Clifford"
+  ],
+  "published": "2025-10-02T16:50:36Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02202v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "medical_ai",
+  "tldr_zh": "乔治·B·穆迪PhysioNet挑战赛2025聚焦于利用心电图检测恰加斯病，通过整合多源数据集（含强弱标签）、数据增强技术和考虑当地检测能力的评估指标，吸引了全球630多名参与者开发算法模型，旨在优化患者筛查和治疗优先级排序。",
+  "order": 726,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02202v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00436v1",
+  "title": "Automated Evaluation can Distinguish the Good and Bad AI Responses to\n  Patient Questions about Hospitalization",
+  "summary": "Automated approaches to answer patient-posed health questions are rising, but\nselecting among systems requires reliable evaluation. The current gold standard\nfor evaluating the free-text artificial intelligence (AI) responses--human\nexpert review--is labor-intensive and slow, limiting scalability. Automated\nmetrics are promising yet variably aligned with human judgments and often\ncontext-dependent. To address the feasibility of automating the evaluation of\nAI responses to hospitalization-related questions posed by patients, we\nconducted a large systematic study of evaluation approaches. Across 100 patient\ncases, we collected responses from 28 AI systems (2800 total) and assessed them\nalong three dimensions: whether a system response (1) answers the question, (2)\nappropriately uses clinical note evidence, and (3) uses general medical\nknowledge. Using clinician-authored reference answers to anchor metrics,\nautomated rankings closely matched expert ratings. Our findings suggest that\ncarefully designed automated evaluation can scale comparative assessment of AI\nsystems and support patient-clinician communication.",
+  "authors": [
+    "Sarvesh Soni",
+    "Dina Demner-Fushman"
+  ],
+  "published": "2025-10-01T02:39:37Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00436v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究系统评估了28个AI系统对100个住院相关患者问题的回答质量，通过三个维度（回答问题、使用临床证据、运用医学知识）验证了自动化评估方法可有效替代人工专家评审，为医疗AI对话系统的规模化评估提供了可行方案。",
+  "order": 483,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00436v1"
+}

@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.01180v1",
+  "title": "BroRL: Scaling Reinforcement Learning via Broadened Exploration",
+  "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a key\ningredient for unlocking complex reasoning capabilities in large language\nmodels. Recent work ProRL has shown promise in scaling RL by increasing the\nnumber of training steps. However, performance plateaus after thousands of\nsteps, with clear diminishing returns from allocating more computation to\nadditional training. In this work, we investigate a complementary paradigm for\nscaling RL, BroR-Lincreasing the number of rollouts per example to hundreds to\nexhaustively Broaden exploration, which yields continuous performance gains\nbeyond the saturation point observed in ProRL when scaling the number of\ntraining steps. Our approach is motivated by a mass balance equation analysis\nallowing us to characterize the rate of change in probability mass for correct\nand incorrect tokens during the reinforcement process. We show that under a\none-step RL assumption, sampled rollout tokens always contribute to\ncorrect-mass expansion, while unsampled tokens outside rollouts may lead to\ngains or losses depending on their distribution and the net reward balance.\nImportantly, as the number of rollouts per example N increases, the effect of\nunsampled terms diminishes, ensuring overall correct-mass expansion. To\nvalidate our theoretical analysis, we conduct simulations under more relaxed\nconditions and find that a sufficiently large rollout size N-corresponding to\nample exploration-guarantees an increase in the probability mass of all correct\ntokens. Empirically, BroRL revives models saturated after 3K ProRL training\nsteps and demonstrates robust, continuous improvement, achieving\nstate-of-the-art results for the 1.5B model across diverse benchmarks.",
+  "authors": [
+    "Jian Hu",
+    "Mingjie Liu",
+    "Ximing Lu",
+    "Fang Wu",
+    "Zaid Harchaoui",
+    "Shizhe Diao",
+    "Yejin Choi",
+    "Pavlo Molchanov",
+    "Jun Yang",
+    "Jan Kautz",
+    "Yi Dong"
+  ],
+  "published": "2025-10-01T17:59:02Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01180v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "BroRL提出通过增加每个训练样本的rollout数量至数百次来扩展强化学习，解决了ProRL在数千步训练后性能饱和的问题。理论分析表明，扩大探索范围能确保正确token概率质量的持续增长，实验证明该方法能使饱和模型复苏并在多个基准测试中取得最优结果。",
+  "order": 413,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01180v1"
+}

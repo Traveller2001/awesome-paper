@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06954v1",
+  "title": "From Condensation to Rank Collapse: A Two-Stage Analysis of Transformer\n  Training Dynamics",
+  "summary": "Although transformer-based models have shown exceptional empirical\nperformance, the fundamental principles governing their training dynamics are\ninadequately characterized beyond configuration-specific studies. Inspired by\nempirical evidence showing improved reasoning capabilities under small\ninitialization scales in language models, we employ the gradient flow\nanalytical framework established in [Zhou et al. NeurIPS 2022] to\nsystematically investigate linearized Transformer training dynamics. Our\ntheoretical analysis dissects the dynamics of attention modules into two\ndistinct stages. In the first stage, asymmetric weight perturbations from\nrandom initialization sustain non-degenerate gradient dynamics in parameter\nmatrices, facilitating systematic escape from small initialization regimes.\nSubsequently, these matrices undergo condensation, progressively aligning\ntoward the target orientation. In the second stage, the previously static\nkey-query matrices actively participate in training, driving the normalized\nmatrices toward asymptotic rank collapse. This two-stage framework generalizes\nclassical directional convergence results.",
+  "authors": [
+    "Zheng-An Chen",
+    "Tao Luo"
+  ],
+  "published": "2025-10-08T12:37:53Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06954v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过梯度流分析框架系统研究线性化Transformer训练动态，提出两阶段理论：第一阶段权重扰动使参数矩阵逃离小初始化状态并发生凝聚；第二阶段键查询矩阵参与训练导致渐进性秩塌缩。该框架推广了经典方向收敛结果，为理解Transformer训练机制提供新视角。",
+  "order": 194,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06954v1"
+}

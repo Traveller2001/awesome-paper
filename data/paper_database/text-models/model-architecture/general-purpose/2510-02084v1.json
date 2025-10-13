@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.02084v1",
+  "title": "KAIROS: Unified Training for Universal Non-Autoregressive Time Series\n  Forecasting",
+  "summary": "In the World Wide Web, reliable time series forecasts provide the\nforward-looking signals that drive resource planning, cache placement, and\nanomaly response, enabling platforms to operate efficiently as user behavior\nand content distributions evolve. Compared with other domains, time series\nforecasting for Web applications requires much faster responsiveness to support\nreal-time decision making. We present KAIROS, a non-autoregressive time series\nforecasting framework that directly models segment-level multi-peak\ndistributions. Unlike autoregressive approaches, KAIROS avoids error\naccumulation and achieves just-in-time inference, while improving over existing\nnon-autoregressive models that collapse to over-smoothed predictions. Trained\non the large-scale corpus, KAIROS demonstrates strong zero-shot generalization\non six widely used benchmarks, delivering forecasting performance comparable to\nstate-of-the-art foundation models with similar scale, at a fraction of their\ninference cost. Beyond empirical results, KAIROS highlights the importance of\nnon-autoregressive design as a scalable paradigm for foundation models in time\nseries.",
+  "authors": [
+    "Kuiye Ding",
+    "Fanda Fan",
+    "Zheya Wang",
+    "Hongxiao Li",
+    "Yifan Wang",
+    "Lei Wang",
+    "Chunjie Luo",
+    "Jianfeng Zhan"
+  ],
+  "published": "2025-10-02T14:50:50Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02084v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "KAIROS是一种非自回归时间序列预测框架，直接建模分段多峰分布，避免误差累积并实现实时推理。在大规模语料上训练后，在六个基准测试中展现出强大的零样本泛化能力，以较低推理成本达到与最先进基础模型相当的预测性能。",
+  "order": 751,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02084v1"
+}

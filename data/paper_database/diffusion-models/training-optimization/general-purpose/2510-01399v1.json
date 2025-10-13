@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01399v1",
+  "title": "DisCo: Reinforcement with Diversity Constraints for Multi-Human\n  Generation",
+  "summary": "State-of-the-art text-to-image models excel at realism but collapse on\nmulti-human prompts - duplicating faces, merging identities, and miscounting\nindividuals. We introduce DisCo (Reinforcement with Diversity Constraints), the\nfirst RL-based framework to directly optimize identity diversity in multi-human\ngeneration. DisCo fine-tunes flow-matching models via Group-Relative Policy\nOptimization (GRPO) with a compositional reward that (i) penalizes intra-image\nfacial similarity, (ii) discourages cross-sample identity repetition, (iii)\nenforces accurate person counts, and (iv) preserves visual fidelity through\nhuman preference scores. A single-stage curriculum stabilizes training as\ncomplexity scales, requiring no extra annotations. On the DiverseHumans\nTestset, DisCo achieves 98.6 Unique Face Accuracy and near-perfect Global\nIdentity Spread - surpassing both open-source and proprietary methods (e.g.,\nGemini, GPT-Image) while maintaining competitive perceptual quality. Our\nresults establish DisCo as a scalable, annotation-free solution that resolves\nthe long-standing identity crisis in generative models and sets a new benchmark\nfor compositional multi-human generation.",
+  "authors": [
+    "Shubhankar Borse",
+    "Farzad Farhadzadeh",
+    "Munawar Hayat",
+    "Fatih Porikli"
+  ],
+  "published": "2025-10-01T19:28:51Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01399v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "DisCo提出首个基于强化学习的多人生成框架，通过多样性约束优化身份多样性。该方法使用组相对策略优化和组合奖励函数，惩罚面部相似性、身份重复，确保准确人数统计并保持视觉质量。在DiverseHumans测试集上达到98.6%独特面部准确率，超越现有方法，解决了生成模型中长期存在的身份危机问题。",
+  "order": 586,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01399v1"
+}

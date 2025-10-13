@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.06677v1",
+  "title": "Incremental Summarization for Customer Support via Progressive\n  Note-Taking and Agent Feedback",
+  "summary": "We introduce an incremental summarization system for customer support agents\nthat intelligently determines when to generate concise bullet notes during\nconversations, reducing agents' context-switching effort and redundant review.\nOur approach combines a fine-tuned Mixtral-8x7B model for continuous note\ngeneration with a DeBERTa-based classifier to filter trivial content. Agent\nedits refine the online notes generation and regularly inform offline model\nretraining, closing the agent edits feedback loop. Deployed in production, our\nsystem achieved a 3% reduction in case handling time compared to bulk\nsummarization (with reductions of up to 9% in highly complex cases), alongside\nhigh agent satisfaction ratings from surveys. These results demonstrate that\nincremental summarization with continuous feedback effectively enhances summary\nquality and agent productivity at scale.",
+  "authors": [
+    "Yisha Wu",
+    "Cen",
+    "Zhao",
+    "Yuanpei Cao",
+    "Xiaoqing Su",
+    "Yashar Mehdad",
+    "Mindy Ji",
+    "Claire Na Cheng"
+  ],
+  "published": "2025-10-08T06:05:58Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06677v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['dialogue_systems', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种面向客服场景的增量式摘要系统，通过渐进式笔记生成和智能内容过滤，结合客服编辑反馈进行在线优化和离线模型重训练。生产环境部署显示，该系统使案件处理时间减少3%（复杂案件最高减少9%），并获客服高度满意度评价。",
+  "order": 91,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06677v1"
+}

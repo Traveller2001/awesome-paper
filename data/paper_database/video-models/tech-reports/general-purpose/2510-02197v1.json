@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02197v1",
+  "title": "Cross-Breed Pig Identification Using Auricular Vein Pattern Recognition:\n  A Machine Learning Approach for Small-Scale Farming Applications",
+  "summary": "Accurate livestock identification is a cornerstone of modern farming: it\nsupports health monitoring, breeding programs, and productivity tracking.\nHowever, common pig identification methods, such as ear tags and microchips,\nare often unreliable, costly, target pure breeds, and thus impractical for\nsmall-scale farmers. To address this gap, we propose a noninvasive biometric\nidentification approach that leverages uniqueness of the auricular vein\npatterns. To this end, we have collected 800 ear images from 20 mixed-breed\npigs (Landrace cross Pietrain and Duroc cross Pietrain), captured using a\nstandard smartphone and simple back lighting. A multistage computer vision\npipeline was developed to enhance vein visibility, extract structural and\nspatial features, and generate biometric signatures. These features were then\nclassified using machine learning models. Support Vector Machines (SVM)\nachieved the highest accuracy: correctly identifying pigs with 98.12% precision\nacross mixed-breed populations. The entire process from image processing to\nclassification was completed in an average of 8.3 seconds, demonstrating\nfeasibility for real-time farm deployment. We believe that by replacing fragile\nphysical identifiers with permanent biological markers, this system provides\nfarmers with a cost-effective and stress-free method of animal identification.\nMore broadly, the findings confirm the practicality of auricular vein\nbiometrics for digitizing livestock management, reinforcing its potential to\nextend the benefits of precision farming to resource-constrained agricultural\ncommunities.",
+  "authors": [
+    "Emmanuel Nsengiyumvaa",
+    "Leonard Niyitegekaa",
+    "Eric Umuhoza"
+  ],
+  "published": "2025-10-02T16:45:43Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02197v1",
+  "primary_area": "video_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出一种基于耳廓静脉模式识别的杂交猪身份识别方法，针对小规模养殖场景。通过智能手机采集800张猪耳图像，采用多阶段计算机视觉流程增强静脉可见性并提取特征，结合支持向量机模型实现98.12%的识别准确率，平均处理时间8.3秒。该方法为非侵入式生物识别提供了成本效益高的解决方案，有望推动精准养殖在资源受限农业社区的应用。",
+  "order": 512,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02197v1"
+}

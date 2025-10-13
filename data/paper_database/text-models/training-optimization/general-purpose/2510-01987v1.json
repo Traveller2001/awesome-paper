@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01987v1",
+  "title": "Private Federated Multiclass Post-hoc Calibration",
+  "summary": "Calibrating machine learning models so that predicted probabilities better\nreflect the true outcome frequencies is crucial for reliable decision-making\nacross many applications. In Federated Learning (FL), the goal is to train a\nglobal model on data which is distributed across multiple clients and cannot be\ncentralized due to privacy concerns. FL is applied in key areas such as\nhealthcare and finance where calibration is strongly required, yet federated\nprivate calibration has been largely overlooked. This work introduces the\nintegration of post-hoc model calibration techniques within FL. Specifically,\nwe transfer traditional centralized calibration methods such as histogram\nbinning and temperature scaling into federated environments and define new\nmethods to operate them under strong client heterogeneity. We study (1) a\nfederated setting and (2) a user-level Differential Privacy (DP) setting and\ndemonstrate how both federation and DP impacts calibration accuracy. We propose\nstrategies to mitigate degradation commonly observed under heterogeneity and\nour findings highlight that our federated temperature scaling works best for\nDP-FL whereas our weighted binning approach is best when DP is not required.",
+  "authors": [
+    "Samuel Maddock",
+    "Graham Cormode",
+    "Carsten Maple"
+  ],
+  "published": "2025-10-02T13:05:31Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01987v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出联邦学习中的多分类后验校准方法，将传统集中式校准技术（如直方图分箱和温度缩放）迁移到联邦环境，解决了客户端异构性下的隐私保护校准问题。研究涵盖联邦设置和用户级差分隐私设置，发现联邦温度缩放最适合DP-FL场景，而无DP时加权分箱方法表现最佳。",
+  "order": 765,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01987v1"
+}

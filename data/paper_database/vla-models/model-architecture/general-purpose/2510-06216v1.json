@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06216v1",
+  "title": "Dropping the D: RGB-D SLAM Without the Depth Sensor",
+  "summary": "We present DropD-SLAM, a real-time monocular SLAM system that achieves\nRGB-D-level accuracy without relying on depth sensors. The system replaces\nactive depth input with three pretrained vision modules: a monocular metric\ndepth estimator, a learned keypoint detector, and an instance segmentation\nnetwork. Dynamic objects are suppressed using dilated instance masks, while\nstatic keypoints are assigned predicted depth values and backprojected into 3D\nto form metrically scaled features. These are processed by an unmodified RGB-D\nSLAM back end for tracking and mapping. On the TUM RGB-D benchmark, DropD-SLAM\nattains 7.4 cm mean ATE on static sequences and 1.8 cm on dynamic sequences,\nmatching or surpassing state-of-the-art RGB-D methods while operating at 22 FPS\non a single GPU. These results suggest that modern pretrained vision models can\nreplace active depth sensors as reliable, real-time sources of metric scale,\nmarking a step toward simpler and more cost-effective SLAM systems.",
+  "authors": [
+    "Mert Kiray",
+    "Alican Karaomer",
+    "Benjamin Busam"
+  ],
+  "published": "2025-10-07T17:59:30Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06216v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DropD-SLAM系统，通过三个预训练视觉模块（单目深度估计、关键点检测、实例分割）替代深度传感器，在TUM RGB-D基准测试中达到与RGB-D方法相当的精度（静态序列7.4cm，动态序列1.8cm），运行速度22FPS，为低成本SLAM系统提供了新方案。",
+  "order": 59,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06216v1"
+}

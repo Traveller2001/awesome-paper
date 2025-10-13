@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01925v1",
+  "title": "Enhancing Large Language Model Reasoning with Reward Models: An\n  Analytical Survey",
+  "summary": "Reward models (RMs) play a critical role in enhancing the reasoning\nperformance of LLMs. For example, they can provide training signals to finetune\nLLMs during reinforcement learning (RL) and help select the best answer from\nmultiple candidates during inference. In this paper, we provide a systematic\nintroduction to RMs, along with a comprehensive survey of their applications in\nLLM reasoning. We first review fundamental concepts of RMs, including their\narchitectures, training methodologies, and evaluation techniques. Then, we\nexplore their key applications: (1) guiding generation and selecting optimal\noutputs during LLM inference, (2) facilitating data synthesis and iterative\nself-improvement for LLMs, and (3) providing training signals in RL-based\nfinetuning. Finally, we address critical open questions regarding the\nselection, generalization, evaluation, and enhancement of RMs, based on\nexisting research and our own empirical findings. Our analysis aims to provide\nactionable insights for the effective deployment and advancement of RMs for LLM\nreasoning.",
+  "authors": [
+    "Qiyuan Liu",
+    "Hao Xu",
+    "Xuhong Chen",
+    "Wei Chen",
+    "Yee Whye Teh",
+    "Ning Miao"
+  ],
+  "published": "2025-10-02T11:42:17Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01925v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文系统综述了奖励模型在增强大语言模型推理能力中的应用，涵盖其架构设计、训练方法、评估技术，以及在推理引导、数据合成、强化学习微调等关键场景的使用，并探讨了奖励模型选择、泛化与优化等开放性问题。",
+  "order": 361,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01925v1"
+}

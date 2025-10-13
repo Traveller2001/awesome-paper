@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02128v1",
+  "title": "The Disparate Impacts of Speculative Decoding",
+  "summary": "The practice of speculative decoding, whereby inference is probabilistically\nsupported by a smaller, cheaper, ``drafter'' model, has become a standard\ntechnique for systematically reducing the decoding time of large language\nmodels. This paper conducts an analysis of speculative decoding through the\nlens of its potential disparate speed-up rates across tasks. Crucially, the\npaper shows that speed-up gained from speculative decoding is not uniformly\ndistributed across tasks, consistently diminishing for under-fit, and often\nunderrepresented tasks. To better understand this phenomenon, we derive an\nanalysis to quantify this observed ``unfairness'' and draw attention to the\nfactors that motivate such disparate speed-ups to emerge. Further, guided by\nthese insights, the paper proposes a mitigation strategy designed to reduce\nspeed-up disparities and validates the approach across several model pairs,\nrevealing on average a 12% improvement in our fairness metric.",
+  "authors": [
+    "Jameson Sandler",
+    "Ahmet Üstün",
+    "Marco Romanelli",
+    "Sara Hooker",
+    "Ferdinando Fioretto"
+  ],
+  "published": "2025-10-02T15:38:57Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02128v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文分析推测解码技术在任务间加速效果的不均衡问题，发现该技术对欠拟合和代表性不足任务的加速效果较差，提出量化评估方法并设计缓解策略，使公平性指标平均提升12%。",
+  "order": 351,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02128v1"
+}

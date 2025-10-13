@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.05921v1",
+  "title": "Prompt reinforcing for long-term planning of large language models",
+  "summary": "Large language models (LLMs) have achieved remarkable success in a wide range\nof natural language processing tasks and can be adapted through prompting.\nHowever, they remain suboptimal in multi-turn interactions, often relying on\nincorrect early assumptions and failing to track user goals over time, which\nmakes such tasks particularly challenging. Prior works in dialogue systems have\nshown that long-term planning is essential for handling interactive tasks. In\nthis work, we propose a prompt optimisation framework inspired by reinforcement\nlearning, which enables such planning to take place by only modifying the task\ninstruction prompt of the LLM-based agent. By generating turn-by-turn feedback\nand leveraging experience replay for prompt rewriting, our proposed method\nshows significant improvement in multi-turn tasks such as text-to-SQL and\ntask-oriented dialogue. Moreover, it generalises across different LLM-based\nagents and can leverage diverse LLMs as meta-prompting agents. This warrants\nfuture research in reinforcement learning-inspired parameter-free optimisation\nmethods.",
+  "authors": [
+    "Hsien-Chin Lin",
+    "Benjamin Matthias Ruppik",
+    "Carel van Niekerk",
+    "Chia-Hao Shen",
+    "Michael Heck",
+    "Nurul Lubis",
+    "Renato Vukovic",
+    "Shutong Feng",
+    "Milica Gašić"
+  ],
+  "published": "2025-10-07T13:30:18Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05921v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['dialogue_systems', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于强化学习思想的提示优化框架，通过生成逐轮反馈和利用经验回放重写提示，显著提升大语言模型在多轮交互任务（如文本转SQL和任务导向对话）中的长期规划能力。该方法无需修改模型参数，可泛化至不同LLM智能体，为参数无关的优化方法开辟了新研究方向。",
+  "order": 28,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05921v1"
+}

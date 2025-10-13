@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02182v1",
+  "title": "Uncovering Semantic Selectivity of Latent Groups in Higher Visual Cortex\n  with Mutual Information-Guided Diffusion",
+  "summary": "Understanding how neural populations in higher visual areas encode\nobject-centered visual information remains a central challenge in computational\nneuroscience. Prior works have investigated representational alignment between\nartificial neural networks and the visual cortex. Nevertheless, these findings\nare indirect and offer limited insights to the structure of neural populations\nthemselves. Similarly, decoding-based methods have quantified semantic features\nfrom neural populations but have not uncovered their underlying organizations.\nThis leaves open a scientific question: \"how feature-specific visual\ninformation is distributed across neural populations in higher visual areas,\nand whether it is organized into structured, semantically meaningful\nsubspaces.\" To tackle this problem, we present MIG-Vis, a method that leverages\nthe generative power of diffusion models to visualize and validate the\nvisual-semantic attributes encoded in neural latent subspaces. Our method first\nuses a variational autoencoder to infer a group-wise disentangled neural latent\nsubspace from neural populations. Subsequently, we propose a mutual information\n(MI)-guided diffusion synthesis procedure to visualize the specific\nvisual-semantic features encoded by each latent group. We validate MIG-Vis on\nmulti-session neural spiking datasets from the inferior temporal (IT) cortex of\ntwo macaques. The synthesized results demonstrate that our method identifies\nneural latent groups with clear semantic selectivity to diverse visual\nfeatures, including object pose, inter-category transformations, and\nintra-class content. These findings provide direct, interpretable evidence of\nstructured semantic representation in the higher visual cortex and advance our\nunderstanding of its encoding principles.",
+  "authors": [
+    "Yule Wang",
+    "Joseph Yu",
+    "Chengrui Li",
+    "Weihan Li",
+    "Anqi Wu"
+  ],
+  "published": "2025-10-02T16:33:40Z",
+  "primary_category": "q-bio.NC",
+  "arxiv_url": "https://arxiv.org/abs/2510.02182v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出MIG-Vis方法，利用扩散模型生成能力可视化高阶视觉皮层神经群体的语义选择性。通过变分自编码器推断解耦的神经潜在子空间，结合互信息引导的扩散合成技术，在猕猴颞下皮层数据中识别出对物体姿态、类别转换等视觉特征具有明确选择性的神经群组，为视觉皮层语义表征结构提供了直接证据。",
+  "order": 731,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02182v1"
+}

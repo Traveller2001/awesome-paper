@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02268v1",
+  "title": "Do You Know Where Your Camera Is? View-Invariant Policy Learning with\n  Camera Conditioning",
+  "summary": "We study view-invariant imitation learning by explicitly conditioning\npolicies on camera extrinsics. Using Plucker embeddings of per-pixel rays, we\nshow that conditioning on extrinsics significantly improves generalization\nacross viewpoints for standard behavior cloning policies, including ACT,\nDiffusion Policy, and SmolVLA. To evaluate policy robustness under realistic\nviewpoint shifts, we introduce six manipulation tasks in RoboSuite and\nManiSkill that pair \"fixed\" and \"randomized\" scene variants, decoupling\nbackground cues from camera pose. Our analysis reveals that policies without\nextrinsics often infer camera pose using visual cues from static backgrounds in\nfixed scenes; this shortcut collapses when workspace geometry or camera\nplacement shifts. Conditioning on extrinsics restores performance and yields\nrobust RGB-only control without depth. We release the tasks, demonstrations,\nand code at https://ripl.github.io/know_your_camera/ .",
+  "authors": [
+    "Tianchong Jiang",
+    "Jingtian Ji",
+    "Xiangshan Tan",
+    "Jiading Fang",
+    "Anand Bhattad",
+    "Vitor Guizilini",
+    "Matthew R. Walter"
+  ],
+  "published": "2025-10-02T17:47:06Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.02268v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出通过显式条件化相机外参实现视角不变的模仿学习，使用Plucker嵌入表示像素光线。实验表明该方法显著提升了ACT、Diffusion Policy和SmolVLA等策略在不同视角下的泛化能力，在RoboSuite和ManiSkill的六个操纵任务中验证了其鲁棒性，解决了固定场景中策略依赖背景线索推断相机位姿的缺陷。",
+  "order": 501,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02268v1"
+}

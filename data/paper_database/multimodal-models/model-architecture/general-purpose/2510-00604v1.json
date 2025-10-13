@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00604v1",
+  "title": "Disentangling Foreground and Background for vision-Language Navigation\n  via Online Augmentation",
+  "summary": "Following language instructions, vision-language navigation (VLN) agents are\ntasked with navigating unseen environments. While augmenting multifaceted\nvisual representations has propelled advancements in VLN, the significance of\nforeground and background in visual observations remains underexplored.\nIntuitively, foreground regions provide semantic cues, whereas the background\nencompasses spatial connectivity information. Inspired on this insight, we\npropose a Consensus-driven Online Feature Augmentation strategy (COFA) with\nalternative foreground and background features to facilitate the navigable\ngeneralization. Specifically, we first leverage semantically-enhanced landmark\nidentification to disentangle foreground and background as candidate augmented\nfeatures. Subsequently, a consensus-driven online augmentation strategy\nencourages the agent to consolidate two-stage voting results on feature\npreferences according to diverse instructions and navigational locations.\nExperiments on REVERIE and R2R demonstrate that our online\nforeground-background augmentation boosts the generalization of baseline and\nattains state-of-the-art performance.",
+  "authors": [
+    "Yunbo Xu",
+    "Xuesong Zhang",
+    "Jia Li",
+    "Zhenzhen Hu",
+    "Richang Hong"
+  ],
+  "published": "2025-10-01T07:32:36Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00604v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于在线增强的前景-背景解耦方法COFA，用于提升视觉语言导航的泛化能力。通过语义增强地标识别分离前景语义线索和背景空间信息，采用共识驱动的在线增强策略整合特征偏好，在REVERIE和R2R数据集上达到先进性能。",
+  "order": 656,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00604v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07182v1",
+  "title": "Bridged Clustering for Representation Learning: Semi-Supervised Sparse\n  Bridging",
+  "summary": "We introduce Bridged Clustering, a semi-supervised framework to learn\npredictors from any unpaired input $X$ and output $Y$ dataset. Our method first\nclusters $X$ and $Y$ independently, then learns a sparse, interpretable bridge\nbetween clusters using only a few paired examples. At inference, a new input\n$x$ is assigned to its nearest input cluster, and the centroid of the linked\noutput cluster is returned as the prediction $\\hat{y}$. Unlike traditional SSL,\nBridged Clustering explicitly leverages output-only data, and unlike dense\ntransport-based methods, it maintains a sparse and interpretable alignment.\nThrough theoretical analysis, we show that with bounded mis-clustering and\nmis-bridging rates, our algorithm becomes an effective and efficient predictor.\nEmpirically, our method is competitive with SOTA methods while remaining\nsimple, model-agnostic, and highly label-efficient in low-supervision settings.",
+  "authors": [
+    "Patrick Peixuan Ye",
+    "Chen Shani",
+    "Ellen Vitercik"
+  ],
+  "published": "2025-10-08T16:20:49Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07182v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出桥接聚类方法，一种半监督稀疏桥接框架，通过独立聚类输入输出数据并学习稀疏可解释的桥接关系，在少量配对样本下实现高效预测，兼具理论保证与标签高效性。",
+  "order": 176,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07182v1"
+}

@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2510.01988v1",
+  "title": "PepCompass: Navigating peptide embedding spaces using Riemannian\n  Geometry",
+  "summary": "Antimicrobial peptide discovery is challenged by the astronomical size of\npeptide space and the relative scarcity of active peptides. Generative models\nprovide continuous latent \"maps\" of peptide space, but conventionally ignore\ndecoder-induced geometry and rely on flat Euclidean metrics, rendering\nexploration and optimization distorted and inefficient. Prior manifold-based\nremedies assume fixed intrinsic dimensionality, which critically fails in\npractice for peptide data. Here, we introduce PepCompass, a geometry-aware\nframework for peptide exploration and optimization. At its core, we define a\nUnion of $\\kappa$-Stable Riemannian Manifolds $\\mathbb{M}^{\\kappa}$, a family\nof decoder-induced manifolds that captures local geometry while ensuring\ncomputational stability. We propose two local exploration methods: Second-Order\nRiemannian Brownian Efficient Sampling, which provides a convergent\nsecond-order approximation to Riemannian Brownian motion, and Mutation\nEnumeration in Tangent Space, which reinterprets tangent directions as discrete\namino-acid substitutions. Combining these yields Local Enumeration Bayesian\nOptimization (LE-BO), an efficient algorithm for local activity optimization.\nFinally, we introduce Potential-minimizing Geodesic Search (PoGS), which\ninterpolates between prototype embeddings along property-enriched geodesics,\nbiasing discovery toward seeds, i.e. peptides with favorable activity. In-vitro\nvalidation confirms the effectiveness of PepCompass: PoGS yields four novel\nseeds, and subsequent optimization with LE-BO discovers 25 highly active\npeptides with broad-spectrum activity, including against resistant bacterial\nstrains. These results demonstrate that geometry-informed exploration provides\na powerful new paradigm for antimicrobial peptide design.",
+  "authors": [
+    "Marcin Możejko",
+    "Adam Bielecki",
+    "Jurand Prądzyński",
+    "Marcin Traskowski",
+    "Antoni Janowski",
+    "Karol Jurasz",
+    "Michał Kucharczyk",
+    "Hyun-Su Lee",
+    "Marcelo Der Torossian Torres",
+    "Cesar de la Fuente-Nunez",
+    "Paulina Szymczak",
+    "Michał Kmicikiewicz",
+    "Ewa Szczurek"
+  ],
+  "published": "2025-10-02T13:07:37Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01988v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "PepCompass是一种基于黎曼几何的肽探索框架，通过构建κ-稳定黎曼流形联合体捕捉局部几何结构，提出二阶黎曼布朗高效采样和切空间突变枚举方法，结合局部枚举贝叶斯优化和势最小化测地线搜索，成功发现25种高活性抗菌肽，为抗菌肽设计提供了几何感知新范式。",
+  "order": 764,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01988v1"
+}

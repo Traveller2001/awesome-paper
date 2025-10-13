@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.06062v1",
+  "title": "ASPO: Asymmetric Importance Sampling Policy Optimization",
+  "summary": "Recent Large Language Model (LLM) post-training methods rely on token-level\nclipping mechanisms during Reinforcement Learning (RL). However, we identify a\nfundamental flaw in this Outcome-Supervised RL (OSRL) paradigm: the Importance\nSampling (IS) ratios of positive-advantage tokens are mismatched, leading to\nunbalanced token weighting for positive and negative tokens. This mismatch\nsuppresses the update of low-probability tokens while over-amplifying already\nhigh-probability ones. To address this, we propose Asymmetric Importance\nSampling Policy Optimization (ASPO), which uses a simple yet effective strategy\nthat flips the IS ratios of positive-advantage tokens, aligning their update\ndirection with the learning dynamics of negative ones. AIS further incorporates\na soft dual-clipping mechanism to stabilize extreme updates while maintaining\ngradient flow. Comprehensive experiments on coding and mathematical reasoning\nbenchmarks demonstrate that ASPO significantly mitigates premature convergence,\nimproves training stability, and enhances final performance over strong\nGRPO-based baselines. Our analysis provides new insights into the role of\ntoken-level weighting in OSRL and highlights the critical importance of\ncorrecting IS in LLM RL. The code and models of ASPO are available at\nhttps://github.com/wizard-III/Archer2.0.",
+  "authors": [
+    "Jiakang Wang",
+    "Runze Liu",
+    "Lei Lin",
+    "Wenping Hu",
+    "Xiu Li",
+    "Fuzheng Zhang",
+    "Guorui Zhou",
+    "Kun Gai"
+  ],
+  "published": "2025-10-07T15:54:24Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06062v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'reasoning']",
+  "application_domain": "['code_generation', 'general_purpose']",
+  "tldr_zh": "本文提出ASPO方法，通过翻转正优势令牌的重要性采样比率，解决大语言模型强化学习中令牌级裁剪机制导致的权重失衡问题。该方法结合软双重裁剪机制，在编程和数学推理基准测试中显著提升训练稳定性与最终性能。",
+  "order": 19,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06062v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00633v1",
+  "title": "Virtual Fashion Photo-Shoots: Building a Large-Scale Garment-Lookbook\n  Dataset",
+  "summary": "Fashion image generation has so far focused on narrow tasks such as virtual\ntry-on, where garments appear in clean studio environments. In contrast,\neditorial fashion presents garments through dynamic poses, diverse locations,\nand carefully crafted visual narratives. We introduce the task of virtual\nfashion photo-shoot, which seeks to capture this richness by transforming\nstandardized garment images into contextually grounded editorial imagery. To\nenable this new direction, we construct the first large-scale dataset of\ngarment-lookbook pairs, bridging the gap between e-commerce and fashion media.\nBecause such pairs are not readily available, we design an automated retrieval\npipeline that aligns garments across domains, combining visual-language\nreasoning with object-level localization. We construct a dataset with three\ngarment-lookbook pair accuracy levels: high quality (10,000 pairs), medium\nquality (50,000 pairs), and low quality (300,000 pairs). This dataset offers a\nfoundation for models that move beyond catalog-style generation and toward\nfashion imagery that reflects creativity, atmosphere, and storytelling.",
+  "authors": [
+    "Yannick Hauri",
+    "Luca A. Lanzendörfer",
+    "Till Aczel"
+  ],
+  "published": "2025-10-01T08:05:05Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00633v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出虚拟时尚摄影任务，构建首个大规模服装-画册配对数据集，通过跨域检索管道连接电商与时尚媒体，支持创意时尚图像生成。",
+  "order": 653,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00633v1"
+}

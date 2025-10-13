@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.07041v1",
+  "title": "U-Bench: A Comprehensive Understanding of U-Net through 100-Variant\n  Benchmarking",
+  "summary": "Over the past decade, U-Net has been the dominant architecture in medical\nimage segmentation, leading to the development of thousands of U-shaped\nvariants. Despite its widespread adoption, there is still no comprehensive\nbenchmark to systematically evaluate their performance and utility, largely\nbecause of insufficient statistical validation and limited consideration of\nefficiency and generalization across diverse datasets. To bridge this gap, we\npresent U-Bench, the first large-scale, statistically rigorous benchmark that\nevaluates 100 U-Net variants across 28 datasets and 10 imaging modalities. Our\ncontributions are threefold: (1) Comprehensive Evaluation: U-Bench evaluates\nmodels along three key dimensions: statistical robustness, zero-shot\ngeneralization, and computational efficiency. We introduce a novel metric,\nU-Score, which jointly captures the performance-efficiency trade-off, offering\na deployment-oriented perspective on model progress. (2) Systematic Analysis\nand Model Selection Guidance: We summarize key findings from the large-scale\nevaluation and systematically analyze the impact of dataset characteristics and\narchitectural paradigms on model performance. Based on these insights, we\npropose a model advisor agent to guide researchers in selecting the most\nsuitable models for specific datasets and tasks. (3) Public Availability: We\nprovide all code, models, protocols, and weights, enabling the community to\nreproduce our results and extend the benchmark with future methods. In summary,\nU-Bench not only exposes gaps in previous evaluations but also establishes a\nfoundation for fair, reproducible, and practically relevant benchmarking in the\nnext decade of U-Net-based segmentation models. The project can be accessed at:\nhttps://fenghetan9.github.io/ubench. Code is available at:\nhttps://github.com/FengheTan9/U-Bench.",
+  "authors": [
+    "Fenghe Tang",
+    "Chengqi Dong",
+    "Wenxin Ma",
+    "Zikang Xu",
+    "Heqin Zhu",
+    "Zihang Jiang",
+    "Rongsheng Wang",
+    "Yuhao Wang",
+    "Chenxu Wu",
+    "Shaohua Kevin Zhou"
+  ],
+  "published": "2025-10-08T14:06:17Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07041v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "U-Bench是首个大规模U-Net变体基准测试，系统评估了100种U形网络在28个数据集和10种影像模态下的表现。研究提出U-Score综合评价指标，分析架构范式对性能的影响，并提供模型选择指导工具，推动医学图像分割领域的公平可复现评测。",
+  "order": 121,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07041v1"
+}

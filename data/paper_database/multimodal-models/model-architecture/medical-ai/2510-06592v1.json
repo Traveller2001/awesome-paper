@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06592v1",
+  "title": "Adaptive Stain Normalization for Cross-Domain Medical Histology",
+  "summary": "Deep learning advances have revolutionized automated digital pathology\nanalysis. However, differences in staining protocols and imaging conditions can\nintroduce significant color variability. In deep learning, such color\ninconsistency often reduces performance when deploying models on data acquired\nunder different conditions from the training data, a challenge known as domain\nshift. Many existing methods attempt to address this problem via color\nnormalization but suffer from several notable drawbacks such as introducing\nartifacts or requiring careful choice of a template image for stain mapping. To\naddress these limitations, we propose a trainable color normalization model\nthat can be integrated with any backbone network for downstream tasks such as\nobject detection and classification. Based on the physics of the imaging\nprocess per the Beer-Lambert law, our model architecture is derived via\nalgorithmic unrolling of a nonnegative matrix factorization (NMF) model to\nextract stain-invariant structural information from the original pathology\nimages, which serves as input for further processing. Experimentally, we\nevaluate the method on publicly available pathology datasets and an internally\ncurated collection of malaria blood smears for cross-domain object detection\nand classification, where our method outperforms many state-of-the-art stain\nnormalization methods. Our code is available at\nhttps://github.com/xutianyue/BeerLaNet.",
+  "authors": [
+    "Tianyue Xu",
+    "Yanlin Wu",
+    "Abhai K. Tripathi",
+    "Matthew M. Ippolito",
+    "Benjamin D. Haeffele"
+  ],
+  "published": "2025-10-08T02:53:28Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06592v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出一种基于Beer-Lambert定律和NMF算法展开的可训练染色归一化模型BeerLaNet，通过提取染色不变的结构特征，有效解决数字病理学中的域偏移问题，在跨域目标检测和分类任务上优于现有方法。",
+  "order": 157,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06592v1"
+}

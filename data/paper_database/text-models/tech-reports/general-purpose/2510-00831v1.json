@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.00831v1",
+  "title": "Benchmarking Machine Learning Models for Fault Classification and\n  Localization in Power System Protection",
+  "summary": "The increasing integration of distributed energy resources (DERs),\nparticularly renewables, poses significant challenges for power system\nprotection, with fault classification (FC) and fault localization (FL) being\namong the most critical tasks. Conventional protection schemes, based on fixed\nthresholds, cannot reliably identify and localize short circuits with the\nincreasing complexity of the grid under dynamic conditions. Machine learning\n(ML) offers a promising alternative; however, systematic benchmarks across\nmodels and settings remain limited. This work presents, for the first time, a\ncomparative benchmarking study of classical ML models for FC and FL in power\nsystem protection based on EMT data. Using voltage and current waveforms\nsegmented into sliding windows of 10 ms to 50 ms, we evaluate models under\nrealistic real-time constraints. Performance is assessed in terms of accuracy,\nrobustness to window size, and runtime efficiency. The best-performing FC model\nachieved an F1 score of 0.992$\\pm$0.001, while the top FL model reached an R2\nof 0.806$\\pm$0.008 with a mean processing time of 0.563 ms.",
+  "authors": [
+    "Julian Oelhaf",
+    "Georg Kordowich",
+    "Changhun Kim",
+    "Paula Andrea Pérez-Toro",
+    "Christian Bergler",
+    "Andreas Maier",
+    "Johann Jäger",
+    "Siming Bayer"
+  ],
+  "published": "2025-10-01T12:44:14Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00831v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究首次对电力系统保护中的故障分类与定位机器学习模型进行系统性基准测试，基于电磁暂态数据评估多种模型在实时约束下的性能表现。最佳故障分类模型F1得分达0.992±0.001，最优定位模型R2达0.806±0.008，平均处理时间仅0.563毫秒，为动态电网条件下的保护方案提供了重要参考。",
+  "order": 237,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00831v1"
+}

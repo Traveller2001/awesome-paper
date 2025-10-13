@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01173v1",
+  "title": "EditTrack: Detecting and Attributing AI-assisted Image Editing",
+  "summary": "In this work, we formulate and study the problem of image-editing detection\nand attribution: given a base image and a suspicious image, detection seeks to\ndetermine whether the suspicious image was derived from the base image using an\nAI editing model, while attribution further identifies the specific editing\nmodel responsible. Existing methods for detecting and attributing AI-generated\nimages are insufficient for this problem, as they focus on determining whether\nan image was AI-generated/edited rather than whether it was edited from a\nparticular base image. To bridge this gap, we propose EditTrack, the first\nframework for this image-editing detection and attribution problem. Building on\nfour key observations about the editing process, EditTrack introduces a novel\nre-editing strategy and leverages carefully designed similarity metrics to\ndetermine whether a suspicious image originates from a base image and, if so,\nby which model. We evaluate EditTrack on five state-of-the-art editing models\nacross six datasets, demonstrating that it consistently achieves accurate\ndetection and attribution, significantly outperforming five baselines.",
+  "authors": [
+    "Zhengyuan Jiang",
+    "Yuyang Zhang",
+    "Moyang Guo",
+    "Neil Zhenqiang Gong"
+  ],
+  "published": "2025-10-01T17:56:35Z",
+  "primary_category": "cs.CR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01173v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "EditTrack是首个检测和归因AI辅助图像编辑的框架，通过重新编辑策略和相似度度量，判断可疑图像是否源自特定基础图像及使用的编辑模型，在多个数据集上显著优于现有方法。",
+  "order": 597,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01173v1"
+}

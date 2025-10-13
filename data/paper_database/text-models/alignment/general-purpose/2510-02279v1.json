@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02279v1",
+  "title": "Addressing Pitfalls in the Evaluation of Uncertainty Estimation Methods\n  for Natural Language Generation",
+  "summary": "Hallucinations are a common issue that undermine the reliability of large\nlanguage models (LLMs). Recent studies have identified a specific subset of\nhallucinations, known as confabulations, which arise due to predictive\nuncertainty of LLMs. To detect confabulations, various methods for estimating\npredictive uncertainty in natural language generation (NLG) have been\ndeveloped. These methods are typically evaluated by correlating uncertainty\nestimates with the correctness of generated text, with question-answering (QA)\ndatasets serving as the standard benchmark. However, commonly used approximate\ncorrectness functions have substantial disagreement between each other and,\nconsequently, in the ranking of the uncertainty estimation methods. This allows\none to inflate the apparent performance of uncertainty estimation methods. We\npropose using several alternative risk indicators for risk correlation\nexperiments that improve robustness of empirical assessment of UE algorithms\nfor NLG. For QA tasks, we show that marginalizing over multiple LLM-as-a-judge\nvariants leads to reducing the evaluation biases. Furthermore, we explore\nstructured tasks as well as out of distribution and perturbation detection\ntasks which provide robust and controllable risk indicators. Finally, we\npropose to use an Elo rating of uncertainty estimation methods to give an\nobjective summarization over extensive evaluation settings.",
+  "authors": [
+    "Mykyta Ielanskyi",
+    "Kajetan Schweighofer",
+    "Lukas Aichberger",
+    "Sepp Hochreiter"
+  ],
+  "published": "2025-10-02T17:54:09Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02279v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对自然语言生成中不确定性估计方法的评估缺陷，指出常用近似正确性函数存在显著分歧，导致方法排名不可靠。提出使用多种风险指标增强评估鲁棒性，在问答任务中通过集成多个LLM评判变体减少评估偏差，并探索结构化任务及分布外检测任务。最后引入Elo评分对不确定性估计方法进行客观总结。",
+  "order": 702,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02279v1"
+}

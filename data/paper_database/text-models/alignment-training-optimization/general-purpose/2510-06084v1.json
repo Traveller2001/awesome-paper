@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.06084v1",
+  "title": "Spectrum Tuning: Post-Training for Distributional Coverage and\n  In-Context Steerability",
+  "summary": "Language model post-training has enhanced instruction-following and\nperformance on many downstream tasks, but also comes with an often-overlooked\ncost on tasks with many possible valid answers. We characterize three\ndesiderata for conditional distributional modeling: in-context steerability,\nvalid output space coverage, and distributional alignment, and document across\nthree model families how current post-training can reduce these properties. In\nparticular, we disambiguate between two kinds of in-context learning: ICL for\neliciting existing underlying knowledge or capabilities, and in-context\nsteerability, where a model must use in-context information to override its\npriors and steer to a novel data generating distribution. To better evaluate\nand improve these desiderata, we introduce Spectrum Suite, a large-scale\nresource compiled from >40 data sources and spanning >90 tasks requiring models\nto steer to and match diverse distributions ranging from varied human\npreferences to numerical distributions and more. We find that while current\npost-training techniques help elicit underlying capabilities and knowledge,\nthey hurt models' ability to flexibly steer in-context. To mitigate these\nissues, we propose Spectrum Tuning, a post-training method using Spectrum Suite\nto improve steerability and distributional coverage. We find that Spectrum\nTuning often improves over pretrained models and their instruction-tuned\ncounterparts, enhancing steerability, spanning more of the output space, and\nimproving distributional alignment on held-out datasets.",
+  "authors": [
+    "Taylor Sorensen",
+    "Benjamin Newman",
+    "Jared Moore",
+    "Chan Park",
+    "Jillian Fisher",
+    "Niloofar Mireshghallah",
+    "Liwei Jiang",
+    "Yejin Choi"
+  ],
+  "published": "2025-10-07T16:10:26Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06084v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出频谱调优方法，解决语言模型后训练中分布覆盖不足和上下文引导能力下降的问题。通过构建包含90+任务的频谱测试集，研究发现现有后训练技术会削弱模型根据上下文调整输出的灵活性，而频谱调优能同时提升引导能力、输出空间覆盖和分布对齐效果。",
+  "order": 18,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06084v1"
+}

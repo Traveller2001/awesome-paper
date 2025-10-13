@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05554v1",
+  "title": "Critical attention scaling in long-context transformers",
+  "summary": "As large language models scale to longer contexts, attention layers suffer\nfrom a fundamental pathology: attention scores collapse toward uniformity as\ncontext length $n$ increases, causing tokens to cluster excessively, a\nphenomenon known as rank-collapse. While $\\textit{attention scaling}$\neffectively addresses this deficiency by rescaling attention scores with a\npolylogarithmic factor $\\beta_n$, theoretical justification for this approach\nremains lacking.\n  We analyze a simplified yet tractable model that magnifies the effect of\nattention scaling. In this model, attention exhibits a phase transition\ngoverned by the scaling factor $\\beta_n$: insufficient scaling collapses all\ntokens to a single direction, while excessive scaling reduces attention to\nidentity, thereby eliminating meaningful interactions between tokens. Our main\nresult identifies the critical scaling $\\beta_n \\asymp \\log n$ and provides a\nrigorous justification for attention scaling in YaRN and Qwen, clarifying why\nlogarithmic scaling maintains sparse, content-adaptive attention at large\ncontext lengths.",
+  "authors": [
+    "Shi Chen",
+    "Zhengjiang Lin",
+    "Yury Polyanskiy",
+    "Philippe Rigollet"
+  ],
+  "published": "2025-10-07T03:51:57Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05554v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['long_context', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究长上下文Transformer中的注意力缩放问题。当上下文长度增加时，注意力分数会趋于均匀化导致表征崩溃。通过理论分析发现注意力缩放存在相变现象：缩放不足会使所有token坍缩，过度缩放则使注意力退化为单位矩阵。研究确定了临界缩放因子β_n ∝ log n，为YaRN和Qwen等模型中的对数缩放提供了理论依据，证明其能在长上下文中保持稀疏且内容自适应的注意力机制。",
+  "order": 142,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05554v1"
+}

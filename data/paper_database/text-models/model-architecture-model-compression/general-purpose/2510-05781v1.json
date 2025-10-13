@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.05781v1",
+  "title": "Mixture of Neuron Experts",
+  "summary": "In this work, we first explore whether the parameters activated by the MoE\nlayer remain highly sparse at inference. We perform a sparsification study on\nseveral representative MoE models. For each expert, we rank parameters by the\nmagnitude of their activations from the gate projection and progressively prune\nthe activated subset. Pruning up to 60% of parameters within that subset causes\nonly negligible task-performance degradation; substantial drops occur only\nafter more than 90% are removed. We further decompose experts into\nneuron-granular MoE and visualize their activation values, finding that most\nneuron activations are near zero. This observation motivates us to select only\nhigh-activation neuron experts during pretraining. Based on this insight, we\npropose Mixture of Neuron Experts (MoNE). MoNE achieves neuron-granular expert\nselection by only applying a simple top-k selection within each expert, incurs\nnegligible latency, and requires no additional routing parameters or\ninter-expert communication. Extensive experiments demonstrate that MoNE matches\ntraditional MoE performance while activating only 50% of the MoE-layer\nparameters, and it consistently outperforms traditional MoE when compared at\nequal numbers of activated parameters. These results suggest that MoNE is a\npractical approach to improving parameter utilization and inference efficiency\nin MoE-like models.",
+  "authors": [
+    "Runxi Cheng",
+    "Yuchen Guan",
+    "Yucheng Ding",
+    "Qingguo Hu",
+    "Yongxian Wei",
+    "Chun Yuan",
+    "Yelong Shen",
+    "Weizhu Chen",
+    "Yeyun Gong"
+  ],
+  "published": "2025-10-07T10:51:58Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05781v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'model_compression']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出神经元粒度混合专家模型(MoNE)，通过研究发现MoE层在推理时参数激活高度稀疏，仅需保留高激活神经元即可维持性能。MoNE采用简单的top-k选择机制，无需额外路由参数，在激活50%参数的情况下达到传统MoE性能，显著提升推理效率。",
+  "order": 37,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05781v1"
+}

@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06005v1",
+  "title": "MASA: Rethinking the Representational Bottleneck in LoRA with Multi-A\n  Shared Adaptation",
+  "summary": "Low-Rank Adaptation (LoRA) has emerged as a dominant method in\nParameter-Efficient Fine-Tuning (PEFT) for large language models, which\naugments the transformer layer with one down-projection $A$ and one\nup-projection $B$. However, LoRA's reliance on a single down-projection matrix\n($A$) creates a representational bottleneck, as this solitary feature extractor\nis inherently insufficient for capturing the diverse signals required by\ncomplex tasks. This motivates our architectural shift to focus on enriching the\nfeature adaptation to improve the downstream task adaptation ability. We\npropose MASA (Multi-$A$ Shared Adaptation), an architecture that implements a\nmulti-$A$, single-$B$ structure where the multi-$A$ expert ensemble is\nasymmetrically shared across layers to ensure parameter efficiency. In MASA,\nthese specialized experts capture diverse features, which are then integrated\nby a single, layer-specific $B$-matrix. The effectiveness and versatility of\nour method are validated through a comprehensive suite of experiments spanning\nmulti-domain generalization, single-domain specialization, and multi-task\nreasoning. For example, on the MMLU benchmark, MASA achieves an average\naccuracy of 59.62%, outperforming the standard LoRA by 1.08 points (a relative\nimprovement of 1.84%) with comparable learnable parameters of 0.52%.",
+  "authors": [
+    "Qin Dong",
+    "Yuntian Tang",
+    "Heming Jia",
+    "Yunhang Shen",
+    "Bohan Jia",
+    "Wenxuan Huang",
+    "Lianyue Zhang",
+    "Jiao Xie",
+    "Shaohui Lin"
+  ],
+  "published": "2025-10-07T15:06:46Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06005v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MASA方法，通过多A专家共享机制改进LoRA的表示瓶颈。采用多A单B架构，让多个专家捕获多样化特征，再通过层特定的B矩阵整合，在参数效率相近的情况下，在MMLU等基准上显著优于标准LoRA。",
+  "order": 22,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06005v1"
+}

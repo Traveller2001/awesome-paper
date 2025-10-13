@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00629v2",
+  "title": "Tenyidie Syllabification corpus creation and deep learning applications",
+  "summary": "The Tenyidie language is a low-resource language of the Tibeto-Burman family\nspoken by the Tenyimia Community of Nagaland in the north-eastern part of India\nand is considered a major language in Nagaland. It is tonal,\nSubject-Object-Verb, and highly agglutinative in nature. Being a low-resource\nlanguage, very limited research on Natural Language Processing (NLP) has been\nconducted. To the best of our knowledge, no work on syllabification has been\nreported for this language. Among the many NLP tasks, syllabification or\nsyllabication is an important task in which the given word syllables are\nidentified. The contribution of this work is the creation of 10,120 syllabified\nTenyidie words and the application of the Deep Learning techniques on the\ncreated corpus. In this paper, we have applied LSTM, BLSTM, BLSTM+CRF, and\nEncoder-decoder deep learning architectures on our created dataset. In our\ndataset split of 80:10:10 (train:validation:test) set, we achieved the highest\naccuracy of 99.21% with BLSTM model on the test set. This work will find its\napplication in numerous other NLP applications, such as morphological analysis,\npart-of-speech tagging, machine translation, etc, for the Tenyidie Language.\n  Keywords: Tenyidie; NLP; syllabification; deep learning; LSTM; BLSTM; CRF;\nEncoder-decoder",
+  "authors": [
+    "Teisovi Angami",
+    "Kevisino Khate"
+  ],
+  "published": "2025-10-01T08:00:59Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00629v2",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究为低资源藏缅语系Tenyidie语言创建了首个包含10,120个音节化词汇的语料库，并应用LSTM、BLSTM、BLSTM+CRF及编码器-解码器等深度学习架构进行音节划分任务。在80:10:10的数据集划分下，BLSTM模型在测试集上达到99.21%的最高准确率，为后续形态分析、词性标注等NLP任务奠定基础。",
+  "order": 460,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00629v2"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01930v1",
+  "title": "Precise Dynamics of Diagonal Linear Networks: A Unifying Analysis by\n  Dynamical Mean-Field Theory",
+  "summary": "Diagonal linear networks (DLNs) are a tractable model that captures several\nnontrivial behaviors in neural network training, such as\ninitialization-dependent solutions and incremental learning. These phenomena\nare typically studied in isolation, leaving the overall dynamics insufficiently\nunderstood. In this work, we present a unified analysis of various phenomena in\nthe gradient flow dynamics of DLNs. Using Dynamical Mean-Field Theory (DMFT),\nwe derive a low-dimensional effective process that captures the asymptotic\ngradient flow dynamics in high dimensions. Analyzing this effective process\nyields new insights into DLN dynamics, including loss convergence rates and\ntheir trade-off with generalization, and systematically reproduces many of the\npreviously observed phenomena. These findings deepen our understanding of DLNs\nand demonstrate the effectiveness of the DMFT approach in analyzing\nhigh-dimensional learning dynamics of neural networks.",
+  "authors": [
+    "Sota Nishiyama",
+    "Masaaki Imaizumi"
+  ],
+  "published": "2025-10-02T11:47:36Z",
+  "primary_category": "stat.ML",
+  "arxiv_url": "https://arxiv.org/abs/2510.01930v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究采用动力学平均场理论(DMFT)对对角线性网络(DLNs)的梯度流动力学进行统一分析，推导出高维情形下的低维有效过程，揭示了损失收敛速率与泛化性能的权衡关系，系统解释了初始化依赖解和增量学习等现象，深化了对神经网络高维学习动力学的理解。",
+  "order": 775,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01930v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06538v1",
+  "title": "Auto-Prompt Ensemble for LLM Judge",
+  "summary": "We present a novel framework that improves the reliability of LLM judges by\nselectively augmenting LLM with auxiliary evaluation dimensions. Existing LLM\njudges often miss crucial evaluation dimensions because they fail to recognize\nthe implicit standards underlying human assessments. To address this challenge,\nwe propose the Auto-Prompt Ensemble (APE), an adaptive framework that\nautomatically learns evaluation dimensions from its failure cases. APE\nincorporates a confidence-based ensemble mechanism to decide when to adopt the\njudgments from additional evaluation dimensions through a novel confidence\nestimation approach called Collective Confidence. Extensive experiments\ndemonstrate that APE improves the reliability of LLM Judge across diverse\nstandard benchmarks. For instance, APE enhances GPT-4o agreement rate on Reward\nBench from 87.2% to 90.5% in the zero-shot setting. Overall, APE provides a\nprincipled approach for LLM Judge to leverage test-time computation, and bridge\nthe evaluation gap between human and LLM judges.",
+  "authors": [
+    "Jiajie Li",
+    "Huayi Zhang",
+    "Peng Lin",
+    "Jinjun Xiong",
+    "Wei Xu"
+  ],
+  "published": "2025-10-08T00:28:51Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06538v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Auto-Prompt Ensemble (APE)框架，通过自动从失败案例中学习评估维度，结合基于置信度的集成机制，提升LLM评判器的可靠性。实验表明，该方法在零样本设置下将GPT-4o在Reward Bench上的一致性从87.2%提升至90.5%，有效缩小人类与LLM评判器之间的评估差距。",
+  "order": 22,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06538v1"
+}

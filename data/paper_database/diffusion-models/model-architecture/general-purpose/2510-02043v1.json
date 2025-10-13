@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.02043v1",
+  "title": "Zero-shot Human Pose Estimation using Diffusion-based Inverse solvers",
+  "summary": "Pose estimation refers to tracking a human's full body posture, including\ntheir head, torso, arms, and legs. The problem is challenging in practical\nsettings where the number of body sensors are limited. Past work has shown\npromising results using conditional diffusion models, where the pose prediction\nis conditioned on both <location, rotation> measurements from the sensors.\nUnfortunately, nearly all these approaches generalize poorly across users,\nprimarly because location measurements are highly influenced by the body size\nof the user. In this paper, we formulate pose estimation as an inverse problem\nand design an algorithm capable of zero-shot generalization. Our idea utilizes\na pre-trained diffusion model and conditions it on rotational measurements\nalone; the priors from this model are then guided by a likelihood term, derived\nfrom the measured locations. Thus, given any user, our proposed InPose method\ngeneratively estimates the highly likely sequence of poses that best explains\nthe sparse on-body measurements.",
+  "authors": [
+    "Sahil Bhandary Karnoor",
+    "Romit Roy Choudhury"
+  ],
+  "published": "2025-10-02T14:16:43Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02043v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出InPose方法，将人体姿态估计构建为逆问题，利用预训练扩散模型仅基于旋转测量进行条件生成，通过位置测量的似然项引导生成最符合稀疏传感器数据的姿态序列，实现零样本跨用户泛化。",
+  "order": 760,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02043v1"
+}

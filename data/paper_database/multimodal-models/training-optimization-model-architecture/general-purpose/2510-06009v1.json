@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06009v1",
+  "title": "Continual Learning for Image Captioning through Improved Image-Text\n  Alignment",
+  "summary": "Generating accurate and coherent image captions in a continual learning\nsetting remains a major challenge due to catastrophic forgetting and the\ndifficulty of aligning evolving visual concepts with language over time. In\nthis work, we propose a novel multi-loss framework for continual image\ncaptioning that integrates semantic guidance through prompt-based continual\nlearning and contrastive alignment. Built upon a pretrained ViT-GPT-2 backbone,\nour approach combines standard cross-entropy loss with three additional\ncomponents: (1) a prompt-based cosine similarity loss that aligns image\nembeddings with synthetically constructed prompts encoding objects, attributes,\nand actions; (2) a CLIP-style loss that promotes alignment between image\nembeddings and target caption embedding; and (3) a language-guided contrastive\nloss that employs a triplet loss to enhance class-level discriminability\nbetween tasks. Notably, our approach introduces no additional overhead at\ninference time and requires no prompts during caption generation. We find that\nthis approach mitigates catastrophic forgetting, while achieving better\nsemantic caption alignment compared to state-of-the-art methods. The code can\nbe found via the following link https://github.com/\nGepardius/Taetz_Bordelius_Continual_ImageCaptioning.",
+  "authors": [
+    "Bertram Taetz",
+    "Gal Bordelius"
+  ],
+  "published": "2025-10-07T15:08:26Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06009v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种持续学习图像描述方法，通过多损失框架结合提示学习和对比对齐，缓解灾难性遗忘问题。在ViT-GPT-2基础上引入余弦相似度损失、CLIP风格损失和语言对比损失，无需推理时额外开销即实现更好的语义对齐效果。",
+  "order": 78,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06009v1"
+}

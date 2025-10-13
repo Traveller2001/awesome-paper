@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06953v1",
+  "title": "Revisiting the Uniform Information Density Hypothesis in LLM Reasoning\n  Traces",
+  "summary": "The Uniform Information Density (UID) hypothesis suggests that effective\ncommunication maintains a stable flow of information. In this work, we revisit\nthis principle in the context of large language model (LLM) reasoning traces,\nasking whether step-level uniformity reflects reasoning quality. To this end,\nwe propose an entropy-based stepwise information density metric and introduce\ntwo complementary measures of uniformity, local and global uniformity scores.\nAcross the experiments on six different reasoning benchmarks, we find that\nstep-level uniformity not only provides a strong theoretical lens but also\nyields practical performance benefits; for example, selecting reasoning traces\nwith more uniform information density at the step-level improves accuracy by\n10-32\\% relative gains over baselines at AIME2025. Our analysis further reveals\nthat correct reasoning traces tend to avoid sharp information density spikes,\nwhile incorrect traces exhibit irregular information bursts. These results\ndemonstrate that UID-inspired information density measures outperform\nalternative internal signals as predictors of reasoning quality. Results\nhighlight the uniformity of the information density as a robust diagnostic and\nselection criterion for building more reliable and accurate reasoning systems.",
+  "authors": [
+    "Minju Gwak",
+    "Guijin Son",
+    "Jaehyung Kim"
+  ],
+  "published": "2025-10-08T12:37:04Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06953v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究重新审视均匀信息密度假说在LLM推理轨迹中的应用，提出基于熵的逐步信息密度度量方法。实验发现推理步骤的信息密度均匀性与推理质量正相关，正确推理轨迹避免信息密度突变，而错误轨迹则出现不规则信息爆发。基于信息密度均匀性的筛选方法在多个基准测试中显著提升准确率10-32%。",
+  "order": 11,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06953v1"
+}

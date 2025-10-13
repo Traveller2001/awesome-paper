@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01433v1",
+  "title": "AFFORD2ACT: Affordance-Guided Automatic Keypoint Selection for\n  Generalizable and Lightweight Robotic Manipulation",
+  "summary": "Vision-based robot learning often relies on dense image or point-cloud\ninputs, which are computationally heavy and entangle irrelevant background\nfeatures. Existing keypoint-based approaches can focus on manipulation-centric\nfeatures and be lightweight, but either depend on manual heuristics or\ntask-coupled selection, limiting scalability and semantic understanding. To\naddress this, we propose AFFORD2ACT, an affordance-guided framework that\ndistills a minimal set of semantic 2D keypoints from a text prompt and a single\nimage. AFFORD2ACT follows a three-stage pipeline: affordance filtering,\ncategory-level keypoint construction, and transformer-based policy learning\nwith embedded gating to reason about the most relevant keypoints, yielding a\ncompact 38-dimensional state policy that can be trained in 15 minutes, which\nperforms well in real-time without proprioception or dense representations.\nAcross diverse real-world manipulation tasks, AFFORD2ACT consistently improves\ndata efficiency, achieving an 82% success rate on unseen objects, novel\ncategories, backgrounds, and distractors.",
+  "authors": [
+    "Anukriti Singh",
+    "Kasra Torshizi",
+    "Khuzema Habib",
+    "Kelin Yu",
+    "Ruohan Gao",
+    "Pratap Tokekar"
+  ],
+  "published": "2025-10-01T20:13:39Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.01433v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "AFFORD2ACT提出了一种基于功能感知的机器人操作框架，通过文本提示和单张图像提取语义2D关键点，采用三阶段流程：功能过滤、类别级关键点构建和基于Transformer的策略学习。该方法仅需15分钟训练，生成38维紧凑策略，在未见过的物体、新类别和复杂背景下达到82%成功率，显著提升数据效率和实时性能。",
+  "order": 155,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01433v1"
+}

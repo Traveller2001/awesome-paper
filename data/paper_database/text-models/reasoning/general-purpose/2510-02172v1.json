@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.02172v1",
+  "title": "RESTRAIN: From Spurious Votes to Signals -- Self-Driven RL with\n  Self-Penalization",
+  "summary": "Reinforcement learning with human-annotated data has boosted chain-of-thought\nreasoning in large reasoning models, but these gains come at high costs in\nlabeled data while faltering on harder tasks. A natural next step is\nexperience-driven learning, where models improve without curated labels by\nadapting to unlabeled data. We introduce RESTRAIN (REinforcement learning with\nSelf-restraint), a self-penalizing RL framework that converts the absence of\ngold labels into a useful learning signal. Instead of overcommitting to\nspurious majority votes, RESTRAIN exploits signals from the model's entire\nanswer distribution: penalizing overconfident rollouts and low-consistency\nexamples while preserving promising reasoning chains. The self-penalization\nmechanism integrates seamlessly into policy optimization methods such as GRPO,\nenabling continual self-improvement without supervision. On challenging\nreasoning benchmarks, RESTRAIN delivers large gains using only unlabeled data.\nWith Qwen3-4B-Base and OctoThinker Hybrid-8B-Base, it improves Pass@1 by up to\n+140.7 percent on AIME25, +36.2 percent on MMLU_STEM, and +19.6 percent on\nGPQA-Diamond, nearly matching gold-label training while using no gold labels.\nThese results demonstrate that RESTRAIN establishes a scalable path toward\nstronger reasoning without gold labels.",
+  "authors": [
+    "Zhaoning Yu",
+    "Will Su",
+    "Leitian Tao",
+    "Haozhu Wang",
+    "Aashu Singh",
+    "Hanchao Yu",
+    "Jianyu Wang",
+    "Hongyang Gao",
+    "Weizhe Yuan",
+    "Jason Weston",
+    "Ping Yu",
+    "Jing Xu"
+  ],
+  "published": "2025-10-02T16:24:01Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02172v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "RESTRAIN是一种自惩罚强化学习框架，通过利用模型完整答案分布中的信号而非依赖人工标注，在无监督情况下提升推理能力。该方法惩罚过度自信和低一致性样本，在多个推理基准测试中取得显著效果提升，接近有监督训练水平。",
+  "order": 350,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02172v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01841v1",
+  "title": "Leveraging Prior Knowledge of Diffusion Model for Person Search",
+  "summary": "Person search aims to jointly perform person detection and re-identification\nby localizing and identifying a query person within a gallery of uncropped\nscene images. Existing methods predominantly utilize ImageNet pre-trained\nbackbones, which may be suboptimal for capturing the complex spatial context\nand fine-grained identity cues necessary for person search. Moreover, they rely\non a shared backbone feature for both person detection and re-identification,\nleading to suboptimal features due to conflicting optimization objectives. In\nthis paper, we propose DiffPS (Diffusion Prior Knowledge for Person Search), a\nnovel framework that leverages a pre-trained diffusion model while eliminating\nthe optimization conflict between two sub-tasks. We analyze key properties of\ndiffusion priors and propose three specialized modules: (i) Diffusion-Guided\nRegion Proposal Network (DGRPN) for enhanced person localization, (ii)\nMulti-Scale Frequency Refinement Network (MSFRN) to mitigate shape bias, and\n(iii) Semantic-Adaptive Feature Aggregation Network (SFAN) to leverage\ntext-aligned diffusion features. DiffPS sets a new state-of-the-art on\nCUHK-SYSU and PRW.",
+  "authors": [
+    "Giyeol Kim",
+    "Sooyoung Yang",
+    "Jihyong Oh",
+    "Myungjoo Kang",
+    "Chanho Eom"
+  ],
+  "published": "2025-10-02T09:36:26Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01841v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DiffPS框架，利用预训练扩散模型的先验知识解决行人搜索任务。通过三个专用模块（DGRPN、MSFRN、SFAN）分别优化行人定位、减轻形状偏差和利用文本对齐特征，在CUHK-SYSU和PRW数据集上达到最先进性能，解决了检测与重识别任务间的优化冲突问题。",
+  "order": 542,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01841v1"
+}

@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02178v1",
+  "title": "DisCo-Layout: Disentangling and Coordinating Semantic and Physical\n  Refinement in a Multi-Agent Framework for 3D Indoor Layout Synthesis",
+  "summary": "3D indoor layout synthesis is crucial for creating virtual environments.\nTraditional methods struggle with generalization due to fixed datasets. While\nrecent LLM and VLM-based approaches offer improved semantic richness, they\noften lack robust and flexible refinement, resulting in suboptimal layouts. We\ndevelop DisCo-Layout, a novel framework that disentangles and coordinates\nphysical and semantic refinement. For independent refinement, our Semantic\nRefinement Tool (SRT) corrects abstract object relationships, while the\nPhysical Refinement Tool (PRT) resolves concrete spatial issues via a\ngrid-matching algorithm. For collaborative refinement, a multi-agent framework\nintelligently orchestrates these tools, featuring a planner for placement\nrules, a designer for initial layouts, and an evaluator for assessment.\nExperiments demonstrate DisCo-Layout's state-of-the-art performance, generating\nrealistic, coherent, and generalizable 3D indoor layouts. Our code will be\npublicly available.",
+  "authors": [
+    "Jialin Gao",
+    "Donghao Zhou",
+    "Mingjian Liang",
+    "Lihao Liu",
+    "Chi-Wing Fu",
+    "Xiaowei Hu",
+    "Pheng-Ann Heng"
+  ],
+  "published": "2025-10-02T16:30:37Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.02178v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "DisCo-Layout是一种新颖的多智能体框架，用于3D室内布局合成，通过解耦和协调语义与物理优化来解决传统方法泛化能力不足的问题。该框架包含语义优化工具修正抽象物体关系，物理优化工具解决具体空间问题，并通过规划器、设计器和评估器的多智能体协作生成逼真、连贯且可泛化的室内布局。",
+  "order": 515,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02178v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.05486v1",
+  "title": "Language Model as Planner and Formalizer under Constraints",
+  "summary": "LLMs have been widely used in planning, either as planners to generate action\nsequences end-to-end, or as formalizers to represent the planning domain and\nproblem in a formal language that can derive plans deterministically. However,\nboth lines of work rely on standard benchmarks that only include generic and\nsimplistic environmental specifications, leading to potential overestimation of\nthe planning ability of LLMs and safety concerns in downstream tasks. We bridge\nthis gap by augmenting widely used planning benchmarks with manually annotated,\nfine-grained, and rich natural language constraints spanning four formally\ndefined categories. Over 4 state-of-the-art reasoning LLMs, 3 formal languages,\n5 methods, and 4 datasets, we show that the introduction of constraints not\nonly consistently halves performance, but also significantly challenges\nrobustness to problem complexity and lexical shift.",
+  "authors": [
+    "Cassie Huang",
+    "Stuti Mohan",
+    "Ziyi Yang",
+    "Stefanie Tellex",
+    "Li Zhang"
+  ],
+  "published": "2025-10-07T01:04:08Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05486v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究语言模型在约束条件下的规划能力，通过为现有基准添加细粒度自然语言约束，发现约束使LLM规划性能下降一半，并显著挑战其对问题复杂性和词汇变化的鲁棒性。",
+  "order": 55,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05486v1"
+}

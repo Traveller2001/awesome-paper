@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.07290v1",
+  "title": "On the Convergence of Moral Self-Correction in Large Language Models",
+  "summary": "Large Language Models (LLMs) are able to improve their responses when\ninstructed to do so, a capability known as self-correction. When instructions\nprovide only a general and abstract goal without specific details about\npotential issues in the response, LLMs must rely on their internal knowledge to\nimprove response quality, a process referred to as intrinsic self-correction.\nThe empirical success of intrinsic self-correction is evident in various\napplications, but how and why it is effective remains unknown. Focusing on\nmoral self-correction in LLMs, we reveal a key characteristic of intrinsic\nself-correction: performance convergence through multi-round interactions; and\nprovide a mechanistic analysis of this convergence behavior. Based on our\nexperimental results and analysis, we uncover the underlying mechanism of\nconvergence: consistently injected self-correction instructions activate moral\nconcepts that reduce model uncertainty, leading to converged performance as the\nactivated moral concepts stabilize over successive rounds. This paper\ndemonstrates the strong potential of moral self-correction by showing that it\nexhibits a desirable property of converged performance.",
+  "authors": [
+    "Guangliang Liu",
+    "Haitao Mao",
+    "Bochuan Cao",
+    "Zhiyu Xue",
+    "Xitong Zhang",
+    "Rongrong Wang",
+    "Kristen Marie Johnson"
+  ],
+  "published": "2025-10-08T17:46:27Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07290v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究大语言模型在道德自我修正中的收敛特性，通过多轮交互实验揭示了内在自我修正的机制：持续的自修正指令激活道德概念，降低模型不确定性，最终实现性能收敛。研究表明道德自我修正具有稳定的收敛性能，为理解LLM自我改进能力提供了机理分析。",
+  "order": 28,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07290v1"
+}

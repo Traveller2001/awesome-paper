@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.02086v1",
+  "title": "VGDM: Vision-Guided Diffusion Model for Brain Tumor Detection and\n  Segmentation",
+  "summary": "Accurate detection and segmentation of brain tumors from magnetic resonance\nimaging (MRI) are essential for diagnosis, treatment planning, and clinical\nmonitoring. While convolutional architectures such as U-Net have long been the\nbackbone of medical image segmentation, their limited capacity to capture\nlong-range dependencies constrains performance on complex tumor structures.\nRecent advances in diffusion models have demonstrated strong potential for\ngenerating high-fidelity medical images and refining segmentation boundaries.\n  In this work, we propose VGDM: Vision-Guided Diffusion Model for Brain Tumor\nDetection and Segmentation framework, a transformer-driven diffusion framework\nfor brain tumor detection and segmentation. By embedding a vision transformer\nat the core of the diffusion process, the model leverages global contextual\nreasoning together with iterative denoising to enhance both volumetric accuracy\nand boundary precision. The transformer backbone enables more effective\nmodeling of spatial relationships across entire MRI volumes, while diffusion\nrefinement mitigates voxel-level errors and recovers fine-grained tumor\ndetails.\n  This hybrid design provides a pathway toward improved robustness and\nscalability in neuro-oncology, moving beyond conventional U-Net baselines.\nExperimental validation on MRI brain tumor datasets demonstrates consistent\ngains in Dice similarity and Hausdorff distance, underscoring the potential of\ntransformer-guided diffusion models to advance the state of the art in tumor\nsegmentation.",
+  "authors": [
+    "Arman Behnam"
+  ],
+  "published": "2025-10-02T14:52:08Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02086v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "VGDM提出了一种基于视觉Transformer引导扩散模型的脑肿瘤检测与分割框架，通过结合全局上下文推理和迭代去噪过程，在MRI图像上实现了比传统U-Net更精确的肿瘤体积和边界分割，在神经肿瘤学领域展现出优越性能。",
+  "order": 521,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02086v1"
+}

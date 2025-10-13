@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.00615v1",
+  "title": "ACON: Optimizing Context Compression for Long-horizon LLM Agents",
+  "summary": "Large language models (LLMs) are increasingly deployed as agents in dynamic,\nreal-world environments, where success requires both reasoning and effective\ntool use. A central challenge for agentic tasks is the growing context length,\nas agents must accumulate long histories of actions and observations. This\nexpansion raises costs and reduces efficiency in long-horizon tasks, yet prior\nwork on context compression has mostly focused on single-step tasks or narrow\napplications. We introduce Agent Context Optimization (ACON), a unified\nframework that optimally compresses both environment observations and\ninteraction histories into concise yet informative condensations. ACON\nleverages compression guideline optimization in natural language space: given\npaired trajectories where full context succeeds but compressed context fails,\ncapable LLMs analyze the causes of failure, and the compression guideline is\nupdated accordingly. Furthermore, we propose distilling the optimized LLM\ncompressor into smaller models to reduce the overhead of the additional module.\nExperiments on AppWorld, OfficeBench, and Multi-objective QA show that ACON\nreduces memory usage by 26-54% (peak tokens) while largely preserving task\nperformance, preserves over 95% of accuracy when distilled into smaller\ncompressors, and enhances smaller LMs as long-horizon agents with up to 46%\nperformance improvement.",
+  "authors": [
+    "Minki Kang",
+    "Wei-Ning Chen",
+    "Dongge Han",
+    "Huseyin A. Inan",
+    "Lukas Wutschitz",
+    "Yanzhi Chen",
+    "Robert Sim",
+    "Saravan Rajmohan"
+  ],
+  "published": "2025-10-01T07:43:49Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00615v1",
+  "primary_area": "text_models",
+  "secondary_focus": "long_context",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ACON提出了一种针对长视野LLM智能体的上下文优化框架，通过自然语言空间中的压缩指南优化，将环境观察和交互历史压缩为简洁信息。该方法可减少26-54%内存使用，保持95%以上任务精度，并能蒸馏到小模型中提升性能达46%。",
+  "order": 464,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00615v1"
+}

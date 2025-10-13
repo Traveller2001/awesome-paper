@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01678v1",
+  "title": "An Efficient Deep Template Matching and In-Plane Pose Estimation Method\n  via Template-Aware Dynamic Convolution",
+  "summary": "In industrial inspection and component alignment tasks, template matching\nrequires efficient estimation of a target's position and geometric state\n(rotation and scaling) under complex backgrounds to support precise downstream\noperations. Traditional methods rely on exhaustive enumeration of angles and\nscales, leading to low efficiency under compound transformations. Meanwhile,\nmost deep learning-based approaches only estimate similarity scores without\nexplicitly modeling geometric pose, making them inadequate for real-world\ndeployment. To overcome these limitations, we propose a lightweight end-to-end\nframework that reformulates template matching as joint localization and\ngeometric regression, outputting the center coordinates, rotation angle, and\nindependent horizontal and vertical scales. A Template-Aware Dynamic\nConvolution Module (TDCM) dynamically injects template features at inference to\nguide generalizable matching. The compact network integrates depthwise\nseparable convolutions and pixel shuffle for efficient matching. To enable\ngeometric-annotation-free training, we introduce a rotation-shear-based\naugmentation strategy with structure-aware pseudo labels. A lightweight\nrefinement module further improves angle and scale precision via local\noptimization. Experiments show our 3.07M model achieves high precision and 14ms\ninference under compound transformations. It also demonstrates strong\nrobustness in small-template and multi-object scenarios, making it highly\nsuitable for deployment in real-time industrial applications. The code is\navailable at:https://github.com/ZhouJ6610/PoseMatch-TDCM.",
+  "authors": [
+    "Ke Jia",
+    "Ji Zhou",
+    "Hanxin Li",
+    "Zhigan Zhou",
+    "Haojie Chu",
+    "Xiaojie Li"
+  ],
+  "published": "2025-10-02T05:05:43Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01678v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种高效的深度模板匹配与平面内姿态估计方法，通过模板感知动态卷积模块实现端到端的联合定位与几何回归。该方法在复杂背景下能快速估计目标位置、旋转角度和缩放比例，仅需3.07M参数和14ms推理时间，适用于工业检测等实时应用场景。",
+  "order": 555,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01678v1"
+}

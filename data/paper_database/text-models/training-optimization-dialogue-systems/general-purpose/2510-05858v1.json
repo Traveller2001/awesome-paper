@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.05858v1",
+  "title": "DACP: Domain-Adaptive Continual Pre-Training of Large Language Models\n  for Phone Conversation Summarization",
+  "summary": "Large language models (LLMs) have achieved impressive performance in text\nsummarization, yet their performance often falls short when applied to\nspecialized domains %or conversational data that differ from their original\npre-training distribution. While fine-tuning can improve summarization quality,\nit typically relies on costly and scarce high-quality labeled data. In this\nwork, we explore continual pre-training as a scalable, self-supervised approach\nto adapt LLMs for downstream summarization tasks, particularly in the context\nof noisy real-world conversation transcripts. We conduct extensive experiments\nusing large-scale, unlabeled business conversation data to investigate whether\ncontinual pre-training enhances model capabilities in conversational\nsummarization. Our results demonstrate that continual pre-training yields\nsubstantial gains in both in-domain and out-of-domain summarization benchmarks,\nwhile maintaining strong generalization and robustness. We also analyze the\neffects of data selection strategies, providing practical guidelines for\napplying continual pre-training in summarization-focused industrial\napplications.",
+  "authors": [
+    "Xue-Yong Fu",
+    "Elena Khasanova",
+    "Md Tahmid Rahman Laskar",
+    "Harsh Saini",
+    "Shashi Bhushan TN"
+  ],
+  "published": "2025-10-07T12:26:19Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05858v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'dialogue_systems']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DACP方法，通过领域自适应持续预训练提升大语言模型在电话对话摘要任务中的表现。研究显示，利用大规模无标注业务对话数据进行持续预训练，能显著提升模型在领域内外摘要任务的效果，同时保持良好泛化能力，并为工业应用提供数据选择策略指导。",
+  "order": 33,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05858v1"
+}

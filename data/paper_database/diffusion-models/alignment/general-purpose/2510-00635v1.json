@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.00635v1",
+  "title": "Erased, But Not Forgotten: Erased Rectified Flow Transformers Still\n  Remain Unsafe Under Concept Attack",
+  "summary": "Recent advances in text-to-image (T2I) diffusion models have enabled\nimpressive generative capabilities, but they also raise significant safety\nconcerns due to the potential to produce harmful or undesirable content. While\nconcept erasure has been explored as a mitigation strategy, most existing\napproaches and corresponding attack evaluations are tailored to Stable\nDiffusion (SD) and exhibit limited effectiveness when transferred to\nnext-generation rectified flow transformers such as Flux. In this work, we\npresent ReFlux, the first concept attack method specifically designed to assess\nthe robustness of concept erasure in the latest rectified flow-based T2I\nframework. Our approach is motivated by the observation that existing concept\nerasure techniques, when applied to Flux, fundamentally rely on a phenomenon\nknown as attention localization. Building on this insight, we propose a simple\nyet effective attack strategy that specifically targets this property. At its\ncore, a reverse-attention optimization strategy is introduced to effectively\nreactivate suppressed signals while stabilizing attention. This is further\nreinforced by a velocity-guided dynamic that enhances the robustness of concept\nreactivation by steering the flow matching process, and a\nconsistency-preserving objective that maintains the global layout and preserves\nunrelated content. Extensive experiments consistently demonstrate the\neffectiveness and efficiency of the proposed attack method, establishing a\nreliable benchmark for evaluating the robustness of concept erasure strategies\nin rectified flow transformers.",
+  "authors": [
+    "Nanxiang Jiang",
+    "Zhaoxin Fan",
+    "Enhan Kang",
+    "Daiheng Gao",
+    "Yun Zhou",
+    "Yanxia Chang",
+    "Zheng Zhu",
+    "Yeying Jin",
+    "Wenjun Wu"
+  ],
+  "published": "2025-10-01T08:12:07Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00635v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ReFlux攻击方法，专门针对新一代整流流变换器（如Flux）的概念擦除技术进行评估。研究发现现有擦除方法依赖注意力定位机制，因此设计了反向注意力优化策略，结合速度引导动态和一致性保持目标，有效重新激活被抑制的有害概念，为评估整流流变换器的概念擦除鲁棒性建立了可靠基准。",
+  "order": 651,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00635v1"
+}

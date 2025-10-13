@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00660v1",
+  "title": "Unsupervised Unfolded rPCA (U2-rPCA): Deep Interpretable Clutter\n  Filtering for Ultrasound Microvascular Imaging",
+  "summary": "High-sensitivity clutter filtering is a fundamental step in ultrasound\nmicrovascular imaging. Singular value decomposition (SVD) and robust principal\ncomponent analysis (rPCA) are the main clutter filtering strategies. However,\nboth strategies are limited in feature modeling and tissue-blood flow\nseparation for high-quality microvascular imaging. Recently, deep\nlearning-based clutter filtering has shown potential in more thoroughly\nseparating tissue and blood flow signals. However, the existing supervised\nfilters face the challenges of interpretability and lack of in-vitro and\nin-vivo ground truths. While the interpretability issue can be addressed by\nalgorithm deep unfolding, the training ground truth remains unsolved. To this\nend, this paper proposes an unsupervised unfolded rPCA (U2-rPCA) method that\npreserves mathematical interpretability and is insusceptible to learning\nlabels. Specifically, U2-rPCA is unfolded from an iteratively reweighted least\nsquares (IRLS) rPCA baseline with intrinsic low-rank and sparse regularization.\nA sparse-enhancement unit is added to the network to strengthen its capability\nto capture the sparse micro-flow signals. U2-rPCA is like an adaptive filter\nthat is trained with part of the image sequence and then used for the following\nframes. Experimental validations on a in-silico dataset and public in-vivo\ndatasets demonstrated the outperformance of U2-rPCA when compared with the\nSVD-based method, the rPCA baseline, and another deep learning-based filter.\nParticularly, the proposed method improved the contrastto-noise ratio (CNR) of\nthe power Doppler image by 2 dB to 10 dB when compared with other methods.\nFurthermore, the effectiveness of the building modules of U2-rPCA was validated\nthrough ablation studies.",
+  "authors": [
+    "Huaying Li",
+    "Liansheng Wang",
+    "Yinran Chen"
+  ],
+  "published": "2025-10-01T08:39:58Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00660v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出无监督展开式鲁棒主成分分析(U2-rPCA)方法，用于超声微血管成像中的杂波滤波。该方法通过深度展开技术保持数学可解释性，无需监督标签，在合成和真实数据集上验证显示其性能优于传统SVD、rPCA及现有深度学习方法，尤其将功率多普勒图像的对比噪声比提升2-10dB。",
+  "order": 646,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00660v1"
+}

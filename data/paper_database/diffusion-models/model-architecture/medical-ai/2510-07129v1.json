@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.07129v1",
+  "title": "Graph Conditioned Diffusion for Controllable Histopathology Image\n  Generation",
+  "summary": "Recent advances in Diffusion Probabilistic Models (DPMs) have set new\nstandards in high-quality image synthesis. Yet, controlled generation remains\nchallenging, particularly in sensitive areas such as medical imaging. Medical\nimages feature inherent structure such as consistent spatial arrangement, shape\nor texture, all of which are critical for diagnosis. However, existing DPMs\noperate in noisy latent spaces that lack semantic structure and strong priors,\nmaking it difficult to ensure meaningful control over generated content. To\naddress this, we propose graph-based object-level representations for\nGraph-Conditioned-Diffusion. Our approach generates graph nodes corresponding\nto each major structure in the image, encapsulating their individual features\nand relationships. These graph representations are processed by a transformer\nmodule and integrated into a diffusion model via the text-conditioning\nmechanism, enabling fine-grained control over generation. We evaluate this\napproach using a real-world histopathology use case, demonstrating that our\ngenerated data can reliably substitute for annotated patient data in downstream\nsegmentation tasks. The code is available here.",
+  "authors": [
+    "Sarah Cechnicka",
+    "Matthew Baugh",
+    "Weitong Zhang",
+    "Mischa Dombrowski",
+    "Zhe Li",
+    "Johannes C. Paetzold",
+    "Candice Roufosse",
+    "Bernhard Kainz"
+  ],
+  "published": "2025-10-08T15:26:08Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07129v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出图条件扩散模型，通过图节点表示医学图像中的主要结构特征及相互关系，结合Transformer模块与扩散模型实现可控的组织病理学图像生成。实验表明生成数据可有效替代真实标注数据用于下游分割任务。",
+  "order": 115,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07129v1"
+}

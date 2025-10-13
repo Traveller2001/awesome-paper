@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02240v1",
+  "title": "RewardMap: Tackling Sparse Rewards in Fine-grained Visual Reasoning via\n  Multi-Stage Reinforcement Learning",
+  "summary": "Fine-grained visual reasoning remains a core challenge for multimodal large\nlanguage models (MLLMs). The recently introduced ReasonMap highlights this gap\nby showing that even advanced MLLMs struggle with spatial reasoning in\nstructured and information-rich settings such as transit maps, a task of clear\npractical and scientific importance. However, standard reinforcement learning\n(RL) on such tasks is impeded by sparse rewards and unstable optimization. To\naddress this, we first construct ReasonMap-Plus, an extended dataset that\nintroduces dense reward signals through Visual Question Answering (VQA) tasks,\nenabling effective cold-start training of fine-grained visual understanding\nskills. Next, we propose RewardMap, a multi-stage RL framework designed to\nimprove both visual understanding and reasoning capabilities of MLLMs.\nRewardMap incorporates two key designs. First, we introduce a difficulty-aware\nreward design that incorporates detail rewards, directly tackling the sparse\nrewards while providing richer supervision. Second, we propose a multi-stage RL\nscheme that bootstraps training from simple perception to complex reasoning\ntasks, offering a more effective cold-start strategy than conventional\nSupervised Fine-Tuning (SFT). Experiments on ReasonMap and ReasonMap-Plus\ndemonstrate that each component of RewardMap contributes to consistent\nperformance gains, while their combination yields the best results. Moreover,\nmodels trained with RewardMap achieve an average improvement of 3.47% across 6\nbenchmarks spanning spatial reasoning, fine-grained visual reasoning, and\ngeneral tasks beyond transit maps, underscoring enhanced visual understanding\nand reasoning capabilities.",
+  "authors": [
+    "Sicheng Feng",
+    "Kaiwen Tuo",
+    "Song Wang",
+    "Lingdong Kong",
+    "Jianke Zhu",
+    "Huan Wang"
+  ],
+  "published": "2025-10-02T17:29:46Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02240v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RewardMap框架，通过多阶段强化学习解决细粒度视觉推理中的稀疏奖励问题。该方法构建了ReasonMap-Plus数据集提供密集奖励信号，并采用难度感知奖励设计和从感知到推理的多阶段训练策略，在多个基准测试中平均提升3.47%，显著增强了多模态大语言模型的视觉理解和推理能力。",
+  "order": 507,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02240v1"
+}

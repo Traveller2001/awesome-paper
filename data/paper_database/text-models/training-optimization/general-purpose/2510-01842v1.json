@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01842v1",
+  "title": "Pre-Hoc Predictions in AutoML: Leveraging LLMs to Enhance Model\n  Selection and Benchmarking for Tabular datasets",
+  "summary": "The field of AutoML has made remarkable progress in post-hoc model selection,\nwith libraries capable of automatically identifying the most performing models\nfor a given dataset. Nevertheless, these methods often rely on exhaustive\nhyperparameter searches, where methods automatically train and test different\ntypes of models on the target dataset. Contrastingly, pre-hoc prediction\nemerges as a promising alternative, capable of bypassing exhaustive search\nthrough intelligent pre-selection of models. Despite its potential, pre-hoc\nprediction remains under-explored in the literature. This paper explores the\nintersection of AutoML and pre-hoc model selection by leveraging traditional\nmodels and Large Language Model (LLM) agents to reduce the search space of\nAutoML libraries. By relying on dataset descriptions and statistical\ninformation, we reduce the AutoML search space. Our methodology is applied to\nthe AWS AutoGluon portfolio dataset, a state-of-the-art AutoML benchmark\ncontaining 175 tabular classification datasets available on OpenML. The\nproposed approach offers a shift in AutoML workflows, significantly reducing\ncomputational overhead, while still selecting the best model for the given\ndataset.",
+  "authors": [
+    "Yannis Belkhiter",
+    "Seshu Tirupathi",
+    "Giulio Zizzo",
+    "Sachin Sharma",
+    "John D. Kelleher"
+  ],
+  "published": "2025-10-02T09:37:12Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01842v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究AutoML中的预选模型方法，利用传统模型和大型语言模型智能缩减AutoML搜索空间，通过数据集描述和统计信息在AWS AutoGluon基准上验证，显著降低计算开销的同时保持模型选择性能。",
+  "order": 72,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01842v1"
+}

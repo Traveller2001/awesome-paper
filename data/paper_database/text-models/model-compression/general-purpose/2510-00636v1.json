@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00636v1",
+  "title": "Expected Attention: KV Cache Compression by Estimating Attention from\n  Future Queries Distribution",
+  "summary": "Memory consumption of the Key-Value (KV) cache represents a major bottleneck\nfor efficient large language model inference. While attention-score-based KV\ncache pruning shows promise, it faces critical practical limitations: attention\nscores from future tokens are unavailable during compression, and modern\nimplementations like Flash Attention do not materialize the full attention\nmatrix, making past scores inaccessible. To overcome these challenges, we\nintroduce $\\textbf{Expected Attention, a training-free compression method}$\nthat estimates KV pairs importance by predicting how future queries will attend\nto them. Our approach leverages the distributional properties of LLM\nactivations to compute expected attention scores in closed form for each KV\npair. These scores enable principled ranking and pruning of KV pairs with\nminimal impact on the residual stream, achieving effective compression without\nperformance degradation. Importantly, our method operates seamlessly across\nboth prefilling and decoding phases, consistently outperforming\nstate-of-the-art baselines in both scenarios. Finally, $\\textbf{we release\nKVPress, a comprehensive library to enable researchers to implement and\nbenchmark KV cache compression methods, already including more than 20\ntechniques}$.",
+  "authors": [
+    "Alessio Devoto",
+    "Maximilian Jeblick",
+    "Simon Jégou"
+  ],
+  "published": "2025-10-01T08:12:14Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00636v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出'期望注意力'方法，通过预测未来查询分布来估计KV对重要性，实现无需训练的KV缓存压缩。该方法在预填充和解码阶段均有效，性能优于现有技术，并发布了包含20多种技术的KVPress压缩库。",
+  "order": 459,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00636v1"
+}

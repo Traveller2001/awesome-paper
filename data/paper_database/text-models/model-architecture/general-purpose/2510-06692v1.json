@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06692v1",
+  "title": "Is the Hard-Label Cryptanalytic Model Extraction Really Polynomial?",
+  "summary": "Deep Neural Networks (DNNs) have attracted significant attention, and their\ninternal models are now considered valuable intellectual assets. Extracting\nthese internal models through access to a DNN is conceptually similar to\nextracting a secret key via oracle access to a block cipher. Consequently,\ncryptanalytic techniques, particularly differential-like attacks, have been\nactively explored recently. ReLU-based DNNs are the most commonly and widely\ndeployed architectures. While early works (e.g., Crypto 2020, Eurocrypt 2024)\nassume access to exact output logits, which are usually invisible, more recent\nworks (e.g., Asiacrypt 2024, Eurocrypt 2025) focus on the hard-label setting,\nwhere only the final classification result (e.g., \"dog\" or \"car\") is available\nto the attacker. Notably, Carlini et al. (Eurocrypt 2025) demonstrated that\nmodel extraction is feasible in polynomial time even under this restricted\nsetting.\n  In this paper, we first show that the assumptions underlying their attack\nbecome increasingly unrealistic as the attack-target depth grows. In practice,\nsatisfying these assumptions requires an exponential number of queries with\nrespect to the attack depth, implying that the attack does not always run in\npolynomial time. To address this critical limitation, we propose a novel attack\nmethod called CrossLayer Extraction. Instead of directly extracting the secret\nparameters (e.g., weights and biases) of a specific neuron, which incurs\nexponential cost, we exploit neuron interactions across layers to extract this\ninformation from deeper layers. This technique significantly reduces query\ncomplexity and mitigates the limitations of existing model extraction\napproaches.",
+  "authors": [
+    "Akira Ito",
+    "Takayuki Miura",
+    "Yosuke Todo"
+  ],
+  "published": "2025-10-08T06:29:36Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06692v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文质疑了硬标签密码分析模型提取的多项式时间可行性，指出随着攻击目标深度增加，现有方法的假设变得不切实际且需要指数级查询。作者提出跨层提取攻击，通过利用神经元跨层交互显著降低查询复杂度，改进了深度神经网络模型提取技术。",
+  "order": 218,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06692v1"
+}

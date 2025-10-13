@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.06926v1",
+  "title": "Label-frugal satellite image change detection with generative virtual\n  exemplar learning",
+  "summary": "Change detection is a major task in remote sensing which consists in finding\nall the occurrences of changes in multi-temporal satellite or aerial images.\nThe success of existing methods, and particularly deep learning ones, is\ntributary to the availability of hand-labeled training data that capture the\nacquisition conditions and the subjectivity of the user (oracle). In this\npaper, we devise a novel change detection algorithm, based on active learning.\nThe main contribution of our work resides in a new model that measures how\nimportant is each unlabeled sample, and provides an oracle with only the most\ncritical samples (also referred to as virtual exemplars) for further labeling.\nThese exemplars are generated, using an invertible graph convnet, as the\noptimum of an adversarial loss that (i) measures representativity, diversity\nand ambiguity of the data, and thereby (ii) challenges (the most) the current\nchange detection criteria, leading to a better re-estimate of these criteria in\nthe subsequent iterations of active learning. Extensive experiments show the\npositive impact of our label-efficient learning model against comparative\nmethods.",
+  "authors": [
+    "Hichem Sahbi"
+  ],
+  "published": "2025-10-08T12:07:35Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06926v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于主动学习的卫星图像变化检测新方法，通过可逆图卷积网络生成虚拟样本，仅选择最具代表性的关键样本进行人工标注，显著减少标注需求。该方法结合对抗性损失衡量样本的代表性、多样性和模糊性，在迭代学习中不断优化检测标准，实验证明其标签效率优于对比方法。",
+  "order": 129,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06926v1"
+}

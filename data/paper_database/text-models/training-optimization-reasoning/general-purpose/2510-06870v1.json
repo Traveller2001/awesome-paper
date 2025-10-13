@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06870v1",
+  "title": "$λ$-GRPO: Unifying the GRPO Frameworks with Learnable Token\n  Preferences",
+  "summary": "Reinforcement Learning with Human Feedback (RLHF) has been the dominant\napproach for improving the reasoning capabilities of Large Language Models\n(LLMs). Recently, Reinforcement Learning with Verifiable Rewards (RLVR) has\nsimplified this paradigm by replacing the reward and value models with\nrule-based verifiers. A prominent example is Group Relative Policy Optimization\n(GRPO). However, GRPO inherently suffers from a length bias, since the same\nadvantage is uniformly assigned to all tokens of a response. As a result,\nlonger responses distribute the reward over more tokens and thus contribute\ndisproportionately to gradient updates. Several variants, such as DAPO and Dr.\nGRPO, modify the token-level aggregation of the loss, yet these methods remain\nheuristic and offer limited interpretability regarding their implicit token\npreferences. In this work, we explore the possibility of allowing the model to\nlearn its own token preference during optimization. We unify existing\nframeworks under a single formulation and introduce a learnable parameter\n$\\lambda$ that adaptively controls token-level weighting. We use $\\lambda$-GRPO\nto denote our method, and we find that $\\lambda$-GRPO achieves consistent\nimprovements over vanilla GRPO and DAPO on multiple mathematical reasoning\nbenchmarks. On Qwen2.5 models with 1.5B, 3B, and 7B parameters, $\\lambda$-GRPO\nimproves average accuracy by $+1.9\\%$, $+1.0\\%$, and $+1.7\\%$ compared to GRPO,\nrespectively. Importantly, these gains come without any modifications to the\ntraining data or additional computational cost, highlighting the effectiveness\nand practicality of learning token preferences.",
+  "authors": [
+    "Yining Wang",
+    "Jinman Zhao",
+    "Chuangxin Zhao",
+    "Shuhao Guan",
+    "Gerald Penn",
+    "Shinan Liu"
+  ],
+  "published": "2025-10-08T10:39:07Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06870v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出λ-GRPO方法，通过引入可学习的令牌偏好参数统一GRPO框架，解决传统强化学习中长度偏差问题。在多个数学推理基准测试中，该方法相比GRPO和DAPO取得稳定提升，且无需额外训练数据或计算成本。",
+  "order": 70,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06870v1"
+}

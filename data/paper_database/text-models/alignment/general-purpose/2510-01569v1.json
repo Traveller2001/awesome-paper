@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01569v1",
+  "title": "InvThink: Towards AI Safety via Inverse Reasoning",
+  "summary": "We present InvThink, a simple yet powerful approach that gives large language\nmodels (LLMs) the capability of inverse thinking: reasoning through failure\nmodes before generating responses. Unlike existing safety alignment methods\nthat optimize directly for safe response, InvThink instructs models to 1)\nenumerate potential harms, 2) analyze their consequences, and 3) generate safe\noutputs that proactively avoid these risks. Our method reveals three key\nfindings: (i) safety improvements show stronger scaling with model size\ncompared to existing safety methods. (ii) InvThink mitigates safety tax; by\ntraining models to systematically consider failure modes, it preserves general\nreasoning capabilities on standard benchmarks. (iii) beyond general safety\ntasks, InvThink excels in high-stakes domains including external-facing\n(medicine, finance, law) and agentic (blackmail, murder) risk scenarios,\nachieving up to 15.7% reduction in harmful responses compared to baseline\nmethods like SafetyPrompt. We further implement InvThink via supervised\nfine-tuning, and reinforcement learning across three LLM families. These\nresults suggest that inverse reasoning provides a scalable and generalizable\npath toward safer, more capable language models.",
+  "authors": [
+    "Yubin Kim",
+    "Taehan Kim",
+    "Eugene Park",
+    "Chunjong Park",
+    "Cynthia Breazeal",
+    "Daniel McDuff",
+    "Hae Won Park"
+  ],
+  "published": "2025-10-02T01:26:53Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01569v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出InvThink方法，通过逆向思维让大语言模型在生成回答前先推理潜在风险模式。该方法包含三个步骤：枚举潜在危害、分析后果、生成主动规避风险的输出。研究发现：安全性能随模型规模扩展更强；缓解安全税效应，保持通用推理能力；在高风险领域（医疗、金融、法律等）相比基线方法减少15.7%有害回答。通过监督微调和强化学习在三个LLM家族中实现，为构建更安全、更强大的语言模型提供可扩展路径。",
+  "order": 397,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01569v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00936v1",
+  "title": "Looking Alike From Far to Near: Enhancing Cross-Resolution\n  Re-Identification via Feature Vector Panning",
+  "summary": "In surveillance scenarios, varying camera distances cause significant\ndifferences among pedestrian image resolutions, making it hard to match\nlow-resolution (LR) images with high-resolution (HR) counterparts, limiting the\nperformance of Re-Identification (ReID) tasks. Most existing Cross-Resolution\nReID (CR-ReID) methods rely on super-resolution (SR) or joint learning for\nfeature compensation, which increases training and inference complexity and has\nreached a performance bottleneck in recent studies. Inspired by semantic\ndirections in the word embedding space, we empirically discover that semantic\ndirections implying resolution differences also emerge in the feature space of\nReID, and we substantiate this finding from a statistical perspective using\nCanonical Correlation Analysis and Pearson Correlation Analysis. Based on this\ninteresting finding, we propose a lightweight and effective Vector Panning\nFeature Alignment (VPFA) framework, which conducts CR-ReID from a novel\nperspective of modeling the resolution-specific feature discrepancy. Extensive\nexperimental results on multiple CR-ReID benchmarks show that our method\nsignificantly outperforms previous state-of-the-art baseline models while\nobtaining higher efficiency, demonstrating the effectiveness and superiority of\nour model based on the new finding in this paper.",
+  "authors": [
+    "Zanwu Liu",
+    "Chao Yuan",
+    "Bo Li",
+    "Xiaowei Zhang",
+    "Guanglin Niu"
+  ],
+  "published": "2025-10-01T14:15:39Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00936v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种轻量级的向量平移特征对齐(VPFA)框架，通过建模分辨率特征差异解决跨分辨率行人重识别问题。研究发现ReID特征空间中存在类似词嵌入的语义方向，提出无需超分辨率的特征补偿方法，在多个基准测试中显著超越现有方法并提高效率。",
+  "order": 614,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00936v1"
+}

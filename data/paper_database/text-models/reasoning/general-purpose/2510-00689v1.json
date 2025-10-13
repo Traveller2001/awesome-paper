@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.00689v1",
+  "title": "Relevance-Zone Reduction in Game Solving",
+  "summary": "Game solving aims to find the optimal strategies for all players and\ndetermine the theoretical outcome of a game. However, due to the exponential\ngrowth of game trees, many games remain unsolved, even though methods like\nAlphaZero have demonstrated super-human level in game playing. The\nRelevance-Zone (RZ) is a local strategy reuse technique that restricts the\nsearch to only the regions relevant to the outcome, significantly reducing the\nsearch space. However, RZs are not unique. Different solutions may result in\nRZs of varying sizes. Smaller RZs are generally more favorable, as they\nincrease the chance of reuse and improve pruning efficiency. To this end, we\npropose an iterative RZ reduction method that repeatedly solves the same\nposition while gradually restricting the region involved, guiding the solver\ntoward smaller RZs. We design three constraint generation strategies and\nintegrate an RZ Pattern Table to fully leverage past solutions. In experiments\non 7x7 Killall-Go, our method reduces the average RZ size to 85.95% of the\noriginal. Furthermore, the reduced RZs can be permanently stored as reusable\nknowledge for future solving tasks, especially for larger board sizes or\ndifferent openings.",
+  "authors": [
+    "Chi-Huang Lin",
+    "Ting Han Wei",
+    "Chun-Jui Wang",
+    "Hung Guei",
+    "Chung-Chin Shih",
+    "Yun-Jui Tsai",
+    "I-Chen Wu",
+    "Ti-Rong Wu"
+  ],
+  "published": "2025-10-01T09:10:32Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00689v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种迭代式相关区域缩减方法，通过逐步限制求解区域来缩小游戏求解中的相关区域规模，在7×7 Killall-Go实验中平均将相关区域大小降至原始的85.95%，并可将缩减后的相关区域作为可重用知识存储。",
+  "order": 262,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00689v1"
+}

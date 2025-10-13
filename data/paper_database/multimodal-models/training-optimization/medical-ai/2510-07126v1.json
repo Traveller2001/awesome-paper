@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07126v1",
+  "title": "Validation of Various Normalization Methods for Brain Tumor\n  Segmentation: Can Federated Learning Overcome This Heterogeneity?",
+  "summary": "Deep learning (DL) has been increasingly applied in medical imaging, however,\nit requires large amounts of data, which raises many challenges related to data\nprivacy, storage, and transfer. Federated learning (FL) is a training paradigm\nthat overcomes these issues, though its effectiveness may be reduced when\ndealing with non-independent and identically distributed (non-IID) data. This\nstudy simulates non-IID conditions by applying different MRI intensity\nnormalization techniques to separate data subsets, reflecting a common cause of\nheterogeneity. These subsets are then used for training and testing models for\nbrain tumor segmentation. The findings provide insights into the influence of\nthe MRI intensity normalization methods on segmentation models, both training\nand inference. Notably, the FL methods demonstrated resilience to\ninconsistently normalized data across clients, achieving the 3D Dice score of\n92%, which is comparable to a centralized model (trained using all data). These\nresults indicate that FL is a solution to effectively train high-performing\nmodels without violating data privacy, a crucial concern in medical\napplications. The code is available at:\nhttps://github.com/SanoScience/fl-varying-normalization.",
+  "authors": [
+    "Jan Fiszer",
+    "Dominika Ciupek",
+    "Maciej Malawski"
+  ],
+  "published": "2025-10-08T15:21:53Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07126v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究探讨了不同MRI强度归一化方法对脑肿瘤分割模型的影响，并验证了联邦学习在处理非独立同分布数据时的有效性。通过模拟数据异质性场景，发现联邦学习方法在保持92% Dice分数的同时，能够有效应对客户端间数据归一化不一致的问题，为医疗影像分析提供了一种兼顾性能与隐私保护的解决方案。",
+  "order": 116,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07126v1"
+}

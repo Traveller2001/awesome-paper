@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02308v1",
+  "title": "Robust Tangent Space Estimation via Laplacian Eigenvector Gradient\n  Orthogonalization",
+  "summary": "Estimating the tangent spaces of a data manifold is a fundamental problem in\ndata analysis. The standard approach, Local Principal Component Analysis\n(LPCA), struggles in high-noise settings due to a critical trade-off in\nchoosing the neighborhood size. Selecting an optimal size requires prior\nknowledge of the geometric and noise characteristics of the data that are often\nunavailable. In this paper, we propose a spectral method, Laplacian Eigenvector\nGradient Orthogonalization (LEGO), that utilizes the global structure of the\ndata to guide local tangent space estimation. Instead of relying solely on\nlocal neighborhoods, LEGO estimates the tangent space at each data point by\northogonalizing the gradients of low-frequency eigenvectors of the graph\nLaplacian. We provide two theoretical justifications of our method. First, a\ndifferential geometric analysis on a tubular neighborhood of a manifold shows\nthat gradients of the low-frequency Laplacian eigenfunctions of the tube align\nclosely with the manifold's tangent bundle, while an eigenfunction with high\ngradient in directions orthogonal to the manifold lie deeper in the spectrum.\nSecond, a random matrix theoretic analysis also demonstrates that low-frequency\neigenvectors are robust to sub-Gaussian noise. Through comprehensive\nexperiments, we demonstrate that LEGO yields tangent space estimates that are\nsignificantly more robust to noise than those from LPCA, resulting in marked\nimprovements in downstream tasks such as manifold learning, boundary detection,\nand local intrinsic dimension estimation.",
+  "authors": [
+    "Dhruv Kohli",
+    "Sawyer J. Robertson",
+    "Gal Mishne",
+    "Alexander Cloninger"
+  ],
+  "published": "2025-10-02T17:59:45Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02308v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LEGO方法，通过拉普拉斯特征向量梯度正交化，利用数据全局结构指导局部切空间估计，解决了传统LPCA在高噪声环境下邻域大小选择的难题。理论分析和实验表明，该方法在流形学习、边界检测等任务中具有更强的噪声鲁棒性。",
+  "order": 691,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02308v1"
+}

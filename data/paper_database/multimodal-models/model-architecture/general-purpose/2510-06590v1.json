@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2510.06590v1",
+  "title": "Ming-UniVision: Joint Image Understanding and Generation with a Unified\n  Continuous Tokenizer",
+  "summary": "Visual tokenization remains a core challenge in unifying visual understanding\nand generation within the autoregressive paradigm. Existing methods typically\nemploy tokenizers in discrete latent spaces to align with the tokens from large\nlanguage models, where the quantization errors can limit semantic\nexpressiveness and degrade the capability of vision-language understanding. To\naddress this, we introduce MingTok, a new family of visual tokenizers with a\ncontinuous latent space, for unified autoregressive generation and\nunderstanding. While understanding tasks favor discriminative high-dimensional\nfeatures, generation tasks prefer compact low-level codes. Thus, to reconcile\nthese competing demands, MingTok adopts a three-stage sequential architecture\ninvolving low-level encoding, semantic expansion, and visual reconstruction.\nBuilt on top of it, Ming-UniVision eliminates the need for task-specific visual\nrepresentations, and unifies diverse vision-language tasks under a single\nautoregrsssive prediction paradigm. By formulating both understanding and\ngeneration as next-token prediction in a shared continuous space, it seamlessly\nsupports multi-round, in-context tasks such as iterative understanding,\ngeneration and editing. Empirically, we find that using a unified continuous\nvisual representation reconciles the competing requirements on the tokenizers\nby the understanding and generation tasks, thereby leading to state-of-the-art\nlevel performance across both domains. We hope our findings will facilitate\nunified visual tokenization in the continuous domain. Inference code and model\nweights are released to benefit community.",
+  "authors": [
+    "Ziyuan Huang",
+    "DanDan Zheng",
+    "Cheng Zou",
+    "Rui Liu",
+    "Xiaolong Wang",
+    "Kaixiang Ji",
+    "Weilong Chai",
+    "Jianxin Sun",
+    "Libin Wang",
+    "Yongjie Lv",
+    "Taozhi Huang",
+    "Jiajia Liu",
+    "Qingpei Guo",
+    "Ming Yang",
+    "Jingdong Chen",
+    "Jun Zhou"
+  ],
+  "published": "2025-10-08T02:50:14Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06590v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Ming-UniVision框架，通过连续视觉分词器MingTok统一图像理解与生成任务。该三阶段架构在连续潜在空间中实现多轮上下文任务，无需任务特定表示，在理解与生成领域均达到先进性能。",
+  "order": 158,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06590v1"
+}

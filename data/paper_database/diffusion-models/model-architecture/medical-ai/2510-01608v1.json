@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01608v1",
+  "title": "NPN: Non-Linear Projections of the Null-Space for Imaging Inverse\n  Problems",
+  "summary": "Imaging inverse problems aims to recover high-dimensional signals from\nundersampled, noisy measurements, a fundamentally ill-posed task with infinite\nsolutions in the null-space of the sensing operator. To resolve this ambiguity,\nprior information is typically incorporated through handcrafted regularizers or\nlearned models that constrain the solution space. However, these priors\ntypically ignore the task-specific structure of that null-space. In this work,\nwe propose \\textit{Non-Linear Projections of the Null-Space} (NPN), a novel\nclass of regularization that, instead of enforcing structural constraints in\nthe image domain, promotes solutions that lie in a low-dimensional projection\nof the sensing matrix's null-space with a neural network. Our approach has two\nkey advantages: (1) Interpretability: by focusing on the structure of the\nnull-space, we design sensing-matrix-specific priors that capture information\northogonal to the signal components that are fundamentally blind to the sensing\nprocess. (2) Flexibility: NPN is adaptable to various inverse problems,\ncompatible with existing reconstruction frameworks, and complementary to\nconventional image-domain priors. We provide theoretical guarantees on\nconvergence and reconstruction accuracy when used within plug-and-play methods.\nEmpirical results across diverse sensing matrices demonstrate that NPN priors\nconsistently enhance reconstruction fidelity in various imaging inverse\nproblems, such as compressive sensing, deblurring, super-resolution, computed\ntomography, and magnetic resonance imaging, with plug-and-play methods,\nunrolling networks, deep image prior, and diffusion models.",
+  "authors": [
+    "Roman Jacome",
+    "Romario Gualdrón-Hurtado",
+    "Leon Suarez",
+    "Henry Arguello"
+  ],
+  "published": "2025-10-02T02:45:06Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01608v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出NPN方法，通过神经网络对感知矩阵零空间进行非线性投影，解决成像逆问题。该方法具有可解释性和灵活性，在压缩感知、去模糊、超分辨率、CT和MRI等多种成像任务中提升重建质量，并与现有重建框架兼容。",
+  "order": 568,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01608v1"
+}

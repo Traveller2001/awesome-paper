@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01428v1",
+  "title": "BioVERSE: Representation Alignment of Biomedical Modalities to LLMs for\n  Multi-Modal Reasoning",
+  "summary": "Recent advances in large language models (LLMs) and biomedical foundation\nmodels (BioFMs) have achieved strong results in biological text reasoning,\nmolecular modeling, and single-cell analysis, yet they remain siloed in\ndisjoint embedding spaces, limiting cross-modal reasoning. We present BIOVERSE\n(Biomedical Vector Embedding Realignment for Semantic Engagement), a two-stage\napproach that adapts pretrained BioFMs as modality encoders and aligns them\nwith LLMs through lightweight, modality-specific projection layers. The\napproach first aligns each modality to a shared LLM space through independently\ntrained projections, allowing them to interoperate naturally, and then applies\nstandard instruction tuning with multi-modal data to bring them together for\ndownstream reasoning. By unifying raw biomedical data with knowledge embedded\nin LLMs, the approach enables zero-shot annotation, cross-modal question\nanswering, and interactive, explainable dialogue. Across tasks spanning\ncell-type annotation, molecular description, and protein function reasoning,\ncompact BIOVERSE configurations surpass larger LLM baselines while enabling\nricher, generative outputs than existing BioFMs, establishing a foundation for\nprincipled multi-modal biomedical reasoning.",
+  "authors": [
+    "Ching-Huei Tsou",
+    "Michal Ozery-Flato",
+    "Ella Barkan",
+    "Diwakar Mahajan",
+    "Ben Shapira"
+  ],
+  "published": "2025-10-01T20:07:36Z",
+  "primary_category": "q-bio.QM",
+  "arxiv_url": "https://arxiv.org/abs/2510.01428v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "medical_ai",
+  "tldr_zh": "BioVERSE提出两阶段方法，将预训练生物医学基础模型与大型语言模型对齐，通过轻量级投影层实现多模态推理。该方法在细胞类型标注、分子描述和蛋白质功能推理等任务中超越大型LLM基线，支持零样本标注、跨模态问答和可解释对话，为生物医学多模态推理奠定基础。",
+  "order": 157,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01428v1"
+}

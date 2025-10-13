@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00480v1",
+  "title": "Expandable Decision-Making States for Multi-Agent Deep Reinforcement\n  Learning in Soccer Tactical Analysis",
+  "summary": "Invasion team sports such as soccer produce a high-dimensional, strongly\ncoupled state space as many players continuously interact on a shared field,\nchallenging quantitative tactical analysis. Traditional rule-based analyses are\nintuitive, while modern predictive machine learning models often perform\npattern-matching without explicit agent representations. The problem we address\nis how to build player-level agent models from data, whose learned values and\npolicies are both tactically interpretable and robust across heterogeneous data\nsources. Here, we propose Expandable Decision-Making States (EDMS), a\nsemantically enriched state representation that augments raw positions and\nvelocities with relational variables (e.g., scoring of space, pass, and score),\ncombined with an action-masking scheme that gives on-ball and off-ball agents\ndistinct decision sets. Compared to prior work, EDMS maps learned value\nfunctions and action policies to human-interpretable tactical concepts (e.g.,\nmarking pressure, passing lanes, ball accessibility) instead of raw coordinate\nfeatures, and aligns agent choices with the rules of play. In the experiments,\nEDMS with action masking consistently reduced both action-prediction loss and\ntemporal-difference (TD) error compared to the baseline. Qualitative case\nstudies and Q-value visualizations further indicate that EDMS highlights\nhigh-risk, high-reward tactical patterns (e.g., fast counterattacks and\ndefensive breakthroughs). We also integrated our approach into an open-source\nlibrary and demonstrated compatibility with multiple commercial and open\ndatasets, enabling cross-provider evaluation and reproducible experiments.",
+  "authors": [
+    "Kenjiro Ide",
+    "Taiga Someya",
+    "Kohei Kawaguchi",
+    "Keisuke Fujii"
+  ],
+  "published": "2025-10-01T04:01:51Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00480v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出可扩展决策状态(EDMS)方法，通过语义增强的状态表示和动作掩码机制，在足球战术分析中构建可解释的多智能体深度强化学习模型。该方法将原始位置速度数据与关系变量结合，使学习到的价值函数和策略对应人类可理解的战术概念，在实验中有效降低了动作预测损失和时序差分误差，并识别高风险高回报战术模式。",
+  "order": 303,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00480v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02171v1",
+  "title": "Go witheFlow: Real-time Emotion Driven Audio Effects Modulation",
+  "summary": "Music performance is a distinctly human activity, intrinsically linked to the\nperformer's ability to convey, evoke, or express emotion. Machines cannot\nperform music in the human sense; they can produce, reproduce, execute, or\nsynthesize music, but they lack the capacity for affective or emotional\nexperience. As such, music performance is an ideal candidate through which to\nexplore aspects of collaboration between humans and machines. In this paper, we\nintroduce the witheFlow system, designed to enhance real-time music performance\nby automatically modulating audio effects based on features extracted from both\nbiosignals and the audio itself. The system, currently in a proof-of-concept\nphase, is designed to be lightweight, able to run locally on a laptop, and is\nopen-source given the availability of a compatible Digital Audio Workstation\nand sensors.",
+  "authors": [
+    "Edmund Dervakos",
+    "Spyridon Kantarelis",
+    "Vassilis Lyberatos",
+    "Jason Liartis",
+    "Giorgos Stamou"
+  ],
+  "published": "2025-10-02T16:23:47Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.02171v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出witheFlow系统，通过分析生物信号和音频特征实时调制音效，增强音乐表演的情感表达。该系统轻量级、开源，可在笔记本电脑本地运行，目前处于概念验证阶段。",
+  "order": 34,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02171v1"
+}

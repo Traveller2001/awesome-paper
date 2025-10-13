@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06128v1",
+  "title": "Parallel Tokenizers: Rethinking Vocabulary Design for Cross-Lingual\n  Transfer",
+  "summary": "Tokenization defines the foundation of multilingual language models by\ndetermining how words are represented and shared across languages. However,\nexisting methods often fail to support effective cross-lingual transfer because\nsemantically equivalent words are assigned distinct embeddings. For example, \"I\neat rice\" in English and \"Ina cin shinkafa\" in Hausa are typically mapped to\ndifferent vocabulary indices, preventing shared representations and limiting\ncross-lingual generalization. We introduce parallel tokenizers. This new\nframework trains tokenizers monolingually and then aligns their vocabularies\nexhaustively using bilingual dictionaries or word-to-word translation, ensuring\nconsistent indices for semantically equivalent words. This alignment enforces a\nshared semantic space across languages while naturally improving fertility\nbalance. To assess their effectiveness, we pretrain a transformer encoder from\nscratch on thirteen low-resource languages and evaluate it on sentiment\nanalysis, hate speech detection, emotion classification, and sentence embedding\nsimilarity. Across all tasks, models trained with parallel tokenizers\noutperform conventional multilingual baselines, confirming that rethinking\ntokenization is essential for advancing multilingual representation\nlearning--especially in low-resource settings.",
+  "authors": [
+    "Muhammad Dehan Al Kautsar",
+    "Fajri Koto"
+  ],
+  "published": "2025-10-07T17:05:49Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06128v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出并行分词器框架，通过单语训练后利用双语词典对齐词汇表，确保语义相同的单词在不同语言中获得一致索引。在13种低资源语言上的实验表明，该方法在情感分析、仇恨言论检测等任务中均优于传统多语言基线，显著提升了跨语言表示学习效果。",
+  "order": 15,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06128v1"
+}

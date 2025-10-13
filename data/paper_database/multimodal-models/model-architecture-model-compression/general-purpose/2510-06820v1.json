@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06820v1",
+  "title": "Efficient Discriminative Joint Encoders for Large Scale Vision-Language\n  Reranking",
+  "summary": "Multimodal retrieval still leans on embedding-based models like CLIP for fast\nvector search over pre-computed image embeddings. Yet, unlike text retrieval,\nwhere joint-encoder rerankers are standard, comparable vision--language\nrerankers are largely absent. We find that seminal joint encoders such as BLIP\nare severely bottlenecked by an expensive visual feature-extraction stage,\npreventing practical deployment at scale. Motivated by this bottleneck, we\nintroduce EDJE, an Efficient Discriminative Joint Encoder that precomputes\nvision tokens offline and compresses them via a lightweight attention-based\nadapter, so online inference runs only a compact joint encoder over a small set\nof visual tokens plus the text. EDJE preserves strong retrieval performance\nwhile drastically reducing storage and online compute, enabling high-throughput\ninference. Specifically, EDJE processes 50k image--text pairs/second while\nrequiring 49kB of disk storage per image, matching prior art on Flickr\n(zero-shot) and COCO (fine-tuned) retrieval. The implementation and checkpoints\nwill be made publicly available shortly.",
+  "authors": [
+    "Mitchell Keren Taraday",
+    "Shahaf Wagner",
+    "Chaim Baskin"
+  ],
+  "published": "2025-10-08T09:46:09Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06820v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'model_compression']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出EDJE高效判别式联合编码器，解决视觉-语言重排序中视觉特征提取瓶颈问题。通过预计算视觉token并采用轻量级注意力适配器压缩，在保持检索性能的同时大幅降低存储和计算开销，实现每秒处理5万图文对的高吞吐量推理。",
+  "order": 137,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06820v1"
+}

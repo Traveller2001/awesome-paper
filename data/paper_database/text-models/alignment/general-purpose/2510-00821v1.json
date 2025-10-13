@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.00821v1",
+  "title": "Logical Consistency Between Disagreeing Experts and Its Role in AI\n  Safety",
+  "summary": "If two experts disagree on a test, we may conclude both cannot be 100 per\ncent correct. But if they completely agree, no possible evaluation can be\nexcluded. This asymmetry in the utility of agreements versus disagreements is\nexplored here by formalizing a logic of unsupervised evaluation for\nclassifiers. Its core problem is computing the set of group evaluations that\nare logically consistent with how we observe them agreeing and disagreeing in\ntheir decisions. Statistical summaries of their aligned decisions are inputs\ninto a Linear Programming problem in the integer space of possible correct or\nincorrect responses given true labels. Obvious logical constraints, such as,\nthe number of correct responses cannot exceed the number of observed responses,\nare inequalities. But in addition, there are axioms, universally applicable\nlinear equalities that apply to all finite tests. The practical and immediate\nutility of this approach to unsupervised evaluation using only logical\nconsistency is demonstrated by building no-knowledge alarms that can detect\nwhen one or more LLMs-as-Judges are violating a minimum grading threshold\nspecified by the user.",
+  "authors": [
+    "Andrés Corrada-Emmanuel"
+  ],
+  "published": "2025-10-01T12:30:01Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00821v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于逻辑一致性的无监督评估方法，通过形式化专家间一致与分歧的不对称性，构建线性规划问题来检测LLM评委是否违反用户设定的评分阈值，为AI安全提供理论框架。",
+  "order": 238,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00821v1"
+}

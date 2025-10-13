@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00922v1",
+  "title": "On Discovering Algorithms for Adversarial Imitation Learning",
+  "summary": "Adversarial Imitation Learning (AIL) methods, while effective in settings\nwith limited expert demonstrations, are often considered unstable. These\napproaches typically decompose into two components: Density Ratio (DR)\nestimation $\\frac{\\rho_E}{\\rho_{\\pi}}$, where a discriminator estimates the\nrelative occupancy of state-action pairs under the policy versus the expert;\nand Reward Assignment (RA), where this ratio is transformed into a reward\nsignal used to train the policy. While significant research has focused on\nimproving density estimation, the role of reward assignment in influencing\ntraining dynamics and final policy performance has been largely overlooked. RA\nfunctions in AIL are typically derived from divergence minimization objectives,\nrelying heavily on human design and ingenuity. In this work, we take a\ndifferent approach: we investigate the discovery of data-driven RA functions,\ni.e, based directly on the performance of the resulting imitation policy. To\nthis end, we leverage an LLM-guided evolutionary framework that efficiently\nexplores the space of RA functions, yielding \\emph{Discovered Adversarial\nImitation Learning} (DAIL), the first meta-learnt AIL algorithm. Remarkably,\nDAIL generalises across unseen environments and policy optimization algorithms,\noutperforming the current state-of-the-art of \\emph{human-designed} baselines.\nFinally, we analyse why DAIL leads to more stable training, offering novel\ninsights into the role of RA functions in the stability of AIL. Code is\npublicly available: https://github.com/shshnkreddy/DAIL.",
+  "authors": [
+    "Shashank Reddy Chirra",
+    "Jayden Teoh",
+    "Praveen Paruchuri",
+    "Pradeep Varakantham"
+  ],
+  "published": "2025-10-01T14:02:05Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00922v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DAIL算法，通过LLM引导的进化框架自动发现对抗模仿学习中的奖励分配函数，解决了传统方法依赖人工设计的问题。DAIL在未见环境和策略优化算法中表现出优越的泛化能力和训练稳定性，超越了现有最佳人工设计基线。",
+  "order": 217,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00922v1"
+}

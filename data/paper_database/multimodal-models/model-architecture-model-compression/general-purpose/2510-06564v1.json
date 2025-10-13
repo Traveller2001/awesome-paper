@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06564v1",
+  "title": "HSNet: Heterogeneous Subgraph Network for Single Image Super-resolution",
+  "summary": "Existing deep learning approaches for image super-resolution, particularly\nthose based on CNNs and attention mechanisms, often suffer from structural\ninflexibility. Although graph-based methods offer greater representational\nadaptability, they are frequently impeded by excessive computational\ncomplexity. To overcome these limitations, this paper proposes the\nHeterogeneous Subgraph Network (HSNet), a novel framework that efficiently\nleverages graph modeling while maintaining computational feasibility. The core\nidea of HSNet is to decompose the global graph into manageable sub-components.\nFirst, we introduce the Constructive Subgraph Set Block (CSSB), which generates\na diverse set of complementary subgraphs. Rather than relying on a single\nmonolithic graph, CSSB captures heterogeneous characteristics of the image by\nmodeling different relational patterns and feature interactions, producing a\nrich ensemble of both local and global graph structures. Subsequently, the\nSubgraph Aggregation Block (SAB) integrates the representations embedded across\nthese subgraphs. Through adaptive weighting and fusion of multi-graph features,\nSAB constructs a comprehensive and discriminative representation that captures\nintricate interdependencies. Furthermore, a Node Sampling Strategy (NSS) is\ndesigned to selectively retain the most salient features, thereby enhancing\naccuracy while reducing computational overhead. Extensive experiments\ndemonstrate that HSNet achieves state-of-the-art performance, effectively\nbalancing reconstruction quality with computational efficiency. The code will\nbe made publicly available.",
+  "authors": [
+    "Qiongyang Hu",
+    "Wenyang Liu",
+    "Wenbin Zou",
+    "Yuejiao Su",
+    "Lap-Pui Chau",
+    "Yi Wang"
+  ],
+  "published": "2025-10-08T01:32:52Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06564v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'model_compression']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出HSNet异构子图网络解决单图像超分辨率问题。通过构建互补子图集合块(CSSB)生成多样化子图，利用子图聚合块(SAB)融合多图特征，并结合节点采样策略(NSS)降低计算复杂度。该方法在保持计算效率的同时实现了最先进的超分性能，有效平衡了重建质量与计算开销。",
+  "order": 161,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06564v1"
+}

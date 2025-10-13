@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00919v2",
+  "title": "Benchmarking Foundation Models with Retrieval-Augmented Generation in\n  Olympic-Level Physics Problem Solving",
+  "summary": "Retrieval-augmented generation (RAG) with foundation models has achieved\nstrong performance across diverse tasks, but their capacity for expert-level\nreasoning-such as solving Olympiad-level physics problems-remains largely\nunexplored. Inspired by the way students prepare for competitions by reviewing\npast problems, we investigate the potential of RAG to enhance physics reasoning\nin foundation models. We introduce PhoPile, a high-quality multimodal dataset\nspecifically designed for Olympiad-level physics, enabling systematic study of\nretrieval-based reasoning. PhoPile includes diagrams, graphs, and equations,\ncapturing the inherently multimodal nature of physics problem solving. Using\nPhoPile, we benchmark RAG-augmented foundation models, covering both large\nlanguage models (LLMs) and large multimodal models (LMMs) with multiple\nretrievers. Our results demonstrate that integrating retrieval with physics\ncorpora can improve model performance, while also highlighting challenges that\nmotivate further research in retrieval-augmented physics reasoning.",
+  "authors": [
+    "Shunfeng Zheng",
+    "Yudi Zhang",
+    "Meng Fang",
+    "Zihan Zhang",
+    "Zhitan Wu",
+    "Mykola Pechenizkiy",
+    "Ling Chen"
+  ],
+  "published": "2025-10-01T13:57:53Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00919v2",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "education_ai",
+  "tldr_zh": "本研究引入PhoPile数据集，系统评估检索增强生成在奥林匹克物理问题解决中的表现，发现结合物理知识检索能提升基础模型性能，同时揭示了多模态推理面临的挑战。",
+  "order": 440,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00919v2"
+}

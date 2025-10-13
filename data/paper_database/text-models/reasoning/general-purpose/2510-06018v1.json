@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06018v1",
+  "title": "Evaluating The Impact of Stimulus Quality in Investigations of LLM\n  Language Performance",
+  "summary": "Recent studies employing Large Language Models (LLMs) to test the Argument\nfrom the Poverty of the Stimulus (APS) have yielded contrasting results across\nsyntactic phenomena. This paper investigates the hypothesis that\ncharacteristics of the stimuli used in recent studies, including lexical\nambiguities and structural complexities, may confound model performance. A\nmethodology is proposed for re-evaluating LLM competence on syntactic\nprediction, focusing on GPT-2. This involves: 1) establishing a baseline on\npreviously used (both filtered and unfiltered) stimuli, and 2) generating a\nnew, refined dataset using a state-of-the-art (SOTA) generative LLM (Gemini 2.5\nPro Preview) guided by linguistically-informed templates designed to mitigate\nidentified confounds. Our preliminary findings indicate that GPT-2 demonstrates\nnotably improved performance on these refined PG stimuli compared to baselines,\nsuggesting that stimulus quality significantly influences outcomes in\nsurprisal-based evaluations of LLM syntactic competency.",
+  "authors": [
+    "Timothy Pistotti",
+    "Jason Brown",
+    "Michael Witbrock"
+  ],
+  "published": "2025-10-07T15:16:47Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06018v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探讨了刺激质量对大型语言模型句法能力评估的影响。通过分析GPT-2在原始刺激和经语言学家指导优化的新数据集上的表现，发现刺激质量（如词汇歧义和结构复杂性）显著影响基于惊异度的句法能力评估结果。改进后的刺激使GPT-2性能显著提升，表明现有评估方法可能因刺激质量问题而低估模型能力。",
+  "order": 21,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06018v1"
+}

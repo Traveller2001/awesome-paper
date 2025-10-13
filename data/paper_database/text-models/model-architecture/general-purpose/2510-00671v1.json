@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00671v1",
+  "title": "Milco: Learned Sparse Retrieval Across Languages via a Multilingual\n  Connector",
+  "summary": "Learned Sparse Retrieval (LSR) combines the efficiency of bi-encoders with\nthe transparency of lexical matching, but existing approaches struggle to scale\nbeyond English. We introduce MILCO, an LSR architecture that maps queries and\ndocuments from different languages into a shared English lexical space via a\nmultilingual connector. MILCO is trained with a specialized two-stage regime\nthat combines Sparse Alignment Pretraining with contrastive training to provide\nrepresentation transparency and effectiveness while mitigating semantic\ncollapse. Motivated by the observation that uncommon entities are often lost\nwhen projected into English, we propose a new LexEcho head, which enhances\nrobustness by augmenting the English lexical representation with a\nsource-language view obtained through a special [ECHO] token. MILCO achieves\nstate-of-the-art multilingual and cross-lingual LSR performance, outperforming\nleading dense, sparse, and multi-vector baselines such as BGE-M3 and\nQwen3-Embed on standard multilingual benchmarks, while supporting dynamic\nefficiency through post-hoc pruning. Notably, when using mass-based pruning to\nreduce document representations to only 30 active dimensions on average, MILCO\n560M outperforms the similarly-sized Qwen3-Embed 0.6B with 1024 dimensions.",
+  "authors": [
+    "Thong Nguyen",
+    "Yibin Lei",
+    "Jia-Huei Ju",
+    "Eugene Yang",
+    "Andrew Yates"
+  ],
+  "published": "2025-10-01T08:58:25Z",
+  "primary_category": "cs.IR",
+  "arxiv_url": "https://arxiv.org/abs/2510.00671v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "MILCO是一种跨语言学习稀疏检索架构，通过多语言连接器将不同语言的查询和文档映射到共享的英语词汇空间。采用两阶段训练策略和LexEcho增强机制，在保持表示透明度的同时提升多语言检索性能，支持动态剪枝优化效率，在多项基准测试中超越现有密集/稀疏检索模型。",
+  "order": 456,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00671v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06198v1",
+  "title": "Peeking inside the Black-Box: Reinforcement Learning for Explainable and\n  Accurate Relation Extraction",
+  "summary": "This paper introduces a framework for relation extraction (RE) that enhances\nboth accuracy and explainability. The framework has two key components: (i) a\nreasoning mechanism that formulates relation extraction as a series of\ntext-processing steps inspired by cognitive science, and (ii) an optimization\nprocess driven by reinforcement learning (RL) with a novel reward function\ndesigned to improve both task accuracy and explanation quality. We call our\napproach CogRE. Our framework addresses the lack of supervision for\nlanguage-based explanations in traditional RE by promoting outputs that include\nimportant relation keywords. These keywords are drawn from a high-quality\ndictionary that is automatically constructed using an LLM. We evaluate our\napproach for the task of one-shot RE using two LLMs and two RE datasets. Our\nexperiments show that CogRE improves explanation quality by addressing two\ncommon failure patterns in one-shot RE: poor attention focus and limited\none-shot learning capability. For example, our cognitive-structured reasoning\nwith Qwen2.5-15B-Instruct on One-shot NYT29 achieves 24.65% F1, surpassing\nprior reasoning-based designs. Optimizing this approach with RL using our\nreward further improves performance by +23.46% (absolute). Finally, human\nevaluation shows that our best model generates relational keywords closely\naligned with gold labels, increasing human explanation quality ratings by 54%\n(relative).",
+  "authors": [
+    "Xinyu Guo",
+    "Zhengliang Shi",
+    "Minglai Yang",
+    "Mahdi Rahimi",
+    "Mihai Surdeanu"
+  ],
+  "published": "2025-10-07T17:53:55Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06198v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CogRE框架，通过认知科学启发的推理机制和强化学习优化，在关系抽取任务中同时提升准确性和可解释性。该方法利用LLM构建关键词词典，解决少样本关系抽取中的注意力分散和学习能力不足问题，在NYT29数据集上F1值提升23.46%，人工评估显示解释质量提升54%。",
+  "order": 7,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06198v1"
+}

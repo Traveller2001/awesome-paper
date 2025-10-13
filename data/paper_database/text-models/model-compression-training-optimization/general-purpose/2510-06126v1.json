@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06126v1",
+  "title": "lm-Meter: Unveiling Runtime Inference Latency for On-Device Language\n  Models",
+  "summary": "Large Language Models (LLMs) are increasingly integrated into everyday\napplications, but their prevalent cloud-based deployment raises growing\nconcerns around data privacy and long-term sustainability. Running LLMs locally\non mobile and edge devices (on-device LLMs) offers the promise of enhanced\nprivacy, reliability, and reduced communication costs. However, realizing this\nvision remains challenging due to substantial memory and compute demands, as\nwell as limited visibility into performance-efficiency trade-offs on\nresource-constrained hardware. We propose lm-Meter, the first lightweight,\nonline latency profiler tailored for on-device LLM inference. lm-Meter captures\nfine-grained, real-time latency at both phase (e.g., embedding, prefill,\ndecode, softmax, sampling) and kernel levels without auxiliary devices. We\nimplement lm-Meter on commercial mobile platforms and demonstrate its high\nprofiling accuracy with minimal system overhead, e.g., only 2.58% throughput\nreduction in prefill and 0.99% in decode under the most constrained Powersave\ngovernor. Leveraging lm-Meter, we conduct comprehensive empirical studies\nrevealing phase- and kernel-level bottlenecks in on-device LLM inference,\nquantifying accuracy-efficiency trade-offs, and identifying systematic\noptimization opportunities. lm-Meter provides unprecedented visibility into the\nruntime behavior of LLMs on constrained platforms, laying the foundation for\ninformed optimization and accelerating the democratization of on-device LLM\nsystems. Code and tutorials are available at\nhttps://github.com/amai-gsu/LM-Meter.",
+  "authors": [
+    "Haoxin Wang",
+    "Xiaolong Tu",
+    "Hongyu Ke",
+    "Huirong Chai",
+    "Dawei Chen",
+    "Kyungtae Han"
+  ],
+  "published": "2025-10-07T17:05:30Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06126v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_compression', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出lm-Meter，首个专为设备端语言模型设计的轻量级在线延迟分析器。该工具能在不依赖辅助设备的情况下，实时捕获嵌入、预填充、解码等阶段的细粒度延迟数据。在商用移动平台上验证显示，其分析精度高且系统开销极小（吞吐量降低仅0.99%-2.58%）。通过该系统揭示了设备端LLM推理的瓶颈，为优化提供了新见解，推动设备端LLM系统的普及。",
+  "order": 90,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06126v1"
+}

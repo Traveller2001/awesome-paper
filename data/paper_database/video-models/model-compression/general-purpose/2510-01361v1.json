@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01361v1",
+  "title": "An Efficient Quality Metric for Video Frame Interpolation Based on\n  Motion-Field Divergence",
+  "summary": "Video frame interpolation is a fundamental tool for temporal video\nenhancement, but existing quality metrics struggle to evaluate the perceptual\nimpact of interpolation artefacts effectively. Metrics like PSNR, SSIM and\nLPIPS ignore temporal coherence. State-of-the-art quality metrics tailored\ntowards video frame interpolation, like FloLPIPS, have been developed but\nsuffer from computational inefficiency that limits their practical application.\nWe present $\\text{PSNR}_{\\text{DIV}}$, a novel full-reference quality metric\nthat enhances PSNR through motion divergence weighting, a technique adapted\nfrom archival film restoration where it was developed to detect temporal\ninconsistencies. Our approach highlights singularities in motion fields which\nis then used to weight image errors. Evaluation on the BVI-VFI dataset (180\nsequences across multiple frame rates, resolutions and interpolation methods)\nshows $\\text{PSNR}_{\\text{DIV}}$ achieves statistically significant\nimprovements: +0.09 Pearson Linear Correlation Coefficient over FloLPIPS, while\nbeing 2.5$\\times$ faster and using 4$\\times$ less memory. Performance remains\nconsistent across all content categories and are robust to the motion estimator\nused. The efficiency and accuracy of $\\text{PSNR}_{\\text{DIV}}$ enables fast\nquality evaluation and practical use as a loss function for training neural\nnetworks for video frame interpolation tasks. An implementation of our metric\nis available at www.github.com/conalld/psnr-div.",
+  "authors": [
+    "Conall Daly",
+    "Darren Ramsook",
+    "Anil Kokaram"
+  ],
+  "published": "2025-10-01T18:40:38Z",
+  "primary_category": "eess.IV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01361v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于运动场散度的视频帧插值质量评估指标PSNR_DIV，通过运动发散加权改进PSNR，在BVI-VFI数据集上相比FloLPIPS提升0.09皮尔逊相关系数，同时速度提升2.5倍、内存占用减少4倍，适用于神经网络训练损失函数。",
+  "order": 590,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01361v1"
+}

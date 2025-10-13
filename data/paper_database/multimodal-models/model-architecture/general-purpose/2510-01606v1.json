@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01606v1",
+  "title": "Bridging Collaborative Filtering and Large Language Models with Dynamic\n  Alignment, Multimodal Fusion and Evidence-grounded Explanations",
+  "summary": "Recent research has explored using Large Language Models for recommendation\ntasks by transforming user interaction histories and item metadata into text\nprompts, then having the LLM produce rankings or recommendations. A promising\napproach involves connecting collaborative filtering knowledge to LLM\nrepresentations through compact adapter networks, which avoids expensive\nfine-tuning while preserving the strengths of both components. Yet several\nchallenges persist in practice: collaborative filtering models often use static\nsnapshots that miss rapidly changing user preferences; many real-world items\ncontain rich visual and audio content beyond textual descriptions; and current\nsystems struggle to provide trustworthy explanations backed by concrete\nevidence. Our work introduces \\model{}, a framework that tackles these\nlimitations through three key innovations. We develop an online adaptation\nmechanism that continuously incorporates new user interactions through\nlightweight modules, avoiding the need to retrain large models. We create a\nunified representation that seamlessly combines collaborative signals with\nvisual and audio features, handling cases where some modalities may be\nunavailable. Finally, we design an explanation system that grounds\nrecommendations in specific collaborative patterns and item attributes,\nproducing natural language rationales users can verify. Our approach maintains\nthe efficiency of frozen base models while adding minimal computational\noverhead, making it practical for real-world deployment.",
+  "authors": [
+    "Bo Ma",
+    "LuYao Liu",
+    "Simon Lau",
+    "Chandler Yuan",
+    "and XueY Cui",
+    "Rosie Zhang"
+  ],
+  "published": "2025-10-02T02:43:24Z",
+  "primary_category": "cs.IR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01606v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种融合协同过滤与大语言模型的推荐框架，通过动态对齐机制实时更新用户偏好，整合文本、视觉和音频多模态特征，并生成基于具体证据的可验证解释，在保持基础模型高效性的同时提升推荐系统的适应性和可信度。",
+  "order": 391,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01606v1"
+}

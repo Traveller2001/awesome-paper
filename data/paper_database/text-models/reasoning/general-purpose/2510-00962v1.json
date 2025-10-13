@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00962v1",
+  "title": "Analyzing Dialectical Biases in LLMs for Knowledge and Reasoning\n  Benchmarks",
+  "summary": "Large language models (LLMs) are ubiquitous in modern day natural language\nprocessing. However, previous work has shown degraded LLM performance for\nunder-represented English dialects. We analyze the effects of typifying\n\"standard\" American English language questions as non-\"standard\" dialectal\nvariants on multiple choice question answering tasks and find up to a 20%\nreduction in accuracy. Additionally, we investigate the grammatical basis of\nunder-performance in non-\"standard\" English questions. We find that individual\ngrammatical rules have varied effects on performance, but some are more\nconsequential than others: three specific grammar rules (existential \"it\", zero\ncopula, and y'all) can explain the majority of performance degradation observed\nin multiple dialects. We call for future work to investigate bias mitigation\nmethods focused on individual, high-impact grammatical structures.",
+  "authors": [
+    "Eileen Pan",
+    "Anna Seo Gyeong Choi",
+    "Maartje ter Hoeve",
+    "Skyler Seto",
+    "Allison Koenecke"
+  ],
+  "published": "2025-10-01T14:35:16Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00962v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究分析大语言模型在非标准英语方言上的表现偏差，发现在选择题任务中准确率下降高达20%，并识别出三个关键语法规则（存在性'it'、零系词和'y'all'）是导致多方言性能下降的主要原因，呼吁未来研究针对高影响语法结构开发偏见缓解方法。",
+  "order": 438,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00962v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01014v1",
+  "title": "Towards Adversarial Training under Hyperspectral Images",
+  "summary": "Recent studies have revealed that hyperspectral classification models based\non deep learning are highly vulnerable to adversarial attacks, which pose\nsignificant security risks. Although several approaches have attempted to\nenhance adversarial robustness by modifying network architectures, these\nmethods often rely on customized designs that limit scalability and fail to\ndefend effectively against strong attacks. To address these challenges, we\nintroduce adversarial training to the hyperspectral domain, which is widely\nregarded as one of the most effective defenses against adversarial attacks.\nThrough extensive empirical analyses, we demonstrate that while adversarial\ntraining does enhance robustness across various models and datasets,\nhyperspectral data introduces unique challenges not seen in RGB images.\nSpecifically, we find that adversarial noise and the non-smooth nature of\nadversarial examples can distort or eliminate important spectral semantic\ninformation. To mitigate this issue, we employ data augmentation techniques and\npropose a novel hyperspectral adversarial training method, termed AT-RA. By\nincreasing the diversity of spectral information and ensuring spatial\nsmoothness, AT-RA preserves and corrects spectral semantics in hyperspectral\nimages. Experimental results show that AT-RA improves adversarial robustness by\n21.34% against AutoAttack and 18.78% against PGD-50 while boosting benign\naccuracy by 2.68%.",
+  "authors": [
+    "Weihua Zhang",
+    "Chengze Jiang",
+    "Jie Gui",
+    "Lu Dong"
+  ],
+  "published": "2025-10-01T15:19:39Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01014v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对高光谱图像分类模型易受对抗攻击的问题，首次将对抗训练引入高光谱领域。研究发现高光谱数据存在独特挑战，对抗噪声会破坏光谱语义信息。为此提出AT-RA方法，通过数据增强和空间平滑处理，在提升对抗鲁棒性（AutoAttack提升21.34%，PGD-50提升18.78%）的同时提高良性准确率2.68%。",
+  "order": 605,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01014v1"
+}

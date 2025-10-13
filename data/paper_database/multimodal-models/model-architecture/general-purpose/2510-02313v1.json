@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02313v1",
+  "title": "Clink! Chop! Thud! -- Learning Object Sounds from Real-World\n  Interactions",
+  "summary": "Can a model distinguish between the sound of a spoon hitting a hardwood floor\nversus a carpeted one? Everyday object interactions produce sounds unique to\nthe objects involved. We introduce the sounding object detection task to\nevaluate a model's ability to link these sounds to the objects directly\ninvolved. Inspired by human perception, our multimodal object-aware framework\nlearns from in-the-wild egocentric videos. To encourage an object-centric\napproach, we first develop an automatic pipeline to compute segmentation masks\nof the objects involved to guide the model's focus during training towards the\nmost informative regions of the interaction. A slot attention visual encoder is\nused to further enforce an object prior. We demonstrate state of the art\nperformance on our new task along with existing multimodal action understanding\ntasks.",
+  "authors": [
+    "Mengyu Yang",
+    "Yiming Chen",
+    "Haozheng Pei",
+    "Siddhant Agarwal",
+    "Arun Balajee Vasudevan",
+    "James Hays"
+  ],
+  "published": "2025-10-02T17:59:52Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02313v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出一种多模态对象感知框架，通过真实世界交互视频学习物体声音识别。采用自动分割管道和槽注意力视觉编码器，在声音对象检测任务中实现最先进性能。",
+  "order": 488,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02313v1"
+}

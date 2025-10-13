@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01299v1",
+  "title": "Enhancing the development of Cherenkov Telescope Array control software\n  with Large Language Models",
+  "summary": "We develop AI agents based on instruction-finetuned large language models\n(LLMs) to assist in the engineering and operation of the Cherenkov Telescope\nArray Observatory (CTAO) Control and Data Acquisition Software (ACADA). These\nagents align with project-specific documentation and codebases, understand\ncontextual information, interact with external APIs, and communicate with users\nin natural language. We present our progress in integrating these features into\nCTAO pipelines for operations and offline data analysis.",
+  "authors": [
+    "Dmitriy Kostunin",
+    "Elisa Jones",
+    "Vladimir Sotnikov",
+    "Valery Sotnikov",
+    "Sergo Golovachev",
+    "Alexandre Strube"
+  ],
+  "published": "2025-10-01T14:14:41Z",
+  "primary_category": "astro-ph.IM",
+  "arxiv_url": "https://arxiv.org/abs/2510.01299v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "code_generation",
+  "tldr_zh": "本研究基于指令微调的大语言模型开发AI代理，用于辅助切伦科夫望远镜阵列观测站控制与数据采集软件的工程开发与运维。这些代理能够理解项目文档与代码库、与外部API交互，并以自然语言与用户沟通，已集成至CTAO的操作和离线数据分析流程中。",
+  "order": 216,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01299v1"
+}

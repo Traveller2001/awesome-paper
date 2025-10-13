@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06809v1",
+  "title": "VA-Adapter: Adapting Ultrasound Foundation Model to Echocardiography\n  Probe Guidance",
+  "summary": "Echocardiography is a critical tool for detecting heart diseases. Recently,\nultrasound foundation models have demonstrated remarkable capabilities in\ncardiac ultrasound image analysis. However, obtaining high-quality ultrasound\nimages is a prerequisite for accurate diagnosis. Due to the exceptionally high\noperational difficulty of cardiac ultrasound, there is a shortage of highly\nskilled personnel, which hinders patients from receiving timely examination\nservices. In this paper, we aim to adapt the medical knowledge learned by\nfoundation models from vast datasets to the probe guidance task, which is\ndesigned to provide real-time operational recommendations for junior\nsonographers to acquire high-quality ultrasound images. Moreover, inspired by\nthe practice where experts optimize action decisions based on past\nexplorations, we meticulously design a parameter-efficient Vision-Action\nAdapter (VA-Adapter) to enable foundation model's image encoder to encode\nvision-action sequences, thereby enhancing guidance performance. With built-in\nsequential reasoning capabilities in a compact design, the VA-Adapter enables a\npre-trained ultrasound foundation model to learn precise probe adjustment\nstrategies by fine-tuning only a small subset of parameters. Extensive\nexperiments demonstrate that the VA-Adapter can surpass strong probe guidance\nmodels. Our code will be released after acceptance.",
+  "authors": [
+    "Teng Wang",
+    "Haojun Jiang",
+    "Yuxuan Wang",
+    "Zhenguo Sun",
+    "Shiji Song",
+    "Gao Huang"
+  ],
+  "published": "2025-10-08T09:38:30Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06809v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出VA-Adapter方法，将超声基础模型适配于心脏超声探头引导任务。通过设计参数高效的视觉-动作适配器，使基础模型能够编码视觉-动作序列，为初级超声医师提供实时操作建议以获取高质量图像。该方法仅需微调少量参数即可学习精确探头调整策略，实验表明其性能优于现有探头引导模型。",
+  "order": 138,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06809v1"
+}

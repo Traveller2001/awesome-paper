@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07132v1",
+  "title": "DPMM-CFL: Clustered Federated Learning via Dirichlet Process Mixture\n  Model Nonparametric Clustering",
+  "summary": "Clustered Federated Learning (CFL) improves performance under non-IID client\nheterogeneity by clustering clients and training one model per cluster, thereby\nbalancing between a global model and fully personalized models. However, most\nCFL methods require the number of clusters K to be fixed a priori, which is\nimpractical when the latent structure is unknown. We propose DPMM-CFL, a CFL\nalgorithm that places a Dirichlet Process (DP) prior over the distribution of\ncluster parameters. This enables nonparametric Bayesian inference to jointly\ninfer both the number of clusters and client assignments, while optimizing\nper-cluster federated objectives. This results in a method where, at each\nround, federated updates and cluster inferences are coupled, as presented in\nthis paper. The algorithm is validated on benchmark datasets under Dirichlet\nand class-split non-IID partitions.",
+  "authors": [
+    "Mariona Jaramillo-Civill",
+    "Peng Wu",
+    "Pau Closas"
+  ],
+  "published": "2025-10-08T15:27:08Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07132v1",
+  "primary_area": "training_optimization",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DPMM-CFL算法，通过狄利克雷过程混合模型实现非参数化聚类联邦学习，无需预设聚类数量即可自动推断客户端分组并优化各簇模型，有效解决了非独立同分布数据下的客户端异构性问题。",
+  "order": 179,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07132v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06035v1",
+  "title": "Universal Neural Architecture Space: Covering ConvNets, Transformers and\n  Everything in Between",
+  "summary": "We introduce Universal Neural Architecture Space (UniNAS), a generic search\nspace for neural architecture search (NAS) which unifies convolutional\nnetworks, transformers, and their hybrid architectures under a single, flexible\nframework. Our approach enables discovery of novel architectures as well as\nanalyzing existing architectures in a common framework. We also propose a new\nsearch algorithm that allows traversing the proposed search space, and\ndemonstrate that the space contains interesting architectures, which, when\nusing identical training setup, outperform state-of-the-art hand-crafted\narchitectures. Finally, a unified toolkit including a standardized training and\nevaluation protocol is introduced to foster reproducibility and enable fair\ncomparison in NAS research. Overall, this work opens a pathway towards\nsystematically exploring the full spectrum of neural architectures with a\nunified graph-based NAS perspective.",
+  "authors": [
+    "Ondřej Týbl",
+    "Lukáš Neumann"
+  ],
+  "published": "2025-10-07T15:31:40Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06035v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出通用神经架构空间(UniNAS)，统一了卷积网络、Transformer及其混合架构的搜索框架，包含新型搜索算法和标准化工具包，在相同训练设置下发现的架构优于现有最优手工设计模型，为系统探索神经网络架构谱系提供了统一途径。",
+  "order": 76,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06035v1"
+}

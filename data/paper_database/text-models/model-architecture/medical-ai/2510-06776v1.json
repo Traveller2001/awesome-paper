@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06776v1",
+  "title": "Modeling COVID-19 Dynamics in German States Using Physics-Informed\n  Neural Networks",
+  "summary": "The COVID-19 pandemic has highlighted the need for quantitative modeling and\nanalysis to understand real-world disease dynamics. In particular, post hoc\nanalyses using compartmental models offer valuable insights into the\neffectiveness of public health interventions, such as vaccination strategies\nand containment policies. However, such compartmental models like SIR\n(Susceptible-Infectious-Recovered) often face limitations in directly\nincorporating noisy observational data. In this work, we employ\nPhysics-Informed Neural Networks (PINNs) to solve the inverse problem of the\nSIR model using infection data from the Robert Koch Institute (RKI). Our main\ncontribution is a fine-grained, spatio-temporal analysis of COVID-19 dynamics\nacross all German federal states over a three-year period. We estimate\nstate-specific transmission and recovery parameters and time-varying\nreproduction number (R_t) to track the pandemic progression. The results\nhighlight strong variations in transmission behavior across regions, revealing\ncorrelations with vaccination uptake and temporal patterns associated with\nmajor pandemic phases. Our findings demonstrate the utility of PINNs in\nlocalized, long-term epidemiological modeling.",
+  "authors": [
+    "Phillip Rothenbeck",
+    "Sai Karthikeya Vemuri",
+    "Niklas Penzel",
+    "Joachim Denzler"
+  ],
+  "published": "2025-10-08T08:59:39Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06776v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究采用物理信息神经网络(PINNs)求解SIR模型逆问题，基于德国罗伯特·科赫研究所的感染数据，对德国各联邦州进行为期三年的新冠疫情时空精细分析。通过估计各州特异性传播参数、恢复参数和时变再生数(R_t)，揭示了区域传播行为与疫苗接种率、主要疫情阶段的关联规律，证明了PINN在局部化长期流行病建模中的有效性。",
+  "order": 213,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06776v1"
+}

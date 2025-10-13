@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06827v1",
+  "title": "StyleKeeper: Prevent Content Leakage using Negative Visual Query\n  Guidance",
+  "summary": "In the domain of text-to-image generation, diffusion models have emerged as\npowerful tools. Recently, studies on visual prompting, where images are used as\nprompts, have enabled more precise control over style and content. However,\nexisting methods often suffer from content leakage, where undesired elements of\nthe visual style prompt are transferred along with the intended style. To\naddress this issue, we 1) extend classifier-free guidance (CFG) to utilize\nswapping self-attention and propose 2) negative visual query guidance (NVQG) to\nreduce the transfer of unwanted contents. NVQG employs negative score by\nintentionally simulating content leakage scenarios that swap queries instead of\nkey and values of self-attention layers from visual style prompts. This simple\nyet effective method significantly reduces content leakage. Furthermore, we\nprovide careful solutions for using a real image as visual style prompts.\nThrough extensive evaluation across various styles and text prompts, our method\ndemonstrates superiority over existing approaches, reflecting the style of the\nreferences, and ensuring that resulting images match the text prompts. Our code\nis available \\href{https://github.com/naver-ai/StyleKeeper}{here}.",
+  "authors": [
+    "Jaeseok Jeong",
+    "Junho Kim",
+    "Gayoung Lee",
+    "Yunjey Choi",
+    "Youngjung Uh"
+  ],
+  "published": "2025-10-08T09:50:34Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06827v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出StyleKeeper方法解决文本到图像生成中的内容泄漏问题，通过扩展分类器自由引导并引入负视觉查询指导技术，有效抑制视觉风格提示中非预期内容的迁移，在多种风格和文本提示下均优于现有方法。",
+  "order": 136,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06827v1"
+}

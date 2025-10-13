@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00508v1",
+  "title": "Copy-Paste to Mitigate Large Language Model Hallucinations",
+  "summary": "While Retrieval-Augmented Generation (RAG) enables large language models\n(LLMs) to generate contextually grounded responses, contextual faithfulness\nremains challenging as LLMs may not consistently trust provided context,\nleading to hallucinations that undermine reliability. We observe an inverse\ncorrelation between response copying degree and context-unfaithful\nhallucinations on RAGTruth, suggesting that higher copying degrees reduce\nhallucinations by fostering genuine contextual belief. We propose CopyPasteLLM,\nobtained through two-stage high-copying response preference training. We design\nthree prompting methods to enhance copying degree, demonstrating that\nhigh-copying responses achieve superior contextual faithfulness and\nhallucination control. These approaches enable a fully automated pipeline that\ntransforms generated responses into high-copying preference data for training\nCopyPasteLLM. On FaithEval, ConFiQA and PubMedQA, CopyPasteLLM achieves best\nperformance in both counterfactual and original contexts, remarkably with 12.2%\nto 24.5% accuracy improvements on FaithEval over the best baseline, while\nrequiring only 365 training samples -- 1/50th of baseline data. To elucidate\nCopyPasteLLM's effectiveness, we propose the Context-Parameter Copying\nCapturing algorithm. Interestingly, this reveals that CopyPasteLLM recalibrates\nreliance on internal parametric knowledge rather than external knowledge during\ngeneration. All codes are available at\nhttps://github.com/longyongchao/CopyPasteLLM",
+  "authors": [
+    "Yongchao Long",
+    "Xian Wu",
+    "Yingying Zhang",
+    "Xianbin Wen",
+    "Yuxi Zhou",
+    "Shenda Hong"
+  ],
+  "published": "2025-10-01T04:40:04Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00508v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CopyPasteLLM方法，通过两阶段高复制响应偏好训练来缓解大语言模型的幻觉问题。研究发现响应复制程度与上下文不忠实幻觉呈负相关，设计了三种提示方法增强复制程度，仅需365个训练样本即可在多个基准测试中显著提升准确性12.2%-24.5%，同时揭示了模型重新校准对内部参数知识的依赖机制。",
+  "order": 475,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00508v1"
+}

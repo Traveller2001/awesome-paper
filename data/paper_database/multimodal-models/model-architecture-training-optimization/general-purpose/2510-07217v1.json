@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.07217v1",
+  "title": "GenPilot: A Multi-Agent System for Test-Time Prompt Optimization in\n  Image Generation",
+  "summary": "Text-to-image synthesis has made remarkable progress, yet accurately\ninterpreting complex and lengthy prompts remains challenging, often resulting\nin semantic inconsistencies and missing details. Existing solutions, such as\nfine-tuning, are model-specific and require training, while prior automatic\nprompt optimization (APO) approaches typically lack systematic error analysis\nand refinement strategies, resulting in limited reliability and effectiveness.\nMeanwhile, test-time scaling methods operate on fixed prompts and on noise or\nsample numbers, limiting their interpretability and adaptability. To solve\nthese, we introduce a flexible and efficient test-time prompt optimization\nstrategy that operates directly on the input text. We propose a plug-and-play\nmulti-agent system called GenPilot, integrating error analysis,\nclustering-based adaptive exploration, fine-grained verification, and a memory\nmodule for iterative optimization. Our approach is model-agnostic,\ninterpretable, and well-suited for handling long and complex prompts.\nSimultaneously, we summarize the common patterns of errors and the refinement\nstrategy, offering more experience and encouraging further exploration.\nExperiments on DPG-bench and Geneval with improvements of up to 16.9% and 5.7%\ndemonstrate the strong capability of our methods in enhancing the text and\nimage consistency and structural coherence of generated images, revealing the\neffectiveness of our test-time prompt optimization strategy. The code is\navailable at https://github.com/27yw/GenPilot.",
+  "authors": [
+    "Wen Ye",
+    "Zhaocheng Liu",
+    "Yuwei Gui",
+    "Tingyu Yuan",
+    "Yunyue Su",
+    "Bowen Fang",
+    "Chaoyang Zhao",
+    "Qiang Liu",
+    "Liang Wang"
+  ],
+  "published": "2025-10-08T16:51:52Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07217v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "GenPilot是一个用于图像生成测试时提示优化的多智能体系统。该系统通过错误分析、聚类自适应探索、细粒度验证和记忆模块实现迭代优化，能够处理复杂长提示，提升文本-图像一致性和结构连贯性，在DPG-bench和Geneval基准上分别取得16.9%和5.7%的性能提升。",
+  "order": 109,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07217v1"
+}

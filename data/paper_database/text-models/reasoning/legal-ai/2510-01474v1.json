@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.01474v1",
+  "title": "AIReg-Bench: Benchmarking Language Models That Assess AI Regulation\n  Compliance",
+  "summary": "As governments move to regulate AI, there is growing interest in using Large\nLanguage Models (LLMs) to assess whether or not an AI system complies with a\ngiven AI Regulation (AIR). However, there is presently no way to benchmark the\nperformance of LLMs at this task. To fill this void, we introduce AIReg-Bench:\nthe first benchmark dataset designed to test how well LLMs can assess\ncompliance with the EU AI Act (AIA). We created this dataset through a two-step\nprocess: (1) by prompting an LLM with carefully structured instructions, we\ngenerated 120 technical documentation excerpts (samples), each depicting a\nfictional, albeit plausible, AI system - of the kind an AI provider might\nproduce to demonstrate their compliance with AIR; (2) legal experts then\nreviewed and annotated each sample to indicate whether, and in what way, the AI\nsystem described therein violates specific Articles of the AIA. The resulting\ndataset, together with our evaluation of whether frontier LLMs can reproduce\nthe experts' compliance labels, provides a starting point to understand the\nopportunities and limitations of LLM-based AIR compliance assessment tools and\nestablishes a benchmark against which subsequent LLMs can be compared. The\ndataset and evaluation code are available at\nhttps://github.com/camlsys/aireg-bench.",
+  "authors": [
+    "Bill Marino",
+    "Rosco Hunter",
+    "Zubair Jamali",
+    "Marinos Emmanouil Kalpakos",
+    "Mudra Kashyap",
+    "Isaiah Hinton",
+    "Alexa Hanson",
+    "Maahum Nazir",
+    "Christoph Schnabl",
+    "Felix Steffek",
+    "Hongkai Wen",
+    "Nicholas D. Lane"
+  ],
+  "published": "2025-10-01T21:33:33Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01474v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "legal_ai",
+  "tldr_zh": "AIReg-Bench是首个用于评估大语言模型在AI法规合规性判断能力的基准数据集，专注于欧盟AI法案。通过LLM生成技术文档片段并由法律专家标注违规情况，为开发基于LLM的合规评估工具提供基准测试框架。",
+  "order": 147,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01474v1"
+}

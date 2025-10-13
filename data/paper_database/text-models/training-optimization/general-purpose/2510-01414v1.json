@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01414v1",
+  "title": "Risk Phase Transitions in Spiked Regression: Alignment Driven Benign and\n  Catastrophic Overfitting",
+  "summary": "This paper analyzes the generalization error of minimum-norm interpolating\nsolutions in linear regression using spiked covariance data models. The paper\ncharacterizes how varying spike strengths and target-spike alignments can\naffect risk, especially in overparameterized settings. The study presents an\nexact expression for the generalization error, leading to a comprehensive\nclassification of benign, tempered, and catastrophic overfitting regimes based\non spike strength, the aspect ratio $c=d/n$ (particularly as $c \\to \\infty$),\nand target alignment. Notably, in well-specified aligned problems, increasing\nspike strength can surprisingly induce catastrophic overfitting before\nachieving benign overfitting. The paper also reveals that target-spike\nalignment is not always advantageous, identifying specific, sometimes\ncounterintuitive, conditions for its benefit or detriment. Alignment with the\nspike being detrimental is empirically demonstrated to persist in nonlinear\nmodels.",
+  "authors": [
+    "Jiping Li",
+    "Rishi Sonthalia"
+  ],
+  "published": "2025-10-01T19:51:47Z",
+  "primary_category": "stat.ML",
+  "arxiv_url": "https://arxiv.org/abs/2510.01414v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究尖峰协方差数据模型中线性回归的最小范数插值解的泛化误差，揭示了尖峰强度、目标-尖峰对齐与过参数化设置下风险的相互作用。研究提出了泛化误差的精确表达式，并根据尖峰强度、纵横比和目标对齐对良性、温和和灾难性过拟合机制进行了全面分类。研究发现，在特定条件下增加尖峰强度可能意外引发灾难性过拟合，且目标-尖峰对齐并非总是有利，这些现象在非线性模型中同样存在。",
+  "order": 159,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01414v1"
+}

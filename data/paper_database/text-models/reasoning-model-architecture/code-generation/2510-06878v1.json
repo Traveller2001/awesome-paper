@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06878v1",
+  "title": "TGPR: Tree-Guided Policy Refinement for Robust Self-Debugging of LLMs",
+  "summary": "Iterative refinement has been a promising paradigm to enable large language\nmodels (LLMs) to resolve difficult reasoning and problem-solving tasks. One of\nthe key challenges, however, is how to effectively search through the enormous\nsearch space of possible refinements. Existing methods typically fall back on\npredefined heuristics, which are troubled by the exploration-exploitation\ndilemma and cannot adapt based on past refinement outcomes. We introduce\nTree-Guided Policy Refinement (TGPR), a novel framework that combines GRPO with\na Thompson-Sampling-based tree search. TGPR explores both failed and successful\nrefinement paths actively, with denser training trajectories and more adaptive\npolicies. On HumanEval, MBPP, and APPS benchmarks, our method achieves up to\n+4.2 percentage points absolute improvement in pass@1 (on MBPP) and up to\n+12.51 percentage points absolute improvement in pass@10 (on APPS) compared to\na competitive GRPO baseline. Apart from debugging code, TGPR focuses on a\nprincipled approach to combining learned policies with structured search\nmethods, offering a general framework for enhancing iterative refinement and\nstateful reasoning in LLMs.",
+  "authors": [
+    "Daria Ozerova",
+    "Ekaterina Trofimova"
+  ],
+  "published": "2025-10-08T10:47:05Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06878v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文提出TGPR框架，结合GRPO与汤普森采样树搜索，通过主动探索失败与成功路径来优化大语言模型的自我调试能力。在代码生成基准测试中显著提升性能，为迭代优化提供结构化搜索方法。",
+  "order": 13,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06878v1"
+}

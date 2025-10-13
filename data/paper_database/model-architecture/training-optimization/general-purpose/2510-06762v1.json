@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06762v1",
+  "title": "Function regression using the forward forward training and inferring\n  paradigm",
+  "summary": "Function regression/approximation is a fundamental application of machine\nlearning. Neural networks (NNs) can be easily trained for function regression\nusing a sufficient number of neurons and epochs. The forward-forward learning\nalgorithm is a novel approach for training neural networks without\nbackpropagation, and is well suited for implementation in neuromorphic\ncomputing and physical analogs for neural networks. To the best of the authors'\nknowledge, the Forward Forward paradigm of training and inferencing NNs is\ncurrently only restricted to classification tasks. This paper introduces a new\nmethodology for approximating functions (function regression) using the\nForward-Forward algorithm. Furthermore, the paper evaluates the developed\nmethodology on univariate and multivariate functions, and provides preliminary\nstudies of extending the proposed Forward-Forward regression to Kolmogorov\nArnold Networks, and Deep Physical Neural Networks.",
+  "authors": [
+    "Shivam Padmani",
+    "Akshay Joshi"
+  ],
+  "published": "2025-10-08T08:41:14Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06762v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种基于前向-前向学习算法的函数回归新方法，突破了该算法此前仅用于分类任务的限制。研究在单变量和多变量函数上验证了该方法的有效性，并初步探索了将其扩展至Kolmogorov Arnold网络和深度物理神经网络的应用前景。",
+  "order": 214,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06762v1"
+}

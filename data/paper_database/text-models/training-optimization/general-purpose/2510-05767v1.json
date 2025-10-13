@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.05767v1",
+  "title": "Diversity Is All You Need for Contrastive Learning: Spectral Bounds on\n  Gradient Magnitudes",
+  "summary": "We derive non-asymptotic spectral bands that bound the squared InfoNCE\ngradient norm via alignment, temperature, and batch spectrum, recovering the\n\\(1/\\tau^{2}\\) law and closely tracking batch-mean gradients on synthetic data\nand ImageNet. Using effective rank \\(R_{\\mathrm{eff}}\\) as an anisotropy proxy,\nwe design spectrum-aware batch selection, including a fast greedy builder. On\nImageNet-100, Greedy-64 cuts time-to-67.5\\% top-1 by 15\\% vs.\\ random (24\\%\nvs.\\ Pool--P3) at equal accuracy; CIFAR-10 shows similar gains. In-batch\nwhitening promotes isotropy and reduces 50-step gradient variance by\n\\(1.37\\times\\), matching our theoretical upper bound.",
+  "authors": [
+    "Peter Ochieng"
+  ],
+  "published": "2025-10-07T10:35:58Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05767v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出基于谱分析的对比学习理论框架，推导出InfoNCE梯度范数的非渐近谱界，揭示了温度参数和批次数据谱结构对训练的影响。通过设计谱感知批次选择算法和批内白化技术，在ImageNet和CIFAR-10上显著提升训练效率，其中Greedy-64算法将达到67.5% top-1准确率的时间缩短15%，梯度方差降低1.37倍。",
+  "order": 39,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05767v1"
+}

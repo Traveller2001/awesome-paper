@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06632v1",
+  "title": "Chem-NMF: Multi-layer $α$-divergence Non-Negative Matrix\n  Factorization for Cardiorespiratory Disease Clustering, with Improved\n  Convergence Inspired by Chemical Catalysts and Rigorous Asymptotic Analysis",
+  "summary": "Non-Negative Matrix Factorization (NMF) is an unsupervised learning method\noffering low-rank representations across various domains such as audio\nprocessing, biomedical signal analysis, and image recognition. The\nincorporation of $\\alpha$-divergence in NMF formulations enhances flexibility\nin optimization, yet extending these methods to multi-layer architectures\npresents challenges in ensuring convergence. To address this, we introduce a\nnovel approach inspired by the Boltzmann probability of the energy barriers in\nchemical reactions to theoretically perform convergence analysis. We introduce\na novel method, called Chem-NMF, with a bounding factor which stabilizes\nconvergence. To our knowledge, this is the first study to apply a physical\nchemistry perspective to rigorously analyze the convergence behaviour of the\nNMF algorithm. We start from mathematically proven asymptotic convergence\nresults and then show how they apply to real data. Experimental results\ndemonstrate that the proposed algorithm improves clustering accuracy by 5.6%\n$\\pm$ 2.7% on biomedical signals and 11.1% $\\pm$ 7.2% on face images (mean\n$\\pm$ std).",
+  "authors": [
+    "Yasaman Torabi",
+    "Shahram Shirani",
+    "James P. Reilly"
+  ],
+  "published": "2025-10-08T04:31:10Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06632v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出Chem-NMF方法，受化学反应中能量壁垒的玻尔兹曼概率启发，通过引入边界因子稳定多层α散度非负矩阵分解的收敛性。理论分析证明其渐近收敛性，在生物医学信号和面部图像聚类任务中分别提升准确率5.6%±2.7%和11.1%±7.2%。",
+  "order": 230,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06632v1"
+}

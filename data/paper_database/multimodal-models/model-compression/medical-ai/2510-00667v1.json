@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00667v1",
+  "title": "Beyond one-hot encoding? Journey into compact encoding for large\n  multi-class segmentation",
+  "summary": "This work presents novel methods to reduce computational and memory\nrequirements for medical image segmentation with a large number of classes. We\ncuriously observe challenges in maintaining state-of-the-art segmentation\nperformance with all of the explored options. Standard learning-based methods\ntypically employ one-hot encoding of class labels. The computational complexity\nand memory requirements thus increase linearly with the number of classes. We\npropose a family of binary encoding approaches instead of one-hot encoding to\nreduce the computational complexity and memory requirements to logarithmic in\nthe number of classes. In addition to vanilla binary encoding, we investigate\nthe effects of error-correcting output codes (ECOCs), class weighting,\nhard/soft decoding, class-to-codeword assignment, and label embedding trees. We\napply the methods to the use case of whole brain parcellation with 108 classes\nbased on 3D MRI images. While binary encodings have proven efficient in\nso-called extreme classification problems in computer vision, we faced\nchallenges in reaching state-of-the-art segmentation quality with binary\nencodings. Compared to one-hot encoding (Dice Similarity Coefficient (DSC) =\n82.4 (2.8)), we report reduced segmentation performance with the binary\nsegmentation approaches, achieving DSCs in the range from 39.3 to 73.8.\nInformative negative results all too often go unpublished. We hope that this\nwork inspires future research of compact encoding strategies for large\nmulti-class segmentation tasks.",
+  "authors": [
+    "Aaron Kujawa",
+    "Thomas Booth",
+    "Tom Vercauteren"
+  ],
+  "published": "2025-10-01T08:53:39Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00667v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究探索了用于大规模多类医学图像分割的紧凑编码方法，提出用二进制编码替代传统one-hot编码以降低计算和内存需求。在108类全脑分割任务中，虽然二进制编码将复杂度从线性降至对数级，但分割性能（DSC 39.3-73.8）未能达到one-hot编码水平（DSC 82.4），为未来紧凑编码研究提供了重要的负面结果参考。",
+  "order": 642,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00667v1"
+}

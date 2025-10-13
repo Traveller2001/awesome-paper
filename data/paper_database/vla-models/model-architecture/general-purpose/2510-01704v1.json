@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01704v1",
+  "title": "Holistic Order Prediction in Natural Scenes",
+  "summary": "Even in controlled settings, understanding instance-wise geometries is a\nchallenging task for a wide range of visual models. Although specialized\nsystems exist, modern arts rely on expensive input formats (category labels,\nbinary segmentation masks) and inference costs (a quadratic amount of forward\npasses). We mitigate these limitations by proposing InstaFormer, a network\ncapable of holistic order prediction. That is, solely given an input RGB image,\nInstaFormer returns the full occlusion and depth orderings for all the\ninstances in the scene in a single forward pass. At its core, InstaFormer\nrelies on interactions between object queries and latent mask descriptors that\nsemantically represent the same objects while carrying complementary\ninformation. We comprehensively benchmark and ablate our approach to highlight\nits effectiveness. Our code and models are open-source and available at this\nURL: https://github.com/SNU-VGILab/InstaOrder.",
+  "authors": [
+    "Pierre Musacchio",
+    "Hyunmin Lee",
+    "Jaesik Park"
+  ],
+  "published": "2025-10-02T06:24:12Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01704v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出InstaFormer网络，通过单次前向传播从RGB图像中预测场景中所有实例的完整遮挡和深度顺序，无需昂贵输入格式，结合对象查询与潜在掩码描述符的交互实现高效几何理解。",
+  "order": 549,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01704v1"
+}

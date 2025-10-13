@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02272v1",
+  "title": "Parallel Scaling Law: Unveiling Reasoning Generalization through A\n  Cross-Linguistic Perspective",
+  "summary": "Recent advancements in Reinforcement Post-Training (RPT) have significantly\nenhanced the capabilities of Large Reasoning Models (LRMs), sparking increased\ninterest in the generalization of RL-based reasoning. While existing work has\nprimarily focused on investigating its generalization across tasks or\nmodalities, this study proposes a novel cross-linguistic perspective to\ninvestigate reasoning generalization. This raises a crucial question:\n$\\textit{Does the reasoning capability achieved from English RPT effectively\ntransfer to other languages?}$ We address this by systematically evaluating\nEnglish-centric LRMs on multilingual reasoning benchmarks and introducing a\nmetric to quantify cross-lingual transferability. Our findings reveal that\ncross-lingual transferability varies significantly across initial model, target\nlanguage, and training paradigm. Through interventional studies, we find that\nmodels with stronger initial English capabilities tend to over-rely on\nEnglish-specific patterns, leading to diminished cross-lingual generalization.\nTo address this, we conduct a thorough parallel training study. Experimental\nresults yield three key findings: $\\textbf{First-Parallel Leap}$, a substantial\nleap in performance when transitioning from monolingual to just a single\nparallel language, and a predictable $\\textbf{Parallel Scaling Law}$, revealing\nthat cross-lingual reasoning transfer follows a power-law with the number of\ntraining parallel languages. Moreover, we identify the discrepancy between\nactual monolingual performance and the power-law prediction as\n$\\textbf{Monolingual Generalization Gap}$, indicating that English-centric LRMs\nfail to fully generalize across languages. Our study challenges the assumption\nthat LRM reasoning mirrors human cognition, providing critical insights for the\ndevelopment of more language-agnostic LRMs.",
+  "authors": [
+    "Wen Yang",
+    "Junhong Wu",
+    "Chong Li",
+    "Chengqing Zong",
+    "Jiajun Zhang"
+  ],
+  "published": "2025-10-02T17:49:49Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02272v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究从跨语言视角探讨大型推理模型的泛化能力，发现英语训练的模型在其他语言上存在泛化不足。通过平行训练实验，揭示了'平行跃迁'现象和'平行缩放定律'，表明跨语言推理能力随训练语言数量呈幂律增长，并识别出'单语泛化差距'，挑战了LRM推理类似人类认知的假设。",
+  "order": 334,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02272v1"
+}

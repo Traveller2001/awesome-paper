@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.02050v1",
+  "title": "Multidata Causal Discovery for Statistical Hurricane Intensity\n  Forecasting",
+  "summary": "Improving statistical forecasts of Atlantic hurricane intensity is limited by\ncomplex nonlinear interactions and difficulty in identifying relevant\npredictors. Conventional methods prioritize correlation or fit, often\noverlooking confounding variables and limiting generalizability to unseen\ntropical storms. To address this, we leverage a multidata causal discovery\nframework with a replicated dataset based on Statistical Hurricane Intensity\nPrediction Scheme (SHIPS) using ERA5 meteorological reanalysis. We conduct\nmultiple experiments to identify and select predictors causally linked to\nhurricane intensity changes. We train multiple linear regression models to\ncompare causal feature selection with no selection, correlation, and random\nforest feature importance across five forecast lead times from 1 to 5 days (24\nto 120 hours). Causal feature selection consistently outperforms on unseen test\ncases, especially for lead times shorter than 3 days. The causal features\nprimarily include vertical shear, mid-tropospheric potential vorticity and\nsurface moisture conditions, which are physically significant yet often\nunderutilized in hurricane intensity predictions. Further, we build an extended\npredictor set (SHIPS+) by adding selected features to the standard SHIPS\npredictors. SHIPS+ yields increased short-term predictive skill at lead times\nof 24, 48, and 72 hours. Adding nonlinearity using multilayer perceptron\nfurther extends skill to longer lead times, despite our framework being purely\nregional and not requiring global forecast data. Operational SHIPS tests\nconfirm that three of the six added causally discovered predictors improve\nforecasts, with the largest gains at longer lead times. Our results demonstrate\nthat causal discovery improves hurricane intensity prediction and pave the way\ntoward more empirical forecasts.",
+  "authors": [
+    "Saranya Ganesh S.",
+    "Frederick Iat-Hin Tam",
+    "Milton S. Gomez",
+    "Marie McGraw",
+    "Mark DeMaria",
+    "Kate Musgrave",
+    "Jakob Runge",
+    "Tom Beucler"
+  ],
+  "published": "2025-10-02T14:23:51Z",
+  "primary_category": "stat.AP",
+  "arxiv_url": "https://arxiv.org/abs/2510.02050v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出一种多数据因果发现框架，用于改进大西洋飓风强度统计预测。通过因果特征选择方法识别与飓风强度变化因果相关的预测因子（如垂直风切变、中层位势涡度和地表湿度），构建扩展预测因子集SHIPS+。实验表明，因果特征选择在短期预测（1-3天）中表现最优，线性回归和多层感知器模型均证实其能提升预测技能，且无需全球预报数据。",
+  "order": 757,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02050v1"
+}

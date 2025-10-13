@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07141v1",
+  "title": "Comparing human and language models sentence processing difficulties on\n  complex structures",
+  "summary": "Large language models (LLMs) that fluently converse with humans are a reality\n- but do LLMs experience human-like processing difficulties? We systematically\ncompare human and LLM sentence comprehension across seven challenging\nlinguistic structures. We collect sentence comprehension data from humans and\nfive families of state-of-the-art LLMs, varying in size and training procedure\nin a unified experimental framework. Our results show LLMs overall struggle on\nthe target structures, but especially on garden path (GP) sentences. Indeed,\nwhile the strongest models achieve near perfect accuracy on non-GP structures\n(93.7% for GPT-5), they struggle on GP structures (46.8% for GPT-5).\nAdditionally, when ranking structures based on average performance, rank\ncorrelation between humans and models increases with parameter count. For each\ntarget structure, we also collect data for their matched baseline without the\ndifficult structure. Comparing performance on the target vs. baseline\nsentences, the performance gap observed in humans holds for LLMs, with two\nexceptions: for models that are too weak performance is uniformly low across\nboth sentence types, and for models that are too strong the performance is\nuniformly high. Together, these reveal convergence and divergence in human and\nLLM sentence comprehension, offering new insights into the similarity of humans\nand LLMs.",
+  "authors": [
+    "Samuel Joseph Amouyal",
+    "Aya Meltzer-Asscher",
+    "Jonathan Berant"
+  ],
+  "published": "2025-10-08T15:42:49Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07141v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究系统比较了人类与大型语言模型在七种复杂句子结构上的理解能力。结果显示，语言模型在花园路径句等复杂结构上表现较差，与人类处理困难模式相似。模型参数量越大，与人类处理难度的相关性越高，揭示了二者在句子理解上的异同点。",
+  "order": 48,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07141v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01995v1",
+  "title": "LLM-Based Multi-Task Bangla Hate Speech Detection: Type, Severity, and\n  Target",
+  "summary": "Online social media platforms are central to everyday communication and\ninformation seeking. While these platforms serve positive purposes, they also\nprovide fertile ground for the spread of hate speech, offensive language, and\nbullying content targeting individuals, organizations, and communities. Such\ncontent undermines safety, participation, and equity online. Reliable detection\nsystems are therefore needed, especially for low-resource languages where\nmoderation tools are limited. In Bangla, prior work has contributed resources\nand models, but most are single-task (e.g., binary hate/offense) with limited\ncoverage of multi-facet signals (type, severity, target). We address these gaps\nby introducing the first multi-task Bangla hate-speech dataset,\nBanglaMultiHate, one of the largest manually annotated corpus to date. Building\non this resource, we conduct a comprehensive, controlled comparison spanning\nclassical baselines, monolingual pretrained models, and LLMs under zero-shot\nprompting and LoRA fine-tuning. Our experiments assess LLM adaptability in a\nlow-resource setting and reveal a consistent trend: although LoRA-tuned LLMs\nare competitive with BanglaBERT, culturally and linguistically grounded\npretraining remains critical for robust performance. Together, our dataset and\nfindings establish a stronger benchmark for developing culturally aligned\nmoderation tools in low-resource contexts. For reproducibility, we will release\nthe dataset and all related scripts.",
+  "authors": [
+    "Md Arid Hasan",
+    "Firoj Alam",
+    "Md Fahad Hossain",
+    "Usman Naseem",
+    "Syed Ishtiaque Ahmed"
+  ],
+  "published": "2025-10-02T13:17:11Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01995v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究针对孟加拉语提出首个多任务仇恨言论检测数据集BanglaMultiHate，系统比较了传统基线、单语预训练模型和LLM在零样本提示与LoRA微调下的表现。研究发现，尽管LoRA调优的LLM与BanglaBERT性能相当，但基于文化语言背景的预训练对低资源环境下的稳健检测仍至关重要，为开发文化适配的内容审核工具建立了新基准。",
+  "order": 356,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01995v1"
+}

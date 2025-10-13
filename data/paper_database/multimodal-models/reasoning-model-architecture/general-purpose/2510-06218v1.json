@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2510.06218v1",
+  "title": "EgoNight: Towards Egocentric Vision Understanding at Night with a\n  Challenging Benchmark",
+  "summary": "Most existing benchmarks for egocentric vision understanding focus primarily\non daytime scenarios, overlooking the low-light conditions that are inevitable\nin real-world applications. To investigate this gap, we present EgoNight, the\nfirst comprehensive benchmark for nighttime egocentric vision, with visual\nquestion answering (VQA) as the core task. A key feature of EgoNight is the\nintroduction of day-night aligned videos, which enhance night annotation\nquality using the daytime data and reveal clear performance gaps between\nlighting conditions. To achieve this, we collect both synthetic videos rendered\nby Blender and real-world recordings, ensuring that scenes and actions are\nvisually and temporally aligned. Leveraging these paired videos, we construct\nEgoNight-VQA, supported by a novel day-augmented night auto-labeling engine and\nrefinement through extensive human verification. Each QA pair is double-checked\nby annotators for reliability. In total, EgoNight-VQA contains 3658 QA pairs\nacross 90 videos, spanning 12 diverse QA types, with more than 300 hours of\nhuman work. Evaluations of state-of-the-art multimodal large language models\n(MLLMs) reveal substantial performance drops when transferring from day to\nnight, underscoring the challenges of reasoning under low-light conditions.\nBeyond VQA, EgoNight also introduces two auxiliary tasks, day-night\ncorrespondence retrieval and egocentric depth estimation at night, that further\nexplore the boundaries of existing models. We believe EgoNight-VQA provides a\nstrong foundation for advancing application-driven egocentric vision research\nand for developing models that generalize across illumination domains. All the\ndata and code will be made available upon acceptance.",
+  "authors": [
+    "Deheng Zhang",
+    "Yuqian Fu",
+    "Runyi Yang",
+    "Yang Miao",
+    "Tianwen Qian",
+    "Xu Zheng",
+    "Guolei Sun",
+    "Ajad Chhatkuli",
+    "Xuanjing Huang",
+    "Yu-Gang Jiang",
+    "Luc Van Gool",
+    "Danda Pani Paudel"
+  ],
+  "published": "2025-10-07T17:59:47Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06218v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出EgoNight——首个夜间第一人称视觉理解基准，核心任务为视觉问答(VQA)。通过昼夜对齐视频数据(含合成与真实录制)，构建包含3658个QA对的数据集，并引入昼夜对应检索与深度估计两个辅助任务。实验显示现有多模态大模型在夜间条件下性能显著下降，凸显低光照推理的挑战性。",
+  "order": 58,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06218v1"
+}

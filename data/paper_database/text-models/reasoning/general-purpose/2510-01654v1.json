@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01654v1",
+  "title": "SoK: Measuring What Matters for Closed-Loop Security Agents",
+  "summary": "Cybersecurity is a relentless arms race, with AI driven offensive systems\nevolving faster than traditional defenses can adapt. Research and tooling\nremain fragmented across isolated defensive functions, creating blind spots\nthat adversaries exploit. Autonomous agents capable of integrating, exploit\nconfirmation, remediation, and validation into a single closed loop offer\npromise, but the field lacks three essentials: a framework defining the agentic\ncapabilities of security systems across security life cycle, a principled\nmethod for evaluating closed loop agents, and a benchmark for measuring their\nperformance in practice. We introduce CLASP: the Closed-Loop Autonomous\nSecurity Performance framework which aligns the security lifecycle\n(reconnaissance, exploitation, root cause analysis, patch synthesis,\nvalidation) with core agentic capabilities (planning, tool use, memory,\nreasoning, reflection & perception) providing a common vocabulary and rubric\nfor assessing agentic capabilities in security tasks. By applying CLASP to 21\nrepresentative works, we map where systems demonstrate strengths, and where\ncapability gaps persist. We then define the Closed-Loop Capability (CLC) Score,\na composite metric quantifying both degree of loop closure and operational\neffectiveness, and outline the requirements for a closed loop benchmark.\nTogether, CLASP and the CLC Score, provide the vocabulary, diagnostics, and\nmeasurements needed to advance both function level performance and measure\nclosed loop security agents.",
+  "authors": [
+    "Mudita Khurana",
+    "Raunak Jain"
+  ],
+  "published": "2025-10-02T04:20:35Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01654v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CLASP框架，将安全生命周期与智能体核心能力对齐，建立评估闭环安全代理的统一标准。通过分析21个代表性工作识别能力差距，定义CLC评分量化闭环程度与操作效能，为推进安全代理性能提供词汇表、诊断工具和测量方法。",
+  "order": 380,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01654v1"
+}

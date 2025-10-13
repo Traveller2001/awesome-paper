@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05494v1",
+  "title": "Fundamental Limits of Crystalline Equivariant Graph Neural Networks: A\n  Circuit Complexity Perspective",
+  "summary": "Graph neural networks (GNNs) have become a core paradigm for learning on\nrelational data. In materials science, equivariant GNNs (EGNNs) have emerged as\na compelling backbone for crystalline-structure prediction, owing to their\nability to respect Euclidean symmetries and periodic boundary conditions.\nDespite strong empirical performance, their expressive power in periodic,\nsymmetry-constrained settings remains poorly understood. This work\ncharacterizes the intrinsic computational and expressive limits of EGNNs for\ncrystalline-structure prediction through a circuit-complexity lens. We analyze\nthe computations carried out by EGNN layers acting on node features, atomic\ncoordinates, and lattice matrices, and prove that, under polynomial precision,\nembedding width $d=O(n)$ for $n$ nodes, $O(1)$ layers, and $O(1)$-depth,\n$O(n)$-width MLP instantiations of the message/update/readout maps, these\nmodels admit a simulation by a uniform $\\mathsf{TC}^0$ threshold-circuit family\nof polynomial size (with an explicit constant-depth bound). Situating EGNNs\nwithin $\\mathsf{TC}^0$ provides a concrete ceiling on the decision and\nprediction problems solvable by such architectures under realistic resource\nconstraints and clarifies which architectural modifications (e.g., increased\ndepth, richer geometric primitives, or wider layers) are required to transcend\nthis regime. The analysis complements Weisfeiler-Lehman style results that do\nnot directly transfer to periodic crystals, and offers a complexity-theoretic\nfoundation for symmetry-aware graph learning on crystalline systems.",
+  "authors": [
+    "Yang Cao",
+    "Zhao Song",
+    "Jiahao Zhang",
+    "Jiale Zhao"
+  ],
+  "published": "2025-10-07T01:24:15Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05494v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文从电路复杂度角度分析了晶体等变图神经网络(EGNN)的表达能力极限，证明在多项式精度和特定参数约束下，EGNN可被恒定深度的阈值电路族模拟，属于TC^0复杂度类。研究为周期性晶体系统的对称感知图学习提供了复杂性理论基础，并指出了突破现有计算能力限制所需的架构改进方向。",
+  "order": 150,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05494v1"
+}

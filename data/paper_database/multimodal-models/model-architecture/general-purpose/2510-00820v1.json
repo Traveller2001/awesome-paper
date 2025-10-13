@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00820v1",
+  "title": "NSARM: Next-Scale Autoregressive Modeling for Robust Real-World Image\n  Super-Resolution",
+  "summary": "Most recent real-world image super-resolution (Real-ISR) methods employ\npre-trained text-to-image (T2I) diffusion models to synthesize the high-quality\nimage either from random Gaussian noise, which yields realistic results but is\nslow due to iterative denoising, or directly from the input low-quality image,\nwhich is efficient but at the price of lower output quality. These approaches\ntrain ControlNet or LoRA modules while keeping the pre-trained model fixed,\nwhich often introduces over-enhanced artifacts and hallucinations, suffering\nfrom the robustness to inputs of varying degradations. Recent visual\nautoregressive (AR) models, such as pre-trained Infinity, can provide strong\nT2I generation capabilities while offering superior efficiency by using the\nbitwise next-scale prediction strategy. Building upon next-scale prediction, we\nintroduce a robust Real-ISR framework, namely Next-Scale Autoregressive\nModeling (NSARM). Specifically, we train NSARM in two stages: a transformation\nnetwork is first trained to map the input low-quality image to preliminary\nscales, followed by an end-to-end full-model fine-tuning. Such a comprehensive\nfine-tuning enhances the robustness of NSARM in Real-ISR tasks without\ncompromising its generative capability. Extensive quantitative and qualitative\nevaluations demonstrate that as a pure AR model, NSARM achieves superior visual\nresults over existing Real-ISR methods while maintaining a fast inference\nspeed. Most importantly, it demonstrates much higher robustness to the quality\nof input images, showing stronger generalization performance. Project page:\nhttps://github.com/Xiangtaokong/NSARM",
+  "authors": [
+    "Xiangtao Kong",
+    "Rongyuan Wu",
+    "Shuaizheng Liu",
+    "Lingchen Sun",
+    "Lei Zhang"
+  ],
+  "published": "2025-10-01T12:29:58Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00820v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "NSARM提出了一种基于自回归模型的真实图像超分辨率框架，采用两阶段训练策略：先训练转换网络将低质量图像映射到初步尺度，再进行端到端全模型微调。相比现有方法，NSARM在保持快速推理的同时，实现了更优的视觉效果和对输入图像质量更高的鲁棒性。",
+  "order": 623,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00820v1"
+}

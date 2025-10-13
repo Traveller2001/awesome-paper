@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01483v1",
+  "title": "VL-KnG: Visual Scene Understanding for Navigation Goal Identification\n  using Spatiotemporal Knowledge Graphs",
+  "summary": "Vision-language models (VLMs) have shown potential for robot navigation but\nencounter fundamental limitations: they lack persistent scene memory, offer\nlimited spatial reasoning, and do not scale effectively with video duration for\nreal-time application. We present VL-KnG, a Visual Scene Understanding system\nthat tackles these challenges using spatiotemporal knowledge graph construction\nand computationally efficient query processing for navigation goal\nidentification. Our approach processes video sequences in chunks utilizing\nmodern VLMs, creates persistent knowledge graphs that maintain object identity\nover time, and enables explainable spatial reasoning through queryable graph\nstructures. We also introduce WalkieKnowledge, a new benchmark with about 200\nmanually annotated questions across 8 diverse trajectories spanning\napproximately 100 minutes of video data, enabling fair comparison between\nstructured approaches and general-purpose VLMs. Real-world deployment on a\ndifferential drive robot demonstrates practical applicability, with our method\nachieving 77.27% success rate and 76.92% answer accuracy, matching Gemini 2.5\nPro performance while providing explainable reasoning supported by the\nknowledge graph, computational efficiency for real-time deployment across\ndifferent tasks, such as localization, navigation and planning. Code and\ndataset will be released after acceptance.",
+  "authors": [
+    "Mohamad Al Mdfaa",
+    "Svetlana Lukina",
+    "Timur Akhtyamov",
+    "Arthur Nigmatzyanov",
+    "Dmitrii Nalberskii",
+    "Sergey Zagoruyko",
+    "Gonzalo Ferrer"
+  ],
+  "published": "2025-10-01T21:53:44Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.01483v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VL-KnG提出一种基于时空知识图谱的视觉场景理解系统，用于导航目标识别。该系统通过分块处理视频序列构建持久知识图谱，保持对象身份一致性，支持可解释的空间推理。在真实机器人部署中达到77.27%成功率，性能媲美Gemini 2.5 Pro，同时具备实时计算效率和可解释性优势。",
+  "order": 144,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01483v1"
+}

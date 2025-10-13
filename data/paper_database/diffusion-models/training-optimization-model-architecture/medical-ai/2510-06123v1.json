@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06123v1",
+  "title": "Towards Data-Efficient Medical Imaging: A Generative and Semi-Supervised\n  Framework",
+  "summary": "Deep learning in medical imaging is often limited by scarce and imbalanced\nannotated data. We present SSGNet, a unified framework that combines class\nspecific generative modeling with iterative semisupervised pseudo labeling to\nenhance both classification and segmentation. Rather than functioning as a\nstandalone model, SSGNet augments existing baselines by expanding training data\nwith StyleGAN3 generated images and refining labels through iterative pseudo\nlabeling. Experiments across multiple medical imaging benchmarks demonstrate\nconsistent gains in classification and segmentation performance, while Frechet\nInception Distance analysis confirms the high quality of generated samples.\nThese results highlight SSGNet as a practical strategy to mitigate annotation\nbottlenecks and improve robustness in medical image analysis.",
+  "authors": [
+    "Mosong Ma",
+    "Tania Stathaki",
+    "Michalis Lazarou"
+  ],
+  "published": "2025-10-07T17:03:05Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06123v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出SSGNet框架，通过结合类别特定生成建模与迭代半监督伪标注技术，解决医学影像中标注数据稀缺和类别不平衡问题。该框架利用StyleGAN3生成图像扩充训练数据，并通过迭代伪标注优化标签质量，在多个医学影像基准测试中显著提升了分类和分割性能，为医学图像分析提供了一种实用的数据效率提升方案。",
+  "order": 66,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06123v1"
+}

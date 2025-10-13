@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.05530v1",
+  "title": "LATTA: Langevin-Anchored Test-Time Adaptation for Enhanced Robustness\n  and Stability",
+  "summary": "Test-time adaptation (TTA) aims to adapt a pretrained model to distribution\nshifts using only unlabeled test data. While promising, existing methods like\nTent suffer from instability and can catastrophically forget the source\nknowledge, especially with small batch sizes or challenging corruptions. We\nargue that this arises from overly deterministic updates on a complex loss\nsurface. In this paper, we introduce Langevin-Anchored Test-Time Adaptation\n(LATTA), a novel approach that regularizes adaptation through two key\nmechanisms: (1) a noisy weight perturbation inspired by Stochastic Gradient\nLangevin Dynamics (SGLD) to explore the local parameter space and escape poor\nlocal minima, and (2) a stable weight anchor that prevents the model from\ndiverging from its robust source pre-training. This combination allows LATTA to\nadapt effectively without sacrificing stability. Unlike prior Bayesian TTA\nmethods, LATTA requires no architectural changes or expensive Monte Carlo\npasses. We conduct extensive experiments on standard benchmarks, including\nRotated-MNIST and the more challenging CIFAR-10-C. Our results demonstrate that\nLATTA significantly outperforms existing methods, including Tent, CoTTA, and\nEATA, setting a new state of the art for self-supervised TTA by improving\naverage accuracy on CIFAR-10-C by over 2% while simultaneously reducing\nperformance variance.",
+  "authors": [
+    "Harshil Vejendla"
+  ],
+  "published": "2025-10-07T02:39:39Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05530v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LATTA方法，通过朗之万动力学噪声扰动和稳定权重锚点机制，解决测试时自适应中的不稳定性和灾难性遗忘问题。在CIFAR-10-C等基准测试中显著优于现有方法，准确率提升2%以上且性能更稳定。",
+  "order": 144,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05530v1"
+}

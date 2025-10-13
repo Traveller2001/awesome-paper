@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02253v1",
+  "title": "DragFlow: Unleashing DiT Priors with Region Based Supervision for Drag\n  Editing",
+  "summary": "Drag-based image editing has long suffered from distortions in the target\nregion, largely because the priors of earlier base models, Stable Diffusion,\nare insufficient to project optimized latents back onto the natural image\nmanifold. With the shift from UNet-based DDPMs to more scalable DiT with flow\nmatching (e.g., SD3.5, FLUX), generative priors have become significantly\nstronger, enabling advances across diverse editing tasks. However, drag-based\nediting has yet to benefit from these stronger priors. This work proposes the\nfirst framework to effectively harness FLUX's rich prior for drag-based\nediting, dubbed DragFlow, achieving substantial gains over baselines. We first\nshow that directly applying point-based drag editing to DiTs performs poorly:\nunlike the highly compressed features of UNets, DiT features are insufficiently\nstructured to provide reliable guidance for point-wise motion supervision. To\novercome this limitation, DragFlow introduces a region-based editing paradigm,\nwhere affine transformations enable richer and more consistent feature\nsupervision. Additionally, we integrate pretrained open-domain personalization\nadapters (e.g., IP-Adapter) to enhance subject consistency, while preserving\nbackground fidelity through gradient mask-based hard constraints. Multimodal\nlarge language models (MLLMs) are further employed to resolve task ambiguities.\nFor evaluation, we curate a novel Region-based Dragging benchmark (ReD Bench)\nfeaturing region-level dragging instructions. Extensive experiments on\nDragBench-DR and ReD Bench show that DragFlow surpasses both point-based and\nregion-based baselines, setting a new state-of-the-art in drag-based image\nediting. Code and datasets will be publicly available upon publication.",
+  "authors": [
+    "Zihan Zhou",
+    "Shilin Lu",
+    "Shuli Leng",
+    "Shaocong Zhang",
+    "Zhuming Lian",
+    "Xinlei Yu",
+    "Adams Wai-Kin Kong"
+  ],
+  "published": "2025-10-02T17:39:13Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02253v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "DragFlow是首个利用FLUX强大先验进行拖拽式图像编辑的框架，通过区域监督和仿射变换解决DiT特征结构化不足的问题，集成个性化适配器保持主体一致性，使用MLLM解决任务歧义，在多个基准测试中超越现有方法。",
+  "order": 709,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02253v1"
+}

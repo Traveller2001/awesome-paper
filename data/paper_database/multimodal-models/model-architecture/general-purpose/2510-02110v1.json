@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.02110v1",
+  "title": "SoundReactor: Frame-level Online Video-to-Audio Generation",
+  "summary": "Prevailing Video-to-Audio (V2A) generation models operate offline, assuming\nan entire video sequence or chunks of frames are available beforehand. This\ncritically limits their use in interactive applications such as live content\ncreation and emerging generative world models. To address this gap, we\nintroduce the novel task of frame-level online V2A generation, where a model\nautoregressively generates audio from video without access to future video\nframes. Furthermore, we propose SoundReactor, which, to the best of our\nknowledge, is the first simple yet effective framework explicitly tailored for\nthis task. Our design enforces end-to-end causality and targets low per-frame\nlatency with audio-visual synchronization. Our model's backbone is a\ndecoder-only causal transformer over continuous audio latents. For vision\nconditioning, it leverages grid (patch) features extracted from the smallest\nvariant of the DINOv2 vision encoder, which are aggregated into a single token\nper frame to maintain end-to-end causality and efficiency. The model is trained\nthrough a diffusion pre-training followed by consistency fine-tuning to\naccelerate the diffusion head decoding. On a benchmark of diverse gameplay\nvideos from AAA titles, our model successfully generates semantically and\ntemporally aligned, high-quality full-band stereo audio, validated by both\nobjective and human evaluations. Furthermore, our model achieves low per-frame\nwaveform-level latency (26.3ms with the head NFE=1, 31.5ms with NFE=4) on\n30FPS, 480p videos using a single H100. Demo samples are available at\nhttps://koichi-saito-sony.github.io/soundreactor/.",
+  "authors": [
+    "Koichi Saito",
+    "Julian Tanke",
+    "Christian Simon",
+    "Masato Ishii",
+    "Kazuki Shimada",
+    "Zachary Novack",
+    "Zhi Zhong",
+    "Akio Hayakawa",
+    "Takashi Shibuya",
+    "Yuki Mitsufuji"
+  ],
+  "published": "2025-10-02T15:18:00Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.02110v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "SoundReactor是首个帧级在线视频到音频生成框架，采用因果变换器架构，通过扩散预训练和一致性微调实现低延迟、高质量的实时音频生成，在游戏视频上验证了音视频同步效果。",
+  "order": 748,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02110v1"
+}

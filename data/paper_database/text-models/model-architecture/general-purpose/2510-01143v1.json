@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01143v1",
+  "title": "Generalized Parallel Scaling with Interdependent Generations",
+  "summary": "Parallel LLM inference scaling involves sampling a set of $N>1$ responses for\na single input prompt. However, these $N$ parallel responses tend to be\ngenerated independently from each other, partitioning compute resources and\nleaving potentially useful information in one generation untapped by others.\nThis is in contrast to response length scaling where past computation is used\nin all future steps. For higher quality responses and response sets, we propose\nBridge to generate interdependent responses in parallel by rethinking batched\nLLM hidden states as holistic tensors rather than independent slices. With only\na small amount (2.8%-5.1%) of new parameters, Bridge improves the relative mean\naccuracy gains from reinforcement learning with verifiable rewards by up to 50%\nand boosts consistency of correct responses. Trained once, Bridge scales to any\ngeneration width, all with greater performance than independent generations,\nunlocking a more general mode of parallel scaling that effectively leverages\ninformation between sequences, compatible with any post-generation aggregation\ntechnique.",
+  "authors": [
+    "Harry Dong",
+    "David Brandfonbrener",
+    "Eryk Helenowski",
+    "Yun He",
+    "Mrinal Kumar",
+    "Han Fang",
+    "Yuejie Chi",
+    "Karthik Abinav Sankararaman"
+  ],
+  "published": "2025-10-01T17:33:35Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01143v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Bridge方法，通过将批量LLM隐藏状态视为整体张量而非独立切片，实现并行生成相互依赖的响应。仅需少量新增参数(2.8%-5.1%)，即可提升强化学习验证奖励的相对平均准确率增益达50%，并增强正确响应的一致性。该方法一次训练即可适应任意生成宽度，性能优于独立生成，解锁了更通用的并行扩展模式。",
+  "order": 187,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01143v1"
+}

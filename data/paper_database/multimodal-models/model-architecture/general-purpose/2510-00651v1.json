@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00651v1",
+  "title": "FIN: Fast Inference Network for Map Segmentation",
+  "summary": "Multi-sensor fusion in autonomous vehicles is becoming more common to offer a\nmore robust alternative for several perception tasks. This need arises from the\nunique contribution of each sensor in collecting data: camera-radar fusion\noffers a cost-effective solution by combining rich semantic information from\ncameras with accurate distance measurements from radar, without incurring\nexcessive financial costs or overwhelming data processing requirements. Map\nsegmentation is a critical task for enabling effective vehicle behaviour in its\nenvironment, yet it continues to face significant challenges in achieving high\naccuracy and meeting real-time performance requirements. Therefore, this work\npresents a novel and efficient map segmentation architecture, using cameras and\nradars, in the \\acrfull{bev} space. Our model introduces a real-time map\nsegmentation architecture considering aspects such as high accuracy, per-class\nbalancing, and inference time. To accomplish this, we use an advanced loss set\ntogether with a new lightweight head to improve the perception results. Our\nresults show that, with these modifications, our approach achieves results\ncomparable to large models, reaching 53.5 mIoU, while also setting a new\nbenchmark for inference time, improving it by 260\\% over the strongest baseline\nmodels.",
+  "authors": [
+    "Ruan Bispo",
+    "Tim Brophy",
+    "Reenu Mohandas",
+    "Anthony Scanlan",
+    "Ciarán Eising"
+  ],
+  "published": "2025-10-01T08:29:59Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00651v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种用于自动驾驶地图分割的快速推理网络FIN，采用相机-雷达多传感器融合技术，在鸟瞰图空间实现实时高精度分割。通过先进的损失函数和轻量级头部设计，在保持53.5 mIoU高精度的同时，推理速度比基线模型提升260%。",
+  "order": 650,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00651v1"
+}

@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01989v1",
+  "title": "Exploring Database Normalization Effects on SQL Generation",
+  "summary": "Schema design, particularly normalization, is a critical yet often overlooked\nfactor in natural language to SQL (NL2SQL) systems. Most prior research\nevaluates models on fixed schemas, overlooking the influence of design on\nperformance. We present the first systematic study of schema normalization's\nimpact, evaluating eight leading large language models on synthetic and\nreal-world datasets with varied normalization levels. We construct controlled\nsynthetic datasets with formal normalization (1NF-3NF) and real academic paper\ndatasets with practical schemes. Our results show that denormalized schemas\noffer high accuracy on simple retrieval queries, even with cost-effective\nmodels in zero-shot settings. In contrast, normalized schemas (2NF/3NF)\nintroduce challenges such as errors in base table selection and join type\nprediction; however, these issues are substantially mitigated by providing\nfew-shot examples. For aggregation queries, normalized schemas yielded better\nperformance, mainly due to their robustness against the data duplication and\nNULL value issues that cause errors in denormalized schemas. These findings\nsuggest that the optimal schema design for NL2SQL applications depends on the\ntypes of queries to be supported. Our study demonstrates the importance of\nconsidering schema design when developing NL2SQL interfaces and integrating\nadaptive schema selection for real-world scenarios.",
+  "authors": [
+    "Ryosuke Kohita"
+  ],
+  "published": "2025-10-02T13:11:30Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01989v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "code_generation",
+  "tldr_zh": "本研究首次系统探讨了数据库规范化对自然语言转SQL生成的影响，评估了8个主流大语言模型在不同规范化程度数据集上的表现。研究发现：非规范化模式在简单检索查询中准确率高，而规范化模式（2NF/3NF）虽在基础表选择和连接类型预测上存在挑战，但通过少量示例可显著改善；对于聚合查询，规范化模式因避免数据冗余和NULL值问题表现更优。研究表明NL2SQL应用的最佳模式设计取决于查询类型，强调了实际场景中自适应模式选择的重要性。",
+  "order": 357,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01989v1"
+}

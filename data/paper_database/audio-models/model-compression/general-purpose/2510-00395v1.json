@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2510.00395v1",
+  "title": "SAGE-Music: Low-Latency Symbolic Music Generation via\n  Attribute-Specialized Key-Value Head Sharing",
+  "summary": "Low-latency symbolic music generation is essential for real-time\nimprovisation and human-AI co-creation. Existing transformer-based models,\nhowever, face a trade-off between inference speed and musical quality.\nTraditional acceleration techniques such as embedding pooling significantly\ndegrade quality, while recently proposed Byte Pair Encoding (BPE) methods -\nthough effective on single-track piano data - suffer large performance drops in\nmulti-track settings, as revealed by our analysis. We propose\nAttribute-Specialized Key-Value Head Sharing (AS-KVHS), adapted to music's\nstructured symbolic representation, achieving about 30% inference speedup with\nonly a negligible (about 0.4%) quality drop in objective evaluations and slight\nimprovements in subjective listening tests. Our main contributions are (1) the\nfirst systematic study of BPE's generalizability in multi-track symbolic music,\nand (2) the introduction of AS-KVHS for low-latency symbolic music generation.\nBeyond these, we also release SAGE-Music, an open-source benchmark that matches\nor surpasses state-of-the-art models in generation quality.",
+  "authors": [
+    "Jiaye Tan",
+    "Haonan Luo",
+    "Linfeng Song",
+    "Shuaiqi Chen",
+    "Yishan Lyu",
+    "Zian Zhong",
+    "Roujia Wang",
+    "Daniel Jiang",
+    "Haoran Zhang",
+    "Jiaming Bai",
+    "Haoran Cheng",
+    "Q. Vera Liao",
+    "Hao-Wen Dong"
+  ],
+  "published": "2025-10-01T01:11:43Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.00395v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "SAGE-Music提出属性专用键值头共享(AS-KVHS)方法，针对符号音乐的结构化表示优化，在实现约30%推理加速的同时，客观评估质量仅下降约0.4%，主观听测略有提升。该研究首次系统分析了BPE在多轨符号音乐中的泛化性，并发布了开源基准SAGE-Music，在生成质量上达到或超越现有最优模型。",
+  "order": 322,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00395v1"
+}

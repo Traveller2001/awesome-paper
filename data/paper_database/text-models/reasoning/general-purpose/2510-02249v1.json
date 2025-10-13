@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02249v1",
+  "title": "Explore Briefly, Then Decide: Mitigating LLM Overthinking via Cumulative\n  Entropy Regulation",
+  "summary": "Large Language Models (LLMs) have demonstrated remarkable reasoning abilities\non complex problems using long Chain-of-Thought (CoT) reasoning. However, they\noften suffer from overthinking, meaning generating unnecessarily lengthy\nreasoning steps for simpler problems. This issue may degrade the efficiency of\nthe models and make them difficult to adapt the reasoning depth to the\ncomplexity of problems. To address this, we introduce a novel metric Token\nEntropy Cumulative Average (TECA), which measures the extent of exploration\nthroughout the reasoning process. We further propose a novel reasoning paradigm\n-- Explore Briefly, Then Decide -- with an associated Cumulative Entropy\nRegulation (CER) mechanism. This paradigm leverages TECA to help the model\ndynamically determine the optimal point to conclude its thought process and\nprovide a final answer, thus achieving efficient reasoning. Experimental\nresults across diverse mathematical benchmarks show that our approach\nsubstantially mitigates overthinking without sacrificing problem-solving\nability. With our thinking paradigm, the average response length decreases by\nup to 71% on simpler datasets, demonstrating the effectiveness of our method in\ncreating a more efficient and adaptive reasoning process.",
+  "authors": [
+    "Tianyi Jiang",
+    "Yi Bin",
+    "Yujuan Ding",
+    "Kainian Zhu",
+    "Fei Ma",
+    "Jingkuan Song",
+    "Heng Tao Shen"
+  ],
+  "published": "2025-10-02T17:36:50Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02249v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种名为'简要探索后决策'的新推理范式，通过累积熵调控机制解决大语言模型过度思考问题。该方法利用标记熵累积平均值动态确定最优推理终止点，在数学基准测试中显著减少71%的响应长度，同时保持问题解决能力。",
+  "order": 711,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02249v1"
+}

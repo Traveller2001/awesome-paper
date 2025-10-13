@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00514v1",
+  "title": "EuroSpeech: A Multilingual Speech Corpus",
+  "summary": "Recent progress in speech processing has highlighted that high-quality\nperformance across languages requires substantial training data for each\nindividual language. While existing multilingual datasets cover many languages,\nthey often contain insufficient data for most languages. Thus, trained models\nperform poorly on the majority of the supported languages. Our work addresses\nthis challenge by introducing a scalable pipeline for constructing speech\ndatasets from parliamentary recordings. The proposed pipeline includes robust\ncomponents for media retrieval and a two-stage alignment algorithm designed to\nhandle non-verbatim transcripts and long-form audio. Applying this pipeline to\nrecordings from 22 European parliaments, we extract over 61k hours of aligned\nspeech segments, achieving substantial per-language coverage with 19 languages\nexceeding 1k hours and 22 languages exceeding 500 hours of high-quality speech\ndata. We obtain an average 41.8\\% reduction in word error rates over baselines\nwhen finetuning an existing ASR model on our dataset, demonstrating the\nusefulness of our approach.",
+  "authors": [
+    "Samuel Pfisterer",
+    "Florian Grötschla",
+    "Luca A. Lanzendörfer",
+    "Florian Yan",
+    "Roger Wattenhofer"
+  ],
+  "published": "2025-10-01T04:51:45Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00514v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "alignment",
+  "application_domain": "legal_ai",
+  "tldr_zh": "EuroSpeech是一个从22个欧洲议会录音中构建的多语言语音语料库，包含超过61k小时的高质量对齐语音数据，涵盖19种语言超过1000小时。通过创新的两阶段对齐算法处理非逐字转录和长音频，在ASR模型微调中相比基线将词错误率平均降低41.8%。",
+  "order": 473,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00514v1"
+}

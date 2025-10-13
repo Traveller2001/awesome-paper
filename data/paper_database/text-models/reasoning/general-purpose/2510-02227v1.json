@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.02227v1",
+  "title": "More Than One Teacher: Adaptive Multi-Guidance Policy Optimization for\n  Diverse Exploration",
+  "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) is a promising paradigm\nfor enhancing the reasoning ability in Large Language Models (LLMs). However,\nprevailing methods primarily rely on self-exploration or a single off-policy\nteacher to elicit long chain-of-thought (LongCoT) reasoning, which may\nintroduce intrinsic model biases and restrict exploration, ultimately limiting\nreasoning diversity and performance. Drawing inspiration from multi-teacher\nstrategies in knowledge distillation, we introduce Adaptive Multi-Guidance\nPolicy Optimization (AMPO), a novel framework that adaptively leverages\nguidance from multiple proficient teacher models, but only when the on-policy\nmodel fails to generate correct solutions. This \"guidance-on-demand\" approach\nexpands exploration while preserving the value of self-discovery. Moreover,\nAMPO incorporates a comprehension-based selection mechanism, prompting the\nstudent to learn from the reasoning paths that it is most likely to comprehend,\nthus balancing broad exploration with effective exploitation. Extensive\nexperiments show AMPO substantially outperforms a strong baseline (GRPO), with\na 4.3% improvement on mathematical reasoning tasks and 12.2% on\nout-of-distribution tasks, while significantly boosting Pass@k performance and\nenabling more diverse exploration. Notably, using four peer-sized teachers, our\nmethod achieves comparable results to approaches that leverage a single, more\npowerful teacher (e.g., DeepSeek-R1) with more data. These results demonstrate\na more efficient and scalable path to superior reasoning and generalizability.\nOur code is available at https://github.com/SII-Enigma/AMPO.",
+  "authors": [
+    "Xiaoyang Yuan",
+    "Yujuan Ding",
+    "Yi Bin",
+    "Wenqi Shao",
+    "Jinyu Cai",
+    "Jingkuan Song",
+    "Yang Yang",
+    "Hengtao Shen"
+  ],
+  "published": "2025-10-02T17:14:00Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02227v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出自适应多引导策略优化(AMPO)框架，通过动态调用多个教师模型指导，仅在策略模型生成错误时提供引导，增强大语言模型的长链推理能力。该方法在数学推理任务上提升4.3%，分布外任务提升12.2%，显著提高推理多样性和性能。",
+  "order": 716,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02227v1"
+}

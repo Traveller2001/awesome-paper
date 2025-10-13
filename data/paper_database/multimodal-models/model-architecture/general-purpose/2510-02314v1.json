@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02314v1",
+  "title": "StealthAttack: Robust 3D Gaussian Splatting Poisoning via Density-Guided\n  Illusions",
+  "summary": "3D scene representation methods like Neural Radiance Fields (NeRF) and 3D\nGaussian Splatting (3DGS) have significantly advanced novel view synthesis. As\nthese methods become prevalent, addressing their vulnerabilities becomes\ncritical. We analyze 3DGS robustness against image-level poisoning attacks and\npropose a novel density-guided poisoning method. Our method strategically\ninjects Gaussian points into low-density regions identified via Kernel Density\nEstimation (KDE), embedding viewpoint-dependent illusory objects clearly\nvisible from poisoned views while minimally affecting innocent views.\nAdditionally, we introduce an adaptive noise strategy to disrupt multi-view\nconsistency, further enhancing attack effectiveness. We propose a KDE-based\nevaluation protocol to assess attack difficulty systematically, enabling\nobjective benchmarking for future research. Extensive experiments demonstrate\nour method's superior performance compared to state-of-the-art techniques.\nProject page: https://hentci.github.io/stealthattack/",
+  "authors": [
+    "Bo-Hsu Ke",
+    "You-Zhe Xie",
+    "Yu-Lun Liu",
+    "Wei-Chen Chiu"
+  ],
+  "published": "2025-10-02T17:59:57Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02314v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种针对3D高斯泼溅(3DGS)的密度引导投毒攻击方法，通过核密度估计识别低密度区域注入高斯点，嵌入视角依赖的幻觉物体，在投毒视角清晰可见而几乎不影响正常视角，并采用自适应噪声策略破坏多视角一致性，显著提升攻击效果。",
+  "order": 487,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02314v1"
+}

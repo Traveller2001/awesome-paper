@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05582v1",
+  "title": "(Token-Level) \\textbf{InfoRMIA}: Stronger Membership Inference and\n  Memorization Assessment for LLMs",
+  "summary": "Machine learning models are known to leak sensitive information, as they\ninevitably memorize (parts of) their training data. More alarmingly, large\nlanguage models (LLMs) are now trained on nearly all available data, which\namplifies the magnitude of information leakage and raises serious privacy\nrisks. Hence, it is more crucial than ever to quantify privacy risk before the\nrelease of LLMs. The standard method to quantify privacy is via membership\ninference attacks, where the state-of-the-art approach is the Robust Membership\nInference Attack (RMIA). In this paper, we present InfoRMIA, a principled\ninformation-theoretic formulation of membership inference. Our method\nconsistently outperforms RMIA across benchmarks while also offering improved\ncomputational efficiency.\n  In the second part of the paper, we identify the limitations of treating\nsequence-level membership inference as the gold standard for measuring leakage.\nWe propose a new perspective for studying membership and memorization in LLMs:\ntoken-level signals and analyses. We show that a simple token-based InfoRMIA\ncan pinpoint which tokens are memorized within generated outputs, thereby\nlocalizing leakage from the sequence level down to individual tokens, while\nachieving stronger sequence-level inference power on LLMs. This new scope\nrethinks privacy in LLMs and can lead to more targeted mitigation, such as\nexact unlearning.",
+  "authors": [
+    "Jiashu Tao",
+    "Reza Shokri"
+  ],
+  "published": "2025-10-07T04:59:49Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05582v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出InfoRMIA方法，基于信息论改进成员推理攻击，在LLM隐私风险评估中超越现有最佳方法RMIA。论文创新性地引入词元级分析，能精确定位生成文本中的记忆词元，从序列层面到词元层面定位信息泄露，为针对性隐私保护（如精确遗忘）提供新思路。",
+  "order": 138,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05582v1"
+}

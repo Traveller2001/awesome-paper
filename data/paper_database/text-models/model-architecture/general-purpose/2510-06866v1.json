@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06866v1",
+  "title": "Unlocking Latent Discourse Translation in LLMs Through Quality-Aware\n  Decoding",
+  "summary": "Large language models (LLMs) have emerged as strong contenders in machine\ntranslation.Yet, they still struggle to adequately handle discourse phenomena,\nsuch as pronoun resolution and lexical cohesion at the document level. In this\nstudy, we thoroughly investigate the discourse phenomena performance of LLMs in\ncontext-aware translation. We demonstrate that discourse knowledge is encoded\nwithin LLMs and propose the use of quality-aware decoding (QAD) to effectively\nextract this knowledge, showcasing its superiority over other decoding\napproaches through comprehensive analysis. Furthermore, we illustrate that QAD\nenhances the semantic richness of translations and aligns them more closely\nwith human preferences.",
+  "authors": [
+    "Wafaa Mohammed",
+    "Vlad Niculae",
+    "Chrysoula Zerva"
+  ],
+  "published": "2025-10-08T10:37:17Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06866v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出质量感知解码(QAD)方法，解锁大语言模型在篇章级翻译中的潜在能力。论文证明LLMs内部已编码篇章知识，通过QAD可有效提取该知识，在代词消解、词汇衔接等篇章现象处理上优于其他解码方法，并能提升翻译的语义丰富度与人机对齐程度。",
+  "order": 71,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06866v1"
+}

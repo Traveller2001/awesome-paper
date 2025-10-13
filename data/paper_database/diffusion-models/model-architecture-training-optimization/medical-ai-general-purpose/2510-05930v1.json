@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.05930v1",
+  "title": "Carré du champ flow matching: better quality-generalisation tradeoff\n  in generative models",
+  "summary": "Deep generative models often face a fundamental tradeoff: high sample quality\ncan come at the cost of memorisation, where the model reproduces training data\nrather than generalising across the underlying data geometry. We introduce\nCarr\\'e du champ flow matching (CDC-FM), a generalisation of flow matching\n(FM), that improves the quality-generalisation tradeoff by regularising the\nprobability path with a geometry-aware noise. Our method replaces the\nhomogeneous, isotropic noise in FM with a spatially varying, anisotropic\nGaussian noise whose covariance captures the local geometry of the latent data\nmanifold. We prove that this geometric noise can be optimally estimated from\nthe data and is scalable to large data. Further, we provide an extensive\nexperimental evaluation on diverse datasets (synthetic manifolds, point clouds,\nsingle-cell genomics, animal motion capture, and images) as well as various\nneural network architectures (MLPs, CNNs, and transformers). We demonstrate\nthat CDC-FM consistently offers a better quality-generalisation tradeoff. We\nobserve significant improvements over standard FM in data-scarce regimes and in\nhighly non-uniformly sampled datasets, which are often encountered in AI for\nscience applications. Our work provides a mathematical framework for studying\nthe interplay between data geometry, generalisation and memorisation in\ngenerative models, as well as a robust and scalable algorithm that can be\nreadily integrated into existing flow matching pipelines.",
+  "authors": [
+    "Jacob Bamberger",
+    "Iolo Jones",
+    "Dennis Duncan",
+    "Michael M. Bronstein",
+    "Pierre Vandergheynst",
+    "Adam Gosztolai"
+  ],
+  "published": "2025-10-07T13:41:33Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05930v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "['medical_ai', 'general_purpose']",
+  "tldr_zh": "本文提出Carré du champ流匹配(CDC-FM)方法，通过引入几何感知噪声改进生成模型的质量-泛化权衡。该方法将传统流匹配中的均匀噪声替换为能捕捉数据流形局部几何特性的空间变化高斯噪声，在数据稀缺和非均匀采样场景下显著优于标准流匹配，适用于科学AI等多种领域。",
+  "order": 111,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05930v1"
+}

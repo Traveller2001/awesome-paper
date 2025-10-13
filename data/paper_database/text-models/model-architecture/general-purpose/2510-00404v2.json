@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00404v2",
+  "title": "AbsTopK: Rethinking Sparse Autoencoders For Bidirectional Features",
+  "summary": "Sparse autoencoders (SAEs) have emerged as powerful techniques for\ninterpretability of large language models (LLMs), aiming to decompose hidden\nstates into meaningful semantic features. While several SAE variants have been\nproposed, there remains no principled framework to derive SAEs from the\noriginal dictionary learning formulation. In this work, we introduce such a\nframework by unrolling the proximal gradient method for sparse coding. We show\nthat a single-step update naturally recovers common SAE variants, including\nReLU, JumpReLU, and TopK. Through this lens, we reveal a fundamental limitation\nof existing SAEs: their sparsity-inducing regularizers enforce non-negativity,\npreventing a single feature from representing bidirectional concepts (e.g.,\nmale vs. female). This structural constraint fragments semantic axes into\nseparate, redundant features, limiting representational completeness. To\naddress this issue, we propose AbsTopK SAE, a new variant derived from the\n$\\ell_0$ sparsity constraint that applies hard thresholding over the\nlargest-magnitude activations. By preserving both positive and negative\nactivations, AbsTopK uncovers richer, bidirectional conceptual representations.\nComprehensive experiments across four LLMs and seven probing and steering tasks\nshow that AbsTopK improves reconstruction fidelity, enhances interpretability,\nand enables single features to encode contrasting concepts. Remarkably, AbsTopK\nmatches or even surpasses the Difference-in-Mean method, a supervised approach\nthat requires labeled data for each concept and has been shown in prior work to\noutperform SAEs.",
+  "authors": [
+    "Xudong Zhu",
+    "Mohammad Mahdi Khalili",
+    "Zhihui Zhu"
+  ],
+  "published": "2025-10-01T01:29:31Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00404v2",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出AbsTopK稀疏自编码器，通过解构稀疏编码的邻近梯度方法，解决了现有SAE因非负约束无法表示双向概念的问题。新方法基于ℓ₀稀疏约束，保留正负激活值，在四个大语言模型和七项任务中验证了其重建保真度和可解释性的提升，能单特征编码对立概念。",
+  "order": 484,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00404v2"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07177v1",
+  "title": "CARPAS: Towards Content-Aware Refinement of Provided Aspects for\n  Summarization in Large Language Models",
+  "summary": "Aspect-based summarization has attracted significant attention for its\nability to generate more fine-grained and user-aligned summaries. While most\nexisting approaches assume a set of predefined aspects as input, real-world\nscenarios often present challenges where these given aspects may be incomplete,\nirrelevant, or entirely missing from the document. Users frequently expect\nsystems to adaptively refine or filter the provided aspects based on the actual\ncontent. In this paper, we initiate this novel task setting, termed\nContent-Aware Refinement of Provided Aspects for Summarization (CARPAS), with\nthe aim of dynamically adjusting the provided aspects based on the document\ncontext before summarizing. We construct three new datasets to facilitate our\npilot experiments, and by using LLMs with four representative prompting\nstrategies in this task, we find that LLMs tend to predict an overly\ncomprehensive set of aspects, which often results in excessively long and\nmisaligned summaries. Building on this observation, we propose a preliminary\nsubtask to predict the number of relevant aspects, and demonstrate that the\npredicted number can serve as effective guidance for the LLMs, reducing the\ninference difficulty, and enabling them to focus on the most pertinent aspects.\nOur extensive experiments show that the proposed approach significantly\nimproves performance across all datasets. Moreover, our deeper analyses uncover\nLLMs' compliance when the requested number of aspects differs from their own\nestimations, establishing a crucial insight for the deployment of LLMs in\nsimilar real-world applications.",
+  "authors": [
+    "Yong-En Tian",
+    "Yu-Chien Tang",
+    "An-Zi Yen",
+    "Wen-Chih Peng"
+  ],
+  "published": "2025-10-08T16:16:46Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07177v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CARPAS任务，针对基于方面的摘要生成中预定义方面不完整或不相关的问题，通过内容感知动态调整输入方面。研究发现LLMs倾向于生成过多方面导致摘要冗长，提出预测相关方面数量作为指导信号的方法，显著提升摘要质量，并深入分析了LLMs对数量要求的遵循能力。",
+  "order": 43,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07177v1"
+}

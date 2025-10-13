@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00413v1",
+  "title": "PAL-UI: Planning with Active Look-back for Vision-Based GUI Agents",
+  "summary": "Graphical User Interface (GUI) agents powered by Multimodal Large Language\nModels (MLLMs) promise human-like interaction with software applications, yet\nlong-horizon tasks remain challenging due to memory limitations. Existing\napproaches either truncate history or rely on simple textual summaries, which\nrisk losing critical information when past visual details become necessary for\nfuture decisions. In this paper, we propose \\textbf{PAL-UI} (\\textbf{P}lanning\nwith \\textbf{A}ctive \\textbf{L}ook-back), a novel framework that enables GUI\nagents to adaptively retrieve past observations when required. PAL-UI combines\na dual-level summarization agent, capturing both observation-level cues and\naction-level outcomes, with a dedicated retrieval tool that allows the agent to\nrecall specific historical screenshots during planning. We curate a step-level\ninstruction dataset of 8.6K samples from mobile GUI navigation trajectories and\ntrain \\textbf{PAL-UI-3B} and \\textbf{PAL-UI-7B} models based on Qwen2.5-VL.\nExtensive experiments demonstrate that PAL-UI significantly outperforms\nbaseline models and prior methods in mobile GUI navigation tasks, even under\ndata-efficient settings. Moreover, PAL-UI exhibits strong cross-domain\ngeneralization, achieving notable improvements in web navigation without\nadditional training. Our work highlights the potential of active memory\nretrieval for long-horizon planning capabilities of vision-based GUI agents.",
+  "authors": [
+    "Zikang Liu",
+    "Junyi Li",
+    "Wayne Xin Zhao",
+    "Dawei Gao",
+    "Yaliang Li",
+    "Ji-rong Wen"
+  ],
+  "published": "2025-10-01T01:48:39Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00413v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "long_context",
+  "application_domain": "general_purpose",
+  "tldr_zh": "PAL-UI是一种新型视觉GUI代理框架，通过主动回溯机制解决长时任务中的记忆限制问题。该框架采用双层级摘要代理和专用检索工具，能够自适应调用历史屏幕截图，在移动GUI导航任务中显著优于基线模型，并展现出强大的跨领域泛化能力。",
+  "order": 683,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00413v1"
+}

@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01396v1",
+  "title": "Neural Network Surrogates for Free Energy Computation of Complex\n  Chemical Systems",
+  "summary": "Free energy reconstruction methods such as Gaussian Process Regression (GPR)\nrequire Jacobians of the collective variables (CVs), a bottleneck that\nrestricts the use of complex or machine-learned CVs. We introduce a neural\nnetwork surrogate framework that learns CVs directly from Cartesian coordinates\nand uses automatic differentiation to provide Jacobians, bypassing analytical\nforms. On an MgCl2 ion-pairing system, our method achieved high accuracy for\nboth a simple distance CV and a complex coordination-number CV. Moreover,\nJacobian errors also followed a near-Gaussian distribution, making them\nsuitable for GPR pipelines. This framework enables gradient-based free energy\nmethods to incorporate complex and machine-learned CVs, broadening the scope of\nbiochemistry and materials simulations.",
+  "authors": [
+    "Wasut Pornpatcharapong"
+  ],
+  "published": "2025-10-01T19:28:16Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01396v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种神经网络替代框架，可直接从笛卡尔坐标学习集体变量，并通过自动微分提供雅可比矩阵，克服了传统自由能计算方法对复杂集体变量的限制。在MgCl2离子配对系统中验证了该方法对简单和复杂集体变量的高精度计算能力，为生物化学和材料模拟开辟了新途径。",
+  "order": 162,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01396v1"
+}

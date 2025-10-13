@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02311v1",
+  "title": "Inferring Dynamic Physical Properties from Video Foundation Models",
+  "summary": "We study the task of predicting dynamic physical properties from videos. More\nspecifically, we consider physical properties that require temporal information\nto be inferred: elasticity of a bouncing object, viscosity of a flowing liquid,\nand dynamic friction of an object sliding on a surface. To this end, we make\nthe following contributions: (i) We collect a new video dataset for each\nphysical property, consisting of synthetic training and testing splits, as well\nas a real split for real world evaluation. (ii) We explore three ways to infer\nthe physical property from videos: (a) an oracle method where we supply the\nvisual cues that intrinsically reflect the property using classical computer\nvision techniques; (b) a simple read out mechanism using a visual prompt and\ntrainable prompt vector for cross-attention on pre-trained video generative and\nself-supervised models; and (c) prompt strategies for Multi-modal Large\nLanguage Models (MLLMs). (iii) We show that video foundation models trained in\na generative or self-supervised manner achieve a similar performance, though\nbehind that of the oracle, and MLLMs are currently inferior to the other\nmodels, though their performance can be improved through suitable prompting.",
+  "authors": [
+    "Guanqi Zhan",
+    "Xianzheng Ma",
+    "Weidi Xie",
+    "Andrew Zisserman"
+  ],
+  "published": "2025-10-02T17:59:50Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02311v1",
+  "primary_area": "video_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探索从视频中推断动态物理属性的方法，包括弹性、粘度和动摩擦。构建了合成与真实视频数据集，比较了三种推断方法：基于传统视觉的预言机方法、预训练视频模型的提示机制和多模态大语言模型。结果显示生成式和自监督视频基础模型表现相近，多模态大模型当前效果较差但可通过提示优化提升。",
+  "order": 690,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02311v1"
+}

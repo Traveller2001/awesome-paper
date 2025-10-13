@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06824v1",
+  "title": "Efficient numeracy in language models through single-token number\n  embeddings",
+  "summary": "To drive progress in science and engineering, large language models (LLMs)\nmust be able to process large amounts of numerical data and solve long\ncalculations efficiently. This is currently only possible through the use of\nexternal tools or extensive reasoning chains, either limiting the numerical\nintuition of LLMs or limiting the length of problems they can solve. We show\nthat frontier LLMs require excessive amounts of reasoning tokens to solve even\nbasic calculations, which is exacerbated by their tokenization strategies that\nsplit single numbers into multiple tokens. This motivates the need for\nefficient and effective single-token number encodings. We introduce a set of\ndesiderata for such encodings and show that existing approaches fail to fulfill\nthem. To address these shortcomings, we propose BitTokens, a novel tokenization\nstrategy that embeds any number into a single token using its IEEE 754 binary\nfloating-point representation. Through extensive experiments we show that our\nBitTokens allow even small language models to learn algorithms that solve basic\narithmetic operations nearly perfectly. This newly gained efficiency could\nexpand the length and complexity of problems language models can solve.",
+  "authors": [
+    "Linus Kreitner",
+    "Paul Hager",
+    "Jonathan Mengedoht",
+    "Georgios Kaissis",
+    "Daniel Rueckert",
+    "Martin J. Menten"
+  ],
+  "published": "2025-10-08T09:48:11Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06824v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出BitTokens单令牌数字编码方法，通过IEEE 754二进制浮点表示将任意数字嵌入单个令牌，解决了大语言模型数值计算效率低下的问题。实验表明该方法能让小模型近乎完美地执行基础算术运算，显著提升模型处理复杂数值问题的能力。",
+  "order": 210,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06824v1"
+}

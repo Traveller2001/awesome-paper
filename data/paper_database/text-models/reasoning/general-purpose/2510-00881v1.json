@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00881v1",
+  "title": "Advancing Automated Ethical Profiling in SE: a Zero-Shot Evaluation of\n  LLM Reasoning",
+  "summary": "Large Language Models (LLMs) are increasingly integrated into software\nengineering (SE) tools for tasks that extend beyond code synthesis, including\njudgment under uncertainty and reasoning in ethically significant contexts. We\npresent a fully automated framework for assessing ethical reasoning\ncapabilities across 16 LLMs in a zero-shot setting, using 30 real-world\nethically charged scenarios. Each model is prompted to identify the most\napplicable ethical theory to an action, assess its moral acceptability, and\nexplain the reasoning behind their choice. Responses are compared against\nexpert ethicists' choices using inter-model agreement metrics. Our results show\nthat LLMs achieve an average Theory Consistency Rate (TCR) of 73.3% and Binary\nAgreement Rate (BAR) on moral acceptability of 86.7%, with interpretable\ndivergences concentrated in ethically ambiguous cases. A qualitative analysis\nof free-text explanations reveals strong conceptual convergence across models\ndespite surface-level lexical diversity. These findings support the potential\nviability of LLMs as ethical inference engines within SE pipelines, enabling\nscalable, auditable, and adaptive integration of user-aligned ethical\nreasoning. Our focus is the Ethical Interpreter component of a broader\nprofiling pipeline: we evaluate whether current LLMs exhibit sufficient\ninterpretive stability and theory-consistent reasoning to support automated\nprofiling.",
+  "authors": [
+    "Patrizio Migliarini",
+    "Mashal Afzal Memon",
+    "Marco Autili",
+    "Paola Inverardi"
+  ],
+  "published": "2025-10-01T13:28:26Z",
+  "primary_category": "cs.SE",
+  "arxiv_url": "https://arxiv.org/abs/2510.00881v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出自动化框架评估16个大语言模型在零样本设置下的伦理推理能力，使用30个真实伦理场景测试模型识别适用伦理理论、判断道德可接受性及解释推理的能力。结果显示模型平均理论一致性达73.3%，道德判断一致性达86.7%，表明LLM具备作为软件工程伦理推理引擎的潜力。",
+  "order": 227,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00881v1"
+}

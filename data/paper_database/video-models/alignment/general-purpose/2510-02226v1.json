@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02226v1",
+  "title": "TempoControl: Temporal Attention Guidance for Text-to-Video Models",
+  "summary": "Recent advances in generative video models have enabled the creation of\nhigh-quality videos based on natural language prompts. However, these models\nfrequently lack fine-grained temporal control, meaning they do not allow users\nto specify when particular visual elements should appear within a generated\nsequence. In this work, we introduce TempoControl, a method that allows for\ntemporal alignment of visual concepts during inference, without requiring\nretraining or additional supervision. TempoControl utilizes cross-attention\nmaps, a key component of text-to-video diffusion models, to guide the timing of\nconcepts through a novel optimization approach. Our method steers attention\nusing three complementary principles: aligning its temporal shape with a\ncontrol signal (via correlation), amplifying it where visibility is needed (via\nenergy), and maintaining spatial focus (via entropy). TempoControl allows\nprecise control over timing while ensuring high video quality and diversity. We\ndemonstrate its effectiveness across various video generation applications,\nincluding temporal reordering for single and multiple objects, as well as\naction and audio-aligned generation.",
+  "authors": [
+    "Shira Schiber",
+    "Ofir Lindenbaum",
+    "Idan Schwartz"
+  ],
+  "published": "2025-10-02T17:13:35Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02226v1",
+  "primary_area": "video_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "TempoControl是一种无需重新训练即可实现文本到视频生成模型时间对齐的方法，通过优化交叉注意力图来精确控制视觉概念在视频序列中的出现时机，确保视频质量和多样性。",
+  "order": 717,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02226v1"
+}

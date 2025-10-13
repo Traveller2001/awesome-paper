@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01126v1",
+  "title": "Strategic Fusion of Vision Language Models: Shapley-Credited\n  Context-Aware Dawid-Skene for Multi-Label Tasks in Autonomous Driving",
+  "summary": "Large vision-language models (VLMs) are increasingly used in\nautonomous-vehicle (AV) stacks, but hallucination limits their reliability in\nsafety-critical pipelines. We present Shapley-credited Context-Aware\nDawid-Skene with Agreement, a game-theoretic fusion method for multi-label\nunderstanding of ego-view dashcam video. It learns per-model, per-label,\ncontext-conditioned reliabilities from labelled history and, at inference,\nconverts each model's report into an agreement-guardrailed log-likelihood ratio\nthat is combined with a contextual prior and a public reputation state updated\nvia Shapley-based team credit. The result is calibrated, thresholdable\nposteriors that (i) amplify agreement among reliable models, (ii) preserve\nuniquely correct single-model signals, and (iii) adapt to drift. To specialise\ngeneral VLMs, we curate 1,000 real-world dashcam clips with structured\nannotations (scene description, manoeuvre recommendation, rationale) via an\nautomatic pipeline that fuses HDD ground truth, vehicle kinematics, and YOLOv11\n+ BoT-SORT tracking, guided by a three-step chain-of-thought prompt; three\nheterogeneous VLMs are then fine-tuned with LoRA. We evaluate with Hamming\ndistance, Micro-Macro-F1, and average per-video latency. Empirically, the\nproposed method achieves a 23% reduction in Hamming distance, 55% improvement\nin Macro-F1, and 47% improvement in Micro-F1 when comparing with the best\nsingle model, supporting VLM fusion as a calibrated, interpretable, and robust\ndecision-support component for AV pipelines.",
+  "authors": [
+    "Yuxiang Feng",
+    "Keyang Zhang",
+    "Hassane Ouchouid",
+    "Ashwil Kaniamparambil",
+    "Ioannis Souflas",
+    "Panagiotis Angeloudis"
+  ],
+  "published": "2025-10-01T17:14:11Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01126v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出基于Shapley值的上下文感知Dawid-Skene融合方法，通过博弈论框架集成多个视觉语言模型，在自动驾驶多标签任务中实现23%汉明距离降低和55%宏F1提升，有效缓解模型幻觉问题并保持决策可解释性。",
+  "order": 598,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01126v1"
+}

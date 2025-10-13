@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00526v1",
+  "title": "Beyond Log Likelihood: Probability-Based Objectives for Supervised\n  Fine-Tuning across the Model Capability Continuum",
+  "summary": "Supervised fine-tuning (SFT) is the standard approach for post-training large\nlanguage models (LLMs), yet it often shows limited generalization. We trace\nthis limitation to its default training objective: negative log likelihood\n(NLL). While NLL is classically optimal when training from scratch,\npost-training operates in a different paradigm and could violate its optimality\nassumptions, where models already encode task-relevant priors and supervision\ncan be long and noisy. To this end, we study a general family of\nprobability-based objectives and characterize their effectiveness under\ndifferent conditions. Through comprehensive experiments and extensive ablation\nstudies across 7 model backbones, 14 benchmarks, and 3 domains, we uncover a\ncritical dimension that governs objective behavior: the model-capability\ncontinuum. Near the model-strong end, prior-leaning objectives that downweight\nlow-probability tokens (e.g., $-p$, $-p^{10}$, thresholded variants)\nconsistently outperform NLL; toward the model-weak end, NLL dominates; in\nbetween, no single objective prevails. Our theoretical analysis further\nelucidates how objectives trade places across the continuum, providing a\nprincipled foundation for adapting objectives to model capability. Our code is\navailable at https://github.com/GaotangLi/Beyond-Log-Likelihood.",
+  "authors": [
+    "Gaotang Li",
+    "Ruizhong Qiu",
+    "Xiusi Chen",
+    "Heng Ji",
+    "Hanghang Tong"
+  ],
+  "published": "2025-10-01T05:17:47Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00526v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文挑战监督微调中负对数似然(NLL)的默认地位，提出基于概率的目标函数家族。研究发现目标函数效果取决于模型能力连续体：强模型端倾向先验目标(如-p、-p¹⁰)，弱模型端NLL占优，中间无单一最优。通过7个模型、14个基准、3个领域的实验验证，为根据模型能力选择目标函数提供理论依据。",
+  "order": 472,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00526v1"
+}

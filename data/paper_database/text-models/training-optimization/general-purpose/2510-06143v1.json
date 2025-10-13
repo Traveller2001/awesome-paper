@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06143v1",
+  "title": "RoSE: Round-robin Synthetic Data Evaluation for Selecting LLM Generators\n  without Human Test Sets",
+  "summary": "LLMs are powerful generators of synthetic data, which are used for training\nsmaller, specific models. This is especially valuable for low-resource\nlanguages, where human-labelled data is scarce but LLMs can still produce\nhigh-quality text. However, LLMs differ in how useful their outputs are for\ntraining. Selecting the best LLM as a generator is challenging because\nextrinsic evaluation requires costly human annotations (which are often\nunavailable for low-resource languages), while intrinsic metrics correlate\npoorly with downstream performance. We introduce Round robin Synthetic data\nEvaluation (RoSE), a proxy metric for selecting the best LLM generator without\nhuman test sets. RoSE trains a small model on the outputs of a candidate\ngenerator (LLM) and then evaluates it on generated synthetic examples from all\nother candidate LLMs. The final RoSE score is the mean performance of this\nsmall model. Across six LLMs, eleven languages, and three tasks (sentiment,\ntopic, intent), RoSE identifies the optimal generator more often than any other\nintrinsic heuristics. RoSE outperforms intrinsic heuristics and comes within\n0.76 percentage points of the optimal generator baseline. This result is\nmeasured in terms of downstream performance, obtained by training a small model\non the chosen generator's outputs (optimal vs. proxy metric selected) and\nevaluating it on human-labelled test data. Additionally, RoSE is the only\nmetric to achieve a positive correlation with performance on human test data.",
+  "authors": [
+    "Jan Cegin",
+    "Branislav Pecher",
+    "Ivan Srba",
+    "Jakub Simko"
+  ],
+  "published": "2025-10-07T17:17:14Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06143v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RoSE方法，通过轮询式合成数据评估来选择最优LLM生成器，无需人工标注测试集。该方法在多个语言和任务中表现优于传统内在指标，接近最优生成器基准，是唯一与人工测试数据性能正相关的指标。",
+  "order": 13,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06143v1"
+}

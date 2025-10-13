@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06135v1",
+  "title": "Pushing Test-Time Scaling Limits of Deep Search with Asymmetric\n  Verification",
+  "summary": "Test-time compute can be scaled both sequentially and in parallel. Sequential\nscaling involves lengthening the generation process, while parallel scaling\ninvolves verifying and selecting among multiple candidate outputs. Combining\nthese two strategies has led to the most powerful AI systems, such as Grok 4\nHeavy and GPT-5 Pro. In certain contexts (e.g., solving Sudoku puzzles),\nverifying responses can be substantially easier than generating them. This\nproperty, referred to as \\emph{asymmetric verification}, highlights the strong\npotential of test-time scaling (TTS). In this work, we study both sequential\nand parallel TTS of deep search agents, motivated by the intuition that\nverification in this setting is often much easier than generation. In\nexperiments, we first show that sequential scaling methods, such as budget\nforcing, can be effective initially but soon degrade performance. Leveraging\nasymmetric verification, however, we are able to achieve substantial\nimprovements by allocating only a modest amount of compute to the verifier. We\nconduct experiments with flagship open-source models and extend them to their\n``Heavy'' variants through TTS. These deep research agents achieve gains of up\nto 27 absolute points on benchmarks such as BrowseComp. Remarkably, as an\nopen-source alternative, GLM-4.5 Heavy reaches accuracy of {\\bf 54.0\\%} on\nBrowseComp and {\\bf 66.0\\%} on GAIA, placing it comparable to the best\nproprietary choices such as OpenAI Deep Research. Tongyi-DeepResearch Heavy\nfurther achieves {\\bf 69.0\\%} accuracy on BrowseComp, greatly surpassing the\nbest proprietary results.",
+  "authors": [
+    "Weihao Zeng",
+    "Keqing He",
+    "Chuqiao Kuang",
+    "Xiaoguang Li",
+    "Junxian He"
+  ],
+  "published": "2025-10-07T17:09:23Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06135v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究深度搜索智能体的测试时扩展技术，提出利用验证远易于生成的'非对称验证'特性，结合序列扩展与并行扩展策略。实验表明，仅需为验证器分配少量计算资源，即可在BrowseComp等基准上实现高达27个百分点的性能提升，使开源模型GLM-4.5 Heavy在BrowseComp达到54.0%、GAIA达到66.0%的准确率，媲美顶级专有模型。",
+  "order": 3,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06135v1"
+}

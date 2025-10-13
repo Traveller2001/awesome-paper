@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.01524v1",
+  "title": "WALT: Web Agents that Learn Tools",
+  "summary": "Web agents promise to automate complex browser tasks, but current methods\nremain brittle -- relying on step-by-step UI interactions and heavy LLM\nreasoning that break under dynamic layouts and long horizons. Humans, by\ncontrast, exploit website-provided functionality through high-level operations\nlike search, filter, and sort. We introduce WALT (Web Agents that Learn Tools),\na framework that reverse-engineers latent website functionality into reusable\ninvocable tools. Rather than hypothesizing ad-hoc skills, WALT exposes robust\nimplementations of automations already designed into websites -- spanning\ndiscovery (search, filter, sort), communication (post, comment, upvote), and\ncontent management (create, edit, delete). Tools abstract away low-level\nexecution: instead of reasoning about how to click and type, agents simply call\nsearch(query) or create(listing). This shifts the computational burden from\nfragile step-by-step reasoning to reliable tool invocation. On VisualWebArena\nand WebArena, WALT achieves higher success with fewer steps and less\nLLM-dependent reasoning, establishing a robust and generalizable paradigm for\nbrowser automation.",
+  "authors": [
+    "Viraj Prabhu",
+    "Yutong Dai",
+    "Matthew Fernandez",
+    "Jing Gu",
+    "Krithika Ramakrishnan",
+    "Yanqi Luo",
+    "Silvio Savarese",
+    "Caiming Xiong",
+    "Junnan Li",
+    "Zeyuan Chen",
+    "Ran Xu"
+  ],
+  "published": "2025-10-01T23:41:47Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01524v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "WALT提出了一种网络代理框架，通过逆向工程将网站功能转化为可复用的工具，使代理能够直接调用高级操作（如搜索、筛选、排序），而非依赖脆弱的逐步UI交互。该方法在VisualWebArena和WebArena基准测试中实现了更高成功率、更少步骤和更低的大模型依赖，为浏览器自动化提供了稳健且可泛化的解决方案。",
+  "order": 577,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01524v1"
+}

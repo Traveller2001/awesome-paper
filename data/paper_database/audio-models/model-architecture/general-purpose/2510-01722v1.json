@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01722v1",
+  "title": "Emotional Text-To-Speech Based on Mutual-Information-Guided\n  Emotion-Timbre Disentanglement",
+  "summary": "Current emotional Text-To-Speech (TTS) and style transfer methods rely on\nreference encoders to control global style or emotion vectors, but do not\ncapture nuanced acoustic details of the reference speech. To this end, we\npropose a novel emotional TTS method that enables fine-grained phoneme-level\nemotion embedding prediction while disentangling intrinsic attributes of the\nreference speech. The proposed method employs a style disentanglement method to\nguide two feature extractors, reducing mutual information between timbre and\nemotion features, and effectively separating distinct style components from the\nreference speech. Experimental results demonstrate that our method outperforms\nbaseline TTS systems in generating natural and emotionally rich speech. This\nwork highlights the potential of disentangled and fine-grained representations\nin advancing the quality and flexibility of emotional TTS systems.",
+  "authors": [
+    "Jianing Yang",
+    "Sheng Li",
+    "Takahiro Shinozaki",
+    "Yuki Saito",
+    "Hiroshi Saruwatari"
+  ],
+  "published": "2025-10-02T07:03:50Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.01722v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于互信息引导的情感-音色解耦情感文本转语音方法，通过风格解耦技术分离参考语音中的音色与情感特征，实现细粒度音素级情感嵌入预测，在生成自然且情感丰富的语音方面优于基线系统。",
+  "order": 87,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01722v1"
+}

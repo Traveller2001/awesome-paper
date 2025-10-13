@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00908v1",
+  "title": "Bridging Language Gaps: Advances in Cross-Lingual Information Retrieval\n  with Multilingual LLMs",
+  "summary": "Cross-lingual information retrieval (CLIR) addresses the challenge of\nretrieving relevant documents written in languages different from that of the\noriginal query. Research in this area has typically framed the task as\nmonolingual retrieval augmented by translation, treating retrieval methods and\ncross-lingual capabilities in isolation. Both monolingual and cross-lingual\nretrieval usually follow a pipeline of query expansion, ranking, re-ranking\nand, increasingly, question answering. Recent advances, however, have shifted\nfrom translation-based methods toward embedding-based approaches and leverage\nmultilingual large language models (LLMs), for which aligning representations\nacross languages remains a central challenge. The emergence of cross-lingual\nembeddings and multilingual LLMs has introduced a new paradigm, offering\nimproved retrieval performance and enabling answer generation. This survey\nprovides a comprehensive overview of developments from early translation-based\nmethods to state-of-the-art embedding-driven and generative techniques. It\npresents a structured account of core CLIR components, evaluation practices,\nand available resources. Persistent challenges such as data imbalance and\nlinguistic variation are identified, while promising directions are suggested\nfor advancing equitable and effective cross-lingual information retrieval. By\nsituating CLIR within the broader landscape of information retrieval and\nmultilingual language processing, this work not only reviews current\ncapabilities but also outlines future directions for building retrieval systems\nthat are robust, inclusive, and adaptable.",
+  "authors": [
+    "Roksana Goworek",
+    "Olivia Macmillan-Scott",
+    "Eda B. Özyiğit"
+  ],
+  "published": "2025-10-01T13:50:05Z",
+  "primary_category": "cs.IR",
+  "arxiv_url": "https://arxiv.org/abs/2510.00908v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文综述跨语言信息检索(CLIR)的发展，从早期翻译方法到基于嵌入和多语言大语言模型的先进技术。重点分析跨语言表示对齐的核心挑战，涵盖检索组件、评估方法和资源，指出数据不平衡和语言变异等持续问题，并展望构建鲁棒、包容、自适应检索系统的未来方向。",
+  "order": 441,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00908v1"
+}

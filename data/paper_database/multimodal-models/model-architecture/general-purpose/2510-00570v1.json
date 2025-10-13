@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00570v1",
+  "title": "Adaptive Shared Experts with LoRA-Based Mixture of Experts for\n  Multi-Task Learning",
+  "summary": "Mixture-of-Experts (MoE) has emerged as a powerful framework for multi-task\nlearning (MTL). However, existing MoE-MTL methods often rely on single-task\npretrained backbones and suffer from redundant adaptation and inefficient\nknowledge sharing during the transition from single-task to multi-task learning\n(STL to MTL). To address these limitations, we propose adaptive shared experts\n(ASE) within a low-rank adaptation (LoRA) based MoE, where shared experts are\nassigned router-computed gating weights jointly normalized with sparse experts.\nThis design facilitates STL to MTL transition, enhances expert specialization,\nand cooperation. Furthermore, we incorporate fine-grained experts by increasing\nthe number of LoRA experts while proportionally reducing their rank, enabling\nmore effective knowledge sharing under a comparable parameter budget. Extensive\nexperiments on the PASCAL-Context benchmark, under unified training settings,\ndemonstrate that ASE consistently improves performance across diverse\nconfigurations and validates the effectiveness of fine-grained designs for MTL.",
+  "authors": [
+    "Minghao Yang",
+    "Ren Togo",
+    "Guang Li",
+    "Takahiro Ogawa",
+    "Miki Haseyama"
+  ],
+  "published": "2025-10-01T06:49:19Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00570v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出基于LoRA的自适应共享专家(ASE)方法，通过路由器计算的门控权重联合归一化共享专家与稀疏专家，改进多任务学习中专家专业化与协作，并在PASCAL-Context基准测试中验证了其有效性。",
+  "order": 663,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00570v1"
+}

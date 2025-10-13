@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05869v1",
+  "title": "The fragility of \"cultural tendencies\" in LLMs",
+  "summary": "In a recent study, Lu, Song, and Zhang (2025) (LSZ) propose that large\nlanguage models (LLMs), when prompted in different languages, display\nculturally specific tendencies. They report that the two models (i.e., GPT and\nERNIE) respond in more interdependent and holistic ways when prompted in\nChinese, and more independent and analytic ways when prompted in English. LSZ\nattribute these differences to deep-seated cultural patterns in the models,\nclaiming that prompt language alone can induce substantial cultural shifts.\nWhile we acknowledge the empirical patterns they observed, we find their\nexperiments, methods, and interpretations problematic. In this paper, we\ncritically re-evaluate the methodology, theoretical framing, and conclusions of\nLSZ. We argue that the reported \"cultural tendencies\" are not stable traits but\nfragile artifacts of specific models and task design. To test this, we\nconducted targeted replications using a broader set of LLMs and a larger number\nof test items. Our results show that prompt language has minimal effect on\noutputs, challenging LSZ's claim that these models encode grounded cultural\nbeliefs.",
+  "authors": [
+    "Kun Sun",
+    "Rong Wang"
+  ],
+  "published": "2025-10-07T12:37:06Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05869v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文对Lu等人(2025)关于大语言模型存在文化倾向性的研究提出批判性重评估。通过更广泛的模型和测试项目进行复制实验，发现提示语言对输出影响甚微，认为所谓的'文化倾向'并非稳定特质，而是特定模型和任务设计造成的脆弱假象，挑战了LLMs编码深层文化信念的观点。",
+  "order": 29,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05869v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01178v1",
+  "title": "COM-BOM: Bayesian Exemplar Search for Efficiently Exploring the\n  Accuracy-Calibration Pareto Frontier",
+  "summary": "Selecting an optimal set of exemplars is critical for good performance of\nin-context learning. However, prior exemplar search methods narrowly optimize\nfor predictive accuracy, critically neglecting model calibration--a key\ndeterminant of trustworthiness and safe deployment. In this paper, we formulate\nexemplar selection as a multi-objective optimization problem, explicitly\ntargeting both the maximization of predictive accuracy and the minimization of\nexpected calibration error. We solve this problem with a sample-efficient\nCombinatorial Bayesian Optimization algorithm (COM-BOM) to find the Pareto\nfront that optimally trades off the two objectives of accuracy and calibration.\nWe evaluate COM-BOM on multiple tasks from unsaturated MMLU-Pro benchmark and\nfind that COM-BOM beats or matches the baselines at jointly optimizing the two\nobjectives, while requiring a minimal number of LLM API calls.",
+  "authors": [
+    "Gaoxiang Luo",
+    "Aryan Deshwal"
+  ],
+  "published": "2025-10-01T17:57:49Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01178v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "COM-BOM提出一种贝叶斯组合优化算法，通过多目标优化同时提升上下文学习中的预测准确率和模型校准度，在MMLU-Pro基准测试中以最少API调用实现帕累托最优。",
+  "order": 177,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01178v1"
+}

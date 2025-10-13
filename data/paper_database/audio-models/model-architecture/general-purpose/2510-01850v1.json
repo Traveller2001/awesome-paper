@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01850v1",
+  "title": "NGGAN: Noise Generation GAN Based on the Practical Measurement Dataset\n  for Narrowband Powerline Communications",
+  "summary": "Capturing comprehensive statistics of nonperiodic asynchronous impulsive\nnoise is a critical issue in enhancing impulse noise processing for narrowband\npowerline communication (NB-PLC) transceivers. However, existing mathematical\nnoise generative models capture only some of the characteristics of additive\nnoise. Therefore, we propose a generative adversarial network (GAN), called the\nnoise-generation GAN (NGGAN), that learns the complicated characteristics of\npractically measured noise samples for data augmentation. To closely match the\nstatistics of complicated noise in NB-PLC systems, we measured the NB-PLC noise\nvia the analog coupling and bandpass filtering circuits of a commercial NB-PLC\nmodem to build a realistic dataset. Specifically, the NGGAN design approaches\nbased on the practically measured dataset are as follows: (i) we design the\nlength of input signals that the NGGAN model can fit to facilitate\ncyclo-stationary noise generation. (ii) Wasserstein distance is used as a loss\nfunction to enhance the similarity between the generated noise and the training\ndataset and ensure that the sample diversity is sufficient for various\napplications. (iii) To measure the similarity performance of the GAN-based\nmodels based on mathematical and practically measured datasets, we perform\nquantitative and qualitative analyses. The training datasets include (1) a\npiecewise spectral cyclo-stationary Gaussian model (PSCGM), (2) a\nfrequency-shift (FRESH) filter, and (3) practical measurements from NB-PLC\nsystems. Simulation results demonstrate that the proposed NGGAN trained using\nwaveform characteristics is closer to the practically measured dataset in terms\nof the quality of the generated noise.",
+  "authors": [
+    "Ying-Ren Chien",
+    "Po-Heng Chou",
+    "You-Jie Peng",
+    "Chun-Yuan Huang",
+    "Hen-Wai Tsao",
+    "Yu Tsao"
+  ],
+  "published": "2025-10-02T09:47:56Z",
+  "primary_category": "eess.SP",
+  "arxiv_url": "https://arxiv.org/abs/2510.01850v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出NGGAN（噪声生成对抗网络），基于实际测量的窄带电力线通信噪声数据集，通过Wasserstein距离损失函数和特定信号长度设计，生成与实测噪声统计特性更匹配的合成噪声数据，用于数据增强和噪声处理优化。",
+  "order": 71,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01850v1"
+}

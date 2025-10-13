@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06559v1",
+  "title": "The Algebra of Meaning: Why Machines Need Montague More Than Moore's Law",
+  "summary": "Contemporary language models are fluent yet routinely mis-handle the types of\nmeaning their outputs entail. We argue that hallucination, brittle moderation,\nand opaque compliance outcomes are symptoms of missing type-theoretic semantics\nrather than data or scale limitations. Building on Montague's view of language\nas typed, compositional algebra, we recast alignment as a parsing problem:\nnatural-language inputs must be compiled into structures that make explicit\ntheir descriptive, normative, and legal dimensions under context.\n  We present Savassan, a neuro-symbolic architecture that compiles utterances\ninto Montague-style logical forms and maps them to typed ontologies extended\nwith deontic operators and jurisdictional contexts. Neural components extract\ncandidate structures from unstructured inputs; symbolic components perform type\nchecking, constraint reasoning, and cross-jurisdiction mapping to produce\ncompliance-aware guidance rather than binary censorship. In cross-border\nscenarios, the system \"parses once\" (e.g., defect claim(product x, company y))\nand projects the result into multiple legal ontologies (e.g., defamation risk\nin KR/JP, protected opinion in US, GDPR checks in EU), composing outcomes into\na single, explainable decision.\n  This paper contributes: (i) a diagnosis of hallucination as a type error;\n(ii) a formal Montague-ontology bridge for business/legal reasoning; and (iii)\na production-oriented design that embeds typed interfaces across the pipeline.\nWe outline an evaluation plan using legal reasoning benchmarks and synthetic\nmulti-jurisdiction suites. Our position is that trustworthy autonomy requires\ncompositional typing of meaning, enabling systems to reason about what is\ndescribed, what is prescribed, and what incurs liability within a unified\nalgebra of meaning.",
+  "authors": [
+    "Cheonkam Jeong",
+    "Sungdo Kim",
+    "Jewoo Park"
+  ],
+  "published": "2025-10-08T01:22:26Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06559v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'reasoning', 'model_architecture']",
+  "application_domain": "legal_ai",
+  "tldr_zh": "本文提出将语言视为类型化组合代数，开发了神经符号架构Savassan，通过将自然语言编译为蒙塔古式逻辑形式并映射到带道义算子的类型化本体，解决语言模型的幻觉问题。该方法将语义对齐重构为解析问题，在多法域场景下实现可解释的合规决策，认为可信自治需要意义的组合类型化。",
+  "order": 98,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06559v1"
+}

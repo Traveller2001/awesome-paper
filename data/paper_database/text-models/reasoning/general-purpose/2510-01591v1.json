@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01591v1",
+  "title": "CLUE: Non-parametric Verification from Experience via Hidden-State\n  Clustering",
+  "summary": "Assessing the quality of Large Language Model (LLM) outputs presents a\ncritical challenge. Previous methods either rely on text-level information\n(e.g., reward models, majority voting), which can overfit to superficial cues,\nor on calibrated confidence from token probabilities, which would fail on\nless-calibrated models. Yet both of these signals are, in fact, partial\nprojections of a richer source of information: the model's internal hidden\nstates. Early layers, closer to token embeddings, preserve semantic and lexical\nfeatures that underpin text-based judgments, while later layers increasingly\nalign with output logits, embedding confidence-related information. This paper\nexplores hidden states directly as a unified foundation for verification. We\nshow that the correctness of a solution is encoded as a geometrically separable\nsignature within the trajectory of hidden activations. To validate this, we\npresent Clue (Clustering and Experience-based Verification), a deliberately\nminimalist, non-parametric verifier. With no trainable parameters, CLUE only\nsummarizes each reasoning trace by an hidden state delta and classifies\ncorrectness via nearest-centroid distance to ``success'' and ``failure''\nclusters formed from past experience. The simplicity of this method highlights\nthe strength of the underlying signal. Empirically, CLUE consistently\noutperforms LLM-as-a-judge baselines and matches or exceeds modern\nconfidence-based methods in reranking candidates, improving both top-1 and\nmajority-vote accuracy across AIME 24/25 and GPQA. As a highlight, on AIME 24\nwith a 1.5B model, CLUE boosts accuracy from 56.7% (majority@64) to 70.0%\n(top-maj@16).",
+  "authors": [
+    "Zhenwen Liang",
+    "Ruosen Li",
+    "Yujun Zhou",
+    "Linfeng Song",
+    "Dian Yu",
+    "Xinya Du",
+    "Haitao Mi",
+    "Dong Yu"
+  ],
+  "published": "2025-10-02T02:14:33Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01591v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "CLUE提出一种基于隐藏状态聚类的无参数验证方法，通过分析LLM内部隐藏状态轨迹来区分答案正确性。该方法无需训练参数，仅通过计算与历史成功/失败聚类中心的距离进行分类，在多个基准测试中超越LLM自评估基线，显著提升模型准确率。",
+  "order": 393,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01591v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01660v1",
+  "title": "VirDA: Reusing Backbone for Unsupervised Domain Adaptation with Visual\n  Reprogramming",
+  "summary": "Existing UDA pipelines fine-tune already well-trained backbone parameters for\nevery new source-and-target pair, resulting in the number of training\nparameters and storage memory growing linearly with each new pair, and also\npreventing the reuse of these well-trained backbone parameters.\n  Inspired by recent implications that existing backbones have textural biases,\nwe propose making use of domain-specific textural bias for domain adaptation\nvia visual reprogramming, namely VirDA.Instead of fine-tuning the full\nbackbone, VirDA prepends a domain-specific visual reprogramming layer to the\nbackbone. This layer produces visual prompts that act as an added textural bias\nto the input image, adapting its ``style'' to a target domain. To optimize\nthese visual reprogramming layers, we use multiple objective functions that\noptimize the intra- and inter-domain distribution differences when\ndomain-adapting visual prompts are applied. This process does not require\nmodifying the backbone parameters, allowing the same backbone to be reused\nacross different domains.\n  We evaluate VirDA on Office-31 and obtain 92.8% mean accuracy with only 1.5M\ntrainable parameters. VirDA surpasses PDA, the state-of-the-art\nparameter-efficient UDA baseline, by +1.6% accuracy while using just 46% of its\nparameters. Compared with full-backbone fine-tuning, VirDA outperforms CDTrans\nand FixBi by +0.2% and +1.4%, respectively, while requiring only 1.7% and 2.8%\nof their trainable parameters. Relative to the strongest current methods\n(PMTrans and TVT), VirDA uses ~1.7% of their parameters and trades off only\n2.2% and 1.1% accuracy, respectively.",
+  "authors": [
+    "Duy Nguyen",
+    "Dat Nguyen"
+  ],
+  "published": "2025-10-02T04:40:42Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01660v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VirDA提出一种无监督域自适应方法，通过视觉重编程层生成视觉提示来调整输入图像的纹理风格，无需微调主干网络参数。该方法在Office-31数据集上达到92.8%准确率，仅需1.5M可训练参数，显著提升了参数效率并支持主干网络跨域复用。",
+  "order": 561,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01660v1"
+}

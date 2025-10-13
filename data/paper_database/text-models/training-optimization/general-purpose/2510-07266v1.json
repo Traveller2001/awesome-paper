@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07266v1",
+  "title": "Dynamic Regret Bounds for Online Omniprediction with Long Term\n  Constraints",
+  "summary": "We present an algorithm guaranteeing dynamic regret bounds for online\nomniprediction with long term constraints. The goal in this recently introduced\nproblem is for a learner to generate a sequence of predictions which are\nbroadcast to a collection of downstream decision makers. Each decision maker\nhas their own utility function, as well as a vector of constraint functions,\neach mapping their actions and an adversarially selected state to reward or\nconstraint violation terms. The downstream decision makers select actions \"as\nif\" the state predictions are correct, and the goal of the learner is to\nproduce predictions such that all downstream decision makers choose actions\nthat give them worst-case utility guarantees while minimizing worst-case\nconstraint violation. Within this framework, we give the first algorithm that\nobtains simultaneous \\emph{dynamic regret} guarantees for all of the agents --\nwhere regret for each agent is measured against a potentially changing sequence\nof actions across rounds of interaction, while also ensuring vanishing\nconstraint violation for each agent. Our results do not require the agents\nthemselves to maintain any state -- they only solve one-round constrained\noptimization problems defined by the prediction made at that round.",
+  "authors": [
+    "Yahav Bechavod",
+    "Jiuyao Lu",
+    "Aaron Roth"
+  ],
+  "published": "2025-10-08T17:28:05Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07266v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种在线全预测算法，在长期约束条件下保证动态遗憾界。该算法为下游决策者生成预测序列，确保所有决策者获得最坏情况效用保证的同时最小化约束违反，且无需决策者维护状态信息。",
+  "order": 169,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07266v1"
+}

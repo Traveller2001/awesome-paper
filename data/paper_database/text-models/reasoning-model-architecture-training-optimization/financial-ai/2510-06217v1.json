@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06217v1",
+  "title": "TaTToo: Tool-Grounded Thinking PRM for Test-Time Scaling in Tabular\n  Reasoning",
+  "summary": "Process Reward Models (PRMs) have recently emerged as a powerful framework\nfor enhancing the reasoning capabilities of large reasoning models (LRMs),\nparticularly in the context of test-time scaling (TTS). However, their\npotential for supervising LRMs on tabular reasoning domains remains\nunderexplored. Through detailed empirical analyses, we identify that existing\nPRMs, though widely adopted for supervising text-only reasoning steps, struggle\nwith table-specific operations such as sub-table retrieval and schema\ninteraction, leading to critical performance bottlenecks. To address this\nlimitation, we propose TaTToo, a novel table-grounded PRM framework that (i)\nreasons explicitly over tabular reasoning steps and (ii) integrates tool-based\nverification to provide precise reward supervision. Concretely, we first design\na scalable data curation pipeline that constructs over 60k high-quality\nstep-level annotations by integrating table verification rationales with\ntool-based executions. Building on the collected data, we train TaTToo with a\ndual-stage paradigm: cold-start supervised fine-tuning to capture tool-use\nreasoning patterns, followed by reinforcement learning with tool-grounded\nreward shaping to align our model with table-based verification. We provide a\ncomprehensive evaluation of the policy improvement induced by our newly\ndesigned PRM. Across 5 challenging tabular reasoning benchmarks covering\nnumerical reasoning, fact-checking, and data analysis, TaTToo improves\ndownstream policy LRMs by 30.9% at inference, surpasses strong PRM baselines\nsuch as Qwen-2.5-Math-PRM-72B with only 8B parameters, and demonstrates strong\ngeneralizability across diverse TTS strategies.",
+  "authors": [
+    "Jiaru Zou",
+    "Soumya Roy",
+    "Vinay Kumar Verma",
+    "Ziyi Wang",
+    "David Wipf",
+    "Pan Lu",
+    "Sumit Negi",
+    "James Zou",
+    "Jingrui He"
+  ],
+  "published": "2025-10-07T17:59:41Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06217v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture', 'training_optimization']",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出TaTToo框架，针对表格推理任务设计的过程奖励模型。通过工具验证和表格操作增强，在5个表格推理基准上实现30.9%的性能提升，仅用8B参数即超越72B基线模型，显著提升测试时扩展能力。",
+  "order": 1,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06217v1"
+}

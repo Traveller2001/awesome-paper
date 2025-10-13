@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.06619v1",
+  "title": "MSITrack: A Challenging Benchmark for Multispectral Single Object\n  Tracking",
+  "summary": "Visual object tracking in real-world scenarios presents numerous challenges\nincluding occlusion, interference from similar objects and complex\nbackgrounds-all of which limit the effectiveness of RGB-based trackers.\nMultispectral imagery, which captures pixel-level spectral reflectance,\nenhances target discriminability. However, the availability of multispectral\ntracking datasets remains limited. To bridge this gap, we introduce MSITrack,\nthe largest and most diverse multispectral single object tracking dataset to\ndate. MSITrack offers the following key features: (i) More Challenging\nAttributes-including interference from similar objects and similarity in color\nand texture between targets and backgrounds in natural scenarios, along with a\nwide range of real-world tracking challenges; (ii) Richer and More Natural\nScenes-spanning 55 object categories and 300 distinct natural scenes, MSITrack\nfar exceeds the scope of existing benchmarks. Many of these scenes and\ncategories are introduced to the multispectral tracking domain for the first\ntime; (iii) Larger Scale-300 videos comprising over 129k frames of\nmultispectral imagery. To ensure annotation precision, each frame has undergone\nmeticulous processing, manual labeling and multi-stage verification. Extensive\nevaluations using representative trackers demonstrate that the multispectral\ndata in MSITrack significantly improves performance over RGB-only baselines,\nhighlighting its potential to drive future advancements in the field. The\nMSITrack dataset is publicly available at:\nhttps://github.com/Fengtao191/MSITrack.",
+  "authors": [
+    "Tao Feng",
+    "Tingfa Xu",
+    "Haolin Qin",
+    "Tianhao Li",
+    "Shuaihao Han",
+    "Xuyang Zou",
+    "Zhan Lv",
+    "Jianan Li"
+  ],
+  "published": "2025-10-08T03:56:36Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06619v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "MSITrack是当前最大最丰富的多光谱单目标跟踪数据集，包含300个视频、12.9万帧图像，涵盖55个物体类别和300个自然场景。该数据集通过多光谱成像技术显著提升了目标区分能力，解决了RGB跟踪器在遮挡、相似物体干扰等复杂场景下的局限性，为多光谱目标跟踪领域提供了重要基准。",
+  "order": 152,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06619v1"
+}

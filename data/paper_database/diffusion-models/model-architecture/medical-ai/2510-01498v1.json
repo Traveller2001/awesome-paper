@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01498v1",
+  "title": "AortaDiff: A Unified Multitask Diffusion Framework For Contrast-Free AAA\n  Imaging",
+  "summary": "While contrast-enhanced CT (CECT) is standard for assessing abdominal aortic\naneurysms (AAA), the required iodinated contrast agents pose significant risks,\nincluding nephrotoxicity, patient allergies, and environmental harm. To reduce\ncontrast agent use, recent deep learning methods have focused on generating\nsynthetic CECT from non-contrast CT (NCCT) scans. However, most adopt a\nmulti-stage pipeline that first generates images and then performs\nsegmentation, which leads to error accumulation and fails to leverage shared\nsemantic and anatomical structures. To address this, we propose a unified deep\nlearning framework that generates synthetic CECT images from NCCT scans while\nsimultaneously segmenting the aortic lumen and thrombus. Our approach\nintegrates conditional diffusion models (CDM) with multi-task learning,\nenabling end-to-end joint optimization of image synthesis and anatomical\nsegmentation. Unlike previous multitask diffusion models, our approach requires\nno initial predictions (e.g., a coarse segmentation mask), shares both encoder\nand decoder parameters across tasks, and employs a semi-supervised training\nstrategy to learn from scans with missing segmentation labels, a common\nconstraint in real-world clinical data. We evaluated our method on a cohort of\n264 patients, where it consistently outperformed state-of-the-art single-task\nand multi-stage models. For image synthesis, our model achieved a PSNR of 25.61\ndB, compared to 23.80 dB from a single-task CDM. For anatomical segmentation,\nit improved the lumen Dice score to 0.89 from 0.87 and the challenging thrombus\nDice score to 0.53 from 0.48 (nnU-Net). These segmentation enhancements led to\nmore accurate clinical measurements, reducing the lumen diameter MAE to 4.19 mm\nfrom 5.78 mm and the thrombus area error to 33.85% from 41.45% when compared to\nnnU-Net. Code is available at https://github.com/yuxuanou623/AortaDiff.git.",
+  "authors": [
+    "Yuxuan Ou",
+    "Ning Bi",
+    "Jiazhen Pan",
+    "Jiancheng Yang",
+    "Boliang Yu",
+    "Usama Zidan",
+    "Regent Lee",
+    "Vicente Grau"
+  ],
+  "published": "2025-10-01T22:19:27Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01498v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "AortaDiff提出一种统一的多任务扩散框架，从非对比CT扫描生成合成对比增强CT图像并同时分割主动脉腔和血栓。该方法结合条件扩散模型与多任务学习，在264名患者数据上验证，在图像合成质量和解剖分割精度上均优于现有单任务和多阶段模型。",
+  "order": 580,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01498v1"
+}

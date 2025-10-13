@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06829v1",
+  "title": "Lattice-allocated Real-time Line Segment Feature Detection and Tracking\n  Using Only an Event-based Camera",
+  "summary": "Line segment extraction is effective for capturing geometric features of\nhuman-made environments. Event-based cameras, which asynchronously respond to\ncontrast changes along edges, enable efficient extraction by reducing redundant\ndata. However, recent methods often rely on additional frame cameras or\nstruggle with high event rates. This research addresses real-time line segment\ndetection and tracking using only a modern, high-resolution (i.e., high event\nrate) event-based camera. Our lattice-allocated pipeline consists of (i)\nvelocity-invariant event representation, (ii) line segment detection based on a\nfitting score, (iii) and line segment tracking by perturbating endpoints.\nEvaluation using ad-hoc recorded dataset and public datasets demonstrates\nreal-time performance and higher accuracy compared to state-of-the-art\nevent-only and event-frame hybrid baselines, enabling fully stand-alone event\ncamera operation in real-world settings.",
+  "authors": [
+    "Mikihiro Ikura",
+    "Arren Glover",
+    "Masayoshi Mizuno",
+    "Chiara Bartolozzi"
+  ],
+  "published": "2025-10-08T09:52:35Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06829v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种仅使用事件相机的实时线段特征检测与跟踪方法，通过晶格分配流水线实现速度不变的事件表示、基于拟合评分的线段检测和端点扰动的线段跟踪，在多个数据集上验证了优于现有方法的实时性能与精度。",
+  "order": 135,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06829v1"
+}

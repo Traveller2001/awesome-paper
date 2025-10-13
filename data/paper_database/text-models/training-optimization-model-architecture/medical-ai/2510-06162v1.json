@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06162v1",
+  "title": "TabPFN-Wide: Continued Pre-Training for Extreme Feature Counts",
+  "summary": "Revealing novel insights from the relationship between molecular measurements\nand pathology remains a very impactful application of machine learning in\nbiomedicine. Data in this domain typically contain only a few observations but\nthousands of potentially noisy features, posing challenges for conventional\nmachine learning approaches. While prior-data fitted networks emerge as\nfoundation models for tabular data, they are currently not suited to handle\nlarge feature counts (>500). Although feature reduction enables their\napplication, it hinders feature importance analysis. We propose a strategy that\nextends existing models through continued pre-training on synthetic data\nsampled from a customized prior. The resulting model, TabPFN-Wide, matches or\nexceeds its base model's performance while exhibiting improved robustness to\nnoise. It seamlessly scales beyond 50,000 features, regardless of noise levels,\nwhile maintaining inherent interpretability, which is critical for biomedical\napplications. Our results show that prior-informed adaptation is suitable to\nenhance the capability of foundation models for high-dimensional data. On\nreal-world biomedical datasets many of the most relevant features identified by\nthe model overlap with previous biological findings, while others propose\npotential starting points for future studies.",
+  "authors": [
+    "Christopher Kolberg",
+    "Katharina Eggensperger",
+    "Nico Pfeifer"
+  ],
+  "published": "2025-10-07T17:28:49Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06162v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出TabPFN-Wide模型，通过基于定制先验的合成数据持续预训练，扩展了表格数据基础模型处理高维特征的能力。该模型在保持可解释性的同时，可无缝处理超过5万个特征，在生物医学数据上表现出优越性能，并能识别与已知生物学发现一致的重要特征。",
+  "order": 86,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06162v1"
+}

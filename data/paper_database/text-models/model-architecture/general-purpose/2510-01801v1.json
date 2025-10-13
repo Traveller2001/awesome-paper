@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01801v1",
+  "title": "Detecting LLM-Generated Spam Reviews by Integrating Language Model\n  Embeddings and Graph Neural Network",
+  "summary": "The rise of large language models (LLMs) has enabled the generation of highly\npersuasive spam reviews that closely mimic human writing. These reviews pose\nsignificant challenges for existing detection systems and threaten the\ncredibility of online platforms. In this work, we first create three realistic\nLLM-generated spam review datasets using three distinct LLMs, each guided by\nproduct metadata and genuine reference reviews. Evaluations by GPT-4.1 confirm\nthe high persuasion and deceptive potential of these reviews. To address this\nthreat, we propose FraudSquad, a hybrid detection model that integrates text\nembeddings from a pre-trained language model with a gated graph transformer for\nspam node classification. FraudSquad captures both semantic and behavioral\nsignals without relying on manual feature engineering or massive training\nresources. Experiments show that FraudSquad outperforms state-of-the-art\nbaselines by up to 44.22% in precision and 43.01% in recall on three\nLLM-generated datasets, while also achieving promising results on two\nhuman-written spam datasets. Furthermore, FraudSquad maintains a modest model\nsize and requires minimal labeled training data, making it a practical solution\nfor real-world applications. Our contributions include new synthetic datasets,\na practical detection framework, and empirical evidence highlighting the\nurgency of adapting spam detection to the LLM era. Our code and datasets are\navailable at: https://anonymous.4open.science/r/FraudSquad-5389/.",
+  "authors": [
+    "Xin Liu",
+    "Rongwu Xu",
+    "Xinyi Jia",
+    "Jason Liao",
+    "Jiao Sun",
+    "Ling Huang",
+    "Wei Xu"
+  ],
+  "published": "2025-10-02T08:42:35Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01801v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出FraudSquad混合检测模型，结合预训练语言模型文本嵌入和图神经网络，有效检测LLM生成的垃圾评论。在三个LLM生成数据集上比现有方法精确度提升44.22%，召回率提升43.01%，模型轻量且所需标注数据少，适用于实际部署。",
+  "order": 369,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01801v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06091v1",
+  "title": "Learning Mixtures of Linear Dynamical Systems (MoLDS) via Hybrid\n  Tensor-EM Method",
+  "summary": "Mixtures of linear dynamical systems (MoLDS) provide a path to model\ntime-series data that exhibit diverse temporal dynamics across trajectories.\nHowever, its application remains challenging in complex and noisy settings,\nlimiting its effectiveness for neural data analysis. Tensor-based moment\nmethods can provide global identifiability guarantees for MoLDS, but their\nperformance degrades under noise and complexity. Commonly used\nexpectation-maximization (EM) methods offer flexibility in fitting latent\nmodels but are highly sensitive to initialization and prone to poor local\nminima. Here, we propose a tensor-based method that provides identifiability\nguarantees for learning MoLDS, which is followed by EM updates to combine the\nstrengths of both approaches. The novelty in our approach lies in the\nconstruction of moment tensors using the input-output data to recover globally\nconsistent estimates of mixture weights and system parameters. These estimates\ncan then be refined through a Kalman EM algorithm, with closed-form updates for\nall LDS parameters. We validate our framework on synthetic benchmarks and\nreal-world datasets. On synthetic data, the proposed Tensor-EM method achieves\nmore reliable recovery and improved robustness compared to either pure tensor\nor randomly initialized EM methods. We then analyze neural recordings from the\nprimate somatosensory cortex while a non-human primate performs reaches in\ndifferent directions. Our method successfully models and clusters different\nconditions as separate subsystems, consistent with supervised single-LDS fits\nfor each condition. Finally, we apply this approach to another neural dataset\nwhere monkeys perform a sequential reaching task. These results demonstrate\nthat MoLDS provides an effective framework for modeling complex neural data,\nand that Tensor-EM is a reliable approach to MoLDS learning for these\napplications.",
+  "authors": [
+    "Lulu Gong",
+    "Shreya Saxena"
+  ],
+  "published": "2025-10-07T16:17:52Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06091v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出一种混合张量-EM方法用于学习线性动态系统混合模型(MoLDS)，通过张量矩方法提供可识别性保证，再结合EM算法进行参数优化。该方法在合成数据和灵长类动物神经记录数据上验证了其鲁棒性和有效性，成功建模了不同运动条件下的神经动态模式。",
+  "order": 97,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06091v1"
+}

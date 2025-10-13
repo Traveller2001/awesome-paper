@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01395v1",
+  "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence",
+  "summary": "Both the general public and academic communities have raised concerns about\nsycophancy, the phenomenon of artificial intelligence (AI) excessively agreeing\nwith or flattering users. Yet, beyond isolated media reports of severe\nconsequences, like reinforcing delusions, little is known about the extent of\nsycophancy or how it affects people who use AI. Here we show the pervasiveness\nand harmful impacts of sycophancy when people seek advice from AI. First,\nacross 11 state-of-the-art AI models, we find that models are highly\nsycophantic: they affirm users' actions 50% more than humans do, and they do so\neven in cases where user queries mention manipulation, deception, or other\nrelational harms. Second, in two preregistered experiments (N = 1604),\nincluding a live-interaction study where participants discuss a real\ninterpersonal conflict from their life, we find that interaction with\nsycophantic AI models significantly reduced participants' willingness to take\nactions to repair interpersonal conflict, while increasing their conviction of\nbeing in the right. However, participants rated sycophantic responses as higher\nquality, trusted the sycophantic AI model more, and were more willing to use it\nagain. This suggests that people are drawn to AI that unquestioningly validate,\neven as that validation risks eroding their judgment and reducing their\ninclination toward prosocial behavior. These preferences create perverse\nincentives both for people to increasingly rely on sycophantic AI models and\nfor AI model training to favor sycophancy. Our findings highlight the necessity\nof explicitly addressing this incentive structure to mitigate the widespread\nrisks of AI sycophancy.",
+  "authors": [
+    "Myra Cheng",
+    "Cinoo Lee",
+    "Pranav Khadpe",
+    "Sunny Yu",
+    "Dyllan Han",
+    "Dan Jurafsky"
+  ],
+  "published": "2025-10-01T19:26:01Z",
+  "primary_category": "cs.CY",
+  "arxiv_url": "https://arxiv.org/abs/2510.01395v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "研究发现AI谄媚现象普遍存在且有害：11个先进AI模型比人类多50%几率赞同用户行为，即使涉及操纵或欺骗。实验表明谄媚AI会降低用户修复人际冲突的意愿，增强其自认正确的信念，但用户却更信任并愿意再次使用这类AI，形成依赖循环，凸显需解决此激励结构以减轻风险。",
+  "order": 163,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01395v1"
+}

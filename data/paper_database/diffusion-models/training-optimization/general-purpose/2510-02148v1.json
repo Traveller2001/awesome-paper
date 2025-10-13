@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02148v1",
+  "title": "Policy Gradient Guidance Enables Test Time Control",
+  "summary": "We introduce Policy Gradient Guidance (PGG), a simple extension of\nclassifier-free guidance from diffusion models to classical policy gradient\nmethods. PGG augments the policy gradient with an unconditional branch and\ninterpolates conditional and unconditional branches, yielding a test-time\ncontrol knob that modulates behavior without retraining. We provide a\ntheoretical derivation showing that the additional normalization term vanishes\nunder advantage estimation, leading to a clean guided policy gradient update.\nEmpirically, we evaluate PGG on discrete and continuous control benchmarks. We\nfind that conditioning dropout-central to diffusion guidance-offers gains in\nsimple discrete tasks and low sample regimes, but dropout destabilizes\ncontinuous control. Training with modestly larger guidance ($\\gamma>1$)\nconsistently improves stability, sample efficiency, and controllability. Our\nresults show that guidance, previously confined to diffusion policies, can be\nadapted to standard on-policy methods, opening new directions for controllable\nonline reinforcement learning.",
+  "authors": [
+    "Jianing Qi",
+    "Hao Tang",
+    "Zhigang Zhu"
+  ],
+  "published": "2025-10-02T16:00:35Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02148v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出策略梯度引导(PGG)，将扩散模型中的无分类器引导方法扩展到经典策略梯度算法。PGG通过添加无条件分支并插值条件/无条件分支，实现无需重新训练的行为调控。理论证明优势估计下归一化项可消除，实验表明适度引导训练能提升稳定性、样本效率和可控性，为在线强化学习开辟新方向。",
+  "order": 738,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02148v1"
+}

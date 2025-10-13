@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02014v1",
+  "title": "Normality Calibration in Semi-supervised Graph Anomaly Detection",
+  "summary": "Graph anomaly detection (GAD) has attracted growing interest for its crucial\nability to uncover irregular patterns in broad applications. Semi-supervised\nGAD, which assumes a subset of annotated normal nodes available during\ntraining, is among the most widely explored application settings. However, the\nnormality learned by existing semi-supervised GAD methods is limited to the\nlabeled normal nodes, often inclining to overfitting the given patterns. These\ncan lead to high detection errors, such as high false positives. To overcome\nthis limitation, we propose GraphNC , a graph normality calibration framework\nthat leverages both labeled and unlabeled data to calibrate the normality from\na teacher model (a pre-trained semi-supervised GAD model) jointly in anomaly\nscore and node representation spaces. GraphNC includes two main components,\nanomaly score distribution alignment (ScoreDA) and perturbation-based normality\nregularization (NormReg). ScoreDA optimizes the anomaly scores of our model by\naligning them with the score distribution yielded by the teacher model. Due to\naccurate scores in most of the normal nodes and part of the anomaly nodes in\nthe teacher model, the score alignment effectively pulls the anomaly scores of\nthe normal and abnormal classes toward the two ends, resulting in more\nseparable anomaly scores. Nevertheless, there are inaccurate scores from the\nteacher model. To mitigate the misleading by these scores, NormReg is designed\nto regularize the graph normality in the representation space, making the\nrepresentations of normal nodes more compact by minimizing a\nperturbation-guided consistency loss solely on the labeled nodes.",
+  "authors": [
+    "Guolei Zeng",
+    "Hezhe Qiao",
+    "Guoguo Ai",
+    "Jinsong Guo",
+    "Guansong Pang"
+  ],
+  "published": "2025-10-02T13:36:04Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02014v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出GraphNC框架解决半监督图异常检测中的过拟合问题，通过异常分数分布对齐和扰动正则化校准节点正常性，在分数和表示空间联合优化，提升检测准确性。",
+  "order": 762,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02014v1"
+}

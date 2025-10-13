@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00683v1",
+  "title": "ProtoMask: Segmentation-Guided Prototype Learning",
+  "summary": "XAI gained considerable importance in recent years. Methods based on\nprototypical case-based reasoning have shown a promising improvement in\nexplainability. However, these methods typically rely on additional post-hoc\nsaliency techniques to explain the semantics of learned prototypes. Multiple\ncritiques have been raised about the reliability and quality of such\ntechniques. For this reason, we study the use of prominent image segmentation\nfoundation models to improve the truthfulness of the mapping between embedding\nand input space. We aim to restrict the computation area of the saliency map to\na predefined semantic image patch to reduce the uncertainty of such\nvisualizations. To perceive the information of an entire image, we use the\nbounding box from each generated segmentation mask to crop the image. Each mask\nresults in an individual input in our novel model architecture named ProtoMask.\nWe conduct experiments on three popular fine-grained classification datasets\nwith a wide set of metrics, providing a detailed overview on explainability\ncharacteristics. The comparison with other popular models demonstrates\ncompetitive performance and unique explainability features of our model.\nhttps://github.com/uos-sis/quanproto",
+  "authors": [
+    "Steffen Meinert",
+    "Philipp Schlinge",
+    "Nils Strodthoff",
+    "Martin Atzmueller"
+  ],
+  "published": "2025-10-01T09:07:24Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00683v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "ProtoMask提出了一种基于分割引导的原型学习方法，通过图像分割基础模型改进可解释AI中原型与输入空间的映射真实性。该模型利用分割掩码裁剪图像区域作为独立输入，在细粒度分类任务中展现出竞争力的性能和独特的可解释性特征。",
+  "order": 640,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00683v1"
+}

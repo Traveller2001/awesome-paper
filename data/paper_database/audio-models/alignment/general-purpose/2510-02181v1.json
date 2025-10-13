@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.02181v1",
+  "title": "EvolveCaptions: Empowering DHH Users Through Real-Time Collaborative\n  Captioning",
+  "summary": "Automatic Speech Recognition (ASR) systems often fail to accurately\ntranscribe speech from Deaf and Hard of Hearing (DHH) individuals, especially\nduring real-time conversations. Existing personalization approaches typically\nrequire extensive pre-recorded data and place the burden of adaptation on the\nDHH speaker. We present EvolveCaptions, a real-time, collaborative ASR\nadaptation system that supports in-situ personalization with minimal effort.\nHearing participants correct ASR errors during live conversations. Based on\nthese corrections, the system generates short, phonetically targeted prompts\nfor the DHH speaker to record, which are then used to fine-tune the ASR model.\nIn a study with 12 DHH and six hearing participants, EvolveCaptions reduced\nWord Error Rate (WER) across all DHH users within one hour of use, using only\nfive minutes of recording time on average. Participants described the system as\nintuitive, low-effort, and well-integrated into communication. These findings\ndemonstrate the promise of collaborative, real-time ASR adaptation for more\nequitable communication.",
+  "authors": [
+    "Liang-Yuan Wu",
+    "Dhruv Jain"
+  ],
+  "published": "2025-10-02T16:32:29Z",
+  "primary_category": "cs.HC",
+  "arxiv_url": "https://arxiv.org/abs/2510.02181v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "EvolveCaptions是一个实时协作式ASR自适应系统，通过听力参与者纠正语音识别错误，生成针对性语音提示让听障用户录制，从而快速优化ASR模型。研究表明，该系统在一小时内显著降低了所有听障用户的词错误率，仅需平均五分钟录音时间，被评价为直观低耗的沟通解决方案。",
+  "order": 31,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02181v1"
+}

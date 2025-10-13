@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00771v1",
+  "title": "UniverSR: Unified and Versatile Audio Super-Resolution via Vocoder-Free\n  Flow Matching",
+  "summary": "In this paper, we present a vocoder-free framework for audio super-resolution\nthat employs a flow matching generative model to capture the conditional\ndistribution of complex-valued spectral coefficients. Unlike conventional\ntwo-stage diffusion-based approaches that predict a mel-spectrogram and then\nrely on a pre-trained neural vocoder to synthesize waveforms, our method\ndirectly reconstructs waveforms via the inverse Short-Time Fourier Transform\n(iSTFT), thereby eliminating the dependence on a separate vocoder. This design\nnot only simplifies end-to-end optimization but also overcomes a critical\nbottleneck of two-stage pipelines, where the final audio quality is\nfundamentally constrained by vocoder performance. Experiments show that our\nmodel consistently produces high-fidelity 48 kHz audio across diverse\nupsampling factors, achieving state-of-the-art performance on both speech and\ngeneral audio datasets.",
+  "authors": [
+    "Woongjib Choi",
+    "Sangmin Lee",
+    "Hyungseob Lim",
+    "Hong-Goo Kang"
+  ],
+  "published": "2025-10-01T11:04:53Z",
+  "primary_category": "eess.AS",
+  "arxiv_url": "https://arxiv.org/abs/2510.00771v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "UniverSR提出了一种无需声码器的音频超分辨率框架，采用流匹配生成模型直接重建波形，避免了传统两阶段方法对声码器的依赖。该模型通过逆短时傅里叶变换实现端到端优化，在多种上采样因子下均能生成48kHz高保真音频，在语音和通用音频数据集上达到最先进性能。",
+  "order": 250,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00771v1"
+}

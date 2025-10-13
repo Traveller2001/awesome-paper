@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06584v1",
+  "title": "Improving Artifact Robustness for CT Deep Learning Models Without\n  Labeled Artifact Images via Domain Adaptation",
+  "summary": "Deep learning models which perform well on images from their training\ndistribution can degrade substantially when applied to new distributions. If a\nCT scanner introduces a new artifact not present in the training labels, the\nmodel may misclassify the images. Although modern CT scanners include design\nfeatures which mitigate these artifacts, unanticipated or difficult-to-mitigate\nartifacts can still appear in practice. The direct solution of labeling images\nfrom this new distribution can be costly. As a more accessible alternative,\nthis study evaluates domain adaptation as an approach for training models that\nmaintain classification performance despite new artifacts, even without\ncorresponding labels. We simulate ring artifacts from detector gain error in\nsinogram space and evaluate domain adversarial neural networks (DANN) against\nbaseline and augmentation-based approaches on the OrganAMNIST abdominal CT\ndataset. Our results demonstrate that baseline models trained only on clean\nimages fail to generalize to images with ring artifacts, and traditional\naugmentation with other distortion types provides no improvement on unseen\nartifact domains. In contrast, the DANN approach successfully maintains high\nclassification accuracy on ring artifact images using only unlabeled artifact\ndata during training, demonstrating the viability of domain adaptation for\nartifact robustness. The domain-adapted model achieved classification\nperformance on ring artifact test data comparable to models explicitly trained\nwith labeled artifact images, while also showing unexpected generalization to\nuniform noise. These findings provide empirical evidence that domain adaptation\ncan effectively address distribution shift in medical imaging without requiring\nexpensive expert labeling of new artifact distributions, suggesting promise for\ndeployment in clinical settings where novel artifacts may emerge.",
+  "authors": [
+    "Justin Cheung",
+    "Samuel Savine",
+    "Calvin Nguyen",
+    "Lin Lu",
+    "Alhassan S. Yasin"
+  ],
+  "published": "2025-10-08T02:27:09Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06584v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出使用领域自适应方法提升CT深度学习模型对伪影的鲁棒性，无需标注含伪影图像。通过在OrganAMNIST腹部CT数据集上模拟环形伪影，验证了领域对抗神经网络能有效维持分类准确率，性能接近使用标注伪影图像训练的模型，为临床中应对新型伪影提供了经济有效的解决方案。",
+  "order": 159,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06584v1"
+}

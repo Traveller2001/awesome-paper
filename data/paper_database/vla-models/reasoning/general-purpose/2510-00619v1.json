@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00619v1",
+  "title": "What Did I Learn? Operational Competence Assessment for AI-Based\n  Trajectory Planners",
+  "summary": "Automated driving functions increasingly rely on machine learning for tasks\nlike perception and trajectory planning, requiring large, relevant datasets.\nThe performance of these algorithms depends on how closely the training data\nmatches the task. To ensure reliable functioning, it is crucial to know what is\nincluded in the dataset to assess the trained model's operational risk. We aim\nto enhance the safe use of machine learning in automated driving by developing\na method to recognize situations that an automated vehicle has not been\nsufficiently trained on. This method also improves explainability by describing\nthe dataset at a human-understandable level. We propose modeling driving data\nas knowledge graphs, representing driving scenes with entities and their\nrelationships. These graphs are queried for specific sub-scene configurations\nto check their occurrence in the dataset. We estimate a vehicle's competence in\na driving scene by considering the coverage and complexity of sub-scene\nconfigurations in the training set. Higher complexity scenes require greater\ncoverage for high competence. We apply this method to the NuPlan dataset,\nmodeling it with knowledge graphs and analyzing the coverage of specific\ndriving scenes. This approach helps monitor the competence of machine learning\nmodels trained on the dataset, which is essential for trustworthy AI to be\ndeployed in automated driving.",
+  "authors": [
+    "Michiel Braat",
+    "Maren Buermann",
+    "Marijke van Weperen",
+    "Jan-Pieter Paardekooper"
+  ],
+  "published": "2025-10-01T07:46:50Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.00619v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于知识图谱的自动驾驶轨迹规划器能力评估方法，通过将驾驶场景建模为实体关系图，查询训练数据中特定子场景配置的覆盖情况，从而评估AI模型在未充分训练场景中的操作风险，增强自动驾驶中机器学习的可靠性和可解释性。",
+  "order": 272,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00619v1"
+}

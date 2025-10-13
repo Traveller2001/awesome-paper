@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.06195v1",
+  "title": "Latent Speech-Text Transformer",
+  "summary": "Auto-regressive speech-text models are typically pre-trained on a large\nnumber of interleaved sequences of text tokens and raw speech encoded as speech\ntokens using vector quantization. These models have demonstrated\nstate-of-the-art performance in speech-to-speech understanding and generation\nbenchmarks, together with promising scaling laws, primarily enabled by the\nrepresentational alignment between text and speech. Nevertheless, they suffer\nfrom shortcomings, partly owing to the disproportionately longer sequences of\nspeech tokens in contrast to textual tokens. This results in a large compute\nimbalance between modalities during pre-training as well as during inference,\nand a potential hindrance to effectively aligning speech and text, ultimately\ntranslating to several orders of magnitude slower scaling laws. We introduce\nthe Latent Speech-Text Transformer (LST), which makes pre-training speech-text\nmodels more data-efficient by dynamically and inexpensively aggregating speech\ntokens into latent speech patches. These patches serve as higher-level units\nthat can either align with corresponding textual units to aid capability\ntransfer or even encapsulate common speech sequences like silences to be more\ncompute-efficient. We show that LST outperforms vanilla approaches on\nspeech-to-speech as well as text-to-text benchmarks in both data- and\ncompute-controlled settings, the former indicating more effective\nrepresentational alignment and the latter indicating steeper scaling laws for\nspeech-text models. On HellaSwag story completion, LST achieves 6.5% absolute\ngain in speech accuracy under compute-controlled training and 5.3% under\ndata-controlled training, while also improving text performance. We will\nrelease our models, code, and the evaluation data to facilitate further\nresearch.",
+  "authors": [
+    "Yen-Ju Lu",
+    "Yashesh Gaur",
+    "Wei Zhou",
+    "Benjamin Muller",
+    "Jesus Villalba",
+    "Najim Dehak",
+    "Luke Zettlemoyer",
+    "Gargi Ghosh",
+    "Mike Lewis",
+    "Srinivasan Iyer",
+    "Duc Le"
+  ],
+  "published": "2025-10-07T17:52:08Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06195v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出潜在语音-文本变换器(LST)，通过动态聚合语音标记为潜在语音片段，解决语音-文本模型中语音序列过长导致的训练和推理效率问题。该方法在数据和计算受限条件下均优于传统方法，在HellaSwag任务上语音准确率提升6.5%，同时改善了文本性能，展现了更优的表示对齐和扩展规律。",
+  "order": 8,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06195v1"
+}

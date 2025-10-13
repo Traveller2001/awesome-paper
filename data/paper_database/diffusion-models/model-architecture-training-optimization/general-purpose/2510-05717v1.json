@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.05717v1",
+  "title": "DiffSDA: Unsupervised Diffusion Sequential Disentanglement Across\n  Modalities",
+  "summary": "Unsupervised representation learning, particularly sequential\ndisentanglement, aims to separate static and dynamic factors of variation in\ndata without relying on labels. This remains a challenging problem, as existing\napproaches based on variational autoencoders and generative adversarial\nnetworks often rely on multiple loss terms, complicating the optimization\nprocess. Furthermore, sequential disentanglement methods face challenges when\napplied to real-world data, and there is currently no established evaluation\nprotocol for assessing their performance in such settings. Recently, diffusion\nmodels have emerged as state-of-the-art generative models, but no theoretical\nformalization exists for their application to sequential disentanglement. In\nthis work, we introduce the Diffusion Sequential Disentanglement Autoencoder\n(DiffSDA), a novel, modal-agnostic framework effective across diverse\nreal-world data modalities, including time series, video, and audio. DiffSDA\nleverages a new probabilistic modeling, latent diffusion, and efficient\nsamplers, while incorporating a challenging evaluation protocol for rigorous\ntesting. Our experiments on diverse real-world benchmarks demonstrate that\nDiffSDA outperforms recent state-of-the-art methods in sequential\ndisentanglement.",
+  "authors": [
+    "Hedi Zisling",
+    "Ilan Naiman",
+    "Nimrod Berman",
+    "Supasorn Suwajanakorn",
+    "Omri Azencot"
+  ],
+  "published": "2025-10-07T09:30:36Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05717v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DiffSDA，一种基于扩散模型的无监督序列解缠框架，能够跨模态分离数据的静态与动态特征。该模型通过概率建模、潜在扩散和高效采样器，在时间序列、视频和音频等多种真实数据上优于现有方法，并建立了严格的评估协议。",
+  "order": 127,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05717v1"
+}

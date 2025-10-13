@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01688v1",
+  "title": "Format Inertia: A Failure Mechanism of LLMs in Medical Pre-Consultation",
+  "summary": "Recent advances in Large Language Models (LLMs) have brought significant\nimprovements to various service domains, including chatbots and medical\npre-consultation applications. In the healthcare domain, the most common\napproach for adapting LLMs to multi-turn dialogue generation is Supervised\nFine-Tuning (SFT). However, datasets for SFT in tasks like medical\npre-consultation typically exhibit a skewed turn-count distribution. Training\non such data induces a novel failure mechanism we term **Format Inertia**,\nwhere models tend to generate repetitive, format-correct, but diagnostically\nuninformative questions in long medical dialogues. To mitigate this observed\nfailure mechanism, we adopt a simple, data-centric method that rebalances the\nturn-count distribution of the training dataset. Experimental results show that\nour approach substantially alleviates Format Inertia in medical\npre-consultation.",
+  "authors": [
+    "Seungseop Lim",
+    "Gibaeg Kim",
+    "Wooseok Han",
+    "Jean Seo",
+    "Hyunkyung Lee",
+    "Jaehyo Yoo",
+    "Eunho Yang"
+  ],
+  "published": "2025-10-02T05:29:38Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01688v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出大语言模型在医疗预咨询中存在'格式惯性'失效机制，即模型在长对话中倾向于生成重复但诊断信息不足的问题。通过重新平衡训练数据的轮次分布，可有效缓解此问题。",
+  "order": 374,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01688v1"
+}

@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2510.06209v1",
+  "title": "Drive&Gen: Co-Evaluating End-to-End Driving and Video Generation Models",
+  "summary": "Recent advances in generative models have sparked exciting new possibilities\nin the field of autonomous vehicles. Specifically, video generation models are\nnow being explored as controllable virtual testing environments.\nSimultaneously, end-to-end (E2E) driving models have emerged as a streamlined\nalternative to conventional modular autonomous driving systems, gaining\npopularity for their simplicity and scalability. However, the application of\nthese techniques to simulation and planning raises important questions. First,\nwhile video generation models can generate increasingly realistic videos, can\nthese videos faithfully adhere to the specified conditions and be realistic\nenough for E2E autonomous planner evaluation? Second, given that data is\ncrucial for understanding and controlling E2E planners, how can we gain deeper\ninsights into their biases and improve their ability to generalize to\nout-of-distribution scenarios? In this work, we bridge the gap between the\ndriving models and generative world models (Drive&Gen) to address these\nquestions. We propose novel statistical measures leveraging E2E drivers to\nevaluate the realism of generated videos. By exploiting the controllability of\nthe video generation model, we conduct targeted experiments to investigate\ndistribution gaps affecting E2E planner performance. Finally, we show that\nsynthetic data produced by the video generation model offers a cost-effective\nalternative to real-world data collection. This synthetic data effectively\nimproves E2E model generalization beyond existing Operational Design Domains,\nfacilitating the expansion of autonomous vehicle services into new operational\ncontexts.",
+  "authors": [
+    "Jiahao Wang",
+    "Zhenpei Yang",
+    "Yijing Bai",
+    "Yingwei Li",
+    "Yuliang Zou",
+    "Bo Sun",
+    "Abhijit Kundu",
+    "Jose Lezama",
+    "Luna Yue Huang",
+    "Zehao Zhu",
+    "Jyh-Jing Hwang",
+    "Dragomir Anguelov",
+    "Mingxing Tan",
+    "Chiyu Max Jiang"
+  ],
+  "published": "2025-10-07T17:58:32Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06209v1",
+  "primary_area": "video_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Drive&Gen框架，通过端到端驾驶模型评估生成视频的真实性，并利用可控视频生成探索分布差距对自动驾驶规划器的影响。研究表明生成视频数据可有效替代真实数据收集，提升模型在未知场景的泛化能力，为自动驾驶测试提供经济高效的解决方案。",
+  "order": 61,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06209v1"
+}

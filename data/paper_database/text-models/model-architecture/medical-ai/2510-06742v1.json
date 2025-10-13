@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06742v1",
+  "title": "MultiCNKG: Integrating Cognitive Neuroscience, Gene, and Disease\n  Knowledge Graphs Using Large Language Models",
+  "summary": "The advent of large language models (LLMs) has revolutionized the integration\nof knowledge graphs (KGs) in biomedical and cognitive sciences, overcoming\nlimitations in traditional machine learning methods for capturing intricate\nsemantic links among genes, diseases, and cognitive processes. We introduce\nMultiCNKG, an innovative framework that merges three key knowledge sources: the\nCognitive Neuroscience Knowledge Graph (CNKG) with 2.9K nodes and 4.3K edges\nacross 9 node types and 20 edge types; Gene Ontology (GO) featuring 43K nodes\nand 75K edges in 3 node types and 4 edge types; and Disease Ontology (DO)\ncomprising 11.2K nodes and 8.8K edges with 1 node type and 2 edge types.\nLeveraging LLMs like GPT-4, we conduct entity alignment, semantic similarity\ncomputation, and graph augmentation to create a cohesive KG that interconnects\ngenetic mechanisms, neurological disorders, and cognitive functions. The\nresulting MultiCNKG encompasses 6.9K nodes across 5 types (e.g., Genes,\nDiseases, Cognitive Processes) and 11.3K edges spanning 7 types (e.g., Causes,\nAssociated with, Regulates), facilitating a multi-layered view from molecular\nto behavioral domains. Assessments using metrics such as precision (85.20%),\nrecall (87.30%), coverage (92.18%), graph consistency (82.50%), novelty\ndetection (40.28%), and expert validation (89.50%) affirm its robustness and\ncoherence. Link prediction evaluations with models like TransE (MR: 391, MRR:\n0.411) and RotatE (MR: 263, MRR: 0.395) show competitive performance against\nbenchmarks like FB15k-237 and WN18RR. This KG advances applications in\npersonalized medicine, cognitive disorder diagnostics, and hypothesis\nformulation in cognitive neuroscience.",
+  "authors": [
+    "Ali Sarabadani",
+    "Kheirolah Rahsepar Fard"
+  ],
+  "published": "2025-10-08T07:59:32Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06742v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出MultiCNKG框架，利用大语言模型整合认知神经科学、基因和疾病知识图谱，构建包含6.9K节点和11.3K边的统一知识网络。通过实体对齐和图增强技术连接遗传机制、神经疾病与认知功能，在精准医疗和认知障碍诊断等场景展现应用潜力，各项评估指标表现优异。",
+  "order": 17,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06742v1"
+}

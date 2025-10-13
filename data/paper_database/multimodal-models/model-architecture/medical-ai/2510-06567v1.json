@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06567v1",
+  "title": "The Framework That Survives Bad Models: Human-AI Collaboration For\n  Clinical Trials",
+  "summary": "Artificial intelligence (AI) holds great promise for supporting clinical\ntrials, from patient recruitment and endpoint assessment to treatment response\nprediction. However, deploying AI without safeguards poses significant risks,\nparticularly when evaluating patient endpoints that directly impact trial\nconclusions. We compared two AI frameworks against human-only assessment for\nmedical image-based disease evaluation, measuring cost, accuracy, robustness,\nand generalization ability. To stress-test these frameworks, we injected bad\nmodels, ranging from random guesses to naive predictions, to ensure that\nobserved treatment effects remain valid even under severe model degradation. We\nevaluated the frameworks using two randomized controlled trials with endpoints\nderived from spinal X-ray images. Our findings indicate that using AI as a\nsupporting reader (AI-SR) is the most suitable approach for clinical trials, as\nit meets all criteria across various model types, even with bad models. This\nmethod consistently provides reliable disease estimation, preserves clinical\ntrial treatment effect estimates and conclusions, and retains these advantages\nwhen applied to different populations.",
+  "authors": [
+    "Yao Chen",
+    "David Ohlssen",
+    "Aimee Readie",
+    "Gregory Ligozio",
+    "Ruvie Martin",
+    "Thibaud Coroller"
+  ],
+  "published": "2025-10-08T01:40:41Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06567v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出一种在临床试验中的人机协作框架，通过将AI作为辅助阅读器（AI-SR），即使在模型性能严重退化的情况下，仍能保持疾病评估的可靠性，确保临床试验结论的有效性。该框架在脊柱X光图像的随机对照试验中验证了其成本、准确性、鲁棒性和泛化能力的优势。",
+  "order": 234,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06567v1"
+}

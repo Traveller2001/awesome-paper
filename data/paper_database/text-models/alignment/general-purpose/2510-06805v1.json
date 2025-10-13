@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06805v1",
+  "title": "Overview of the Plagiarism Detection Task at PAN 2025",
+  "summary": "The generative plagiarism detection task at PAN 2025 aims at identifying\nautomatically generated textual plagiarism in scientific articles and aligning\nthem with their respective sources. We created a novel large-scale dataset of\nautomatically generated plagiarism using three large language models: Llama,\nDeepSeek-R1, and Mistral. In this task overview paper, we outline the creation\nof this dataset, summarize and compare the results of all participants and four\nbaselines, and evaluate the results on the last plagiarism detection task from\nPAN 2015 in order to interpret the robustness of the proposed approaches. We\nfound that the current iteration does not invite a large variety of approaches\nas naive semantic similarity approaches based on embedding vectors provide\npromising results of up to 0.8 recall and 0.5 precision. In contrast, most of\nthese approaches underperform significantly on the 2015 dataset, indicating a\nlack in generalizability.",
+  "authors": [
+    "André Greiner-Petter",
+    "Maik Fröbe",
+    "Jan Philip Wahle",
+    "Terry Ruas",
+    "Bela Gipp",
+    "Akiko Aizawa",
+    "Martin Potthast"
+  ],
+  "published": "2025-10-08T09:33:26Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06805v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "PAN 2025抄袭检测任务聚焦于识别科学论文中由大语言模型生成的文本抄袭，并溯源至原文。研究构建了基于Llama、DeepSeek-R1和Mistral的大规模生成式抄袭数据集，评估发现当前方法多依赖嵌入向量语义相似度（召回率达0.8，精确度0.5），但在2015年数据集上泛化能力显著不足。",
+  "order": 78,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06805v1"
+}

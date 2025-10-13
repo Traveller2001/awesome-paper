@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.00829v1",
+  "title": "Exposing the Cracks: Vulnerabilities of Retrieval-Augmented LLM-based\n  Machine Translation",
+  "summary": "\\textbf{RE}trieval-\\textbf{A}ugmented \\textbf{L}LM-based \\textbf{M}achine\n\\textbf{T}ranslation (REAL-MT) shows promise for knowledge-intensive tasks like\nidiomatic translation, but its reliability under noisy retrieval contexts\nremains poorly understood despite this being a common challenge in real-world\ndeployment. To address this gap, we propose a noise synthesis framework and new\nmetrics to evaluate the robustness of REAL-MT systematically. Using this\nframework, we instantiate REAL-MT with Qwen-series models, including standard\nLLMs and large reasoning models (LRMs) with enhanced reasoning, and evaluate\ntheir performance on idiomatic translation across high-, medium-, and\nlow-resource language pairs under synthesized noise. Our results show that\nlow-resource language pairs, which rely more heavily on retrieved context,\ndegrade more severely under noise than high-resource ones and often produce\nnonsensical translations. Although LRMs possess enhanced reasoning\ncapabilities, they show no improvement in error correction and are even more\nsusceptible to noise, tending to rationalize incorrect contexts. We find that\nthis stems from an attention shift away from the source idiom to noisy content,\nwhile confidence increases despite declining accuracy, indicating poor\ncalibration. To mitigate these issues, we investigate training-free and\nfine-tuning strategies, which improve robustness at the cost of performance in\nclean contexts, revealing a fundamental trade-off. Our findings highlight the\nlimitations of current approaches, underscoring the need for self-verifying\nintegration mechanisms.",
+  "authors": [
+    "Yanming Sun",
+    "Runzhe Zhan",
+    "Chi Seng Cheang",
+    "Han Wu",
+    "Xuebo Liu",
+    "Yuyao Niu",
+    "Fengying Ye",
+    "Kaixin Lan",
+    "Lidia S. Chao",
+    "Derek F. Wong"
+  ],
+  "published": "2025-10-01T12:43:55Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00829v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究系统评估了检索增强LLM机器翻译(REAL-MT)在噪声环境下的鲁棒性。通过构建噪声合成框架，发现低资源语言对在噪声干扰下性能急剧下降，大推理模型虽具增强推理能力但更易受噪声影响且会合理化错误上下文。研究揭示了注意力从源语习语向噪声内容偏移的问题，并提出无需训练与微调两种改进策略，在清洁语境性能与噪声鲁棒性间存在根本性权衡。",
+  "order": 449,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00829v1"
+}

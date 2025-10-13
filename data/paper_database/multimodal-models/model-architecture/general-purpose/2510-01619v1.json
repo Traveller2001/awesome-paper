@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01619v1",
+  "title": "MPMAvatar: Learning 3D Gaussian Avatars with Accurate and Robust\n  Physics-Based Dynamics",
+  "summary": "While there has been significant progress in the field of 3D avatar creation\nfrom visual observations, modeling physically plausible dynamics of humans with\nloose garments remains a challenging problem. Although a few existing works\naddress this problem by leveraging physical simulation, they suffer from\nlimited accuracy or robustness to novel animation inputs. In this work, we\npresent MPMAvatar, a framework for creating 3D human avatars from multi-view\nvideos that supports highly realistic, robust animation, as well as\nphotorealistic rendering from free viewpoints. For accurate and robust dynamics\nmodeling, our key idea is to use a Material Point Method-based simulator, which\nwe carefully tailor to model garments with complex deformations and contact\nwith the underlying body by incorporating an anisotropic constitutive model and\na novel collision handling algorithm. We combine this dynamics modeling scheme\nwith our canonical avatar that can be rendered using 3D Gaussian Splatting with\nquasi-shadowing, enabling high-fidelity rendering for physically realistic\nanimations. In our experiments, we demonstrate that MPMAvatar significantly\noutperforms the existing state-of-the-art physics-based avatar in terms of (1)\ndynamics modeling accuracy, (2) rendering accuracy, and (3) robustness and\nefficiency. Additionally, we present a novel application in which our avatar\ngeneralizes to unseen interactions in a zero-shot manner-which was not\nachievable with previous learning-based methods due to their limited simulation\ngeneralizability. Our project page is at:\nhttps://KAISTChangmin.github.io/MPMAvatar/",
+  "authors": [
+    "Changmin Lee",
+    "Jihyun Lee",
+    "Tae-Kyun Kim"
+  ],
+  "published": "2025-10-02T02:51:45Z",
+  "primary_category": "cs.GR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01619v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "MPMAvatar提出了一种基于物质点法的3D高斯化身框架，通过各向异性本构模型和新型碰撞处理算法，实现了松散衣物物理动力学的精确建模与高保真渲染，在动态精度、渲染质量和鲁棒性方面超越现有方法。",
+  "order": 566,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01619v1"
+}

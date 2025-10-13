@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.07202v1",
+  "title": "An in-depth look at approximation via deep and narrow neural networks",
+  "summary": "In 2017, Hanin and Sellke showed that the class of arbitrarily deep,\nreal-valued, feed-forward and ReLU-activated networks of width w forms a dense\nsubset of the space of continuous functions on R^n, with respect to the\ntopology of uniform convergence on compact sets, if and only if w>n holds. To\nshow the necessity, a concrete counterexample function f:R^n->R was used. In\nthis note we actually approximate this very f by neural networks in the two\ncases w=n and w=n+1 around the aforementioned threshold. We study how the\napproximation quality behaves if we vary the depth and what effect (spoiler\nalert: dying neurons) cause that behavior.",
+  "authors": [
+    "Joris Dommel",
+    "Sven A. Wegner"
+  ],
+  "published": "2025-10-08T16:34:45Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07202v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究深入探讨了深度窄神经网络在函数逼近中的表现，聚焦于宽度w=n和w=n+1两种临界情况。通过分析Hanin和Sellke提出的反例函数，揭示了网络深度对逼近质量的影响规律，并发现'神经元死亡'现象是导致特定宽度下逼近能力受限的关键因素。",
+  "order": 174,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07202v1"
+}

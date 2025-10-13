@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07173v1",
+  "title": "NurseLLM: The First Specialized Language Model for Nursing",
+  "summary": "Recent advancements in large language models (LLMs) have significantly\ntransformed medical systems. However, their potential within specialized\ndomains such as nursing remains largely underexplored. In this work, we\nintroduce NurseLLM, the first nursing-specialized LLM tailored for multiple\nchoice question-answering (MCQ) tasks. We develop a multi-stage data generation\npipeline to build the first large scale nursing MCQ dataset to train LLMs on a\nbroad spectrum of nursing topics. We further introduce multiple nursing\nbenchmarks to enable rigorous evaluation. Our extensive experiments demonstrate\nthat NurseLLM outperforms SoTA general-purpose and medical-specialized LLMs of\ncomparable size on different benchmarks, underscoring the importance of a\nspecialized LLM for the nursing domain. Finally, we explore the role of\nreasoning and multi-agent collaboration systems in nursing, highlighting their\npromise for future research and applications.",
+  "authors": [
+    "Md Tawkat Islam Khondaker",
+    "Julia Harrington",
+    "Shady Shehata"
+  ],
+  "published": "2025-10-08T16:15:06Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07173v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出首个护理领域专用大语言模型NurseLLM，通过多阶段数据生成流程构建大规模护理选择题数据集，在多项护理基准测试中超越同类通用及医疗专用模型，并探索了推理与多智能体协作在护理领域的应用潜力。",
+  "order": 45,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07173v1"
+}

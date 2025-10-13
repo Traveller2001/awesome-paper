@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02302v1",
+  "title": "Knowledge Distillation Detection for Open-weights Models",
+  "summary": "We propose the task of knowledge distillation detection, which aims to\ndetermine whether a student model has been distilled from a given teacher,\nunder a practical setting where only the student's weights and the teacher's\nAPI are available. This problem is motivated by growing concerns about model\nprovenance and unauthorized replication through distillation. To address this\ntask, we introduce a model-agnostic framework that combines data-free input\nsynthesis and statistical score computation for detecting distillation. Our\napproach is applicable to both classification and generative models.\nExperiments on diverse architectures for image classification and text-to-image\ngeneration show that our method improves detection accuracy over the strongest\nbaselines by 59.6% on CIFAR-10, 71.2% on ImageNet, and 20.0% for text-to-image\ngeneration. The code is available at\nhttps://github.com/shqii1j/distillation_detection.",
+  "authors": [
+    "Qin Shi",
+    "Amber Yijia Zheng",
+    "Qifan Song",
+    "Raymond A. Yeh"
+  ],
+  "published": "2025-10-02T17:59:14Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02302v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出知识蒸馏检测任务，旨在判断学生模型是否从给定教师模型蒸馏而来。开发了一种模型无关框架，结合无数据输入合成和统计评分方法，适用于分类和生成模型。实验显示在多个数据集上检测准确率显著提升。",
+  "order": 693,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02302v1"
+}

@@ -1,0 +1,33 @@
+{
+  "arxiv_id": "2510.01164v1",
+  "title": "Social Welfare Function Leaderboard: When LLM Agents Allocate Social\n  Welfare",
+  "summary": "Large language models (LLMs) are increasingly entrusted with high-stakes\ndecisions that affect human welfare. However, the principles and values that\nguide these models when distributing scarce societal resources remain largely\nunexamined. To address this, we introduce the Social Welfare Function (SWF)\nBenchmark, a dynamic simulation environment where an LLM acts as a sovereign\nallocator, distributing tasks to a heterogeneous community of recipients. The\nbenchmark is designed to create a persistent trade-off between maximizing\ncollective efficiency (measured by Return on Investment) and ensuring\ndistributive fairness (measured by the Gini coefficient). We evaluate 20\nstate-of-the-art LLMs and present the first leaderboard for social welfare\nallocation. Our findings reveal three key insights: (i) A model's general\nconversational ability, as measured by popular leaderboards, is a poor\npredictor of its allocation skill. (ii) Most LLMs exhibit a strong default\nutilitarian orientation, prioritizing group productivity at the expense of\nsevere inequality. (iii) Allocation strategies are highly vulnerable, easily\nperturbed by output-length constraints and social-influence framing. These\nresults highlight the risks of deploying current LLMs as societal\ndecision-makers and underscore the need for specialized benchmarks and targeted\nalignment for AI governance.",
+  "authors": [
+    "Zhengliang Shi",
+    "Ruotian Ma",
+    "Jen-tse Huang",
+    "Xinbei Ma",
+    "Xingyu Chen",
+    "Mengru Wang",
+    "Qu Yang",
+    "Yue Wang",
+    "Fanghua Ye",
+    "Ziyang Chen",
+    "Shanyi Wang",
+    "Cixing Li",
+    "Wenxuan Wang",
+    "Zhaopeng Tu",
+    "Xiaolong Li",
+    "Zhaochun Ren",
+    "Linus"
+  ],
+  "published": "2025-10-01T17:52:31Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01164v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究引入社会福利函数基准测试，评估20个先进大语言模型在资源分配中的表现。研究发现：模型对话能力与分配技能无关；多数模型呈现功利主义倾向，牺牲公平追求效率；分配策略易受输出长度和社会框架影响。结果揭示了当前LLM作为社会决策者的风险，强调需要专门基准和针对性对齐。",
+  "order": 421,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01164v1"
+}

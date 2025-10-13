@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01645v1",
+  "title": "Position: Privacy Is Not Just Memorization!",
+  "summary": "The discourse on privacy risks in Large Language Models (LLMs) has\ndisproportionately focused on verbatim memorization of training data, while a\nconstellation of more immediate and scalable privacy threats remain\nunderexplored. This position paper argues that the privacy landscape of LLM\nsystems extends far beyond training data extraction, encompassing risks from\ndata collection practices, inference-time context leakage, autonomous agent\ncapabilities, and the democratization of surveillance through deep inference\nattacks. We present a comprehensive taxonomy of privacy risks across the LLM\nlifecycle -- from data collection through deployment -- and demonstrate through\ncase studies how current privacy frameworks fail to address these multifaceted\nthreats. Through a longitudinal analysis of 1,322 AI/ML privacy papers\npublished at leading conferences over the past decade (2016--2025), we reveal\nthat while memorization receives outsized attention in technical research, the\nmost pressing privacy harms lie elsewhere, where current technical approaches\noffer little traction and viable paths forward remain unclear. We call for a\nfundamental shift in how the research community approaches LLM privacy, moving\nbeyond the narrow focus of current technical solutions and embracing\ninterdisciplinary approaches that address the sociotechnical nature of these\nemerging threats.",
+  "authors": [
+    "Niloofar Mireshghallah",
+    "Tianshi Li"
+  ],
+  "published": "2025-10-02T04:02:06Z",
+  "primary_category": "cs.CR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01645v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文主张大语言模型隐私风险不应仅关注训练数据记忆，而需全面审视数据收集、推理时上下文泄露、自主代理能力及深度推理攻击等更紧迫威胁。通过对1322篇隐私论文的分析，揭示当前技术方案对核心隐私危害缺乏有效应对，呼吁研究社区转向跨学科的社会技术方法。",
+  "order": 382,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01645v1"
+}

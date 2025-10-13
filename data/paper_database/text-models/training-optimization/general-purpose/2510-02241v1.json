@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02241v1",
+  "title": "Study on LLMs for Promptagator-Style Dense Retriever Training",
+  "summary": "Promptagator demonstrated that Large Language Models (LLMs) with few-shot\nprompts can be used as task-specific query generators for fine-tuning\ndomain-specialized dense retrieval models. However, the original Promptagator\napproach relied on proprietary and large-scale LLMs which users may not have\naccess to or may be prohibited from using with sensitive data. In this work, we\nstudy the impact of open-source LLMs at accessible scales ($\\leq$14B\nparameters) as an alternative. Our results demonstrate that open-source LLMs as\nsmall as 3B parameters can serve as effective Promptagator-style query\ngenerators. We hope our work will inform practitioners with reliable\nalternatives for synthetic data generation and give insights to maximize\nfine-tuning results for domain-specific applications.",
+  "authors": [
+    "Daniel Gwon",
+    "Nour Jedidi",
+    "Jimmy Lin"
+  ],
+  "published": "2025-10-02T17:29:51Z",
+  "primary_category": "cs.IR",
+  "arxiv_url": "https://arxiv.org/abs/2510.02241v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探索使用参数规模≤14B的开源大语言模型替代原始Promptagator中的专有大模型，用于生成特定领域查询以训练稠密检索模型。结果表明，仅需3B参数的开源模型即可有效完成Promptagator式查询生成，为敏感数据场景下的领域专用检索模型优化提供可行方案。",
+  "order": 341,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02241v1"
+}

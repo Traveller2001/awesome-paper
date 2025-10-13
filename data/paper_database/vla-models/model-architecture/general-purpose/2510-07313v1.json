@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.07313v1",
+  "title": "WristWorld: Generating Wrist-Views via 4D World Models for Robotic\n  Manipulation",
+  "summary": "Wrist-view observations are crucial for VLA models as they capture\nfine-grained hand-object interactions that directly enhance manipulation\nperformance. Yet large-scale datasets rarely include such recordings, resulting\nin a substantial gap between abundant anchor views and scarce wrist views.\nExisting world models cannot bridge this gap, as they require a wrist-view\nfirst frame and thus fail to generate wrist-view videos from anchor views\nalone. Amid this gap, recent visual geometry models such as VGGT emerge with\ngeometric and cross-view priors that make it possible to address extreme\nviewpoint shifts. Inspired by these insights, we propose WristWorld, the first\n4D world model that generates wrist-view videos solely from anchor views.\nWristWorld operates in two stages: (i) Reconstruction, which extends VGGT and\nincorporates our Spatial Projection Consistency (SPC) Loss to estimate\ngeometrically consistent wrist-view poses and 4D point clouds; (ii) Generation,\nwhich employs our video generation model to synthesize temporally coherent\nwrist-view videos from the reconstructed perspective. Experiments on Droid,\nCalvin, and Franka Panda demonstrate state-of-the-art video generation with\nsuperior spatial consistency, while also improving VLA performance, raising the\naverage task completion length on Calvin by 3.81% and closing 42.4% of the\nanchor-wrist view gap.",
+  "authors": [
+    "Zezhong Qian",
+    "Xiaowei Chi",
+    "Yuming Li",
+    "Shizun Wang",
+    "Zhiyuan Qin",
+    "Xiaozhu Ju",
+    "Sirui Han",
+    "Shanghang Zhang"
+  ],
+  "published": "2025-10-08T17:59:08Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07313v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出WristWorld——首个仅从锚定视角生成腕部视角视频的4D世界模型。该模型通过两阶段方法：重建阶段利用VGGT扩展和空间投影一致性损失估计几何一致的腕部视角；生成阶段合成时序连贯的腕部视频。实验表明其在多个数据集上实现最先进的视频生成质量，并将VLA模型在Calvin上的任务完成长度提升3.81%，填补了42.4%的视角差距。",
+  "order": 104,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07313v1"
+}

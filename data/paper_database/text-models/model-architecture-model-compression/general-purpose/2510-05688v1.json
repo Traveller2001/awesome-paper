@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.05688v1",
+  "title": "vAttention: Verified Sparse Attention",
+  "summary": "State-of-the-art sparse attention methods for reducing decoding latency fall\ninto two main categories: approximate top-$k$ (and its extension, top-$p$) and\nrecently introduced sampling-based estimation. However, these approaches are\nfundamentally limited in their ability to approximate full attention: they fail\nto provide consistent approximations across heads and query vectors and, most\ncritically, lack guarantees on approximation quality, limiting their practical\ndeployment. We observe that top-$k$ and random sampling are complementary:\ntop-$k$ performs well when attention scores are dominated by a few tokens,\nwhereas random sampling provides better estimates when attention scores are\nrelatively uniform. Building on this insight and leveraging the statistical\nguarantees of sampling, we introduce vAttention, the first practical sparse\nattention mechanism with user-specified $(\\epsilon, \\delta)$ guarantees on\napproximation accuracy (thus, verified). These guarantees make vAttention a\ncompelling step toward practical, reliable deployment of sparse attention at\nscale. By unifying top-k and sampling, vAttention outperforms both\nindividually, delivering a superior quality-efficiency trade-off. Our\nexperiments show that vAttention significantly improves the quality of sparse\nattention (e.g., $\\sim$4.5 percentage points for Llama-3.1-8B-Inst and\nDeepseek-R1-Distill-Llama-8B on RULER-HARD), and effectively bridges the gap\nbetween full and sparse attention (e.g., across datasets, it matches full model\nquality with upto 20x sparsity). We also demonstrate that it can be deployed in\nreasoning scenarios to achieve fast decoding without compromising model quality\n(e.g., vAttention achieves full model quality on AIME2024 at 10x sparsity with\nup to 32K token generations). Code is open-sourced at\nhttps://github.com/xAlg-ai/sparse-attention-hub.",
+  "authors": [
+    "Aditya Desai",
+    "Kumar Krishna Agrawal",
+    "Shuo Yang",
+    "Alejandro Cuadron",
+    "Luis Gaspar Schroeder",
+    "Matei Zaharia",
+    "Joseph E. Gonzalez",
+    "Ion Stoica"
+  ],
+  "published": "2025-10-07T08:46:08Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05688v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'model_compression']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出vAttention，首个具有用户指定(ε,δ)精度保证的实用稀疏注意力机制。通过统一top-k和随机采样的优势，在Llama-3.1等模型上显著提升稀疏注意力质量（RULER-HARD提升约4.5个百分点），在32K生成长度下实现10倍稀疏度同时保持完整模型质量，为大规模可靠部署稀疏注意力迈出关键一步。",
+  "order": 129,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05688v1"
+}

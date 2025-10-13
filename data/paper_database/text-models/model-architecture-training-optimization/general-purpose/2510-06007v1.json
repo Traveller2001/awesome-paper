@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06007v1",
+  "title": "Uncertainty in Machine Learning",
+  "summary": "This book chapter introduces the principles and practical applications of\nuncertainty quantification in machine learning. It explains how to identify and\ndistinguish between different types of uncertainty and presents methods for\nquantifying uncertainty in predictive models, including linear regression,\nrandom forests, and neural networks. The chapter also covers conformal\nprediction as a framework for generating predictions with predefined confidence\nintervals. Finally, it explores how uncertainty estimation can be leveraged to\nimprove business decision-making, enhance model reliability, and support\nrisk-aware strategies.",
+  "authors": [
+    "Hans Weytjens",
+    "Wouter Verbeke"
+  ],
+  "published": "2025-10-07T15:07:27Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06007v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本章节系统介绍机器学习中的不确定性量化原理与实践应用，涵盖不同类型不确定性的识别区分方法，以及在线性回归、随机森林和神经网络等模型中的量化技术。重点讲解符合预测框架生成预设置信区间预测的方法，并探讨如何利用不确定性估计提升商业决策质量、增强模型可靠性及支持风险感知策略。",
+  "order": 107,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06007v1"
+}

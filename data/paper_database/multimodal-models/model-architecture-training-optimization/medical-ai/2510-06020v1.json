@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06020v1",
+  "title": "RamPINN: Recovering Raman Spectra From Coherent Anti-Stokes Spectra\n  Using Embedded Physics",
+  "summary": "Transferring the recent advancements in deep learning into scientific\ndisciplines is hindered by the lack of the required large-scale datasets for\ntraining. We argue that in these knowledge-rich domains, the established body\nof scientific theory provides reliable inductive biases in the form of\ngoverning physical laws. We address the ill-posed inverse problem of recovering\nRaman spectra from noisy Coherent Anti-Stokes Raman Scattering (CARS)\nmeasurements, as the true Raman signal here is suppressed by a dominating\nnon-resonant background. We propose RamPINN, a model that learns to recover\nRaman spectra from given CARS spectra. Our core methodological contribution is\na physics-informed neural network that utilizes a dual-decoder architecture to\ndisentangle resonant and non-resonant signals. This is done by enforcing the\nKramers-Kronig causality relations via a differentiable Hilbert transform loss\non the resonant and a smoothness prior on the non-resonant part of the signal.\nTrained entirely on synthetic data, RamPINN demonstrates strong zero-shot\ngeneralization to real-world experimental data, explicitly closing this gap and\nsignificantly outperforming existing baselines. Furthermore, we show that\ntraining with these physics-based losses alone, without access to any\nground-truth Raman spectra, still yields competitive results. This work\nhighlights a broader concept: formal scientific rules can act as a potent\ninductive bias, enabling robust, self-supervised learning in data-limited\nscientific domains.",
+  "authors": [
+    "Sai Karthikeya Vemuri",
+    "Adithya Ashok Chalain Valapil",
+    "Tim Büchner",
+    "Joachim Denzler"
+  ],
+  "published": "2025-10-07T15:18:44Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06020v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出RamPINN模型，通过双解码器架构和物理约束损失函数，从噪声CARS光谱中恢复拉曼光谱。该模型利用Kramers-Kronig因果关系和平滑性先验，仅使用合成数据训练即可实现零样本泛化到真实实验数据，在数据有限的科学领域展示了物理规则作为归纳偏置的有效性。",
+  "order": 106,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06020v1"
+}

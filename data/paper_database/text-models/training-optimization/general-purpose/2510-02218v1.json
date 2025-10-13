@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.02218v1",
+  "title": "Quantum Fisher information matrices from Rényi relative entropies",
+  "summary": "Quantum generalizations of the Fisher information are important in quantum\ninformation science, with applications in high energy and condensed matter\nphysics and in quantum estimation theory, machine learning, and optimization.\nOne can derive a quantum generalization of the Fisher information matrix in a\nnatural way as the Hessian matrix arising in a Taylor expansion of a smooth\ndivergence. Such an approach is appealing for quantum information theorists,\ngiven the ubiquity of divergences in quantum information theory. In contrast to\nthe classical case, there is not a unique quantum generalization of the Fisher\ninformation matrix, similar to how there is not a unique quantum generalization\nof the relative entropy or the R\\'enyi relative entropy. In this paper, I\nderive information matrices arising from the log-Euclidean, $\\alpha$-$z$, and\ngeometric R\\'enyi relative entropies, with the main technical tool for doing so\nbeing the method of divided differences for calculating matrix derivatives.\nInterestingly, for all non-negative values of the R\\'enyi parameter $\\alpha$,\nthe log-Euclidean R\\'enyi relative entropy leads to the Kubo-Mori information\nmatrix, and the geometric R\\'enyi relative entropy leads to the\nright-logarithmic derivative Fisher information matrix. Thus, the resulting\ninformation matrices obey the data-processing inequality for all non-negative\nvalues of the R\\'enyi parameter $\\alpha$ even though the original quantities do\nnot. Additionally, I derive and establish basic properties of $\\alpha$-$z$\ninformation matrices resulting from the $\\alpha$-$z$ R\\'enyi relative\nentropies. For parameterized thermal states, I establish formulas for their\n$\\alpha$-$z$ information matrices and hybrid quantum-classical algorithms for\nestimating them, with applications in quantum Boltzmann machine learning.",
+  "authors": [
+    "Mark M. Wilde"
+  ],
+  "published": "2025-10-02T17:02:48Z",
+  "primary_category": "quant-ph",
+  "arxiv_url": "https://arxiv.org/abs/2510.02218v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文从Rényi相对熵推导量子Fisher信息矩阵，提出log-Euclidean、α-z和几何Rényi相对熵对应的信息矩阵，证明其满足数据处理不等式，并针对参数化热态开发量子-经典混合算法，应用于量子玻尔兹曼机器学习。",
+  "order": 719,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02218v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00634v1",
+  "title": "LAKAN: Landmark-assisted Adaptive Kolmogorov-Arnold Network for Face\n  Forgery Detection",
+  "summary": "The rapid development of deepfake generation techniques necessitates robust\nface forgery detection algorithms. While methods based on Convolutional Neural\nNetworks (CNNs) and Transformers are effective, there is still room for\nimprovement in modeling the highly complex and non-linear nature of forgery\nartifacts. To address this issue, we propose a novel detection method based on\nthe Kolmogorov-Arnold Network (KAN). By replacing fixed activation functions\nwith learnable splines, our KAN-based approach is better suited to this\nchallenge. Furthermore, to guide the network's focus towards critical facial\nareas, we introduce a Landmark-assisted Adaptive Kolmogorov-Arnold Network\n(LAKAN) module. This module uses facial landmarks as a structural prior to\ndynamically generate the internal parameters of the KAN, creating an\ninstance-specific signal that steers a general-purpose image encoder towards\nthe most informative facial regions with artifacts. This core innovation\ncreates a powerful combination between geometric priors and the network's\nlearning process. Extensive experiments on multiple public datasets show that\nour proposed method achieves superior performance.",
+  "authors": [
+    "Jiayao Jiang",
+    "Siran Peng",
+    "Bin Liu",
+    "Qi Chu",
+    "Nenghai Yu"
+  ],
+  "published": "2025-10-01T08:10:38Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00634v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LAKAN方法，结合地标引导与自适应Kolmogorov-Arnold网络，通过可学习样条函数和面部关键点先验，提升深度伪造人脸检测性能，在多个数据集上表现优异。",
+  "order": 652,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00634v1"
+}

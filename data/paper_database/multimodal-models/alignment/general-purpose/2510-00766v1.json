@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00766v1",
+  "title": "Multi-Objective Task-Aware Predictor for Image-Text Alignment",
+  "summary": "Evaluating image-text alignment while reflecting human preferences across\nmultiple aspects is a significant issue for the development of reliable\nvision-language applications. It becomes especially crucial in real-world\nscenarios where multiple valid descriptions exist depending on contexts or user\nneeds. However, research progress is hindered by the lack of comprehensive\nbenchmarks and existing evaluation predictors lacking at least one of these key\nproperties: (1) Alignment with human judgments, (2) Long-sequence processing,\n(3) Inference efficiency, and (4) Applicability to multi-objective scoring. To\naddress these challenges, we propose a plug-and-play architecture to build a\nrobust predictor, MULTI-TAP (Multi-Objective Task-Aware Predictor), capable of\nboth multi and single-objective scoring. MULTI-TAP can produce a single overall\nscore, utilizing a reward head built on top of a large vision-language model\n(LVLMs). We show that MULTI-TAP is robust in terms of application to different\nLVLM architectures, achieving significantly higher performance than existing\nmetrics and even on par with the GPT-4o-based predictor, G-VEval, with a\nsmaller size (7-8B). By training a lightweight ridge regression layer on the\nfrozen hidden states of a pre-trained LVLM, MULTI-TAP can produce fine-grained\nscores for multiple human-interpretable objectives. MULTI-TAP performs better\nthan VisionREWARD, a high-performing multi-objective reward model, in both\nperformance and efficiency on multi-objective benchmarks and our newly released\ntext-image-to-text dataset, EYE4ALL. Our new dataset, consisting of\nchosen/rejected human preferences (EYE4ALLPref) and human-annotated\nfine-grained scores across seven dimensions (EYE4ALLMulti), can serve as a\nfoundation for developing more accessible AI systems by capturing the\nunderlying preferences of users, including blind and low-vision (BLV)\nindividuals.",
+  "authors": [
+    "Eunki Kim",
+    "Na Min An",
+    "James Thorne",
+    "Hyunjung Shim"
+  ],
+  "published": "2025-10-01T10:55:33Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00766v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MULTI-TAP，一种用于图像-文本对齐评估的多目标任务感知预测器。该模型基于大型视觉语言模型构建，能够生成单目标或多目标评分，在性能上超越现有指标并与GPT-4o相当，同时发布包含人类偏好标注的新数据集EYE4ALL，支持开发更易访问的AI系统。",
+  "order": 631,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00766v1"
+}

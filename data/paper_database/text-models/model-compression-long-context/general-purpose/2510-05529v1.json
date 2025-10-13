@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.05529v1",
+  "title": "H1B-KV: Hybrid One-Bit Caches for Memory-Efficient Large Language Model\n  Inference",
+  "summary": "Autoregressive decoding in large language models (LLMs) requires caching a\ngrowing list of past key-value (KV) pairs, making long-context inference a\nmemory-bound problem. While recent methods have explored quantizing the cache,\nevicting tokens, or using binary sketches for keys (e.g., Loki), these\napproaches often provide an incomplete solution by leaving one component (like\nvalues) uncompressed or by discarding context information. This paper\nintroduces the Hybrid One-Bit KV Cache (H1B-KV), a comprehensive compression\nscheme that radically reduces memory usage without sacrificing context. H1B-KV\nrepresents each key vector using a 1-bit binary sketch, enabling\nhardware-friendly bitwise attention, and further compresses value vectors using\n4-bit quantization. This holistic, hybrid approach allows a 7-billion parameter\nLLM to handle an 8k-token context with under 60 MB of cache memory - a 70x\nreduction. We demonstrate that after a lightweight finetuning, H1B-KV matches\nfull-precision performance not only on perplexity benchmarks but also on\ncomplex downstream tasks like mathematical reasoning (GSM8K), multi-task\nunderstanding (MMLU), and code generation (HumanEval). Our results show H1B-KV\nsignificantly outperforms leading quantization (KIVI), token eviction\n(SparseLLM), and key-only sketching (Loki) methods in quality-per-byte,\nestablishing it as a robust solution for deploying LLMs in memory-constrained\nenvironments.",
+  "authors": [
+    "Harshil Vejendla"
+  ],
+  "published": "2025-10-07T02:39:35Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05529v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_compression', 'long_context']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出H1B-KV混合1位缓存技术，通过1位键向量二值化与4位值向量量化，实现大语言模型推理内存占用降低70倍（8K上下文仅需60MB），在数学推理、多任务理解等任务中保持全精度性能，显著优于现有压缩方法。",
+  "order": 50,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05529v1"
+}

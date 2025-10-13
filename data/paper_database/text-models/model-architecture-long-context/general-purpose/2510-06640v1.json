@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06640v1",
+  "title": "A Comparative Analysis of Contextual Representation Flow in State-Space\n  and Transformer Architectures",
+  "summary": "State Space Models (SSMs) have recently emerged as efficient alternatives to\nTransformer-Based Models (TBMs) for long-sequence processing, offering linear\nscaling and lower memory use. Yet, how contextual information flows across\nlayers and tokens in these architectures remains understudied. We present the\nfirst unified, token- and layer-level analysis of representation propagation in\nSSMs and TBMs. Using centered kernel alignment, stability metrics, and probing,\nwe characterize how representations evolve within and across layers. We find a\nkey divergence: TBMs rapidly homogenize token representations, with diversity\nreemerging only in later layers, while SSMs preserve token uniqueness early but\nconverge to homogenization deeper. Theoretical analysis and parameter\nrandomization further reveal that oversmoothing in TBMs stems from\narchitectural design, whereas in SSMs it arises mainly from training dynamics.\nThese insights clarify the inductive biases of both architectures and inform\nfuture model and training designs for long-context reasoning.",
+  "authors": [
+    "Nhat M. Hoang",
+    "Do Xuan Long",
+    "Cong-Duy Nguyen",
+    "Min-Yen Kan",
+    "Luu Anh Tuan"
+  ],
+  "published": "2025-10-08T04:46:11Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06640v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'long_context']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究首次对状态空间模型(SSM)和Transformer架构中上下文表示的传播机制进行了统一分析。通过多种评估方法发现：Transformer模型在早期层快速同质化token表示，后期才重新分化；而SSM模型早期保留token独特性，深层逐渐同质化。理论分析表明，Transformer的同质化源于架构设计，SSM则主要来自训练动态。这些发现揭示了两种架构的归纳偏置差异，为长上下文推理的模型设计提供了重要指导。",
+  "order": 95,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06640v1"
+}

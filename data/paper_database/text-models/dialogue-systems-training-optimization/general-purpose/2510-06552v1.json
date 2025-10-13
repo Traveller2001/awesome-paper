@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06552v1",
+  "title": "Flipping the Dialogue: Training and Evaluating User Language Models",
+  "summary": "Conversations with LMs involve two participants: a human user leading the\nconversation, and an LM assistant responding to the user's request. To satisfy\nthis specific role, LMs are post-trained to be helpful assistants -- optimized\nto produce exhaustive and well-structured responses, free of ambiguity and\ngrammar errors. User utterances, on the other hand, are rarely perfected, with\neach user phrasing requests in unique ways, sometimes putting in partial effort\nat each turn and refining on the fly. To evaluate LM performance in realistic\nsettings, prior work simulated users in multi-turn conversations, often\nprompting an LLM originally trained to be a helpful assistant to act as a user.\nHowever, we show that assistant LMs make for poor user simulators, with the\nsurprising finding that better assistants yield worse simulators. Instead, we\nintroduce purpose-built User Language Models (User LMs) - models post-trained\nto simulate human users in multi-turn conversations. Through various\nevaluations, we show how User LMs align better with human behavior and achieve\nbetter simulation robustness than existing simulation methods. When leveraging\nUser LMs to simulate coding and math conversations, the performance of a strong\nassistant (GPT-4o) drops from 74.6% to 57.4%, confirming that more realistic\nsimulation environments lead to assistant struggles as they fail to cope with\nthe nuances of users in multi-turn setups.",
+  "authors": [
+    "Tarek Naous",
+    "Philippe Laban",
+    "Wei Xu",
+    "Jennifer Neville"
+  ],
+  "published": "2025-10-08T01:04:36Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06552v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['dialogue_systems', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出专门训练的用户语言模型(User LMs)来模拟真实对话中的人类用户行为。研究发现传统助手模型不适合模拟用户，而专门训练的用户模型能更准确地反映人类对话特点。通过在编程和数学对话中的测试，显示更真实的用户模拟环境会使助手模型(GPT-4o)性能显著下降(74.6%→57.4%)，揭示了当前助手模型在处理多轮对话中用户细微差异时的局限性。",
+  "order": 99,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06552v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00627v1",
+  "title": "Collaborative-Distilled Diffusion Models (CDDM) for Accelerated and\n  Lightweight Trajectory Prediction",
+  "summary": "Trajectory prediction is a fundamental task in Autonomous Vehicles (AVs) and\nIntelligent Transportation Systems (ITS), supporting efficient motion planning\nand real-time traffic safety management. Diffusion models have recently\ndemonstrated strong performance in probabilistic trajectory prediction, but\ntheir large model size and slow sampling process hinder real-world deployment.\nThis paper proposes Collaborative-Distilled Diffusion Models (CDDM), a novel\nmethod for real-time and lightweight trajectory prediction. Built upon\nCollaborative Progressive Distillation (CPD), CDDM progressively transfers\nknowledge from a high-capacity teacher diffusion model to a lightweight student\nmodel, jointly reducing both the number of sampling steps and the model size\nacross distillation iterations. A dual-signal regularized distillation loss is\nfurther introduced to incorporate guidance from both the teacher and\nground-truth data, mitigating potential overfitting and ensuring robust\nperformance. Extensive experiments on the ETH-UCY pedestrian benchmark and the\nnuScenes vehicle benchmark demonstrate that CDDM achieves state-of-the-art\nprediction accuracy. The well-distilled CDDM retains 96.2% and 95.5% of the\nbaseline model's ADE and FDE performance on pedestrian trajectories, while\nrequiring only 231K parameters and 4 or 2 sampling steps, corresponding to 161x\ncompression, 31x acceleration, and 9 ms latency. Qualitative results further\nshow that CDDM generates diverse and accurate trajectories under dynamic agent\nbehaviors and complex social interactions. By bridging high-performing\ngenerative models with practical deployment constraints, CDDM enables\nresource-efficient probabilistic prediction for AVs and ITS. Code is available\nat https://github.com/bingzhangw/CDDM.",
+  "authors": [
+    "Bingzhang Wang",
+    "Kehua Chen",
+    "Yinhai Wang"
+  ],
+  "published": "2025-10-01T08:00:31Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00627v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出协作蒸馏扩散模型(CDDM)，通过协作渐进蒸馏技术将高容量教师模型知识迁移至轻量学生模型，在保持轨迹预测精度的同时实现161倍模型压缩和31倍加速，为自动驾驶和智能交通系统提供高效的实时预测解决方案。",
+  "order": 268,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00627v1"
+}

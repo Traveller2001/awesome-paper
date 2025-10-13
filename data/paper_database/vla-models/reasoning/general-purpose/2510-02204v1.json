@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.02204v1",
+  "title": "Say One Thing, Do Another? Diagnosing Reasoning-Execution Gaps in\n  VLM-Powered Mobile-Use Agents",
+  "summary": "Mobile-use agents powered by vision-language models (VLMs) have shown great\npotential in interpreting natural language instructions and generating\ncorresponding actions based on mobile graphical user interface. Recent studies\nsuggest that incorporating chain-of-thought (CoT) reasoning tends to improve\nthe execution accuracy. However, existing evaluations emphasize execution\naccuracy while neglecting whether CoT reasoning aligns with ground-truth\nactions. This oversight fails to assess potential reasoning-execution gaps,\nwhich in turn foster over-trust: users relying on seemingly plausible CoTs may\nunknowingly authorize harmful actions, potentially resulting in financial loss\nor trust crisis. In this work, we introduce a new evaluation framework to\ndiagnose reasoning-execution gaps. At its core lies Ground-Truth Alignment\n(GTA), which measures whether the action implied by a CoT matches the\nground-truth action. By combining GTA with the standard Exact Match (EM)\nmetric, we jointly assess both the reasoning accuracy and execution accuracy.\nThis joint perspective reveals two types of reasoning-execution gaps: (i)\nExecution Gap (EG), where the reasoning correctly identifies the correct action\nbut execution fails, and (ii) Reasoning Gap (RG), where execution succeeds but\nreasoning process conflicts with the actual execution. Experimental results\nacross a wide range of mobile interaction tasks reveal that reasoning-execution\ngaps are prevalent, with execution gaps occurring more frequently than\nreasoning gaps. Moreover, while scaling up model size reduces the overall gap,\nsizable execution gaps persist even in the largest models. Further analysis\nshows that our framework reliably reflects systematic EG/RG patterns in\nstate-of-the-art models. These findings offer concrete diagnostics and support\nthe development of more trustworthy mobile-use agents.",
+  "authors": [
+    "Lingzhong Dong",
+    "Ziqi Zhou",
+    "Shuaibo Yang",
+    "Haiyue Sheng",
+    "Pengzhou Cheng",
+    "Zongru Wu",
+    "Zheng Wu",
+    "Gongshen Liu",
+    "Zhuosheng Zhang"
+  ],
+  "published": "2025-10-02T16:51:19Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02204v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对VLM驱动的移动应用代理，提出诊断推理-执行差距的新评估框架。通过结合真实对齐(GTA)和精确匹配(EM)指标，识别出执行差距(正确推理但执行失败)和推理差距(执行成功但推理错误)两种问题。实验表明这些差距普遍存在，即使在大模型中执行差距仍显著，为开发更可信的移动代理提供具体诊断方法。",
+  "order": 346,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02204v1"
+}

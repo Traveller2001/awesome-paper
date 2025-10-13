@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01052v1",
+  "title": "Hybrid Dialogue State Tracking for Persian Chatbots: A Language\n  Model-Based Approach",
+  "summary": "Dialogue State Tracking (DST) is an essential element of conversational AI\nwith the objective of deeply understanding the conversation context and leading\nit toward answering user requests. Due to high demands for open-domain and\nmulti-turn chatbots, the traditional rule-based DST is not efficient enough,\nsince it cannot provide the required adaptability and coherence for human-like\nexperiences in complex conversations. This study proposes a hybrid DST model\nthat utilizes rule-based methods along with language models, including BERT for\nslot filling and intent detection, XGBoost for intent validation, GPT for DST,\nand online agents for real-time answer generation. This model is uniquely\ndesigned to be evaluated on a comprehensive Persian multi-turn dialogue dataset\nand demonstrated significantly improved accuracy and coherence over existing\nmethods in Persian-based chatbots. The results demonstrate how effectively a\nhybrid approach may improve DST capabilities, paving the way for conversational\nAI systems that are more customized, adaptable, and human-like.",
+  "authors": [
+    "Samin Mahdipour Aghabagher",
+    "Saeedeh Momtazi"
+  ],
+  "published": "2025-10-01T15:57:19Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01052v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出了一种混合对话状态跟踪模型，结合规则方法与语言模型（包括BERT用于槽填充和意图检测、XGBoost用于意图验证、GPT用于DST），在波斯语多轮对话数据集上显著提升了准确性和连贯性，为波斯语聊天机器人提供了更人性化的对话体验。",
+  "order": 429,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01052v1"
+}

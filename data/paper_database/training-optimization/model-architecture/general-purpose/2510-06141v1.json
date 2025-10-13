@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06141v1",
+  "title": "Improved High-probability Convergence Guarantees of Decentralized SGD",
+  "summary": "Convergence in high-probability (HP) has been receiving increasing interest,\ndue to its attractive properties, such as exponentially decaying tail bounds\nand strong guarantees for each individual run of an algorithm. While HP\nguarantees are extensively studied in centralized settings, much less is\nunderstood in the decentralized, networked setup. Existing HP studies in\ndecentralized settings impose strong assumptions, like uniformly bounded\ngradients, or asymptotically vanishing noise, resulting in a significant gap\nbetween assumptions used to establish convergence in the HP and the\nmean-squared error (MSE) sense, even for vanilla Decentralized Stochastic\nGradient Descent ($\\mathtt{DSGD}$) algorithm. This is contrary to centralized\nsettings, where it is known that $\\mathtt{SGD}$ converges in HP under the same\nconditions on the cost function as needed to guarantee MSE convergence.\nMotivated by this observation, we revisit HP guarantees for $\\mathtt{DSGD}$ in\nthe presence of light-tailed noise. We show that $\\mathtt{DSGD}$ converges in\nHP under the same conditions on the cost as in the MSE sense, removing\nuniformly bounded gradients and other restrictive assumptions, while\nsimultaneously achieving order-optimal rates for both non-convex and strongly\nconvex costs. Moreover, our improved analysis yields linear speed-up in the\nnumber of users, demonstrating that $\\mathtt{DSGD}$ maintains strong\nperformance in the HP sense and matches existing MSE guarantees. Our improved\nresults stem from a careful analysis of the MGF of quantities of interest\n(norm-squared of gradient or optimality gap) and the MGF of the consensus gap\nbetween users' models. To achieve linear speed-up, we provide a novel result on\nthe variance-reduction effect of decentralized methods in the HP sense and more\nfine-grained bounds on the MGF for strongly convex costs, which are both of\nindependent interest.",
+  "authors": [
+    "Aleksandar Armacki",
+    "Ali H. Sayed"
+  ],
+  "published": "2025-10-07T17:15:08Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06141v1",
+  "primary_area": "training_optimization",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文改进了去中心化随机梯度下降(DSGD)的高概率收敛保证，在轻尾噪声条件下消除了均匀有界梯度等强假设，实现了与均方误差收敛相同的条件要求，并在非凸和强凸成本函数中达到最优收敛速率，同时证明了用户数量上的线性加速效果。",
+  "order": 88,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06141v1"
+}

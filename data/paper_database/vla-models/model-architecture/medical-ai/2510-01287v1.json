@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2510.01287v1",
+  "title": "Evaluating New AI Cell Foundation Models on Challenging Kidney Pathology\n  Cases Unaddressed by Previous Foundation Models",
+  "summary": "Accurate cell nuclei segmentation is critical for downstream tasks in kidney\npathology and remains a major challenge due to the morphological diversity and\nimaging variability of renal tissues. While our prior work has evaluated\nearly-generation AI cell foundation models in this domain, the effectiveness of\nrecent cell foundation models remains unclear. In this study, we benchmark\nadvanced AI cell foundation models (2025), including CellViT++ variants and\nCellpose-SAM, against three widely used cell foundation models developed prior\nto 2024, using a diverse large-scale set of kidney image patches within a\nhuman-in-the-loop rating framework. We further performed fusion-based ensemble\nevaluation and model agreement analysis to assess the segmentation capabilities\nof the different models. Our results show that CellViT++ [Virchow] yields the\nhighest standalone performance with 40.3% of predictions rated as \"Good\" on a\ncurated set of 2,091 challenging samples, outperforming all prior models. In\naddition, our fused model achieves 62.2% \"Good\" predictions and only 0.4%\n\"Bad\", substantially reducing segmentation errors. Notably, the fusion model\n(2025) successfully resolved the majority of challenging cases that remained\nunaddressed in our previous study. These findings demonstrate the potential of\nAI cell foundation model development in renal pathology and provide a curated\ndataset of challenging samples to support future kidney-specific model\nrefinement.",
+  "authors": [
+    "Runchen Wang",
+    "Junlin Guo",
+    "Siqi Lu",
+    "Ruining Deng",
+    "Zhengyi Lu",
+    "Yanfan Zhu",
+    "Yuechen Yang",
+    "Chongyu Qu",
+    "Yu Wang",
+    "Shilin Zhao",
+    "Catie Chang",
+    "Mitchell Wilkes",
+    "Mengmeng Yin",
+    "Haichun Yang",
+    "Yuankai Huo"
+  ],
+  "published": "2025-10-01T00:38:36Z",
+  "primary_category": "q-bio.QM",
+  "arxiv_url": "https://arxiv.org/abs/2510.01287v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究评估了2025年新型AI细胞基础模型在肾脏病理学中的表现，重点测试了CellViT++变体和Cellpose-SAM模型。在2091个挑战性肾脏图像样本上，CellViT++ [Virchow]以40.3%的'良好'预测率表现最佳，融合模型更将'良好'率提升至62.2%，'差评'率降至0.4%，成功解决了先前研究中未处理的多数难题，为肾脏病理AI模型发展提供了重要基准和数据集。",
+  "order": 327,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01287v1"
+}

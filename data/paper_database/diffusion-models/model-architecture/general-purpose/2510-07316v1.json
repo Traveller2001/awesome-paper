@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2510.07316v1",
+  "title": "Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers",
+  "summary": "This paper presents Pixel-Perfect Depth, a monocular depth estimation model\nbased on pixel-space diffusion generation that produces high-quality,\nflying-pixel-free point clouds from estimated depth maps. Current generative\ndepth estimation models fine-tune Stable Diffusion and achieve impressive\nperformance. However, they require a VAE to compress depth maps into latent\nspace, which inevitably introduces \\textit{flying pixels} at edges and details.\nOur model addresses this challenge by directly performing diffusion generation\nin the pixel space, avoiding VAE-induced artifacts. To overcome the high\ncomplexity associated with pixel-space generation, we introduce two novel\ndesigns: 1) Semantics-Prompted Diffusion Transformers (SP-DiT), which\nincorporate semantic representations from vision foundation models into DiT to\nprompt the diffusion process, thereby preserving global semantic consistency\nwhile enhancing fine-grained visual details; and 2) Cascade DiT Design that\nprogressively increases the number of tokens to further enhance efficiency and\naccuracy. Our model achieves the best performance among all published\ngenerative models across five benchmarks, and significantly outperforms all\nother models in edge-aware point cloud evaluation.",
+  "authors": [
+    "Gangwei Xu",
+    "Haotong Lin",
+    "Hongcheng Luo",
+    "Xianqi Wang",
+    "Jingfeng Yao",
+    "Lianghui Zhu",
+    "Yuechuan Pu",
+    "Cheng Chi",
+    "Haiyang Sun",
+    "Bing Wang",
+    "Guang Chen",
+    "Hangjun Ye",
+    "Sida Peng",
+    "Xin Yang"
+  ],
+  "published": "2025-10-08T17:59:33Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07316v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Pixel-Perfect Depth模型，通过像素空间扩散生成实现单目深度估计。创新点包括：语义提示扩散变换器（SP-DiT）融合视觉基础模型语义特征，级联DiT设计渐进增加token数量。该方法在五个基准测试中超越现有生成模型，显著提升边缘感知点云质量，有效消除VAE压缩导致的飞行像素问题。",
+  "order": 103,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07316v1"
+}

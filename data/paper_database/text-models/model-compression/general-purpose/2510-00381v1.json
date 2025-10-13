@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00381v1",
+  "title": "Semantic-Driven AI Agent Communications: Challenges and Solutions",
+  "summary": "With the rapid growth of intelligent services, communication targets are\nshifting from humans to artificial intelligent (AI) agents, which require new\nparadigms to enable real-time perception, decision-making, and collaboration.\nSemantic communication, which conveys task-relevant meaning rather than raw\ndata, offers a promising solution. However, its practical deployment remains\nconstrained by dynamic environments and limited resources. To address these\nissues, this article proposes a semantic-driven AI agent communication\nframework and develops three enabling techniques. First, semantic adaptation\ntransmission applies fine-tuning with real or generative samples to efficiently\nadapt models to varying environments. Second, semantic lightweight transmission\nincorporates pruning, quantization, and perception-aware sampling to reduce\nmodel complexity and alleviate computational burden on edge agents. Third,\nsemantic self-evolution control employs distributed hierarchical\ndecision-making to optimize multi-dimensional resources, enabling robust\nmulti-agent collaboration in dynamic environments. Simulation results show that\nthe proposed solutions achieve faster convergence and stronger robustness,\nwhile the proposed distributed hierarchical optimization method significantly\noutperforms conventional decision-making schemes, highlighting its potential\nfor AI agent communication networks.",
+  "authors": [
+    "Kaiwen Yu",
+    "Mengying Sun",
+    "Zhijin Qin",
+    "Xiaodong Xu",
+    "Ping Yang",
+    "Yue Xiao",
+    "Gang Wu"
+  ],
+  "published": "2025-10-01T00:52:37Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00381v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出语义驱动的AI智能体通信框架，包含语义自适应传输、语义轻量传输和语义自进化控制三大技术，通过模型调优、剪枝量化和分布式决策优化，解决动态环境和资源受限下的智能体通信问题，实现更快的收敛速度和更强的鲁棒性。",
+  "order": 324,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00381v1"
+}

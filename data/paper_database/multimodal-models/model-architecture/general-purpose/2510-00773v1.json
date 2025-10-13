@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00773v1",
+  "title": "Uncertainty-Aware Concept Bottleneck Models with Enhanced\n  Interpretability",
+  "summary": "In the context of image classification, Concept Bottleneck Models (CBMs)\nfirst embed images into a set of human-understandable concepts, followed by an\nintrinsically interpretable classifier that predicts labels based on these\nintermediate representations. While CBMs offer a semantically meaningful and\ninterpretable classification pipeline, they often sacrifice predictive\nperformance compared to end-to-end convolutional neural networks. Moreover, the\npropagation of uncertainty from concept predictions to final label decisions\nremains underexplored. In this paper, we propose a novel uncertainty-aware and\ninterpretable classifier for the second stage of CBMs. Our method learns a set\nof binary class-level concept prototypes and uses the distances between\npredicted concept vectors and each class prototype as both a classification\nscore and a measure of uncertainty. These prototypes also serve as\ninterpretable classification rules, indicating which concepts should be present\nin an image to justify a specific class prediction. The proposed framework\nenhances both interpretability and robustness by enabling conformal prediction\nfor uncertain or outlier inputs based on their deviation from the learned\nbinary class-level concept prototypes.",
+  "authors": [
+    "Haifei Zhang",
+    "Patrick Barry",
+    "Eduardo Brandao"
+  ],
+  "published": "2025-10-01T11:11:18Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00773v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种不确定性感知的概念瓶颈模型，通过构建二元类别概念原型，将概念向量与原型距离同时用于分类评分和不确定性度量，在保持可解释性的同时提升了图像分类的鲁棒性。",
+  "order": 629,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00773v1"
+}

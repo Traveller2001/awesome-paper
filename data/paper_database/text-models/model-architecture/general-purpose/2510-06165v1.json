@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06165v1",
+  "title": "Higher-Order Feature Attribution: Bridging Statistics, Explainable AI,\n  and Topological Signal Processing",
+  "summary": "Feature attributions are post-training analysis methods that assess how\nvarious input features of a machine learning model contribute to an output\nprediction. Their interpretation is straightforward when features act\nindependently, but becomes less direct when the predictive model involves\ninteractions such as multiplicative relationships or joint feature\ncontributions. In this work, we propose a general theory of higher-order\nfeature attribution, which we develop on the foundation of Integrated Gradients\n(IG). This work extends existing frameworks in the literature on explainable\nAI. When using IG as the method of feature attribution, we discover natural\nconnections to statistics and topological signal processing. We provide several\ntheoretical results that establish the theory, and we validate our theory on a\nfew examples.",
+  "authors": [
+    "Kurt Butler",
+    "Guanchao Feng",
+    "Petar Djuric"
+  ],
+  "published": "2025-10-07T17:29:34Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06165v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种基于积分梯度的高阶特征归因理论，解决了传统方法在处理特征交互时的局限性。该研究建立了可解释AI与统计学、拓扑信号处理之间的理论联系，并通过理论证明和实例验证了框架的有效性。",
+  "order": 85,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06165v1"
+}

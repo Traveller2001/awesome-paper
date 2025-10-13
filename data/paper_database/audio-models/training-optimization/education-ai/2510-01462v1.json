@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01462v1",
+  "title": "RealClass: A Framework for Classroom Speech Simulation with Public\n  Datasets and Game Engines",
+  "summary": "The scarcity of large-scale classroom speech data has hindered the\ndevelopment of AI-driven speech models for education. Classroom datasets remain\nlimited and not publicly available, and the absence of dedicated classroom\nnoise or Room Impulse Response (RIR) corpora prevents the use of standard data\naugmentation techniques.\n  In this paper, we introduce a scalable methodology for synthesizing classroom\nnoise and RIRs using game engines, a versatile framework that can extend to\nother domains beyond the classroom. Building on this methodology, we present\nRealClass, a dataset that combines a synthesized classroom noise corpus with a\nclassroom speech dataset compiled from publicly available corpora. The speech\ndata pairs a children's speech corpus with instructional speech extracted from\nYouTube videos to approximate real classroom interactions in clean conditions.\nExperiments on clean and noisy speech show that RealClass closely approximates\nreal classroom speech, making it a valuable asset in the absence of abundant\nreal classroom speech.",
+  "authors": [
+    "Ahmed Adel Attia",
+    "Jing Liu",
+    "Carol Espy Wilson"
+  ],
+  "published": "2025-10-01T21:04:51Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.01462v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "education_ai",
+  "tldr_zh": "RealClass是一个利用游戏引擎和公开数据集合成教室语音的框架，通过生成教室噪声和房间脉冲响应，解决了教育领域AI语音模型训练数据稀缺的问题，实验证明其能有效模拟真实教室语音环境。",
+  "order": 149,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01462v1"
+}

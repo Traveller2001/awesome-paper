@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07147v1",
+  "title": "A Multi-Agent Framework for Stateful Inference-Time Search",
+  "summary": "Recent work explores agentic inference-time techniques to perform structured,\nmulti-step reasoning. However, stateless inference often struggles on\nmulti-step tasks due to the absence of persistent state. Moreover,\ntask-specific fine-tuning or instruction-tuning often achieve surface-level\ncode generation but remain brittle on tasks requiring deeper reasoning and\nlong-horizon dependencies. To address these limitations, we propose stateful\nmulti-agent evolutionary search, a training-free framework that departs from\nprior stateless approaches by combining (i) persistent inference-time state,\n(ii) adversarial mutation, and (iii) evolutionary preservation. We demonstrate\nits effectiveness in automated unit test generation through the generation of\nedge cases. We generate robust edge cases using an evolutionary search process,\nwhere specialized agents sequentially propose, mutate, and score candidates. A\ncontroller maintains persistent state across generations, while evolutionary\npreservation ensures diversity and exploration across all possible cases. This\nyields a generalist agent capable of discovering robust, high-coverage edge\ncases across unseen codebases. Experiments show our stateful multi-agent\ninference framework achieves substantial gains in coverage over stateless\nsingle-step baselines, evaluated on prevalent unit-testing benchmarks such as\nHumanEval and TestGenEvalMini and using three diverse LLM families - Llama,\nGemma, and GPT. These results indicate that combining persistent inference-time\nstate with evolutionary search materially improves unit-test generation.",
+  "authors": [
+    "Arshika Lalan",
+    "Rajat Ghosh",
+    "Aditya Kolsur",
+    "Debojyoti Dutta"
+  ],
+  "published": "2025-10-08T15:48:41Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07147v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文提出一种带状态的多智能体进化搜索框架，通过持久推理状态、对抗性变异和进化保留机制，在无需训练的情况下显著提升单元测试生成的质量。该方法在HumanEval等基准测试中相比无状态单步方法实现了更高的代码覆盖率，能够为未见过的代码库生成鲁棒性强的边界测试用例。",
+  "order": 178,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07147v1"
+}

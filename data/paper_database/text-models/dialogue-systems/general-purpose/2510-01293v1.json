@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01293v1",
+  "title": "Cyber Academia-Chemical Engineering (CA-ChemE): A Living Digital Town\n  for Self-Directed Research Evolution and Emergent Scientific Discovery",
+  "summary": "The rapid advancement of artificial intelligence (AI) has demonstrated\nsubstantial potential in chemical engineering, yet existing AI systems remain\nlimited in interdisciplinary collaboration and exploration of uncharted\nproblems. To address these issues, we present the Cyber Academia-Chemical\nEngineering (CA-ChemE) system, a living digital town that enables self-directed\nresearch evolution and emergent scientific discovery through multi-agent\ncollaboration. By integrating domain-specific knowledge bases, knowledge\nenhancement technologies, and collaboration agents, the system successfully\nconstructs an intelligent ecosystem capable of deep professional reasoning and\nefficient interdisciplinary collaboration. Our findings demonstrate that\nknowledge base-enabled enhancement mechanisms improved dialogue quality scores\nby 10-15% on average across all seven expert agents, fundamentally ensuring\ntechnical judgments are grounded in verifiable scientific evidence. However, we\nobserved a critical bottleneck in cross-domain collaboration efficiency,\nprompting the introduction of a Collaboration Agent (CA) equipped with ontology\nengineering capabilities. CA's intervention achieved 8.5% improvements for\ndistant-domain expert pairs compared to only 0.8% for domain-proximate pairs -\na 10.6-fold difference - unveiling the \"diminished collaborative efficiency\ncaused by knowledge-base gaps\" effect. This study demonstrates how carefully\ndesigned multi-agent architectures can provide a viable pathway toward\nautonomous scientific discovery in chemical engineering.",
+  "authors": [
+    "Zekun Jiang",
+    "Chunming Xu",
+    "Tianhang Zhou"
+  ],
+  "published": "2025-10-01T05:26:55Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01293v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CA-ChemE系统，一个支持自主研究演进和涌现科学发现的数字化学术小镇。通过整合领域知识库与多智能体协作，该系统在化学工程领域实现了深度专业推理和跨学科合作。研究发现知识库增强机制将对话质量提升10-15%，但跨域协作存在效率瓶颈，协作代理的介入使远域专家组合效提升8.5%，揭示了知识库差距导致的协作效率递减效应。",
+  "order": 288,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01293v1"
+}

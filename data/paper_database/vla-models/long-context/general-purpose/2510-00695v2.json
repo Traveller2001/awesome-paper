@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00695v2",
+  "title": "HAMLET: Switch your Vision-Language-Action Model into a History-Aware\n  Policy",
+  "summary": "Inherently, robotic manipulation tasks are history-dependent: leveraging past\ncontext could be beneficial. However, most existing Vision-Language-Action\nmodels (VLAs) have been designed without considering this aspect, i.e., they\nrely solely on the current observation, ignoring preceding context. In this\npaper, we propose HAMLET, a scalable framework to adapt VLAs to attend to the\nhistorical context during action prediction. Specifically, we introduce moment\ntokens that compactly encode perceptual information at each timestep. Their\nrepresentations are initialized with time-contrastive learning, allowing them\nto better capture temporally distinctive aspects. Next, we employ a lightweight\nmemory module that integrates the moment tokens across past timesteps into\nmemory features, which are then leveraged for action prediction. Through\nempirical evaluation, we show that HAMLET successfully transforms a\nstate-of-the-art VLA into a history-aware policy, especially demonstrating\nsignificant improvements on long-horizon tasks that require historical context.\nIn particular, on top of GR00T N1.5, HAMLET achieves an average success rate of\n76.4% on history-dependent real-world tasks, surpassing the baseline\nperformance by 47.2%. Furthermore, HAMLET pushes prior art performance from\n64.1% to 66.4% on RoboCasa Kitchen (100-demo setup) and from 95.6% to 97.7% on\nLIBERO, highlighting its effectiveness even under generic robot-manipulation\nbenchmarks.",
+  "authors": [
+    "Myungkyu Koo",
+    "Daewon Choi",
+    "Taeyoung Kim",
+    "Kyungmin Lee",
+    "Changyeon Kim",
+    "Younggyo Seo",
+    "Jinwoo Shin"
+  ],
+  "published": "2025-10-01T09:15:52Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.00695v2",
+  "primary_area": "vla_models",
+  "secondary_focus": "long_context",
+  "application_domain": "general_purpose",
+  "tldr_zh": "HAMLET提出了一种可扩展框架，将视觉-语言-动作模型转换为历史感知策略。通过引入紧凑编码感知信息的时刻标记和轻量级记忆模块，有效整合历史上下文进行动作预测。在GR00T N1.5上对历史依赖任务的完成率达76.4%，较基线提升47.2%，在RoboCasa Kitchen和LIBERO基准测试中也显著提升性能。",
+  "order": 639,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00695v2"
+}

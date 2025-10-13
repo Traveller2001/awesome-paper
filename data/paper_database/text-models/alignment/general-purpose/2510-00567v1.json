@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00567v1",
+  "title": "Are Large Language Models Chronically Online Surfers? A Dataset for\n  Chinese Internet Meme Explanation",
+  "summary": "Large language models (LLMs) are trained on vast amounts of text from the\nInternet, but do they truly understand the viral content that rapidly spreads\nonline -- commonly known as memes? In this paper, we introduce CHIME, a dataset\nfor CHinese Internet Meme Explanation. The dataset comprises popular\nphrase-based memes from the Chinese Internet, annotated with detailed\ninformation on their meaning, origin, example sentences, types, etc. To\nevaluate whether LLMs understand these memes, we designed two tasks. In the\nfirst task, we assessed the models' ability to explain a given meme, identify\nits origin, and generate appropriate example sentences. The results show that\nwhile LLMs can explain the meanings of some memes, their performance declines\nsignificantly for culturally and linguistically nuanced meme types.\nAdditionally, they consistently struggle to provide accurate origins for the\nmemes. In the second task, we created a set of multiple-choice questions (MCQs)\nrequiring LLMs to select the most appropriate meme to fill in a blank within a\ncontextual sentence. While the evaluated models were able to provide correct\nanswers, their performance remains noticeably below human levels. We have made\nCHIME public and hope it will facilitate future research on computational meme\nunderstanding.",
+  "authors": [
+    "Yubo Xie",
+    "Chenkai Wang",
+    "Zongyang Ma",
+    "Fahui Miao"
+  ],
+  "published": "2025-10-01T06:41:46Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00567v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CHIME数据集，用于评估大语言模型对中文网络流行语的理解能力。研究发现，虽然模型能解释部分梗的含义，但在文化背景和起源识别方面表现不佳，且整体水平仍低于人类。该数据集旨在促进计算模因理解的研究。",
+  "order": 469,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00567v1"
+}

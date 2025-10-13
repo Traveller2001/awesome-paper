@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.06029v1",
+  "title": "Fast Leave-One-Out Approximation from Fragment-Target Prevalence Vectors\n  (molFTP) : From Dummy Masking to Key-LOO for Leakage-Free Feature\n  Construction",
+  "summary": "We introduce molFTP (molecular fragment-target prevalence), a compact\nrepresentation that delivers strong predictive performance. To prevent feature\nleakage across cross-validation folds, we implement a dummy-masking procedure\nthat removes information about fragments present in the held-out molecules. We\nfurther show that key leave-one-out (key-loo) closely approximates true\nmolecule-level leave-one-out (LOO), with deviation below 8% on our datasets.\nThis enables near full data training while preserving unbiased cross-validation\nestimates of model performance. Overall, molFTP provides a fast,\nleakage-resistant fragment-target prevalence vectorization with practical\nsafeguards (dummy masking or key-LOO) that approximate LOO at a fraction of its\ncost.",
+  "authors": [
+    "Guillaume Godin"
+  ],
+  "published": "2025-10-07T15:27:16Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06029v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出molFTP分子片段-靶点流行度向量化方法，通过虚拟掩码和关键留一法防止交叉验证中的特征泄露，在保持模型性能无偏估计的同时实现近似全数据训练，计算成本显著低于传统留一法。",
+  "order": 103,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06029v1"
+}

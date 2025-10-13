@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.02161v1",
+  "title": "Comparing Contrastive and Triplet Loss in Audio-Visual Embedding:\n  Intra-Class Variance and Greediness Analysis",
+  "summary": "Contrastive loss and triplet loss are widely used objectives in deep metric\nlearning, yet their effects on representation quality remain insufficiently\nunderstood. We present a theoretical and empirical comparison of these losses,\nfocusing on intra- and inter-class variance and optimization behavior (e.g.,\ngreedy updates). Through task-specific experiments with consistent settings on\nsynthetic data and real datasets-MNIST, CIFAR-10-it is shown that triplet loss\npreserves greater variance within and across classes, supporting finer-grained\ndistinctions in the learned representations. In contrast, contrastive loss\ntends to compact intra-class embeddings, which may obscure subtle semantic\ndifferences. To better understand their optimization dynamics, By examining\nloss-decay rate, active ratio, and gradient norm, we find that contrastive loss\ndrives many small updates early on, while triplet loss produces fewer but\nstronger updates that sustain learning on hard examples. Finally, across both\nclassification and retrieval tasks on MNIST, CIFAR-10, CUB-200, and CARS196\ndatasets, our results consistently show that triplet loss yields superior\nperformance, which suggests using triplet loss for detail retention and\nhard-sample focus, and contrastive loss for smoother, broad-based embedding\nrefinement.",
+  "authors": [
+    "Donghuo Zeng"
+  ],
+  "published": "2025-10-02T16:11:46Z",
+  "primary_category": "cs.MM",
+  "arxiv_url": "https://arxiv.org/abs/2510.02161v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文通过理论和实验对比了对比损失与三元组损失在深度度量学习中的表现。研究发现三元组损失能保留更大的类内和类间方差，支持更细粒度的表征区分，而对比损失倾向于压缩类内嵌入，可能掩盖细微语义差异。在优化动态方面，对比损失早期产生多个小更新，三元组损失则产生较少但更强的更新，持续学习困难样本。在多个数据集上的实验表明，三元组损失在分类和检索任务中表现更优，建议在需要细节保留和困难样本关注时使用三元组损失，在需要平滑、广泛的嵌入优化时使用对比损失。",
+  "order": 736,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02161v1"
+}

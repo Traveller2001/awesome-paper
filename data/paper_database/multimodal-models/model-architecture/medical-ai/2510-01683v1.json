@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01683v1",
+  "title": "Uncovering Overconfident Failures in CXR Models via\n  Augmentation-Sensitivity Risk Scoring",
+  "summary": "Deep learning models achieve strong performance in chest radiograph (CXR)\ninterpretation, yet fairness and reliability concerns persist. Models often\nshow uneven accuracy across patient subgroups, leading to hidden failures not\nreflected in aggregate metrics. Existing error detection approaches -- based on\nconfidence calibration or out-of-distribution (OOD) detection -- struggle with\nsubtle within-distribution errors, while image- and representation-level\nconsistency-based methods remain underexplored in medical imaging. We propose\nan augmentation-sensitivity risk scoring (ASRS) framework to identify\nerror-prone CXR cases. ASRS applies clinically plausible rotations ($\\pm\n15^\\circ$/$\\pm 30^\\circ$) and measures embedding shifts with the RAD-DINO\nencoder. Sensitivity scores stratify samples into stability quartiles, where\nhighly sensitive cases show substantially lower recall ($-0.2$ to $-0.3$)\ndespite high AUROC and confidence. ASRS provides a label-free means for\nselective prediction and clinician review, improving fairness and safety in\nmedical AI.",
+  "authors": [
+    "Han-Jay Shu",
+    "Wei-Ning Chiu",
+    "Shun-Ting Chang",
+    "Meng-Ping Huang",
+    "Takeshi Tohyama",
+    "Ahram Han",
+    "Po-Chih Kuo"
+  ],
+  "published": "2025-10-02T05:15:40Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01683v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出增强敏感性风险评分(ASRS)框架，通过临床合理旋转和RAD-DINO编码器测量嵌入变化，识别胸片模型中易出错病例。该方法能在保持高AUROC和置信度情况下，检测出召回率降低0.2-0.3的敏感样本，为医疗AI提供无标签选择性预测工具，提升公平性和安全性。",
+  "order": 553,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01683v1"
+}

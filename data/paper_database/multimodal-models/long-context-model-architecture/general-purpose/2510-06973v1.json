@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06973v1",
+  "title": "Addressing the ID-Matching Challenge in Long Video Captioning",
+  "summary": "Generating captions for long and complex videos is both critical and\nchallenging, with significant implications for the growing fields of\ntext-to-video generation and multi-modal understanding. One key challenge in\nlong video captioning is accurately recognizing the same individuals who appear\nin different frames, which we refer to as the ID-Matching problem. Few prior\nworks have focused on this important issue. Those that have, usually suffer\nfrom limited generalization and depend on point-wise matching, which limits\ntheir overall effectiveness. In this paper, unlike previous approaches, we\nbuild upon LVLMs to leverage their powerful priors. We aim to unlock the\ninherent ID-Matching capabilities within LVLMs themselves to enhance the\nID-Matching performance of captions. Specifically, we first introduce a new\nbenchmark for assessing the ID-Matching capabilities of video captions. Using\nthis benchmark, we investigate LVLMs containing GPT-4o, revealing key insights\nthat the performance of ID-Matching can be improved through two methods: 1)\nenhancing the usage of image information and 2) increasing the quantity of\ninformation of individual descriptions. Based on these insights, we propose a\nnovel video captioning method called Recognizing Identities for Captioning\nEffectively (RICE). Extensive experiments including assessments of caption\nquality and ID-Matching performance, demonstrate the superiority of our\napproach. Notably, when implemented on GPT-4o, our RICE improves the precision\nof ID-Matching from 50% to 90% and improves the recall of ID-Matching from 15%\nto 80% compared to baseline. RICE makes it possible to continuously track\ndifferent individuals in the captions of long videos.",
+  "authors": [
+    "Zhantao Yang",
+    "Huangji Wang",
+    "Ruili Feng",
+    "Han Zhang",
+    "Yuting Hu",
+    "Shangwen Zhu",
+    "Junyan Li",
+    "Yu Liu",
+    "Fan Cheng"
+  ],
+  "published": "2025-10-08T12:59:21Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06973v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['long_context', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对长视频字幕生成中的ID匹配难题，提出基于大视觉语言模型(LVLMs)的RICE方法。通过构建新评测基准和分析GPT-4o等模型，发现提升图像信息利用和个体描述信息量可显著改善ID匹配性能。实验表明RICE将ID匹配精确率从50%提升至90%，召回率从15%提升至80%，实现长视频中不同人物的持续追踪。",
+  "order": 124,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06973v1"
+}

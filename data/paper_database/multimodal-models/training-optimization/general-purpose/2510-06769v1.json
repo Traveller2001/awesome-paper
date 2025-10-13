@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06769v1",
+  "title": "A deep multiple instance learning approach based on coarse labels for\n  high-resolution land-cover mapping",
+  "summary": "The quantity and the quality of the training labels are central problems in\nhigh-resolution land-cover mapping with machine-learning-based solutions. In\nthis context, weak labels can be gathered in large quantities by leveraging on\nexisting low-resolution or obsolete products. In this paper, we address the\nproblem of training land-cover classifiers using high-resolution imagery (e.g.,\nSentinel-2) and weak low-resolution reference data (e.g., MODIS -derived\nland-cover maps). Inspired by recent works in Deep Multiple Instance Learning\n(DMIL), we propose a method that trains pixel-level multi-class classifiers and\npredicts low-resolution labels (i.e., patch-level classification), where the\nactual high-resolution labels are learned implicitly without direct\nsupervision. This is achieved with flexible pooling layers that are able to\nlink the semantics of the pixels in the high-resolution imagery to the\nlow-resolution reference labels. Then, the Multiple Instance Learning (MIL)\nproblem is re-framed in a multi-class and in a multi-label setting. In the\nformer, the low-resolution annotation represents the majority of the pixels in\nthe patch. In the latter, the annotation only provides us information on the\npresence of one of the land-cover classes in the patch and thus multiple labels\ncan be considered valid for a patch at a time, whereas the low-resolution\nlabels provide us only one label. Therefore, the classifier is trained with a\nPositive-Unlabeled Learning (PUL) strategy. Experimental results on the 2020\nIEEE GRSS Data Fusion Contest dataset show the effectiveness of the proposed\nframework compared to standard training strategies.",
+  "authors": [
+    "Gianmarco Perantoni",
+    "Lorenzo Bruzzone"
+  ],
+  "published": "2025-10-08T08:50:39Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06769v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于粗标签的深度多示例学习方法，用于高分辨率土地覆盖制图。该方法利用低分辨率参考数据（如MODIS）训练像素级分类器，通过灵活池化层连接高分辨率图像语义与低分辨率标签，并在多类和多标签设置下重构MIL问题。实验证明该框架在IEEE GRSS数据融合竞赛数据集上优于标准训练策略。",
+  "order": 141,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06769v1"
+}

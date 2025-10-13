@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07191v1",
+  "title": "Resolution scaling governs DINOv3 transfer performance in chest\n  radiograph classification",
+  "summary": "Self-supervised learning (SSL) has advanced visual representation learning,\nbut its value in chest radiography, a high-volume imaging modality with\nfine-grained findings, remains unclear. Meta's DINOv3 extends earlier SSL\nmodels through Gram-anchored self-distillation. Whether these design choices\nimprove transfer learning for chest radiography has not been systematically\ntested. We benchmarked DINOv3 against DINOv2 and ImageNet initialization across\nseven datasets (n>814,000). Two representative backbones were evaluated:\nViT-B/16 and ConvNeXt-B. Images were analyzed at 224x224, 512x512, and\n1024x1024 pixels. We additionally assessed frozen features from a 7B model. The\nprimary outcome was mean AUROC across labels. At 224x224, DINOv3 and DINOv2\nachieved comparable performance on adult datasets. Increasing resolution to\n512x512 yielded consistent improvements for DINOv3 over both DINOv2 and\nImageNet. In contrast, results in pediatric cohort showed no differences across\ninitializations. Across all settings, ConvNeXt-B outperformed ViT-B/16. Models\nusing frozen DINOv3-7B features underperformed relative to fully finetuned\n86-89M-parameter backbones, highlighting the importance of domain adaptation.\nScaling to 1024x1024 did not further improve accuracy. Resolution-related gains\nwere most evident for boundary-dependent and small focal abnormalities. In\nchest radiography, higher input resolution is critical for leveraging the\nbenefits of modern self-supervised models. 512x512 pixels represent a practical\nupper limit where DINOv3-initialized ConvNeXt-B networks provide the strongest\nperformance, while larger inputs offer minimal return on cost. Clinically,\nthese findings support use of finetuned, mid-sized backbones at 512x512 for\nchest radiograph interpretation, with the greatest gains expected in detecting\nsubtle or boundary-centered lesions relevant to emergency and critical care\nsettings.",
+  "authors": [
+    "Soroosh Tayebi Arasteh",
+    "Mina Shaigan",
+    "Christiane Kuhl",
+    "Jakob Nikolas Kather",
+    "Sven Nebelung",
+    "Daniel Truhn"
+  ],
+  "published": "2025-10-08T16:25:04Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07191v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究系统评估了DINOv3在胸部X光分类中的迁移性能，发现512×512分辨率下DINOv3初始化的ConvNeXt-B网络表现最佳。相比DINOv2和ImageNet初始化，DINOv3在成人数据集中随分辨率提升展现稳定优势，而对边界依赖和小病灶异常的检测提升最为明显。研究支持在临床实践中使用512×512分辨率的中等规模骨干网络，尤其适用于急诊和重症监护中的细微病变检测。",
+  "order": 111,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07191v1"
+}

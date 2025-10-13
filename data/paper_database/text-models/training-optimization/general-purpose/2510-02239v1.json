@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02239v1",
+  "title": "Drop-Muon: Update Less, Converge Faster",
+  "summary": "Conventional wisdom in deep learning optimization dictates updating all\nlayers at every step-a principle followed by all recent state-of-the-art\noptimizers such as Muon. In this work, we challenge this assumption, showing\nthat full-network updates can be fundamentally suboptimal, both in theory and\nin practice. We introduce a non-Euclidean Randomized Progressive Training\nmethod-Drop-Muon-a simple yet powerful framework that updates only a subset of\nlayers per step according to a randomized schedule, combining the efficiency of\nprogressive training with layer-specific non-Euclidean updates for top-tier\nperformance. We provide rigorous convergence guarantees under both layer-wise\nsmoothness and layer-wise $(L^0, L^1)$-smoothness, covering deterministic and\nstochastic gradient settings, marking the first such results for progressive\ntraining in the stochastic and non-smooth regime. Our cost analysis further\nreveals that full-network updates are not optimal unless a very specific\nrelationship between layer smoothness constants holds. Through controlled CNN\nexperiments, we empirically demonstrate that Drop-Muon consistently outperforms\nfull-network Muon, achieving the same accuracy up to $1.4\\times$ faster in\nwall-clock time. Together, our results suggest a shift in how large-scale\nmodels can be efficiently trained, challenging the status quo and offering a\nhighly efficient, theoretically grounded alternative to full-network updates.",
+  "authors": [
+    "Kaja Gruntkowska",
+    "Yassine Maziane",
+    "Zheng Qu",
+    "Peter Richtárik"
+  ],
+  "published": "2025-10-02T17:28:55Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02239v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Drop-Muon优化方法，挑战传统深度学习需每步更新所有层的做法，通过随机选择部分层进行非欧几里得更新，在理论和实验上证明能比全网络更新快1.4倍达到相同精度，为大规模模型训练提供高效替代方案。",
+  "order": 713,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02239v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07093v1",
+  "title": "Non-Asymptotic Analysis of Efficiency in Conformalized Regression",
+  "summary": "Conformal prediction provides prediction sets with coverage guarantees. The\ninformativeness of conformal prediction depends on its efficiency, typically\nquantified by the expected size of the prediction set. Prior work on the\nefficiency of conformalized regression commonly treats the miscoverage level\n$\\alpha$ as a fixed constant. In this work, we establish non-asymptotic bounds\non the deviation of the prediction set length from the oracle interval length\nfor conformalized quantile and median regression trained via SGD, under mild\nassumptions on the data distribution. Our bounds of order\n$\\mathcal{O}(1/\\sqrt{n} + 1/(\\alpha^2 n) + 1/\\sqrt{m} + \\exp(-\\alpha^2 m))$\ncapture the joint dependence of efficiency on the proper training set size $n$,\nthe calibration set size $m$, and the miscoverage level $\\alpha$. The results\nidentify phase transitions in convergence rates across different regimes of\n$\\alpha$, offering guidance for allocating data to control excess prediction\nset length. Empirical results are consistent with our theoretical findings.",
+  "authors": [
+    "Yunzhen Yao",
+    "Lie He",
+    "Michael Gastpar"
+  ],
+  "published": "2025-10-08T14:50:35Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07093v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文对共形化回归方法的效率进行了非渐近分析，建立了预测区间长度与理想区间长度偏差的理论上界。研究揭示了训练集规模n、校准集规模m和误覆盖水平α对效率的联合影响，发现了不同α区间的收敛速率相变现象，为数据分配策略提供了理论指导。",
+  "order": 180,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07093v1"
+}

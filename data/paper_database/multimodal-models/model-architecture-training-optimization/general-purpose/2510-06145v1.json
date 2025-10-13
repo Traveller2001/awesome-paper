@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06145v1",
+  "title": "Bimanual 3D Hand Motion and Articulation Forecasting in Everyday Images",
+  "summary": "We tackle the problem of forecasting bimanual 3D hand motion & articulation\nfrom a single image in everyday settings. To address the lack of 3D hand\nannotations in diverse settings, we design an annotation pipeline consisting of\na diffusion model to lift 2D hand keypoint sequences to 4D hand motion. For the\nforecasting model, we adopt a diffusion loss to account for the multimodality\nin hand motion distribution. Extensive experiments across 6 datasets show the\nbenefits of training on diverse data with imputed labels (14% improvement) and\neffectiveness of our lifting (42% better) & forecasting (16.4% gain) models,\nover the best baselines, especially in zero-shot generalization to everyday\nimages.",
+  "authors": [
+    "Aditya Prakash",
+    "David Forsyth",
+    "Saurabh Gupta"
+  ],
+  "published": "2025-10-07T17:18:56Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06145v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出从单张日常图像预测双手3D运动与关节姿态的方法。针对多样场景下3D标注数据缺乏的问题，设计了基于扩散模型的标注流程，将2D手部关键点序列提升至4D手部运动。预测模型采用扩散损失处理运动分布的多模态特性。在6个数据集上的实验表明，使用增强标注数据的训练效果提升14%，提升模型性能优于基线42%，预测模型增益达16.4%，在零样本泛化至日常图像时表现优异。",
+  "order": 63,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06145v1"
+}

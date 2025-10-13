@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06842v1",
+  "title": "Continual Action Quality Assessment via Adaptive Manifold-Aligned Graph\n  Regularization",
+  "summary": "Action Quality Assessment (AQA) quantifies human actions in videos,\nsupporting applications in sports scoring, rehabilitation, and skill\nevaluation. A major challenge lies in the non-stationary nature of quality\ndistributions in real-world scenarios, which limits the generalization ability\nof conventional methods. We introduce Continual AQA (CAQA), which equips AQA\nwith Continual Learning (CL) capabilities to handle evolving distributions\nwhile mitigating catastrophic forgetting. Although parameter-efficient\nfine-tuning of pretrained models has shown promise in CL for image\nclassification, we find it insufficient for CAQA. Our empirical and theoretical\nanalyses reveal two insights: (i) Full-Parameter Fine-Tuning (FPFT) is\nnecessary for effective representation learning; yet (ii) uncontrolled FPFT\ninduces overfitting and feature manifold shift, thereby aggravating forgetting.\nTo address this, we propose Adaptive Manifold-Aligned Graph Regularization\n(MAGR++), which couples backbone fine-tuning that stabilizes shallow layers\nwhile adapting deeper ones with a two-step feature rectification pipeline: a\nmanifold projector to translate deviated historical features into the current\nrepresentation space, and a graph regularizer to align local and global\ndistributions. We construct four CAQA benchmarks from three datasets with\ntailored evaluation protocols and strong baselines, enabling systematic\ncross-dataset comparison. Extensive experiments show that MAGR++ achieves\nstate-of-the-art performance, with average correlation gains of 3.6% offline\nand 12.2% online over the strongest baseline, confirming its robustness and\neffectiveness. Our code is available at https://github.com/ZhouKanglei/MAGRPP.",
+  "authors": [
+    "Kanglei Zhou",
+    "Qingyi Pan",
+    "Xingxing Zhang",
+    "Hubert P. H. Shum",
+    "Frederick W. B. Li",
+    "Xiaohui Liang",
+    "Liyuan Wang"
+  ],
+  "published": "2025-10-08T10:09:47Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06842v1",
+  "primary_area": "video_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出持续动作质量评估(CAQA)框架MAGR++，通过自适应流形对齐图正则化解决视频动作质量评估中的分布漂移和灾难性遗忘问题。该方法结合全参数微调与特征校正流程，在四个基准测试中取得最优性能，离线相关性提升3.6%，在线提升12.2%。",
+  "order": 134,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06842v1"
+}

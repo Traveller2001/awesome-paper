@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02017v1",
+  "title": "FairContrast: Enhancing Fairness through Contrastive learning and\n  Customized Augmenting Methods on Tabular Data",
+  "summary": "As AI systems become more embedded in everyday life, the development of fair\nand unbiased models becomes more critical. Considering the social impact of AI\nsystems is not merely a technical challenge but a moral imperative. As\nevidenced in numerous research studies, learning fair and robust\nrepresentations has proven to be a powerful approach to effectively debiasing\nalgorithms and improving fairness while maintaining essential information for\nprediction tasks. Representation learning frameworks, particularly those that\nutilize self-supervised and contrastive learning, have demonstrated superior\nrobustness and generalizability across various domains. Despite the growing\ninterest in applying these approaches to tabular data, the issue of fairness in\nthese learned representations remains underexplored. In this study, we\nintroduce a contrastive learning framework specifically designed to address\nbias and learn fair representations in tabular datasets. By strategically\nselecting positive pair samples and employing supervised and self-supervised\ncontrastive learning, we significantly reduce bias compared to existing\nstate-of-the-art contrastive learning models for tabular data. Our results\ndemonstrate the efficacy of our approach in mitigating bias with minimum\ntrade-off in accuracy and leveraging the learned fair representations in\nvarious downstream tasks.",
+  "authors": [
+    "Aida Tayebi",
+    "Ali Khodabandeh Yalabadi",
+    "Mehdi Yazdani-Jahromi",
+    "Ozlem Ozmen Garibay"
+  ],
+  "published": "2025-10-02T13:43:53Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02017v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "FairContrast提出了一种针对表格数据的对比学习框架，通过策略性选择正样本对和监督/自监督对比学习，在保持预测准确性的同时显著减少算法偏见，学习公平表征并应用于下游任务。",
+  "order": 761,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02017v1"
+}

@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.05485v1",
+  "title": "TensorBLEU: Vectorized GPU-based BLEU Score Implementation for\n  Per-Sentence In-Training Evaluation",
+  "summary": "Modern natural language processing models have achieved unprecedented scale,\nyet the tools for their evaluation often remain a computational bottleneck,\nlimiting the pace of research. This is particularly acute for in-training\nevaluation metrics, such as per-sentence reward signals in Reinforcement\nLearning, which must operate efficiently on batches of token IDs directly on\nthe GPU. In this paper, we introduce TensorBLEU, a novel implementation of the\nBLEU metric designed from the ground up for this specific use case. Our\napproach is fully vectorized for GPU-accelerated, per-sentence computation\nwithin PyTorch and introduces a memory-efficient counting mechanism. By\ncreating a compact, batch-specific dictionary of n-grams using\n\\texttt{torch.unique}, our method avoids the prohibitive memory costs of\ntraditional hashing-based vectorization, making it practical for\nlarge-vocabulary models. We benchmark TensorBLEU against NLTK, the standard\nlibrary for token-ID-based BLEU calculation on the CPU. Experiments show that\nTensorBLEU provides speedups of over 13x on consumer-grade GPUs (NVIDIA T4) and\nexceeding 40x on data-center-class hardware (NVIDIA A100). This performance\ntransforms a significant bottleneck into a negligible part of the training\nloop. By clearly defining its role as a \"Token-ID BLEU\" for development\npurposes and open-sourcing our implementation, we provide a powerful tool for\naccelerating research in areas like RL-based model fine-tuning.",
+  "authors": [
+    "Adam Filipek"
+  ],
+  "published": "2025-10-07T01:02:46Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05485v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TensorBLEU，一种专为GPU优化的向量化BLEU评分实现，支持在训练过程中进行逐句评估。通过使用torch.unique创建紧凑的n-gram字典，避免了传统哈希方法的内存瓶颈，在消费级GPU上实现13倍加速，数据中心级硬件上超过40倍加速，显著提升了NLP模型训练效率。",
+  "order": 56,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05485v1"
+}

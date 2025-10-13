@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05799v1",
+  "title": "Data-efficient Targeted Token-level Preference Optimization for\n  LLM-based Text-to-Speech",
+  "summary": "Aligning text-to-speech (TTS) system outputs with human feedback through\npreference optimization has been shown to effectively improve the robustness\nand naturalness of language model-based TTS models. Current approaches\nprimarily require paired desirable and undesirable samples at the utterance\nlevel. However, such pairs are often limited in TTS output data, and\nutterance-level formulation prevents fine-grained token-level optimization\nneeded for accurate pronunciation alignment. In this study, we propose TKTO\nthat eliminates the need for paired data, enabling a more data-efficient\ntraining paradigm, and directly targets token-level units, automatically\nproviding fine-grained alignment signals without token-level annotations. TKTO\nimproves the challenging Japanese TTS accuracy by 39% and reduces CER by 54%,\nautomatically assigning 12.8 times stronger reward to targeted tokens.",
+  "authors": [
+    "Rikuto Kotoge",
+    "Yuichi Sasaki"
+  ],
+  "published": "2025-10-07T11:18:04Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05799v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "['training_optimization', 'alignment']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TKTO方法，针对基于大语言模型的文本转语音系统，通过无需配对数据的令牌级偏好优化，显著提升日语TTS准确率39%，降低字错误率54%，实现细粒度发音对齐。",
+  "order": 36,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05799v1"
+}

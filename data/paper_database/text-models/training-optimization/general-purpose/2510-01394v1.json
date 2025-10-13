@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01394v1",
+  "title": "Optimal Stopping vs Best-of-$N$ for Inference Time Optimization",
+  "summary": "Large language model (LLM) generation often requires balancing output quality\nagainst inference cost, especially when using multiple generations. We\nintroduce a new framework for inference-time optimization based on the\nclassical Pandora's Box problem. Viewing each generation as opening a costly\n\"box\" with random reward, we develop algorithms that decide when to stop\ngenerating without knowing the underlying reward distribution. Our first\ncontribution is a UCB-style Pandora's Box algorithm, which achieves performance\nthat is provably close to Weitzman's algorithm, the optimal strategy when the\ndistribution is known. We further adapt this method to practical LLM settings\nby addressing reward scaling across prompts via a Bradley-Terry inspired\ntransformation. This leads to an adaptive inference-time optimization method\nthat normalizes rewards and learns stopping thresholds on the fly. Experiments\non the AlpacaFarm and HH-RLHF datasets, using multiple LLM-reward model pairs,\nshow that our adaptive strategy can obtain the same performance as non-adaptive\nBest-of-N sampling while requiring 15-35 percent fewer generations on average.\nOur results establish a principled bridge between optimal stopping theory and\ninference-time scaling, providing both theoretical performance bounds and\npractical efficiency gains for LLM deployment.",
+  "authors": [
+    "Yusuf Kalayci",
+    "Vinod Raman",
+    "Shaddin Dughmi"
+  ],
+  "published": "2025-10-01T19:25:59Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01394v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出基于潘多拉盒子问题的大语言模型推理优化框架，通过UCB式算法自适应决定生成停止时机，在AlpacaFarm和HH-RLHF数据集上实验表明，相比传统Best-of-N采样方法可减少15-35%的生成次数，同时保持相同性能表现。",
+  "order": 405,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01394v1"
+}

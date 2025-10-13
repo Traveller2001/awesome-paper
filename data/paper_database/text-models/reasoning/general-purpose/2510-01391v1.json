@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01391v1",
+  "title": "TAG-EQA: Text-And-Graph for Event Question Answering via Structured\n  Prompting Strategies",
+  "summary": "Large language models (LLMs) excel at general language tasks but often\nstruggle with event-based questions-especially those requiring causal or\ntemporal reasoning. We introduce TAG-EQA (Text-And-Graph for Event Question\nAnswering), a prompting framework that injects causal event graphs into LLM\ninputs by converting structured relations into natural-language statements.\nTAG-EQA spans nine prompting configurations, combining three strategies\n(zero-shot, few-shot, chain-of-thought) with three input modalities (text-only,\ngraph-only, text+graph), enabling a systematic analysis of when and how\nstructured knowledge aids inference. On the TORQUESTRA benchmark, TAG-EQA\nimproves accuracy by 5% on average over text-only baselines, with gains up to\n12% in zero-shot settings and 18% when graph-augmented CoT prompting is\neffective. While performance varies by model and configuration, our findings\nshow that causal graphs can enhance event reasoning in LLMs without\nfine-tuning, offering a flexible way to encode structure in prompt-based QA.",
+  "authors": [
+    "Maithili Kadam",
+    "Francis Ferraro"
+  ],
+  "published": "2025-10-01T19:23:41Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01391v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "TAG-EQA是一种通过将因果事件图转换为自然语言陈述注入LLM输入的提示框架，结合三种策略与三种输入模态，在TORQUESTRA基准测试中比纯文本基线平均准确率提升5%，最高可达18%，证明无需微调即可增强LLM的事件推理能力。",
+  "order": 406,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01391v1"
+}

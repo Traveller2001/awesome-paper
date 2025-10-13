@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06673v1",
+  "title": "Heptapod: Language Modeling on Visual Signals",
+  "summary": "We introduce Heptapod, an image autoregressive model that adheres to the\nfoundational principles of language modeling. Heptapod employs \\textbf{causal\nattention}, \\textbf{eliminates reliance on CFG}, and \\textbf{eschews the trend\nof semantic tokenizers}. Our key innovation is \\textit{next 2D distribution\nprediction}: a causal Transformer with reconstruction-focused visual tokenizer,\nlearns to predict the distribution over the entire 2D spatial grid of images at\neach timestep. This learning objective unifies the sequential modeling of\nautoregressive framework with the holistic self-supervised learning of masked\nautoencoding, enabling the model to capture comprehensive image semantics via\ngenerative training. On the ImageNet generation benchmark, Heptapod achieves an\nFID of $2.70$, significantly outperforming previous causal autoregressive\napproaches. We hope our work inspires a principled rethinking of language\nmodeling on visual signals and beyond.",
+  "authors": [
+    "Yongxin Zhu",
+    "Jiawei Chen",
+    "Yuanzhe Chen",
+    "Zhuo Chen",
+    "Dongya Jia",
+    "Jian Cong",
+    "Xiaobin Zhuang",
+    "Yuping Wang",
+    "Yuxuan Wang"
+  ],
+  "published": "2025-10-08T05:54:46Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06673v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Heptapod是一种基于语言建模原理的图像自回归模型，采用因果注意力和二维分布预测创新方法，在ImageNet生成基准上取得FID 2.70的优异表现，为视觉信号的语言建模提供了新思路。",
+  "order": 149,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06673v1"
+}

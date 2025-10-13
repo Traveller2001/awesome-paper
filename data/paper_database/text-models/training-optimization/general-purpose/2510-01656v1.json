@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.01656v1",
+  "title": "Asymmetric Proximal Policy Optimization: mini-critics boost LLM\n  reasoning",
+  "summary": "Most recent RL for LLMs (RL4LLM) methods avoid explicit critics, replacing\nthem with average advantage baselines. This shift is largely pragmatic:\nconventional value functions are computationally expensive to train at LLM\nscale and often fail under sparse rewards and long reasoning horizons. We\nrevisit this bottleneck from an architectural perspective and introduce\nAsymmetric Proximal Policy Optimization (AsyPPO), a simple and scalable\nframework that restores the critics role while remaining efficient in\nlarge-model settings. AsyPPO employs a set of lightweight mini-critics, each\ntrained on disjoint prompt shards. This design encourages diversity while\npreserving calibration, reducing value-estimation bias. Beyond robust\nestimation, AsyPPO leverages inter-critic uncertainty to refine the policy\nupdate: (i) masking advantages in states where critics agree and gradients add\nlittle learning signal, and (ii) filtering high-divergence states from entropy\nregularization, suppressing spurious exploration. After training on open-source\ndata with only 5,000 samples, AsyPPO consistently improves learning stability\nand performance across multiple benchmarks over strong baselines, such as GRPO,\nachieving performance gains of more than six percent on Qwen3-4b-Base and about\nthree percent on Qwen3-8b-Base and Qwen3-14b-Base over classic PPO, without\nadditional tricks. These results highlight the importance of architectural\ninnovations for scalable, efficient algorithms.",
+  "authors": [
+    "Jiashun Liu",
+    "Johan Obando-Ceron",
+    "Han Lu",
+    "Yancheng He",
+    "Weixun Wang",
+    "Wenbo Su",
+    "Bo Zheng",
+    "Pablo Samuel Castro",
+    "Aaron Courville",
+    "Ling Pan"
+  ],
+  "published": "2025-10-02T04:24:27Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01656v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出非对称近端策略优化(AsyPPO)，通过使用轻量级迷你评论器解决LLM强化学习中价值函数训练难题。该方法在多个基准测试中显著提升学习稳定性和性能，仅用5000个样本即实现超过PPO基线6%的性能提升。",
+  "order": 105,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01656v1"
+}

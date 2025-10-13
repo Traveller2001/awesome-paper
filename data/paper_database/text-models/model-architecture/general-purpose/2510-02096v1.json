@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02096v1",
+  "title": "Learning Model Representations Using Publicly Available Model Hubs",
+  "summary": "The weights of neural networks have emerged as a novel data modality, giving\nrise to the field of weight space learning. A central challenge in this area is\nthat learning meaningful representations of weights typically requires large,\ncarefully constructed collections of trained models, typically referred to as\nmodel zoos. These model zoos are often trained ad-hoc, requiring large\ncomputational resources, constraining the learned weight space representations\nin scale and flexibility. In this work, we drop this requirement by training a\nweight space learning backbone on arbitrary models downloaded from large,\nunstructured model repositories such as Hugging Face. Unlike curated model\nzoos, these repositories contain highly heterogeneous models: they vary in\narchitecture and dataset, and are largely undocumented. To address the\nmethodological challenges posed by such heterogeneity, we propose a new weight\nspace backbone designed to handle unstructured model populations. We\ndemonstrate that weight space representations trained on models from Hugging\nFace achieve strong performance, often outperforming backbones trained on\nlaboratory-generated model zoos. Finally, we show that the diversity of the\nmodel weights in our training set allows our weight space model to generalize\nto unseen data modalities. By demonstrating that high-quality weight space\nrepresentations can be learned in the wild, we show that curated model zoos are\nnot indispensable, thereby overcoming a strong limitation currently faced by\nthe weight space learning community.",
+  "authors": [
+    "Damian Falk",
+    "Konstantin Schürholt",
+    "Konstantinos Tzevelekakis",
+    "Léo Meynent",
+    "Damian Borth"
+  ],
+  "published": "2025-10-02T15:04:31Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02096v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出一种直接从Hugging Face等公开模型库中学习权重空间表示的新方法，无需依赖精心构建的模型动物园。通过设计能处理异构模型的新型权重空间骨干网络，在多样化的公开模型上训练出的表示性能优异，甚至超越实验室生成模型，并能泛化到未见过的数据模态，突破了权重空间学习领域对定制模型库的依赖。",
+  "order": 750,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02096v1"
+}

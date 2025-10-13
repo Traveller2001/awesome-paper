@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00960v1",
+  "title": "A Neuro-Fuzzy System for Interpretable Long-Term Stock Market\n  Forecasting",
+  "summary": "In the complex landscape of multivariate time series forecasting, achieving\nboth accuracy and interpretability remains a significant challenge. This paper\nintroduces the Fuzzy Transformer (Fuzzformer), a novel recurrent neural network\narchitecture combined with multi-head self-attention and fuzzy inference\nsystems to analyze multivariate stock market data and conduct long-term time\nseries forecasting. The method leverages LSTM networks and temporal attention\nto condense multivariate data into interpretable features suitable for fuzzy\ninference systems. The resulting architecture offers comparable forecasting\nperformance to conventional models such as ARIMA and LSTM while providing\nmeaningful information flow within the network. The method was examined on the\nreal world stock market index S\\&P500. Initial results show potential for\ninterpretable forecasting and identify current performance tradeoffs,\nsuggesting practical application in understanding and forecasting stock market\nbehavior.",
+  "authors": [
+    "Miha Ožbot",
+    "Igor Škrjanc",
+    "Vitomir Štruc"
+  ],
+  "published": "2025-10-01T14:33:07Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00960v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出Fuzzformer模型，结合LSTM、多头自注意力与模糊推理系统，用于多变量股市数据的长期预测。在S&P500指数上验证，在保持与ARIMA、LSTM相当预测性能的同时，提供网络内部信息流的可解释性，揭示了当前性能权衡，具有实际应用潜力。",
+  "order": 213,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00960v1"
+}

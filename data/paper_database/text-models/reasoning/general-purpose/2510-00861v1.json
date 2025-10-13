@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.00861v1",
+  "title": "Erase to Improve: Erasable Reinforcement Learning for Search-Augmented\n  LLMs",
+  "summary": "While search-augmented large language models (LLMs) exhibit impressive\ncapabilities, their reliability in complex multi-hop reasoning remains limited.\nThis limitation arises from three fundamental challenges: decomposition errors,\nwhere tasks are incorrectly broken down; retrieval missing, where key evidence\nfails to be retrieved; and reasoning errors, where flawed logic propagates\nthrough the reasoning chain. A single failure in any of these stages can derail\nthe final answer. We propose Erasable Reinforcement Learning (ERL), a novel\nframework that transforms fragile reasoning into a robust process. ERL\nexplicitly identifies faulty steps, erases them, and regenerates reasoning in\nplace, preventing defective logic from propagating through the reasoning chain.\nThis targeted correction mechanism turns brittle reasoning into a more\nresilient process. Models trained with ERL, termed ESearch, achieve substantial\nimprovements on HotpotQA, MuSiQue, 2Wiki, and Bamboogle, with the 3B model\nachieving +8.48% EM and +11.56% F1, and the 7B model achieving +5.38% EM and\n+7.22% F1 over previous state-of-the-art(SOTA) results. These findings suggest\nthat erasable reinforcement learning provides a powerful paradigm shift for\nrobust multi-step reasoning in LLMs.",
+  "authors": [
+    "Ziliang Wang",
+    "Kang An",
+    "Xuhui Zheng",
+    "Faqiang Qian",
+    "Weikun Zhang",
+    "Cijun Ouyang",
+    "Jialu Cai",
+    "Yuhang Wang",
+    "Yichao Wu"
+  ],
+  "published": "2025-10-01T13:10:36Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00861v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出可擦除强化学习(ERL)框架，解决检索增强大语言模型在多跳推理中的三大挑战：分解错误、检索缺失和推理错误。ERL通过识别错误步骤、擦除并重新生成推理，防止错误逻辑在推理链中传播。实验表明，ESearch模型在多个基准测试中显著超越现有最优结果，为LLM的鲁棒多步推理提供了新范式。",
+  "order": 445,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00861v1"
+}

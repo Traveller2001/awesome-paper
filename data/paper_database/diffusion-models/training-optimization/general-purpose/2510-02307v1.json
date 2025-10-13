@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02307v1",
+  "title": "NoiseShift: Resolution-Aware Noise Recalibration for Better\n  Low-Resolution Image Generation",
+  "summary": "Text-to-image diffusion models trained on a fixed set of resolutions often\nfail to generalize, even when asked to generate images at lower resolutions\nthan those seen during training. High-resolution text-to-image generators are\ncurrently unable to easily offer an out-of-the-box budget-efficient alternative\nto their users who might not need high-resolution images. We identify a key\ntechnical insight in diffusion models that when addressed can help tackle this\nlimitation: Noise schedulers have unequal perceptual effects across\nresolutions. The same level of noise removes disproportionately more signal\nfrom lower-resolution images than from high-resolution images, leading to a\ntrain-test mismatch. We propose NoiseShift, a training-free method that\nrecalibrates the noise level of the denoiser conditioned on resolution size.\nNoiseShift requires no changes to model architecture or sampling schedule and\nis compatible with existing models. When applied to Stable Diffusion 3, Stable\nDiffusion 3.5, and Flux-Dev, quality at low resolutions is significantly\nimproved. On LAION-COCO, NoiseShift improves SD3.5 by 15.89%, SD3 by 8.56%, and\nFlux-Dev by 2.44% in FID on average. On CelebA, NoiseShift improves SD3.5 by\n10.36%, SD3 by 5.19%, and Flux-Dev by 3.02% in FID on average. These results\ndemonstrate the effectiveness of NoiseShift in mitigating resolution-dependent\nartifacts and enhancing the quality of low-resolution image generation.",
+  "authors": [
+    "Ruozhen He",
+    "Moayed Haji-Ali",
+    "Ziyan Yang",
+    "Vicente Ordonez"
+  ],
+  "published": "2025-10-02T17:59:43Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02307v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "NoiseShift是一种无需训练的方法，通过根据分辨率大小重新校准去噪器的噪声水平，解决了扩散模型在不同分辨率下生成质量不一致的问题。该方法兼容现有模型，在Stable Diffusion 3、3.5和Flux-Dev上显著提升了低分辨率图像生成质量，平均FID指标提升达2.44%-15.89%。",
+  "order": 490,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02307v1"
+}

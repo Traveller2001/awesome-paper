@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00487v1",
+  "title": "Black-Box Time-Series Domain Adaptation via Cross-Prompt Foundation\n  Models",
+  "summary": "The black-box domain adaptation (BBDA) topic is developed to address the\nprivacy and security issues where only an application programming interface\n(API) of the source model is available for domain adaptations. Although the\nBBDA topic has attracted growing research attentions, existing works mostly\ntarget the vision applications and are not directly applicable to the\ntime-series applications possessing unique spatio-temporal characteristics. In\naddition, none of existing approaches have explored the strength of foundation\nmodel for black box time-series domain adaptation (BBTSDA). This paper proposes\na concept of Cross-Prompt Foundation Model (CPFM) for the BBTSDA problems. CPFM\nis constructed under a dual branch network structure where each branch is\nequipped with a unique prompt to capture different characteristics of data\ndistributions. In the domain adaptation phase, the reconstruction learning\nphase in the prompt and input levels is developed. All of which are built upon\na time-series foundation model to overcome the spatio-temporal dynamic. Our\nrigorous experiments substantiate the advantage of CPFM achieving improved\nresults with noticeable margins from its competitors in three time-series\ndatasets of different application domains.",
+  "authors": [
+    "M. T. Furqon",
+    "Mahardhika Pratama",
+    "Igor Skrjanc",
+    "Lin Liu",
+    "Habibullah Habibullah",
+    "Kutluyil Dogancay"
+  ],
+  "published": "2025-10-01T04:09:01Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00487v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出跨提示基础模型(CPFM)解决黑盒时间序列域适应问题，采用双分支网络结构，通过提示和输入层面的重构学习，利用时间序列基础模型克服时空动态特性，在三个不同应用领域的时间序列数据集上取得显著优势。",
+  "order": 300,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00487v1"
+}

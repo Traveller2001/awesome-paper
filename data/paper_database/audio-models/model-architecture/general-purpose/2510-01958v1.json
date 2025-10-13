@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01958v1",
+  "title": "Exploring Resolution-Wise Shared Attention in Hybrid Mamba-U-Nets for\n  Improved Cross-Corpus Speech Enhancement",
+  "summary": "Recent advances in speech enhancement have shown that models combining Mamba\nand attention mechanisms yield superior cross-corpus generalization\nperformance. At the same time, integrating Mamba in a U-Net structure has\nyielded state-of-the-art enhancement performance, while reducing both model\nsize and computational complexity. Inspired by these insights, we propose\nRWSA-MambaUNet, a novel and efficient hybrid model combining Mamba and\nmulti-head attention in a U-Net structure for improved cross-corpus\nperformance. Resolution-wise shared attention (RWSA) refers to layerwise\nattention-sharing across corresponding time- and frequency resolutions. Our\nbest-performing RWSA-MambaUNet model achieves state-of-the-art generalization\nperformance on two out-of-domain test sets. Notably, our smallest model\nsurpasses all baselines on the out-of-domain DNS 2020 test set in terms of\nPESQ, SSNR, and ESTOI, and on the out-of-domain EARS-WHAM_v2 test set in terms\nof SSNR, ESTOI, and SI-SDR, while using less than half the model parameters and\na fraction of the FLOPs.",
+  "authors": [
+    "Nikolai Lund Kühne",
+    "Jesper Jensen",
+    "Jan Østergaard",
+    "Zheng-Hua Tan"
+  ],
+  "published": "2025-10-02T12:27:29Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.01958v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RWSA-MambaUNet混合模型，将Mamba与多头注意力机制结合于U-Net架构中，通过分辨率共享注意力机制提升跨语料库语音增强性能。该模型在多个外部测试集上取得最优泛化性能，且参数量和计算量显著降低。",
+  "order": 57,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01958v1"
+}

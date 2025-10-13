@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01970v1",
+  "title": "Moon: A Modality Conversion-based Efficient Multivariate Time Series\n  Anomaly Detection",
+  "summary": "Multivariate time series (MTS) anomaly detection identifies abnormal patterns\nwhere each timestamp contains multiple variables. Existing MTS anomaly\ndetection methods fall into three categories: reconstruction-based,\nprediction-based, and classifier-based methods. However, these methods face two\nkey challenges: (1) Unsupervised learning methods, such as reconstruction-based\nand prediction-based methods, rely on error thresholds, which can lead to\ninaccuracies; (2) Semi-supervised methods mainly model normal data and often\nunderuse anomaly labels, limiting detection of subtle anomalies;(3) Supervised\nlearning methods, such as classifier-based approaches, often fail to capture\nlocal relationships, incur high computational costs, and are constrained by the\nscarcity of labeled data. To address these limitations, we propose Moon, a\nsupervised modality conversion-based multivariate time series anomaly detection\nframework. Moon enhances the efficiency and accuracy of anomaly detection while\nproviding detailed anomaly analysis reports. First, Moon introduces a novel\nmultivariate Markov Transition Field (MV-MTF) technique to convert numeric time\nseries data into image representations, capturing relationships across\nvariables and timestamps. Since numeric data retains unique patterns that\ncannot be fully captured by image conversion alone, Moon employs a\nMultimodal-CNN to integrate numeric and image data through a feature fusion\nmodel with parameter sharing, enhancing training efficiency. Finally, a\nSHAP-based anomaly explainer identifies key variables contributing to\nanomalies, improving interpretability. Extensive experiments on six real-world\nMTS datasets demonstrate that Moon outperforms six state-of-the-art methods by\nup to 93% in efficiency, 4% in accuracy and, 10.8% in interpretation\nperformance.",
+  "authors": [
+    "Yuanyuan Yao",
+    "Yuhan Shi",
+    "Lu Chen",
+    "Ziquan Fang",
+    "Yunjun Gao",
+    "Leong Hou U",
+    "Yushuai Li",
+    "Tianyi Li"
+  ],
+  "published": "2025-10-02T12:43:40Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01970v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Moon是一种基于模态转换的高效多元时间序列异常检测框架，通过MV-MTF技术将数值时间序列转换为图像表示，结合多模态CNN融合数值和图像特征，利用SHAP解释器提升可解释性，在效率和准确率上显著优于现有方法。",
+  "order": 767,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01970v1"
+}

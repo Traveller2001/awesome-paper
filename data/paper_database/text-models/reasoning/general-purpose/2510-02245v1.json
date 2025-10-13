@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.02245v1",
+  "title": "ExGRPO: Learning to Reason from Experience",
+  "summary": "Reinforcement learning from verifiable rewards (RLVR) is an emerging paradigm\nfor improving the reasoning ability of large language models. However, standard\non-policy training discards rollout experiences after a single update, leading\nto computational inefficiency and instability. While prior work on RL has\nhighlighted the benefits of reusing past experience, the role of experience\ncharacteristics in shaping learning dynamics of large reasoning models remains\nunderexplored. In this paper, we are the first to investigate what makes a\nreasoning experience valuable and identify rollout correctness and entropy as\neffective indicators of experience value. Based on these insights, we propose\nExGRPO (Experiential Group Relative Policy Optimization), a framework that\norganizes and prioritizes valuable experiences, and employs a mixed-policy\nobjective to balance exploration with experience exploitation. Experiments on\nfive backbone models (1.5B-8B parameters) show that ExGRPO consistently\nimproves reasoning performance on mathematical/general benchmarks, with an\naverage gain of +3.5/7.6 points over on-policy RLVR. Moreover, ExGRPO\nstabilizes training on both stronger and weaker models where on-policy methods\nfail. These results highlight principled experience management as a key\ningredient for efficient and scalable RLVR.",
+  "authors": [
+    "Runzhe Zhan",
+    "Yafu Li",
+    "Zhi Wang",
+    "Xiaoye Qu",
+    "Dongrui Liu",
+    "Jing Shao",
+    "Derek F. Wong",
+    "Yu Cheng"
+  ],
+  "published": "2025-10-02T17:31:30Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02245v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ExGRPO框架，通过分析推理经验的价值指标（正确性和熵），优化大语言模型的强化学习过程。该方法在数学和通用推理基准上平均提升3.5/7.6分，显著提高训练效率和稳定性。",
+  "order": 712,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02245v1"
+}

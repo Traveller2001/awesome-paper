@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06582v1",
+  "title": "Through the Perspective of LiDAR: A Feature-Enriched and\n  Uncertainty-Aware Annotation Pipeline for Terrestrial Point Cloud\n  Segmentation",
+  "summary": "Accurate semantic segmentation of terrestrial laser scanning (TLS) point\nclouds is limited by costly manual annotation. We propose a semi-automated,\nuncertainty-aware pipeline that integrates spherical projection, feature\nenrichment, ensemble learning, and targeted annotation to reduce labeling\neffort, while sustaining high accuracy. Our approach projects 3D points to a 2D\nspherical grid, enriches pixels with multi-source features, and trains an\nensemble of segmentation networks to produce pseudo-labels and uncertainty\nmaps, the latter guiding annotation of ambiguous regions. The 2D outputs are\nback-projected to 3D, yielding densely annotated point clouds supported by a\nthree-tier visualization suite (2D feature maps, 3D colorized point clouds, and\ncompact virtual spheres) for rapid triage and reviewer guidance. Using this\npipeline, we build Mangrove3D, a semantic segmentation TLS dataset for mangrove\nforests. We further evaluate data efficiency and feature importance to address\ntwo key questions: (1) how much annotated data are needed and (2) which\nfeatures matter most. Results show that performance saturates after ~12\nannotated scans, geometric features contribute the most, and compact\nnine-channel stacks capture nearly all discriminative power, with the mean\nIntersection over Union (mIoU) plateauing at around 0.76. Finally, we confirm\nthe generalization of our feature-enrichment strategy through cross-dataset\ntests on ForestSemantic and Semantic3D.\n  Our contributions include: (i) a robust, uncertainty-aware TLS annotation\npipeline with visualization tools; (ii) the Mangrove3D dataset; and (iii)\nempirical guidance on data efficiency and feature importance, thus enabling\nscalable, high-quality segmentation of TLS point clouds for ecological\nmonitoring and beyond. The dataset and processing scripts are publicly\navailable at https://fz-rit.github.io/through-the-lidars-eye/.",
+  "authors": [
+    "Fei Zhang",
+    "Rob Chancia",
+    "Josie Clapp",
+    "Amirhossein Hassanzadeh",
+    "Dimah Dera",
+    "Richard MacKenzie",
+    "Jan van Aardt"
+  ],
+  "published": "2025-10-08T02:25:59Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06582v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种面向地面激光扫描点云分割的半自动标注流程，通过球面投影、特征增强和集成学习生成伪标签与不确定性图谱，指导重点区域标注。基于该流程构建了红树林3D数据集，实验表明仅需约12次标注即可达到性能饱和（mIoU≈0.76），几何特征贡献最大。该方法为生态监测等场景提供了可扩展的高质量点云分割方案。",
+  "order": 160,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06582v1"
+}

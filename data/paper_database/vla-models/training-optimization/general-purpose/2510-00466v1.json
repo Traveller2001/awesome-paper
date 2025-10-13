@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00466v1",
+  "title": "Integrating Offline Pre-Training with Online Fine-Tuning: A\n  Reinforcement Learning Approach for Robot Social Navigation",
+  "summary": "Offline reinforcement learning (RL) has emerged as a promising framework for\naddressing robot social navigation challenges. However, inherent uncertainties\nin pedestrian behavior and limited environmental interaction during training\noften lead to suboptimal exploration and distributional shifts between offline\ntraining and online deployment. To overcome these limitations, this paper\nproposes a novel offline-to-online fine-tuning RL algorithm for robot social\nnavigation by integrating Return-to-Go (RTG) prediction into a causal\nTransformer architecture. Our algorithm features a spatiotem-poral fusion model\ndesigned to precisely estimate RTG values in real-time by jointly encoding\ntemporal pedestrian motion patterns and spatial crowd dynamics. This RTG\nprediction framework mitigates distribution shift by aligning offline policy\ntraining with online environmental interactions. Furthermore, a hybrid\noffline-online experience sampling mechanism is built to stabilize policy\nupdates during fine-tuning, ensuring balanced integration of pre-trained\nknowledge and real-time adaptation. Extensive experiments in simulated social\nnavigation environments demonstrate that our method achieves a higher success\nrate and lower collision rate compared to state-of-the-art baselines. These\nresults underscore the efficacy of our algorithm in enhancing navigation policy\nrobustness and adaptability. This work paves the way for more reliable and\nadaptive robotic navigation systems in real-world applications.",
+  "authors": [
+    "Run Su",
+    "Hao Fu",
+    "Shuai Zhou",
+    "Yingao Fu"
+  ],
+  "published": "2025-10-01T03:37:02Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.00466v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种结合离线预训练与在线微调的强化学习算法，用于机器人社交导航。通过将回报预测集成到因果Transformer架构中，构建时空融合模型实时估计回报值，缓解离线训练与在线部署的分布偏移问题。实验表明该方法在模拟环境中相比基线具有更高的成功率和更低的碰撞率。",
+  "order": 306,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00466v1"
+}

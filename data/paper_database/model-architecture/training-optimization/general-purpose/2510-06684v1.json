@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06684v1",
+  "title": "AutoBalance: An Automatic Balancing Framework for Training\n  Physics-Informed Neural Networks",
+  "summary": "Physics-Informed Neural Networks (PINNs) provide a powerful and general\nframework for solving Partial Differential Equations (PDEs) by embedding\nphysical laws into loss functions. However, training PINNs is notoriously\ndifficult due to the need to balance multiple loss terms, such as PDE residuals\nand boundary conditions, which often have conflicting objectives and vastly\ndifferent curvatures. Existing methods address this issue by manipulating\ngradients before optimization (a \"pre-combine\" strategy). We argue that this\napproach is fundamentally limited, as forcing a single optimizer to process\ngradients from spectrally heterogeneous loss landscapes disrupts its internal\npreconditioning. In this work, we introduce AutoBalance, a novel \"post-combine\"\ntraining paradigm. AutoBalance assigns an independent adaptive optimizer to\neach loss component and aggregates the resulting preconditioned updates\nafterwards. Extensive experiments on challenging PDE benchmarks show that\nAutoBalance consistently outperforms existing frameworks, achieving significant\nreductions in solution error, as measured by both the MSE and $L^{\\infty}$\nnorms. Moreover, AutoBalance is orthogonal to and complementary with other\npopular PINN methodologies, amplifying their effectiveness on demanding\nbenchmarks.",
+  "authors": [
+    "Kang An",
+    "Chenhao Si",
+    "Ming Yan",
+    "Shiqian Ma"
+  ],
+  "published": "2025-10-08T06:13:03Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06684v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出AutoBalance框架，通过为PINNs中不同损失项分配独立的自适应优化器并聚合预条件更新，解决了传统'预组合'训练策略的局限性。该方法在多个PDE基准测试中显著降低求解误差，且与现有PINN方法正交互补。",
+  "order": 219,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06684v1"
+}

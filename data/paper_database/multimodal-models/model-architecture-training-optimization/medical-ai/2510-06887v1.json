@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06887v1",
+  "title": "Lung Infection Severity Prediction Using Transformers with Conditional\n  TransMix Augmentation and Cross-Attention",
+  "summary": "Lung infections, particularly pneumonia, pose serious health risks that can\nescalate rapidly, especially during pandemics. Accurate AI-based severity\nprediction from medical imaging is essential to support timely clinical\ndecisions and optimize patient outcomes. In this work, we present a novel\nmethod applicable to both CT scans and chest X-rays for assessing lung\ninfection severity. Our contributions are twofold: (i) QCross-Att-PVT, a\nTransformer-based architecture that integrates parallel encoders, a cross-gated\nattention mechanism, and a feature aggregator to capture rich multi-scale\nfeatures; and (ii) Conditional Online TransMix, a custom data augmentation\nstrategy designed to address dataset imbalance by generating mixed-label image\npatches during training. Evaluated on two benchmark datasets, RALO CXR and\nPer-COVID-19 CT, our method consistently outperforms several state-of-the-art\ndeep learning models. The results emphasize the critical role of data\naugmentation and gated attention in improving both robustness and predictive\naccuracy. This approach offers a reliable, adaptable tool to support clinical\ndiagnosis, disease monitoring, and personalized treatment planning. The source\ncode of this work is available at https://github.com/bouthainas/QCross-Att-PVT.",
+  "authors": [
+    "Bouthaina Slika",
+    "Fadi Dornaika",
+    "Fares Bougourzi",
+    "Karim Hammoudi"
+  ],
+  "published": "2025-10-08T11:08:34Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06887v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出一种基于Transformer的肺部感染严重程度预测方法QCross-Att-PVT，结合并行编码器、交叉门控注意力机制和条件在线TransMix数据增强技术，在CT和X光影像上显著提升预测精度，为解决医疗数据不平衡问题提供有效方案。",
+  "order": 130,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06887v1"
+}

@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.06800v1",
+  "title": "FURINA: A Fully Customizable Role-Playing Benchmark via Scalable\n  Multi-Agent Collaboration Pipeline",
+  "summary": "As large language models (LLMs) advance in role-playing (RP) tasks, existing\nbenchmarks quickly become obsolete due to their narrow scope, outdated\ninteraction paradigms, and limited adaptability across diverse application\nscenarios. To address this gap, we introduce FURINA-Builder, a novel\nmulti-agent collaboration pipeline that automatically constructs fully\ncustomizable RP benchmarks at any scale. It enables evaluation of arbitrary\ncharacters across diverse scenarios and prompt formats, as the first benchmark\nbuilder in RP area for adaptable assessment. FURINA-Builder simulates dialogues\nbetween a test character and other characters drawn from a well-constructed\ncharacter-scene pool, while an LLM judge selects fine-grained evaluation\ndimensions and adjusts the test character's responses into final test\nutterances. Using this pipeline, we build FURINA-Bench, a new comprehensive\nrole-playing benchmark featuring both established and synthesized test\ncharacters, each assessed with dimension-specific evaluation criteria. Human\nevaluation and preliminary separability analysis justify our pipeline and\nbenchmark design. We conduct extensive evaluations of cutting-edge LLMs and\nfind that o3 and DeepSeek-R1 achieve the best performance on English and\nChinese RP tasks, respectively. Across all models, established characters\nconsistently outperform synthesized ones, with reasoning capabilities further\namplifying this disparity. Interestingly, we observe that model scale does not\nmonotonically reduce hallucinations. More critically, for reasoning LLMs, we\nuncover a novel trade-off: reasoning improves RP performance but simultaneously\nincreases RP hallucinations. This trade-off extends to a broader Pareto\nfrontier between RP performance and reliability for all LLMs. These findings\ndemonstrate the effectiveness of FURINA-Builder and the challenge posed by\nFURINA-Bench.",
+  "authors": [
+    "Haotian Wu",
+    "Shufan Jiang",
+    "Chios Chen",
+    "Yiyang Feng",
+    "Hehai Lin",
+    "Heqing Zou",
+    "Yao Shu",
+    "Yanran Li",
+    "Chengwei Qin"
+  ],
+  "published": "2025-10-08T09:30:36Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06800v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['dialogue_systems', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出FURINA-Builder，首个通过多智能体协作流水线自动构建可定制角色扮演评测基准的方法，并建立FURINA-Bench综合评测集。研究发现：推理能力提升角色扮演性能但会增加幻觉，所有大模型在性能与可靠性间存在帕累托边界。o3和DeepSeek-R1分别在英中任务表现最佳。",
+  "order": 79,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06800v1"
+}

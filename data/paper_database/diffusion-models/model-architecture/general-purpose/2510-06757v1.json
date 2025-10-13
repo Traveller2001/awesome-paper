@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06757v1",
+  "title": "Transforming Noise Distributions with Histogram Matching: Towards a\n  Single Denoiser for All",
+  "summary": "Supervised Gaussian denoisers exhibit limited generalization when confronted\nwith out-of-distribution noise, due to the diverse distributional\ncharacteristics of different noise types. To bridge this gap, we propose a\nhistogram matching approach that transforms arbitrary noise towards a target\nGaussian distribution with known intensity. Moreover, a mutually reinforcing\ncycle is established between noise transformation and subsequent denoising.\nThis cycle progressively refines the noise to be converted, making it\napproximate the real noise, thereby enhancing the noise transformation effect\nand further improving the denoising performance. We tackle specific noise\ncomplexities: local histogram matching handles signal-dependent noise,\nintrapatch permutation processes channel-related noise, and frequency-domain\nhistogram matching coupled with pixel-shuffle down-sampling breaks spatial\ncorrelation. By applying these transformations, a single Gaussian denoiser\ngains remarkable capability to handle various out-of-distribution noises,\nincluding synthetic noises such as Poisson, salt-and-pepper and repeating\npattern noises, as well as complex real-world noises. Extensive experiments\ndemonstrate the superior generalization and effectiveness of our method.",
+  "authors": [
+    "Sheng Fu",
+    "Junchao Zhang",
+    "Kailun Yang"
+  ],
+  "published": "2025-10-08T08:34:50Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06757v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于直方图匹配的噪声转换方法，通过将任意噪声分布转换为目标高斯分布，使单一高斯去噪器能够处理多种分布外噪声。该方法建立噪声转换与去噪的相互增强循环，并针对信号相关噪声、通道噪声和空间相关噪声分别设计了局部直方图匹配、片内置换和频域处理等技术，在合成噪声和真实噪声上均展现出优异的泛化能力。",
+  "order": 142,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06757v1"
+}

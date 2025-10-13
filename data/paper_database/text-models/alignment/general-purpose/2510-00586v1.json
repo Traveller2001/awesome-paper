@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00586v1",
+  "title": "Eyes-on-Me: Scalable RAG Poisoning through Transferable\n  Attention-Steering Attractors",
+  "summary": "Existing data poisoning attacks on retrieval-augmented generation (RAG)\nsystems scale poorly because they require costly optimization of poisoned\ndocuments for each target phrase. We introduce Eyes-on-Me, a modular attack\nthat decomposes an adversarial document into reusable Attention Attractors and\nFocus Regions. Attractors are optimized to direct attention to the Focus\nRegion. Attackers can then insert semantic baits for the retriever or malicious\ninstructions for the generator, adapting to new targets at near zero cost. This\nis achieved by steering a small subset of attention heads that we empirically\nidentify as strongly correlated with attack success. Across 18 end-to-end RAG\nsettings (3 datasets $\\times$ 2 retrievers $\\times$ 3 generators), Eyes-on-Me\nraises average attack success rates from 21.9 to 57.8 (+35.9 points,\n2.6$\\times$ over prior work). A single optimized attractor transfers to unseen\nblack box retrievers and generators without retraining. Our findings establish\na scalable paradigm for RAG data poisoning and show that modular, reusable\ncomponents pose a practical threat to modern AI systems. They also reveal a\nstrong link between attention concentration and model outputs, informing\ninterpretability research.",
+  "authors": [
+    "Yen-Shan Chen",
+    "Sian-Yao Huang",
+    "Cheng-Lin Yang",
+    "Yun-Nung Chen"
+  ],
+  "published": "2025-10-01T07:07:22Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00586v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Eyes-on-Me攻击方法，通过可转移的注意力引导吸引器实现可扩展的RAG系统数据投毒。该方法将对抗文档分解为可重用的注意力吸引器和焦点区域，无需针对每个目标短语进行昂贵优化，在18种RAG设置中将平均攻击成功率从21.9%提升至57.8%，揭示了注意力集中与模型输出的强关联性。",
+  "order": 465,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00586v1"
+}

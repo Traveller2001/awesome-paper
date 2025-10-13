@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.02232v1",
+  "title": "Enhanced Arabic-language cyberbullying detection: deep embedding and\n  transformer (BERT) approaches",
+  "summary": "Recent technological advances in smartphones and communications, including\nthe growth of such online platforms as massive social media networks such as X\n(formerly known as Twitter) endangers young people and their emotional\nwell-being by exposing them to cyberbullying, taunting, and bullying content.\nMost proposed approaches for automatically detecting cyberbullying have been\ndeveloped around the English language, and methods for detecting\nArabic-language cyberbullying are scarce. Methods for detecting Arabic-language\ncyberbullying are especially scarce. This paper aims to enhance the\neffectiveness of methods for detecting cyberbullying in Arabic-language\ncontent. We assembled a dataset of 10,662 X posts, pre-processed the data, and\nused the kappa tool to verify and enhance the quality of our annotations. We\nconducted four experiments to test numerous deep learning models for\nautomatically detecting Arabic-language cyberbullying. We first tested a long\nshort-term memory (LSTM) model and a bidirectional long short-term memory\n(Bi-LSTM) model with several experimental word embeddings. We also tested the\nLSTM and Bi-LSTM models with a novel pre-trained bidirectional encoder from\nrepresentations (BERT) and then tested them on a different experimental models\nBERT again. LSTM-BERT and Bi-LSTM-BERT demonstrated a 97% accuracy. Bi-LSTM\nwith FastText embedding word performed even better, achieving 98% accuracy. As\na result, the outcomes are generalize",
+  "authors": [
+    "Ebtesam Jaber Aljohani",
+    "Wael M. S. Yafoo"
+  ],
+  "published": "2025-10-02T17:20:02Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.02232v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究针对阿拉伯语网络欺凌检测方法稀缺的问题，构建了包含10,662条推文的数据集，测试了LSTM、Bi-LSTM与BERT等多种深度学习模型。实验结果显示，Bi-LSTM结合FastText词嵌入模型达到98%的最高准确率，LSTM-BERT和Bi-LSTM-BERT组合也取得97%的准确率，显著提升了阿拉伯语网络欺凌内容的自动检测效果。",
+  "order": 342,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02232v1"
+}

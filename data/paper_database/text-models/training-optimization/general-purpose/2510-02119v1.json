@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02119v1",
+  "title": "Non-Asymptotic Analysis of Data Augmentation for Precision Matrix\n  Estimation",
+  "summary": "This paper addresses the problem of inverse covariance (also known as\nprecision matrix) estimation in high-dimensional settings. Specifically, we\nfocus on two classes of estimators: linear shrinkage estimators with a target\nproportional to the identity matrix, and estimators derived from data\naugmentation (DA). Here, DA refers to the common practice of enriching a\ndataset with artificial samples--typically generated via a generative model or\nthrough random transformations of the original data--prior to model fitting.\nFor both classes of estimators, we derive estimators and provide concentration\nbounds for their quadratic error. This allows for both method comparison and\nhyperparameter tuning, such as selecting the optimal proportion of artificial\nsamples. On the technical side, our analysis relies on tools from random matrix\ntheory. We introduce a novel deterministic equivalent for generalized resolvent\nmatrices, accommodating dependent samples with specific structure. We support\nour theoretical results with numerical experiments.",
+  "authors": [
+    "Lucas Morisset",
+    "Adrien Hardy",
+    "Alain Durmus"
+  ],
+  "published": "2025-10-02T15:28:14Z",
+  "primary_category": "stat.ML",
+  "arxiv_url": "https://arxiv.org/abs/2510.02119v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究高维环境下逆协方差矩阵估计问题，重点分析线性收缩估计器和数据增强估计器。通过随机矩阵理论工具，推导了估计器的二次误差集中界，为方法比较和超参数调优提供理论依据，并通过数值实验验证结果。",
+  "order": 744,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02119v1"
+}

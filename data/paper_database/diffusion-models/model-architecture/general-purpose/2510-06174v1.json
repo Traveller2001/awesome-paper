@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06174v1",
+  "title": "Thermodynamic Performance Limits for Score-Based Diffusion Models",
+  "summary": "We establish a fundamental connection between score-based diffusion models\nand non-equilibrium thermodynamics by deriving performance limits based on\nentropy rates. Our main theoretical contribution is a lower bound on the\nnegative log-likelihood of the data that relates model performance to entropy\nrates of diffusion processes. We numerically validate this bound on a synthetic\ndataset and investigate its tightness. By building a bridge to entropy rates -\nsystem, intrinsic, and exchange entropy - we provide new insights into the\nthermodynamic operation of these models, drawing parallels to Maxwell's demon\nand implications for thermodynamic computing hardware. Our framework connects\ngenerative modeling performance to fundamental physical principles through\nstochastic thermodynamics.",
+  "authors": [
+    "Nathan X. Kodama",
+    "Michael Hinczewski"
+  ],
+  "published": "2025-10-07T17:35:18Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06174v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文建立了基于分数的扩散模型与非平衡热力学之间的理论联系，通过推导基于熵率性能极限，提出了数据负对数似然的下界，并将模型性能与扩散过程的熵率相关联。研究通过数值实验验证了该界限的紧密度，并借助系统熵、本征熵和交换熵等概念，揭示了这类模型的热力学运行机制，为热力学计算硬件提供了新见解。",
+  "order": 84,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06174v1"
+}

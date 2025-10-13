@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00728v1",
+  "title": "Extreme Blind Image Restoration via Prompt-Conditioned Information\n  Bottleneck",
+  "summary": "Blind Image Restoration (BIR) methods have achieved remarkable success but\nfalter when faced with Extreme Blind Image Restoration (EBIR), where inputs\nsuffer from severe, compounded degradations beyond their training scope.\nDirectly learning a mapping from extremely low-quality (ELQ) to high-quality\n(HQ) images is challenging due to the massive domain gap, often leading to\nunnatural artifacts and loss of detail. To address this, we propose a novel\nframework that decomposes the intractable ELQ-to-HQ restoration process. We\nfirst learn a projector that maps an ELQ image onto an intermediate,\nless-degraded LQ manifold. This intermediate image is then restored to HQ using\na frozen, off-the-shelf BIR model. Our approach is grounded in information\ntheory; we provide a novel perspective of image restoration as an Information\nBottleneck problem and derive a theoretically-driven objective to train our\nprojector. This loss function effectively stabilizes training by balancing a\nlow-quality reconstruction term with a high-quality prior-matching term. Our\nframework enables Look Forward Once (LFO) for inference-time prompt refinement,\nand supports plug-and-play strengthening of existing image restoration models\nwithout need for finetuning. Extensive experiments under severe degradation\nregimes provide a thorough analysis of the effectiveness of our work.",
+  "authors": [
+    "Hongeun Kim",
+    "Bryan Sangwoo Kim",
+    "Jong Chul Ye"
+  ],
+  "published": "2025-10-01T10:13:27Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00728v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出一种基于信息瓶颈理论的极端盲图像恢复框架，通过将严重退化图像投影到中间低质量流形，再利用现成BIR模型恢复，解决了极端退化场景下的图像恢复难题。",
+  "order": 633,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00728v1"
+}

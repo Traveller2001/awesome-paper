@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06026v1",
+  "title": "Emergent AI Surveillance: Overlearned Person Re-Identification and Its\n  Mitigation in Law Enforcement Context",
+  "summary": "Generic instance search models can dramatically reduce the manual effort\nrequired to analyze vast surveillance footage during criminal investigations by\nretrieving specific objects of interest to law enforcement. However, our\nresearch reveals an unintended emergent capability: through overlearning, these\nmodels can single out specific individuals even when trained on datasets\nwithout human subjects. This capability raises concerns regarding\nidentification and profiling of individuals based on their personal data, while\nthere is currently no clear standard on how de-identification can be achieved.\nWe evaluate two technical safeguards to curtail a model's person\nre-identification capacity: index exclusion and confusion loss. Our experiments\ndemonstrate that combining these approaches can reduce person re-identification\naccuracy to below 2% while maintaining 82% of retrieval performance for\nnon-person objects. However, we identify critical vulnerabilities in these\nmitigations, including potential circumvention using partial person images.\nThese findings highlight urgent regulatory questions at the intersection of AI\ngovernance and data protection: How should we classify and regulate systems\nwith emergent identification capabilities? And what technical standards should\nbe required to prevent identification capabilities from developing in seemingly\nbenign applications?",
+  "authors": [
+    "An Thi Nguyen",
+    "Radina Stoykova",
+    "Eric Arazo"
+  ],
+  "published": "2025-10-07T15:23:16Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06026v1",
+  "primary_area": "video_models",
+  "secondary_focus": "alignment",
+  "application_domain": "legal_ai",
+  "tldr_zh": "本文研究发现通用实例搜索模型在执法应用中存在意外涌现能力：即使训练数据不含人物，模型仍能通过过度学习识别特定个体。作者评估了索引排除和混淆损失两种技术防护措施，发现组合使用可将人员重识别准确率降至2%以下，同时保持82%的非人物体检索性能。研究揭示了防护措施的潜在漏洞，并呼吁制定AI治理与数据保护交叉领域的监管标准。",
+  "order": 77,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06026v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06913v1",
+  "title": "DecompGAIL: Learning Realistic Traffic Behaviors with Decomposed\n  Multi-Agent Generative Adversarial Imitation Learning",
+  "summary": "Realistic traffic simulation is critical for the development of autonomous\ndriving systems and urban mobility planning, yet existing imitation learning\napproaches often fail to model realistic traffic behaviors. Behavior cloning\nsuffers from covariate shift, while Generative Adversarial Imitation Learning\n(GAIL) is notoriously unstable in multi-agent settings. We identify a key\nsource of this instability: irrelevant interaction misguidance, where a\ndiscriminator penalizes an ego vehicle's realistic behavior due to unrealistic\ninteractions among its neighbors. To address this, we propose Decomposed\nMulti-agent GAIL (DecompGAIL), which explicitly decomposes realism into ego-map\nand ego-neighbor components, filtering out misleading neighbor: neighbor and\nneighbor: map interactions. We further introduce a social PPO objective that\naugments ego rewards with distance-weighted neighborhood rewards, encouraging\noverall realism across agents. Integrated into a lightweight SMART-based\nbackbone, DecompGAIL achieves state-of-the-art performance on the WOMD Sim\nAgents 2025 benchmark.",
+  "authors": [
+    "Ke Guo",
+    "Haochen Liu",
+    "Xiaojun Wu",
+    "Chen Lv"
+  ],
+  "published": "2025-10-08T11:46:39Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06913v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DecompGAIL方法，通过分解多智能体生成对抗模仿学习，解决交通仿真中因无关交互误导导致的不稳定问题。该方法将真实性分解为自车-地图和自车-邻车组件，并引入社会PPO目标，在WOMD Sim Agents 2025基准上达到最先进性能。",
+  "order": 198,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06913v1"
+}

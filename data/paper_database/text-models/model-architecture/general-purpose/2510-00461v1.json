@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00461v1",
+  "title": "TimeEmb: A Lightweight Static-Dynamic Disentanglement Framework for Time\n  Series Forecasting",
+  "summary": "Temporal non-stationarity, the phenomenon that time series distributions\nchange over time, poses fundamental challenges to reliable time series\nforecasting. Intuitively, the complex time series can be decomposed into two\nfactors, \\ie time-invariant and time-varying components, which indicate static\nand dynamic patterns, respectively. Nonetheless, existing methods often\nconflate the time-varying and time-invariant components, and jointly learn the\ncombined long-term patterns and short-term fluctuations, leading to suboptimal\nperformance facing distribution shifts. To address this issue, we initiatively\npropose a lightweight static-dynamic decomposition framework, TimeEmb, for time\nseries forecasting. TimeEmb innovatively separates time series into two\ncomplementary components: (1) time-invariant component, captured by a novel\nglobal embedding module that learns persistent representations across time\nseries, and (2) time-varying component, processed by an efficient\nfrequency-domain filtering mechanism inspired by full-spectrum analysis in\nsignal processing. Experiments on real-world datasets demonstrate that TimeEmb\noutperforms state-of-the-art baselines and requires fewer computational\nresources. We conduct comprehensive quantitative and qualitative analyses to\nverify the efficacy of static-dynamic disentanglement. This lightweight\nframework can also improve existing time-series forecasting methods with simple\nintegration. To ease reproducibility, the code is available at\nhttps://github.com/showmeon/TimeEmb.",
+  "authors": [
+    "Mingyuan Xia",
+    "Chunxu Zhang",
+    "Zijian Zhang",
+    "Hao Miao",
+    "Qidong Liu",
+    "Yuanshao Zhu",
+    "Bo Yang"
+  ],
+  "published": "2025-10-01T03:28:49Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00461v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "TimeEmb提出了一种轻量级静态-动态解耦框架，用于时间序列预测。该框架创新地将时间序列分解为时间不变分量（通过全局嵌入模块学习）和时间变化分量（通过频域滤波机制处理），有效解决了时间非平稳性问题。实验表明该方法在减少计算资源的同时优于现有先进基线。",
+  "order": 307,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00461v1"
+}

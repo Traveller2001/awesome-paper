@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.06969v1",
+  "title": "Learning Global Representation from Queries for Vectorized HD Map\n  Construction",
+  "summary": "The online construction of vectorized high-definition (HD) maps is a\ncornerstone of modern autonomous driving systems. State-of-the-art approaches,\nparticularly those based on the DETR framework, formulate this as an instance\ndetection problem. However, their reliance on independent, learnable object\nqueries results in a predominantly local query perspective, neglecting the\ninherent global representation within HD maps. In this work, we propose\n\\textbf{MapGR} (\\textbf{G}lobal \\textbf{R}epresentation learning for HD\n\\textbf{Map} construction), an architecture designed to learn and utilize a\nglobal representations from queries. Our method introduces two synergistic\nmodules: a Global Representation Learning (GRL) module, which encourages the\ndistribution of all queries to better align with the global map through a\ncarefully designed holistic segmentation task, and a Global Representation\nGuidance (GRG) module, which endows each individual query with explicit,\nglobal-level contextual information to facilitate its optimization. Evaluations\non the nuScenes and Argoverse2 datasets validate the efficacy of our approach,\ndemonstrating substantial improvements in mean Average Precision (mAP) compared\nto leading baselines.",
+  "authors": [
+    "Shoumeng Qiu",
+    "Xinrun Li",
+    "Yang Long",
+    "Xiangyang Xue",
+    "Varun Ojha",
+    "Jian Pu"
+  ],
+  "published": "2025-10-08T12:56:08Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06969v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MapGR架构，通过全局表征学习模块和全局表征引导模块，从查询中学习全局表示以构建矢量高精地图，在nuScenes和Argoverse2数据集上相比现有方法显著提升mAP指标。",
+  "order": 125,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06969v1"
+}

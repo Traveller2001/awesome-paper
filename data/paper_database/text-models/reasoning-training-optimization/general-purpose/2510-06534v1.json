@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06534v1",
+  "title": "Beneficial Reasoning Behaviors in Agentic Search and Effective\n  Post-training to Obtain Them",
+  "summary": "Agentic search leverages large language models (LLMs) to interpret complex\nuser information needs and execute a multi-step process of planning, searching,\nand synthesizing information to provide answers. This paradigm introduces\nunique challenges for LLMs' reasoning and agentic capabilities when interacting\nwith retrieval systems and the broader web. In this paper, we propose a\nreasoning-driven LLM-based pipeline to study effective reasoning behavior\npatterns in agentic search. Using this pipeline, we analyze successful agentic\nsearch trajectories and identify four beneficial reasoning behaviors:\nInformation Verification, Authority Evaluation, Adaptive Search, and Error\nRecovery. Based on these findings, we propose a technique called Behavior\nPriming to train more effective agentic search models. It synthesizes agentic\nsearch trajectories that exhibit these four behaviors and integrates them into\nthe agentic search model through supervised fine-tuning (SFT), followed by\nstandard reinforcement learning (RL). Experiments on three benchmarks (GAIA,\nWebWalker, and HLE) demonstrate that behavior priming yields over 35% gains in\nLlama3.2-3B and Qwen3-1.7B compared to directly training agentic search models\nwith RL. Crucially, we demonstrate that the desired reasoning behaviors in the\nSFT data, rather than the correctness of the final answer, is the critical\nfactor for achieving strong final performance after RL: fine-tuning on\ntrajectories with desirable reasoning behaviors but incorrect answers leads to\nbetter performance than fine-tuning on trajectories with correct answers. Our\nanalysis further reveals the underlying mechanism: the introduced reasoning\nbehaviors endow models with more effective exploration (higher pass@k and\nentropy) and test-time scaling (longer trajectories) capabilities, providing a\nstrong foundation for RL. Our code will be released as open source.",
+  "authors": [
+    "Jiahe Jin",
+    "Abhijay Paladugu",
+    "Chenyan Xiong"
+  ],
+  "published": "2025-10-08T00:20:35Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06534v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究智能搜索代理中的有效推理行为，识别出信息验证、权威评估、自适应搜索和错误恢复四种关键行为。提出行为引导训练法，通过合成展现这些行为的轨迹进行监督微调，再结合强化学习，在多个基准测试中实现35%以上性能提升。研究发现推理行为质量比答案正确性对最终性能影响更大。",
+  "order": 23,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06534v1"
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00805v1",
+  "title": "MG2FlowNet: Accelerating High-Reward Sample Generation via Enhanced MCTS\n  and Greediness Control",
+  "summary": "Generative Flow Networks (GFlowNets) have emerged as a powerful tool for\ngenerating diverse and high-reward structured objects by learning to sample\nfrom a distribution proportional to a given reward function. Unlike\nconventional reinforcement learning (RL) approaches that prioritize\noptimization of a single trajectory, GFlowNets seek to balance diversity and\nreward by modeling the entire trajectory distribution. This capability makes\nthem especially suitable for domains such as molecular design and combinatorial\noptimization. However, existing GFlowNets sampling strategies tend to\noverexplore and struggle to consistently generate high-reward samples,\nparticularly in large search spaces with sparse high-reward regions. Therefore,\nimproving the probability of generating high-reward samples without sacrificing\ndiversity remains a key challenge under this premise. In this work, we\nintegrate an enhanced Monte Carlo Tree Search (MCTS) into the GFlowNets\nsampling process, using MCTS-based policy evaluation to guide the generation\ntoward high-reward trajectories and Polynomial Upper Confidence Trees (PUCT) to\nbalance exploration and exploitation adaptively, and we introduce a\ncontrollable mechanism to regulate the degree of greediness. Our method\nenhances exploitation without sacrificing diversity by dynamically balancing\nexploration and reward-driven guidance. The experimental results show that our\nmethod can not only accelerate the speed of discovering high-reward regions but\nalso continuously generate high-reward samples, while preserving the diversity\nof the generative distribution. All implementations are available at\nhttps://github.com/ZRNB/MG2FlowNet.",
+  "authors": [
+    "Rui Zhu",
+    "Xuan Yu",
+    "Yudong Zhang",
+    "Chen Zhang",
+    "Xu Wang",
+    "Yang Wang"
+  ],
+  "published": "2025-10-01T12:09:04Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00805v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "MG2FlowNet提出一种改进的GFlowNets采样方法，通过增强的蒙特卡洛树搜索和贪心控制机制，在保持生成多样性的同时显著提升高奖励样本的生成效率。该方法在稀疏奖励的大规模搜索空间中表现出色，适用于分子设计等结构化对象生成任务。",
+  "order": 242,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00805v1"
+}

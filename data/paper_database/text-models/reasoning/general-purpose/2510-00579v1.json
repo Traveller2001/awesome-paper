@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00579v1",
+  "title": "CoT Vectors: Transferring and Probing the Reasoning Mechanisms of LLMs",
+  "summary": "Chain-of-Thought (CoT) prompting has emerged as a powerful approach to\nenhancing the reasoning capabilities of Large Language Models (LLMs). However,\nexisting implementations, such as in-context learning and fine-tuning, remain\ncostly and inefficient. To improve CoT reasoning at a lower cost, and inspired\nby the task vector paradigm, we introduce CoT Vectors, compact representations\nthat encode task-general, multi-step reasoning knowledge. Through experiments\nwith Extracted CoT Vectors, we observe pronounced layer-wise instability,\nmanifesting as a U-shaped performance curve that reflects a systematic\nthree-stage reasoning process in LLMs. To address this limitation, we propose\nLearnable CoT Vectors, optimized under a teacher-student framework to provide\nmore stable and robust guidance. Extensive evaluations across diverse\nbenchmarks and models demonstrate that CoT Vectors not only outperform existing\nbaselines but also achieve performance comparable to parameter-efficient\nfine-tuning methods, while requiring fewer trainable parameters. Moreover, by\ntreating CoT Vectors as a probe, we uncover how their effectiveness varies due\nto latent space structure, information density, acquisition mechanisms, and\npre-training differences, offering new insights into the functional\norganization of multi-step reasoning in LLMs. The source code will be released.",
+  "authors": [
+    "Li Li",
+    "Ziyi Wang",
+    "Yongliang Wu",
+    "Jianfei Cai",
+    "Xu Yang"
+  ],
+  "published": "2025-10-01T06:58:23Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00579v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CoT向量，一种编码多步推理知识的紧凑表示方法。通过提取式和可学习式两种CoT向量，解决了现有推理方法成本高、层间不稳定的问题。实验表明该方法在减少可训练参数的同时，性能媲美参数高效微调，并揭示了LLM多步推理的功能组织机制。",
+  "order": 467,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00579v1"
+}

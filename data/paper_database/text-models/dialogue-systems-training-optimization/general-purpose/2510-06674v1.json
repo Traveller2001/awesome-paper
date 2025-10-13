@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2510.06674v1",
+  "title": "Agent-in-the-Loop: A Data Flywheel for Continuous Improvement in\n  LLM-based Customer Support",
+  "summary": "We introduce an Agent-in-the-Loop (AITL) framework that implements a\ncontinuous data flywheel for iteratively improving an LLM-based customer\nsupport system. Unlike standard offline approaches that rely on batch\nannotations, AITL integrates four key types of annotations directly into live\ncustomer operations: (1) pairwise response preferences, (2) agent adoption and\nrationales, (3) knowledge relevance checks, and (4) identification of missing\nknowledge. These feedback signals seamlessly feed back into models' updates,\nreducing retraining cycles from months to weeks. Our production pilot involving\nUS-based customer support agents demonstrated significant improvements in\nretrieval accuracy (+11.7% recall@75, +14.8% precision@8), generation quality\n(+8.4% helpfulness) and agent adoption rates (+4.5%). These results underscore\nthe effectiveness of embedding human feedback loops directly into operational\nworkflows to continuously refine LLM-based customer support system.",
+  "authors": [
+    "Cen",
+    "Zhao",
+    "Tiantian Zhang",
+    "Hanchen Su",
+    "Yufeng",
+    "Zhang",
+    "Shaowei Su",
+    "Mingzhi Xu",
+    "Yu",
+    "Liu",
+    "Wei Han",
+    "Jeremy Werner",
+    "Claire Na Cheng",
+    "Yashar Mehdad"
+  ],
+  "published": "2025-10-08T05:57:04Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06674v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['dialogue_systems', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出'人在回路'框架，通过整合四种实时标注反馈（响应偏好、客服采纳理由、知识相关性检查、缺失知识识别），构建数据飞轮机制，将LLM客服系统的模型更新周期从数月缩短至数周。生产试点显示检索准确率、生成质量和客服采纳率均显著提升。",
+  "order": 19,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06674v1"
+}

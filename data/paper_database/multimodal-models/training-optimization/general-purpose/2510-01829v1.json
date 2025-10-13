@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01829v1",
+  "title": "Calibrating the Full Predictive Class Distribution of 3D Object\n  Detectors for Autonomous Driving",
+  "summary": "In autonomous systems, precise object detection and uncertainty estimation\nare critical for self-aware and safe operation. This work addresses confidence\ncalibration for the classification task of 3D object detectors. We argue that\nit is necessary to regard the calibration of the full predictive confidence\ndistribution over all classes and deduce a metric which captures the\ncalibration of dominant and secondary class predictions. We propose two\nauxiliary regularizing loss terms which introduce either calibration of the\ndominant prediction or the full prediction vector as a training goal. We\nevaluate a range of post-hoc and train-time methods for CenterPoint, PillarNet\nand DSVT-Pillar and find that combining our loss term, which regularizes for\ncalibration of the full class prediction, and isotonic regression lead to the\nbest calibration of CenterPoint and PillarNet with respect to both dominant and\nsecondary class predictions. We further find that DSVT-Pillar can not be\njointly calibrated for dominant and secondary predictions using the same\nmethod.",
+  "authors": [
+    "Cornelius Schröder",
+    "Marius-Raphael Schlüter",
+    "Markus Lienkamp"
+  ],
+  "published": "2025-10-02T09:22:03Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01829v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对自动驾驶中的3D物体检测器，提出校准完整预测类别分布的方法，通过引入两个正则化损失项来优化主导类别和次要类别的预测校准，实验表明结合完整类别预测校准和等渗回归可在多个模型中实现最佳校准效果。",
+  "order": 543,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01829v1"
+}

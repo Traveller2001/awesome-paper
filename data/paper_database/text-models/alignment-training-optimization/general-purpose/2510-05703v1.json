@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.05703v1",
+  "title": "Primal-Dual Direct Preference Optimization for Constrained LLM Alignment",
+  "summary": "The widespread application of Large Language Models (LLMs) imposes increasing\ndemands on safety, such as reducing harmful content and fake information, and\navoiding certain forbidden tokens due to rules and laws. While there have been\nseveral recent works studying safe alignment of LLMs, these works either\nrequire the training of reward and cost models and incur high memory and\ncomputational costs, or need prior knowledge about the optimal solution.\nMotivated by this fact, we study the problem of constrained alignment in LLMs,\ni.e., maximizing the output reward while restricting the cost due to\npotentially unsafe content to stay below a threshold. For this problem, we\npropose a novel primal-dual DPO approach, which first trains a model using\nstandard DPO on reward preference data to provide reward information, and then\nadopts a rearranged Lagrangian DPO objective utilizing the provided reward\ninformation to fine-tune LLMs on cost preference data. Our approach\nsignificantly reduces memory and computational costs, and does not require\nextra prior knowledge. Moreover, we establish rigorous theoretical guarantees\non the suboptimality and constraint violation of the output policy. We also\nextend our approach to an online data setting by incorporating exploration\nbonuses, which enables our approach to explore uncovered prompt-response space,\nand then provide theoretical results that get rid of the dependence on\npreference data coverage. Experimental results on the widely-used preference\ndataset PKU-SafeRLHF demonstrate the effectiveness of our approach.",
+  "authors": [
+    "Yihan Du",
+    "Seo Taek Kong",
+    "R. Srikant"
+  ],
+  "published": "2025-10-07T09:10:35Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05703v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种原始-对偶直接偏好优化方法，用于约束条件下的大语言模型对齐。该方法无需训练奖励/成本模型，显著降低计算成本，通过重组拉格朗日DPO目标实现安全约束下的奖励最大化，并在PKU-SafeRLHF数据集上验证了有效性。",
+  "order": 128,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05703v1"
+}

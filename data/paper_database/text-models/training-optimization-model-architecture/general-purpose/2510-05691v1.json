@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.05691v1",
+  "title": "DecEx-RAG: Boosting Agentic Retrieval-Augmented Generation with Decision\n  and Execution Optimization via Process Supervision",
+  "summary": "Agentic Retrieval-Augmented Generation (Agentic RAG) enhances the processing\ncapability for complex tasks through dynamic retrieval and adaptive workflows.\nRecent advances (e.g., Search-R1) have shown that outcome-supervised\nreinforcement learning demonstrate strong performance. However, this approach\nstill suffers from inefficient exploration, sparse reward signals, and\nambiguous global reward feedback. To address these challenges, we propose\nDecEx-RAG, which models RAG as a Markov Decision Process (MDP) incorporating\ndecision-making and execution, while introducing an efficient pruning strategy\nto optimize data expansion. Through comprehensive process-level policy\noptimization, DecEx-RAG significantly enhances the autonomous task\ndecomposition, dynamic retrieval, and high-quality answer generation\ncapabilities of large language models (LLMs). Experiments show that DecEx-RAG\nachieves an average absolute performance improvement of $6.2\\%$ across six\ndatasets, significantly outperforming existing baselines. Moreover, the pruning\nstrategy improves data construction efficiency by nearly $6 \\times$, providing\nan efficient solution for process-supervised RAG training. The code is\navailable at https://github.com/sdsxdxl/DecEx-RAG.",
+  "authors": [
+    "Yongqi Leng",
+    "Yikun Lei",
+    "Xikai Liu",
+    "Meizhi Zhong",
+    "Bojian Xiong",
+    "Yurong Zhang",
+    "Yan Gao",
+    "Yi Wu",
+    "Yao Hu",
+    "Deyi Xiong"
+  ],
+  "published": "2025-10-07T08:49:22Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05691v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DecEx-RAG方法，通过将检索增强生成建模为马尔可夫决策过程并引入剪枝策略，解决了传统结果监督强化学习在探索效率、奖励稀疏性和全局反馈模糊性方面的局限。该方法在六个数据集上实现平均6.2%的绝对性能提升，数据构建效率提升近6倍，显著增强了LLM在任务分解、动态检索和答案生成方面的自主能力。",
+  "order": 41,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05691v1"
+}

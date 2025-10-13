@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01114v1",
+  "title": "PRISM-Consult: A Panel-of-Experts Architecture for Clinician-Aligned\n  Diagnosis",
+  "summary": "We present PRISM-Consult, a clinician-aligned panel-of-experts architecture\nthat extends the compact PRISM sequence model into a routed family of domain\nspecialists. Episodes are tokenized as structured clinical events; a\nlight-weight router reads the first few tokens and dispatches to specialist\nmodels (Cardiac-Vascular, Pulmonary, Gastro-Oesophageal, Musculoskeletal,\nPsychogenic). Each specialist inherits PRISM's small transformer backbone and\ntoken template, enabling parameter efficiency and interpretability. On\nreal-world Emergency Department cohorts, specialists exhibit smooth convergence\nwith low development perplexities across domains, while the router achieves\nhigh routing quality and large compute savings versus consult-all under a\nsafety-first policy. We detail the data methodology (initial vs. conclusive\nICD-9 families), routing thresholds and calibration, and report per-domain\nresults to avoid dominance by common events. The framework provides a practical\npath to safe, auditable, and low-latency consult at scale, and we outline\nvalidation steps-external/temporal replication, asymmetric life-threat\nthresholds, and multi-label arbitration-to meet prospective clinical deployment\nstandards.",
+  "authors": [
+    "Lionel Levine",
+    "John Santerre",
+    "Alexander S. Young",
+    "T. Barry Levine",
+    "Francis Campion",
+    "Majid Sarrafzadeh"
+  ],
+  "published": "2025-10-01T17:00:05Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01114v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "PRISM-Consult提出一种临床对齐的专家委员会架构，将紧凑的PRISM序列模型扩展为领域专家路由系统。该系统将医疗事件标记化，通过轻量级路由器分配到心脏血管、肺部、胃肠、肌肉骨骼、心理等专科模型，在保持参数效率和可解释性的同时，实现高路由质量和计算节省，为规模化安全医疗咨询提供可行路径。",
+  "order": 193,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01114v1"
+}

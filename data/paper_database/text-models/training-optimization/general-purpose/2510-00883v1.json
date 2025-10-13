@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00883v1",
+  "title": "GLAI: GreenLightningAI for Accelerated Training through Knowledge\n  Decoupling",
+  "summary": "In this work we introduce GreenLightningAI (GLAI), a new architectural block\ndesigned as an alternative to conventional MLPs. The central idea is to\nseparate two types of knowledge that are usually entangled during training: (i)\n*structural knowledge*, encoded by the stable activation patterns induced by\nReLU activations; and (ii) *quantitative knowledge*, carried by the numerical\nweights and biases. By fixing the structure once stabilized, GLAI reformulates\nthe MLP as a combination of paths, where only the quantitative component is\noptimized. This reformulation retains the universal approximation capabilities\nof MLPs, yet achieves a more efficient training process, reducing training time\nby ~40% on average across the cases examined in this study. Crucially, GLAI is\nnot just another classifier, but a generic block that can replace MLPs wherever\nthey are used, from supervised heads with frozen backbones to projection layers\nin self-supervised learning or few-shot classifiers. Across diverse\nexperimental setups, GLAI consistently matches or exceeds the accuracy of MLPs\nwith an equivalent number of parameters, while converging faster. Overall, GLAI\nestablishes a new design principle that opens a direction for future\nintegration into large-scale architectures such as Transformers, where MLP\nblocks dominate the computational footprint.",
+  "authors": [
+    "Jose I. Mestre",
+    "Alberto Fernández-Hernández",
+    "Cristian Pérez-Corral",
+    "Manuel F. Dolz",
+    "Jose Duato",
+    "Enrique S. Quintana-Ortí"
+  ],
+  "published": "2025-10-01T13:31:34Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00883v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出GreenLightningAI(GLAI)架构块，通过知识解耦方法分离结构知识与定量知识，固定激活模式后仅优化权重参数，在保持MLP通用近似能力的同时平均减少40%训练时间，可替代传统MLP应用于各类模型架构。",
+  "order": 226,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00883v1"
+}

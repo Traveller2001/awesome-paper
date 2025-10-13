@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00444v1",
+  "title": "TokMem: Tokenized Procedural Memory for Large Language Models",
+  "summary": "Large language models rely heavily on prompts to specify tasks, recall\nknowledge and guide reasoning. However, this reliance is inefficient as prompts\nmust be re-read at each step, scale poorly across tasks, and lack mechanisms\nfor modular reuse. We introduce TokMem, a tokenized procedural memory that\nstores recurring procedures as compact, trainable embeddings. Each memory token\nencodes both an address to a procedure and a control signal that steers\ngeneration, enabling targeted behavior with constant-size overhead. To support\ncontinual adaptation, TokMem keeps the backbone model frozen, allowing new\nprocedures to be added without interfering with existing ones. We evaluate\nTokMem on 1,000 tasks for atomic recall, and on function-calling tasks for\ncompositional recall, where it consistently outperforms retrieval-augmented\ngeneration while avoiding repeated context overhead, and fine-tuning with far\nfewer parameters. These results establish TokMem as a scalable and modular\nalternative to prompt engineering and fine-tuning, offering an explicit\nprocedural memory for LLMs.",
+  "authors": [
+    "Zijun Wu",
+    "Yongchang Hao",
+    "Lili Mou"
+  ],
+  "published": "2025-10-01T02:51:58Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00444v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "TokMem提出了一种令牌化程序记忆机制，将重复性程序存储为紧凑可训练的嵌入向量，每个记忆令牌包含程序地址和控制信号，在保持骨干模型冻结的同时支持持续适应。在1000个任务评估中，该方案在原子回忆和组合回忆任务上均优于检索增强生成方法，且避免了重复上下文开销，为LLMs提供了可扩展的模块化程序记忆替代方案。",
+  "order": 482,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00444v1"
+}

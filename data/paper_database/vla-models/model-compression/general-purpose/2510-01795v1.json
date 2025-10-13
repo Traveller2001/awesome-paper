@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01795v1",
+  "title": "Nav-EE: Navigation-Guided Early Exiting for Efficient Vision-Language\n  Models in Autonomous Driving",
+  "summary": "Vision-Language Models (VLMs) are increasingly applied in autonomous driving\nfor unified perception and reasoning, but high inference latency hinders\nreal-time deployment. Early-exit reduces latency by terminating inference at\nintermediate layers, yet its task-dependent nature limits generalization across\ndiverse scenarios. We observe that this limitation aligns with autonomous\ndriving: navigation systems can anticipate upcoming contexts (e.g.,\nintersections, traffic lights), indicating which tasks will be required. We\npropose Nav-EE, a navigation-guided early-exit framework that precomputes\ntask-specific exit layers offline and dynamically applies them online based on\nnavigation priors. Experiments on CODA, Waymo, and BOSCH show that Nav-EE\nachieves accuracy comparable to full inference while reducing latency by up to\n63.9%. Real-vehicle integration with Autoware Universe further demonstrates\nreduced inference latency (600ms to 300ms), supporting faster decision-making\nin complex scenarios. These results suggest that coupling navigation foresight\nwith early-exit offers a viable path toward efficient deployment of large\nmodels in autonomous systems. Code and data are available at our anonymous\nrepository: https://anonymous.4open.science/r/Nav-EE-BBC4",
+  "authors": [
+    "Haibo Hu",
+    "Lianming Huang",
+    "Xinyu Wang",
+    "Yufei Cui",
+    "Nan Guan",
+    "Chun Jason Xue"
+  ],
+  "published": "2025-10-02T08:37:58Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.01795v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Nav-EE提出一种导航引导的早退框架，通过预计算任务特定退出层并结合导航先验动态选择，在自动驾驶中实现视觉语言模型的高效推理。实验表明该方法在保持精度的同时降低63.9%延迟，实车测试将推理时间从600ms减至300ms。",
+  "order": 78,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01795v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02208v1",
+  "title": "Measurement-Guided Consistency Model Sampling for Inverse Problems",
+  "summary": "Diffusion models have become powerful generative priors for solving inverse\nimaging problems, but their reliance on slow multi-step sampling limits\npractical deployment. Consistency models address this bottleneck by enabling\nhigh-quality generation in a single or only a few steps, yet their direct\nadaptation to inverse problems is underexplored. In this paper, we present a\nmodified consistency sampling approach tailored for inverse problem\nreconstruction: the sampler's stochasticity is guided by a\nmeasurement-consistency mechanism tied to the measurement operator, which\nenforces fidelity to the acquired measurements while retaining the efficiency\nof consistency-based generation. Experiments on Fashion-MNIST and LSUN Bedroom\ndatasets demonstrate consistent improvements in perceptual and pixel-level\nmetrics, including Fr\\'echet Inception Distance, Kernel Inception Distance,\npeak signal-to-noise ratio, and structural similarity index measure, compared\nto baseline consistency sampling, yielding competitive or superior\nreconstructions with only a handful of steps.",
+  "authors": [
+    "Amirreza Tanevardi",
+    "Pooria Abbas Rad Moghadam",
+    "Sajjad Amini"
+  ],
+  "published": "2025-10-02T16:53:07Z",
+  "primary_category": "eess.IV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02208v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种针对逆问题的改进一致性采样方法，通过测量一致性机制引导采样随机性，在保持测量保真度的同时实现高效生成。在Fashion-MNIST和LSUN Bedroom数据集上的实验表明，该方法仅需少量步骤即可获得优于基线的一致性重建效果，在感知质量和像素级指标上均有提升。",
+  "order": 724,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02208v1"
+}

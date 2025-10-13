@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07064v1",
+  "title": "Prompt Optimization Across Multiple Agents for Representing Diverse\n  Human Populations",
+  "summary": "The difficulty and expense of obtaining large-scale human responses make\nLarge Language Models (LLMs) an attractive alternative and a promising proxy\nfor human behavior. However, prior work shows that LLMs often produce\nhomogeneous outputs that fail to capture the rich diversity of human\nperspectives and behaviors. Thus, rather than trying to capture this diversity\nwith a single LLM agent, we propose a novel framework to construct a set of\nagents that collectively capture the diversity of a given human population.\nEach agent is an LLM whose behavior is steered by conditioning on a small set\nof human demonstrations (task-response pairs) through in-context learning. The\ncentral challenge is therefore to select a representative set of LLM agents\nfrom the exponentially large space of possible agents. We tackle this selection\nproblem from the lens of submodular optimization. In particular, we develop\nmethods that offer different trade-offs regarding time complexity and\nperformance guarantees. Extensive experiments in crowdsourcing and educational\ndomains demonstrate that our approach constructs agents that more effectively\nrepresent human populations compared to baselines. Moreover, behavioral\nanalyses on new tasks show that these agents reproduce the behavior patterns\nand perspectives of the students and annotators they are designed to represent.",
+  "authors": [
+    "Manh Hung Nguyen",
+    "Sebastian Tschiatschek",
+    "Adish Singla"
+  ],
+  "published": "2025-10-08T14:28:53Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.07064v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "education_ai",
+  "tldr_zh": "本文提出一种通过子模优化构建多样化LLM代理群的新框架，解决单一语言模型输出同质化问题。通过少量人类示范数据驱动多个代理，在众包和教育领域实验中证明能更有效地代表不同人群的行为模式和观点多样性。",
+  "order": 9,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07064v1"
+}

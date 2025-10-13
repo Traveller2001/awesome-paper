@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05468v1",
+  "title": "AMAQ: Adaptive Mixed-bit Activation Quantization for Collaborative\n  Parameter Efficient Fine-tuning",
+  "summary": "Large Language Models (LLMs) are scaling rapidly, creating significant\nchallenges for collaborative server client distributed training, particularly\nin terms of communication efficiency and computational overheads. To address\nthese challenges, we implement Parameter-efficient Split Learning, which\neffectively balances efficiency and performance for collaborative training on\nlow-resource devices.\n  To reduce communication overhead in collaborative training, we introduce\nAdaptive Mixed bit Activation Quantization (AMAQ), a strategy that\nprogressively compresses activations and gradients from high precision (6 to 8\nbits) to low precision (3 to 4 bits). AMAQ achieves this by effectively\nallocating bit budgets across channels based on feature wise and layer wise\nimportance using bit regularization.\n  Under the same bit budgets, AMAQ outperforms fixed-precision approaches,\ndelivering about 2.5% higher generation accuracy and about 1.3% better\nclassification accuracy for models like LLaMA3 8B and Qwen2.5 7B. In addition,\nit significantly enhances training stability and reducing ultra-low bit\nrepresentation collapse during the training.\n  Experiments demonstrate that AMAQ integrates effectively into practical\nmulti-machine collaborative training setups, offering superior inference\naccuracy with only a modest communication overhead for bits adaptation during\ntraining. This trade off makes AMAQ a practical and effective solution for\ncollaborative training with minimal communication cost.",
+  "authors": [
+    "Yurun Song",
+    "Zhuoyi Yang",
+    "Ian G. Harris",
+    "Sangeetha Abdu Jyothi"
+  ],
+  "published": "2025-10-07T00:05:16Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05468v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_compression', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出AMAQ自适应混合位激活量化方法，通过动态调整激活值和梯度的量化精度（6-8位到3-4位），在协作式参数高效微调中显著降低通信开销。相比固定精度方法，在相同比特预算下，LLaMA3 8B和Qwen2.5 7B模型生成准确率提升约2.5%，分类准确率提升约1.3%，同时增强训练稳定性并避免超低位表示崩溃。",
+  "order": 155,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05468v1"
+}

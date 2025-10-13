@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07213v1",
+  "title": "Language Lives in Sparse Dimensions: Toward Interpretable and Efficient\n  Multilingual Control for Large Language Models",
+  "summary": "Large language models exhibit strong multilingual capabilities despite\nlimited exposure to non-English data. Prior studies show that English-centric\nlarge language models map multilingual content into English-aligned\nrepresentations at intermediate layers and then project them back into\ntarget-language token spaces in the final layer. From this observation, we\nhypothesize that this cross-lingual transition is governed by a small and\nsparse set of dimensions, which occur at consistent indices across the\nintermediate to final layers. Building on this insight, we introduce a simple,\ntraining-free method to identify and manipulate these dimensions, requiring\nonly as few as 50 sentences of either parallel or monolingual data. Experiments\non a multilingual generation control task reveal the interpretability of these\ndimensions, demonstrating that the interventions in these dimensions can switch\nthe output language while preserving semantic content, and that it surpasses\nthe performance of prior neuron-based approaches at a substantially lower cost.",
+  "authors": [
+    "Chengzhi Zhong",
+    "Fei Cheng",
+    "Qianying Liu",
+    "Yugo Murawaki",
+    "Chenhui Chu",
+    "Sadao Kurohashi"
+  ],
+  "published": "2025-10-08T16:46:57Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07213v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'model_compression']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文发现大语言模型通过稀疏维度实现跨语言转换，提出无需训练的方法仅需50句数据即可识别和操控这些维度，能在保持语义的同时切换输出语言，性能优于现有神经元方法且成本显著降低。",
+  "order": 40,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07213v1"
+}

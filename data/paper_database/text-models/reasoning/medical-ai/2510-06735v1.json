@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06735v1",
+  "title": "Incorporating Expert Knowledge into Bayesian Causal Discovery of\n  Mixtures of Directed Acyclic Graphs",
+  "summary": "Bayesian causal discovery benefits from prior information elicited from\ndomain experts, and in heterogeneous domains any prior knowledge would be badly\nneeded. However, so far prior elicitation approaches have assumed a single\ncausal graph and hence are not suited to heterogeneous domains. We propose a\ncausal elicitation strategy for heterogeneous settings, based on Bayesian\nexperimental design (BED) principles, and a variational mixture structure\nlearning (VaMSL) method -- extending the earlier differentiable Bayesian\nstructure learning (DiBS) method -- to iteratively infer mixtures of causal\nBayesian networks (CBNs). We construct an informative graph prior incorporating\nelicited expert feedback in the inference of mixtures of CBNs. Our proposed\nmethod successfully produces a set of alternative causal models (mixture\ncomponents or clusters), and achieves an improved structure learning\nperformance on heterogeneous synthetic data when informed by a simulated\nexpert. Finally, we demonstrate that our approach is capable of capturing\ncomplex distributions in a breast cancer database.",
+  "authors": [
+    "Zachris Björkman",
+    "Jorge Loría",
+    "Sophie Wharrie",
+    "Samuel Kaski"
+  ],
+  "published": "2025-10-08T07:47:18Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06735v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出一种结合专家知识的贝叶斯因果发现方法，针对异构数据环境开发了基于实验设计的专家反馈采集策略和变分混合结构学习算法。该方法能够从异构数据中推断因果贝叶斯网络混合模型，在合成数据和乳腺癌数据库上验证了其优越性能。",
+  "order": 215,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06735v1"
+}

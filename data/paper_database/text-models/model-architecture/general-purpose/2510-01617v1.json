@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01617v1",
+  "title": "AMAS: Adaptively Determining Communication Topology for LLM-based\n  Multi-Agent System",
+  "summary": "Although large language models (LLMs) have revolutionized natural language\nprocessing capabilities, their practical implementation as autonomous\nmulti-agent systems (MAS) for industrial problem-solving encounters persistent\nbarriers. Conventional MAS architectures are fundamentally restricted by\ninflexible, hand-crafted graph topologies that lack contextual responsiveness,\nresulting in diminished efficacy across varied academic and commercial\nworkloads. To surmount these constraints, we introduce AMAS, a\nparadigm-shifting framework that redefines LLM-based MAS through a novel\ndynamic graph designer. This component autonomously identifies task-specific\noptimal graph configurations via lightweight LLM adaptation, eliminating the\nreliance on monolithic, universally applied structural templates. Instead, AMAS\nexploits the intrinsic properties of individual inputs to intelligently direct\nquery trajectories through task-optimized agent pathways. Rigorous validation\nacross question answering, mathematical deduction, and code generation\nbenchmarks confirms that AMAS systematically exceeds state-of-the-art\nsingle-agent and multi-agent approaches across diverse LLM architectures. Our\ninvestigation establishes that context-sensitive structural adaptability\nconstitutes a foundational requirement for high-performance LLM MAS\ndeployments.",
+  "authors": [
+    "Hui Yi Leong",
+    "Yuheng Li",
+    "Yuqing Wu",
+    "Wenwen Ouyang",
+    "Wei Zhu",
+    "Jiechao Gao"
+  ],
+  "published": "2025-10-02T02:50:22Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01617v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "AMAS提出了一种创新的多智能体系统框架，通过动态图设计器自适应确定LLM智能体间的通信拓扑结构。该框架能够根据具体任务需求自动优化智能体网络配置，在问答、数学推理和代码生成等任务中均超越了现有的单智能体和多智能体方法，证明了上下文敏感的结构适应性对高性能LLM多智能体系统部署的重要性。",
+  "order": 387,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01617v1"
+}

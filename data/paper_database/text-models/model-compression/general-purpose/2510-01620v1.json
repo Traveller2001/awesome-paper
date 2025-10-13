@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01620v1",
+  "title": "Learning to Decide with Just Enough: Information-Theoretic Context\n  Summarization for CDMPs",
+  "summary": "Contextual Markov Decision Processes (CMDPs) offer a framework for sequential\ndecision-making under external signals, but existing methods often fail to\ngeneralize in high-dimensional or unstructured contexts, resulting in excessive\ncomputation and unstable performance. We propose an information-theoretic\nsummarization approach that uses large language models (LLMs) to compress\ncontextual inputs into low-dimensional, semantically rich summaries. These\nsummaries augment states by preserving decision-critical cues while reducing\nredundancy. Building on the notion of approximate context sufficiency, we\nprovide, to our knowledge, the first regret bounds and a latency-entropy\ntrade-off characterization for CMDPs. Our analysis clarifies how\ninformativeness impacts computational cost. Experiments across discrete,\ncontinuous, visual, and recommendation benchmarks show that our method\noutperforms raw-context and non-context baselines, improving reward, success\nrate, and sample efficiency, while reducing latency and memory usage. These\nfindings demonstrate that LLM-based summarization offers a scalable and\ninterpretable solution for efficient decision-making in context-rich,\nresource-constrained environments.",
+  "authors": [
+    "Peidong Liu",
+    "Junjiang Lin",
+    "Shaowen Wang",
+    "Yao Xu",
+    "Haiqing Li",
+    "Xuhao Xie",
+    "Siyi Wu",
+    "Hao Li"
+  ],
+  "published": "2025-10-02T02:52:24Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01620v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于信息论的上下文摘要方法，利用大语言模型压缩高维上下文为低维语义摘要，增强情境马尔可夫决策过程的决策效率。该方法在保持关键信息的同时减少冗余，首次为CMDPs提供遗憾界和延迟-熵权衡分析，实验证明其在奖励、成功率、样本效率方面优于基线，并降低延迟和内存使用。",
+  "order": 117,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01620v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00392v1",
+  "title": "A Deep Learning Pipeline for Epilepsy Genomic Analysis Using GPT-2 XL\n  and NVIDIA H100",
+  "summary": "Epilepsy is a chronic neurological condition characterized by recurrent\nseizures, with global prevalence estimated at 50 million people worldwide.\nWhile progress in high-throughput sequencing has allowed for broad-based\ntranscriptomic profiling of brain tissues, the deciphering of these highly\ncomplex datasets remains one of the challenges. To address this issue, in this\npaper we propose a new analysis pipeline that integrates the power of deep\nlearning strategies with GPU-acceleration computation for investigating Gene\nexpression patterns in epilepsy. Specifically, our proposed approach employs\nGPT-2 XL, a transformer-based Large Language Model (LLM) with 1.5 billion\nparameters for genomic sequence analysis over the latest NVIDIA H100 Tensor\nCore GPUs based on Hopper architecture. Our proposed method enables efficient\npreprocessing of RNA sequence data, gene sequence encoding, and subsequent\npattern identification. We conducted experiments on two epilepsy datasets\nincluding GEO accession GSE264537 and GSE275235. The obtained results reveal\nseveral significant transcriptomic modifications, including reduced hippocampal\nastrogliosis after ketogenic diet treatment as well as restored\nexcitatory-inhibitory signaling equilibrium in zebrafish epilepsy model.\nMoreover, our results highlight the effectiveness of leveraging LLMs in\ncombination with advanced hardware acceleration for transcriptomic\ncharacterization in neurological diseases.",
+  "authors": [
+    "Muhammad Omer Latif",
+    "Hayat Ullah",
+    "Muhammad Ali Shafique",
+    "Zhihua Dong"
+  ],
+  "published": "2025-10-01T01:07:35Z",
+  "primary_category": "q-bio.GN",
+  "arxiv_url": "https://arxiv.org/abs/2510.00392v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出一种结合GPT-2 XL大语言模型与NVIDIA H100 GPU的深度学习流程，用于癫痫基因组分析。该方法能高效处理RNA序列数据并进行基因模式识别，在癫痫数据集实验中成功揭示了海马区星形胶质细胞增生减少和兴奋-抑制信号平衡恢复等关键转录组变化，证明了大语言模型结合硬件加速在神经系统疾病转录组表征中的有效性。",
+  "order": 687,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00392v1"
+}

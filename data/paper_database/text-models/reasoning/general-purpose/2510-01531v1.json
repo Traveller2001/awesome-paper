@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01531v1",
+  "title": "Information Seeking for Robust Decision Making under Partial\n  Observability",
+  "summary": "Explicit information seeking is essential to human problem-solving in\npractical environments characterized by incomplete information and noisy\ndynamics. When the true environmental state is not directly observable, humans\nseek information to update their internal dynamics and inform future\ndecision-making. Although existing Large Language Model (LLM) planning agents\nhave addressed observational uncertainty, they often overlook discrepancies\nbetween their internal dynamics and the actual environment. We introduce\nInformation Seeking Decision Planner (InfoSeeker), an LLM decision-making\nframework that integrates task-oriented planning with information seeking to\nalign internal dynamics and make optimal decisions under uncertainty in both\nagent observations and environmental dynamics. InfoSeeker prompts an LLM to\nactively gather information by planning actions to validate its understanding,\ndetect environmental changes, or test hypotheses before generating or revising\ntask-oriented plans. To evaluate InfoSeeker, we introduce a novel benchmark\nsuite featuring partially observable environments with incomplete observations\nand uncertain dynamics. Experiments demonstrate that InfoSeeker achieves a 74%\nabsolute performance gain over prior methods without sacrificing sample\nefficiency. Moreover, InfoSeeker generalizes across LLMs and outperforms\nbaselines on established benchmarks such as robotic manipulation and web\nnavigation. These findings underscore the importance of tightly integrating\nplanning and information seeking for robust behavior in partially observable\nenvironments. The project page is available at https://infoseekerllm.github.io",
+  "authors": [
+    "Djengo Cyun-Jyun Fang",
+    "Tsung-Wei Ke"
+  ],
+  "published": "2025-10-02T00:06:32Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01531v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出InfoSeeker框架，将任务规划与信息寻求相结合，使LLM能在部分可观测环境中主动收集信息以校准内部动态模型，在不确定环境下实现鲁棒决策，相比现有方法性能提升74%，并在机器人操作和网页导航等任务中展现出色泛化能力。",
+  "order": 398,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01531v1"
+}

@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01500v1",
+  "title": "Lateral Tree-of-Thoughts Surpasses ToT by Incorporating\n  Logically-Consistent, Low-Utility Candidates",
+  "summary": "Modern deployments increasingly allocate large test-time compute (thousands\nof tokens or many node expansions) to boost reliability. Under such budgets,\nstandard Tree-of-Thoughts-style search exhibits two pathologies: breadth\nsaturation (additional samples mostly produce near-duplicates, so width stops\ngrowing) and depth myopia (noisy short-horizon utilities prune branches whose\npayoff appears after a few more steps). We propose Lateral Tree-of-Thoughts\n(LToT), a drop-in controller that separates utility from logical consistency\nand treats low-utility but consistent candidates as assets rather than waste.\nThe frontier is split into mainlines (high-utility candidates used for\nexploitation) and laterals (consistent, initially low-utility candidates that\nreceive short, cheap probes before judgment). LToT explores laterals via\nLateral Racing with Short-Circuit (LR--SC): a capped successive-halving race\nthat spreads tiny probes across a very wide lateral set, uses width-aware\nthresholds with repeat-to-confirm, and immediately promotes a branch once its\nenvelope clears the mainline bar; mainlines are kept intentionally narrow so\nsurplus compute is invested where width is cheap. We prove a pseudolinear\nlateral cost $\\Theta(N_0 \\log_{\\eta} N_0)$ with logarithmically many rungs\n(initial lateral width $N_0$; culling factor $\\eta>1$), in contrast to the\nexponential growth of uncapped mainlines. Empirical evaluations on benchmark\ntasks are in preparation and will be added in a future revision. In short, LToT\nturns large test-time budgets into principled diversity while preserving\npromotion discipline, mitigating saturation and myopia without inflating\ncompute.",
+  "authors": [
+    "Abhinav Madahar"
+  ],
+  "published": "2025-10-01T22:23:58Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01500v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出横向思维树(LToT)方法，通过分离逻辑一致性与效用评估，将低效用但逻辑一致的候选方案作为探索资产而非废弃项。该方法采用横向竞速与短路机制，在保持主线窄化的同时广泛探测横向分支，以伪线性成本解决传统思维树方法的广度饱和与深度近视问题，显著提升大计算预算下的推理多样性。",
+  "order": 140,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01500v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.05769v1",
+  "title": "InforME: Improving Informativeness of Abstractive Text Summarization\n  With Informative Attention Guided by Named Entity Salience",
+  "summary": "Abstractive text summarization is integral to the Big Data era, which demands\nadvanced methods to turn voluminous and often long text data into concise but\ncoherent and informative summaries for efficient human consumption. Despite\nsignificant progress, there is still room for improvement in various aspects.\nOne such aspect is to improve informativeness. Hence, this paper proposes a\nnovel learning approach consisting of two methods: an optimal transport-based\ninformative attention method to improve learning focal information in reference\nsummaries and an accumulative joint entropy reduction method on named entities\nto enhance informative salience. Experiment results show that our approach\nachieves better ROUGE scores compared to prior work on CNN/Daily Mail while\nhaving competitive results on XSum. Human evaluation of informativeness also\ndemonstrates the better performance of our approach over a strong baseline.\nFurther analysis gives insight into the plausible reasons underlying the\nevaluation results.",
+  "authors": [
+    "Jianbin Shen",
+    "Christy Jie Liang",
+    "Junyu Xuan"
+  ],
+  "published": "2025-10-07T10:40:09Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05769v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出InforME方法，通过基于最优传输的信息关注机制和命名实体联合熵减方法，提升抽象文本摘要的信息密度。在CNN/Daily Mail数据集上取得优于现有方法的ROUGE分数，在XSum上表现相当，人工评估也证实了其信息丰富度的提升。",
+  "order": 38,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05769v1"
+}

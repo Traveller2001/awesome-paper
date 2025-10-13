@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00819v1",
+  "title": "Stabilizing Policy Gradients for Sample-Efficient Reinforcement Learning\n  in LLM Reasoning",
+  "summary": "Reinforcement Learning, particularly through policy gradient methods, has\nplayed a central role in enabling reasoning capabilities of Large Language\nModels. However, the optimization stability of policy gradients in this setting\nremains understudied. As a result, existing implementations often resort to\nconservative hyperparameter choices to ensure stability, which requires more\ntraining samples and increases computational costs. Hence, developing models\nfor reliably tracking the underlying optimization dynamics and leveraging them\ninto training enables more sample-efficient regimes and further unleashes\nscalable post-training. We address this gap by formalizing the stochastic\noptimization problem of policy gradients with explicit consideration of\nsecond-order geometry. We propose a tractable computational framework that\ntracks and leverages curvature information during policy updates. We further\nemploy this framework to design interventions in the optimization process\nthrough data selection. The resultant algorithm, Curvature-Aware Policy\nOptimization (CAPO), identifies samples that contribute to unstable updates and\nmasks them out. Theoretically, we establish monotonic improvement guarantees\nunder realistic assumptions. On standard math reasoning benchmarks, we\nempirically show that CAPO ensures stable updates under aggressive learning\nregimes where baselines catastrophically fail. With minimal intervention\n(rejecting fewer than 8% of tokens), CAPO achieves up to 30x improvement in\nsample efficiency over standard GRPO for LLM reasoning.",
+  "authors": [
+    "Luckeciano C. Melo",
+    "Alessandro Abate",
+    "Yarin Gal"
+  ],
+  "published": "2025-10-01T12:29:32Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00819v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出曲率感知策略优化(CAPO)方法，通过跟踪二阶几何信息识别并屏蔽导致策略梯度不稳定的样本，在LLM推理任务中实现稳定优化，样本效率提升高达30倍，仅需屏蔽不足8%的token即可在激进学习机制下保证单调改进。",
+  "order": 239,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00819v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00793v1",
+  "title": "AI in data science education: experiences from the classroom",
+  "summary": "This study explores the integration of AI, particularly large language models\n(LLMs) like ChatGPT, into educational settings, focusing on the implications\nfor teaching and learning. Through interviews with course coordinators from\ndata science courses at Wageningen University, this research identifies both\nthe benefits and challenges associated with AI in the classroom. While AI tools\ncan streamline tasks and enhance learning, concerns arise regarding students'\noverreliance on these technologies, potentially hindering the development of\nessential cognitive and problem solving skills. The study highlights the\nimportance of responsible AI usage, ethical considerations, and the need for\nadapting assessment methods to ensure educational outcomes are met. With\ncareful integration, AI can be a valuable asset in education, provided it is\nused to complement rather than replace fundamental learning processes.",
+  "authors": [
+    "J. A. Hageman",
+    "C. F. W. Peeters"
+  ],
+  "published": "2025-10-01T11:45:25Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00793v1",
+  "primary_area": "text_models",
+  "secondary_focus": "dialogue_systems",
+  "application_domain": "education_ai",
+  "tldr_zh": "本研究探讨了以ChatGPT为代表的大语言模型在数据科学教育中的应用，通过访谈瓦赫宁根大学课程协调员，揭示了AI工具在提升教学效率与学习体验的同时，可能因学生过度依赖而阻碍认知与问题解决能力发展。强调需通过负责任使用、伦理考量和评估方式调整，使AI成为补充而非替代基础学习过程的工具。",
+  "order": 247,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00793v1"
+}

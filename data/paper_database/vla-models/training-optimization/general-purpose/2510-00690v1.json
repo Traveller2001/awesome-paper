@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.00690v1",
+  "title": "ACPO: Adaptive Curriculum Policy Optimization for Aligning\n  Vision-Language Models in Complex Reasoning",
+  "summary": "Aligning large-scale vision-language models (VLMs) for complex reasoning via\nreinforcement learning is often hampered by the limitations of existing policy\noptimization algorithms, such as static training schedules and the rigid,\nuniform clipping mechanism in Proximal Policy Optimization (PPO). In this work,\nwe introduce Adaptive Curriculum Policy Optimization (ACPO), a novel framework\nthat addresses these challenges through a dual-component adaptive learning\nstrategy. First, ACPO employs a dynamic curriculum that orchestrates a\nprincipled transition from a stable, near on-policy exploration phase to an\nefficient, off-policy exploitation phase by progressively increasing sample\nreuse. Second, we propose an Advantage-Aware Adaptive Clipping (AAAC) mechanism\nthat replaces the fixed clipping hyperparameter with dynamic, sample-wise\nbounds modulated by the normalized advantage of each token. This allows for\nmore granular and robust policy updates, enabling larger gradients for\nhigh-potential samples while safeguarding against destructive ones. We conduct\nextensive experiments on a suite of challenging multimodal reasoning\nbenchmarks, including MathVista, LogicVista, and MMMU-Pro. Results demonstrate\nthat ACPO consistently outperforms strong baselines such as DAPO and PAPO,\nachieving state-of-the-art performance, accelerated convergence, and superior\ntraining stability.",
+  "authors": [
+    "Yunhao Wang",
+    "Ziting Li",
+    "Shuai Chen",
+    "Tao Liu",
+    "Chao Song",
+    "Junjie Jiang",
+    "Jian Zhu",
+    "Peng Gao",
+    "Bin Qin"
+  ],
+  "published": "2025-10-01T09:11:27Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00690v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ACPO框架，通过动态课程学习和自适应裁剪机制优化视觉语言模型的复杂推理对齐，在多个基准测试中实现最先进性能。",
+  "order": 261,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00690v1"
+}

@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01530v1",
+  "title": "LOGicalThought: Logic-Based Ontological Grounding of LLMs for\n  High-Assurance Reasoning",
+  "summary": "High-assurance reasoning, particularly in critical domains such as law and\nmedicine, requires conclusions that are accurate, verifiable, and explicitly\ngrounded in evidence. This reasoning relies on premises codified from rules,\nstatutes, and contracts, inherently involving defeasible or non-monotonic logic\ndue to numerous exceptions, where the introduction of a single fact can\ninvalidate general rules, posing significant challenges. While large language\nmodels (LLMs) excel at processing natural language, their capabilities in\nstandard inference tasks do not translate to the rigorous reasoning required\nover high-assurance text guidelines. Core reasoning challenges within such\ntexts often manifest specific logical structures involving negation,\nimplication, and, most critically, defeasible rules and exceptions. In this\npaper, we propose a novel neurosymbolically-grounded architecture called\nLOGicalThought (LogT) that uses an advanced logical language and reasoner in\nconjunction with an LLM to construct a dual symbolic graph context and\nlogic-based context. These two context representations transform the problem\nfrom inference over long-form guidelines into a compact grounded evaluation.\nEvaluated on four multi-domain benchmarks against four baselines, LogT improves\noverall performance by 11.84% across all LLMs. Performance improves\nsignificantly across all three modes of reasoning: by up to +10.2% on negation,\n+13.2% on implication, and +5.5% on defeasible reasoning compared to the\nstrongest baseline.",
+  "authors": [
+    "Navapat Nananukul",
+    "Yue Zhang",
+    "Ryan Lee",
+    "Eric Boxer",
+    "Jonathan May",
+    "Vibhav Giridhar Gogate",
+    "Jay Pujara",
+    "Mayank Kejriwal"
+  ],
+  "published": "2025-10-02T00:06:23Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01530v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "legal_ai",
+  "tldr_zh": "LOGicalThought提出一种神经符号架构，结合逻辑语言推理器与大语言模型，构建双重上下文表示，将长文本推理转化为紧凑的基于逻辑的评估。在四个多领域基准测试中，相比基线模型性能提升11.84%，在否定推理、蕴含推理和可废止推理方面分别提升10.2%、13.2%和5.5%，特别适用于法律等高可靠性领域。",
+  "order": 135,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01530v1"
+}

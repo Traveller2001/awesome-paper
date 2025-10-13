@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00624v1",
+  "title": "UCD: Unconditional Discriminator Promotes Nash Equilibrium in GANs",
+  "summary": "Adversarial training turns out to be the key to one-step generation,\nespecially for Generative Adversarial Network (GAN) and diffusion model\ndistillation. Yet in practice, GAN training hardly converges properly and\nstruggles in mode collapse. In this work, we quantitatively analyze the extent\nof Nash equilibrium in GAN training, and conclude that redundant shortcuts by\ninputting condition in $D$ disables meaningful knowledge extraction. We thereby\npropose to employ an unconditional discriminator (UCD), in which $D$ is\nenforced to extract more comprehensive and robust features with no condition\ninjection. In this way, $D$ is able to leverage better knowledge to supervise\n$G$, which promotes Nash equilibrium in GAN literature. Theoretical guarantee\non compatibility with vanilla GAN theory indicates that UCD can be implemented\nin a plug-in manner. Extensive experiments confirm the significant performance\nimprovements with high efficiency. For instance, we achieved \\textbf{1.47 FID}\non the ImageNet-64 dataset, surpassing StyleGAN-XL and several state-of-the-art\none-step diffusion models. The code will be made publicly available.",
+  "authors": [
+    "Mengfei Xia",
+    "Nan Xue",
+    "Jiapeng Zhu",
+    "Yujun Shen"
+  ],
+  "published": "2025-10-01T07:58:33Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00624v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出无条件判别器(UCD)方法，通过移除判别器的条件输入来避免冗余捷径，促进GAN训练达到纳什均衡。理论证明与原始GAN兼容，实验在ImageNet-64上取得1.47 FID的优异性能，超越StyleGAN-XL等先进模型。",
+  "order": 654,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00624v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00978v1",
+  "title": "A Scene is Worth a Thousand Features: Feed-Forward Camera Localization\n  from a Collection of Image Features",
+  "summary": "Visually localizing an image, i.e., estimating its camera pose, requires\nbuilding a scene representation that serves as a visual map. The representation\nwe choose has direct consequences towards the practicability of our system.\nEven when starting from mapping images with known camera poses,\nstate-of-the-art approaches still require hours of mapping time in the worst\ncase, and several minutes in the best. This work raises the question whether we\ncan achieve competitive accuracy much faster. We introduce FastForward, a\nmethod that creates a map representation and relocalizes a query image\non-the-fly in a single feed-forward pass. At the core, we represent multiple\nmapping images as a collection of features anchored in 3D space. FastForward\nutilizes these mapping features to predict image-to-scene correspondences for\nthe query image, enabling the estimation of its camera pose. We couple\nFastForward with image retrieval and achieve state-of-the-art accuracy when\ncompared to other approaches with minimal map preparation time. Furthermore,\nFastForward demonstrates robust generalization to unseen domains, including\nchallenging large-scale outdoor environments.",
+  "authors": [
+    "Axel Barroso-Laguna",
+    "Tommaso Cavallari",
+    "Victor Adrian Prisacariu",
+    "Eric Brachmann"
+  ],
+  "published": "2025-10-01T14:52:12Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00978v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出FastForward方法，通过单次前向传播实现相机定位，将多张地图图像表示为3D空间中的特征集合，利用这些特征预测查询图像与场景的对应关系，在最小地图准备时间内达到最先进精度，并能泛化到未见过的户外环境。",
+  "order": 611,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00978v1"
+}

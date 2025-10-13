@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05860v1",
+  "title": "Automated Boilerplate: Prevalence and Quality of Contract Generators in\n  the Context of Swiss Privacy Policies",
+  "summary": "It has become increasingly challenging for firms to comply with a plethora of\nnovel digital regulations. This is especially true for smaller businesses that\noften lack both the resources and know-how to draft complex legal documents.\nInstead of seeking costly legal advice from attorneys, firms may turn to\ncheaper alternative legal service providers such as automated contract\ngenerators. While these services have a long-standing presence, there is little\nempirical evidence on their prevalence and output quality.\n  We address this gap in the context of a 2023 Swiss privacy law revision. To\nenable a systematic evaluation, we create and annotate a multilingual benchmark\ndataset that captures key compliance obligations under Swiss and EU privacy\nlaw. Using this dataset, we validate a novel GPT-5-based method for large-scale\ncompliance assessment of privacy policies, allowing us to measure the impact of\nthe revision. We observe compliance increases indicating an effect of the\nrevision. Generators, explicitly referenced by 18% of local websites, are\nassociated with substantially higher levels of compliance, with increases of up\nto 15 percentage points compared to privacy policies without generator use.\nThese findings contribute to three debates: the potential of LLMs for\ncross-lingual legal analysis, the Brussels Effect of EU regulations, and,\ncrucially, the role of automated tools in improving compliance and contractual\nquality.",
+  "authors": [
+    "Luka Nenadic",
+    "David Rodriguez"
+  ],
+  "published": "2025-10-07T12:30:01Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05860v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "legal_ai",
+  "tldr_zh": "本研究针对2023年瑞士隐私法修订，通过构建多语言基准数据集和基于GPT-5的合规评估方法，实证分析了合同生成器在隐私政策中的使用情况。研究发现18%的本地网站使用生成器，且使用生成器的隐私政策合规性显著提高达15个百分点，揭示了自动化工具在法律合规中的积极作用及其与欧盟法规的布鲁塞尔效应。",
+  "order": 32,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05860v1"
+}

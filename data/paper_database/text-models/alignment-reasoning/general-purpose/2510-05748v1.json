@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05748v1",
+  "title": "Communication Enables Cooperation in LLM Agents: A Comparison with\n  Curriculum-Based Approaches",
+  "summary": "Eliciting cooperation in multi-agent LLM systems is critical for AI\nalignment. We investigate two approaches: direct communication and curriculum\nlearning. In a 4-player Stag Hunt, a one-word \"cheap talk\" channel increases\ncooperation from 0% to 48.3%, demonstrating communication as a robust\ncoordination mechanism. In contrast, we find that curriculum learning is highly\nsensitive to design choices: our pedagogical curriculum through progressively\ncomplex games reduced agent payoffs by 27.4% in an Iterated Public Goods Game\nwith Punishment. Qualitative analysis reveals that curricula emphasizing\ndefection-equilibrium games can induce \"learned pessimism\" in agents. These\nfindings suggest that for coordination problems, simple communication protocols\nmay be more reliable than experience-based training, and that curriculum design\nfor social dilemmas requires careful attention to the strategic lessons\nembedded in game sequences.",
+  "authors": [
+    "Hachem Madmoun",
+    "Salem Lahlou"
+  ],
+  "published": "2025-10-07T10:06:29Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05748v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究比较了多智能体LLM系统中的两种合作促进方法：直接通信与课程学习。在4玩家猎鹿博弈中，简单的单词语信通道将合作率从0%提升至48.3%，证明通信是有效的协调机制。而课程学习对设计极为敏感：在迭代公共物品惩罚博弈中，渐进式复杂游戏的课程设计反而使智能体收益下降27.4%。定性分析表明，强调背叛均衡的课程会导致智能体产生'习得性悲观'。研究建议在协调问题中，简单通信协议比经验训练更可靠，社会困境的课程设计需谨慎考虑游戏序列嵌入的战略教训。",
+  "order": 124,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05748v1"
+}

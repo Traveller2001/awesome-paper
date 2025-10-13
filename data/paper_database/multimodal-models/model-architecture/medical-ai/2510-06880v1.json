@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06880v1",
+  "title": "MoRE-GNN: Multi-omics Data Integration with a Heterogeneous Graph\n  Autoencoder",
+  "summary": "The integration of multi-omics single-cell data remains challenging due to\nhigh-dimensionality and complex inter-modality relationships. To address this,\nwe introduce MoRE-GNN (Multi-omics Relational Edge Graph Neural Network), a\nheterogeneous graph autoencoder that combines graph convolution and attention\nmechanisms to dynamically construct relational graphs directly from data.\nEvaluations on six publicly available datasets demonstrate that MoRE-GNN\ncaptures biologically meaningful relationships and outperforms existing\nmethods, particularly in settings with strong inter-modality correlations.\nFurthermore, the learned representations allow for accurate downstream\ncross-modal predictions. While performance may vary with dataset complexity,\nMoRE-GNN offers an adaptive, scalable and interpretable framework for advancing\nmulti-omics integration.",
+  "authors": [
+    "Zhiyu Wang",
+    "Sonia Koszut",
+    "Pietro Liò",
+    "Francesco Ceccarelli"
+  ],
+  "published": "2025-10-08T10:48:15Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06880v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "MoRE-GNN提出了一种基于异构图自编码器的多组学数据整合方法，通过图卷积和注意力机制动态构建关系图，在六个公开数据集上验证了其在捕获生物学意义关系和跨模态预测方面的优越性能，为多组学研究提供了自适应、可扩展的解决方案。",
+  "order": 202,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06880v1"
+}

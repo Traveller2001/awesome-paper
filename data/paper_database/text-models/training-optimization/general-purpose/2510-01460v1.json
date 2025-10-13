@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01460v1",
+  "title": "The Three Regimes of Offline-to-Online Reinforcement Learning",
+  "summary": "Offline-to-online reinforcement learning (RL) has emerged as a practical\nparadigm that leverages offline datasets for pretraining and online\ninteractions for fine-tuning. However, its empirical behavior is highly\ninconsistent: design choices of online-fine tuning that work well in one\nsetting can fail completely in another. We propose a stability--plasticity\nprinciple that can explain this inconsistency: we should preserve the knowledge\nof pretrained policy or offline dataset during online fine-tuning, whichever is\nbetter, while maintaining sufficient plasticity. This perspective identifies\nthree regimes of online fine-tuning, each requiring distinct stability\nproperties. We validate this framework through a large-scale empirical study,\nfinding that the results strongly align with its predictions in 45 of 63 cases.\nThis work provides a principled framework for guiding design choices in\noffline-to-online RL based on the relative performance of the offline dataset\nand the pretrained policy.",
+  "authors": [
+    "Lu Li",
+    "Tianwei Ni",
+    "Yihao Sun",
+    "Pierre-Luc Bacon"
+  ],
+  "published": "2025-10-01T20:58:14Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01460v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出稳定性-可塑性原则来解释离线到在线强化学习中的不一致性，识别了在线微调的三种机制，并通过大规模实证研究验证了该框架在45/63案例中的预测准确性，为基于离线数据集与预训练策略相对性能的设计选择提供了理论指导。",
+  "order": 150,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01460v1"
+}

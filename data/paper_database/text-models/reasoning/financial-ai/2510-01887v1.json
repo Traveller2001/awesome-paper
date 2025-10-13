@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01887v1",
+  "title": "FINCH: Financial Intelligence using Natural language for Contextualized\n  SQL Handling",
+  "summary": "Text-to-SQL, the task of translating natural language questions into SQL\nqueries, has long been a central challenge in NLP. While progress has been\nsignificant, applying it to the financial domain remains especially difficult\ndue to complex schema, domain-specific terminology, and high stakes of error.\nDespite this, there is no dedicated large-scale financial dataset to advance\nresearch, creating a critical gap. To address this, we introduce a curated\nfinancial dataset (FINCH) comprising 292 tables and 75,725 natural language-SQL\npairs, enabling both fine-tuning and rigorous evaluation. Building on this\nresource, we benchmark reasoning models and language models of varying scales,\nproviding a systematic analysis of their strengths and limitations in financial\nText-to-SQL tasks. Finally, we propose a finance-oriented evaluation metric\n(FINCH Score) that captures nuances overlooked by existing measures, offering a\nmore faithful assessment of model performance.",
+  "authors": [
+    "Avinash Kumar Singh",
+    "Bhaskarjit Sarmah",
+    "Stefano Pasquali"
+  ],
+  "published": "2025-10-02T10:55:11Z",
+  "primary_category": "q-fin.CP",
+  "arxiv_url": "https://arxiv.org/abs/2510.01887v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "financial_ai",
+  "tldr_zh": "FINCH提出首个大规模金融领域Text-to-SQL数据集，包含292个表和75,725个自然语言-SQL对，通过基准测试分析不同规模模型的性能，并引入金融专用评估指标FINCH Score以更准确衡量模型表现。",
+  "order": 66,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01887v1"
+}

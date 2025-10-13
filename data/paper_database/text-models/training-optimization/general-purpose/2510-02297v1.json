@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.02297v1",
+  "title": "Interactive Training: Feedback-Driven Neural Network Optimization",
+  "summary": "Traditional neural network training typically follows fixed, predefined\noptimization recipes, lacking the flexibility to dynamically respond to\ninstabilities or emerging training issues. In this paper, we introduce\nInteractive Training, an open-source framework that enables real-time,\nfeedback-driven intervention during neural network training by human experts or\nautomated AI agents. At its core, Interactive Training uses a control server to\nmediate communication between users or agents and the ongoing training process,\nallowing users to dynamically adjust optimizer hyperparameters, training data,\nand model checkpoints. Through three case studies, we demonstrate that\nInteractive Training achieves superior training stability, reduced sensitivity\nto initial hyperparameters, and improved adaptability to evolving user needs,\npaving the way toward a future training paradigm where AI agents autonomously\nmonitor training logs, proactively resolve instabilities, and optimize training\ndynamics.",
+  "authors": [
+    "Wentao Zhang",
+    "Yang Young Lu",
+    "Yuntian Deng"
+  ],
+  "published": "2025-10-02T17:59:00Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02297v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出交互式训练框架，通过控制服务器实现人机协同实时干预神经网络训练过程，支持动态调整超参数、训练数据和模型检查点，在三个案例中证明其能提升训练稳定性、降低超参数敏感性并增强适应性。",
+  "order": 695,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02297v1"
+}

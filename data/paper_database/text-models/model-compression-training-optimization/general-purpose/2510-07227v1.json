@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.07227v1",
+  "title": "Where to Begin: Efficient Pretraining via Subnetwork Selection and\n  Distillation",
+  "summary": "Small Language models (SLMs) offer an efficient and accessible alternative to\nLarge Language Models (LLMs), delivering strong performance while using far\nfewer resources. We introduce a simple and effective framework for pretraining\nSLMs that brings together three complementary ideas. First, we identify\nstructurally sparse sub-network initializations that consistently outperform\nrandomly initialized models of similar size under the same compute budget.\nSecond, we use evolutionary search to automatically discover high-quality\nsub-network initializations, providing better starting points for pretraining.\nThird, we apply knowledge distillation from larger teacher models to speed up\ntraining and improve generalization. Together, these components make SLM\npretraining substantially more efficient: our best model, discovered using\nevolutionary search and initialized with LLM weights, matches the validation\nperplexity of a comparable Pythia SLM while requiring 9.2x fewer pretraining\ntokens. We release all code and models at\nhttps://github.com/whittle-org/whittle/, offering a practical and reproducible\npath toward cost-efficient small language model development at scale.",
+  "authors": [
+    "Arjun Krishnakumar",
+    "Rhea Sanjay Sukthanker",
+    "Hannan Javed Mahadik",
+    "Gabriela Kadlecová",
+    "Vladyslav Moroshan",
+    "Timur Carstensen",
+    "Frank Hutter",
+    "Aaron Klein"
+  ],
+  "published": "2025-10-08T16:57:46Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07227v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_compression', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种高效预训练小语言模型(SLM)的三合一框架：通过结构稀疏子网络初始化提升起点质量，利用进化搜索自动发现优质初始化，结合大模型知识蒸馏加速训练。实验表明，该方法仅需9.2%的预训练token即可达到基线模型同等性能，为资源受限场景提供可复现的解决方案。",
+  "order": 38,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07227v1"
+}

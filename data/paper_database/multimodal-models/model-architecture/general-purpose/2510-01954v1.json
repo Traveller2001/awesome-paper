@@ -1,0 +1,30 @@
+{
+  "arxiv_id": "2510.01954v1",
+  "title": "Patch-as-Decodable-Token: Towards Unified Multi-Modal Vision Tasks in\n  MLLMs",
+  "summary": "Multimodal large language models (MLLMs) have advanced rapidly in recent\nyears. However, existing approaches for vision tasks often rely on indirect\nrepresentations, such as generating coordinates as text for detection, which\nlimits performance and prevents dense prediction tasks like segmentation. To\novercome these challenges, we introduce Patch-as-Decodable Token (PaDT), a\nunified paradigm that enables MLLMs to directly generate both textual and\ndiverse visual outputs. Central to PaDT are Visual Reference Tokens (VRTs),\nderived from visual patch embeddings of query images and interleaved seamlessly\nwith LLM's output textual tokens. A lightweight decoder then transforms LLM's\noutputs into detection, segmentation, and grounding predictions. Unlike prior\nmethods, PaDT processes VRTs independently at each forward pass and dynamically\nexpands the embedding table, thus improving localization and differentiation\namong similar objects. We further tailor a training strategy for PaDT by\nrandomly selecting VRTs for supervised fine-tuning and introducing a robust\nper-token cross-entropy loss. Our empirical studies across four visual\nperception and understanding tasks suggest PaDT consistently achieving\nstate-of-the-art performance, even compared with significantly larger MLLM\nmodels. The code is available at https://github.com/Gorilla-Lab-SCUT/PaDT.",
+  "authors": [
+    "Yongyi Su",
+    "Haojie Zhang",
+    "Shijie Li",
+    "Nanqing Liu",
+    "Jingyi Liao",
+    "Junyi Pan",
+    "Yuan Liu",
+    "Xiaofen Xing",
+    "Chong Sun",
+    "Chen Li",
+    "Nancy F. Chen",
+    "Shuicheng Yan",
+    "Xulei Yang",
+    "Xun Xu"
+  ],
+  "published": "2025-10-02T12:23:57Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01954v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Patch-as-Decodable-Token (PaDT)方法，通过将图像块作为可解码标记与文本标记交错处理，使多模态大语言模型能直接生成检测、分割等视觉输出。该方法采用视觉参考标记和轻量解码器，在多项视觉任务中达到最先进性能。",
+  "order": 535,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01954v1"
+}

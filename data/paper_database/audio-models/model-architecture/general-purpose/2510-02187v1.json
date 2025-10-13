@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02187v1",
+  "title": "High-Fidelity Speech Enhancement via Discrete Audio Tokens",
+  "summary": "Recent autoregressive transformer-based speech enhancement (SE) methods have\nshown promising results by leveraging advanced semantic understanding and\ncontextual modeling of speech. However, these approaches often rely on complex\nmulti-stage pipelines and low sampling rate codecs, limiting them to narrow and\ntask-specific speech enhancement. In this work, we introduce DAC-SE1, a\nsimplified language model-based SE framework leveraging discrete\nhigh-resolution audio representations; DAC-SE1 preserves fine-grained acoustic\ndetails while maintaining semantic coherence. Our experiments show that DAC-SE1\nsurpasses state-of-the-art autoregressive SE methods on both objective\nperceptual metrics and in a MUSHRA human evaluation. We release our codebase\nand model checkpoints to support further research in scalable, unified, and\nhigh-quality speech enhancement.",
+  "authors": [
+    "Luca A. Lanzendörfer",
+    "Frédéric Berdoz",
+    "Antonis Asonitis",
+    "Roger Wattenhofer"
+  ],
+  "published": "2025-10-02T16:38:05Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.02187v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出DAC-SE1，一种基于离散音频令牌的简化语言模型语音增强框架，通过高分辨率音频表示在保持语义连贯性的同时保留精细声学细节，在客观感知指标和人类评估中均超越现有自回归方法。",
+  "order": 729,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02187v1"
+}

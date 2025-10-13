@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2510.00911v1",
+  "title": "RiskPO: Risk-based Policy Optimization via Verifiable Reward for LLM\n  Post-Training",
+  "summary": "Reinforcement learning with verifiable reward has recently emerged as a\ncentral paradigm for post-training large language models (LLMs); however,\nprevailing mean-based methods, such as Group Relative Policy Optimization\n(GRPO), suffer from entropy collapse and limited reasoning gains. We argue that\nthese issues stem from overemphasizing high-probability output sequences while\nneglecting rare but informative reasoning paths. To address these challenges,\nwe propose Risk-based Policy Optimization (RiskPO), which substitutes classical\nmean-based objectives with principled risk measures. Specifically, we introduce\na Mixed Value-at-Risk objective that integrates weighted attention over\nmultiple regions of the reward distribution, thereby amplifying gradient\nsignals on challenging instances and preventing overconfident convergence. We\nfurther design a bundling scheme that aggregates multiple questions into\nbundles, thus enriching the feedback signal and yielding more stable and\ninformative training dynamics. Theoretically, we prove that the risk-averse\nupdate alleviates entropy collapse and promotes exploration. Numerically,\nRiskPO achieves consistent and significant improvements in mathematical\nreasoning, multi-modal reasoning, and code generation benchmarks, surpassing\nGRPO and its variants on both Pass@1 and Pass@k metrics. Our results\ndemonstrate that risk-based optimization provides a rigorous and effective\nparadigm for enhancing LLM reasoning capabilities.",
+  "authors": [
+    "Tao Ren",
+    "Jinyang Jiang",
+    "Hui Yang",
+    "Wan Tian",
+    "Minhao Zou",
+    "Guanghao Li",
+    "Zishi Zhang",
+    "Qinghao Wang",
+    "Shentao Qin",
+    "Yanjun Zhao",
+    "Rui Tao",
+    "Hui Shao",
+    "Yijie Peng"
+  ],
+  "published": "2025-10-01T13:53:09Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00911v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RiskPO方法，通过风险度量替代传统均值目标优化大语言模型后训练，解决熵崩溃问题并增强推理能力，在数学推理、多模态推理和代码生成任务中表现优异。",
+  "order": 220,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00911v1"
+}

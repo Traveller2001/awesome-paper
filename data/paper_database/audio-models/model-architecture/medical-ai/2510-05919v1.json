@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.05919v1",
+  "title": "An Attention-Augmented VAE-BiLSTM Framework for Anomaly Detection in\n  12-Lead ECG Signals",
+  "summary": "Anomaly detection in 12-lead electrocardiograms (ECGs) is critical for\nidentifying deviations associated with cardiovascular disease. This work\npresents a comparative analysis of three autoencoder-based architectures:\nconvolutional autoencoder (CAE), variational autoencoder with bidirectional\nlong short-term memory (VAE-BiLSTM), and VAE-BiLSTM with multi-head attention\n(VAE-BiLSTM-MHA), for unsupervised anomaly detection in ECGs. To the best of\nour knowledge, this study reports the first application of a VAE-BiLSTM-MHA\narchitecture to ECG anomaly detection. All models are trained on normal ECG\nsamples to reconstruct non-anomalous cardiac morphology and detect deviations\nindicative of disease. Using a unified preprocessing and evaluation pipeline on\nthe public China Physiological Signal Challenge (CPSC) dataset, the\nattention-augmented VAE achieves the best performance, with an AUPRC of 0.81\nand a recall of 0.85 on the held-out test set, outperforming the other\narchitectures. To support clinical triage, this model is further integrated\ninto an interactive dashboard that visualizes anomaly localization. In\naddition, a performance comparison with baseline models from the literature is\nprovided.",
+  "authors": [
+    "Marc Garreta Basora",
+    "Mehmet Oguz Mulayim"
+  ],
+  "published": "2025-10-07T13:30:02Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05919v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出一种基于注意力增强的VAE-BiLSTM框架，用于12导联心电图信号的异常检测。通过对比三种自编码器架构，在CPSC公开数据集上验证了融合多头注意力的VAE-BiLSTM模型表现最佳（AUPRC 0.81，召回率0.85），并开发了可视化异常定位的交互式仪表板辅助临床分诊。",
+  "order": 112,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05919v1"
+}

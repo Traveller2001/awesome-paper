@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00808v1",
+  "title": "What You See is What You Ask: Evaluating Audio Descriptions",
+  "summary": "Audio descriptions (ADs) narrate important visual details in movies, enabling\nBlind and Low Vision (BLV) users to understand narratives and appreciate visual\ndetails. Existing works in automatic AD generation mostly focus on few-second\ntrimmed clips, and evaluate them by comparing against a single ground-truth\nreference AD. However, writing ADs is inherently subjective. Through alignment\nand analysis of two independent AD tracks for the same movies, we quantify the\nsubjectivity in when and whether to describe, and what and how to highlight.\nThus, we show that working with trimmed clips is inadequate. We propose ADQA, a\nQA benchmark that evaluates ADs at the level of few-minute long, coherent video\nsegments, testing whether they would help BLV users understand the story and\nappreciate visual details. ADQA features visual appreciation (VA) questions\nabout visual facts and narrative understanding (NU) questions based on the\nplot. Through ADQA, we show that current AD generation methods lag far behind\nhuman-authored ADs. We conclude with several recommendations for future work\nand introduce a public leaderboard for benchmarking.",
+  "authors": [
+    "Divy Kala",
+    "Eshika Khandelwal",
+    "Makarand Tapaswi"
+  ],
+  "published": "2025-10-01T12:14:15Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00808v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ADQA基准，用于评估音频描述在长视频片段中的表现，通过量化描述主观性并分析视觉欣赏与叙事理解问题，发现当前自动生成方法远不及人工创作，为盲人和低视力用户提供更好的观影体验。",
+  "order": 625,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00808v1"
+}

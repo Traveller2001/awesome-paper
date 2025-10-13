@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06780v1",
+  "title": "Foundations of LLM Knowledge Materialization: Termination,\n  Reproducibility, Robustness",
+  "summary": "Large Language Models (LLMs) encode substantial factual knowledge, yet\nmeasuring and systematizing this knowledge remains challenging. Converting it\ninto structured format, for example through recursive extraction approaches\nsuch as the GPTKB methodology (Hu et al., 2025b), is still underexplored. Key\nopen questions include whether such extraction can terminate, whether its\noutputs are reproducible, and how robust they are to variations. We\nsystematically study LLM knowledge materialization using miniGPTKBs\n(domain-specific, tractable subcrawls), analyzing termination, reproducibility,\nand robustness across three categories of metrics: yield, lexical similarity,\nand semantic similarity. We experiment with four variations (seed, language,\nrandomness, model) and three illustrative domains (from history, entertainment,\nand finance). Our findings show (i) high termination rates, though\nmodel-dependent; (ii) mixed reproducibility; and (iii) robustness that varies\nby perturbation type: high for seeds and temperature, lower for languages and\nmodels. These results suggest that LLM knowledge materialization can reliably\nsurface core knowledge, while also revealing important limitations.",
+  "authors": [
+    "Luca Giordano",
+    "Simon Razniewski"
+  ],
+  "published": "2025-10-08T09:03:58Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06780v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究系统探讨了大语言模型知识物化的三个核心问题：终止性、可复现性和鲁棒性。通过miniGPTKBs在三个领域实验发现：(1)终止率较高但依赖模型；(2)可复现性结果不一；(3)对种子和温度扰动鲁棒性强，但对语言和模型变化较敏感。结果表明LLM知识物化能可靠提取核心知识，但仍存在重要局限性。",
+  "order": 80,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06780v1"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01919v1",
+  "title": "GFSR-Net: Guided Focus via Segment-Wise Relevance Network for\n  Interpretable Deep Learning in Medical Imaging",
+  "summary": "Deep learning has achieved remarkable success in medical image analysis,\nhowever its adoption in clinical practice is limited by a lack of\ninterpretability. These models often make correct predictions without\nexplaining their reasoning. They may also rely on image regions unrelated to\nthe disease or visual cues, such as annotations, that are not present in\nreal-world conditions. This can reduce trust and increase the risk of\nmisleading diagnoses. We introduce the Guided Focus via Segment-Wise Relevance\nNetwork (GFSR-Net), an approach designed to improve interpretability and\nreliability in medical imaging. GFSR-Net uses a small number of human\nannotations to approximate where a person would focus within an image\nintuitively, without requiring precise boundaries or exhaustive markings,\nmaking the process fast and practical. During training, the model learns to\nalign its focus with these areas, progressively emphasizing features that carry\ndiagnostic meaning. This guidance works across different types of natural and\nmedical images, including chest X-rays, retinal scans, and dermatological\nimages. Our experiments demonstrate that GFSR achieves comparable or superior\naccuracy while producing saliency maps that better reflect human expectations.\nThis reduces the reliance on irrelevant patterns and increases confidence in\nautomated diagnostic tools.",
+  "authors": [
+    "Jhonatan Contreras",
+    "Thomas Bocklitz"
+  ],
+  "published": "2025-10-02T11:35:47Z",
+  "primary_category": "eess.IV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01919v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "GFSR-Net提出一种基于分段相关性的引导聚焦网络，通过少量人工标注指导模型关注医学图像中的诊断相关区域，在保持准确性的同时提升深度学习模型的可解释性，减少对无关特征的依赖，增强临床诊断可信度。",
+  "order": 538,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01919v1"
+}

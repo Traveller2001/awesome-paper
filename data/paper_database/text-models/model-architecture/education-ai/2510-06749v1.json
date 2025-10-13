@@ -1,0 +1,26 @@
+{
+  "arxiv_id": "2510.06749v1",
+  "title": "A Formal Framework for Fluency-based Multi-Reference Evaluation in\n  Grammatical Error Correction",
+  "summary": "Evaluating grammatical error correction requires metrics that reflect the\ndiversity of valid human corrections rather than privileging a single\nreference. Existing frameworks, largely edit-based and English-centric, rely on\nrigid alignments between system and reference edits, limiting their\napplicability in multilingual and generative settings. This paper introduces a\nformal framework for \\textit{fluency-based multi-reference evaluation}, framing\n$n$-gram similarity as an aggregation problem over multiple legitimate\ncorrections. Within this formulation, we instantiate GLEU through four\naggregation strategies--\\textsc{select-best}, \\textsc{simple-average},\n\\textsc{weighted-average}, and \\textsc{merged-counts}--and analyze their\nproperties of boundedness, monotonicity, and sensitivity to reference\nvariation. Empirical results on Czech, Estonian, Ukrainian, and Chinese corpora\nshow that these strategies capture complementary aspects of fluency and\ncoverage. The framework unifies multi-reference evaluation into a principled,\nfluency-oriented approach that incorporates linguistic diversity without\npenalizing legitimate variation.",
+  "authors": [
+    "Eitan Klinger",
+    "Zihao Huang",
+    "Tran Minh Nguyen",
+    "Emma Jayeon Park",
+    "Yige Chen",
+    "Yang Gu",
+    "Qingyu Gao",
+    "Siliang Liu",
+    "Mengyang Qiu",
+    "Jungyeul Park"
+  ],
+  "published": "2025-10-08T08:15:44Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06749v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "education_ai",
+  "tldr_zh": "本文提出了一种基于流畅度的多参考评估框架，用于语法错误校正任务。该框架将n-元相似度计算转化为多合法修正的聚合问题，实例化了四种聚合策略，并在多语言语料上验证了其能捕捉流畅性和覆盖度的互补特性，为多参考评估提供了统一的理论基础。",
+  "order": 83,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06749v1"
+}

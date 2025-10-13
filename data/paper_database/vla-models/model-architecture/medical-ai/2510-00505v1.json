@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00505v1",
+  "title": "A Fast and Precise Method for Searching Rectangular Tumor Regions in\n  Brain MR Images",
+  "summary": "Purpose: To develop a fast and precise method for searching rectangular\nregions in brain tumor images. Methods: The authors propose a new method for\nsearching rectangular tumor regions in brain MR images. The proposed method\nconsisted of a segmentation network and a fast search method with a\nuser-controllable search metric. As the segmentation network, the U-Net whose\nencoder was replaced by the EfficientNet was used. In the fast search method,\nsummed-area tables were used for accelerating sums of voxels in rectangular\nregions. Use of the summed-area tables enabled exhaustive search of the 3D\noffset (3D full search). The search metric was designed for giving priority to\ncubes over oblongs, and assigning better values for higher tumor fractions even\nif they exceeded target tumor fractions. The proposed computation and metric\nwere compared with those used in a conventional method using the Brain Tumor\nImage Segmentation dataset. Results: When the 3D full search was used, the\nproposed computation (8 seconds) was 100-500 times faster than the conventional\ncomputation (11-40 minutes). When the user-controllable parts of the search\nmetrics were changed variously, the tumor fractions of the proposed metric were\nhigher than those of the conventional metric. In addition, the conventional\nmetric preferred oblongs whereas the proposed metric preferred cubes.\nConclusion: The proposed method is promising for implementing fast and precise\nsearch of rectangular tumor regions, which is useful for brain tumor diagnosis\nusing MRI systems. The proposed computation reduced processing times of the 3D\nfull search, and the proposed metric improved the quality of the assigned\nrectangular tumor regions.",
+  "authors": [
+    "Hidenori Takeshima",
+    "Shuki Maruyama"
+  ],
+  "published": "2025-10-01T04:35:52Z",
+  "primary_category": "eess.IV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00505v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出一种快速精确的脑部MR图像矩形肿瘤区域搜索方法，结合改进的U-Net分割网络和基于积分图的快速搜索算法，相比传统方法速度提升100-500倍，且更偏好立方体区域而非细长区域，有助于提升脑肿瘤MRI诊断效率。",
+  "order": 671,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00505v1"
+}

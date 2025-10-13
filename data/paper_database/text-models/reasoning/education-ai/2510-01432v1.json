@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01432v1",
+  "title": "On the Role of Domain Experts in Creating Effective Tutoring Systems",
+  "summary": "The role that highly curated knowledge, provided by domain experts, could\nplay in creating effective tutoring systems is often overlooked within the AI\nfor education community. In this paper, we highlight this topic by discussing\ntwo ways such highly curated expert knowledge could help in creating novel\neducational systems. First, we will look at how one could use explainable AI\n(XAI) techniques to automatically create lessons. Most existing XAI methods are\nprimarily aimed at debugging AI systems. However, we will discuss how one could\nuse expert specified rules about solving specific problems along with novel XAI\ntechniques to automatically generate lessons that could be provided to\nlearners. Secondly, we will see how an expert specified curriculum for learning\na target concept can help develop adaptive tutoring systems, that can not only\nprovide a better learning experience, but could also allow us to use more\nefficient algorithms to create these systems. Finally, we will highlight the\nimportance of such methods using a case study of creating a tutoring system for\npollinator identification, where such knowledge could easily be elicited from\nexperts.",
+  "authors": [
+    "Sarath Sreedharan",
+    "Kelsey Sikes",
+    "Nathaniel Blanchard",
+    "Lisa Mason",
+    "Nikhil Krishnaswamy",
+    "Jill Zarestky"
+  ],
+  "published": "2025-10-01T20:12:57Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01432v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "education_ai",
+  "tldr_zh": "本文探讨领域专家知识在构建智能教学系统中的关键作用，提出利用可解释AI技术自动生成课程内容，并通过专家设计的课程体系开发自适应教学系统，以传粉昆虫识别教学为例验证了方法的有效性。",
+  "order": 584,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01432v1"
+}

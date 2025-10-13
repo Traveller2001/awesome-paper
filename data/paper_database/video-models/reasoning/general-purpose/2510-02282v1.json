@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.02282v1",
+  "title": "VidGuard-R1: AI-Generated Video Detection and Explanation via Reasoning\n  MLLMs and RL",
+  "summary": "With the rapid advancement of AI-generated videos, there is an urgent need\nfor effective detection tools to mitigate societal risks such as misinformation\nand reputational harm. In addition to accurate classification, it is essential\nthat detection models provide interpretable explanations to ensure transparency\nfor regulators and end users. To address these challenges, we introduce\nVidGuard-R1, the first video authenticity detector that fine-tunes a\nmulti-modal large language model (MLLM) using group relative policy\noptimization (GRPO). Our model delivers both highly accurate judgments and\ninsightful reasoning. We curate a challenging dataset of 140k real and\nAI-generated videos produced by state-of-the-art generation models, carefully\ndesigning the generation process to maximize discrimination difficulty. We then\nfine-tune Qwen-VL using GRPO with two specialized reward models that target\ntemporal artifacts and generation complexity. Extensive experiments demonstrate\nthat VidGuard-R1 achieves state-of-the-art zero-shot performance on existing\nbenchmarks, with additional training pushing accuracy above 95%. Case studies\nfurther show that VidGuard-R1 produces precise and interpretable rationales\nbehind its predictions. The code is publicly available at\nhttps://VidGuard-R1.github.io.",
+  "authors": [
+    "Kyoungjun Park",
+    "Yifan Yang",
+    "Juheon Yi",
+    "Shicheng Zheng",
+    "Yifei Shen",
+    "Dongqi Han",
+    "Caihua Shan",
+    "Muhammad Muaz",
+    "Lili Qiu"
+  ],
+  "published": "2025-10-02T17:55:37Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02282v1",
+  "primary_area": "video_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VidGuard-R1是首个通过多模态大语言模型与强化学习相结合的视频真实性检测系统，采用GRPO优化方法和专门设计的奖励模型，在14万真实与AI生成视频数据集上训练，零样本检测准确率领先，并能提供可解释的检测推理过程。",
+  "order": 701,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02282v1"
+}

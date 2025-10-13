@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01651v1",
+  "title": "LadderMoE: Ladder-Side Mixture of Experts Adapters for Bronze\n  Inscription Recognition",
+  "summary": "Bronze inscriptions (BI), engraved on ritual vessels, constitute a crucial\nstage of early Chinese writing and provide indispensable evidence for\narchaeological and historical studies. However, automatic BI recognition\nremains difficult due to severe visual degradation, multi-domain variability\nacross photographs, rubbings, and tracings, and an extremely long-tailed\ncharacter distribution. To address these challenges, we curate a large-scale BI\ndataset comprising 22454 full-page images and 198598 annotated characters\nspanning 6658 unique categories, enabling robust cross-domain evaluation.\nBuilding on this resource, we develop a two-stage detection-recognition\npipeline that first localizes inscriptions and then transcribes individual\ncharacters. To handle heterogeneous domains and rare classes, we equip the\npipeline with LadderMoE, which augments a pretrained CLIP encoder with\nladder-style MoE adapters, enabling dynamic expert specialization and stronger\nrobustness. Comprehensive experiments on single-character and full-page\nrecognition tasks demonstrate that our method substantially outperforms\nstate-of-the-art scene text recognition baselines, achieving superior accuracy\nacross head, mid, and tail categories as well as all acquisition modalities.\nThese results establish a strong foundation for bronze inscription recognition\nand downstream archaeological analysis.",
+  "authors": [
+    "Rixin Zhou",
+    "Peiqiang Qiu",
+    "Qian Zhang",
+    "Chuntao Li",
+    "Xi Yang"
+  ],
+  "published": "2025-10-02T04:14:14Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01651v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LadderMoE方法，针对青铜器铭文识别中的视觉退化、多域差异和长尾分布问题，构建大规模数据集并开发两阶段检测-识别流程，通过梯状混合专家适配器增强CLIP编码器，在单字符和全页识别任务上显著优于现有方法。",
+  "order": 562,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01651v1"
+}

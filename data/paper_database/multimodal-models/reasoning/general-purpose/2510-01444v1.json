@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.01444v1",
+  "title": "VOGUE: Guiding Exploration with Visual Uncertainty Improves Multimodal\n  Reasoning",
+  "summary": "Reinforcement learning with verifiable rewards (RLVR) improves reasoning in\nlarge language models (LLMs) but struggles with exploration, an issue that\nstill persists for multimodal LLMs (MLLMs). Current methods treat the visual\ninput as a fixed, deterministic condition, overlooking a critical source of\nambiguity and struggling to build policies robust to plausible visual\nvariations. We introduce $\\textbf{VOGUE (Visual Uncertainty Guided\nExploration)}$, a novel method that shifts exploration from the output (text)\nto the input (visual) space. By treating the image as a stochastic context,\nVOGUE quantifies the policy's sensitivity to visual perturbations using the\nsymmetric KL divergence between a \"raw\" and \"noisy\" branch, creating a direct\nsignal for uncertainty-aware exploration. This signal shapes the learning\nobjective via an uncertainty-proportional bonus, which, combined with a\ntoken-entropy bonus and an annealed sampling schedule, effectively balances\nexploration and exploitation. Implemented within GRPO on two model scales\n(Qwen2.5-VL-3B/7B), VOGUE boosts pass@1 accuracy by an average of 2.6% on three\nvisual math benchmarks and 3.7% on three general-domain reasoning benchmarks,\nwhile simultaneously increasing pass@4 performance and mitigating the\nexploration decay commonly observed in RL fine-tuning. Our work shows that\ngrounding exploration in the inherent uncertainty of visual inputs is an\neffective strategy for improving multimodal reasoning.",
+  "authors": [
+    "Rui Liu",
+    "Dian Yu",
+    "Tong Zheng",
+    "Runpeng Dai",
+    "Zongxia Li",
+    "Wenhao Yu",
+    "Zhenwen Liang",
+    "Linfeng Song",
+    "Haitao Mi",
+    "Pratap Tokekar",
+    "Dong Yu"
+  ],
+  "published": "2025-10-01T20:32:08Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01444v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VOGUE是一种新颖的多模态强化学习方法，通过将视觉输入视为随机上下文并量化策略对视觉扰动的敏感性，将探索从文本空间转移到视觉空间。该方法使用对称KL散度创建不确定性感知探索信号，结合token熵奖励和退火采样策略，在三个视觉数学基准和三个通用推理基准上平均提升2.6%和3.7%的准确率，有效缓解RL微调中的探索衰减问题。",
+  "order": 404,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01444v1"
+}

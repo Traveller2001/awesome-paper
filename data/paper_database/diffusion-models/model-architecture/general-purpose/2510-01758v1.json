@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01758v1",
+  "title": "Unsupervised Dynamic Feature Selection for Robust Latent Spaces in\n  Vision Tasks",
+  "summary": "Latent representations are critical for the performance and robustness of\nmachine learning models, as they encode the essential features of data in a\ncompact and informative manner. However, in vision tasks, these representations\nare often affected by noisy or irrelevant features, which can degrade the\nmodel's performance and generalization capabilities. This paper presents a\nnovel approach for enhancing latent representations using unsupervised Dynamic\nFeature Selection (DFS). For each instance, the proposed method identifies and\nremoves misleading or redundant information in images, ensuring that only the\nmost relevant features contribute to the latent space. By leveraging an\nunsupervised framework, our approach avoids reliance on labeled data, making it\nbroadly applicable across various domains and datasets. Experiments conducted\non image datasets demonstrate that models equipped with unsupervised DFS\nachieve significant improvements in generalization performance across various\ntasks, including clustering and image generation, while incurring a minimal\nincrease in the computational cost.",
+  "authors": [
+    "Bruno Corcuera",
+    "Carlos Eiras-Franco",
+    "Brais Cancela"
+  ],
+  "published": "2025-10-02T07:46:59Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01758v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种无监督动态特征选择方法，通过识别并移除图像中的误导性或冗余信息来增强视觉任务的潜在表示。该方法不依赖标注数据，在聚类和图像生成等任务中显著提升模型泛化性能，仅带来轻微计算开销增加。",
+  "order": 546,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01758v1"
+}

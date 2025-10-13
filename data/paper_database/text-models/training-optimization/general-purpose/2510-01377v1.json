@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01377v1",
+  "title": "DeMuon: A Decentralized Muon for Matrix Optimization over Graphs",
+  "summary": "In this paper, we propose DeMuon, a method for decentralized matrix\noptimization over a given communication topology. DeMuon incorporates matrix\northogonalization via Newton-Schulz iterations-a technique inherited from its\ncentralized predecessor, Muon-and employs gradient tracking to mitigate\nheterogeneity among local functions. Under heavy-tailed noise conditions and\nadditional mild assumptions, we establish the iteration complexity of DeMuon\nfor reaching an approximate stochastic stationary point. This complexity result\nmatches the best-known complexity bounds of centralized algorithms in terms of\ndependence on the target tolerance. To the best of our knowledge, DeMuon is the\nfirst direct extension of Muon to decentralized optimization over graphs with\nprovable complexity guarantees. We conduct preliminary numerical experiments on\ndecentralized transformer pretraining over graphs with varying degrees of\nconnectivity. Our numerical results demonstrate a clear margin of improvement\nof DeMuon over other popular decentralized algorithms across different network\ntopologies.",
+  "authors": [
+    "Chuan He",
+    "Shuyi Ren",
+    "Jingwei Mao",
+    "Erik G. Larsson"
+  ],
+  "published": "2025-10-01T19:06:11Z",
+  "primary_category": "math.OC",
+  "arxiv_url": "https://arxiv.org/abs/2510.01377v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "DeMuon是一种基于图通信拓扑的分散式矩阵优化方法，结合牛顿-舒尔茨正交化和梯度追踪技术，在重尾噪声条件下具有可证明的收敛复杂度，实验显示在分散式Transformer预训练中优于现有算法。",
+  "order": 165,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01377v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01612v1",
+  "title": "RAG-BioQA Retrieval-Augmented Generation for Long-Form Biomedical\n  Question Answering",
+  "summary": "The exponential growth of biomedical literature creates significant\nchallenges for accessing precise medical information. Current biomedical\nquestion-answering systems primarily focus on short-form answers, failing to\nprovide the comprehensive explanations necessary for clinical decision-making.\nWe present RAG-BioQA, a novel framework combining retrieval-augmented\ngeneration with domain-specific fine-tuning to produce evidence-based,\nlong-form biomedical answers. Our approach integrates BioBERT embeddings with\nFAISS indexing and compares various re-ranking strategies (BM25, ColBERT,\nMonoT5) to optimize context selection before synthesizing evidence through a\nfine-tuned T5 model. Experimental results on the PubMedQA dataset show\nsignificant improvements over baselines, with our best model achieving\nsubstantial gains across BLEU, ROUGE, and METEOR metrics, advancing the state\nof accessible, evidence-based biomedical knowledge retrieval.",
+  "authors": [
+    "Lovely Yeswanth Panchumarthi",
+    "Sai Prasad Gudari",
+    "Atharva Negi",
+    "Praveen Raj Budime",
+    "Harsit Upadhya"
+  ],
+  "published": "2025-10-02T02:49:09Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01612v1",
+  "primary_area": "text_models",
+  "secondary_focus": "long_context",
+  "application_domain": "medical_ai",
+  "tldr_zh": "RAG-BioQA框架结合检索增强生成与领域微调，针对生物医学长问答任务，通过BioBERT嵌入、FAISS索引及多种重排序策略优化上下文选择，在PubMedQA数据集上显著提升BLEU、ROUGE和METEOR指标，推动循证医学知识检索发展。",
+  "order": 389,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01612v1"
+}

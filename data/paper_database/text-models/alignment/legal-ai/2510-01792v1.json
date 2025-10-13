@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01792v1",
+  "title": "Comparison of Unsupervised Metrics for Evaluating Judicial Decision\n  Extraction",
+  "summary": "The rapid advancement of artificial intelligence in legal natural language\nprocessing demands scalable methods for evaluating text extraction from\njudicial decisions. This study evaluates 16 unsupervised metrics, including\nnovel formulations, to assess the quality of extracting seven semantic blocks\nfrom 1,000 anonymized Russian judicial decisions, validated against 7,168\nexpert reviews on a 1--5 Likert scale. These metrics, spanning document-based,\nsemantic, structural, pseudo-ground truth, and legal-specific categories,\noperate without pre-annotated ground truth. Bootstrapped correlations, Lin's\nconcordance correlation coefficient (CCC), and mean absolute error (MAE) reveal\nthat Term Frequency Coherence (Pearson $r = 0.540$, Lin CCC = 0.512, MAE =\n0.127) and Coverage Ratio/Block Completeness (Pearson $r = 0.513$, Lin CCC =\n0.443, MAE = 0.139) best align with expert ratings, while Legal Term Density\n(Pearson $r = -0.479$, Lin CCC = -0.079, MAE = 0.394) show strong negative\ncorrelations. The LLM Evaluation Score (mean = 0.849, Pearson $r = 0.382$, Lin\nCCC = 0.325, MAE = 0.197) showed moderate alignment, but its performance, using\ngpt-4.1-mini via g4f, suggests limited specialization for legal textse. These\nfindings highlight that unsupervised metrics, including LLM-based approaches,\nenable scalable screening but, with moderate correlations and low CCC values,\ncannot fully replace human judgment in high-stakes legal contexts. This work\nadvances legal NLP by providing annotation-free evaluation tools, with\nimplications for judicial analytics and ethical AI deployment.",
+  "authors": [
+    "Ivan Leonidovich Litvak",
+    "Anton Kostin",
+    "Fedor Lashkin",
+    "Tatiana Maksiyan",
+    "Sergey Lagutin"
+  ],
+  "published": "2025-10-02T08:32:16Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01792v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "legal_ai",
+  "tldr_zh": "本研究评估了16种无监督指标在司法文书语义块提取任务中的表现，基于1000份俄罗斯司法文书和7168份专家评分。研究发现术语频率一致性和覆盖率/块完整性指标与专家评分最为一致，而法律术语密度呈现负相关。LLM评估分数表现中等，表明无监督指标可用于规模化筛查，但在高风险的司法场景中尚不能完全替代人工判断。",
+  "order": 370,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01792v1"
+}

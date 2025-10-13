@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06732v1",
+  "title": "Are LLMs Reliable Rankers? Rank Manipulation via Two-Stage Token\n  Optimization",
+  "summary": "Large language models (LLMs) are increasingly used as rerankers in\ninformation retrieval, yet their ranking behavior can be steered by small,\nnatural-sounding prompts. To expose this vulnerability, we present Rank\nAnything First (RAF), a two-stage token optimization method that crafts concise\ntextual perturbations to consistently promote a target item in LLM-generated\nrankings while remaining hard to detect. Stage 1 uses Greedy Coordinate\nGradient to shortlist candidate tokens at the current position by combining the\ngradient of the rank-target with a readability score; Stage 2 evaluates those\ncandidates under exact ranking and readability losses using an entropy-based\ndynamic weighting scheme, and selects a token via temperature-controlled\nsampling. RAF generates ranking-promoting prompts token-by-token, guided by\ndual objectives: maximizing ranking effectiveness and preserving linguistic\nnaturalness. Experiments across multiple LLMs show that RAF significantly\nboosts the rank of target items using naturalistic language, with greater\nrobustness than existing methods in both promoting target items and maintaining\nnaturalness. These findings underscore a critical security implication:\nLLM-based reranking is inherently susceptible to adversarial manipulation,\nraising new challenges for the trustworthiness and robustness of modern\nretrieval systems. Our code is available at: https://github.com/glad-lab/RAF.",
+  "authors": [
+    "Tiancheng Xing",
+    "Jerry Li",
+    "Yixuan Du",
+    "Xiyang Hu"
+  ],
+  "published": "2025-10-08T07:40:40Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06732v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出RAF方法，通过两阶段令牌优化生成自然语言扰动，可操纵LLM在信息检索中的排序结果，揭示LLM排序系统存在被对抗性攻击的安全漏洞。该方法在提升目标项目排名的同时保持语言自然度，实验证明比现有方法更有效且隐蔽。",
+  "order": 86,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06732v1"
+}

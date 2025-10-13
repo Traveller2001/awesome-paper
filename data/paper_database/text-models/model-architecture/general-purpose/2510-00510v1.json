@@ -1,0 +1,32 @@
+{
+  "arxiv_id": "2510.00510v1",
+  "title": "JoyAgent-JDGenie: Technical Report on the GAIA",
+  "summary": "Large Language Models are increasingly deployed as autonomous agents for\ncomplex real-world tasks, yet existing systems often focus on isolated\nimprovements without a unifying design for robustness and adaptability. We\npropose a generalist agent architecture that integrates three core components:\na collective multi-agent framework combining planning and execution agents with\ncritic model voting, a hierarchical memory system spanning working, semantic,\nand procedural layers, and a refined tool suite for search, code execution, and\nmultimodal parsing. Evaluated on a comprehensive benchmark, our framework\nconsistently outperforms open-source baselines and approaches the performance\nof proprietary systems. These results demonstrate the importance of\nsystem-level integration and highlight a path toward scalable, resilient, and\nadaptive AI assistants capable of operating across diverse domains and tasks.",
+  "authors": [
+    "Jiarun Liu",
+    "Shiyue Xu",
+    "Shangkun Liu",
+    "Yang Li",
+    "Wen Liu",
+    "Min Liu",
+    "Xiaoqing Zhou",
+    "Hanmin Wang",
+    "Shilin Jia",
+    "zhen Wang",
+    "Shaohua Tian",
+    "Hanhao Li",
+    "Junbo Zhang",
+    "Yongli Yu",
+    "Peng Cao",
+    "Haofen Wang"
+  ],
+  "published": "2025-10-01T04:41:58Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00510v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出JoyAgent-JDGenie通用智能体架构，集成多智能体协作框架、分层记忆系统和精细化工具套件，在综合基准测试中超越开源基线并接近专有系统性能，展示了系统级集成对构建可扩展、鲁棒自适应AI助手的重要性。",
+  "order": 474,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00510v1"
+}

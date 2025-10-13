@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00685v1",
+  "title": "Stochastic Self-Organization in Multi-Agent Systems",
+  "summary": "Multi-agent systems (MAS) based on Large Language Models (LLMs) have the\npotential to solve tasks that are beyond the reach of any single LLM. However,\nthis potential can only be realized when the collaboration mechanism between\nagents is optimized. Specifically, optimizing the communication structure\nbetween agents is critical for fruitful collaboration. Most existing approaches\nrely on fixed topologies, pretrained graph generators, optimization over edges,\nor employ external LLM judges, thereby adding to the complexity. In this work,\nwe introduce a response-conditioned framework that adapts communication\non-the-fly. Agents independently generate responses to the user query and\nassess peer contributions using an approximation of the Shapley value. A\ndirected acyclic graph (DAG) is then constructed to regulate the propagation of\nthe responses among agents, which ensures stable and efficient message\ntransmission from high-contributing agents to others. This graph is dynamically\nupdated based on the agent responses from the previous collaboration round.\nSince the proposed framework enables the self-organization of agents without\nadditional supervision or training, we refer to it as SelfOrg. The SelfOrg\nframework goes beyond task- and query-level optimization and takes into account\nthe stochastic nature of agent responses. Experiments with both strong and weak\nLLM backends demonstrate robust performance, with significant gains in the weak\nregime where prior methods collapse. We also theoretically show that multiple\nagents increase the chance of correctness and that the correct responses\nnaturally dominate the information flow.",
+  "authors": [
+    "Nurbek Tastan",
+    "Samuel Horvath",
+    "Karthik Nandakumar"
+  ],
+  "published": "2025-10-01T09:08:04Z",
+  "primary_category": "cs.MA",
+  "arxiv_url": "https://arxiv.org/abs/2510.00685v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SelfOrg框架，通过基于Shapley值近似评估智能体贡献并构建有向无环图，实现多智能体系统的随机自组织通信优化。该方法无需额外监督或训练，在弱模型场景下表现稳健，理论上证明多智能体可提高正确性且正确响应主导信息流。",
+  "order": 455,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00685v1"
+}

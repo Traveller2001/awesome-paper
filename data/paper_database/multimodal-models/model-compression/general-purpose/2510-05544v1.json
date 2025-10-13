@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.05544v1",
+  "title": "Activation-Informed Pareto-Guided Low-Rank Compression for Efficient\n  LLM/VLM",
+  "summary": "Large language models (LLM) and vision-language models (VLM) have achieved\nstate-of-the-art performance, but they impose significant memory and computing\nchallenges in deployment. We present a novel low-rank compression framework to\naddress this challenge. First, we upper bound the change of network loss via\nlayer-wise activation-based compression errors, filling a theoretical gap in\nthe literature. We then formulate low-rank model compression as a bi-objective\noptimization and prove that a single uniform tolerance yields surrogate\nPareto-optimal heterogeneous ranks. Based on our theoretical insights, we\npropose Pareto-Guided Singular Value Decomposition (PGSVD), a zero-shot\npipeline that improves activation-aware compression via Pareto-guided rank\nselection and alternating least-squares implementation. We apply PGSVD to both\nLLM and VLM, showing better accuracy at the same compression levels and\ninference speedup.",
+  "authors": [
+    "Ryan Solgi",
+    "Parsa Madinei",
+    "Jiayi Tian",
+    "Rupak Swaminathan",
+    "Jing Liu",
+    "Nathan Susanj",
+    "Zheng Zhang"
+  ],
+  "published": "2025-10-07T03:07:47Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05544v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于激活信息的帕累托引导低秩压缩框架(PGSVD)，通过理论分析建立网络损失变化上界，将压缩问题转化为双目标优化，证明单一容忍度可生成帕累托最优异构秩分配。该零样本方法在LLM/VLM上实现更高精度的压缩与推理加速。",
+  "order": 48,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05544v1"
+}

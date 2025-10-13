@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06982v1",
+  "title": "Revisiting Mixout: An Overlooked Path to Robust Finetuning",
+  "summary": "Finetuning vision foundation models often improves in-domain accuracy but\ncomes at the cost of robustness under distribution shift. We revisit Mixout, a\nstochastic regularizer that intermittently replaces finetuned weights with\ntheir pretrained reference, through the lens of a single-run, weight-sharing\nimplicit ensemble. This perspective reveals three key levers that govern\nrobustness: the \\emph{masking anchor}, \\emph{resampling frequency}, and\n\\emph{mask sparsity}. Guided by this analysis, we introduce GMixout, which (i)\nreplaces the fixed anchor with an exponential moving-average snapshot that\nadapts during training, and (ii) regulates masking period via an explicit\nresampling-frequency hyperparameter. Our sparse-kernel implementation updates\nonly a small fraction of parameters with no inference-time overhead, enabling\ntraining on consumer-grade GPUs. Experiments on benchmarks covering covariate\nshift, corruption, and class imbalance, ImageNet / ImageNet-LT, DomainNet,\niWildCam, and CIFAR100-C, GMixout consistently improves in-domain accuracy\nbeyond zero-shot performance while surpassing both Model Soups and strong\nparameter-efficient finetuning baselines under distribution shift.",
+  "authors": [
+    "Masih Aminbeidokhti",
+    "Heitor Rapela Medeiros",
+    "Eric Granger",
+    "Marco Pedersoli"
+  ],
+  "published": "2025-10-08T13:07:50Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06982v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文重新审视Mixout正则化方法，提出GMixout改进方案，通过动态锚点和可控掩码频率增强视觉基础模型微调的鲁棒性。在多个分布偏移基准测试中，GMixout在保持域内精度的同时显著提升模型鲁棒性，且无需推理时额外计算开销。",
+  "order": 192,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06982v1"
+}

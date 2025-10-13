@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06911v1",
+  "title": "LLM-Assisted Modeling of Semantic Web-Enabled Multi-Agents Systems with\n  AJAN",
+  "summary": "There are many established semantic Web standards for implementing\nmulti-agent driven applications. The AJAN framework allows to engineer\nmulti-agent systems based on these standards. In particular, agent knowledge is\nrepresented in RDF/RDFS and OWL, while agent behavior models are defined with\nBehavior Trees and SPARQL to access and manipulate this knowledge. However, the\nappropriate definition of RDF/RDFS and SPARQL-based agent behaviors still\nremains a major hurdle not only for agent modelers in practice. For example,\ndealing with URIs is very error-prone regarding typos and dealing with complex\nSPARQL queries in large-scale environments requires a high learning curve. In\nthis paper, we present an integrated development environment to overcome such\nhurdles of modeling AJAN agents and at the same time to extend the user\ncommunity for AJAN by the possibility to leverage Large Language Models for\nagent engineering.",
+  "authors": [
+    "Hacane Hechehouche",
+    "Andre Antakli",
+    "Matthias Klusch"
+  ],
+  "published": "2025-10-08T11:45:19Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06911v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种集成开发环境，利用大语言模型辅助建模基于AJAN框架的语义网多智能体系统，解决了RDF/RDFS和SPARQL行为定义的技术门槛问题，通过LLM降低语义网智能体工程的学习曲线和错误率。",
+  "order": 12,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06911v1"
+}

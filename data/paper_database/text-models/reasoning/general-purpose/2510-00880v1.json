@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00880v1",
+  "title": "HalluGuard: Evidence-Grounded Small Reasoning Models to Mitigate\n  Hallucinations in Retrieval-Augmented Generation",
+  "summary": "Large Language Models (LLMs) excel in many NLP tasks but remain prone to\nhallucinations, limiting trust in real-world applications. We present\nHalluGuard, a 4B-parameter Small Reasoning Model (SRM) for mitigating\nhallucinations in Retrieval-Augmented Generation (RAG). HalluGuard classifies\ndocument-claim pairs as grounded or hallucinated and produces evidence-grounded\njustifications for transparency. Our approach combines (i) a domain-agnostic\nsynthetic dataset derived from FineWeb and refined through multi-stage curation\nand data reformation, (ii) synthetic grounded and hallucinated claims, and\n(iii) preference-based fine-tuning with Odds Ratio Preference Optimization to\ndistill large-model reasoning into a smaller backbone. On the RAGTruth subset\nof the LLM-AggreFact benchmark, HalluGuard achieves 84.0% balanced accuracy\n(BAcc), rivaling specialized models, MiniCheck (7B; 84.0%) and Granite Guardian\n3.3 (8B; 82.2%) while using roughly half their parameters. Over the full\nbenchmark it reaches 75.7% BAcc, matching larger general-purpose LLMs such as\nGPT-4o (75.9%). We will release HalluGuard and datasets under Apache 2.0 upon\nacceptance.",
+  "authors": [
+    "Loris Bergeron",
+    "Ioana Buhnila",
+    "Jérôme François",
+    "Radu State"
+  ],
+  "published": "2025-10-01T13:28:20Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00880v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "HalluGuard是一个40亿参数的小型推理模型，专门用于缓解检索增强生成中的幻觉问题。该模型通过证据基础分类文档-声明对，并生成透明化解释，在保持参数效率的同时达到与更大模型相当的准确率。",
+  "order": 443,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00880v1"
+}

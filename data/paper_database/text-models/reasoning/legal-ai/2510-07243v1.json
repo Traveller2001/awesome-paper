@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.07243v1",
+  "title": "LeMAJ (Legal LLM-as-a-Judge): Bridging Legal Reasoning and LLM\n  Evaluation",
+  "summary": "Evaluating large language model (LLM) outputs in the legal domain presents\nunique challenges due to the complex and nuanced nature of legal analysis.\nCurrent evaluation approaches either depend on reference data, which is costly\nto produce, or use standardized assessment methods, both of which have\nsignificant limitations for legal applications.\n  Although LLM-as-a-Judge has emerged as a promising evaluation technique, its\nreliability and effectiveness in legal contexts depend heavily on evaluation\nprocesses unique to the legal industry and how trustworthy the evaluation\nappears to the human legal expert. This is where existing evaluation methods\ncurrently fail and exhibit considerable variability.\n  This paper aims to close the gap: a) we break down lengthy responses into\n'Legal Data Points' (LDPs), self-contained units of information, and introduce\na novel, reference-free evaluation methodology that reflects how lawyers\nevaluate legal answers; b) we demonstrate that our method outperforms a variety\nof baselines on both our proprietary dataset and an open-source dataset\n(LegalBench); c) we show how our method correlates more closely with human\nexpert evaluations and helps improve inter-annotator agreement; and finally d)\nwe open source our Legal Data Points for a subset of LegalBench used in our\nexperiments, allowing the research community to replicate our results and\nadvance research in this vital area of LLM evaluation on legal\nquestion-answering.",
+  "authors": [
+    "Joseph Enguehard",
+    "Morgane Van Ermengem",
+    "Kate Atkinson",
+    "Sujeong Cha",
+    "Arijit Ghosh Chowdhury",
+    "Prashanth Kallur Ramaswamy",
+    "Jeremy Roghair",
+    "Hannah R Marlowe",
+    "Carina Suzana Negreanu",
+    "Kitty Boxall",
+    "Diana Mincu"
+  ],
+  "published": "2025-10-08T17:10:47Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07243v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "legal_ai",
+  "tldr_zh": "本文提出LeMAJ方法，通过将法律回答分解为'法律数据点'(LDPs)，建立无需参考答案的评估框架，在专有和开源数据集上优于基线方法，与专家评估相关性更高，并开源了相关数据点以促进法律领域LLM评估研究。",
+  "order": 31,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07243v1"
+}

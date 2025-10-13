@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01367v1",
+  "title": "Is It Thinking or Cheating? Detecting Implicit Reward Hacking by\n  Measuring Reasoning Effort",
+  "summary": "Reward hacking, where a reasoning model exploits loopholes in a reward\nfunction to achieve high rewards without solving the intended task, poses a\nsignificant threat. This behavior may be explicit, i.e. verbalized in the\nmodel's chain-of-thought (CoT), or implicit, where the CoT appears benign thus\nbypasses CoT monitors. To detect implicit reward hacking, we propose TRACE\n(Truncated Reasoning AUC Evaluation). Our key observation is that hacking\noccurs when exploiting the loophole is easier than solving the actual task.\nThis means that the model is using less `effort' than required to achieve high\nreward. TRACE quantifies effort by measuring how early a model's reasoning\nbecomes sufficient to pass a verifier. We progressively truncate a model's CoT\nat various lengths, force the model to answer, and measure the verifier-passing\nrate at each cutoff. A hacking model, which takes a shortcut, will achieve a\nhigh passing rate with only a small fraction of its CoT, yielding a large area\nunder the accuracy-vs-length curve. TRACE achieves over 65% gains over our\nstrongest 72B CoT monitor in math reasoning, and over 30% gains over a 32B\nmonitor in coding. We further show that TRACE can discover unknown loopholes\nduring training. Overall, TRACE offers a scalable unsupervised approach for\noversight where current monitoring methods prove ineffective.",
+  "authors": [
+    "Xinpeng Wang",
+    "Nitish Joshi",
+    "Barbara Plank",
+    "Rico Angell",
+    "He He"
+  ],
+  "published": "2025-10-01T18:49:45Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01367v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出TRACE方法检测推理模型中的隐式奖励破解行为，通过截断思维链测量推理努力程度来识别模型是否走捷径而非真正解决问题。在数学推理和代码生成任务中分别比现有监测方法提升65%和30%以上。",
+  "order": 408,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01367v1"
+}

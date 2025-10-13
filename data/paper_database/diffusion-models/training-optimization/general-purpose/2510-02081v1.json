@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02081v1",
+  "title": "Fine-Tuning Flow Matching via Maximum Likelihood Estimation of\n  Reconstructions",
+  "summary": "Flow Matching (FM) algorithm achieves remarkable results in generative tasks\nespecially in robotic manipulation. Building upon the foundations of diffusion\nmodels, the simulation-free paradigm of FM enables simple and efficient\ntraining, but inherently introduces a train-inference gap. Specifically, we\ncannot assess the model's output during the training phase. In contrast, other\ngenerative models including Variational Autoencoder (VAE), Normalizing Flow and\nGenerative Adversarial Networks (GANs) directly optimize on the reconstruction\nloss. Such a gap is particularly evident in scenarios that demand high\nprecision, such as robotic manipulation. Moreover, we show that FM's\nover-pursuit of straight predefined paths may introduce some serious problems\nsuch as stiffness into the system. These motivate us to fine-tune FM via\nMaximum Likelihood Estimation of reconstructions - an approach made feasible by\nFM's underlying smooth ODE formulation, in contrast to the stochastic\ndifferential equations (SDEs) used in diffusion models. This paper first\ntheoretically analyzes the relation between training loss and inference error\nin FM. Then we propose a method of fine-tuning FM via Maximum Likelihood\nEstimation of reconstructions, which includes both straightforward fine-tuning\nand residual-based fine-tuning approaches. Furthermore, through specifically\ndesigned architectures, the residual-based fine-tuning can incorporate the\ncontraction property into the model, which is crucial for the model's\nrobustness and interpretability. Experimental results in image generation and\nrobotic manipulation verify that our method reliably improves the inference\nperformance of FM.",
+  "authors": [
+    "Zhaoyi Li",
+    "Jingtao Ding",
+    "Yong Li",
+    "Shihua Li"
+  ],
+  "published": "2025-10-02T14:49:47Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02081v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出通过重构的最大似然估计来微调流匹配算法，解决了训练-推理差距问题。理论分析了训练损失与推理误差的关系，提出直接微调和基于残差的微调方法，后者可引入收缩特性增强鲁棒性。在图像生成和机器人操控实验中验证了方法对推理性能的可靠提升。",
+  "order": 752,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02081v1"
+}

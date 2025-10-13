@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05635v1",
+  "title": "NEO: No-Optimization Test-Time Adaptation through Latent Re-Centering",
+  "summary": "Test-Time Adaptation (TTA) methods are often computationally expensive,\nrequire a large amount of data for effective adaptation, or are brittle to\nhyperparameters. Based on a theoretical foundation of the geometry of the\nlatent space, we are able to significantly improve the alignment between source\nand distribution-shifted samples by re-centering target data embeddings at the\norigin. This insight motivates NEO -- a hyperparameter-free fully TTA method,\nthat adds no significant compute compared to vanilla inference. NEO is able to\nimprove the classification accuracy of ViT-Base on ImageNet-C from 55.6% to\n59.2% after adapting on just one batch of 64 samples. When adapting on 512\nsamples NEO beats all 7 TTA methods we compare against on ImageNet-C,\nImageNet-R and ImageNet-S and beats 6/7 on CIFAR-10-C, while using the least\namount of compute. NEO performs well on model calibration metrics and\nadditionally is able to adapt from 1 class to improve accuracy on 999 other\nclasses in ImageNet-C. On Raspberry Pi and Jetson Orin Nano devices, NEO\nreduces inference time by 63% and memory usage by 9% compared to baselines. Our\nresults based on 3 ViT architectures and 4 datasets show that NEO can be used\nefficiently and effectively for TTA.",
+  "authors": [
+    "Alexander Murphy",
+    "Michal Danilowski",
+    "Soumyajit Chatterjee",
+    "Abhirup Ghosh"
+  ],
+  "published": "2025-10-07T07:35:55Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05635v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出NEO方法，一种无需优化的测试时自适应技术，通过潜在空间重中心化显著提升分布偏移下的分类准确率。该方法无需超参数调优，计算开销极低，在多个数据集上超越现有TTA方法，并在边缘设备上实现63%的推理加速和9%的内存节省。",
+  "order": 133,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05635v1"
+}

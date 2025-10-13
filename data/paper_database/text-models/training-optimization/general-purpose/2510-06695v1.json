@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06695v1",
+  "title": "Learning to Rewrite Prompts for Bootstrapping LLMs on Downstream Tasks",
+  "summary": "In recent years, the growing interest in Large Language Models (LLMs) has\nsignificantly advanced prompt engineering, transitioning from manual design to\nmodel-based optimization. Prompts for LLMs generally comprise two components:\nthe \\textit{instruction}, which defines the task or objective, and the\n\\textit{input}, which is tailored to the instruction type. In natural language\ngeneration (NLG) tasks such as machine translation, the \\textit{input}\ncomponent is particularly critical, while the \\textit{instruction} component\ntends to be concise. Existing prompt engineering methods primarily focus on\noptimizing the \\textit{instruction} component for general tasks, often\nrequiring large-parameter LLMs as auxiliary tools. However, these approaches\nexhibit limited applicability for tasks like machine translation, where the\n\\textit{input} component plays a more pivotal role. To address this limitation,\nthis paper introduces a novel prompt optimization method specifically designed\nfor machine translation tasks. The proposed approach employs a small-parameter\nmodel trained using a back-translation-based strategy, significantly reducing\ntraining overhead for single-task optimization while delivering highly\neffective performance. With certain adaptations, this method can also be\nextended to other downstream tasks.",
+  "authors": [
+    "Qinhao Zhou",
+    "Xiang Xiang",
+    "Kun He",
+    "John E. Hopcroft"
+  ],
+  "published": "2025-10-08T06:40:06Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06695v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种针对机器翻译任务的提示优化方法，通过基于回译策略训练的小参数模型，重点优化提示中的输入组件而非传统指令组件，显著降低单任务优化的训练开销，并可扩展至其他下游任务。",
+  "order": 90,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06695v1"
+}

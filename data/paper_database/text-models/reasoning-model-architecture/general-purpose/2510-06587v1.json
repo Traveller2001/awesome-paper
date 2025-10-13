@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06587v1",
+  "title": "WebDART: Dynamic Decomposition and Re-planning for Complex Web Tasks",
+  "summary": "Large language model (LLM) agents are becoming competent at straightforward\nweb tasks, such as opening an item page or submitting a form, but still\nstruggle with objectives that require long horizon navigation, large scale\ninformation extraction, and reasoning under constraints. We present WebDART, a\ngeneral framework that enables a single LLM to handle such complex chores.\nWebDART (i) dynamically decomposes each objective into three focused subtasks:\nnavigation, information extraction, and execution, so the model concentrates on\none skill at a time, and (ii) continuously replans the decomposition as new\nwebpages are revealed, taking advantage of newly discovered filters or\nshortcuts and avoiding redundant exploration. Evaluated on WebChoreArena,\nWebDART lifts success rates by up to 13.7 percentage points over previous SOTA\nagents, while matching their performance on the easier WebArena suite and\ncompleting tasks with up to 14.7 fewer navigation steps.",
+  "authors": [
+    "Jingbo Yang",
+    "Bairu Hou",
+    "Wei Wei",
+    "Shiyu Chang",
+    "Yujia Bao"
+  ],
+  "published": "2025-10-08T02:34:59Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.06587v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "WebDART提出了一种动态分解与重规划框架，通过将复杂网页任务分解为导航、信息提取和执行三个子任务，并实时调整策略，显著提升了LLM代理在长流程网页操作中的成功率与效率。",
+  "order": 21,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06587v1"
+}

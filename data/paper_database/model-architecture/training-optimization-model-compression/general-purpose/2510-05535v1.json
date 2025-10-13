@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.05535v1",
+  "title": "Permutation-Invariant Representation Learning for Robust and\n  Privacy-Preserving Feature Selection",
+  "summary": "Feature selection eliminates redundancy among features to improve downstream\ntask performance while reducing computational overhead. Existing methods often\nstruggle to capture intricate feature interactions and adapt across diverse\napplication scenarios. Recent advances employ generative intelligence to\nalleviate these drawbacks. However, these methods remain constrained by\npermutation sensitivity in embedding and reliance on convexity assumptions in\ngradient-based search. To address these limitations, our initial work\nintroduces a novel framework that integrates permutation-invariant embedding\nwith policy-guided search. Although effective, it still left opportunities to\nadapt to realistic distributed scenarios. In practice, data across local\nclients is highly imbalanced, heterogeneous and constrained by strict privacy\nregulations, limiting direct sharing. These challenges highlight the need for a\nframework that can integrate feature selection knowledge across clients without\nexposing sensitive information. In this extended journal version, we advance\nthe framework from two perspectives: 1) developing a privacy-preserving\nknowledge fusion strategy to derive a unified representation space without\nsharing sensitive raw data. 2) incorporating a sample-aware weighting strategy\nto address distributional imbalance among heterogeneous local clients.\nExtensive experiments validate the effectiveness, robustness, and efficiency of\nour framework. The results further demonstrate its strong generalization\nability in federated learning scenarios. The code and data are publicly\navailable: https://anonymous.4open.science/r/FedCAPS-08BF.",
+  "authors": [
+    "Rui Liu",
+    "Tao Zhe",
+    "Yanjie Fu",
+    "Feng Xia",
+    "Ted Senator",
+    "Dongjie Wang"
+  ],
+  "published": "2025-10-07T02:53:32Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05535v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "['training_optimization', 'model_compression']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种联邦学习场景下的隐私保护特征选择框架，通过置换不变表示学习和策略引导搜索，结合隐私保护知识融合与样本感知加权策略，有效处理数据异构性和分布不平衡问题，在保持隐私的同时提升特征选择性能。",
+  "order": 143,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05535v1"
+}

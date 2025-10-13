@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.00553v2",
+  "title": "On Predictability of Reinforcement Learning Dynamics for Large Language\n  Models",
+  "summary": "Recent advances in reasoning capabilities of large language models (LLMs) are\nlargely driven by reinforcement learning (RL), yet the underlying parameter\ndynamics during RL training remain poorly understood. This work identifies two\nfundamental properties of RL-induced parameter updates in LLMs: (1) Rank-1\nDominance, where the top singular subspace of the parameter update matrix\nnearly fully determines reasoning improvements, recovering over 99\\% of\nperformance gains; and (2) Rank-1 Linear Dynamics, where this dominant subspace\nevolves linearly throughout training, enabling accurate prediction from early\ncheckpoints. Extensive experiments across 8 LLMs and 7 algorithms validate the\ngeneralizability of these properties. More importantly, based on these\nfindings, we propose AlphaRL, a plug-in acceleration framework that\nextrapolates the final parameter update using a short early training window,\nachieving up to 2.5 speedup while retaining \\textgreater 96\\% of reasoning\nperformance without extra modules or hyperparameter tuning. This positions our\nfinding as a versatile and practical tool for large-scale RL, opening a path\ntoward principled, interpretable, and efficient training paradigm for LLMs.",
+  "authors": [
+    "Yuchen Cai",
+    "Ding Cao",
+    "Xin Xu",
+    "Zijun Yao",
+    "Yuqing Huang",
+    "Zhenyu Tan",
+    "Benyi Zhang",
+    "Guiquan Liu",
+    "Junfeng Fang"
+  ],
+  "published": "2025-10-01T06:13:50Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00553v2",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究揭示大语言模型强化学习训练中的参数动态规律：发现参数更新矩阵呈现秩1主导特性，其主导子空间线性演化，据此提出AlphaRL加速框架，可在保持96%以上推理性能的同时实现2.5倍训练加速，为LLM训练提供可解释的高效范式。",
+  "order": 284,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00553v2"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00799v1",
+  "title": "Fast, Secure, and High-Capacity Image Watermarking with Autoencoded Text\n  Vectors",
+  "summary": "Most image watermarking systems focus on robustness, capacity, and\nimperceptibility while treating the embedded payload as meaningless bits. This\nbit-centric view imposes a hard ceiling on capacity and prevents watermarks\nfrom carrying useful information. We propose LatentSeal, which reframes\nwatermarking as semantic communication: a lightweight text autoencoder maps\nfull-sentence messages into a compact 256-dimensional unit-norm latent vector,\nwhich is robustly embedded by a finetuned watermark model and secured through a\nsecret, invertible rotation. The resulting system hides full-sentence messages,\ndecodes in real time, and survives valuemetric and geometric attacks. It\nsurpasses prior state of the art in BLEU-4 and Exact Match on several\nbenchmarks, while breaking through the long-standing 256-bit payload ceiling.\nIt also introduces a statistically calibrated score that yields a ROC AUC score\nof 0.97-0.99, and practical operating points for deployment. By shifting from\nbit payloads to semantic latent vectors, LatentSeal enables watermarking that\nis not only robust and high-capacity, but also secure and interpretable,\nproviding a concrete path toward provenance, tamper explanation, and\ntrustworthy AI governance. Models, training and inference code, and data splits\nwill be available upon publication.",
+  "authors": [
+    "Gautier Evennou",
+    "Vivien Chappelier",
+    "Ewa Kijak"
+  ],
+  "published": "2025-10-01T11:56:40Z",
+  "primary_category": "cs.CR",
+  "arxiv_url": "https://arxiv.org/abs/2510.00799v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LatentSeal图像水印系统，将水印技术重新定义为语义通信：通过轻量级文本自编码器将完整句子映射为256维潜向量，经微调的水印模型鲁棒嵌入并采用可逆旋转加密。该系统突破传统256比特载荷限制，实现实时解码，抗多种攻击，在多项基准测试中超越现有技术，为图像溯源和可信AI治理提供新途径。",
+  "order": 243,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00799v1"
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02296v1",
+  "title": "Continual Personalization for Diffusion Models",
+  "summary": "Updating diffusion models in an incremental setting would be practical in\nreal-world applications yet computationally challenging. We present a novel\nlearning strategy of Concept Neuron Selection (CNS), a simple yet effective\napproach to perform personalization in a continual learning scheme. CNS\nuniquely identifies neurons in diffusion models that are closely related to the\ntarget concepts. In order to mitigate catastrophic forgetting problems while\npreserving zero-shot text-to-image generation ability, CNS finetunes concept\nneurons in an incremental manner and jointly preserves knowledge learned of\nprevious concepts. Evaluation of real-world datasets demonstrates that CNS\nachieves state-of-the-art performance with minimal parameter adjustments,\noutperforming previous methods in both single and multi-concept personalization\nworks. CNS also achieves fusion-free operation, reducing memory storage and\nprocessing time for continual personalization.",
+  "authors": [
+    "Yu-Chien Liao",
+    "Jr-Jen Chen",
+    "Chi-Pin Huang",
+    "Ci-Siang Lin",
+    "Meng-Lin Wu",
+    "Yu-Chiang Frank Wang"
+  ],
+  "published": "2025-10-02T17:58:56Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02296v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出概念神经元选择(CNS)方法，通过在扩散模型中识别与目标概念相关的神经元进行增量微调，实现持续个性化学习。该方法能有效缓解灾难性遗忘问题，保持零样本文本到图像生成能力，同时减少内存占用和处理时间，在单概念和多概念个性化任务中均达到最先进性能。",
+  "order": 696,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02296v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06596v1",
+  "title": "SDQM: Synthetic Data Quality Metric for Object Detection Dataset\n  Evaluation",
+  "summary": "The performance of machine learning models depends heavily on training data.\nThe scarcity of large-scale, well-annotated datasets poses significant\nchallenges in creating robust models. To address this, synthetic data generated\nthrough simulations and generative models has emerged as a promising solution,\nenhancing dataset diversity and improving the performance, reliability, and\nresilience of models. However, evaluating the quality of this generated data\nrequires an effective metric. This paper introduces the Synthetic Dataset\nQuality Metric (SDQM) to assess data quality for object detection tasks without\nrequiring model training to converge. This metric enables more efficient\ngeneration and selection of synthetic datasets, addressing a key challenge in\nresource-constrained object detection tasks. In our experiments, SDQM\ndemonstrated a strong correlation with the mean Average Precision (mAP) scores\nof YOLOv11, a leading object detection model, while previous metrics only\nexhibited moderate or weak correlations. Additionally, it provides actionable\ninsights for improving dataset quality, minimizing the need for costly\niterative training. This scalable and efficient metric sets a new standard for\nevaluating synthetic data. The code for SDQM is available at\nhttps://github.com/ayushzenith/SDQM",
+  "authors": [
+    "Ayush Zenith",
+    "Arnold Zumbrun",
+    "Neel Raut",
+    "Jing Lin"
+  ],
+  "published": "2025-10-08T03:01:26Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06596v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SDQM合成数据质量评估指标，用于目标检测任务中无需模型训练即可评估合成数据质量。该指标与YOLOv11的mAP分数高度相关，相比现有指标更有效，为资源受限场景提供高效的数据生成与筛选方案。",
+  "order": 156,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06596v1"
+}

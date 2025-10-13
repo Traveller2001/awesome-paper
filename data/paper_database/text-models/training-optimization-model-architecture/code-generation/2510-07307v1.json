@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.07307v1",
+  "title": "MLE-Smith: Scaling MLE Tasks with Automated Multi-Agent Pipeline",
+  "summary": "While Language Models (LMs) have made significant progress in automating\nmachine learning engineering (MLE), the acquisition of high-quality MLE\ntraining data is significantly constrained. Current MLE benchmarks suffer from\nlow scalability and limited applicability because they rely on static, manually\ncurated tasks, demanding extensive time and manual effort to produce. We\nintroduce MLE-Smith, a fully automated multi-agent pipeline, to transform raw\ndatasets into competition-style MLE challenges through an efficient\ngenerate-verify-execute paradigm for scaling MLE tasks with verifiable quality,\nreal-world usability, and rich diversity. The proposed multi-agent pipeline in\nMLE-Smith drives structured task design and standardized refactoring, coupled\nwith a hybrid verification mechanism that enforces strict structural rules and\nhigh-level semantic soundness. It further validates empirical solvability and\nreal-world fidelity through interactive execution. We apply MLE-Smith to 224 of\nreal-world datasets and generate 606 tasks spanning multiple categories,\nobjectives, and modalities, demonstrating that MLE-Smith can work effectively\nacross a wide range of real-world datasets. Evaluation on the generated tasks\nshows that the performance of eight mainstream and cutting-edge LLMs on\nMLE-Smith tasks is strongly correlated with their performance on carefully\nhuman-designed tasks, highlighting the effectiveness of the MLE-Smith to\nscaling up MLE tasks, while maintaining task quality.",
+  "authors": [
+    "Rushi Qiang",
+    "Yuchen Zhuang",
+    "Anikait Singh",
+    "Percy Liang",
+    "Chao Zhang",
+    "Sherry Yang",
+    "Bo Dai"
+  ],
+  "published": "2025-10-08T17:57:19Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07307v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文提出MLE-Smith，一种全自动多智能体流水线，通过生成-验证-执行范式将原始数据集转化为竞赛式机器学习工程任务，解决了MLE训练数据获取受限的问题。该系统在224个真实数据集上生成606个多样化任务，验证了其扩展MLE任务规模的同时保持任务质量的有效性。",
+  "order": 165,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07307v1"
+}

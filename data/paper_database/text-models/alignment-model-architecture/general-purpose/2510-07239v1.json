@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07239v1",
+  "title": "Red-Bandit: Test-Time Adaptation for LLM Red-Teaming via Bandit-Guided\n  LoRA Experts",
+  "summary": "Automated red-teaming has emerged as a scalable approach for auditing Large\nLanguage Models (LLMs) prior to deployment, yet existing approaches lack\nmechanisms to efficiently adapt to model-specific vulnerabilities at inference.\nWe introduce Red-Bandit, a red-teaming framework that adapts online to identify\nand exploit model failure modes under distinct attack styles (e.g.,\nmanipulation, slang). Red-Bandit post-trains a set of parameter-efficient LoRA\nexperts, each specialized for a particular attack style, using reinforcement\nlearning that rewards the generation of unsafe prompts via a rule-based safety\nmodel. At inference, a multi-armed bandit policy dynamically selects among\nthese attack-style experts based on the target model's response safety,\nbalancing exploration and exploitation. Red-Bandit achieves state-of-the-art\nresults on AdvBench under sufficient exploration (ASR@10), while producing more\nhuman-readable prompts (lower perplexity). Moreover, Red-Bandit's bandit policy\nserves as a diagnostic tool for uncovering model-specific vulnerabilities by\nindicating which attack styles most effectively elicit unsafe behaviors.",
+  "authors": [
+    "Christos Ziakas",
+    "Nicholas Loo",
+    "Nishita Jain",
+    "Alessandra Russo"
+  ],
+  "published": "2025-10-08T17:06:20Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07239v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Red-Bandit是一种针对大语言模型红队测试的在线自适应框架，通过强化学习训练多个攻击风格的LoRA专家模块，并利用多臂老虎机策略动态选择最有效的攻击方式，在AdvBench基准上实现最优攻击成功率，同时生成更易读的提示文本，还能诊断模型特定漏洞。",
+  "order": 33,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07239v1"
+}

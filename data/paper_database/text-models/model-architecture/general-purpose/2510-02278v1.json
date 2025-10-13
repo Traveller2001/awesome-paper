@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02278v1",
+  "title": "Fine-Grained Urban Traffic Forecasting on Metropolis-Scale Road Networks",
+  "summary": "Traffic forecasting on road networks is a complex task of significant\npractical importance that has recently attracted considerable attention from\nthe machine learning community, with spatiotemporal graph neural networks\n(GNNs) becoming the most popular approach. The proper evaluation of traffic\nforecasting methods requires realistic datasets, but current publicly available\nbenchmarks have significant drawbacks, including the absence of information\nabout road connectivity for road graph construction, limited information about\nroad properties, and a relatively small number of road segments that falls\nshort of real-world applications. Further, current datasets mostly contain\ninformation about intercity highways with sparsely located sensors, while city\nroad networks arguably present a more challenging forecasting task due to much\ndenser roads and more complex urban traffic patterns. In this work, we provide\na more complete, realistic, and challenging benchmark for traffic forecasting\nby releasing datasets representing the road networks of two major cities, with\nthe largest containing almost 100,000 road segments (more than a 10-fold\nincrease relative to existing datasets). Our datasets contain rich road\nfeatures and provide fine-grained data about both traffic volume and traffic\nspeed, allowing for building more holistic traffic forecasting systems. We show\nthat most current implementations of neural spatiotemporal models for traffic\nforecasting have problems scaling to datasets of our size. To overcome this\nissue, we propose an alternative approach to neural traffic forecasting that\nuses a GNN without a dedicated module for temporal sequence processing, thus\nachieving much better scalability, while also demonstrating stronger\nforecasting performance. We hope our datasets and modeling insights will serve\nas a valuable resource for research in traffic forecasting.",
+  "authors": [
+    "Fedor Velikonivtsev",
+    "Oleg Platonov",
+    "Gleb Bazhenov",
+    "Liudmila Prokhorenkova"
+  ],
+  "published": "2025-10-02T17:53:51Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02278v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一个更完整、真实且具有挑战性的城市交通预测基准数据集，包含两个主要城市的路网数据，最大规模达10万路段。针对现有时空图神经网络扩展性问题，提出一种无需专用时序处理模块的GNN替代方案，在保证预测性能的同时显著提升可扩展性。",
+  "order": 703,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02278v1"
+}

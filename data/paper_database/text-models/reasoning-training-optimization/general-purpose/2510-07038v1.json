@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07038v1",
+  "title": "Tool-Augmented Policy Optimization: Synergizing Reasoning and Adaptive\n  Tool Use with Reinforcement Learning",
+  "summary": "Recent advances in large language models (LLMs) have popularized test-time\nscaling, where models generate additional reasoning tokens before producing\nfinal answers. These approaches have demonstrated significant performance\nimprovements on benchmarks involving mathematical reasoning. However, language\nmodels relying solely on direct inference still struggle with tasks demanding\nup-to-date knowledge or computational tools such as calculators and code\ninterpreters for complex arithmetic operations. To overcome these limitations,\nwe propose Tool-Augmented Policy Optimization (TAPO), a novel reinforcement\nlearning framework that systematically integrates multi-hop reasoning with\nadaptive tool-calling capabilities. Our approach employs a modified version of\nDynamic Sampling Policy Optimization (DAPO), a recently developed RL paradigm,\nwhich we adapt specifically for tool invocation scenarios, enabling models to\ndynamically interleave complex reasoning with on-demand tool usage (including\nsearch APIs and Python interpreters).\n  To support this research, we introduce two new datasets: TAPO-easy-60K and\nTAPO-hard-18K, specifically designed to train and evaluate both fact-based\nreasoning and mathematical calculation capabilities. Our experiments on\nQwen2.5-3B and Qwen2.5-7B models demonstrate the effectiveness of our approach,\nwith both models achieving state-of-the-art performance on tasks requiring\nexternal knowledge and mathematical computation among methods with comparable\nparameters. Notably, TAPO achieves more efficient tool utilization than\nbaseline methods while preventing excessive calls caused by reward hacking.\nThese results highlight the significant potential of combining advanced\nreasoning with tool usage to enhance model performance in knowledge-intensive\nand computationally demanding tasks.",
+  "authors": [
+    "Wenxun Wu",
+    "Yuanyang Li",
+    "Guhan Chen",
+    "Linyue Wang",
+    "Hongyang Chen"
+  ],
+  "published": "2025-10-08T14:04:27Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.07038v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出工具增强策略优化(TAPO)，一种结合推理与自适应工具调用的强化学习框架。通过改进DAPO算法，使语言模型能动态交替进行复杂推理和工具调用(如搜索API、Python解释器)。在两个新数据集上的实验表明，该方法在需要外部知识和数学计算的任务上达到最优性能，同时实现更高效的工具使用并防止过度调用。",
+  "order": 10,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07038v1"
+}

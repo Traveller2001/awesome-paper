@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01295v1",
+  "title": "The Social Laboratory: A Psychometric Framework for Multi-Agent LLM\n  Evaluation",
+  "summary": "As Large Language Models (LLMs) transition from static tools to autonomous\nagents, traditional evaluation benchmarks that measure performance on\ndownstream tasks are becoming insufficient. These methods fail to capture the\nemergent social and cognitive dynamics that arise when agents communicate,\npersuade, and collaborate in interactive environments. To address this gap, we\nintroduce a novel evaluation framework that uses multi-agent debate as a\ncontrolled \"social laboratory\" to discover and quantify these behaviors. In our\nframework, LLM-based agents, instantiated with distinct personas and\nincentives, deliberate on a wide range of challenging topics under the\nsupervision of an LLM moderator. Our analysis, enabled by a new suite of\npsychometric and semantic metrics, reveals several key findings. Across\nhundreds of debates, we uncover a powerful and robust emergent tendency for\nagents to seek consensus, consistently reaching high semantic agreement ({\\mu}\n> 0.88) even without explicit instruction and across sensitive topics. We show\nthat assigned personas induce stable, measurable psychometric profiles,\nparticularly in cognitive effort, and that the moderators persona can\nsignificantly alter debate outcomes by structuring the environment, a key\nfinding for external AI alignment. This work provides a blueprint for a new\nclass of dynamic, psychometrically grounded evaluation protocols designed for\nthe agentic setting, offering a crucial methodology for understanding and\nshaping the social behaviors of the next generation of AI agents. We have\nreleased the code and results at\nhttps://github.com/znreza/multi-agent-LLM-eval-for-debate.",
+  "authors": [
+    "Zarreen Reza"
+  ],
+  "published": "2025-10-01T07:10:28Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01295v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种新颖的多智能体LLM评估框架，通过辩论作为'社会实验室'来量化智能体在交互环境中的社交和认知行为。研究发现智能体具有强烈的共识寻求倾向，角色设定能产生稳定的心理测量特征，且主持人角色能显著影响辩论结果，为下一代AI智能体的社会行为评估提供了重要方法论。",
+  "order": 276,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01295v1"
+}

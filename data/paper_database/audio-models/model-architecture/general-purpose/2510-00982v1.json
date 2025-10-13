@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00982v1",
+  "title": "Spiralformer: Low Latency Encoder for Streaming Speech Recognition with\n  Circular Layer Skipping and Early Exiting",
+  "summary": "For streaming speech recognition, a Transformer-based encoder has been widely\nused with block processing. Although many studies addressed improving emission\nlatency of transducers, little work has been explored for improving encoding\nlatency of the block processing. We seek to reduce latency by frequently\nemitting a chunk with a small shift rather than scarce large-chunk emissions,\nresulting in higher computational costs. To efficiently compute with the small\nchunk shift, we propose a new encoder, Spiralformer, tailored for block\nprocessing by combining layer dropping and early exiting. We skip layer\ncomputation in a cyclic manner and shift the computed layer in each block\nspirally, which completes computation for all the layers over the block\nprocessing. Experimentally, we observed that our method achieved 21.6%\nreduction in the averaged token emission delay in Librispeech, and 7.0% in CSJ,\ncompared with the baseline with similar computational cost and word error\nrates.",
+  "authors": [
+    "Emiru Tsunoo",
+    "Hayato Futami",
+    "Yosuke Kashiwagi",
+    "Siddhant Arora",
+    "Shinji Watanabe"
+  ],
+  "published": "2025-10-01T14:56:45Z",
+  "primary_category": "eess.AS",
+  "arxiv_url": "https://arxiv.org/abs/2510.00982v1",
+  "primary_area": "audio_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Spiralformer是一种用于流式语音识别的低延迟编码器，通过循环层跳过和提前退出机制，在小块移位下高效处理音频，在Librispeech和CSJ数据集上分别实现了21.6%和7.0%的平均令牌发射延迟降低，同时保持相近的计算成本和词错误率。",
+  "order": 436,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00982v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00520v1",
+  "title": "CardioBench: Do Echocardiography Foundation Models Generalize Beyond the\n  Lab?",
+  "summary": "Foundation models (FMs) are reshaping medical imaging, yet their application\nin echocardiography remains limited. While several echocardiography-specific\nFMs have recently been introduced, no standardized benchmark exists to evaluate\nthem. Echocardiography poses unique challenges, including noisy acquisitions,\nhigh frame redundancy, and limited public datasets. Most existing solutions\nevaluate on private data, restricting comparability. To address this, we\nintroduce CardioBench, a comprehensive benchmark for echocardiography FMs.\nCardioBench unifies eight publicly available datasets into a standardized suite\nspanning four regression and five classification tasks, covering functional,\nstructural, diagnostic, and view recognition endpoints. We evaluate several\nleading FM, including cardiac-specific, biomedical, and general-purpose\nencoders, under consistent zero-shot, probing, and alignment protocols. Our\nresults highlight complementary strengths across model families: temporal\nmodeling is critical for functional regression, retrieval provides robustness\nunder distribution shift, and domain-specific text encoders capture\nphysiologically meaningful axes. General-purpose encoders transfer strongly and\noften close the gap with probing, but struggle with fine-grained distinctions\nlike view classification and subtle pathology recognition. By releasing\npreprocessing, splits, and public evaluation pipelines, CardioBench establishes\na reproducible reference point and offers actionable insights to guide the\ndesign of future echocardiography foundation models.",
+  "authors": [
+    "Darya Taratynova",
+    "Ahmed Aly",
+    "Numan Saeed",
+    "Mohammad Yaqub"
+  ],
+  "published": "2025-10-01T05:09:48Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00520v1",
+  "primary_area": "video_models",
+  "secondary_focus": "alignment",
+  "application_domain": "medical_ai",
+  "tldr_zh": "CardioBench是首个针对超声心动图基础模型的标准化基准测试，整合了8个公开数据集，涵盖4个回归和5个分类任务。研究评估了心脏专用、生物医学和通用编码器在零样本、探测和对齐协议下的表现，发现时序建模对功能回归至关重要，检索增强在分布偏移下具有鲁棒性，而通用编码器在细粒度病理识别方面存在局限。",
+  "order": 668,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00520v1"
+}

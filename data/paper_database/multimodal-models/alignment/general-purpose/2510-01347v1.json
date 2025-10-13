@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01347v1",
+  "title": "Image Generation Based on Image Style Extraction",
+  "summary": "Image generation based on text-to-image generation models is a task with\npractical application scenarios that fine-grained styles cannot be precisely\ndescribed and controlled in natural language, while the guidance information of\nstylized reference images is difficult to be directly aligned with the textual\nconditions of traditional textual guidance generation. This study focuses on\nhow to maximize the generative capability of the pretrained generative model,\nby obtaining fine-grained stylistic representations from a single given\nstylistic reference image, and injecting the stylistic representations into the\ngenerative body without changing the structural framework of the downstream\ngenerative model, so as to achieve fine-grained controlled stylized image\ngeneration. In this study, we propose a three-stage training style\nextraction-based image generation method, which uses a style encoder and a\nstyle projection layer to align the style representations with the textual\nrepresentations to realize fine-grained textual cue-based style guide\ngeneration. In addition, this study constructs the Style30k-captions dataset,\nwhose samples contain a triad of images, style labels, and text descriptions,\nto train the style encoder and style projection layer in this experiment.",
+  "authors": [
+    "Shuochen Chang"
+  ],
+  "published": "2025-10-01T18:23:09Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01347v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出一种基于风格提取的三阶段图像生成方法，通过风格编码器和投影层将参考图像的细粒度风格表征与文本表征对齐，实现基于文本提示的精细化风格控制图像生成，并构建了包含图像-风格标签-文本描述三元组的Style30k-captions数据集。",
+  "order": 591,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01347v1"
+}

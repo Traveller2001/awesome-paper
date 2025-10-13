@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02230v1",
+  "title": "The Reasoning Boundary Paradox: How Reinforcement Learning Constrains\n  Language Models",
+  "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a key\nmethod for improving Large Language Models' reasoning capabilities, yet recent\nevidence suggests it may paradoxically shrink the reasoning boundary rather\nthan expand it. This paper investigates the shrinkage issue of RLVR by\nanalyzing its learning dynamics and reveals two critical phenomena that explain\nthis failure. First, we expose negative interference in RLVR, where learning to\nsolve certain training problems actively reduces the likelihood of correct\nsolutions for others, leading to the decline of Pass@$k$ performance, or the\nprobability of generating a correct solution within $k$ attempts. Second, we\nuncover the winner-take-all phenomenon: RLVR disproportionately reinforces\nproblems with high likelihood, correct solutions, under the base model, while\nsuppressing other initially low-likelihood ones. Through extensive theoretical\nand empirical analysis on multiple mathematical reasoning benchmarks, we show\nthat this effect arises from the inherent on-policy sampling in standard RL\nobjectives, causing the model to converge toward narrow solution strategies.\nBased on these insights, we propose a simple yet effective data curation\nalgorithm that focuses RLVR learning on low-likelihood problems, achieving\nnotable improvement in Pass@$k$ performance. Our code is available at\nhttps://github.com/mail-research/SELF-llm-interference.",
+  "authors": [
+    "Phuc Minh Nguyen",
+    "Chinh D. La",
+    "Duy M. H. Nguyen",
+    "Nitesh V. Chawla",
+    "Binh T. Nguyen",
+    "Khoa D. Doan"
+  ],
+  "published": "2025-10-02T17:17:27Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.02230v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文揭示强化学习与可验证奖励(RLVR)在提升大语言模型推理能力时存在的悖论：反而会缩小推理边界。研究发现RLVR存在负干扰现象和赢家通吃效应，导致模型收敛于狭窄的解题策略。作者提出针对低概率问题的数据筛选算法，显著提升了Pass@k性能。",
+  "order": 508,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02230v1"
+}

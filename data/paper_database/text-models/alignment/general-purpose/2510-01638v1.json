@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01638v1",
+  "title": "Towards Human-Centered RegTech: Unpacking Professionals' Strategies and\n  Needs for Using LLMs Safely",
+  "summary": "Large Language Models are profoundly changing work patterns in high-risk\nprofessional domains, yet their application also introduces severe and\nunderexplored compliance risks. To investigate this issue, we conducted\nsemi-structured interviews with 24 highly-skilled knowledge workers from\nindustries such as law, healthcare, and finance. The study found that these\nexperts are commonly concerned about sensitive information leakage,\nintellectual property infringement, and uncertainty regarding the quality of\nmodel outputs. In response, they spontaneously adopt various mitigation\nstrategies, such as actively distorting input data and limiting the details in\ntheir prompts. However, the effectiveness of these spontaneous efforts is\nlimited due to a lack of specific compliance guidance and training for Large\nLanguage Models. Our research reveals a significant gap between current NLP\ntools and the actual compliance needs of experts. This paper positions these\nvaluable empirical findings as foundational work for building the next\ngeneration of Human-Centered, Compliance-Driven Natural Language Processing for\nRegulatory Technology (RegTech), providing a critical human-centered\nperspective and design requirements for engineering NLP systems that can\nproactively support expert compliance workflows.",
+  "authors": [
+    "Siying Hu",
+    "Yaxing Yao",
+    "Zhicong Lu"
+  ],
+  "published": "2025-10-02T03:35:46Z",
+  "primary_category": "cs.HC",
+  "arxiv_url": "https://arxiv.org/abs/2510.01638v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究通过访谈24名法律、医疗和金融领域专家，探讨专业人士使用大语言模型时的合规风险与应对策略。研究发现专家普遍关注敏感信息泄露、知识产权侵权和输出质量不确定性等问题，并自发采取数据扭曲、提示简化等缓解措施。研究揭示了当前NLP工具与专家合规需求间的显著差距，为构建以人为中心、合规驱动的监管科技自然语言处理系统提供了设计基础。",
+  "order": 112,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01638v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06529v1",
+  "title": "VUGEN: Visual Understanding priors for GENeration",
+  "summary": "Recent advances in Vision-Language Models (VLMs) have enabled unified\nunderstanding across text and images, yet equipping these models with robust\nimage generation capabilities remains challenging. Existing approaches often\nrely on reconstruction-oriented autoencoders or complex bridging mechanisms,\nleading to misalignment between understanding and generation representations,\nor architectural complexity. In this work, we propose VUGEN, a novel framework\nthat explicitly leverages VLM's pretrained visual understanding priors for\nefficient and high-quality image generation. Our approach first transforms the\nhigh-dimensional latent space of the VLM's native vision encoder into a\nlower-dimensional, tractable distribution that maximally preserves visual\ninformation. The VLM is then trained to sample within this reduced latent\nspace, ensuring alignment with its visual understanding capabilities. Finally,\na dedicated pixel decoder maps these generated latents back to the image space.\nWe find that a VAE-free pixel diffusion decoder to be on par or better than\ncommonly used complex latent diffusion decoders that internally rely on VAE\nlatents. Extensive experiments demonstrate that VUGEN achieves superior image\ngeneration performance, improving DPG Bench from 71.17 to 74.32 and FID from\n11.86 to 9.06 on COCO, while fully preserving the VLM's original understanding\ncapabilities.",
+  "authors": [
+    "Xiangyi Chen",
+    "Théophane Vallaeys",
+    "Maha Elbayad",
+    "John Nguyen",
+    "Jakob Verbeek"
+  ],
+  "published": "2025-10-08T00:04:47Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06529v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VUGEN提出了一种新颖的视觉语言模型图像生成框架，通过将VLM视觉编码器的高维潜空间转换为低维分布并保持视觉信息，使模型能在对齐的潜空间中采样生成图像。该方法无需VAE，使用像素扩散解码器，在COCO数据集上显著提升生成质量（DPG Bench从71.17到74.32，FID从11.86到9.06），同时完全保留原有视觉理解能力。",
+  "order": 163,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06529v1"
+}

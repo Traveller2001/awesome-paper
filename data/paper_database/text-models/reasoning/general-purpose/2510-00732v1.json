@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2510.00732v1",
+  "title": "EvolProver: Advancing Automated Theorem Proving by Evolving Formalized\n  Problems via Symmetry and Difficulty",
+  "summary": "Large Language Models (LLMs) for formal theorem proving have shown\nsignificant promise, yet they often lack generalizability and are fragile to\neven minor transformations of problem statements. To address this limitation,\nwe introduce a novel data augmentation pipeline designed to enhance model\nrobustness from two perspectives: symmetry and difficulty. From the symmetry\nperspective, we propose two complementary methods: EvolAST, an Abstract Syntax\nTree (AST) based approach that targets syntactic symmetry to generate\nsemantically equivalent problem variants, and EvolDomain, which leverages LLMs\nto address semantic symmetry by translating theorems across mathematical\ndomains. From the difficulty perspective, we propose EvolDifficulty, which uses\ncarefully designed evolutionary instructions to guide LLMs in generating new\ntheorems with a wider range of difficulty. We then use the evolved data to\ntrain EvolProver, a 7B-parameter non-reasoning theorem prover. EvolProver\nestablishes a new state-of-the-art (SOTA) on FormalMATH-Lite with a 53.8%\npass@32 rate, surpassing all models of comparable size, including\nreasoning-based models. It also sets new SOTA records for non-reasoning models\non MiniF2F-Test (69.8% pass@32), Ineq-Comp-Seed (52.2% pass@32), and\nIneq-Comp-Transformed (34.0% pass@32). Ablation studies further confirm our\ndata augmentation pipeline's effectiveness across multiple benchmarks.",
+  "authors": [
+    "Yuchen Tian",
+    "Ruiyuan Huang",
+    "Xuanwu Wang",
+    "Jing Ma",
+    "Zengfeng Huang",
+    "Ziyang Luo",
+    "Hongzhan Lin",
+    "Da Zheng",
+    "Lun Du"
+  ],
+  "published": "2025-10-01T10:15:27Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00732v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "EvolProver提出了一种通过对称性和难度演化形式化问题的新型数据增强方法，包含EvolAST（语法对称性）、EvolDomain（语义对称性）和EvolDifficulty（难度扩展）三个组件。训练出的70亿参数非推理定理证明器在多个数学推理基准测试中创造了新的最先进记录。",
+  "order": 254,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00732v1"
+}

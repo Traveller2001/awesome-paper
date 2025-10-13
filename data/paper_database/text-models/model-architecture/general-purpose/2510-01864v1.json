@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01864v1",
+  "title": "A Modular Theory of Subjective Consciousness for Natural and Artificial\n  Minds",
+  "summary": "Understanding how subjective experience arises from information processing\nremains a central challenge in neuroscience, cognitive science, and AI\nresearch. The Modular Consciousness Theory (MCT) proposes a biologically\ngrounded and computationally explicit framework in which consciousness is a\ndiscrete sequence of Integrated Informational States (IISs). Each IIS is a\npacket of integrated information tagged with a multidimensional density vector\nthat quantifies informational richness. Its magnitude correlates with\nsubjective intensity, shaping memory, behavior, and continuity of experience.\nInputs from body and environment are adaptively filtered, processed by modules\n(abstraction, narration, evaluation, self-evaluation), and integrated into an\nIIS. The resulting packet, tagged with its density vector, is transmitted to\nbehavioral readiness, memory, and decision-making modules, closing the loop.\nThis explains why strongly tagged states exert greater influence on long-term\nmemory and action. Unlike Global Workspace Theory, Integrated Information\nTheory, or Higher-Order Thought, MCT specifies a full computational pipeline\nproducing discrete informational units with quantifiable internal structure.\nSubjectivity is reframed as a correlate of the density-tagging signal with\nfunctional consequences. MCT generates testable predictions, such as stress\nenhancing memory encoding, and provides a naturalistic blueprint for both\nbiological and artificial architectures. Consciousness, in this view, is not an\nirreducible essence but an evolvable, quantifiable, and constructible feature\nof complex information processing.",
+  "authors": [
+    "Michaël Gillon"
+  ],
+  "published": "2025-10-02T10:11:56Z",
+  "primary_category": "q-bio.NC",
+  "arxiv_url": "https://arxiv.org/abs/2510.01864v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "模块化意识理论(MCT)提出了一种生物基础的计算框架，将意识视为离散的整合信息状态(IIS)序列。每个IIS包含多维密度向量标记的信息包，其大小与主观强度相关，影响记忆、行为和体验连续性。该理论通过完整的计算流程解释主观体验的产生，为生物和人工意识架构提供可量化、可构建的自然主义蓝图。",
+  "order": 69,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01864v1"
+}

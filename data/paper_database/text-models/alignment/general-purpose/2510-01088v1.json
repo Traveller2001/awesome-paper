@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01088v1",
+  "title": "Safety Instincts: LLMs Learn to Trust Their Internal Compass for\n  Self-Defense",
+  "summary": "Ensuring Large Language Model (LLM) safety remains challenging due to the\nabsence of universal standards and reliable content validators, making it\ndifficult to obtain effective training signals. We discover that aligned models\nalready possess robust internal safety beliefs: they consistently produce\nhigh-confidence refusals to harmful requests while exhibiting high entropy when\ngenerating potentially dangerous content. This entropy gap reveals an untapped\nsignal--models intrinsically \"know\" when to refuse. We introduce Safety\nInstincts Reinforcement Learning (SIRL), which transforms this internal\nconfidence into a self-generated reward signal, eliminating dependence on\nexternal validators or human annotations. SIRL teaches models to trust their\nsafety instincts by reinforcing low-entropy refusal behaviors. Evaluated on\nLlama and Qwen models, SIRL maintains 89%+ Defense Success Rates (DSRs) against\n20+ jailbreak methods, from static prompts to adaptive attacks. Using only\n15,000 unlabeled prompts, SIRL surpasses resource-intensive supervised methods\nwhile preserving performance on mathematics, coding, and conversation\nbenchmarks. Our work demonstrates that effective alignment can emerge from\nwithin, paving the way for more autonomous and robust AI safety mechanisms that\nscale without extensive human oversight.",
+  "authors": [
+    "Guobin Shen",
+    "Dongcheng Zhao",
+    "Haibo Tong",
+    "Jindong Li",
+    "Feifei Zhao",
+    "Yi Zeng"
+  ],
+  "published": "2025-10-01T16:35:03Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01088v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出SIRL方法，利用LLM内部安全置信度作为自生成奖励信号，无需外部验证器即可强化模型的安全防御能力。在多种越狱攻击下保持89%+防御成功率，仅需1.5万未标注提示即可超越监督方法，同时保持数学、编程等基准性能。",
+  "order": 195,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01088v1"
+}

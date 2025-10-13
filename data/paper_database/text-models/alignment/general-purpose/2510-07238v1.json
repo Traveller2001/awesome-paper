@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07238v1",
+  "title": "When Benchmarks Age: Temporal Misalignment through Large Language Model\n  Factuality Evaluation",
+  "summary": "The rapid evolution of large language models (LLMs) and the real world has\noutpaced the static nature of widely used evaluation benchmarks, raising\nconcerns about their reliability for evaluating LLM factuality. While\nsubstantial works continue to rely on the popular but old benchmarks, their\ntemporal misalignment with real-world facts and modern LLMs, and their effects\non LLM factuality evaluation remain underexplored. Therefore, in this work, we\npresent a systematic investigation of this issue by examining five popular\nfactuality benchmarks and eight LLMs released across different years. An\nup-to-date fact retrieval pipeline and three metrics are tailored to quantify\nbenchmark aging and its impact on LLM factuality evaluation. Experimental\nresults and analysis illustrate that a considerable portion of samples in the\nwidely used factuality benchmarks are outdated, leading to unreliable\nassessments of LLM factuality. We hope our work can provide a testbed to assess\nthe reliability of a benchmark for LLM factuality evaluation and inspire more\nresearch on the benchmark aging issue. Codes are available in\nhttps://github.com/JiangXunyi/BenchAge.",
+  "authors": [
+    "Xunyi Jiang",
+    "Dingyi Chang",
+    "Julian McAuley",
+    "Xin Xu"
+  ],
+  "published": "2025-10-08T17:06:07Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07238v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文系统研究了大型语言模型事实性评估中基准测试的时间错位问题。通过分析五个流行的事实性基准和八个不同年份发布的LLM，发现广泛使用的基准中有相当部分样本已过时，导致对LLM事实性的评估不可靠。研究提出了更新的知识检索流程和三种量化指标，为评估基准可靠性提供测试平台。",
+  "order": 34,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07238v1"
+}

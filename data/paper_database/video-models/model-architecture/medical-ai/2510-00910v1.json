@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00910v1",
+  "title": "PAL-Net: A Point-Wise CNN with Patch-Attention for 3D Facial Landmark\n  Localization",
+  "summary": "Manual annotation of anatomical landmarks on 3D facial scans is a\ntime-consuming and expertise-dependent task, yet it remains critical for\nclinical assessments, morphometric analysis, and craniofacial research. While\nseveral deep learning methods have been proposed for facial landmark\nlocalization, most focus on pseudo-landmarks or require complex input\nrepresentations, limiting their clinical applicability. This study presents a\nfully automated deep learning pipeline (PAL-Net) for localizing 50 anatomical\nlandmarks on stereo-photogrammetry facial models. The method combines coarse\nalignment, region-of-interest filtering, and an initial approximation of\nlandmarks with a patch-based pointwise CNN enhanced by attention mechanisms.\nTrained and evaluated on 214 annotated scans from healthy adults, PAL-Net\nachieved a mean localization error of 3.686 mm and preserves relevant\nanatomical distances with a 2.822 mm average error, comparable to\nintra-observer variability. To assess generalization, the model was further\nevaluated on 700 subjects from the FaceScape dataset, achieving a point-wise\nerror of 0.41\\,mm and a distance-wise error of 0.38\\,mm. Compared to existing\nmethods, PAL-Net offers a favorable trade-off between accuracy and\ncomputational cost. While performance degrades in regions with poor mesh\nquality (e.g., ears, hairline), the method demonstrates consistent accuracy\nacross most anatomical regions. PAL-Net generalizes effectively across datasets\nand facial regions, outperforming existing methods in both point-wise and\nstructural evaluations. It provides a lightweight, scalable solution for\nhigh-throughput 3D anthropometric analysis, with potential to support clinical\nworkflows and reduce reliance on manual annotation. Source code can be found at\nhttps://github.com/Ali5hadman/PAL-Net-A-Point-Wise-CNN-with-Patch-Attention",
+  "authors": [
+    "Ali Shadman Yazdi",
+    "Annalisa Cappella",
+    "Benedetta Baldini",
+    "Riccardo Solazzo",
+    "Gianluca Tartaglia",
+    "Chiarella Sforza",
+    "Giuseppe Baselli"
+  ],
+  "published": "2025-10-01T13:52:35Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00910v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "PAL-Net提出了一种结合粗对齐、感兴趣区域过滤和基于补丁的点式CNN注意力机制的3D面部标志点定位方法。在214个健康成人扫描数据上训练评估，平均定位误差3.686毫米，在FaceScape数据集上泛化误差0.41毫米，为临床3D人脸测量分析提供了轻量级自动化解决方案。",
+  "order": 616,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00910v1"
+}

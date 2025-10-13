@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07318v1",
+  "title": "Artificial Hippocampus Networks for Efficient Long-Context Modeling",
+  "summary": "Long-sequence modeling faces a fundamental trade-off between the efficiency\nof compressive fixed-size memory in RNN-like models and the fidelity of\nlossless growing memory in attention-based Transformers. Inspired by the\nMulti-Store Model in cognitive science, we introduce a memory framework of\nartificial neural networks. Our method maintains a sliding window of the\nTransformer's KV cache as lossless short-term memory, while a learnable module\ntermed Artificial Hippocampus Network (AHN) recurrently compresses\nout-of-window information into a fixed-size compact long-term memory. To\nvalidate this framework, we instantiate AHNs using modern RNN-like\narchitectures, including Mamba2, DeltaNet, and Gated DeltaNet. Extensive\nexperiments on long-context benchmarks LV-Eval and InfiniteBench demonstrate\nthat AHN-augmented models consistently outperform sliding window baselines and\nachieve performance comparable or even superior to full-attention models, while\nsubstantially reducing computational and memory requirements. For instance,\naugmenting the Qwen2.5-3B-Instruct with AHNs reduces inference FLOPs by 40.5%\nand memory cache by 74.0%, while improving its average score on LV-Eval (128k\nsequence length) from 4.41 to 5.88. Code is available at:\nhttps://github.com/ByteDance-Seed/AHN.",
+  "authors": [
+    "Yunhao Fang",
+    "Weihao Yu",
+    "Shu Zhong",
+    "Qinghao Ye",
+    "Xuehan Xiong",
+    "Lai Wei"
+  ],
+  "published": "2025-10-08T17:59:55Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07318v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['long_context', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文受认知科学多存储模型启发，提出人工海马网络(AHN)框架，将Transformer的KV缓存作为无损短期记忆，同时用可学习模块压缩窗口外信息为固定大小的长期记忆。实验表明，该方法在LV-Eval和InfiniteBench基准上性能媲美甚至优于全注意力模型，同时显著降低计算和内存需求（如Qwen2.5-3B推理FLOPs减少40.5%，内存缓存降低74.0%）。",
+  "order": 24,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07318v1"
+}

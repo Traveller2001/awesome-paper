@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06001v1",
+  "title": "Exploring Gaps in the APS: Direct Minimal Pair Analysis in LLM Syntactic\n  Assessments",
+  "summary": "Recent studies probing the Argument from the Poverty of the Stimulus (APS)\nhave applied Large Language Models (LLMs) to test the learnability of complex\nsyntax through surprisal-based metrics. However, divergent conclusions raise\nquestions concerning the insights these metrics offer. While Wilcox et al.\n(2024) used direct minimal pair comparisons (the \"wh-effect\") to demonstrate\nthat models successfully generalise knowledge of filler-gap dependencies, Lan\net al. (2024) used a Difference-in-Differences (DiD) metric and found that\nmodels largely fail on parasitic gaps (PGs). This paper argues that the direct\nminimal pair approach offers greater diagnostic transparency. We demonstrate\nthis by generating a full 8-permutation paradigm of refined PG stimuli and\nevaluating the GPT-2 model used in previous studies with a systematic\nWilcox-style wh-effect analysis. Our results show that GPT-2 succeeds across\nall four tested conditions, indicating robust knowledge of filler-gap licensing\nprinciples even in complex PG environments. This finding, which contrasts with\nthe more ambiguous results from DiD-style metrics, suggests that the choice of\nevaluation metric is critical for assessing an LLM's syntactic competence.",
+  "authors": [
+    "Timothy Pistotti",
+    "Jason Brown",
+    "Michael Witbrock"
+  ],
+  "published": "2025-10-07T15:03:09Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06001v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文通过直接最小对比对分析法评估GPT-2在寄生空位结构中的句法能力，发现与差异中的差异指标相比，该方法能更清晰地揭示模型对填充语-空位依赖关系的掌握。研究表明评估指标的选择对判断大语言模型句法能力至关重要，GPT-2在复杂句法环境中表现出稳健的句法知识。",
+  "order": 23,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06001v1"
+}

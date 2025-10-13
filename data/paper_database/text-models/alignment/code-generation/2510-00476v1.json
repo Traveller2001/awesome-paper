@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00476v1",
+  "title": "Analyzing Latent Concepts in Code Language Models",
+  "summary": "Interpreting the internal behavior of large language models trained on code\nremains a critical challenge, particularly for applications demanding trust,\ntransparency, and semantic robustness. We propose Code Concept Analysis\n(CoCoA): a global post-hoc interpretability framework that uncovers emergent\nlexical, syntactic, and semantic structures in a code language model's\nrepresentation space by clustering contextualized token embeddings into\nhuman-interpretable concept groups. We propose a hybrid annotation pipeline\nthat combines static analysis tool-based syntactic alignment with\nprompt-engineered large language models (LLMs), enabling scalable labeling of\nlatent concepts across abstraction levels. We analyse the distribution of\nconcepts across layers and across three finetuning tasks. Emergent concept\nclusters can help identify unexpected latent interactions and be used to\nidentify trends and biases within the model's learned representations. We\nfurther integrate LCA with local attribution methods to produce\nconcept-grounded explanations, improving the coherence and interpretability of\ntoken-level saliency. Empirical evaluations across multiple models and tasks\nshow that LCA discovers concepts that remain stable under semantic-preserving\nperturbations (average Cluster Sensitivity Index, CSI = 0.288) and evolve\npredictably with fine-tuning. In a user study, concept-augmented explanations\ndisambiguate token roles. In a user study on the programming-language\nclassification task, concept-augmented explanations disambiguated token roles\nand improved human-centric explainability by 37 percentage points compared with\ntoken-level attributions using Integrated Gradients.",
+  "authors": [
+    "Arushi Sharma",
+    "Vedant Pungliya",
+    "Christopher J. Quinn",
+    "Ali Jannesari"
+  ],
+  "published": "2025-10-01T03:53:21Z",
+  "primary_category": "cs.SE",
+  "arxiv_url": "https://arxiv.org/abs/2510.00476v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "code_generation",
+  "tldr_zh": "本文提出Code Concept Analysis (CoCoA)框架，通过聚类代码语言模型中的上下文标记嵌入来揭示词汇、句法和语义结构。该混合标注方法结合静态分析与提示工程，能够识别模型表示中的潜在概念和偏差，在用户研究中将可解释性提升了37个百分点。",
+  "order": 304,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00476v1"
+}

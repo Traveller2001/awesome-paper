@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.05683v1",
+  "title": "QGraphLIME - Explaining Quantum Graph Neural Networks",
+  "summary": "Quantum graph neural networks offer a powerful paradigm for learning on\ngraph-structured data, yet their explainability is complicated by\nmeasurement-induced stochasticity and the combinatorial nature of graph\nstructure. In this paper, we introduce QuantumGraphLIME (QGraphLIME), a\nmodel-agnostic, post-hoc framework that treats model explanations as\ndistributions over local surrogates fit on structure-preserving perturbations\nof a graph. By aggregating surrogate attributions together with their\ndispersion, QGraphLIME yields uncertainty-aware node and edge importance\nrankings for quantum graph models. The framework further provides a\ndistribution-free, finite-sample guarantee on the size of the surrogate\nensemble: a Dvoretzky-Kiefer-Wolfowitz bound ensures uniform approximation of\nthe induced distribution of a binary class probability at target accuracy and\nconfidence under standard independence assumptions. Empirical studies on\ncontrolled synthetic graphs with known ground truth demonstrate accurate and\nstable explanations, with ablations showing clear benefits of nonlinear\nsurrogate modeling and highlighting sensitivity to perturbation design.\nCollectively, these results establish a principled, uncertainty-aware, and\nstructure-sensitive approach to explaining quantum graph neural networks, and\nlay the groundwork for scaling to broader architectures and real-world\ndatasets, as quantum resources mature. Code is available at\nhttps://github.com/smlab-niser/qglime.",
+  "authors": [
+    "Haribandhu Jena",
+    "Jyotirmaya Shivottam",
+    "Subhankar Mishra"
+  ],
+  "published": "2025-10-07T08:39:13Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05683v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出QGraphLIME框架，通过构建局部代理模型的分布来解释量子图神经网络，提供具有不确定性感知的节点和边重要性排序，并给出理论保证和实证验证。",
+  "order": 130,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05683v1"
+}

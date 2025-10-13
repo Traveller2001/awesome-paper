@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05620v1",
+  "title": "Monte Carlo-Type Neural Operator for Differential Equations",
+  "summary": "The Monte Carlo-type Neural Operator (MCNO) introduces a framework for\nlearning solution operators of one-dimensional partial differential equations\n(PDEs) by directly learning the kernel function and approximating the\nassociated integral operator using a Monte Carlo-type approach. Unlike Fourier\nNeural Operators (FNOs), which rely on spectral representations and assume\ntranslation-invariant kernels, MCNO makes no such assumptions. The kernel is\nrepresented as a learnable tensor over sampled input-output pairs, and sampling\nis performed once, uniformly at random from a discretized grid. This design\nenables generalization across multiple grid resolutions without relying on\nfixed global basis functions or repeated sampling during training, while an\ninterpolation step maps between arbitrary input and output grids to further\nenhance flexibility. Experiments on standard 1D PDE benchmarks show that MCNO\nachieves competitive accuracy with efficient computational cost. We also\nprovide a theoretical analysis proving that the Monte Carlo estimator yields a\nbounded bias and variance under mild regularity assumptions. This result holds\nin any spatial dimension, suggesting that MCNO may extend naturally beyond\none-dimensional problems. More broadly, this work explores how Monte Carlo-type\nintegration can be incorporated into neural operator frameworks for\ncontinuous-domain PDEs, providing a theoretically supported alternative to\nspectral methods (such as FNO) and to graph-based Monte Carlo approaches (such\nas the Graph Kernel Neural Operator, GNO).",
+  "authors": [
+    "Salah Eddine Choutri",
+    "Prajwal Chauhan",
+    "Othmane Mazhar",
+    "Saif Eddin Jabari"
+  ],
+  "published": "2025-10-07T07:07:04Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05620v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出蒙特卡洛型神经算子(MCNO)，通过直接学习核函数并采用蒙特卡洛方法逼近积分算子来求解一维偏微分方程。与傅里叶神经算子不同，MCNO不依赖谱表示和平移不变性假设，通过可学习张量表示核函数，支持多网格分辨率泛化。实验显示其在标准基准测试中达到竞争性精度，理论分析证明其估计器具有有界偏差和方差，并具备向高维问题扩展的潜力。",
+  "order": 134,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05620v1"
+}

@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01003v1",
+  "title": "Improving Code Localization with Repository Memory",
+  "summary": "Code localization is a fundamental challenge in repository-level software\nengineering tasks such as bug fixing. While existing methods equip language\nagents with comprehensive tools/interfaces to fetch information from the\nrepository, they overlook the critical aspect of memory, where each instance is\ntypically handled from scratch assuming no prior repository knowledge. In\ncontrast, human developers naturally build long-term repository memory, such as\nthe functionality of key modules and associations between various bug types and\ntheir likely fix locations. In this work, we augment language agents with such\nmemory by leveraging a repository's commit history - a rich yet underutilized\nresource that chronicles the codebase's evolution. We introduce tools that\nallow the agent to retrieve from a non-parametric memory encompassing recent\nhistorical commits and linked issues, as well as functionality summaries of\nactively evolving parts of the codebase identified via commit patterns. We\ndemonstrate that augmenting such a memory can significantly improve LocAgent, a\nstate-of-the-art localization framework, on both SWE-bench-verified and the\nmore recent SWE-bench-live benchmarks. Our research contributes towards\ndeveloping agents that can accumulate and leverage past experience for\nlong-horizon tasks, more closely emulating the expertise of human developers.",
+  "authors": [
+    "Boshi Wang",
+    "Weijian Xu",
+    "Yunsheng Li",
+    "Mei Gao",
+    "Yujia Xie",
+    "Huan Sun",
+    "Dongdong Chen"
+  ],
+  "published": "2025-10-01T15:10:15Z",
+  "primary_category": "cs.SE",
+  "arxiv_url": "https://arxiv.org/abs/2510.01003v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "code_generation",
+  "tldr_zh": "本研究通过利用代码仓库的提交历史，为语言智能体构建长期存储库记忆，显著提升了代码定位能力。该方法在SWE-bench基准测试中验证了有效性，使智能体能够积累和利用历史经验，更接近人类开发者的专业水平。",
+  "order": 435,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01003v1"
+}

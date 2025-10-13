@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02259v1",
+  "title": "Transformers Discover Molecular Structure Without Graph Priors",
+  "summary": "Graph Neural Networks (GNNs) are the dominant architecture for molecular\nmachine learning, particularly for molecular property prediction and machine\nlearning interatomic potentials (MLIPs). GNNs perform message passing on\npredefined graphs often induced by a fixed radius cutoff or k-nearest neighbor\nscheme. While this design aligns with the locality present in many molecular\ntasks, a hard-coded graph can limit expressivity due to the fixed receptive\nfield and slows down inference with sparse graph operations. In this work, we\ninvestigate whether pure, unmodified Transformers trained directly on Cartesian\ncoordinates$\\unicode{x2013}$without predefined graphs or physical\npriors$\\unicode{x2013}$can approximate molecular energies and forces. As a\nstarting point for our analysis, we demonstrate how to train a Transformer to\ncompetitive energy and force mean absolute errors under a matched training\ncompute budget, relative to a state-of-the-art equivariant GNN on the OMol25\ndataset. We discover that the Transformer learns physically consistent\npatterns$\\unicode{x2013}$such as attention weights that decay inversely with\ninteratomic distance$\\unicode{x2013}$and flexibly adapts them across different\nmolecular environments due to the absence of hard-coded biases. The use of a\nstandard Transformer also unlocks predictable improvements with respect to\nscaling training resources, consistent with empirical scaling laws observed in\nother domains. Our results demonstrate that many favorable properties of GNNs\ncan emerge adaptively in Transformers, challenging the necessity of hard-coded\ngraph inductive biases and pointing toward standardized, scalable architectures\nfor molecular modeling.",
+  "authors": [
+    "Tobias Kreiman",
+    "Yutong Bai",
+    "Fadi Atieh",
+    "Elizabeth Weaver",
+    "Eric Qu",
+    "Aditi S. Krishnapriyan"
+  ],
+  "published": "2025-10-02T17:42:10Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02259v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究挑战了分子机器学习中图神经网络(GNN)的主导地位，证明未经修改的Transformer仅凭笛卡尔坐标即可学习分子能量和力，无需预设图结构或物理先验。在OMol25数据集上，Transformer达到与先进等变GNN相当的精度，并自适应学习物理一致模式(如注意力权重随原子距离衰减)，展现标准化、可扩展分子建模架构的潜力。",
+  "order": 708,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02259v1"
+}

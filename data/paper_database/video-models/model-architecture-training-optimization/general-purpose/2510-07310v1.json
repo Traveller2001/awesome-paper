@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.07310v1",
+  "title": "MATRIX: Mask Track Alignment for Interaction-aware Video Generation",
+  "summary": "Video DiTs have advanced video generation, yet they still struggle to model\nmulti-instance or subject-object interactions. This raises a key question: How\ndo these models internally represent interactions? To answer this, we curate\nMATRIX-11K, a video dataset with interaction-aware captions and multi-instance\nmask tracks. Using this dataset, we conduct a systematic analysis that\nformalizes two perspectives of video DiTs: semantic grounding, via\nvideo-to-text attention, which evaluates whether noun and verb tokens capture\ninstances and their relations; and semantic propagation, via video-to-video\nattention, which assesses whether instance bindings persist across frames. We\nfind both effects concentrate in a small subset of interaction-dominant layers.\nMotivated by this, we introduce MATRIX, a simple and effective regularization\nthat aligns attention in specific layers of video DiTs with multi-instance mask\ntracks from the MATRIX-11K dataset, enhancing both grounding and propagation.\nWe further propose InterGenEval, an evaluation protocol for interaction-aware\nvideo generation. In experiments, MATRIX improves both interaction fidelity and\nsemantic alignment while reducing drift and hallucination. Extensive ablations\nvalidate our design choices. Codes and weights will be released.",
+  "authors": [
+    "Siyoon Jin",
+    "Seongchan Kim",
+    "Dahyun Chung",
+    "Jaeho Lee",
+    "Hyunwook Choi",
+    "Jisu Nam",
+    "Jiyoung Kim",
+    "Seungryong Kim"
+  ],
+  "published": "2025-10-08T17:57:38Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07310v1",
+  "primary_area": "video_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MATRIX方法，通过分析视频扩散变换器中的语义定位与传播机制，开发了一种基于多实例掩码轨迹对齐的正则化技术，显著提升了视频生成中的交互保真度和语义对齐，并建立了专门的交互感知评估协议InterGenEval。",
+  "order": 105,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07310v1"
+}

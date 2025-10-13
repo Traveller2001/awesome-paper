@@ -1,0 +1,25 @@
+{
+  "categories": [
+    "cs.CL",
+    "cs.CV",
+    "cs.LG",
+    "cs.AI"
+  ],
+  "stage1": {
+    "target_date": null
+  },
+  "webhook_url": "",
+  "data_dirs": {
+    "raw": "./data/raw",
+    "archive": "./data/paper_database",
+    "daily": "./data/daily"
+  },
+  "stage3": {
+    "delay_seconds": 60,
+    "separator_text": "🚧 下一类别：{label} （进度 {current}/{total}）🚧"
+  },
+  "automation": {
+    "max_attempts": 24,
+    "interval_seconds": 3600
+  }
+}

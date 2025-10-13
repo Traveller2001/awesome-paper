@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00723v1",
+  "title": "Deep learning motion correction of quantitative stress perfusion\n  cardiovascular magnetic resonance",
+  "summary": "Background: Quantitative stress perfusion cardiovascular magnetic resonance\n(CMR) is a powerful tool for assessing myocardial ischemia. Motion correction\nis essential for accurate pixel-wise mapping but traditional registration-based\nmethods are slow and sensitive to acquisition variability, limiting robustness\nand scalability.\n  Methods: We developed an unsupervised deep learning-based motion correction\npipeline that replaces iterative registration with efficient one-shot\nestimation. The method corrects motion in three steps and uses robust principal\ncomponent analysis to reduce contrast-related effects. It aligns the perfusion\nseries and auxiliary images (arterial input function and proton\ndensity-weighted series). Models were trained and validated on multivendor data\nfrom 201 patients, with 38 held out for testing. Performance was assessed via\ntemporal alignment and quantitative perfusion values, compared to a previously\npublished registration-based method.\n  Results: The deep learning approach significantly improved temporal\nsmoothness of time-intensity curves (p<0.001). Myocardial alignment (Dice =\n0.92 (0.04) and 0.91 (0.05)) was comparable to the baseline and superior to\nbefore registration (Dice = 0.80 (0.09), p<0.001). Perfusion maps showed\nreduced motion, with lower standard deviation in the myocardium (0.52 (0.39)\nml/min/g) compared to baseline (0.55 (0.44) ml/min/g). Processing time was\nreduced 15-fold.\n  Conclusion: This deep learning pipeline enables fast, robust motion\ncorrection for stress perfusion CMR, improving accuracy across dynamic and\nauxiliary images. Trained on multivendor data, it generalizes across sequences\nand may facilitate broader clinical adoption of quantitative perfusion imaging.",
+  "authors": [
+    "Noortje I. P. Schueler",
+    "Nathan C. K. Wong",
+    "Richard J. Crawley",
+    "Josien P. W. Pluim",
+    "Amedeo Chiribiri",
+    "Cian M. Scannell"
+  ],
+  "published": "2025-10-01T09:59:48Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00723v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出一种基于无监督深度学习的运动校正方法，用于定量应力灌注心血管磁共振成像。该方法通过三步校正流程和鲁棒主成分分析，替代传统迭代配准，在保持心肌对齐精度的同时将处理时间缩短15倍，显著提升时间强度曲线平滑度，有望促进定量灌注成像的临床推广应用。",
+  "order": 635,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00723v1"
+}

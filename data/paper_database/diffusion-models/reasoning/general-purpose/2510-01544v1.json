@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.01544v1",
+  "title": "Step-Aware Policy Optimization for Reasoning in Diffusion Large Language\n  Models",
+  "summary": "Diffusion language models (dLLMs) offer a promising, non-autoregressive\nparadigm for text generation, yet training them for complex reasoning remains a\nkey challenge. Current reinforcement learning approaches often rely on sparse,\noutcome-based rewards, which can reinforce flawed reasoning paths that lead to\ncoincidentally correct answers. We argue that this stems from a fundamental\nmismatch with the natural structure of reasoning. We first propose a\ntheoretical framework that formalizes complex problem solving as a hierarchical\nselection process, where an intractable global constraint is decomposed into a\nseries of simpler, localized logical steps. This framework provides a\nprincipled foundation for algorithm design, including theoretical insights into\nthe identifiability of this latent reasoning structure. Motivated by this\ntheory, we identify unstructured refinement -- a failure mode where a model's\niterative steps do not contribute meaningfully to the solution -- as a core\ndeficiency in existing methods. We then introduce Step-Aware Policy\nOptimization (SAPO), a novel RL algorithm that aligns the dLLM's denoising\nprocess with the latent reasoning hierarchy. By using a process-based reward\nfunction that encourages incremental progress, SAPO guides the model to learn\nstructured, coherent reasoning paths. Our empirical results show that this\nprincipled approach significantly improves performance on challenging reasoning\nbenchmarks and enhances the interpretability of the generation process.",
+  "authors": [
+    "Shaoan Xie",
+    "Lingjing Kong",
+    "Xiangchen Song",
+    "Xinshuai Dong",
+    "Guangyi Chen",
+    "Eric P. Xing",
+    "Kun Zhang"
+  ],
+  "published": "2025-10-02T00:34:15Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01544v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出步感知策略优化(SAPO)方法，针对扩散语言模型在复杂推理任务中的训练挑战。通过理论框架将推理建模为层次化选择过程，并设计基于过程的奖励函数来引导模型学习结构化推理路径，显著提升推理性能与生成过程可解释性。",
+  "order": 133,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01544v1"
+}

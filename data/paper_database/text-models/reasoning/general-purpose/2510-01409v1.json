@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01409v1",
+  "title": "OntoLogX: Ontology-Guided Knowledge Graph Extraction from Cybersecurity\n  Logs with Large Language Models",
+  "summary": "System logs represent a valuable source of Cyber Threat Intelligence (CTI),\ncapturing attacker behaviors, exploited vulnerabilities, and traces of\nmalicious activity. Yet their utility is often limited by lack of structure,\nsemantic inconsistency, and fragmentation across devices and sessions.\nExtracting actionable CTI from logs therefore requires approaches that can\nreconcile noisy, heterogeneous data into coherent and interoperable\nrepresentations. We introduce OntoLogX, an autonomous Artificial Intelligence\n(AI) agent that leverages Large Language Models (LLMs) to transform raw logs\ninto ontology-grounded Knowledge Graphs (KGs). OntoLogX integrates a\nlightweight log ontology with Retrieval Augmented Generation (RAG) and\niterative correction steps, ensuring that generated KGs are syntactically and\nsemantically valid. Beyond event-level analysis, the system aggregates KGs into\nsessions and employs a LLM to predict MITRE ATT&CK tactics, linking low-level\nlog evidence to higher-level adversarial objectives. We evaluate OntoLogX on\nboth logs from a public benchmark and a real-world honeypot dataset,\ndemonstrating robust KG generation across multiple KGs backends and accurate\nmapping of adversarial activity to ATT&CK tactics. Results highlight the\nbenefits of retrieval and correction for precision and recall, the\neffectiveness of code-oriented models in structured log analysis, and the value\nof ontology-grounded representations for actionable CTI extraction.",
+  "authors": [
+    "Luca Cotti",
+    "Idilio Drago",
+    "Anisa Rula",
+    "Devis Bianchini",
+    "Federico Cerutti"
+  ],
+  "published": "2025-10-01T19:46:15Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01409v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "OntoLogX是一种基于大语言模型的自主AI代理，通过本体引导从网络安全日志中提取知识图谱。该系统结合轻量级日志本体、检索增强生成和迭代校正步骤，将原始日志转换为基于本体的知识图谱，并聚合会话以预测MITRE ATT&CK攻击战术，在公开基准和真实蜜罐数据集上验证了其有效性。",
+  "order": 160,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01409v1"
+}

@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.06133v1",
+  "title": "CreditDecoding: Accelerating Parallel Decoding in Diffusion Large\n  Language Models with Trace Credits",
+  "summary": "Diffusion large language models (dLLMs) generate text through iterative\ndenoising steps, achieving parallel decoding by denoising only high-confidence\npositions at each step. However, existing approaches often repetitively remask\ntokens due to initially low confidence scores, leading to redundant iterations\nand limiting overall acceleration. Through the analysis of dLLM decoding\ntraces, we observe that the model often determines the final prediction for a\ntoken several steps before the decoding step. To leverage this historical\ninformation and avoid redundant steps, we introduce the concept of Trace\nCredit, which quantifies each token's convergence potential by accumulating\nhistorical logits. Furthermore, we propose CreditDecoding, a training-free\nparallel decoding algorithm that accelerates the confidence convergence of\ncorrect but underconfident tokens by fusing current logits with Trace Credit.\nThis process significantly reduces redundant iterations and enhances decoding\nrobustness. On eight benchmarks, CreditDecoding achieves a 5.48 times speedup\nand a 0.48 performance improvement over LLaDA-8B-Instruct, and a 4.11 times\nspeedup with a 0.15 performance improvement over LLaDA-MoE-Instruct.\nImportantly, CreditDecoding scales effectively to long sequences and is\northogonal to mainstream inference optimizations, making it a readily\nintegrable and versatile solution.",
+  "authors": [
+    "Kangyu Wang",
+    "Zhiyun Jiang",
+    "Haibo Feng",
+    "Weijia Zhao",
+    "Lin Liu",
+    "Jianguo Li",
+    "Zhenzhong Lan",
+    "Weiyao Lin"
+  ],
+  "published": "2025-10-07T17:08:33Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06133v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出CreditDecoding算法，通过引入轨迹信用(Trace Credit)量化token收敛潜力，融合历史logits加速扩散大语言模型的并行解码。该无需训练的方法在8个基准测试中实现4-5倍加速，同时提升模型性能，且适用于长序列并与主流推理优化技术正交。",
+  "order": 14,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06133v1"
+}

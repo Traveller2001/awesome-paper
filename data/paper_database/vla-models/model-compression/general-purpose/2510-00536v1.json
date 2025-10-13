@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00536v1",
+  "title": "GUI-KV: Efficient GUI Agents via KV Cache with Spatio-Temporal Awareness",
+  "summary": "Graphical user interface (GUI) agents built on vision-language models have\nemerged as a promising approach to automate human-computer workflows. However,\nthey also face the inefficiency challenge as they process long sequences of\nhigh-resolution screenshots and solving long-horizon tasks, making inference\nslow, costly and memory-bound. While key-value (KV) caching can mitigate this,\nstoring the full cache is prohibitive for image-heavy contexts. Existing\ncache-compression methods are sub-optimal as they do not account for the\nspatial and temporal redundancy of GUIs. In this work, we first analyze\nattention patterns in GUI agent workloads and find that, unlike in natural\nimages, attention sparsity is uniformly high across all transformer layers.\nThis insight motivates a simple uniform budget allocation strategy, which we\nshow empirically outperforms more complex layer-varying schemes. Building on\nthis, we introduce GUI-KV, a plug-and-play KV cache compression method for GUI\nagents that requires no retraining. GUI-KV combines two novel techniques: (i)\nspatial saliency guidance, which augments attention scores with the L2 norm of\nhidden states to better preserve semantically important visual tokens, and (ii)\ntemporal redundancy scoring, which projects previous frames' keys onto the\ncurrent frame's key subspace to preferentially prune redundant history. Across\nstandard GUI agent benchmarks and models, GUI-KV outperforms competitive KV\ncompression baselines, closely matching full-cache accuracy at modest budgets.\nNotably, in a 5-screenshot setting on the AgentNetBench benchmark, GUI-KV\nreduces decoding FLOPs by 38.9% while increasing step accuracy by 4.1% over the\nfull-cache baseline. These results demonstrate that exploiting GUI-specific\nredundancies enables efficient and reliable agent performance.",
+  "authors": [
+    "Kung-Hsiang Huang",
+    "Haoyi Qiu",
+    "Yutong Dai",
+    "Caiming Xiong",
+    "Chien-Sheng Wu"
+  ],
+  "published": "2025-10-01T05:37:54Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00536v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "GUI-KV是一种针对图形界面代理的KV缓存压缩方法，通过空间显著性引导和时间冗余评分技术，在保持精度的同时显著降低计算开销。该方法无需重新训练，在标准基准测试中可减少38.9%的解码计算量并提升4.1%的任务准确率。",
+  "order": 471,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00536v1"
+}

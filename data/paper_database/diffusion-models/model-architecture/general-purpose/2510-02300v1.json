@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.02300v1",
+  "title": "Equilibrium Matching: Generative Modeling with Implicit Energy-Based\n  Models",
+  "summary": "We introduce Equilibrium Matching (EqM), a generative modeling framework\nbuilt from an equilibrium dynamics perspective. EqM discards the\nnon-equilibrium, time-conditional dynamics in traditional diffusion and\nflow-based generative models and instead learns the equilibrium gradient of an\nimplicit energy landscape. Through this approach, we can adopt an\noptimization-based sampling process at inference time, where samples are\nobtained by gradient descent on the learned landscape with adjustable step\nsizes, adaptive optimizers, and adaptive compute. EqM surpasses the generation\nperformance of diffusion/flow models empirically, achieving an FID of 1.90 on\nImageNet 256$\\times$256. EqM is also theoretically justified to learn and\nsample from the data manifold. Beyond generation, EqM is a flexible framework\nthat naturally handles tasks including partially noised image denoising, OOD\ndetection, and image composition. By replacing time-conditional velocities with\na unified equilibrium landscape, EqM offers a tighter bridge between flow and\nenergy-based models and a simple route to optimization-driven inference.",
+  "authors": [
+    "Runqian Wang",
+    "Yilun Du"
+  ],
+  "published": "2025-10-02T17:59:06Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02300v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出平衡匹配(EqM)生成建模框架，摒弃传统扩散/流模型中的非平衡时间条件动态，转而学习隐式能量景观的平衡梯度。该方法在推理时采用基于优化的采样过程，通过梯度下降在学习的景观上生成样本，支持可调步长、自适应优化器和计算。EqM在ImageNet 256×256上达到1.90 FID，超越现有扩散/流模型，并能自然处理图像去噪、OOD检测和图像合成等任务。",
+  "order": 694,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02300v1"
+}

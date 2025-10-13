@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00481v1",
+  "title": "Make a Video Call with LLM: A Measurement Campaign over Five Mainstream\n  Apps",
+  "summary": "In 2025, Large Language Model (LLM) services have launched a new feature --\nAI video chat -- allowing users to interact with AI agents via real-time video\ncommunication (RTC), just like chatting with real people. Despite its\nsignificance, no systematic study has characterized the performance of existing\nAI video chat systems. To address this gap, this paper proposes a comprehensive\nbenchmark with carefully designed metrics across four dimensions: quality,\nlatency, internal mechanisms, and system overhead. Using custom testbeds, we\nfurther evaluate five mainstream AI video chatbots with this benchmark. This\nwork provides the research community a baseline of real-world performance and\nidentifies unique system bottlenecks. In the meantime, our benchmarking results\nalso open up several research questions for future optimizations of AI video\nchatbots.",
+  "authors": [
+    "Jiayang Xu",
+    "Xiangjie Huang",
+    "Zijie Li",
+    "Zili Meng"
+  ],
+  "published": "2025-10-01T04:03:51Z",
+  "primary_category": "cs.NI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00481v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对2025年新兴的AI视频聊天功能，首次提出了涵盖质量、延迟、内部机制和系统开销四个维度的综合评测基准，并对五款主流AI视频聊天应用进行了系统性能测量，为研究社区提供了现实性能基准并识别了系统瓶颈。",
+  "order": 302,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00481v1"
+}

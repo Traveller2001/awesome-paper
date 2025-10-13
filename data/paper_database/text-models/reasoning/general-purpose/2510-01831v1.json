@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01831v1",
+  "title": "Syntactic Blind Spots: How Misalignment Leads to LLMs Mathematical\n  Errors",
+  "summary": "Large Language Models (LLMs) demonstrate strong mathematical problem-solving\nabilities but frequently fail on problems that deviate syntactically from their\ntraining distribution. We identify a systematic failure mode, syntactic blind\nspots, in which models misapply familiar reasoning strategies to problems that\nare semantically straightforward but phrased in unfamiliar ways. These errors\nare not due to gaps in mathematical competence, but rather reflect a brittle\ncoupling between surface form and internal representation. To test this, we\nrephrase incorrectly answered questions using syntactic templates drawn from\ncorrect examples. These rephrasings, which preserve semantics while reducing\nstructural complexity, often lead to correct answers. We quantify syntactic\ncomplexity using a metric based on Dependency Locality Theory (DLT), and show\nthat higher DLT scores are associated with increased failure rates across\nmultiple datasets. Our findings suggest that many reasoning errors stem from\nstructural misalignment rather than conceptual difficulty, and that\nsyntax-aware interventions can reveal and mitigate these inductive failures.",
+  "authors": [
+    "Dane Williamson",
+    "Yangfeng Ji",
+    "Matthew Dwyer"
+  ],
+  "published": "2025-10-02T09:26:26Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01831v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "研究发现大型语言模型在数学问题解决中存在'句法盲点'：当问题表述偏离训练数据分布时，即使语义简单，模型也会错误应用推理策略。通过基于依存局部理论的复杂度度量，证实句法复杂性与错误率正相关，表明这些错误源于结构错位而非概念理解不足。",
+  "order": 367,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01831v1"
+}

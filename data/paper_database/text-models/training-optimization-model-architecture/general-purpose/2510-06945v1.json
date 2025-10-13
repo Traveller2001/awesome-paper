@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06945v1",
+  "title": "Fisher Information, Training and Bias in Fourier Regression Models",
+  "summary": "Motivated by the growing interest in quantum machine learning, in particular\nquantum neural networks (QNNs), we study how recently introduced evaluation\nmetrics based on the Fisher information matrix (FIM) are effective for\npredicting their training and prediction performance. We exploit the\nequivalence between a broad class of QNNs and Fourier models, and study the\ninterplay between the \\emph{effective dimension} and the \\emph{bias} of a model\ntowards a given task, investigating how these affect the model's training and\nperformance. We show that for a model that is completely agnostic, or unbiased,\ntowards the function to be learned, a higher effective dimension likely results\nin a better trainability and performance. On the other hand, for models that\nare biased towards the function to be learned a lower effective dimension is\nlikely beneficial during training. To obtain these results, we derive an\nanalytical expression of the FIM for Fourier models and identify the features\ncontrolling a model's effective dimension. This allows us to construct models\nwith tunable effective dimension and bias, and to compare their training. We\nfurthermore introduce a tensor network representation of the considered Fourier\nmodels, which could be a tool of independent interest for the analysis of QNN\nmodels. Overall, these findings provide an explicit example of the interplay\nbetween geometrical properties, model-task alignment and training, which are\nrelevant for the broader machine learning community.",
+  "authors": [
+    "Lorenzo Pastori",
+    "Veronika Eyring",
+    "Mierk Schwabe"
+  ],
+  "published": "2025-10-08T12:29:11Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06945v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文通过量子神经网络与傅里叶模型的等价性，研究Fisher信息矩阵在预测模型训练性能中的作用。发现对于无偏模型，高有效维度利于训练；而对于有偏模型，低有效维度更优。提出了傅里叶模型的张量网络表示，揭示了几何特性、模型-任务对齐与训练间的相互作用。",
+  "order": 196,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06945v1"
+}

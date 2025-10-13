@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.02295v1",
+  "title": "VideoNSA: Native Sparse Attention Scales Video Understanding",
+  "summary": "Video understanding in multimodal language models remains limited by context\nlength: models often miss key transition frames and struggle to maintain\ncoherence across long time scales. To address this, we adapt Native Sparse\nAttention (NSA) to video-language models. Our method, VideoNSA, adapts\nQwen2.5-VL through end-to-end training on a 216K video instruction dataset. We\nemploy a hardware-aware hybrid approach to attention, preserving dense\nattention for text, while employing NSA for video. Compared to\ntoken-compression and training-free sparse baselines, VideoNSA achieves\nimproved performance on long-video understanding, temporal reasoning, and\nspatial benchmarks. Further ablation analysis reveals four key findings: (1)\nreliable scaling to 128K tokens; (2) an optimal global-local attention\nallocation at a fixed budget; (3) task-dependent branch usage patterns; and (4)\nthe learnable combined sparse attention help induce dynamic attention sinks.",
+  "authors": [
+    "Enxin Song",
+    "Wenhao Chai",
+    "Shusheng Yang",
+    "Ethan Armand",
+    "Xiaojun Shan",
+    "Haiyang Xu",
+    "Jianwen Xie",
+    "Zhuowen Tu"
+  ],
+  "published": "2025-10-02T17:58:54Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02295v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "long_context",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VideoNSA通过原生稀疏注意力机制增强视频语言模型，在Qwen2.5-VL基础上采用硬件感知混合注意力方案：文本保持稠密注意力，视频使用稀疏注意力。该方法在21.6万视频指令数据集上端到端训练，支持128K令牌长视频理解，在时序推理和空间基准测试中优于令牌压缩和训练无关稀疏基线，并揭示了全局-局部注意力分配优化等关键发现。",
+  "order": 697,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02295v1"
+}

@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2510.02215v1",
+  "title": "C2AL: Cohort-Contrastive Auxiliary Learning for Large-scale\n  Recommendation Systems",
+  "summary": "Training large-scale recommendation models under a single global objective\nimplicitly assumes homogeneity across user populations. However, real-world\ndata are composites of heterogeneous cohorts with distinct conditional\ndistributions. As models increase in scale and complexity and as more data is\nused for training, they become dominated by central distribution patterns,\nneglecting head and tail regions. This imbalance limits the model's learning\nability and can result in inactive attention weights or dead neurons. In this\npaper, we reveal how the attention mechanism can play a key role in\nfactorization machines for shared embedding selection, and propose to address\nthis challenge by analyzing the substructures in the dataset and exposing those\nwith strong distributional contrast through auxiliary learning. Unlike previous\nresearch, which heuristically applies weighted labels or multi-task heads to\nmitigate such biases, we leverage partially conflicting auxiliary labels to\nregularize the shared representation. This approach customizes the learning\nprocess of attention layers to preserve mutual information with minority\ncohorts while improving global performance. We evaluated C2AL on massive\nproduction datasets with billions of data points each for six SOTA models.\nExperiments show that the factorization machine is able to capture fine-grained\nuser-ad interactions using the proposed method, achieving up to a 0.16%\nreduction in normalized entropy overall and delivering gains exceeding 0.30% on\ntargeted minority cohorts.",
+  "authors": [
+    "Mertcan Cokbas",
+    "Ziteng Liu",
+    "Zeyi Tao",
+    "Chengkai Zhang",
+    "Elder Veliz",
+    "Qin Huang",
+    "Ellie Wen",
+    "Huayu Li",
+    "Qiang Jin",
+    "Murat Duman",
+    "Benjamin Au",
+    "Guy Lebanon",
+    "Sagar Chordia"
+  ],
+  "published": "2025-10-02T17:00:17Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02215v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出C2AL方法，通过队列对比辅助学习解决大规模推荐系统中的数据异质性问题。该方法利用分布对比的辅助标签正则化共享表示，优化注意力机制在因子分解机中的嵌入选择，在保持少数群体信息的同时提升全局性能，在数十亿数据点的生产环境中验证了有效性。",
+  "order": 721,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02215v1"
+}

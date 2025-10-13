@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06825v1",
+  "title": "Adaptive Tool Generation with Models as Tools and Reinforcement Learning",
+  "summary": "Tool-augmented language models have demonstrated strong capabilities, but\ntheir reliance on live API access creates scalability and reliability\nchallenges during training and deployment. We propose MTR, a simulation-first\ntraining framework for tool-augmented reasoning. Instead of relying on live\nAPIs, MTR learns from complete ReAct traces with schema-validated, simulated\nobservations. Our approach operates through a multi-agent architecture where a\nToolMaker generates task-specific, OpenAI-compatible tool interfaces, an\nAutoAgent produces structured think-act-observe sequences, and a ToolActor\nsimulates realistic responses. Training proceeds in two stages: Stage-1\nSupervised Fine-Tuning (SFT) teaches 'trace grammar' from complete reasoning\nsequences; Stage-2 Group Relative Policy Optimization (GRPO) optimizes strategy\nwith a composite trace reward that balances answer correctness and internal\nconsistency. Across four multi-hop QA benchmarks (HotpotQA, MuSiQue,\n2WikiMultiHopQA, Bamboogle), MTR attains competitive Exact Match (EM) scores to\nlive-API systems and excels on reasoning-intensive tasks, suggesting that\neffective tool reasoning can be learned from structured traces without live\ninteractions.",
+  "authors": [
+    "Chenpeng Wang",
+    "Xiaojie Cheng",
+    "Chunye Wang",
+    "Linfeng Yang",
+    "Lei Zhang"
+  ],
+  "published": "2025-10-08T09:48:50Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06825v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MTR框架，通过模拟优先训练方法解决工具增强语言模型对实时API的依赖问题。采用多智能体架构（ToolMaker生成工具接口、AutoAgent生成推理序列、ToolActor模拟响应），通过两阶段训练（SFT学习轨迹语法+GRPO优化策略），在多个多跳QA基准测试中达到与实时API系统相当的准确率，证明无需实时交互即可从结构化轨迹中学习有效工具推理。",
+  "order": 76,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06825v1"
+}

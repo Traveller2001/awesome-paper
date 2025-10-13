@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.07309v1",
+  "title": "Agent Bain vs. Agent McKinsey: A New Text-to-SQL Benchmark for the\n  Business Domain",
+  "summary": "In the business domain, where data-driven decision making is crucial,\ntext-to-SQL is fundamental for easy natural language access to structured data.\nWhile recent LLMs have achieved strong performance in code generation, existing\ntext-to-SQL benchmarks remain focused on factual retrieval of past records. We\nintroduce CORGI, a new benchmark specifically designed for real-world business\ncontexts. CORGI is composed of synthetic databases inspired by enterprises such\nas Doordash, Airbnb, and Lululemon. It provides questions across four\nincreasingly complex categories of business queries: descriptive, explanatory,\npredictive, and recommendational. This challenge calls for causal reasoning,\ntemporal forecasting, and strategic recommendation, reflecting multi-level and\nmulti-step agentic intelligence. We find that LLM performance drops on\nhigh-level questions, struggling to make accurate predictions and offer\nactionable plans. Based on execution success rate, the CORGI benchmark is about\n21\\% more difficult than the BIRD benchmark. This highlights the gap between\npopular LLMs and the need for real-world business intelligence. We release a\npublic dataset and evaluation framework, and a website for public submissions.",
+  "authors": [
+    "Yue Li",
+    "Ran Tao",
+    "Derek Hommel",
+    "Yusuf Denizay Dönder",
+    "Sungyong Chang",
+    "David Mimno",
+    "Unso Eun Seo Jo"
+  ],
+  "published": "2025-10-08T17:57:35Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07309v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出CORGI基准测试，针对商业领域的文本转SQL任务，包含描述性、解释性、预测性和推荐性四类复杂查询。研究发现LLM在高级商业推理上表现不佳，比现有基准难度高21%，突显了现实商业智能需求与当前模型能力的差距。",
+  "order": 26,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07309v1"
+}

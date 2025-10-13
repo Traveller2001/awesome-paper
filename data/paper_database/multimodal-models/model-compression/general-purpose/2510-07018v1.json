@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07018v1",
+  "title": "Sharpness-Aware Data Generation for Zero-shot Quantization",
+  "summary": "Zero-shot quantization aims to learn a quantized model from a pre-trained\nfull-precision model with no access to original real training data. The common\nidea in zero-shot quantization approaches is to generate synthetic data for\nquantizing the full-precision model. While it is well-known that deep neural\nnetworks with low sharpness have better generalization ability, none of the\nprevious zero-shot quantization works considers the sharpness of the quantized\nmodel as a criterion for generating training data. This paper introduces a\nnovel methodology that takes into account quantized model sharpness in\nsynthetic data generation to enhance generalization. Specifically, we first\ndemonstrate that sharpness minimization can be attained by maximizing gradient\nmatching between the reconstruction loss gradients computed on synthetic and\nreal validation data, under certain assumptions. We then circumvent the problem\nof the gradient matching without real validation set by approximating it with\nthe gradient matching between each generated sample and its neighbors.\nExperimental evaluations on CIFAR-100 and ImageNet datasets demonstrate the\nsuperiority of the proposed method over the state-of-the-art techniques in\nlow-bit quantization settings.",
+  "authors": [
+    "Dung Hoang-Anh",
+    "Cuong Pham Trung Le",
+    "Jianfei Cai",
+    "Thanh-Toan Do"
+  ],
+  "published": "2025-10-08T13:43:39Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07018v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种面向零样本量化的锐度感知数据生成方法，通过最大化合成数据与真实验证数据间的梯度匹配来降低量化模型锐度，从而提升泛化能力。在CIFAR-100和ImageNet上的实验表明，该方法在低比特量化设置下优于现有技术。",
+  "order": 190,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07018v1"
+}

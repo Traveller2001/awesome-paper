@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2510.01571v1",
+  "title": "From Supervision to Exploration: What Does Protein Language Model Learn\n  During Reinforcement Learning?",
+  "summary": "Protein language models (PLMs) have advanced computational protein science\nthrough large-scale pretraining and scalable architectures. In parallel,\nreinforcement learning (RL) has broadened exploration and enabled precise\nmulti-objective optimization in protein design. Yet whether RL can push PLMs\nbeyond their pretraining priors to uncover latent sequence-structure-function\nrules remains unclear. We address this by pairing RL with PLMs across four\ndomains: antimicrobial peptide design, kinase variant optimization, antibody\nengineering, and inverse folding. Using diverse RL algorithms and model\nclasses, we ask if RL improves sampling efficiency and, more importantly, if it\nreveals capabilities not captured by supervised learning. Across benchmarks, RL\nconsistently boosts success rates and sample efficiency. Performance follows a\nthree-factor interaction: task headroom, reward fidelity, and policy capacity\njointly determine gains. When rewards are accurate and informative, policies\nhave sufficient capacity, and tasks leave room beyond supervised baselines,\nimprovements scale; when rewards are noisy or capacity is constrained, gains\nsaturate despite exploration. This view yields practical guidance for RL in\nprotein design: prioritize reward modeling and calibration before scaling\npolicy size, match algorithm and regularization strength to task difficulty,\nand allocate capacity where marginal gains are largest. Implementation is\navailable at https://github.com/chq1155/RL-PLM.",
+  "authors": [
+    "Hanqun Cao",
+    "Hongrui Zhang",
+    "Junde Xu",
+    "Zhou Zhang",
+    "Lingdong Shen",
+    "Minghao Sun",
+    "Ge Liu",
+    "Jinbo Xu",
+    "Wu-Jun Li",
+    "Jinren Ni",
+    "Cesar de la Fuente-Nunez",
+    "Tianfan Fu",
+    "Yejin Choi",
+    "Pheng-Ann Heng",
+    "Fang Wu"
+  ],
+  "published": "2025-10-02T01:31:10Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01571v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究探讨强化学习如何增强蛋白质语言模型在抗菌肽设计、激酶变体优化等四个生物医学领域的性能。研究发现RL能提升采样效率和成功率，其效果取决于任务空间、奖励精度和策略容量三因素交互作用，为蛋白质设计中的RL应用提供了实用指导。",
+  "order": 128,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01571v1"
+}

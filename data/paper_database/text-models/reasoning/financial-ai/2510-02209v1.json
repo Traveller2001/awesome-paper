@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02209v1",
+  "title": "StockBench: Can LLM Agents Trade Stocks Profitably In Real-world\n  Markets?",
+  "summary": "Large language models (LLMs) have recently demonstrated strong capabilities\nas autonomous agents, showing promise in reasoning, tool use, and sequential\ndecision-making. While prior benchmarks have evaluated LLM agents in domains\nsuch as software engineering and scientific discovery, the finance domain\nremains underexplored, despite its direct relevance to economic value and\nhigh-stakes decision-making. Existing financial benchmarks primarily test\nstatic knowledge through question answering, but they fall short of capturing\nthe dynamic and iterative nature of trading. To address this gap, we introduce\nStockBench, a contamination-free benchmark designed to evaluate LLM agents in\nrealistic, multi-month stock trading environments. Agents receive daily market\nsignals -- including prices, fundamentals, and news -- and must make sequential\nbuy, sell, or hold decisions. Performance is assessed using financial metrics\nsuch as cumulative return, maximum drawdown, and the Sortino ratio. Our\nevaluation of state-of-the-art proprietary (e.g., GPT-5, Claude-4) and\nopen-weight (e.g., Qwen3, Kimi-K2, GLM-4.5) models shows that while most LLM\nagents struggle to outperform the simple buy-and-hold baseline, several models\ndemonstrate the potential to deliver higher returns and manage risk more\neffectively. These findings highlight both the challenges and opportunities in\ndeveloping LLM-powered financial agents, showing that excelling at static\nfinancial knowledge tasks does not necessarily translate into successful\ntrading strategies. We release StockBench as an open-source resource to support\nreproducibility and advance future research in this domain.",
+  "authors": [
+    "Yanxu Chen",
+    "Zijun Yao",
+    "Yantao Liu",
+    "Jin Ye",
+    "Jianing Yu",
+    "Lei Hou",
+    "Juanzi Li"
+  ],
+  "published": "2025-10-02T16:54:57Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02209v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出StockBench基准，评估大语言模型在真实股票交易环境中的表现。研究发现多数LLM代理难以超越简单买入持有策略，但部分模型展现出更高收益和风险管理潜力，表明静态金融知识与实际交易策略存在差距。",
+  "order": 723,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02209v1"
+}

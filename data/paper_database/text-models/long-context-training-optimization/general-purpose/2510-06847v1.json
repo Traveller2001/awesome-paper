@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06847v1",
+  "title": "OpenJAI-v1.0: An Open Thai Large Language Model",
+  "summary": "We introduce OpenJAI-v1.0, an open-source large language model for Thai and\nEnglish, developed from the Qwen3-14B model. Our work focuses on boosting\nperformance on practical tasks through carefully curated data across three key\nuse cases: instruction following, long-context understanding, and tool use.\nEvaluation results show that OpenJAI-v1.0 improves on the capabilities of its\nbase model and outperforms other leading open-source Thai models on a diverse\nsuite of benchmarks, while avoiding catastrophic forgetting. OpenJAI-v1.0 is\npublicly released as another alternative NLP resource for the Thai AI\ncommunity.",
+  "authors": [
+    "Pontakorn Trakuekul",
+    "Attapol T. Rutherford",
+    "Jullajak Karnjanaekarin",
+    "Narongkorn Panitsrisit",
+    "Sumana Sumanakul"
+  ],
+  "published": "2025-10-08T10:12:56Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06847v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['long_context', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "OpenJAI-v1.0是基于Qwen3-14B开发的开源泰英双语大语言模型，通过精心筛选的训练数据在指令遵循、长上下文理解和工具使用三个关键应用场景上提升性能。评估显示该模型在多项基准测试中优于其他主流开源泰语模型，且避免了灾难性遗忘问题，为泰国AI社区提供了新的NLP资源选择。",
+  "order": 72,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06847v1"
+}

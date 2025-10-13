@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00603v1",
+  "title": "LVLMs as inspectors: an agentic framework for category-level structural\n  defect annotation",
+  "summary": "Automated structural defect annotation is essential for ensuring\ninfrastructure safety while minimizing the high costs and inefficiencies of\nmanual labeling. A novel agentic annotation framework, Agent-based Defect\nPattern Tagger (ADPT), is introduced that integrates Large Vision-Language\nModels (LVLMs) with a semantic pattern matching module and an iterative\nself-questioning refinement mechanism. By leveraging optimized domain-specific\nprompting and a recursive verification process, ADPT transforms raw visual data\ninto high-quality, semantically labeled defect datasets without any manual\nsupervision. Experimental results demonstrate that ADPT achieves up to 98%\naccuracy in distinguishing defective from non-defective images, and 85%-98%\nannotation accuracy across four defect categories under class-balanced\nsettings, with 80%-92% accuracy on class-imbalanced datasets. The framework\noffers a scalable and cost-effective solution for high-fidelity dataset\nconstruction, providing strong support for downstream tasks such as transfer\nlearning and domain adaptation in structural damage assessment.",
+  "authors": [
+    "Sheng Jiang",
+    "Yuanmin Ning",
+    "Bingxi Huang",
+    "Peiyin Chen",
+    "Zhaohui Chen"
+  ],
+  "published": "2025-10-01T07:31:42Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00603v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出ADPT框架，利用大型视觉语言模型结合语义模式匹配和迭代自问优化机制，实现无需人工监督的结构缺陷自动标注，在缺陷检测中准确率达98%，为基础设施安全评估提供可扩展的解决方案。",
+  "order": 657,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00603v1"
+}

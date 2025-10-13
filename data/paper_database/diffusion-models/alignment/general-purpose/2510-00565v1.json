@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00565v1",
+  "title": "Toward Safer Diffusion Language Models: Discovery and Mitigation of\n  Priming Vulnerability",
+  "summary": "Diffusion language models (DLMs) generate tokens in parallel through\niterative denoising, which can reduce latency and enable bidirectional\nconditioning. However, the safety risks posed by jailbreak attacks that exploit\nthis inference mechanism are not well understood. In this paper, we reveal that\nDLMs have a critical vulnerability stemming from their iterative denoising\nprocess and propose a countermeasure. Specifically, our investigation shows\nthat if an affirmative token for a harmful query appears at an intermediate\nstep, subsequent denoising can be steered toward a harmful response even in\naligned models. As a result, simply injecting such affirmative tokens can\nreadily bypass the safety guardrails. Furthermore, we demonstrate that the\nvulnerability allows existing optimization-based jailbreak attacks to succeed\non DLMs. Building on this analysis, we propose a novel safety alignment method\ntailored to DLMs that trains models to generate safe responses from\ncontaminated intermediate states that contain affirmative tokens. Our\nexperiments indicate that the proposed method significantly mitigates the\nvulnerability with minimal impact on task performance. Furthermore, our method\nimproves robustness against conventional jailbreak attacks. Our work\nunderscores the need for DLM-specific safety research.",
+  "authors": [
+    "Shojiro Yamabe",
+    "Jun Sakuma"
+  ],
+  "published": "2025-10-01T06:35:23Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00565v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文揭示了扩散语言模型(DLMs)在迭代去噪过程中存在关键安全漏洞：中间步骤出现有害查询的肯定令牌会引导模型生成有害回复，从而绕过安全防护。研究提出了一种针对DLMs的安全对齐方法，训练模型从被污染的中间状态生成安全响应，实验表明该方法能显著缓解漏洞且对任务性能影响最小，同时提升对传统越狱攻击的鲁棒性。",
+  "order": 281,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00565v1"
+}

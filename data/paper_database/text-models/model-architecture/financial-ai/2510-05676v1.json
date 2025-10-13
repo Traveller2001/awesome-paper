@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05676v1",
+  "title": "Inductive inference of gradient-boosted decision trees on graphs for\n  insurance fraud detection",
+  "summary": "Graph-based methods are becoming increasingly popular in machine learning due\nto their ability to model complex data and relations. Insurance fraud is a\nprime use case, since false claims are often the result of organised criminals\nthat stage accidents or the same persons filing erroneous claims on multiple\npolicies. One challenge is that graph-based approaches struggle to find\nmeaningful representations of the data because of the high class imbalance\npresent in fraud data. Another is that insurance networks are heterogeneous and\ndynamic, given the changing relations among people, companies and policies.\nThat is why gradient boosted tree approaches on tabular data still dominate the\nfield. Therefore, we present a novel inductive graph gradient boosting machine\n(G-GBM) for supervised learning on heterogeneous and dynamic graphs. We show\nthat our estimator competes with popular graph neural network approaches in an\nexperiment using a variety of simulated random graphs. We demonstrate the power\nof G-GBM for insurance fraud detection using an open-source and a real-world,\nproprietary dataset. Given that the backbone model is a gradient boosting\nforest, we apply established explainability methods to gain better insights\ninto the predictions made by G-GBM.",
+  "authors": [
+    "Félix Vandervorst",
+    "Bruno Deprez",
+    "Wouter Verbeke",
+    "Tim Verdonck"
+  ],
+  "published": "2025-10-07T08:35:12Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05676v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出一种新型归纳图梯度提升机(G-GBM)，用于异构动态图上的监督学习，专门解决保险欺诈检测中的类别不平衡和网络动态性问题。该方法结合梯度提升树与图结构建模，在模拟图和真实数据集上表现优于传统图神经网络，并保持梯度提升模型的可解释性优势。",
+  "order": 131,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05676v1"
+}

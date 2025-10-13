@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.02125v1",
+  "title": "Do AI Models Perform Human-like Abstract Reasoning Across Modalities?",
+  "summary": "OpenAI's o3-preview reasoning model exceeded human accuracy on the ARC-AGI\nbenchmark, but does that mean state-of-the-art models recognize and reason with\nthe abstractions that the task creators intended? We investigate models'\nabstraction abilities on ConceptARC. We evaluate models under settings that\nvary the input modality (textual vs. visual), whether the model is permitted to\nuse external Python tools, and, for reasoning models, the amount of reasoning\neffort. In addition to measuring output accuracy, we perform fine-grained\nevaluation of the natural-language rules that models generate to explain their\nsolutions. This dual evaluation lets us assess whether models solve tasks using\nthe abstractions ConceptARC was designed to elicit, rather than relying on\nsurface-level patterns. Our results show that, while some models using\ntext-based representations match human output accuracy, the best models' rules\nare often based on surface-level ``shortcuts'' and capture intended\nabstractions far less often than humans. Thus their capabilities for general\nabstract reasoning may be overestimated by evaluations based on accuracy alone.\nIn the visual modality, AI models' output accuracy drops sharply, yet our\nrule-level analysis reveals that models might be underestimated, as they still\nexhibit a substantial share of rules that capture intended abstractions, but\nare often unable to correctly apply these rules. In short, our results show\nthat models still lag humans in abstract reasoning, and that using accuracy\nalone to evaluate abstract reasoning on ARC-like tasks may overestimate\nabstract-reasoning capabilities in textual modalities and underestimate it in\nvisual modalities. We believe that our evaluation framework offers a more\nfaithful picture of multimodal models' abstract reasoning abilities and a more\nprincipled way to track progress toward human-like, abstraction-centered\nintelligence.",
+  "authors": [
+    "Claas Beger",
+    "Ryan Yi",
+    "Shuhao Fu",
+    "Arseny Moskvichev",
+    "Sarah W. Tsai",
+    "Sivasankaran Rajamanickam",
+    "Melanie Mitchell"
+  ],
+  "published": "2025-10-02T15:35:10Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.02125v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究评估AI模型在ConceptARC基准上的抽象推理能力，发现尽管某些文本模型在准确率上接近人类水平，但其规则分析显示模型多依赖表面特征而非深层抽象推理。视觉模态下模型准确率下降，但仍能生成部分有效抽象规则。研究表明仅凭准确率评估会高估文本模态的推理能力，低估视觉模态潜力，提出了更全面的多模态抽象推理评估框架。",
+  "order": 352,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02125v1"
+}

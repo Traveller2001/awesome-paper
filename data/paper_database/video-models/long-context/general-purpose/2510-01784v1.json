@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01784v1",
+  "title": "Pack and Force Your Memory: Long-form and Consistent Video Generation",
+  "summary": "Long-form video generation presents a dual challenge: models must capture\nlong-range dependencies while preventing the error accumulation inherent in\nautoregressive decoding. To address these challenges, we make two\ncontributions. First, for dynamic context modeling, we propose MemoryPack, a\nlearnable context-retrieval mechanism that leverages both textual and image\ninformation as global guidance to jointly model short- and long-term\ndependencies, achieving minute-level temporal consistency. This design scales\ngracefully with video length, preserves computational efficiency, and maintains\nlinear complexity. Second, to mitigate error accumulation, we introduce Direct\nForcing, an efficient single-step approximating strategy that improves\ntraining-inference alignment and thereby curtails error propagation during\ninference. Together, MemoryPack and Direct Forcing substantially enhance the\ncontext consistency and reliability of long-form video generation, advancing\nthe practical usability of autoregressive video models.",
+  "authors": [
+    "Xiaofei Wu",
+    "Guozhen Zhang",
+    "Zhiyong Xu",
+    "Yuan Zhou",
+    "Qinglin Lu",
+    "Xuming He"
+  ],
+  "published": "2025-10-02T08:22:46Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01784v1",
+  "primary_area": "video_models",
+  "secondary_focus": "long_context",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MemoryPack和Direct Forcing两种方法解决长视频生成的双重挑战：MemoryPack通过可学习的上下文检索机制联合建模短长期依赖，实现分钟级时序一致性；Direct Forcing通过单步近似策略改善训练-推理对齐，减少误差累积。两者结合显著提升了长视频生成的上下文一致性和可靠性。",
+  "order": 544,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01784v1"
+}

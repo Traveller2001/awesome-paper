@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.07284v1",
+  "title": "Online Rubrics Elicitation from Pairwise Comparisons",
+  "summary": "Rubrics provide a flexible way to train LLMs on open-ended long-form answers\nwhere verifiable rewards are not applicable and human preferences provide\ncoarse signals. Prior work shows that reinforcement learning with rubric-based\nrewards leads to consistent gains in LLM post-training. Most existing\napproaches rely on rubrics that remain static over the course of training. Such\nstatic rubrics, however, are vulnerable to reward-hacking type behaviors and\nfail to capture emergent desiderata that arise during training. We introduce\nOnline Rubrics Elicitation (OnlineRubrics), a method that dynamically curates\nevaluation criteria in an online manner through pairwise comparisons of\nresponses from current and reference policies. This online process enables\ncontinuous identification and mitigation of errors as training proceeds.\nEmpirically, this approach yields consistent improvements of up to 8% over\ntraining exclusively with static rubrics across AlpacaEval, GPQA, ArenaHard as\nwell as the validation sets of expert questions and rubrics. We qualitatively\nanalyze the elicited criteria and identify prominent themes such as\ntransparency, practicality, organization, and reasoning.",
+  "authors": [
+    "MohammadHossein Rezaei",
+    "Robert Vacareanu",
+    "Zihao Wang",
+    "Clinton Wang",
+    "Yunzhong He",
+    "Afra Feyza Akyürek"
+  ],
+  "published": "2025-10-08T17:44:59Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07284v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出OnlineRubrics方法，通过在线成对比较动态生成评估标准，解决静态评分标准在LLM训练中的局限性。实验表明该方法在多个基准上比静态标准提升达8%，并能自动识别透明度、实用性等关键评估维度。",
+  "order": 29,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07284v1"
+}

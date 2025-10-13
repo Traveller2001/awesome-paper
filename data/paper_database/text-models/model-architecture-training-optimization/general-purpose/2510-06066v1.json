@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06066v1",
+  "title": "Analyzing the Effect of Embedding Norms and Singular Values to\n  Oversmoothing in Graph Neural Networks",
+  "summary": "In this paper, we study the factors that contribute to the effect of\noversmoothing in deep Graph Neural Networks (GNNs). Specifically, our analysis\nis based on a new metric (Mean Average Squared Distance - $MASED$) to quantify\nthe extent of oversmoothing. We derive layer-wise bounds on $MASED$, which\naggregate to yield global upper and lower distance bounds. Based on this\nquantification of oversmoothing, we further analyze the importance of two\ndifferent properties of the model; namely the norms of the generated node\nembeddings, along with the largest and smallest singular values of the weight\nmatrices. Building on the insights drawn from the theoretical analysis, we show\nthat oversmoothing increases as the number of trainable weight matrices and the\nnumber of adjacency matrices increases. We also use the derived layer-wise\nbounds on $MASED$ to form a proposal for decoupling the number of hops (i.e.,\nadjacency depth) from the number of weight matrices. In particular, we\nintroduce G-Reg, a regularization scheme that increases the bounds, and\ndemonstrate through extensive experiments that by doing so node classification\naccuracy increases, achieving robustness at large depths. We further show that\nby reducing oversmoothing in deep networks, we can achieve better results in\nsome tasks than using shallow ones. Specifically, we experiment with a ``cold\nstart\" scenario, i.e., when there is no feature information for the unlabeled\nnodes. Finally, we show empirically the trade-off between receptive field size\n(i.e., number of weight matrices) and performance, using the $MASED$ bounds.\nThis is achieved by distributing adjacency hops across a small number of\ntrainable layers, avoiding the extremes of under- or over-parameterization of\nthe GNN.",
+  "authors": [
+    "Dimitrios Kelesis",
+    "Dimitris Fotakis",
+    "Georgios Paliouras"
+  ],
+  "published": "2025-10-07T15:55:28Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06066v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出MASED指标量化图神经网络中的过度平滑现象，通过分析节点嵌入范数和权重矩阵奇异值，揭示了深度GNN中过度平滑的成因。作者提出G-Reg正则化方案，成功实现邻接深度与权重矩阵数量的解耦，在深度网络中提升节点分类精度，并在冷启动场景下优于浅层网络，同时探索了感受野大小与性能的平衡。",
+  "order": 99,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06066v1"
+}

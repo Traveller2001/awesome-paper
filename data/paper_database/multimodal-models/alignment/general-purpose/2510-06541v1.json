@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06541v1",
+  "title": "Cluster Paths: Navigating Interpretability in Neural Networks",
+  "summary": "While modern deep neural networks achieve impressive performance in vision\ntasks, they remain opaque in their decision processes, risking unwarranted\ntrust, undetected biases and unexpected failures. We propose cluster paths, a\npost-hoc interpretability method that clusters activations at selected layers\nand represents each input as its sequence of cluster IDs. To assess these\ncluster paths, we introduce four metrics: path complexity (cognitive load),\nweighted-path purity (class alignment), decision-alignment faithfulness\n(predictive fidelity), and path agreement (stability under perturbations). In a\nspurious-cue CIFAR-10 experiment, cluster paths identify color-based shortcuts\nand collapse when the cue is removed. On a five-class CelebA hair-color task,\nthey achieve 90% faithfulness and maintain 96% agreement under Gaussian noise\nwithout sacrificing accuracy. Scaling to a Vision Transformer pretrained on\nImageNet, we extend cluster paths to concept paths derived from prompting a\nlarge language model on minimal path divergences. Finally, we show that cluster\npaths can serve as an effective out-of-distribution (OOD) detector, reliably\nflagging anomalous samples before the model generates over-confident\npredictions. Cluster paths uncover visual concepts, such as color palettes,\ntextures, or object contexts, at multiple network depths, demonstrating that\ncluster paths scale to large vision models while generating concise and\nhuman-readable explanations.",
+  "authors": [
+    "Nicholas M. Kroeger",
+    "Vincent Bindschaedler"
+  ],
+  "published": "2025-10-08T00:41:09Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06541v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出'聚类路径'方法，通过聚类神经网络激活值生成可解释的决策路径，在CIFAR-10和CelebA实验中验证了其识别伪线索、保持预测忠实度和稳定性的能力，并可扩展至Vision Transformer实现概念路径分析，同时证明其能有效检测分布外样本。",
+  "order": 162,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06541v1"
+}

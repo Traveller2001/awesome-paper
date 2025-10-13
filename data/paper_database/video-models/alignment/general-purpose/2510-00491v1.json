@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00491v1",
+  "title": "From Human Hands to Robot Arms: Manipulation Skills Transfer via\n  Trajectory Alignment",
+  "summary": "Learning diverse manipulation skills for real-world robots is severely\nbottlenecked by the reliance on costly and hard-to-scale teleoperated\ndemonstrations. While human videos offer a scalable alternative, effectively\ntransferring manipulation knowledge is fundamentally hindered by the\nsignificant morphological gap between human and robotic embodiments. To address\nthis challenge and facilitate skill transfer from human to robot, we introduce\nTraj2Action,a novel framework that bridges this embodiment gap by using the 3D\ntrajectory of the operational endpoint as a unified intermediate\nrepresentation, and then transfers the manipulation knowledge embedded in this\ntrajectory to the robot's actions. Our policy first learns to generate a coarse\ntrajectory, which forms an high-level motion plan by leveraging both human and\nrobot data. This plan then conditions the synthesis of precise, robot-specific\nactions (e.g., orientation and gripper state) within a co-denoising framework.\nExtensive real-world experiments on a Franka robot demonstrate that Traj2Action\nboosts the performance by up to 27% and 22.25% over $\\pi_0$ baseline on short-\nand long-horizon real-world tasks, and achieves significant gains as human data\nscales in robot policy learning. Our project website, featuring code and video\ndemonstrations, is available at\nhttps://anonymous.4open.science/w/Traj2Action-4A45/.",
+  "authors": [
+    "Han Zhou",
+    "Jinjin Cao",
+    "Liyuan Ma",
+    "Xueji Fang",
+    "Guo-jun Qi"
+  ],
+  "published": "2025-10-01T04:21:12Z",
+  "primary_category": "cs.RO",
+  "arxiv_url": "https://arxiv.org/abs/2510.00491v1",
+  "primary_area": "video_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出Traj2Action框架，通过3D轨迹对齐解决人机形态差异，将人类操作技能转化为机器人动作，在真实机器人实验中性能提升最高达27%",
+  "order": 299,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00491v1"
+}

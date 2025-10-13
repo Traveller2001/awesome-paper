@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01641v1",
+  "title": "FideDiff: Efficient Diffusion Model for High-Fidelity Image Motion\n  Deblurring",
+  "summary": "Recent advancements in image motion deblurring, driven by CNNs and\ntransformers, have made significant progress. Large-scale pre-trained diffusion\nmodels, which are rich in true-world modeling, have shown great promise for\nhigh-quality image restoration tasks such as deblurring, demonstrating stronger\ngenerative capabilities than CNN and transformer-based methods. However,\nchallenges such as unbearable inference time and compromised fidelity still\nlimit the full potential of the diffusion models. To address this, we introduce\nFideDiff, a novel single-step diffusion model designed for high-fidelity\ndeblurring. We reformulate motion deblurring as a diffusion-like process where\neach timestep represents a progressively blurred image, and we train a\nconsistency model that aligns all timesteps to the same clean image. By\nreconstructing training data with matched blur trajectories, the model learns\ntemporal consistency, enabling accurate one-step deblurring. We further enhance\nmodel performance by integrating Kernel ControlNet for blur kernel estimation\nand introducing adaptive timestep prediction. Our model achieves superior\nperformance on full-reference metrics, surpassing previous diffusion-based\nmethods and matching the performance of other state-of-the-art models. FideDiff\noffers a new direction for applying pre-trained diffusion models to\nhigh-fidelity image restoration tasks, establishing a robust baseline for\nfurther advancing diffusion models in real-world industrial applications. Our\ndataset and code will be available at https://github.com/xyLiu339/FideDiff.",
+  "authors": [
+    "Xiaoyang Liu",
+    "Zhengyan Zhou",
+    "Zihang Xu",
+    "Jiezhang Cao",
+    "Zheng Chen",
+    "Yulun Zhang"
+  ],
+  "published": "2025-10-02T03:44:45Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01641v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "FideDiff是一种高效的单步扩散模型，用于高保真图像运动去模糊。通过将运动模糊重新定义为扩散过程，训练一致性模型将所有时间步对齐到清晰图像，结合模糊核估计和自适应时间步预测，在保持高质量的同时显著减少推理时间，为扩散模型在图像恢复任务中的实际应用提供了新方向。",
+  "order": 563,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01641v1"
+}

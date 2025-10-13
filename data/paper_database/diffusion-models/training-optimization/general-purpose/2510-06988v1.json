@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06988v1",
+  "title": "No MoCap Needed: Post-Training Motion Diffusion Models with\n  Reinforcement Learning using Only Textual Prompts",
+  "summary": "Diffusion models have recently advanced human motion generation, producing\nrealistic and diverse animations from textual prompts. However, adapting these\nmodels to unseen actions or styles typically requires additional motion capture\ndata and full retraining, which is costly and difficult to scale. We propose a\npost-training framework based on Reinforcement Learning that fine-tunes\npretrained motion diffusion models using only textual prompts, without\nrequiring any motion ground truth. Our approach employs a pretrained\ntext-motion retrieval network as a reward signal and optimizes the diffusion\npolicy with Denoising Diffusion Policy Optimization, effectively shifting the\nmodel's generative distribution toward the target domain without relying on\npaired motion data. We evaluate our method on cross-dataset adaptation and\nleave-one-out motion experiments using the HumanML3D and KIT-ML datasets across\nboth latent- and joint-space diffusion architectures. Results from quantitative\nmetrics and user studies show that our approach consistently improves the\nquality and diversity of generated motions, while preserving performance on the\noriginal distribution. Our approach is a flexible, data-efficient, and\nprivacy-preserving solution for motion adaptation.",
+  "authors": [
+    "Girolamo Macaluso",
+    "Lorenzo Mandelli",
+    "Mirko Bicchierai",
+    "Stefano Berretti",
+    "Andrew D. Bagdanov"
+  ],
+  "published": "2025-10-08T13:12:10Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06988v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于强化学习的后训练框架，仅使用文本提示即可微调预训练的运动扩散模型，无需运动捕捉数据。该方法通过文本-运动检索网络作为奖励信号，利用去噪扩散策略优化技术，有效将模型生成分布迁移至目标领域，在HumanML3D和KIT-ML数据集上验证了其在跨数据集适应和留一法运动实验中的有效性。",
+  "order": 123,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06988v1"
+}

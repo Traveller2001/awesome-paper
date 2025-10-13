@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.01782v1",
+  "title": "Can LLMs Refuse Questions They Do Not Know? Measuring Knowledge-Aware\n  Refusal in Factual Tasks",
+  "summary": "Large Language Models (LLMs) should refuse to answer questions beyond their\nknowledge. This capability, which we term knowledge-aware refusal, is crucial\nfor factual reliability. However, existing metrics fail to faithfully measure\nthis ability. On the one hand, simple refusal-based metrics are biased by\nrefusal rates and yield inconsistent scores when models exhibit different\nrefusal tendencies. On the other hand, existing calibration metrics are\nproxy-based, capturing the performance of auxiliary calibration processes\nrather than the model's actual refusal behavior. In this work, we propose the\nRefusal Index (RI), a principled metric that measures how accurately LLMs\nrefuse questions they do not know. We define RI as Spearman's rank correlation\nbetween refusal probability and error probability. To make RI practically\nmeasurable, we design a lightweight two-pass evaluation method that efficiently\nestimates RI from observed refusal rates across two standard evaluation runs.\nExtensive experiments across 16 models and 5 datasets demonstrate that RI\naccurately quantifies a model's intrinsic knowledge-aware refusal capability in\nfactual tasks. Notably, RI remains stable across different refusal rates and\nprovides consistent model rankings independent of a model's overall accuracy\nand refusal rates. More importantly, RI provides insight into an important but\npreviously overlooked aspect of LLM factuality: while LLMs achieve high\naccuracy on factual tasks, their refusal behavior can be unreliable and\nfragile. This finding highlights the need to complement traditional accuracy\nmetrics with the Refusal Index for comprehensive factuality evaluation.",
+  "authors": [
+    "Wenbo Pan",
+    "Jie Xu",
+    "Qiguang Chen",
+    "Junhao Dong",
+    "Libo Qin",
+    "Xinfeng Li",
+    "Haining Yu",
+    "Xiaohua Jia"
+  ],
+  "published": "2025-10-02T08:20:36Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01782v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Refusal Index(RI)指标，用于衡量大语言模型在事实性任务中拒绝回答未知问题的能力。RI通过拒绝概率与错误概率的秩相关性计算，实验表明该指标能稳定评估模型的知识感知拒绝能力，揭示LLMs即使准确率高，其拒绝行为仍不可靠。",
+  "order": 371,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01782v1"
+}

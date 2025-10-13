@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01934v1",
+  "title": "Foundation Visual Encoders Are Secretly Few-Shot Anomaly Detectors",
+  "summary": "Few-shot anomaly detection streamlines and simplifies industrial safety\ninspection. However, limited samples make accurate differentiation between\nnormal and abnormal features challenging, and even more so under\ncategory-agnostic conditions. Large-scale pre-training of foundation visual\nencoders has advanced many fields, as the enormous quantity of data helps to\nlearn the general distribution of normal images. We observe that the anomaly\namount in an image directly correlates with the difference in the learnt\nembeddings and utilize this to design a few-shot anomaly detector termed\nFoundAD. This is done by learning a nonlinear projection operator onto the\nnatural image manifold. The simple operator acts as an effective tool for\nanomaly detection to characterize and identify out-of-distribution regions in\nan image. Extensive experiments show that our approach supports multi-class\ndetection and achieves competitive performance while using substantially fewer\nparameters than prior methods. Backed up by evaluations with multiple\nfoundation encoders, including fresh DINOv3, we believe this idea broadens the\nperspective on foundation features and advances the field of few-shot anomaly\ndetection.",
+  "authors": [
+    "Guangyao Zhai",
+    "Yue Zhou",
+    "Xinyan Deng",
+    "Lars Heckler",
+    "Nassir Navab",
+    "Benjamin Busam"
+  ],
+  "published": "2025-10-02T11:53:20Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01934v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出FoundAD方法，利用基础视觉编码器作为少样本异常检测器。通过非线性投影算子学习自然图像流形，在少量样本下有效识别图像中的异常区域。实验表明该方法支持多类检测且参数更少，性能优于现有方法。",
+  "order": 774,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01934v1"
+}

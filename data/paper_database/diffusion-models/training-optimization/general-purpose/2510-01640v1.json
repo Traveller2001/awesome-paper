@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01640v1",
+  "title": "Joint Deblurring and 3D Reconstruction for Macrophotography",
+  "summary": "Macro lens has the advantages of high resolution and large magnification, and\n3D modeling of small and detailed objects can provide richer information.\nHowever, defocus blur in macrophotography is a long-standing problem that\nheavily hinders the clear imaging of the captured objects and high-quality 3D\nreconstruction of them. Traditional image deblurring methods require a large\nnumber of images and annotations, and there is currently no multi-view 3D\nreconstruction method for macrophotography. In this work, we propose a joint\ndeblurring and 3D reconstruction method for macrophotography. Starting from\nmulti-view blurry images captured, we jointly optimize the clear 3D model of\nthe object and the defocus blur kernel of each pixel. The entire framework\nadopts a differentiable rendering method to self-supervise the optimization of\nthe 3D model and the defocus blur kernel. Extensive experiments show that from\na small number of multi-view images, our proposed method can not only achieve\nhigh-quality image deblurring but also recover high-fidelity 3D appearance.",
+  "authors": [
+    "Yifan Zhao",
+    "Liangchen Li",
+    "Yuqi Zhou",
+    "Kai Wang",
+    "Yan Liang",
+    "Juyong Zhang"
+  ],
+  "published": "2025-10-02T03:43:05Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01640v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出一种联合去模糊与3D重建方法，通过可微分渲染技术同时优化清晰3D模型和散焦模糊核，仅需少量多视角模糊图像即可实现高质量去模糊和高保真3D外观恢复。",
+  "order": 564,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01640v1"
+}

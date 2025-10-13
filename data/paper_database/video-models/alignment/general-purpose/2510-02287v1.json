@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.02287v1",
+  "title": "MultiModal Action Conditioned Video Generation",
+  "summary": "Current video models fail as world model as they lack fine-graiend control.\nGeneral-purpose household robots require real-time fine motor control to handle\ndelicate tasks and urgent situations. In this work, we introduce fine-grained\nmultimodal actions to capture such precise control. We consider senses of\nproprioception, kinesthesia, force haptics, and muscle activation. Such\nmultimodal senses naturally enables fine-grained interactions that are\ndifficult to simulate with text-conditioned generative models. To effectively\nsimulate fine-grained multisensory actions, we develop a feature learning\nparadigm that aligns these modalities while preserving the unique information\neach modality provides. We further propose a regularization scheme to enhance\ncausality of the action trajectory features in representing intricate\ninteraction dynamics. Experiments show that incorporating multimodal senses\nimproves simulation accuracy and reduces temporal drift. Extensive ablation\nstudies and downstream applications demonstrate the effectiveness and\npracticality of our work.",
+  "authors": [
+    "Yichen Li",
+    "Antonio Torralba"
+  ],
+  "published": "2025-10-02T17:57:06Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02287v1",
+  "primary_area": "video_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种多模态动作条件视频生成方法，通过整合本体感觉、运动觉、力触觉和肌肉激活等精细控制信号，解决了现有视频模型缺乏细粒度控制的问题。开发的特征学习范式能对齐多模态信息同时保留各自特性，并通过正则化增强动作轨迹特征的因果性，实验表明该方法提高了模拟精度并减少了时间漂移。",
+  "order": 496,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02287v1"
+}

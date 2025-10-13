@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05534v1",
+  "title": "On the Role of Difficult Prompts in Self-Play Preference Optimization",
+  "summary": "Self-play preference optimization has emerged as a prominent paradigm for\naligning large language models (LLMs). It typically involves a language model\nto generate on-policy responses for prompts and a reward model (RM) to guide\nthe selection of chosen and rejected responses, which can be further trained\nwith direct preference optimization (DPO). However, the role of prompts remains\nunderexplored, despite being a core component in this pipeline. In this work,\nwe investigate how prompts of varying difficulty influence self-play preference\noptimization. We first use the mean reward of $N$ sampled responses of a prompt\nas a proxy for its difficulty. We find that difficult prompts exhibit\nsubstantially inferior self-play optimization performance in comparison to easy\nprompts for language models. Moreover, incorporating difficult prompts into\ntraining fails to enhance overall performance and, in fact, leads to slight\ndegradation compared to training on easy prompts alone. We also observe that\nthe performance gap between difficult and easy prompts closes as the model\ncapacity increases, suggesting that difficulty interacts with the model\ncapacity. Building on these findings, we explore strategies to mitigate the\nnegative effect of difficult prompts on final performance. We demonstrate that\nselectively removing an appropriate portion of challenging prompts enhances\noverall self-play performance, while also reporting failed attempts and lessons\nlearned.",
+  "authors": [
+    "Yao Xiao",
+    "Jung-jae Kim",
+    "Roy Ka-wei Lee",
+    "Lidong Bing"
+  ],
+  "published": "2025-10-07T02:47:25Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05534v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究提示难度在自博弈偏好优化中的作用，发现困难提示会降低语言模型优化效果，且模型容量与提示难度存在交互作用。通过选择性剔除困难提示可提升整体性能，为大模型对齐训练提供重要策略启示。",
+  "order": 49,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05534v1"
+}

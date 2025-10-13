@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06122v1",
+  "title": "PolyGraph Discrepancy: a classifier-based metric for graph generation",
+  "summary": "Existing methods for evaluating graph generative models primarily rely on\nMaximum Mean Discrepancy (MMD) metrics based on graph descriptors. While these\nmetrics can rank generative models, they do not provide an absolute measure of\nperformance. Their values are also highly sensitive to extrinsic parameters,\nnamely kernel and descriptor parametrization, making them incomparable across\ndifferent graph descriptors. We introduce PolyGraph Discrepancy (PGD), a new\nevaluation framework that addresses these limitations. It approximates the\nJensen-Shannon distance of graph distributions by fitting binary classifiers to\ndistinguish between real and generated graphs, featurized by these descriptors.\nThe data log-likelihood of these classifiers approximates a variational lower\nbound on the JS distance between the two distributions. Resulting metrics are\nconstrained to the unit interval [0,1] and are comparable across different\ngraph descriptors. We further derive a theoretically grounded summary metric\nthat combines these individual metrics to provide a maximally tight lower bound\non the distance for the given descriptors. Thorough experiments demonstrate\nthat PGD provides a more robust and insightful evaluation compared to MMD\nmetrics. The PolyGraph framework for benchmarking graph generative models is\nmade publicly available at https://github.com/BorgwardtLab/polygraph-benchmark.",
+  "authors": [
+    "Markus Krimmel",
+    "Philip Hartout",
+    "Karsten Borgwardt",
+    "Dexiong Chen"
+  ],
+  "published": "2025-10-07T17:02:44Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06122v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出PolyGraph差异度（PGD），一种基于分类器的图生成模型评估框架。通过训练二元分类器区分真实与生成图，PGD近似计算图分布间的Jensen-Shannon距离，解决了传统MMD指标对参数敏感、无法跨描述符比较的问题。该指标约束在[0,1]区间，并提供理论严谨的综合度量，实验证明比MMD更鲁棒且具解释性。",
+  "order": 92,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06122v1"
+}

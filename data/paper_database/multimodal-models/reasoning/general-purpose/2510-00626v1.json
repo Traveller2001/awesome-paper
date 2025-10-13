@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00626v1",
+  "title": "When Silence Matters: The Impact of Irrelevant Audio on Text Reasoning\n  in Large Audio-Language Models",
+  "summary": "Large audio-language models (LALMs) unify speech and text processing, but\ntheir robustness in noisy real-world settings remains underexplored. We\ninvestigate how irrelevant audio, such as silence, synthetic noise, and\nenvironmental sounds, affects text reasoning tasks where audio is unnecessary.\nAcross three text-based benchmarks, we find that even non-informative audio\nreduces accuracy and increases prediction volatility; the severity of\ninterference scales with longer durations, higher amplitudes, and elevated\ndecoding temperatures. Silence, often assumed neutral, destabilizes outputs as\nstrongly as synthetic noise. While larger models show greater resilience,\nvulnerabilities persist across all evaluated systems. We further test\nmitigation strategies and find that prompting shows limited effectiveness,\nwhereas self-consistency improves stability at the cost of increased\ncomputation. Our results reveal cross-modal interference as a key robustness\nchallenge and highlight the need for efficient fusion strategies that preserve\nreasoning performance in the presence of irrelevant inputs.",
+  "authors": [
+    "Chen-An Li",
+    "Tzu-Han Lin",
+    "Hung-yi Lee"
+  ],
+  "published": "2025-10-01T07:59:45Z",
+  "primary_category": "cs.SD",
+  "arxiv_url": "https://arxiv.org/abs/2510.00626v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探讨大型音频-语言模型中无关音频（包括静音、合成噪声和环境声音）对文本推理任务的影响。研究发现即使非信息性音频也会降低准确性并增加预测波动性，静音的干扰程度与合成噪声相当。虽然较大模型表现出更强韧性，但所有系统均存在脆弱性。缓解策略中提示效果有限，而自一致性方法可提高稳定性但增加计算成本。",
+  "order": 462,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00626v1"
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.02166v1",
+  "title": "SIEVE: Towards Verifiable Certification for Code-datasets",
+  "summary": "Code agents and empirical software engineering rely on public code datasets,\nyet these datasets lack verifiable quality guarantees. Static 'dataset cards'\ninform, but they are neither auditable nor do they offer statistical\nguarantees, making it difficult to attest to dataset quality. Teams build\nisolated, ad-hoc cleaning pipelines. This fragments effort and raises cost. We\npresent SIEVE, a community-driven framework. It turns per-property checks into\nConfidence Cards-machine-readable, verifiable certificates with anytime-valid\nstatistical bounds. We outline a research plan to bring SIEVE to maturity,\nreplacing narrative cards with anytime-verifiable certification. This shift is\nexpected to lower quality-assurance costs and increase trust in code-datasets.",
+  "authors": [
+    "Fatou Ndiaye Mbodji",
+    "El-hacen Diallo",
+    "Jordan Samhi",
+    "Kui Liu",
+    "Jacques Klein",
+    "Tegawendé F. Bissyande"
+  ],
+  "published": "2025-10-02T16:14:23Z",
+  "primary_category": "cs.SE",
+  "arxiv_url": "https://arxiv.org/abs/2510.02166v1",
+  "primary_area": "text_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "code_generation",
+  "tldr_zh": "SIEVE是一个社区驱动的框架，旨在为代码数据集提供可验证的质量认证。它将属性检查转化为机器可读的置信卡，包含随时有效的统计边界，以取代传统的叙述性数据集卡片，降低质量保证成本并增强对代码数据集的信任。",
+  "order": 35,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02166v1"
+}

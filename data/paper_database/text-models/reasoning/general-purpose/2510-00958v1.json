@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.00958v1",
+  "title": "Test-Time Search in Neural Graph Coarsening Procedures for the\n  Capacitated Vehicle Routing Problem",
+  "summary": "The identification of valid inequalities, such as the rounded capacity\ninequalities (RCIs), is a key component of cutting plane methods for the\nCapacitated Vehicle Routing Problem (CVRP). While a deep learning-based\nseparation method can learn to find high-quality cuts, our analysis reveals\nthat the model produces fewer cuts than expected because it is insufficiently\nsensitive to generate a diverse set of generated subsets. This paper proposes\nan alternative: enhancing the performance of a trained model at inference time\nthrough a new test-time search with stochasticity. First, we introduce\nstochastic edge selection into the graph coarsening procedure, replacing the\npreviously proposed greedy approach. Second, we propose the Graph Coarsening\nHistory-based Partitioning (GraphCHiP) algorithm, which leverages coarsening\nhistory to identify not only RCIs but also, for the first time, the Framed\ncapacity inequalities (FCIs). Experiments on randomly generated CVRP instances\ndemonstrate the effectiveness of our approach in reducing the dual gap compared\nto the existing neural separation method. Additionally, our method discovers\neffective FCIs on a specific instance, despite the challenging nature of\nidentifying such cuts.",
+  "authors": [
+    "Yoonju Sim",
+    "Hyeonah Kim",
+    "Changhyun Kwon"
+  ],
+  "published": "2025-10-01T14:31:36Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00958v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对带容量约束的车辆路径问题，提出了一种测试时搜索方法改进神经图粗化过程。通过引入随机边选择和基于粗化历史的分割算法，有效提升了切割平面的生成质量和多样性，显著减少了对偶间隙，并能首次识别框架容量不等式。",
+  "order": 214,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00958v1"
+}

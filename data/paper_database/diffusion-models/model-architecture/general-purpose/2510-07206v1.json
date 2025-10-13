@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.07206v1",
+  "title": "EigenScore: OOD Detection using Covariance in Diffusion Models",
+  "summary": "Out-of-distribution (OOD) detection is critical for the safe deployment of\nmachine learning systems in safety-sensitive domains. Diffusion models have\nrecently emerged as powerful generative models, capable of capturing complex\ndata distributions through iterative denoising. Building on this progress,\nrecent work has explored their potential for OOD detection. We propose\nEigenScore, a new OOD detection method that leverages the eigenvalue spectrum\nof the posterior covariance induced by a diffusion model. We argue that\nposterior covariance provides a consistent signal of distribution shift,\nleading to larger trace and leading eigenvalues on OOD inputs, yielding a clear\nspectral signature. We further provide analysis explicitly linking posterior\ncovariance to distribution mismatch, establishing it as a reliable signal for\nOOD detection. To ensure tractability, we adopt a Jacobian-free subspace\niteration method to estimate the leading eigenvalues using only forward\nevaluations of the denoiser. Empirically, EigenScore achieves SOTA performance,\nwith up to 5% AUROC improvement over the best baseline. Notably, it remains\nrobust in near-OOD settings such as CIFAR-10 vs CIFAR-100, where existing\ndiffusion-based methods often fail.",
+  "authors": [
+    "Shirin Shoushtari",
+    "Yi Wang",
+    "Xiao Shi",
+    "M. Salman Asif",
+    "Ulugbek S. Kamilov"
+  ],
+  "published": "2025-10-08T16:42:20Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.07206v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出EigenScore方法，利用扩散模型中后验协方差矩阵的特征值谱进行分布外检测。通过分析协方差矩阵的迹和主导特征值，该方法能有效识别分布偏移，在近分布外场景下表现稳健，并在多个基准测试中实现SOTA性能，AUROC指标最高提升5%。",
+  "order": 110,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07206v1"
+}

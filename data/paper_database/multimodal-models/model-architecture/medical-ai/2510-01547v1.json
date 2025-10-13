@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01547v1",
+  "title": "Robust Classification of Oral Cancer with Limited Training Data",
+  "summary": "Oral cancer ranks among the most prevalent cancers globally, with a\nparticularly high mortality rate in regions lacking adequate healthcare access.\nEarly diagnosis is crucial for reducing mortality; however, challenges persist\ndue to limited oral health programs, inadequate infrastructure, and a shortage\nof healthcare practitioners. Conventional deep learning models, while\npromising, often rely on point estimates, leading to overconfidence and reduced\nreliability. Critically, these models require large datasets to mitigate\noverfitting and ensure generalizability, an unrealistic demand in settings with\nlimited training data. To address these issues, we propose a hybrid model that\ncombines a convolutional neural network (CNN) with Bayesian deep learning for\noral cancer classification using small training sets. This approach employs\nvariational inference to enhance reliability through uncertainty\nquantification. The model was trained on photographic color images captured by\nsmartphones and evaluated on three distinct test datasets. The proposed method\nachieved 94% accuracy on a test dataset with a distribution similar to that of\nthe training data, comparable to traditional CNN performance. Notably, for\nreal-world photographic image data, despite limitations and variations\ndiffering from the training dataset, the proposed model demonstrated superior\ngeneralizability, achieving 88% accuracy on diverse datasets compared to 72.94%\nfor traditional CNNs, even with a smaller dataset. Confidence analysis revealed\nthat the model exhibits low uncertainty (high confidence) for correctly\nclassified samples and high uncertainty (low confidence) for misclassified\nsamples. These results underscore the effectiveness of Bayesian inference in\ndata-scarce environments in enhancing early oral cancer diagnosis by improving\nmodel reliability and generalizability.",
+  "authors": [
+    "Akshay Bhagwan Sonawane",
+    "Lena D. Swamikannan",
+    "Lakshman Tamil"
+  ],
+  "published": "2025-10-02T00:40:53Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01547v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出一种结合CNN与贝叶斯深度学习的混合模型，用于小样本口腔癌分类。通过变分推理进行不确定性量化，在智能手机拍摄的彩色图像上实现94%的准确率，并在分布外数据上展现出优于传统CNN的泛化能力（88% vs 72.94%），有效提升了数据稀缺环境下的口腔癌早期诊断可靠性。",
+  "order": 573,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01547v1"
+}

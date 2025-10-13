@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06203v1",
+  "title": "Reference Grounded Skill Discovery",
+  "summary": "Scaling unsupervised skill discovery algorithms to high-DoF agents remains\nchallenging. As dimensionality increases, the exploration space grows\nexponentially, while the manifold of meaningful skills remains limited.\nTherefore, semantic meaningfulness becomes essential to effectively guide\nexploration in high-dimensional spaces. In this work, we present\nReference-Grounded Skill Discovery (RGSD), a novel algorithm that grounds skill\ndiscovery in a semantically meaningful latent space using reference data. RGSD\nfirst performs contrastive pretraining to embed motions on a unit hypersphere,\nclustering each reference trajectory into a distinct direction. This grounding\nenables skill discovery to simultaneously involve both imitation of reference\nbehaviors and the discovery of semantically related diverse behaviors. On a\nsimulated SMPL humanoid with 359-D observations and 69-D actions, RGSD learns\nstructured skills including walking, running, punching, and side stepping, and\nalso discovers related novel behaviors. In downstream control tasks, RGSD\noutperforms imitation-based skill acquisition baselines. Our results suggest\nthat lightweight reference-guided grounding offers a practical path to\ndiscovering semantically rich and structured skills in high-DoF systems.",
+  "authors": [
+    "Seungeun Rho",
+    "Aaron Trinh",
+    "Danfei Xu",
+    "Sehoon Ha"
+  ],
+  "published": "2025-10-07T17:55:01Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06203v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出参考数据驱动的技能发现算法RGSD，通过对比预训练将动作嵌入单位超球面，将参考轨迹聚类为不同方向，在高自由度模拟人形机器人上成功发现了行走、跑步、击拳等结构化技能及相关新行为，在后续控制任务中优于基于模仿的技能获取基线方法。",
+  "order": 81,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06203v1"
+}

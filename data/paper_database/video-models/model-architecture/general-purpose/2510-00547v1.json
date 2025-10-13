@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00547v1",
+  "title": "Forestpest-YOLO: A High-Performance Detection Framework for Small\n  Forestry Pests",
+  "summary": "Detecting agricultural pests in complex forestry environments using remote\nsensing imagery is fundamental for ecological preservation, yet it is severely\nhampered by practical challenges. Targets are often minuscule, heavily\noccluded, and visually similar to the cluttered background, causing\nconventional object detection models to falter due to the loss of fine-grained\nfeatures and an inability to handle extreme data imbalance. To overcome these\nobstacles, this paper introduces Forestpest-YOLO, a detection framework\nmeticulously optimized for the nuances of forestry remote sensing. Building\nupon the YOLOv8 architecture, our framework introduces a synergistic trio of\ninnovations. We first integrate a lossless downsampling module, SPD-Conv, to\nensure that critical high-resolution details of small targets are preserved\nthroughout the network. This is complemented by a novel cross-stage feature\nfusion block, CSPOK, which dynamically enhances multi-scale feature\nrepresentation while suppressing background noise. Finally, we employ\nVarifocalLoss to refine the training objective, compelling the model to focus\non high-quality and hard-to-classify samples. Extensive experiments on our\nchallenging, self-constructed ForestPest dataset demonstrate that\nForestpest-YOLO achieves state-of-the-art performance, showing marked\nimprovements in detecting small, occluded pests and significantly outperforming\nestablished baseline models.",
+  "authors": [
+    "Aoduo Li",
+    "Peikai Lin",
+    "Jiancheng Li",
+    "Zhen Zhang",
+    "Shiting Wu",
+    "Zexiao Liang",
+    "Zhifa Jiang"
+  ],
+  "published": "2025-10-01T06:06:40Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00547v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出Forestpest-YOLO框架，针对林业遥感图像中的小型害虫检测难题进行优化。该框架基于YOLOv8架构，引入SPD-Conv无损下采样模块、CSPOK跨阶段特征融合块和VarifocalLoss损失函数，在自建ForestPest数据集上实现了对小尺寸、遮挡害虫的先进检测性能。",
+  "order": 665,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00547v1"
+}

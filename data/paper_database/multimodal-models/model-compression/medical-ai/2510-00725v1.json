@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00725v1",
+  "title": "DEAP DIVE: Dataset Investigation with Vision transformers for EEG\n  evaluation",
+  "summary": "Accurately predicting emotions from brain signals has the potential to\nachieve goals such as improving mental health, human-computer interaction, and\naffective computing. Emotion prediction through neural signals offers a\npromising alternative to traditional methods, such as self-assessment and\nfacial expression analysis, which can be subjective or ambiguous. Measurements\nof the brain activity via electroencephalogram (EEG) provides a more direct and\nunbiased data source. However, conducting a full EEG is a complex,\nresource-intensive process, leading to the rise of low-cost EEG devices with\nsimplified measurement capabilities. This work examines how subsets of EEG\nchannels from the DEAP dataset can be used for sufficiently accurate emotion\nprediction with low-cost EEG devices, rather than fully equipped\nEEG-measurements. Using Continuous Wavelet Transformation to convert EEG data\ninto scaleograms, we trained a vision transformer (ViT) model for emotion\nclassification. The model achieved over 91,57% accuracy in predicting 4\nquadrants (high/low per arousal and valence) with only 12 measuring points\n(also referred to as channels). Our work shows clearly, that a significant\nreduction of input channels yields high results compared to state-of-the-art\nresults of 96,9% with 32 channels. Training scripts to reproduce our code can\nbe found here:\nhttps://gitlab.kit.edu/kit/aifb/ATKS/public/AutoSMiLeS/DEAP-DIVE.",
+  "authors": [
+    "Annemarie Hoffsommer",
+    "Helen Schneider",
+    "Svetlana Pavlitska",
+    "J. Marius Zöllner"
+  ],
+  "published": "2025-10-01T10:07:07Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00725v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出DEAP DIVE方法，利用视觉变换器(ViT)分析脑电图(EEG)信号进行情绪分类。通过连续小波变换将EEG数据转换为尺度图，仅使用12个测量通道即可实现91.57%的四象限情绪预测准确率，显著降低了传统32通道系统的复杂度，为低成本EEG设备在心理健康和人机交互等医疗AI应用提供了可行方案。",
+  "order": 634,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00725v1"
+}

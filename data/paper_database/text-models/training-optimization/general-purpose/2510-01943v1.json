@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.01943v1",
+  "title": "Smooth Quasar-Convex Optimization with Constraints",
+  "summary": "Quasar-convex functions form a broad nonconvex class with applications to\nlinear dynamical systems, generalized linear models, and Riemannian\noptimization, among others. Current nearly optimal algorithms work only in\naffine spaces due to the loss of one degree of freedom when working with\ngeneral convex constraints. Obtaining an accelerated algorithm that makes\nnearly optimal $\\widetilde{O}(1/(\\gamma\\sqrt{\\epsilon}))$ first-order queries\nto a $\\gamma$-quasar convex smooth function \\emph{with constraints} was\nindependently asked as an open problem in Mart\\'inez-Rubio (2022); Lezane,\nLanger, and Koolen (2024). In this work, we solve this question by designing an\ninexact accelerated proximal point algorithm that we implement using a\nfirst-order method achieving the aforementioned rate and, as a consequence, we\nimprove the complexity of the accelerated geodesically Riemannian optimization\nsolution in Mart\\'inez-Rubio (2022). We also analyze projected gradient descent\nand Frank-Wolfe algorithms in this constrained quasar-convex setting. To the\nbest of our knowledge, our work provides the first analyses of first-order\nmethods for quasar-convex smooth functions with general convex constraints.",
+  "authors": [
+    "David Martínez-Rubio"
+  ],
+  "published": "2025-10-02T12:07:05Z",
+  "primary_category": "math.OC",
+  "arxiv_url": "https://arxiv.org/abs/2510.01943v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文解决了带约束的准星凸平滑函数优化问题，提出了一种近似加速近端点算法，实现了近乎最优的查询复杂度，填补了该领域在凸约束条件下算法分析的空白，并改进了黎曼优化的计算复杂度。",
+  "order": 772,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01943v1"
+}

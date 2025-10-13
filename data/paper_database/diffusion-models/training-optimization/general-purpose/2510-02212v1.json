@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02212v1",
+  "title": "DiFFPO: Training Diffusion LLMs to Reason Fast and Furious via\n  Reinforcement Learning",
+  "summary": "We propose DiFFPO, Diffusion Fast and Furious Policy Optimization, a unified\nframework for training masked diffusion large language models (dLLMs) to reason\nnot only better (furious), but also faster via reinforcement learning (RL). We\nfirst unify the existing baseline approach such as d1 by proposing to train\nsurrogate policies via off-policy RL, whose likelihood is much more tractable\nas an approximation to the true dLLM policy. This naturally motivates a more\naccurate and informative two-stage likelihood approximation combined with\nimportance sampling correction, which leads to generalized RL algorithms with\nbetter sample efficiency and superior task performance. Second, we propose a\nnew direction of joint training efficient samplers/controllers of dLLMs policy.\nVia RL, we incentivize dLLMs' natural multi-token prediction capabilities by\nletting the model learn to adaptively allocate an inference threshold for each\nprompt. By jointly training the sampler, we yield better accuracies with lower\nnumber of function evaluations (NFEs) compared to training the model only,\nobtaining the best performance in improving the Pareto frontier of the\ninference-time compute of dLLMs. We showcase the effectiveness of our pipeline\nby training open source large diffusion language models over benchmark math and\nplanning tasks.",
+  "authors": [
+    "Hanyang Zhao",
+    "Dawen Liang",
+    "Wenpin Tang",
+    "David Yao",
+    "Nathan Kallus"
+  ],
+  "published": "2025-10-02T16:57:24Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02212v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "DiFFPO提出了一种基于强化学习的统一训练框架，用于优化掩码扩散大语言模型的推理能力。该方法通过离策略RL训练代理策略，结合两阶段似然近似和重要性采样校正，提升样本效率和任务性能。同时训练高效采样器，让模型自适应分配推理阈值，在减少函数评估次数的同时提高准确性，在数学和规划任务上展现了优越性能。",
+  "order": 722,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02212v1"
+}

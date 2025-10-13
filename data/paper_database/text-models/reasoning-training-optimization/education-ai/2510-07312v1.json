@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.07312v1",
+  "title": "h1: Bootstrapping LLMs to Reason over Longer Horizons via Reinforcement\n  Learning",
+  "summary": "Large language models excel at short-horizon reasoning tasks, but performance\ndrops as reasoning horizon lengths increase. Existing approaches to combat this\nrely on inference-time scaffolding or costly step-level supervision, neither of\nwhich scales easily. In this work, we introduce a scalable method to bootstrap\nlong-horizon reasoning capabilities using only existing, abundant short-horizon\ndata. Our approach synthetically composes simple problems into complex,\nmulti-step dependency chains of arbitrary length. We train models on this data\nusing outcome-only rewards under a curriculum that automatically increases in\ncomplexity, allowing RL training to be scaled much further without saturating.\nEmpirically, our method generalizes remarkably well: curriculum training on\ncomposed 6th-grade level math problems (GSM8K) boosts accuracy on longer,\ncompetition-level benchmarks (GSM-Symbolic, MATH-500, AIME) by up to 2.06x.\nImportantly, our long-horizon improvements are significantly higher than\nbaselines even at high pass@k, showing that models can learn new reasoning\npaths under RL. Theoretically, we show that curriculum RL with outcome rewards\nachieves an exponential improvement in sample complexity over full-horizon\ntraining, providing training signal comparable to dense supervision. h1\ntherefore introduces an efficient path towards scaling RL for long-horizon\nproblems using only existing data.",
+  "authors": [
+    "Sumeet Ramesh Motwani",
+    "Alesia Ivanova",
+    "Ziyang Cai",
+    "Philip Torr",
+    "Riashat Islam",
+    "Shital Shah",
+    "Christian Schroeder de Witt",
+    "Charles London"
+  ],
+  "published": "2025-10-08T17:58:41Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07312v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'training_optimization']",
+  "application_domain": "education_ai",
+  "tldr_zh": "本文提出一种基于强化学习的课程训练方法h1，通过将简单数学问题组合成复杂多步推理链，仅利用现有短程数据即可引导大语言模型发展长程推理能力。在GSM8K等数学问题上训练后，模型在竞赛级基准上的准确率提升最高达2.06倍，且样本复杂度呈指数级改进。",
+  "order": 164,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07312v1"
+}

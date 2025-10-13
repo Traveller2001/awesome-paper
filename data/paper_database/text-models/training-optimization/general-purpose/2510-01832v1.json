@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.01832v1",
+  "title": "SCRIBES: Web-Scale Script-Based Semi-Structured Data Extraction with\n  Reinforcement Learning",
+  "summary": "Semi-structured content in HTML tables, lists, and infoboxes accounts for a\nsubstantial share of factual data on the web, yet the formatting complicates\nusage, and reliably extracting structured information from them remains\nchallenging. Existing methods either lack generalization or are\nresource-intensive due to per-page LLM inference. In this paper, we introduce\nSCRIBES (SCRIpt-Based Semi-Structured Content Extraction at Web-Scale), a novel\nreinforcement learning framework that leverages layout similarity across\nwebpages within the same site as a reward signal. Instead of processing each\npage individually, SCRIBES generates reusable extraction scripts that can be\napplied to groups of structurally similar webpages. Our approach further\nimproves by iteratively training on synthetic annotations from in-the-wild\nCommonCrawl data. Experiments show that our approach outperforms strong\nbaselines by over 13% in script quality and boosts downstream question\nanswering accuracy by more than 4% for GPT-4o, enabling scalable and\nresource-efficient web information extraction.",
+  "authors": [
+    "Shicheng Liu",
+    "Kai Sun",
+    "Lisheng Fu",
+    "Xilun Chen",
+    "Xinyuan Zhang",
+    "Zhaojiang Lin",
+    "Rulin Shao",
+    "Yue Liu",
+    "Anuj Kumar",
+    "Wen-tau Yih",
+    "Xin Luna Dong"
+  ],
+  "published": "2025-10-02T09:27:15Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.01832v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "SCRIBES是一种基于强化学习的网络规模半结构化数据提取框架，利用网页布局相似性作为奖励信号生成可重用提取脚本，相比传统方法提升脚本质量13%以上，并在问答任务中提升GPT-4o准确率4%，实现高效可扩展的网页信息提取。",
+  "order": 366,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01832v1"
+}

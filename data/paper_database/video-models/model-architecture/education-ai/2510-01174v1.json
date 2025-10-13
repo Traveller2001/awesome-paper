@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01174v1",
+  "title": "Code2Video: A Code-centric Paradigm for Educational Video Generation",
+  "summary": "While recent generative models advance pixel-space video synthesis, they\nremain limited in producing professional educational videos, which demand\ndisciplinary knowledge, precise visual structures, and coherent transitions,\nlimiting their applicability in educational scenarios. Intuitively, such\nrequirements are better addressed through the manipulation of a renderable\nenvironment, which can be explicitly controlled via logical commands (e.g.,\ncode). In this work, we propose Code2Video, a code-centric agent framework for\ngenerating educational videos via executable Python code. The framework\ncomprises three collaborative agents: (i) Planner, which structures lecture\ncontent into temporally coherent flows and prepares corresponding visual\nassets; (ii) Coder, which converts structured instructions into executable\nPython codes while incorporating scope-guided auto-fix to enhance efficiency;\nand (iii) Critic, which leverages vision-language models (VLM) with visual\nanchor prompts to refine spatial layout and ensure clarity. To support\nsystematic evaluation, we build MMMC, a benchmark of professionally produced,\ndiscipline-specific educational videos. We evaluate MMMC across diverse\ndimensions, including VLM-as-a-Judge aesthetic scores, code efficiency, and\nparticularly, TeachQuiz, a novel end-to-end metric that quantifies how well a\nVLM, after unlearning, can recover knowledge by watching the generated videos.\nOur results demonstrate the potential of Code2Video as a scalable,\ninterpretable, and controllable approach, achieving 40% improvement over direct\ncode generation and producing videos comparable to human-crafted tutorials. The\ncode and datasets are available at https://github.com/showlab/Code2Video.",
+  "authors": [
+    "Yanzhe Chen",
+    "Kevin Qinghong Lin",
+    "Mike Zheng Shou"
+  ],
+  "published": "2025-10-01T17:56:48Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01174v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "education_ai",
+  "tldr_zh": "Code2Video提出一种以代码为中心的教育视频生成框架，通过三个协作智能体（规划器、编码器、评审器）将教学内容转换为可执行的Python代码并生成专业教育视频。该方法在MMMC基准测试中表现优异，视频质量接近人工制作教程，相比直接代码生成提升40%效果。",
+  "order": 596,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01174v1"
+}

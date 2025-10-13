@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.07081v1",
+  "title": "Accelerating Diffusion LLM Inference via Local Determinism Propagation",
+  "summary": "Diffusion large language models (dLLMs) represent a significant advancement\nin text generation, offering parallel token decoding capabilities. However,\nexisting open-source implementations suffer from quality-speed trade-offs that\nimpede their practical deployment. Conservative sampling strategies typically\ndecode only the most confident token per step to ensure quality (i.e., greedy\ndecoding), at the cost of inference efficiency due to repeated redundant\nrefinement iterations--a phenomenon we term delayed decoding. Through\nsystematic analysis of dLLM decoding dynamics, we characterize this delayed\ndecoding behavior and propose a training-free adaptive parallel decoding\nstrategy, named LocalLeap, to address these inefficiencies. LocalLeap is built\non two fundamental empirical principles: local determinism propagation centered\non high-confidence anchors and progressive spatial consistency decay. By\napplying these principles, LocalLeap identifies anchors and performs localized\nrelaxed parallel decoding within bounded neighborhoods, achieving substantial\ninference step reduction through early commitment of already-determined tokens\nwithout compromising output quality. Comprehensive evaluation on various\nbenchmarks demonstrates that LocalLeap achieves 6.94$\\times$ throughput\nimprovements and reduces decoding steps to just 14.2\\% of the original\nrequirement, achieving these gains with negligible performance impact. The\nsource codes are available at: https://github.com/friedrichor/LocalLeap.",
+  "authors": [
+    "Fanheng Kong",
+    "Jingyuan Zhang",
+    "Yahui Liu",
+    "Zirui Wu",
+    "Yu Tian",
+    "Victoria W.",
+    "Guorui Zhou"
+  ],
+  "published": "2025-10-08T14:39:34Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07081v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出LocalLeap方法，通过分析扩散大语言模型解码动态，利用局部确定性传播和空间一致性衰减原理，在保持输出质量的同时大幅提升推理效率。该方法无需额外训练，可将解码步骤减少至原来的14.2%，吞吐量提升6.94倍。",
+  "order": 54,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07081v1"
+}

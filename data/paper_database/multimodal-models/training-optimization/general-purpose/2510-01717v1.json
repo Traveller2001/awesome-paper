@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01717v1",
+  "title": "Latency-aware Multimodal Federated Learning over UAV Networks",
+  "summary": "This paper investigates federated multimodal learning (FML) assisted by\nunmanned aerial vehicles (UAVs) with a focus on minimizing system latency and\nproviding convergence analysis. In this framework, UAVs are distributed\nthroughout the network to collect data, participate in model training, and\ncollaborate with a base station (BS) to build a global model. By utilizing\nmultimodal sensing, the UAVs overcome the limitations of unimodal systems,\nenhancing model accuracy, generalization, and offering a more comprehensive\nunderstanding of the environment. The primary objective is to optimize FML\nsystem latency in UAV networks by jointly addressing UAV sensing scheduling,\npower control, trajectory planning, resource allocation, and BS resource\nmanagement. To address the computational complexity of our latency minimization\nproblem, we propose an efficient iterative optimization algorithm combining\nblock coordinate descent and successive convex approximation techniques, which\nprovides high-quality approximate solutions. We also present a theoretical\nconvergence analysis for the UAV-assisted FML framework under a non-convex loss\nfunction. Numerical experiments demonstrate that our FML framework outperforms\nexisting approaches in terms of system latency and model training performance\nunder different data settings.",
+  "authors": [
+    "Shaba Shaon",
+    "Dinh C. Nguyen"
+  ],
+  "published": "2025-10-02T06:57:44Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01717v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文研究无人机辅助的联邦多模态学习，重点优化系统延迟并分析收敛性。通过联合优化无人机感知调度、功率控制、轨迹规划和资源分配，提出高效迭代算法降低计算复杂度。理论分析和实验表明该框架在延迟和模型性能上优于现有方法。",
+  "order": 88,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01717v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06050v1",
+  "title": "Edit-Based Flow Matching for Temporal Point Processes",
+  "summary": "Temporal point processes (TPPs) are a fundamental tool for modeling event\nsequences in continuous time, but most existing approaches rely on\nautoregressive parameterizations that are limited by their sequential sampling.\nRecent non-autoregressive, diffusion-style models mitigate these issues by\njointly interpolating between noise and data through event insertions and\ndeletions in a discrete Markov chain. In this work, we generalize this\nperspective and introduce an Edit Flow process for TPPs that transports noise\nto data via insert, delete, and substitute edit operations. By learning the\ninstantaneous edit rates within a continuous-time Markov chain framework, we\nattain a flexible and efficient model that effectively reduces the total number\nof necessary edit operations during generation. Empirical results demonstrate\nthe generative flexibility of our unconditionally trained model in a wide range\nof unconditional and conditional generation tasks on benchmark TPPs.",
+  "authors": [
+    "David Lüdke",
+    "Marten Lienen",
+    "Marcel Kollovieh",
+    "Stephan Günnemann"
+  ],
+  "published": "2025-10-07T15:44:12Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06050v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种基于编辑操作的流匹配方法用于时序点过程，通过插入、删除和替换三种编辑操作在连续时间马尔可夫链框架中学习瞬时编辑率，有效减少了生成过程中所需的编辑操作次数，在多种无条件与条件生成任务中展现出优越性能。",
+  "order": 100,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06050v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01427v1",
+  "title": "A Tale of LLMs and Induced Small Proxies: Scalable Agents for Knowledge\n  Mining",
+  "summary": "At the core of Deep Research is knowledge mining, the task of extracting\nstructured information from massive unstructured text in response to user\ninstructions. Large language models (LLMs) excel at interpreting such\ninstructions but are prohibitively expensive to deploy at scale, while\ntraditional pipelines of classifiers and extractors remain efficient yet\nbrittle and unable to generalize to new tasks. We introduce Falconer, a\ncollaborative framework that combines the agentic reasoning of LLMs with\nlightweight proxy models for scalable knowledge mining. In Falconer, LLMs act\nas planners, decomposing user instructions into executable pipelines, and as\nannotators, generating supervision to train small proxies. The framework\nunifies classification and extraction into two atomic operations, get label and\nget span, enabling a single instruction-following model to replace multiple\ntask-specific components. To evaluate the consistency between proxy models\nincubated by Falconer and annotations provided by humans and large models, we\nconstruct new benchmarks covering both planning and end-to-end execution.\nExperiments show that Falconer closely matches state-of-the-art LLMs in\ninstruction-following accuracy while reducing inference cost by up to 90% and\naccelerating large-scale knowledge mining by more than 20x, offering an\nefficient and scalable foundation for Deep Research.",
+  "authors": [
+    "Sipeng Zhang",
+    "Longfei Yun",
+    "Zilong Wang",
+    "Jingbo Shang",
+    "Letian Peng"
+  ],
+  "published": "2025-10-01T20:06:48Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01427v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Falconer框架结合LLM的智能规划与轻量级代理模型，实现可扩展的知识挖掘：LLM作为规划器分解指令并生成训练数据，小型代理模型执行分类和提取任务，在保持高准确率的同时降低90%推理成本，加速20倍大规模知识挖掘。",
+  "order": 158,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01427v1"
+}

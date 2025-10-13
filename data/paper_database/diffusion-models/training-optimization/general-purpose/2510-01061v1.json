@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01061v1",
+  "title": "ReSWD: ReSTIR'd, not shaken. Combining Reservoir Sampling and Sliced\n  Wasserstein Distance for Variance Reduction",
+  "summary": "Distribution matching is central to many vision and graphics tasks, where the\nwidely used Wasserstein distance is too costly to compute for high dimensional\ndistributions. The Sliced Wasserstein Distance (SWD) offers a scalable\nalternative, yet its Monte Carlo estimator suffers from high variance,\nresulting in noisy gradients and slow convergence. We introduce Reservoir SWD\n(ReSWD), which integrates Weighted Reservoir Sampling into SWD to adaptively\nretain informative projection directions in optimization steps, resulting in\nstable gradients while remaining unbiased. Experiments on synthetic benchmarks\nand real-world tasks such as color correction and diffusion guidance show that\nReSWD consistently outperforms standard SWD and other variance reduction\nbaselines. Project page: https://reservoirswd.github.io/",
+  "authors": [
+    "Mark Boss",
+    "Andreas Engelhardt",
+    "Simon Donné",
+    "Varun Jampani"
+  ],
+  "published": "2025-10-01T16:01:17Z",
+  "primary_category": "cs.GR",
+  "arxiv_url": "https://arxiv.org/abs/2510.01061v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "提出ReSWD方法，结合加权储层采样与切片Wasserstein距离，通过自适应保留优化过程中的关键投影方向来降低方差，在颜色校正和扩散引导等任务中表现优于标准SWD。",
+  "order": 600,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01061v1"
+}

@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.00948v1",
+  "title": "InfVSR: Breaking Length Limits of Generic Video Super-Resolution",
+  "summary": "Real-world videos often extend over thousands of frames. Existing video\nsuper-resolution (VSR) approaches, however, face two persistent challenges when\nprocessing long sequences: (1) inefficiency due to the heavy cost of multi-step\ndenoising for full-length sequences; and (2) poor scalability hindered by\ntemporal decomposition that causes artifacts and discontinuities. To break\nthese limits, we propose InfVSR, which novelly reformulates VSR as an\nautoregressive-one-step-diffusion paradigm. This enables streaming inference\nwhile fully leveraging pre-trained video diffusion priors. First, we adapt the\npre-trained DiT into a causal structure, maintaining both local and global\ncoherence via rolling KV-cache and joint visual guidance. Second, we distill\nthe diffusion process into a single step efficiently, with patch-wise pixel\nsupervision and cross-chunk distribution matching. Together, these designs\nenable efficient and scalable VSR for unbounded-length videos. To fill the gap\nin long-form video evaluation, we build a new benchmark tailored for extended\nsequences and further introduce semantic-level metrics to comprehensively\nassess temporal consistency. Our method pushes the frontier of long-form VSR,\nachieves state-of-the-art quality with enhanced semantic consistency, and\ndelivers up to 58x speed-up over existing methods such as MGLD-VSR. Code will\nbe available at https://github.com/Kai-Liu001/InfVSR.",
+  "authors": [
+    "Ziqing Zhang",
+    "Kai Liu",
+    "Zheng Chen",
+    "Xi Li",
+    "Yucong Chen",
+    "Bingnan Duan",
+    "Linghe Kong",
+    "Yulun Zhang"
+  ],
+  "published": "2025-10-01T14:21:45Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00948v1",
+  "primary_area": "video_models",
+  "secondary_focus": "long_context",
+  "application_domain": "general_purpose",
+  "tldr_zh": "InfVSR提出自回归单步扩散范式，突破传统视频超分辨率处理长序列的限制。通过因果DiT架构和扩散过程蒸馏，实现无限长度视频的高效超分，在保持时空一致性的同时提速58倍，并建立了专门的长视频评估基准。",
+  "order": 613,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00948v1"
+}

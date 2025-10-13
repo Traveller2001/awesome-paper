@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06125v1",
+  "title": "Downsized and Compromised?: Assessing the Faithfulness of Model\n  Compression",
+  "summary": "In real-world applications, computational constraints often require\ntransforming large models into smaller, more efficient versions through model\ncompression. While these techniques aim to reduce size and computational cost\nwithout sacrificing performance, their evaluations have traditionally focused\non the trade-off between size and accuracy, overlooking the aspect of model\nfaithfulness. This limited view is insufficient for high-stakes domains like\nhealthcare, finance, and criminal justice, where compressed models must remain\nfaithful to the behavior of their original counterparts. This paper presents a\nnovel approach to evaluating faithfulness in compressed models, moving beyond\nstandard metrics. We introduce and demonstrate a set of faithfulness metrics\nthat capture how model behavior changes post-compression. Our contributions\ninclude introducing techniques to assess predictive consistency between the\noriginal and compressed models using model agreement, and applying chi-squared\ntests to detect statistically significant changes in predictive patterns across\nboth the overall dataset and demographic subgroups, thereby exposing shifts\nthat aggregate fairness metrics may obscure. We demonstrate our approaches by\napplying quantization and pruning to artificial neural networks (ANNs) trained\non three diverse and socially meaningful datasets. Our findings show that high\naccuracy does not guarantee faithfulness, and our statistical tests detect\nsubtle yet significant shifts that are missed by standard metrics, such as\nAccuracy and Equalized Odds. The proposed metrics provide a practical and more\ndirect method for ensuring that efficiency gains through compression do not\ncompromise the fairness or faithfulness essential for trustworthy AI.",
+  "authors": [
+    "Moumita Kamal",
+    "Douglas A. Talbert"
+  ],
+  "published": "2025-10-07T17:05:02Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06125v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_compression', 'alignment']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种评估模型压缩后忠实度的新方法，超越传统精度指标，引入预测一致性和卡方检验来检测压缩模型与原模型的行为差异。研究发现高精度不等于高忠实度，新方法能发现标准公平性指标忽略的细微但显著的预测模式变化，为医疗、金融等高风险领域提供更可靠的压缩模型评估方案。",
+  "order": 91,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06125v1"
+}

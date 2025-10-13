@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.06912v1",
+  "title": "Utilizing Large Language Models for Machine Learning Explainability",
+  "summary": "This study explores the explainability capabilities of large language models\n(LLMs), when employed to autonomously generate machine learning (ML) solutions.\nWe examine two classification tasks: (i) a binary classification problem\nfocused on predicting driver alertness states, and (ii) a multilabel\nclassification problem based on the yeast dataset. Three state-of-the-art LLMs\n(i.e. OpenAI GPT, Anthropic Claude, and DeepSeek) are prompted to design\ntraining pipelines for four common classifiers: Random Forest, XGBoost,\nMultilayer Perceptron, and Long Short-Term Memory networks. The generated\nmodels are evaluated in terms of predictive performance (recall, precision, and\nF1-score) and explainability using SHAP (SHapley Additive exPlanations).\nSpecifically, we measure Average SHAP Fidelity (Mean Squared Error between SHAP\napproximations and model outputs) and Average SHAP Sparsity (number of features\ndeemed influential). The results reveal that LLMs are capable of producing\neffective and interpretable models, achieving high fidelity and consistent\nsparsity, highlighting their potential as automated tools for interpretable ML\npipeline generation. The results show that LLMs can produce effective,\ninterpretable pipelines with high fidelity and consistent sparsity, closely\nmatching manually engineered baselines.",
+  "authors": [
+    "Alexandros Vassiliades",
+    "Nikolaos Polatidis",
+    "Stamatios Samaras",
+    "Sotiris Diplaris",
+    "Ignacio Cabrera Martin",
+    "Yannis Manolopoulos",
+    "Stefanos Vrochidis",
+    "Ioannis Kompatsiaris"
+  ],
+  "published": "2025-10-08T11:46:23Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06912v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究探索了大语言模型在自动生成机器学习解决方案时的可解释性能力。通过两个分类任务（驾驶员警觉状态预测和酵母数据集多标签分类），测试了GPT、Claude和DeepSeek三种LLM为随机森林、XGBoost等四种分类器设计训练流程的效果。使用SHAP评估显示，LLM能生成预测性能优异且可解释性强的模型，其保真度高、特征稀疏性一致，接近人工设计的基线水平，证明了LLM作为自动化可解释机器学习流程生成工具的潜力。",
+  "order": 199,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06912v1"
+}

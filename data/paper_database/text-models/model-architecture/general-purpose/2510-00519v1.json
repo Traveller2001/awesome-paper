@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00519v1",
+  "title": "Architectural Transformations and Emerging Verification Demands in\n  AI-Enabled Cyber-Physical Systems",
+  "summary": "In the world of Cyber-Physical Systems (CPS), a captivating real-time fusion\noccurs where digital technology meets the physical world. This synergy has been\nsignificantly transformed by the integration of artificial intelligence (AI), a\nmove that dramatically enhances system adaptability and introduces a layer of\ncomplexity that impacts CPS control optimization and reliability. Despite\nadvancements in AI integration, a significant gap remains in understanding how\nthis shift affects CPS architecture, operational complexity, and verification\npractices. The extended abstract addresses this gap by investigating\narchitectural distinctions between AI-driven and traditional control models\ndesigned in Simulink and their respective implications for system verification.",
+  "authors": [
+    "Hadiza Umar Yusuf",
+    "Khouloud Gaaloul"
+  ],
+  "published": "2025-10-01T05:09:12Z",
+  "primary_category": "cs.SE",
+  "arxiv_url": "https://arxiv.org/abs/2510.00519v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文探讨了人工智能在信息物理系统(CPS)中的集成对系统架构和验证实践的影响，比较了AI驱动与传统Simulink控制模型的架构差异及其对系统验证的启示。",
+  "order": 290,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00519v1"
+}

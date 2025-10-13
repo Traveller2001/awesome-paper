@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01499v1",
+  "title": "Beyond Majority Voting: LLM Aggregation by Leveraging Higher-Order\n  Information",
+  "summary": "With the rapid progress of multi-agent large language model (LLM) reasoning,\nhow to effectively aggregate answers from multiple LLMs has emerged as a\nfundamental challenge. Standard majority voting treats all answers equally,\nfailing to consider latent heterogeneity and correlation across models. In this\nwork, we design two new aggregation algorithms called Optimal Weight (OW) and\nInverse Surprising Popularity (ISP), leveraging both first-order and\nsecond-order information. Our theoretical analysis shows these methods provably\nmitigate inherent limitations of majority voting under mild assumptions,\nleading to more reliable collective decisions. We empirically validate our\nalgorithms on synthetic datasets, popular LLM fine-tuning benchmarks such as\nUltraFeedback and MMLU, and a real-world healthcare setting ARMMAN. Across all\ncases, our methods consistently outperform majority voting, offering both\npractical performance gains and conceptual insights for the design of robust\nmulti-agent LLM pipelines.",
+  "authors": [
+    "Rui Ai",
+    "Yuqi Pan",
+    "David Simchi-Levi",
+    "Milind Tambe",
+    "Haifeng Xu"
+  ],
+  "published": "2025-10-01T22:21:50Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01499v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出两种超越多数投票的LLM聚合算法——最优权重(OW)和逆惊奇流行度(ISP)，通过利用一阶和二阶信息解决多智能体LLM推理中的答案聚合问题。理论分析和在合成数据集、UltraFeedback/MMLU基准及ARMMAN医疗场景的实验表明，新方法能显著提升集体决策的可靠性。",
+  "order": 141,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01499v1"
+}

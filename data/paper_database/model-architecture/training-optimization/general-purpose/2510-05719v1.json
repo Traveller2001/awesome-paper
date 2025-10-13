@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.05719v1",
+  "title": "Neighborhood-Adaptive Generalized Linear Graph Embedding with Latent\n  Pattern Mining",
+  "summary": "Graph embedding has been widely applied in areas such as network analysis,\nsocial network mining, recommendation systems, and bioinformatics. However,\ncurrent graph construction methods often require the prior definition of\nneighborhood size, limiting the effective revelation of potential structural\ncorrelations in the data. Additionally, graph embedding methods using linear\nprojection heavily rely on a singular pattern mining approach, resulting in\nrelative weaknesses in adapting to different scenarios. To address these\nchallenges, we propose a novel model, Neighborhood-Adaptive Generalized Linear\nGraph Embedding (NGLGE), grounded in latent pattern mining. This model\nintroduces an adaptive graph learning method tailored to the neighborhood,\neffectively revealing intrinsic data correlations. Simultaneously, leveraging a\nreconstructed low-rank representation and imposing $\\ell_{2,0}$ norm constraint\non the projection matrix allows for flexible exploration of additional pattern\ninformation. Besides, an efficient iterative solving algorithm is derived for\nthe proposed model. Comparative evaluations on datasets from diverse scenarios\ndemonstrate the superior performance of our model compared to state-of-the-art\nmethods.",
+  "authors": [
+    "S. Peng",
+    "L. Hu",
+    "W. Zhang",
+    "B. Jie",
+    "Y. Luo"
+  ],
+  "published": "2025-10-07T09:37:29Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05719v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种基于潜在模式挖掘的邻域自适应广义线性图嵌入模型(NGLGE)，通过自适应图学习方法揭示数据内在关联，并利用重构低秩表示与ℓ₂,₀范数约束灵活探索额外模式信息，在多种场景数据集上优于现有方法。",
+  "order": 126,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05719v1"
+}

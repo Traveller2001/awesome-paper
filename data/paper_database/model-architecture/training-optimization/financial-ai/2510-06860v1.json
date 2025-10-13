@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06860v1",
+  "title": "Towards Generalization of Graph Neural Networks for AC Optimal Power\n  Flow",
+  "summary": "AC Optimal Power Flow (ACOPF) is computationally expensive for large-scale\npower systems, with conventional solvers requiring prohibitive solution times.\nMachine learning approaches offer computational speedups but struggle with\nscalability and topology adaptability without expensive retraining. To enable\nscalability across grid sizes and adaptability to topology changes, we propose\na Hybrid Heterogeneous Message Passing Neural Network (HH-MPNN). HH-MPNN models\nbuses, generators, loads, shunts, transmission lines and transformers as\ndistinct node or edge types, combined with a scalable transformer model for\nhandling long-range dependencies. On grids from 14 to 2,000 buses, HH-MPNN\nachieves less than 1% optimality gap on default topologies. Applied zero-shot\nto thousands of unseen topologies, HH-MPNN achieves less than 3% optimality gap\ndespite training only on default topologies. Pre-training on smaller grids also\nimproves results on a larger grid. Computational speedups reach 1,000x to\n10,000x compared to interior point solvers. These results advance practical,\ngeneralizable machine learning for real-time power system operations.",
+  "authors": [
+    "Olayiwola Arowolo",
+    "Jochen L. Cremer"
+  ],
+  "published": "2025-10-08T10:28:46Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06860v1",
+  "primary_area": "model_architecture",
+  "secondary_focus": "training_optimization",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文提出混合异构图消息传递神经网络(HH-MPNN)，用于解决交流最优潮流计算问题。该模型将电网组件建模为不同节点/边类型，结合Transformer处理长程依赖，在14-2000节点电网中实现<1%最优性差距，零样本泛化至未见拓扑时仍保持<3%差距，计算速度较传统求解器提升1000-10000倍，显著推进了电力系统实时操作的机器学习应用。",
+  "order": 204,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06860v1"
+}

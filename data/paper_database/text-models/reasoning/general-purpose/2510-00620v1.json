@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00620v1",
+  "title": "HARPA: A Testability-Driven, Literature-Grounded Framework for Research\n  Ideation",
+  "summary": "While there has been a surge of interest in automated scientific discovery\n(ASD), especially with the emergence of LLMs, it remains challenging for tools\nto generate hypotheses that are both testable and grounded in the scientific\nliterature. Additionally, existing ideation tools are not adaptive to prior\nexperimental outcomes. We developed HARPA to address these challenges by\nincorporating the ideation workflow inspired by human researchers. HARPA first\nidentifies emerging research trends through literature mining, then explores\nhypothesis design spaces, and finally converges on precise, testable hypotheses\nby pinpointing research gaps and justifying design choices. Our evaluations\nshow that HARPA-generated hypothesis-driven research proposals perform\ncomparably to a strong baseline AI-researcher across most qualitative\ndimensions (e.g., specificity, novelty, overall quality), but achieve\nsignificant gains in feasibility(+0.78, p$<0.05$, bootstrap) and groundedness\n(+0.85, p$<0.01$, bootstrap) on a 10-point Likert scale. When tested with the\nASD agent (CodeScientist), HARPA produced more successful executions (20 vs. 11\nout of 40) and fewer failures (16 vs. 21 out of 40), showing that expert\nfeasibility judgments track with actual execution success. Furthermore, to\nsimulate how researchers continuously refine their understanding of what\nhypotheses are both testable and potentially interesting from experience, HARPA\nlearns a reward model that scores new hypotheses based on prior experimental\noutcomes, achieving approx. a 28\\% absolute gain over HARPA's untrained\nbaseline scorer. Together, these methods represent a step forward in the field\nof AI-driven scientific discovery.",
+  "authors": [
+    "Rosni Vasu",
+    "Peter Jansen",
+    "Pao Siangliulue",
+    "Cristina Sarasua",
+    "Abraham Bernstein",
+    "Peter Clark",
+    "Bhavana Dalvi Mishra"
+  ],
+  "published": "2025-10-01T07:52:19Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00620v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "HARPA是一个基于文献挖掘的研究构思框架，通过识别研究趋势、探索假设设计空间并收敛到可测试假设，显著提升了AI生成研究提案的可行性和文献基础性。评估显示其在可行性和基础性方面优于基线，并能通过奖励模型从实验经验中学习改进假设生成。",
+  "order": 463,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00620v1"
+}

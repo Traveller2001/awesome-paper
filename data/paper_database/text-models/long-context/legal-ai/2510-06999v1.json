@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.06999v1",
+  "title": "Towards Reliable Retrieval in RAG Systems for Large Legal Datasets",
+  "summary": "Retrieval-Augmented Generation (RAG) is a promising approach to mitigate\nhallucinations in Large Language Models (LLMs) for legal applications, but its\nreliability is critically dependent on the accuracy of the retrieval step. This\nis particularly challenging in the legal domain, where large databases of\nstructurally similar documents often cause retrieval systems to fail. In this\npaper, we address this challenge by first identifying and quantifying a\ncritical failure mode we term Document-Level Retrieval Mismatch (DRM), where\nthe retriever selects information from entirely incorrect source documents. To\nmitigate DRM, we investigate a simple and computationally efficient technique\nwhich we refer to as Summary-Augmented Chunking (SAC). This method enhances\neach text chunk with a document-level synthetic summary, thereby injecting\ncrucial global context that would otherwise be lost during a standard chunking\nprocess. Our experiments on a diverse set of legal information retrieval tasks\nshow that SAC greatly reduces DRM and, consequently, also improves text-level\nretrieval precision and recall. Interestingly, we find that a generic\nsummarization strategy outperforms an approach that incorporates legal expert\ndomain knowledge to target specific legal elements. Our work provides evidence\nthat this practical, scalable, and easily integrable technique enhances the\nreliability of RAG systems when applied to large-scale legal document datasets.",
+  "authors": [
+    "Markus Reuter",
+    "Tobias Lingenberg",
+    "Rūta Liepiņa",
+    "Francesca Lagioia",
+    "Marco Lippi",
+    "Giovanni Sartor",
+    "Andrea Passerini",
+    "Burcu Sayin"
+  ],
+  "published": "2025-10-08T13:22:20Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06999v1",
+  "primary_area": "text_models",
+  "secondary_focus": "long_context",
+  "application_domain": "legal_ai",
+  "tldr_zh": "本文针对法律领域RAG系统中的检索可靠性问题，提出了一种名为摘要增强分块(SAC)的简单有效方法。该方法通过为文本块添加文档级合成摘要来注入全局上下文，显著减少了文档级检索失配现象，并在多个法律信息检索任务中提高了检索精度和召回率。",
+  "order": 63,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06999v1"
+}

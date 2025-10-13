@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.01863v1",
+  "title": "Microscaling Floating Point Formats for Large Language Models",
+  "summary": "The increasing computational and memory demands of large language models\n(LLMs) necessitate innovative approaches to optimize resource usage without\ncompromising performance. This paper leverages microscaling floating-point\nformats, a novel technique designed to address these challenges by reducing the\nstorage and computational overhead associated with numerical representations in\nLLMs. Unlike traditional floating-point representations that allocate a\ndedicated scale for each value, microscaling employs a shared scale across a\nblock of values, enabling compact one-byte floating-point representations while\nmaintaining an extended dynamic range. We explore the application of\nmicroscaling in the context of 8-bit floating-point formats to significantly\nreduce memory footprint and computational costs. We tested several\nconfigurations of microscaling floats within the GPT-2 LLM architecture,\ndemonstrating that microscaling data formats can achieve competitive accuracy\nduring training and inference, proving its efficacy as a resource-efficient\nalternative for deploying LLMs at scale. The source code is publicly available\nat: https://github.com/unipi-dii-compressedarith/llm.c-sve",
+  "authors": [
+    "Marco Cococcioni",
+    "Dario Pagani",
+    "Federico Rossi"
+  ],
+  "published": "2025-10-02T10:08:59Z",
+  "primary_category": "cs.NE",
+  "arxiv_url": "https://arxiv.org/abs/2510.01863v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出微缩放浮点格式，通过共享数值块尺度实现8位浮点表示，在GPT-2模型中验证了该技术能显著降低大语言模型的内存占用和计算成本，同时保持训练与推理的竞争性精度。",
+  "order": 786,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01863v1"
+}

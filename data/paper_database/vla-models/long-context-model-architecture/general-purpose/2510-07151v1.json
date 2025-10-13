@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07151v1",
+  "title": "ELMUR: External Layer Memory with Update/Rewrite for Long-Horizon RL",
+  "summary": "Real-world robotic agents must act under partial observability and long\nhorizons, where key cues may appear long before they affect decision making.\nHowever, most modern approaches rely solely on instantaneous information,\nwithout incorporating insights from the past. Standard recurrent or transformer\nmodels struggle with retaining and leveraging long-term dependencies: context\nwindows truncate history, while naive memory extensions fail under scale and\nsparsity. We propose ELMUR (External Layer Memory with Update/Rewrite), a\ntransformer architecture with structured external memory. Each layer maintains\nmemory embeddings, interacts with them via bidirectional cross-attention, and\nupdates them through an Least Recently Used (LRU) memory module using\nreplacement or convex blending. ELMUR extends effective horizons up to 100,000\ntimes beyond the attention window and achieves a 100% success rate on a\nsynthetic T-Maze task with corridors up to one million steps. In POPGym, it\noutperforms baselines on more than half of the tasks. On MIKASA-Robo\nsparse-reward manipulation tasks with visual observations, it nearly doubles\nthe performance of strong baselines. These results demonstrate that structured,\nlayer-local external memory offers a simple and scalable approach to decision\nmaking under partial observability.",
+  "authors": [
+    "Egor Cherepanov",
+    "Alexey K. Kovalev",
+    "Aleksandr I. Panov"
+  ],
+  "published": "2025-10-08T15:50:34Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07151v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "['long_context', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出ELMUR架构，为Transformer引入结构化外部记忆层，通过双向交叉注意力和LRU更新机制解决长序列决策问题。在部分可观测环境下，有效扩展注意力窗口达10万倍，在T-Maze任务实现100%成功率，并在机器人视觉操作任务中性能翻倍。",
+  "order": 177,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07151v1"
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00706v1",
+  "title": "AttentionDep: Domain-Aware Attention for Explainable Depression Severity\n  Assessment",
+  "summary": "In today's interconnected society, social media platforms provide a window\ninto individuals' thoughts, emotions, and mental states. This paper explores\nthe use of platforms like Facebook, X (formerly Twitter), and Reddit for\ndepression severity detection. We propose AttentionDep, a domain-aware\nattention model that drives explainable depression severity estimation by\nfusing contextual and domain knowledge. Posts are encoded hierarchically using\nunigrams and bigrams, with attention mechanisms highlighting clinically\nrelevant tokens. Domain knowledge from a curated mental health knowledge graph\nis incorporated through a cross-attention mechanism, enriching the contextual\nfeatures. Finally, depression severity is predicted using an ordinal regression\nframework that respects the clinical-relevance and natural ordering of severity\nlevels. Our experiments demonstrate that AttentionDep outperforms\nstate-of-the-art baselines by over 5% in graded F1 score across datasets, while\nproviding interpretable insights into its predictions. This work advances the\ndevelopment of trustworthy and transparent AI systems for mental health\nassessment from social media.",
+  "authors": [
+    "Yusif Ibrahimov",
+    "Tarique Anwar",
+    "Tommy Yuan",
+    "Turan Mutallimov",
+    "Elgun Hasanov"
+  ],
+  "published": "2025-10-01T09:20:53Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00706v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出AttentionDep模型，通过领域感知注意力机制融合上下文和心理健康知识图谱，实现可解释的抑郁症严重程度评估。该模型在社交媒体文本上采用分层编码和交叉注意力，通过序数回归框架预测抑郁程度，在多个数据集上比现有方法F1分数提升5%以上，为心理健康AI系统提供透明可信的评估方案。",
+  "order": 258,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00706v1"
+}

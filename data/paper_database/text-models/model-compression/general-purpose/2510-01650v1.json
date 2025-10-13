@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01650v1",
+  "title": "The Unseen Frontier: Pushing the Limits of LLM Sparsity with\n  Surrogate-Free ADMM",
+  "summary": "Neural network pruning is a promising technique to mitigate the excessive\ncomputational and memory requirements of large language models (LLMs). Despite\nits promise, however, progress in this area has diminished, as conventional\nmethods are seemingly unable to surpass moderate sparsity levels (50-60%)\nwithout severely degrading model accuracy. This work breaks through the current\nimpasse, presenting a principled and effective method called $\\texttt{Elsa}$,\nwhich achieves extreme sparsity levels of up to 90% while retaining high model\nfidelity. This is done by identifying several limitations in current practice,\nall of which can be traced back to their reliance on a surrogate objective\nformulation. $\\texttt{Elsa}$ tackles this issue directly and effectively via\nstandard and well-established constrained optimization techniques based on\nADMM. Our extensive experiments across a wide range of models and scales show\nthat $\\texttt{Elsa}$ achieves substantial improvements over existing methods;\ne.g., it achieves 7.8$\\times$ less perplexity than the best existing method on\nLLaMA-2-7B at 90% sparsity. Furthermore, we present\n$\\texttt{Elsa}_{\\text{-L}}$, a quantized variant that scales to extremely large\nmodels (27B), and establish its theoretical convergence guarantees. These\nresults highlight meaningful progress in advancing the frontier of LLM\nsparsity, while promising that significant opportunities for further\nadvancement may remain in directions that have so far attracted limited\nexploration.",
+  "authors": [
+    "Kwanhee Lee",
+    "Hyeondo Jang",
+    "Dongyeop Lee",
+    "Dan Alistarh",
+    "Namhoon Lee"
+  ],
+  "published": "2025-10-02T04:10:17Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01650v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出一种名为Elsa的新型剪枝方法，采用无代理目标的ADMM优化技术，突破现有大语言模型稀疏化极限，在保持高精度的同时实现高达90%的稀疏度，相比现有方法在LLaMA-2-7B模型上困惑度降低7.8倍。",
+  "order": 107,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01650v1"
+}

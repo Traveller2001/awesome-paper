@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.00452v1",
+  "title": "Cloud Investigation Automation Framework (CIAF): An AI-Driven Approach\n  to Cloud Forensics",
+  "summary": "Large Language Models (LLMs) have gained prominence in domains including\ncloud security and forensics. Yet cloud forensic investigations still rely on\nmanual analysis, making them time-consuming and error-prone. LLMs can mimic\nhuman reasoning, offering a pathway to automating cloud log analysis. To\naddress this, we introduce the Cloud Investigation Automation Framework (CIAF),\nan ontology-driven framework that systematically investigates cloud forensic\nlogs while improving efficiency and accuracy. CIAF standardizes user inputs\nthrough semantic validation, eliminating ambiguity and ensuring consistency in\nlog interpretation. This not only enhances data quality but also provides\ninvestigators with reliable, standardized information for decision-making. To\nevaluate security and performance, we analyzed Microsoft Azure logs containing\nransomware-related events. By simulating attacks and assessing CIAF's impact,\nresults showed significant improvement in ransomware detection, achieving\nprecision, recall, and F1 scores of 93 percent. CIAF's modular, adaptable\ndesign extends beyond ransomware, making it a robust solution for diverse\ncyberattacks. By laying the foundation for standardized forensic methodologies\nand informing future AI-driven automation, this work underscores the role of\ndeterministic prompt engineering and ontology-based validation in enhancing\ncloud forensic investigations. These advancements improve cloud security while\npaving the way for efficient, automated forensic workflows.",
+  "authors": [
+    "Dalal Alharthi",
+    "Ivan Roberto Kawaminami Garcia"
+  ],
+  "published": "2025-10-01T03:05:47Z",
+  "primary_category": "cs.CR",
+  "arxiv_url": "https://arxiv.org/abs/2510.00452v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出云调查自动化框架(CIAF)，采用基于本体论和大型语言模型的方法自动化云取证分析。该框架通过语义验证标准化输入，消除歧义，在微软Azure勒索软件攻击测试中实现93%的精确率、召回率和F1值，为标准化云取证方法奠定基础。",
+  "order": 310,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00452v1"
+}

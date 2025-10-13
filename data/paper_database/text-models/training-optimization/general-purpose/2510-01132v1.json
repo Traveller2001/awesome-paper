@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.01132v1",
+  "title": "A Practitioner's Guide to Multi-turn Agentic Reinforcement Learning",
+  "summary": "We study what actually works and what doesn't for training large language\nmodels as agents via multi-turn reinforcement learning. Despite rapid progress,\nexisting frameworks and definitions are fragmented, and there is no systematic\nformulation or analysis of which design choices matter across tasks. We address\nthis gap by first breaking down the design space into three inter-related\npillars -- environment, reward, and policy -- and empirically derive a recipe\nfor training LLM agents in situated textual domains. In particular, we test\nTextWorld and ALFWorld, popular domains for testing situated embodied\nreasoning, as well as SWE-Gym for more software engineering style tasks. (i)\nFor the environment, we analyze the impacts of task complexity in terms of\nsizes of the state and action spaces as well as optimal solution length,\nfinding that even simple environments within a domain can provide signal on how\nwell an agent can generalize to more complex tasks. (ii) For the reward, we\nablate relative reward sparsity, observing that while dense turn-level rewards\naccelerate training, performance and stability is highly dependent on the\nchoice of RL algorithm. (iii) And for the agent's policy, we explore the\ninterplay between reward sparsity and biased (PPO, GRPO) and unbiased (RLOO)\npolicy gradient methods in addition to showing how to find the optimal\nSupervised Fine-tuning (SFT) to RL training ratio given a fixed budget. We\ndistill these findings into a training recipe that guides co-design across the\nthree pillars, facilitating research and practical efforts in multi-turn\nagentic RL. Code: https://github.com/pearls-lab/meow-tea-taro",
+  "authors": [
+    "Ruiyi Wang",
+    "Prithviraj Ammanabrolu"
+  ],
+  "published": "2025-10-01T17:23:04Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01132v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文针对多轮强化学习训练大语言模型代理，系统分析了环境、奖励和策略三大设计要素。通过TextWorld、ALFWorld和SWE-Gym等测试环境，研究发现：环境复杂度影响泛化能力，奖励密度需与RL算法匹配，策略需平衡SFT与RL训练比例。最终提出跨三大要素协同设计的训练方案。",
+  "order": 427,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01132v1"
+}

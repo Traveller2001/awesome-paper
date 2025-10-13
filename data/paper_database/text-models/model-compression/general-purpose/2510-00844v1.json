@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.00844v1",
+  "title": "Learning Compact Representations of LLM Abilities via Item Response\n  Theory",
+  "summary": "Recent years have witnessed a surge in the number of large language models\n(LLMs), yet efficiently managing and utilizing these vast resources remains a\nsignificant challenge. In this work, we explore how to learn compact\nrepresentations of LLM abilities that can facilitate downstream tasks, such as\nmodel routing and performance prediction on new benchmarks. We frame this\nproblem as estimating the probability that a given model will correctly answer\na specific query. Inspired by the item response theory (IRT) in psychometrics,\nwe model this probability as a function of three key factors: (i) the model's\nmulti-skill ability vector, (2) the query's discrimination vector that\nseparates models of differing skills, and (3) the query's difficulty scalar. To\nlearn these parameters jointly, we introduce a Mixture-of-Experts (MoE) network\nthat couples model- and query-level embeddings. Extensive experiments\ndemonstrate that our approach leads to state-of-the-art performance in both\nmodel routing and benchmark accuracy prediction. Moreover, analysis validates\nthat the learned parameters encode meaningful, interpretable information about\nmodel capabilities and query characteristics.",
+  "authors": [
+    "Jianhao Chen",
+    "Chenxu Wang",
+    "Gengrui Zhang",
+    "Peng Ye",
+    "Lei Bai",
+    "Wei Hu",
+    "Yuzhong Qu",
+    "Shuyue Hu"
+  ],
+  "published": "2025-10-01T12:55:34Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00844v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究借鉴心理测量学中的项目反应理论，提出一种学习大语言模型能力紧凑表示的方法。通过混合专家网络联合学习模型的多技能能力向量、查询的区分度向量和难度标量，在模型路由和基准测试预测任务中达到最先进性能，且学习参数能有效编码模型能力和查询特征的可解释信息。",
+  "order": 232,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00844v1"
+}

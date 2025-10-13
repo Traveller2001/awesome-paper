@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00458v1",
+  "title": "VLOD-TTA: Test-Time Adaptation of Vision-Language Object Detectors",
+  "summary": "Vision-language object detectors (VLODs) such as YOLO-World and Grounding\nDINO achieve impressive zero-shot recognition by aligning region proposals with\ntext representations. However, their performance often degrades under domain\nshift. We introduce VLOD-TTA, a test-time adaptation (TTA) framework for VLODs\nthat leverages dense proposal overlap and image-conditioned prompt scores.\nFirst, an IoU-weighted entropy objective is proposed that concentrates\nadaptation on spatially coherent proposal clusters and reduces confirmation\nbias from isolated boxes. Second, image-conditioned prompt selection is\nintroduced, which ranks prompts by image-level compatibility and fuses the most\ninformative prompts with the detector logits. Our benchmarking across diverse\ndistribution shifts -- including stylized domains, driving scenes, low-light\nconditions, and common corruptions -- shows the effectiveness of our method on\ntwo state-of-the-art VLODs, YOLO-World and Grounding DINO, with consistent\nimprovements over the zero-shot and TTA baselines. Code :\nhttps://github.com/imatif17/VLOD-TTA",
+  "authors": [
+    "Atif Belal",
+    "Heitor R. Medeiros",
+    "Marco Pedersoli",
+    "Eric Granger"
+  ],
+  "published": "2025-10-01T03:17:56Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00458v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VLOD-TTA提出了一种视觉语言目标检测器的测试时自适应框架，通过IoU加权熵目标和图像条件提示选择，在域偏移场景下显著提升YOLO-World和Grounding DINO等模型的性能。",
+  "order": 677,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00458v1"
+}

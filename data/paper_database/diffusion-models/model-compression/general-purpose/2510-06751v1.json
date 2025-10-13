@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.06751v1",
+  "title": "OBS-Diff: Accurate Pruning For Diffusion Models in One-Shot",
+  "summary": "Large-scale text-to-image diffusion models, while powerful, suffer from\nprohibitive computational cost. Existing one-shot network pruning methods can\nhardly be directly applied to them due to the iterative denoising nature of\ndiffusion models. To bridge the gap, this paper presents OBS-Diff, a novel\none-shot pruning framework that enables accurate and training-free compression\nof large-scale text-to-image diffusion models. Specifically, (i) OBS-Diff\nrevitalizes the classic Optimal Brain Surgeon (OBS), adapting it to the complex\narchitectures of modern diffusion models and supporting diverse pruning\ngranularity, including unstructured, N:M semi-structured, and structured (MHA\nheads and FFN neurons) sparsity; (ii) To align the pruning criteria with the\niterative dynamics of the diffusion process, by examining the problem from an\nerror-accumulation perspective, we propose a novel timestep-aware Hessian\nconstruction that incorporates a logarithmic-decrease weighting scheme,\nassigning greater importance to earlier timesteps to mitigate potential error\naccumulation; (iii) Furthermore, a computationally efficient group-wise\nsequential pruning strategy is proposed to amortize the expensive calibration\nprocess. Extensive experiments show that OBS-Diff achieves state-of-the-art\none-shot pruning for diffusion models, delivering inference acceleration with\nminimal degradation in visual quality.",
+  "authors": [
+    "Junhan Zhu",
+    "Hesong Wang",
+    "Mingluo Su",
+    "Zefang Wang",
+    "Huan Wang"
+  ],
+  "published": "2025-10-08T08:19:15Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.06751v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_compression",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出OBS-Diff，一种针对扩散模型的一次性剪枝框架。通过改进经典OBS算法，结合时间步感知的Hessian矩阵构建和分组顺序剪枝策略，在无需训练的情况下实现高效模型压缩，在保持视觉质量的同时显著加速推理。",
+  "order": 143,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06751v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00796v1",
+  "title": "MetaLogic: Robustness Evaluation of Text-to-Image Models via Logically\n  Equivalent Prompts",
+  "summary": "Recent advances in text-to-image (T2I) models, especially diffusion-based\narchitectures, have significantly improved the visual quality of generated\nimages. However, these models continue to struggle with a critical limitation:\nmaintaining semantic consistency when input prompts undergo minor linguistic\nvariations. Despite being logically equivalent, such prompt pairs often yield\nmisaligned or semantically inconsistent images, exposing a lack of robustness\nin reasoning and generalisation. To address this, we propose MetaLogic, a novel\nevaluation framework that detects T2I misalignment without relying on ground\ntruth images. MetaLogic leverages metamorphic testing, generating image pairs\nfrom prompts that differ grammatically but are semantically identical. By\ndirectly comparing these image pairs, the framework identifies inconsistencies\nthat signal failures in preserving the intended meaning, effectively diagnosing\nrobustness issues in the model's logic understanding. Unlike existing\nevaluation methods that compare a generated image to a single prompt, MetaLogic\nevaluates semantic equivalence between paired images, offering a scalable,\nground-truth-free approach to identifying alignment failures. It categorises\nthese alignment errors (e.g., entity omission, duplication, positional\nmisalignment) and surfaces counterexamples that can be used for model debugging\nand refinement. We evaluate MetaLogic across multiple state-of-the-art T2I\nmodels and reveal consistent robustness failures across a range of logical\nconstructs. We find that even the SOTA text-to-image models like Flux.dev and\nDALLE-3 demonstrate a 59 percent and 71 percent misalignment rate,\nrespectively. Our results show that MetaLogic is not only efficient and\nscalable, but also effective in uncovering fine-grained logical inconsistencies\nthat are overlooked by existing evaluation metrics.",
+  "authors": [
+    "Yifan Shen",
+    "Yangyang Shu",
+    "Hye-young Paik",
+    "Yulei Sui"
+  ],
+  "published": "2025-10-01T11:51:13Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00796v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "MetaLogic提出了一种无需真实图像标注的文生图模型鲁棒性评估框架，通过生成语法不同但语义等价的提示词对，检测模型在逻辑一致性方面的缺陷。该框架能识别实体遗漏、重复、位置错位等对齐错误，在主流模型上发现高达59%-71%的语义失配率。",
+  "order": 628,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00796v1"
+}

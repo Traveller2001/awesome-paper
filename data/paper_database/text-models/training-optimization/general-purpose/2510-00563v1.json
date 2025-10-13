@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.00563v1",
+  "title": "Memory Determines Learning Direction: A Theory of Gradient-Based\n  Optimization in State Space Models",
+  "summary": "State space models (SSMs) have gained attention by showing potential to\noutperform Transformers. However, previous studies have not sufficiently\naddressed the mechanisms underlying their high performance owing to a lack of\ntheoretical explanation of SSMs' learning dynamics. In this study, we provide\nsuch an explanation and propose an improved training strategy. The memory\ncapacity of SSMs can be evaluated by examining how input time series are stored\nin their current state. Such an examination reveals a tradeoff between memory\naccuracy and length, as well as the theoretical equivalence between the\nstructured state space sequence model (S4) and a simplified S4 with diagonal\nrecurrent weights. This theoretical foundation allows us to elucidate the\nlearning dynamics, proving the importance of initial parameters. Our analytical\nresults suggest that successful learning requires the initial memory structure\nto be the longest possible even if memory accuracy may deteriorate or the\ngradient lose the teacher information. Experiments on tasks requiring long\nmemory confirmed that extending memory is difficult, emphasizing the importance\nof initialization. Furthermore, we found that fixing recurrent weights can be\nmore advantageous than adapting them because it achieves comparable or even\nhigher performance with faster convergence. Our results provide a new\ntheoretical foundation for SSMs and potentially offer a novel optimization\nstrategy.",
+  "authors": [
+    "JingChuan Guan",
+    "Tomoyuki Kubota",
+    "Yasuo Kuniyoshi",
+    "Kohei Nakajima"
+  ],
+  "published": "2025-10-01T06:30:42Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.00563v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出状态空间模型(SSMs)的学习动态理论，揭示记忆精度与长度间的权衡关系，证明初始参数对学习成功的关键作用。研究发现固定循环权重可获得更快收敛和相当甚至更优性能，为SSMs提供了新的理论基础和优化策略。",
+  "order": 282,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00563v1"
+}

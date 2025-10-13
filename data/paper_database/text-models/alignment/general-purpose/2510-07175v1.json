@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.07175v1",
+  "title": "Quantifying Data Contamination in Psychometric Evaluations of LLMs",
+  "summary": "Recent studies apply psychometric questionnaires to Large Language Models\n(LLMs) to assess high-level psychological constructs such as values,\npersonality, moral foundations, and dark traits. Although prior work has raised\nconcerns about possible data contamination from psychometric inventories, which\nmay threaten the reliability of such evaluations, there has been no systematic\nattempt to quantify the extent of this contamination. To address this gap, we\npropose a framework to systematically measure data contamination in\npsychometric evaluations of LLMs, evaluating three aspects: (1) item\nmemorization, (2) evaluation memorization, and (3) target score matching.\nApplying this framework to 21 models from major families and four widely used\npsychometric inventories, we provide evidence that popular inventories such as\nthe Big Five Inventory (BFI-44) and Portrait Values Questionnaire (PVQ-40)\nexhibit strong contamination, where models not only memorize items but can also\nadjust their responses to achieve specific target scores.",
+  "authors": [
+    "Jongwook Han",
+    "Woojung Song",
+    "Jonggeun Lee",
+    "Yohan Jo"
+  ],
+  "published": "2025-10-08T16:16:20Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.07175v1",
+  "primary_area": "text_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出量化框架评估大语言模型在心理测量评估中的数据污染问题，涵盖项目记忆、评估记忆和目标分数匹配三个维度。通过对21个主流模型和4种常用心理量表的分析，发现BFI-44和PVQ-40等量表存在严重数据污染，模型不仅能记忆题目还能针对性调整回答以达成特定分数。",
+  "order": 44,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07175v1"
+}

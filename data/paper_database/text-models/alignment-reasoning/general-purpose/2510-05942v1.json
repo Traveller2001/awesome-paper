@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.05942v1",
+  "title": "EvalMORAAL: Interpretable Chain-of-Thought and LLM-as-Judge Evaluation\n  for Moral Alignment in Large Language Models",
+  "summary": "We present EvalMORAAL, a transparent chain-of-thought (CoT) framework that\nuses two scoring methods (log-probabilities and direct ratings) plus a\nmodel-as-judge peer review to evaluate moral alignment in 20 large language\nmodels. We assess models on the World Values Survey (55 countries, 19 topics)\nand the PEW Global Attitudes Survey (39 countries, 8 topics). With EvalMORAAL,\ntop models align closely with survey responses (Pearson's r approximately 0.90\non WVS). Yet we find a clear regional difference: Western regions average\nr=0.82 while non-Western regions average r=0.61 (a 0.21 absolute gap),\nindicating consistent regional bias. Our framework adds three parts: (1) two\nscoring methods for all models to enable fair comparison, (2) a structured\nchain-of-thought protocol with self-consistency checks, and (3) a\nmodel-as-judge peer review that flags 348 conflicts using a data-driven\nthreshold. Peer agreement relates to survey alignment (WVS r=0.74, PEW r=0.39,\nboth p<.001), supporting automated quality checks. These results show real\nprogress toward culture-aware AI while highlighting open challenges for use\nacross regions.",
+  "authors": [
+    "Hadi Mohammadi",
+    "Anastasia Giachanou",
+    "Ayoub Bagheri"
+  ],
+  "published": "2025-10-07T13:52:16Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.05942v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['alignment', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出EvalMORAAL框架，通过思维链和模型互评机制评估20个大语言模型的道德对齐能力。研究发现模型在西方地区相关性达0.82，非西方地区仅0.61，揭示显著地域偏差。该框架包含双评分方法、结构化思维链协议和自动冲突检测，为文化感知AI提供评估基准。",
+  "order": 26,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05942v1"
+}

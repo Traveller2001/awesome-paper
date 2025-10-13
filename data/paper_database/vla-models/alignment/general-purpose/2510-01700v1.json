@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01700v1",
+  "title": "VaPR -- Vision-language Preference alignment for Reasoning",
+  "summary": "Preference finetuning methods like Direct Preference Optimization (DPO) with\nAI-generated feedback have shown promise in aligning Large Vision-Language\nModels (LVLMs) with human preferences. However, existing techniques overlook\nthe prevalence of noise in synthetic preference annotations in the form of\nstylistic and length biases. To this end, we introduce a hard-negative response\ngeneration framework based on LLM-guided response editing, that produces\nrejected responses with targeted errors, maintaining stylistic and length\nsimilarity to the accepted ones. Using this framework, we develop the VaPR\ndataset, comprising 30K high-quality samples, to finetune three LVLM families:\nLLaVA-V1.5, Qwen2VL & Qwen2.5VL (2B-13B sizes). Our VaPR models deliver\nsignificant performance improvements across ten benchmarks, achieving average\ngains of 6.5% (LLaVA), 4.0% (Qwen2VL), and 1.5% (Qwen2.5VL), with notable\nimprovements on reasoning tasks. A scaling analysis shows that performance\nconsistently improves with data size, with LLaVA models benefiting even at\nsmaller scales. Moreover, VaPR reduces the tendency to answer \"Yes\" in binary\nquestions - addressing a common failure mode in LVLMs like LLaVA. Lastly, we\nshow that the framework generalizes to open-source LLMs as editors, with models\ntrained on VaPR-OS achieving ~99% of the performance of models trained on\n\\name, which is synthesized using GPT-4o. Our data, models, and code can be\nfound on the project page https://vap-r.github.io",
+  "authors": [
+    "Rohan Wadhawan",
+    "Fabrice Y Harel-Canada",
+    "Zi-Yi Dou",
+    "Suhaila Shakiah",
+    "Robinson Piramuthu",
+    "Nanyun Peng"
+  ],
+  "published": "2025-10-02T06:10:43Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.01700v1",
+  "primary_area": "vla_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VaPR提出基于LLM引导的硬负样本生成框架，通过编辑响应创建风格和长度相似但含目标错误的拒绝样本，构建30K高质量数据集用于视觉语言模型偏好对齐。在三大LVLM家族上显著提升推理性能，平均增益达6.5%(LLaVA)，并有效缓解二元问题中的肯定回答倾向。",
+  "order": 550,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01700v1"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.06182v1",
+  "title": "Mixing Mechanisms: How Language Models Retrieve Bound Entities\n  In-Context",
+  "summary": "A key component of in-context reasoning is the ability of language models\n(LMs) to bind entities for later retrieval. For example, an LM might represent\n\"Ann loves pie\" by binding \"Ann\" to \"pie\", allowing it to later retrieve \"Ann\"\nwhen asked \"Who loves pie?\" Prior research on short lists of bound entities\nfound strong evidence that LMs implement such retrieval via a positional\nmechanism, where \"Ann\" is retrieved based on its position in context. In this\nwork, we find that this mechanism generalizes poorly to more complex settings;\nas the number of bound entities in context increases, the positional mechanism\nbecomes noisy and unreliable in middle positions. To compensate for this, we\nfind that LMs supplement the positional mechanism with a lexical mechanism\n(retrieving \"Ann\" using its bound counterpart \"pie\") and a reflexive mechanism\n(retrieving \"Ann\" through a direct pointer). Through extensive experiments on\nnine models and ten binding tasks, we uncover a consistent pattern in how LMs\nmix these mechanisms to drive model behavior. We leverage these insights to\ndevelop a causal model combining all three mechanisms that estimates next token\ndistributions with 95% agreement. Finally, we show that our model generalizes\nto substantially longer inputs of open-ended text interleaved with entity\ngroups, further demonstrating the robustness of our findings in more natural\nsettings. Overall, our study establishes a more complete picture of how LMs\nbind and retrieve entities in-context.",
+  "authors": [
+    "Yoav Gur-Arieh",
+    "Mor Geva",
+    "Atticus Geiger"
+  ],
+  "published": "2025-10-07T17:44:30Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06182v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究揭示了语言模型在上下文推理中检索绑定实体的混合机制。当绑定实体数量增加时，模型会从单一的位置机制转向结合词汇机制和反射机制的三重混合策略。通过九个模型和十项绑定任务的实验，建立了能95%准确预测下一个词分布的因果模型，并在更长文本中验证了其鲁棒性。",
+  "order": 11,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06182v1"
+}

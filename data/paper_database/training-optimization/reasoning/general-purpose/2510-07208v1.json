@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.07208v1",
+  "title": "A Broader View of Thompson Sampling",
+  "summary": "Thompson Sampling is one of the most widely used and studied bandit\nalgorithms, known for its simple structure, low regret performance, and solid\ntheoretical guarantees. Yet, in stark contrast to most other families of bandit\nalgorithms, the exact mechanism through which posterior sampling (as introduced\nby Thompson) is able to \"properly\" balance exploration and exploitation,\nremains a mystery. In this paper we show that the core insight to address this\nquestion stems from recasting Thompson Sampling as an online optimization\nalgorithm. To distill this, a key conceptual tool is introduced, which we refer\nto as \"faithful\" stationarization of the regret formulation. Essentially, the\nfinite horizon dynamic optimization problem is converted into a stationary\ncounterpart which \"closely resembles\" the original objective (in contrast, the\nclassical infinite horizon discounted formulation, that leads to the Gittins\nindex, alters the problem and objective in too significant a manner). The newly\ncrafted time invariant objective can be studied using Bellman's principle which\nleads to a time invariant optimal policy. When viewed through this lens,\nThompson Sampling admits a simple online optimization form that mimics the\nstructure of the Bellman-optimal policy, and where greediness is regularized by\na measure of residual uncertainty based on point-biserial correlation. This\nanswers the question of how Thompson Sampling balances\nexploration-exploitation, and moreover, provides a principled framework to\nstudy and further improve Thompson's original idea.",
+  "authors": [
+    "Yanlin Qu",
+    "Hongseok Namkoong",
+    "Assaf Zeevi"
+  ],
+  "published": "2025-10-08T16:43:02Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.07208v1",
+  "primary_area": "training_optimization",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文通过将汤普森采样重新解释为在线优化算法，揭示了其平衡探索与利用的机制。核心创新是提出'忠实'平稳化方法，将有限时域动态优化转化为平稳目标，基于贝尔曼原理得到时不变最优策略。研究表明汤普森采样本质上是模仿贝尔曼最优策略的在线优化形式，通过基于点二列相关性的残差不确定性度量来正则化贪婪性。",
+  "order": 172,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.07208v1"
+}

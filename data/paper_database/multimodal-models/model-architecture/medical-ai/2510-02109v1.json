@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.02109v1",
+  "title": "SpurBreast: A Curated Dataset for Investigating Spurious Correlations in\n  Real-world Breast MRI Classification",
+  "summary": "Deep neural networks (DNNs) have demonstrated remarkable success in medical\nimaging, yet their real-world deployment remains challenging due to spurious\ncorrelations, where models can learn non-clinical features instead of\nmeaningful medical patterns. Existing medical imaging datasets are not designed\nto systematically study this issue, largely due to restrictive licensing and\nlimited supplementary patient data. To address this gap, we introduce\nSpurBreast, a curated breast MRI dataset that intentionally incorporates\nspurious correlations to evaluate their impact on model performance. Analyzing\nover 100 features involving patient, device, and imaging protocol, we identify\ntwo dominant spurious signals: magnetic field strength (a global feature\ninfluencing the entire image) and image orientation (a local feature affecting\nspatial alignment). Through controlled dataset splits, we demonstrate that DNNs\ncan exploit these non-clinical signals, achieving high validation accuracy\nwhile failing to generalize to unbiased test data. Alongside these two datasets\ncontaining spurious correlations, we also provide benchmark datasets without\nspurious correlations, allowing researchers to systematically investigate\nclinically relevant and irrelevant features, uncertainty estimation,\nadversarial robustness, and generalization strategies. Models and datasets are\navailable at https://github.com/utkuozbulak/spurbreast.",
+  "authors": [
+    "Jong Bum Won",
+    "Wesley De Neve",
+    "Joris Vankerschaver",
+    "Utku Ozbulak"
+  ],
+  "published": "2025-10-02T15:16:20Z",
+  "primary_category": "eess.IV",
+  "arxiv_url": "https://arxiv.org/abs/2510.02109v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "SpurBreast是一个专门设计的乳腺MRI数据集，用于研究医学影像分类中的伪相关性。该数据集包含患者、设备和成像协议等100多个特征，识别出磁场强度和图像方向两个主要伪信号，揭示了深度神经网络可能依赖非临床特征而非医学模式的问题，为系统研究模型泛化性和鲁棒性提供基准。",
+  "order": 518,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02109v1"
+}

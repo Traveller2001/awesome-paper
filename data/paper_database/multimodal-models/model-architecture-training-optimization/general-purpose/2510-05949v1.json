@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05949v1",
+  "title": "Gaussian Embeddings: How JEPAs Secretly Learn Your Data Density",
+  "summary": "Joint Embedding Predictive Architectures (JEPAs) learn representations able\nto solve numerous downstream tasks out-of-the-box. JEPAs combine two\nobjectives: (i) a latent-space prediction term, i.e., the representation of a\nslightly perturbed sample must be predictable from the original sample's\nrepresentation, and (ii) an anti-collapse term, i.e., not all samples should\nhave the same representation. While (ii) is often considered as an obvious\nremedy to representation collapse, we uncover that JEPAs' anti-collapse term\ndoes much more--it provably estimates the data density. In short, any\nsuccessfully trained JEPA can be used to get sample probabilities, e.g., for\ndata curation, outlier detection, or simply for density estimation. Our\ntheoretical finding is agnostic of the dataset and architecture used--in any\ncase one can compute the learned probabilities of sample $x$ efficiently and in\nclosed-form using the model's Jacobian matrix at $x$. Our findings are\nempirically validated across datasets (synthetic, controlled, and Imagenet) and\nacross different Self Supervised Learning methods falling under the JEPA family\n(I-JEPA and DINOv2) and on multimodal models, such as MetaCLIP. We denote the\nmethod extracting the JEPA learned density as {\\bf JEPA-SCORE}.",
+  "authors": [
+    "Randall Balestriero",
+    "Nicolas Ballas",
+    "Mike Rabbat",
+    "Yann LeCun"
+  ],
+  "published": "2025-10-07T14:06:30Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.05949v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "['model_architecture', 'training_optimization']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文揭示了联合嵌入预测架构(JEPA)在训练过程中，其防坍缩项实际上能够学习数据密度分布。研究发现任何成功训练的JEPA模型均可通过雅可比矩阵高效计算样本概率，适用于数据筛选、异常检测和密度估计等任务。该方法被命名为JEPA-SCORE，并在合成数据、受控数据集及Imagenet上得到验证，适用于I-JEPA、DINOv2等自监督学习方法及多模态模型。",
+  "order": 109,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.05949v1"
+}

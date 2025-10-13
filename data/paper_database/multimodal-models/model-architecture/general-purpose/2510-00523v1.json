@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.00523v1",
+  "title": "VIRTUE: Visual-Interactive Text-Image Universal Embedder",
+  "summary": "Multimodal representation learning models have demonstrated successful\noperation across complex tasks, and the integration of vision-language models\n(VLMs) has further enabled embedding models with instruction-following\ncapabilities. However, existing embedding models lack visual-interactive\ncapabilities to specify regions of interest from users (e.g., point, bounding\nbox, mask), which have been explored in generative models to broaden their\nhuman-interactive applicability. Equipping embedding models with visual\ninteractions not only would unlock new applications with localized grounding of\nuser intent, which remains unexplored, but also enable the models to learn\nentity-level information within images to complement their global\nrepresentations for conventional embedding tasks. In this paper, we propose a\nnovel Visual-InteRactive Text-Image Universal Embedder (VIRTUE) that extends\nthe capabilities of the segmentation model and the vision-language model to the\nrealm of representation learning. In VIRTUE, the segmentation model can process\nvisual prompts that pinpoint specific regions within an image, thereby enabling\nthe embedder to handle complex and ambiguous scenarios more precisely. To\nevaluate the visual-interaction ability of VIRTUE, we introduce a large-scale\nSegmentation-and-Scene Caption Retrieval (SCaR) benchmark comprising 1M samples\nthat aims to retrieve the text caption by jointly considering the entity with a\nspecific object and image scene. VIRTUE consistently achieves a\nstate-of-the-art performance with significant improvements across 36 universal\nMMEB (3.1%-8.5%) and five visual-interactive SCaR (15.2%-20.3%) tasks.",
+  "authors": [
+    "Wei-Yao Wang",
+    "Kazuya Tateishi",
+    "Qiyu Wu",
+    "Shusuke Takahashi",
+    "Yuki Mitsufuji"
+  ],
+  "published": "2025-10-01T05:11:54Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00523v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VIRTUE提出了一种视觉交互式文本-图像通用嵌入模型，通过整合分割模型和视觉语言模型，支持用户通过点选、边界框等交互方式指定图像兴趣区域，在36个多模态任务和5个视觉交互检索任务中实现显著性能提升。",
+  "order": 667,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00523v1"
+}

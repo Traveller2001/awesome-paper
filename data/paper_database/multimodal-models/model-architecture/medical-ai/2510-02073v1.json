@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.02073v1",
+  "title": "Inferring Optical Tissue Properties from Photoplethysmography using\n  Hybrid Amortized Inference",
+  "summary": "Smart wearables enable continuous tracking of established biomarkers such as\nheart rate, heart rate variability, and blood oxygen saturation via\nphotoplethysmography (PPG). Beyond these metrics, PPG waveforms contain richer\nphysiological information, as recent deep learning (DL) studies demonstrate.\nHowever, DL models often rely on features with unclear physiological meaning,\ncreating a tension between predictive power, clinical interpretability, and\nsensor design. We address this gap by introducing PPGen, a biophysical model\nthat relates PPG signals to interpretable physiological and optical parameters.\nBuilding on PPGen, we propose hybrid amortized inference (HAI), enabling fast,\nrobust, and scalable estimation of relevant physiological parameters from PPG\nsignals while correcting for model misspecification. In extensive in-silico\nexperiments, we show that HAI can accurately infer physiological parameters\nunder diverse noise and sensor conditions. Our results illustrate a path toward\nPPG models that retain the fidelity needed for DL-based features while\nsupporting clinical interpretation and informed hardware design.",
+  "authors": [
+    "Jens Behrmann",
+    "Maria R. Cervera",
+    "Antoine Wehenkel",
+    "Andrew C. Miller",
+    "Albert Cerussi",
+    "Pranay Jain",
+    "Vivek Venugopal",
+    "Shijie Yan",
+    "Guillermo Sapiro",
+    "Luca Pegolotti",
+    "Jörn-Henrik Jacobsen"
+  ],
+  "published": "2025-10-02T14:36:02Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.02073v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本研究提出PPGen生物物理模型和混合摊销推理方法，从光电容积脉搏波信号中推断可解释的生理光学参数，解决了深度学习模型在医疗应用中预测能力与临床可解释性之间的平衡问题。",
+  "order": 753,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02073v1"
+}

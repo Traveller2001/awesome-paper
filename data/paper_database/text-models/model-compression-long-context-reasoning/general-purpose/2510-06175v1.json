@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.06175v1",
+  "title": "VecInfer: Efficient LLM Inference with Low-Bit KV Cache via\n  Outlier-Suppressed Vector Quantization",
+  "summary": "The Key-Value (KV) cache introduces substantial memory overhead during large\nlanguage model (LLM) inference. Although existing vector quantization (VQ)\nmethods reduce KV cache usage and provide flexible representational capacity\nacross bit-widths, they suffer severe performance degradation at ultra-low\nbit-widths due to key cache outliers that hinder effective codebook\nutilization. To address this challenge, we propose VecInfer, a novel VQ method\nfor aggressive KV cache compression while enabling efficient inference. By\napplying smooth and Hadamard transformations, VecInfer suppresses outliers in\nthe key cache, enabling the codebook to comprehensively cover the original data\ndistribution and thereby reducing quantization difficulty. To facilitate\nefficient deployment, we design an optimized CUDA kernel that fuses computation\nwith dequantization to minimize memory access overhead. Extensive evaluations\ndemonstrate that VecInfer consistently outperforms existing quantization\nbaselines across both long-context understanding and mathematical reasoning\ntasks. With only 2-bit quantization, VecInfer achieves performance comparable\nto full precision, while delivering up to $\\mathbf{2.7\\times}$ speedup in\nlarge-batch self-attention computation and $\\mathbf{8.3\\times}$ reduction in\nsingle-batch end-to-end latency on Llama-3.1-8B with a 196k sequence length.",
+  "authors": [
+    "Dingyu Yao",
+    "Chenxu Yang",
+    "Zhengyang Tong",
+    "Zheng Lin",
+    "Wei Liu",
+    "Jian Luan",
+    "Weiping Wang"
+  ],
+  "published": "2025-10-07T17:35:28Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06175v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['model_compression', 'long_context', 'reasoning']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "VecInfer提出一种通过异常值抑制向量量化实现低比特KV缓存的高效LLM推理方法。通过平滑变换和Hadamard变换抑制关键缓存中的异常值，使码本更好覆盖原始数据分布，并设计融合计算与反量化的CUDA内核。在2比特量化下达到接近全精度性能，在长序列场景中实现最高8.3倍加速。",
+  "order": 12,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06175v1"
+}

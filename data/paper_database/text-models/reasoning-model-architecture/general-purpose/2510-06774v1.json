@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06774v1",
+  "title": "Adaptive LLM-Symbolic Reasoning via Dynamic Logical Solver Composition",
+  "summary": "Neuro-symbolic NLP methods aim to leverage the complementary strengths of\nlarge language models and formal logical solvers. However, current approaches\nare mostly static in nature, i.e., the integration of a target solver is\npredetermined at design time, hindering the ability to employ diverse formal\ninference strategies. To address this, we introduce an adaptive,\nmulti-paradigm, neuro-symbolic inference framework that: (1) automatically\nidentifies formal reasoning strategies from problems expressed in natural\nlanguage; and (2) dynamically selects and applies specialized formal logical\nsolvers via autoformalization interfaces. Extensive experiments on individual\nand multi-paradigm reasoning tasks support the following conclusions: LLMs are\neffective at predicting the necessary formal reasoning strategies with an\naccuracy above 90 percent. This enables flexible integration with formal\nlogical solvers, resulting in our framework outperforming competing baselines\nby 27 percent and 6 percent compared to GPT-4o and DeepSeek-V3.1, respectively.\nMoreover, adaptive reasoning can even positively impact pure LLM methods,\nyielding gains of 10, 5, and 6 percent on zero-shot, CoT, and symbolic CoT\nsettings with GPT-4o. Finally, although smaller models struggle with adaptive\nneuro-symbolic reasoning, post-training offers a viable path to improvement.\nOverall, this work establishes the foundations for adaptive LLM-symbolic\nreasoning, offering a path forward for unifying material and formal inferences\non heterogeneous reasoning challenges.",
+  "authors": [
+    "Lei Xu",
+    "Pierre Beckmann",
+    "Marco Valentino",
+    "André Freitas"
+  ],
+  "published": "2025-10-08T08:57:16Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.06774v1",
+  "primary_area": "text_models",
+  "secondary_focus": "['reasoning', 'model_architecture']",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文提出了一种自适应神经符号推理框架，能够自动识别自然语言问题中的形式推理策略，并动态选择专用逻辑求解器。实验表明，该方法在多项推理任务中优于GPT-4o和DeepSeek-V3等基线模型，准确率超90%，为统一材料推理与形式推理奠定了基础。",
+  "order": 81,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06774v1"
+}

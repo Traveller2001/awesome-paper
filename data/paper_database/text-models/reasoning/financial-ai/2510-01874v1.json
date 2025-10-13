@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01874v1",
+  "title": "Deep Hedging Under Non-Convexity: Limitations and a Case for AlphaZero",
+  "summary": "This paper examines replication portfolio construction in incomplete markets\n- a key problem in financial engineering with applications in pricing, hedging,\nbalance sheet management, and energy storage planning. We model this as a\ntwo-player game between an investor and the market, where the investor makes\nstrategic bets on future states while the market reveals outcomes. Inspired by\nthe success of Monte Carlo Tree Search in stochastic games, we introduce an\nAlphaZero-based system and compare its performance to deep hedging - a widely\nused industry method based on gradient descent. Through theoretical analysis\nand experiments, we show that deep hedging struggles in environments where the\n$Q$-function is not subject to convexity constraints - such as those involving\nnon-convex transaction costs, capital constraints, or regulatory limitations -\nconverging to local optima. We construct specific market environments to\nhighlight these limitations and demonstrate that AlphaZero consistently finds\nnear-optimal replication strategies. On the theoretical side, we establish a\nconnection between deep hedging and convex optimization, suggesting that its\neffectiveness is contingent on convexity assumptions. Our experiments further\nsuggest that AlphaZero is more sample-efficient - an important advantage in\ndata-scarce, overfitting-prone derivative markets.",
+  "authors": [
+    "Matteo Maggiolo",
+    "Giuseppe Nuti",
+    "Miroslav Štrupl",
+    "Oleg Szehr"
+  ],
+  "published": "2025-10-02T10:28:59Z",
+  "primary_category": "stat.ML",
+  "arxiv_url": "https://arxiv.org/abs/2510.01874v1",
+  "primary_area": "text_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "financial_ai",
+  "tldr_zh": "本文研究不完全市场中复制投资组合构建问题，提出基于AlphaZero的系统并与深度对冲方法对比。理论分析和实验表明，在非凸交易成本、资本约束等环境下，深度对冲易陷入局部最优，而AlphaZero能持续找到近似最优策略且样本效率更高。",
+  "order": 783,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01874v1"
+}

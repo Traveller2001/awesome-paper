@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.01169v1",
+  "title": "Fiaingen: A financial time series generative method matching real-world\n  data quality",
+  "summary": "Data is vital in enabling machine learning models to advance research and\npractical applications in finance, where accurate and robust models are\nessential for investment and trading decision-making. However, real-world data\nis limited despite its quantity, quality, and variety. The data shortage of\nvarious financial assets directly hinders the performance of machine learning\nmodels designed to trade and invest in these assets. Generative methods can\nmitigate this shortage. In this paper, we introduce a set of novel techniques\nfor time series data generation (we name them Fiaingen) and assess their\nperformance across three criteria: (a) overlap of real-world and synthetic data\non a reduced dimensionality space, (b) performance on downstream machine\nlearning tasks, and (c) runtime performance. Our experiments demonstrate that\nthe methods achieve state-of-the-art performance across the three criteria\nlisted above. Synthetic data generated with Fiaingen methods more closely\nmirrors the original time series data while keeping data generation time close\nto seconds - ensuring the scalability of the proposed approach. Furthermore,\nmodels trained on it achieve performance close to those trained with real-world\ndata.",
+  "authors": [
+    "Jože M. Rožanec",
+    "Tina Žezlin",
+    "Laurentiu Vasiliu",
+    "Dunja Mladenić",
+    "Radu Prodan",
+    "Dumitru Roman"
+  ],
+  "published": "2025-10-01T17:55:08Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.01169v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "financial_ai",
+  "tldr_zh": "Fiaingen是一种金融时间序列生成方法，通过降维空间重叠度、下游机器学习任务性能和运行时性能三个标准评估，能生成与真实数据质量匹配的合成数据，解决金融资产数据短缺问题，生成速度快且可扩展。",
+  "order": 181,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01169v1"
+}

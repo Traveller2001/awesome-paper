@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2510.00967v1",
+  "title": "QUASAR: Quantum Assembly Code Generation Using Tool-Augmented LLMs via\n  Agentic RL",
+  "summary": "Designing and optimizing task-specific quantum circuits are crucial to\nleverage the advantage of quantum computing. Recent large language model\n(LLM)-based quantum circuit generation has emerged as a promising automatic\nsolution. However, the fundamental challenges remain unaddressed: (i)\nparameterized quantum gates require precise numerical values for optimal\nperformance, which also depend on multiple aspects, including the number of\nquantum gates, their parameters, and the layout/depth of the circuits. (ii)\nLLMs often generate low-quality or incorrect quantum circuits due to the lack\nof quantum domain-specific knowledge. We propose QUASAR, an agentic\nreinforcement learning (RL) framework for quantum circuits generation and\noptimization based on tool-augmented LLMs. To align the LLM with\nquantum-specific knowledge and improve the generated quantum circuits, QUASAR\ndesigns (i) a quantum circuit verification approach with external quantum\nsimulators and (ii) a sophisticated hierarchical reward mechanism in RL\ntraining. Extensive evaluation shows improvements in both syntax and semantic\nperformance of the generated quantum circuits. When augmenting a 4B LLM, QUASAR\nhas achieved the validity of 99.31% in Pass@1 and 100% in Pass@10,\noutperforming industrial LLMs of GPT-4o, GPT-5 and DeepSeek-V3 and several\nsupervised-fine-tuning (SFT)-only and RL-only baselines.",
+  "authors": [
+    "Cong Yu",
+    "Valter Uotila",
+    "Shilong Deng",
+    "Qingyuan Wu",
+    "Tuo Shi",
+    "Songlin Jiang",
+    "Lei You",
+    "Bo Zhao"
+  ],
+  "published": "2025-10-01T14:40:04Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.00967v1",
+  "primary_area": "text_models",
+  "secondary_focus": "training_optimization",
+  "application_domain": "code_generation",
+  "tldr_zh": "QUASAR提出了一种基于工具增强大语言模型的强化学习框架，用于量子电路生成与优化。该框架通过量子模拟器验证和分层奖励机制，解决了参数化量子门数值精度和领域知识缺乏的问题。实验表明，QUASAR在4B参数模型上实现了99.31%的Pass@1和100%的Pass@10有效性，超越了GPT-4o等工业级模型。",
+  "order": 211,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00967v1"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.01662v1",
+  "title": "Discrete Facial Encoding: : A Framework for Data-driven Facial Display\n  Discovery",
+  "summary": "Facial expression analysis is central to understanding human behavior, yet\nexisting coding systems such as the Facial Action Coding System (FACS) are\nconstrained by limited coverage and costly manual annotation. In this work, we\nintroduce Discrete Facial Encoding (DFE), an unsupervised, data-driven\nalternative of compact and interpretable dictionary of facial expressions from\n3D mesh sequences learned through a Residual Vector Quantized Variational\nAutoencoder (RVQ-VAE). Our approach first extracts identity-invariant\nexpression features from images using a 3D Morphable Model (3DMM), effectively\ndisentangling factors such as head pose and facial geometry. We then encode\nthese features using an RVQ-VAE, producing a sequence of discrete tokens from a\nshared codebook, where each token captures a specific, reusable facial\ndeformation pattern that contributes to the overall expression. Through\nextensive experiments, we demonstrate that Discrete Facial Encoding captures\nmore precise facial behaviors than FACS and other facial encoding alternatives.\nWe evaluate the utility of our representation across three high-level\npsychological tasks: stress detection, personality prediction, and depression\ndetection. Using a simple Bag-of-Words model built on top of the learned\ntokens, our system consistently outperforms both FACS-based pipelines and\nstrong image and video representation learning models such as Masked\nAutoencoders. Further analysis reveals that our representation covers a wider\nvariety of facial displays, highlighting its potential as a scalable and\neffective alternative to FACS for psychological and affective computing\napplications.",
+  "authors": [
+    "Minh Tran",
+    "Maksim Siniukov",
+    "Zhangyu Jin",
+    "Mohammad Soleymani"
+  ],
+  "published": "2025-10-02T04:44:45Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01662v1",
+  "primary_area": "video_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "medical_ai",
+  "tldr_zh": "本文提出离散面部编码(DFE)框架，通过残差向量量化变分自编码器从3D网格序列中学习紧凑可解释的面部表情字典。该方法能有效分离身份、姿态等干扰因素，在压力检测、人格预测和抑郁检测等心理任务中优于传统FACS系统和主流表示学习模型，为心理计算提供可扩展的替代方案。",
+  "order": 560,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01662v1"
+}

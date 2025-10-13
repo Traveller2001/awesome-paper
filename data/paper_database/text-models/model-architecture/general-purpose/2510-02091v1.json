@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.02091v1",
+  "title": "Demystifying the Roles of LLM Layers in Retrieval, Knowledge, and\n  Reasoning",
+  "summary": "Recent studies suggest that the deeper layers of Large Language Models (LLMs)\ncontribute little to representation learning and can often be removed without\nsignificant performance loss. However, such claims are typically drawn from\nnarrow evaluations and may overlook important aspects of model behavior. In\nthis work, we present a systematic study of depth utilization across diverse\ndimensions, including evaluation protocols, task categories, and model\narchitectures. Our analysis confirms that very deep layers are generally less\neffective than earlier ones, but their contributions vary substantially with\nthe evaluation setting. Under likelihood-based metrics without generation,\npruning most layers preserves performance, with only the initial few being\ncritical. By contrast, generation-based evaluation uncovers indispensable roles\nfor middle and deeper layers in enabling reasoning and maintaining long-range\ncoherence. We further find that knowledge and retrieval are concentrated in\nshallow components, whereas reasoning accuracy relies heavily on deeper layers\n-- yet can be reshaped through distillation. These results highlight that depth\nusage in LLMs is highly heterogeneous and context-dependent, underscoring the\nneed for task-, metric-, and model-aware perspectives in both interpreting and\ncompressing large models.",
+  "authors": [
+    "Xinyuan Song",
+    "Keyu Wang",
+    "PengXiang Li",
+    "Lu Yin",
+    "Shiwei Liu"
+  ],
+  "published": "2025-10-02T14:57:13Z",
+  "primary_category": "cs.AI",
+  "arxiv_url": "https://arxiv.org/abs/2510.02091v1",
+  "primary_area": "text_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究系统分析了LLM各层在不同评估设置下的功能差异：浅层主要负责知识和检索，中层和深层对推理与长程连贯性至关重要；深度利用具有高度异质性和情境依赖性，模型压缩需考虑任务、指标和架构特性。",
+  "order": 48,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.02091v1"
+}

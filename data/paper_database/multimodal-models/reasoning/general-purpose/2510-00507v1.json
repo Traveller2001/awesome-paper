@@ -1,0 +1,27 @@
+{
+  "arxiv_id": "2510.00507v1",
+  "title": "Graph2Eval: Automatic Multimodal Task Generation for Agents via\n  Knowledge Graphs",
+  "summary": "As multimodal LLM-driven agents continue to advance in autonomy and\ngeneralization, evaluation based on static datasets can no longer adequately\nassess their true capabilities in dynamic environments and diverse tasks.\nExisting LLM-based synthetic data methods are largely designed for LLM training\nand evaluation, and thus cannot be directly applied to agent tasks that require\ntool use and interactive capabilities. While recent studies have explored\nautomatic agent task generation with LLMs, most efforts remain limited to text\nor image analysis, without systematically modeling multi-step interactions in\nweb environments. To address these challenges, we propose Graph2Eval, a\nknowledge graph-based framework that automatically generates both multimodal\ndocument comprehension tasks and web interaction tasks, enabling comprehensive\nevaluation of agents' reasoning, collaboration, and interactive capabilities.\nIn our approach, knowledge graphs constructed from multi-source external data\nserve as the task space, where we translate semantic relations into structured\nmultimodal tasks using subgraph sampling, task templates, and meta-paths. A\nmulti-stage filtering pipeline based on node reachability, LLM scoring, and\nsimilarity analysis is applied to guarantee the quality and executability of\nthe generated tasks. Furthermore, Graph2Eval supports end-to-end evaluation of\nmultiple agent types (Single-Agent, Multi-Agent, Web Agent) and measures\nreasoning, collaboration, and interaction capabilities. We instantiate the\nframework with Graph2Eval-Bench, a curated dataset of 1,319 tasks spanning\ndocument comprehension and web interaction scenarios. Experiments show that\nGraph2Eval efficiently generates tasks that differentiate agent and model\nperformance, revealing gaps in reasoning, collaboration, and web interaction\nacross different settings and offering a new perspective for agent evaluation.",
+  "authors": [
+    "Yurun Chen",
+    "Xavier Hu",
+    "Yuhan Liu",
+    "Ziqi Wang",
+    "Zeyi Liao",
+    "Lin Chen",
+    "Feng Wei",
+    "Yuxi Qian",
+    "Bo Zheng",
+    "Keting Yin",
+    "Shengyu Zhang"
+  ],
+  "published": "2025-10-01T04:37:54Z",
+  "primary_category": "cs.CL",
+  "arxiv_url": "https://arxiv.org/abs/2510.00507v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "reasoning",
+  "application_domain": "general_purpose",
+  "tldr_zh": "Graph2Eval是一个基于知识图谱的框架，能够自动生成多模态文档理解任务和网页交互任务，用于全面评估智能体的推理、协作和交互能力。该框架通过子图采样、任务模板和元路径将语义关系转化为结构化任务，并采用多阶段过滤确保任务质量和可执行性。实验表明其能有效生成区分不同智能体性能的任务，为智能体评估提供新视角。",
+  "order": 476,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00507v1"
+}

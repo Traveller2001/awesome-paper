@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.00666v1",
+  "title": "A Geometric Unification of Generative AI with Manifold-Probabilistic\n  Projection Models",
+  "summary": "The foundational premise of generative AI for images is the assumption that\nimages are inherently low-dimensional objects embedded within a\nhigh-dimensional space. Additionally, it is often implicitly assumed that\nthematic image datasets form smooth or piecewise smooth manifolds. Common\napproaches overlook the geometric structure and focus solely on probabilistic\nmethods, approximating the probability distribution through universal\napproximation techniques such as the kernel method. In some generative models,\nthe low dimensional nature of the data manifest itself by the introduction of a\nlower dimensional latent space. Yet, the probability distribution in the latent\nor the manifold coordinate space is considered uninteresting and is predefined\nor considered uniform. This study unifies the geometric and probabilistic\nperspectives by providing a geometric framework and a kernel-based\nprobabilistic method simultaneously. The resulting framework demystifies\ndiffusion models by interpreting them as a projection mechanism onto the\nmanifold of ``good images''. This interpretation leads to the construction of a\nnew deterministic model, the Manifold-Probabilistic Projection Model (MPPM),\nwhich operates in both the representation (pixel) space and the latent space.\nWe demonstrate that the Latent MPPM (LMPPM) outperforms the Latent Diffusion\nModel (LDM) across various datasets, achieving superior results in terms of\nimage restoration and generation.",
+  "authors": [
+    "Leah Bar",
+    "Liron Mor Yosef",
+    "Shai Zucker",
+    "Neta Shoham",
+    "Inbar Seroussi",
+    "Nir Sochen"
+  ],
+  "published": "2025-10-01T08:50:30Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00666v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "model_architecture",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本研究提出几何框架统一生成式AI的几何与概率视角，将扩散模型解释为向'优质图像'流形的投影机制，并构建新型确定性模型MPPM。实验表明潜在MPPM在图像修复和生成任务上优于潜在扩散模型。",
+  "order": 643,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00666v1"
+}

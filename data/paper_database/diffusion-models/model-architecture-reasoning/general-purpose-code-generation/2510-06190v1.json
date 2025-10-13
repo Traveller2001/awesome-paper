@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.06190v1",
+  "title": "On Powerful Ways to Generate: Autoregression, Diffusion, and Beyond",
+  "summary": "This paper formally studies generation processes, including auto-regressive\nnext-token prediction and masked diffusion, that abstract beyond architectural\nspecifics. At this level of abstraction, we quantify their benefits and\nlimitations through measurable criteria such as computational hardness and\nlearnability. In particular, we demonstrate that allowing generation to proceed\nbeyond autoregression and current masked diffusion, with capabilities to\nrewrite and length-variable edit, can bring significant theoretical and\nempirical advantages, with important implications for frontier LLMs that aspire\nto tackle increasingly hard problems and work universally across domains beyond\nnatural language, such as coding and science.",
+  "authors": [
+    "Chenxiao Yang",
+    "Cai Zhou",
+    "David Wipf",
+    "Zhiyuan Li"
+  ],
+  "published": "2025-10-07T17:49:30Z",
+  "primary_category": "cs.LG",
+  "arxiv_url": "https://arxiv.org/abs/2510.06190v1",
+  "primary_area": "diffusion_models",
+  "secondary_focus": "['model_architecture', 'reasoning']",
+  "application_domain": "['general_purpose', 'code_generation']",
+  "tldr_zh": "本文从计算复杂度和可学习性等理论角度，系统比较了自回归生成与掩码扩散等生成方法的优劣。研究发现，超越传统自回归和现有扩散模型、支持重写和变长编辑能力的生成范式，在理论和实验上均展现出显著优势，对前沿大语言模型处理代码、科学等跨领域复杂任务具有重要指导意义。",
+  "order": 82,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.06190v1"
+}

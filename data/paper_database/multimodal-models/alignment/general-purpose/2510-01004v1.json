@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.01004v1",
+  "title": "TextCAM: Explaining Class Activation Map with Text",
+  "summary": "Deep neural networks (DNNs) have achieved remarkable success across domains\nbut remain difficult to interpret, limiting their trustworthiness in\nhigh-stakes applications. This paper focuses on deep vision models, for which a\ndominant line of explainability methods are Class Activation Mapping (CAM) and\nits variants working by highlighting spatial regions that drive predictions. We\nfigure out that CAM provides little semantic insight into what attributes\nunderlie these activations. To address this limitation, we propose TextCAM, a\nnovel explanation framework that enriches CAM with natural languages. TextCAM\ncombines the precise spatial localization of CAM with the semantic alignment of\nvision-language models (VLMs). Specifically, we derive channel-level semantic\nrepresentations using CLIP embeddings and linear discriminant analysis, and\naggregate them with CAM weights to produce textual descriptions of salient\nvisual evidence. This yields explanations that jointly specify where the model\nattends and what visual attributes likely support its decision. We further\nextend TextCAM to generate feature channels into semantically coherent groups,\nenabling more fine-grained visual-textual explanations. Experiments on\nImageNet, CLEVR, and CUB demonstrate that TextCAM produces faithful and\ninterpretable rationales that improve human understanding, detect spurious\ncorrelations, and preserve model fidelity.",
+  "authors": [
+    "Qiming Zhao",
+    "Xingjian Li",
+    "Xiaoyu Cao",
+    "Xiaolong Wu",
+    "Min Xu"
+  ],
+  "published": "2025-10-01T15:11:14Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.01004v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "alignment",
+  "application_domain": "general_purpose",
+  "tldr_zh": "TextCAM是一种新颖的可解释性框架，通过将类别激活图(CAM)与自然语言相结合，为深度视觉模型提供语义丰富的解释。该方法利用CLIP嵌入和线性判别分析生成通道级语义表示，结合CAM权重产生文本描述，同时指明模型关注区域及其决策依据的视觉属性。在ImageNet等数据集上的实验表明，TextCAM能生成忠实可解释的推理，提升人类理解并检测虚假相关性。",
+  "order": 209,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.01004v1"
+}

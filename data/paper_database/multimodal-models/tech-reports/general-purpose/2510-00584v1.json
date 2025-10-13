@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.00584v1",
+  "title": "Color Models in Image Processing: A Review and Experimental Comparison",
+  "summary": "Color representation is essential in computer vision and human-computer\ninteraction. There are multiple color models available. The choice of a\nsuitable color model is critical for various applications. This paper presents\na review of color models and spaces, analyzing their theoretical foundations,\ncomputational properties, and practical applications. We explore traditional\nmodels such as RGB, CMYK, and YUV, perceptually uniform spaces like CIELAB and\nCIELUV, and fuzzy-based approaches as well. Additionally, we conduct a series\nof experiments to evaluate color models from various perspectives, like device\ndependency, chromatic consistency, and computational complexity. Our\nexperimental results reveal gaps in existing color models and show that the HS*\nfamily is the most aligned with human perception. The review also identifies\nkey strengths and limitations of different models and outlines open challenges\nand future directions This study provides a reference for researchers in image\nprocessing, perceptual computing, digital media, and any other color-related\nfield.",
+  "authors": [
+    "Muragul Muratbekova",
+    "Nuray Toganas",
+    "Ayan Igali",
+    "Maksat Shagyrov",
+    "Elnara Kadyrgali",
+    "Adilet Yerkin",
+    "Pakizar Shamoi"
+  ],
+  "published": "2025-10-01T07:06:02Z",
+  "primary_category": "cs.CV",
+  "arxiv_url": "https://arxiv.org/abs/2510.00584v1",
+  "primary_area": "multimodal_models",
+  "secondary_focus": "tech_reports",
+  "application_domain": "general_purpose",
+  "tldr_zh": "本文系统综述了图像处理中的颜色模型，分析了RGB、CMYK、YUV等传统模型、CIELAB/CIELUV感知均匀空间及模糊方法的理论基础与计算特性。通过设备依赖性、色彩一致性和计算复杂度实验，发现HS*系列最符合人类视觉感知，并指出了现有模型的局限性与未来研究方向。",
+  "order": 661,
+  "papers_cool_url": "https://papers.cool/arxiv/2510.00584v1"
+}
