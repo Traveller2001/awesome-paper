@@ -77,10 +77,12 @@ awesome-paper-2/
   ```json
   "stage3": {
     "delay_seconds": 2,
-    "separator_text": "🚧 下一类别：{label} （进度 {current}/{total}）🚧"
+    "separator_text": "🚧 下一类别：{label} （进度 {current}/{total}）🚧",
+    "exclude_tags": ["cs.CV", "diffusion_models"]
   }
   ```
 - `separator_text` 支持 `{label}`、`{current}`、`{total}` 占位符。
+- `exclude_tags` 是可选的标签列表（不区分大小写）。当论文的 `primary_category`、`primary_area`、`secondary_focus`、`application_domain`（或 `tags` 字段中的任意标签）命中其中任意一项时，该论文会在 Stage 3 被跳过，不再推送。
 - Stage 1 配置示例：
   ```json
   "stage1": {

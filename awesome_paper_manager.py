@@ -184,11 +184,19 @@ def command_send(args: argparse.Namespace, config: Dict[str, Any]) -> None:
         stage3_cfg = config.get("stage3", {})
         delay = stage3_cfg.get("delay_seconds", 0)
         separator_text = stage3_cfg.get("separator_text", "🚧 下一类别：{label} （进度 {current}/{total}）🚧")
+        exclude_tags_cfg = stage3_cfg.get("exclude_tags")
+        if isinstance(exclude_tags_cfg, str):
+            exclude_tags = [exclude_tags_cfg]
+        elif isinstance(exclude_tags_cfg, list):
+            exclude_tags = [str(tag) for tag in exclude_tags_cfg]
+        else:
+            exclude_tags = []
         send_digest(
             webhook_url,
             papers,
             delay_seconds=delay,
             separator_text=separator_text,
+            exclude_tags=exclude_tags,
         )
     except FeishuSendError as exc:
         raise SystemExit(f"Failed to send Feishu digest: {exc}") from exc

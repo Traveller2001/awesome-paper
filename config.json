@@ -16,7 +16,8 @@
   },
   "stage3": {
     "delay_seconds": 60,
-    "separator_text": "🚧 下一类别：{label} （进度 {current}/{total}）🚧"
+    "separator_text": "🚧 下一类别：{label} （进度 {current}/{total}）🚧",
+    "exclude_tags": []
   },
   "automation": {
     "max_attempts": 24,

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import time
 from collections import defaultdict
-from typing import Any, Dict, Iterable, List, Tuple
+from typing import Any, Dict, Iterable, List, Set, Tuple
 
 import requests
 
@@ -58,6 +58,59 @@ def _format_label(key: ClusterKey) -> str:
     primary_category, primary_area, secondary, application = key
     emoji = _emoji_for_primary(primary_area)
     return f"📂 {primary_category} | {emoji} {primary_area} · {secondary} · {application}"
+
+
+def _normalise_tag_value(value: Any) -> str | None:
+    """Lowercase string representation for tag comparison."""
+
+    if value is None:
+        return None
+    text = str(value).strip().lower()
+    return text or None
+
+
+def _paper_tags(paper: Dict[str, Any]) -> Set[str]:
+    """Collect tag-like fields from a paper for exclusion matching."""
+
+    fields = ("primary_category", "primary_area", "secondary_focus", "application_domain")
+    tags: Set[str] = set()
+    for field in fields:
+        tag = _normalise_tag_value(paper.get(field))
+        if tag:
+            tags.add(tag)
+
+    extra = paper.get("tags")
+    if isinstance(extra, str):
+        tag = _normalise_tag_value(extra)
+        if tag:
+            tags.add(tag)
+    elif isinstance(extra, (list, tuple, set)):
+        for raw in extra:
+            tag = _normalise_tag_value(raw)
+            if tag:
+                tags.add(tag)
+
+    return tags
+
+
+def _filter_papers_by_tags(
+    papers: Iterable[Dict[str, Any]], excluded_tags: Iterable[str] | None
+) -> List[Dict[str, Any]]:
+    if not excluded_tags:
+        return list(papers)
+
+    tag_set = {_normalise_tag_value(tag) for tag in excluded_tags}
+    tag_set = {tag for tag in tag_set if tag}
+    if not tag_set:
+        return list(papers)
+
+    filtered: List[Dict[str, Any]] = []
+    for paper in papers:
+        tags = _paper_tags(paper)
+        if tags and tags.intersection(tag_set):
+            continue
+        filtered.append(paper)
+    return filtered
 
 
 def _build_summary_post(groups: Dict[ClusterKey, List[Dict[str, Any]]], total: int) -> Dict[str, Any]:
@@ -190,8 +243,10 @@ def send_digest(
     *,
     delay_seconds: float = 0.0,
     separator_text: str | None = None,
+    exclude_tags: Iterable[str] | None = None,
 ) -> None:
-    messages = build_post_messages(list(papers))
+    filtered_papers = _filter_papers_by_tags(list(papers), exclude_tags)
+    messages = build_post_messages(filtered_papers)
     total_messages = len(messages)
 
     for idx, message in enumerate(messages):
