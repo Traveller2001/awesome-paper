@@ -8,6 +8,9 @@
   "stage1": {
     "target_date": null
   },
+  "stage2": {
+    "interest_tags": []
+  },
   "webhook_url": "",
   "data_dirs": {
     "raw": "./data/raw",

@@ -83,6 +83,19 @@ awesome-paper-2/
   ```
 - `separator_text` 支持 `{label}`、`{current}`、`{total}` 占位符。
 - `exclude_tags` 是可选的标签列表（不区分大小写）。当论文的 `primary_category`、`primary_area`、`secondary_focus`、`application_domain`（或 `tags` 字段中的任意标签）命中其中任意一项时，该论文会在 Stage 3 被跳过，不再推送。
+- Stage 2 支持在 `stage2.interest_tags` 中声明关注主题，让 LLM 分类时顺便判定是否命中这些标签：
+  ```json
+  "stage2": {
+    "interest_tags": [
+      {
+        "label": "agent_stack",
+        "description": "多智能体/Agent 框架、调度与决策",
+        "keywords": ["agent", "multi-agent", "workflow"]
+      }
+    ]
+  }
+  ```
+  LLM 会在响应中返回 `interest_tags` 数组。Stage 3 会优先发送包含这些兴趣标签论文的类别批次，再发送其他批次（摘要卡片仍最先推送）。
 - Stage 1 配置示例：
   ```json
   "stage1": {

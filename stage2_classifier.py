@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import json
-from typing import Any, Dict, Iterable, List
+from typing import Any, Dict, Iterable, List, Sequence
 
 from llm_api import LLMClient, LLMClientError
 
@@ -40,7 +40,7 @@ SYSTEM_PROMPT = (
     "Classify each arXiv paper using the reference taxonomy (you may also suggest new labels when needed) and summarise it in Chinese."
 )
 
-RESPONSE_INSTRUCTIONS = (
+BASE_RESPONSE_INSTRUCTIONS = (
     "Return a compact JSON object with keys: primary_area, secondary_focus, "
     "application_domain, and tldr_zh. Prefer labels from the reference list, "
     "but you may propose new labels if they better describe the paper. Always provide Chinese TL;DR."
@@ -69,21 +69,89 @@ class ClassificationError(RuntimeError):
     """Raised when the response from the LLM cannot be parsed."""
 
 
-def _build_user_prompt(paper: Dict[str, Any]) -> str:
+def _normalise_interest_tags(tags: Iterable[Dict[str, Any]] | None) -> List[Dict[str, Any]]:
+    normalised: List[Dict[str, Any]] = []
+    if not tags:
+        return normalised
+
+    for tag in tags:
+        if not isinstance(tag, dict):
+            continue
+        label = str(tag.get("label") or tag.get("name") or "").strip()
+        if not label:
+            continue
+        description = str(tag.get("description") or "").strip()
+        raw_keywords = tag.get("keywords") or []
+        keywords: List[str] = []
+        if isinstance(raw_keywords, str):
+            candidate = raw_keywords.strip()
+            if candidate:
+                keywords.append(candidate)
+        elif isinstance(raw_keywords, (list, tuple, set)):
+            for raw_kw in raw_keywords:
+                candidate = str(raw_kw or "").strip()
+                if candidate:
+                    keywords.append(candidate)
+
+        normalised.append(
+            {
+                "label": label,
+                "description": description,
+                "keywords": keywords,
+            }
+        )
+    return normalised
+
+
+def _response_instructions(include_interest_tags: bool) -> str:
+    instructions = BASE_RESPONSE_INSTRUCTIONS
+    if include_interest_tags:
+        instructions += (
+            " If interest tags are configured, also include an `interest_tags` array listing "
+            "all matching label IDs (use [] when none apply)."
+        )
+    return instructions
+
+
+def _format_interest_tags_reference(interest_tags: Sequence[Dict[str, Any]]) -> str:
+    if not interest_tags:
+        return ""
+
+    lines: List[str] = ["兴趣标签（匹配时请在 JSON 的 `interest_tags` 中返回标签 ID）："]
+    for tag in interest_tags:
+        label = tag.get("label", "")
+        if not label:
+            continue
+        description = tag.get("description", "")
+        keywords = tag.get("keywords") or []
+        description_part = f" — {description}" if description else ""
+        if keywords:
+            keywords_part = " | 关键词: " + ", ".join(keywords)
+        else:
+            keywords_part = ""
+        lines.append(f"  - {label}{description_part}{keywords_part}")
+    return "\n".join(lines)
+
+
+def _build_user_prompt(paper: Dict[str, Any], interest_tags: Sequence[Dict[str, Any]] | None) -> str:
     title = paper.get("title", "").strip()
     summary = paper.get("summary", "").strip()
     published = paper.get("published", "")
     primary = paper.get("primary_category", "")
 
     taxonomy_block = _format_taxonomy_reference()
+    interest_block = _format_interest_tags_reference(interest_tags or [])
+    instructions = _response_instructions(bool(interest_block))
+    extra_reference = f"\n\n{interest_block}" if interest_block else ""
     return (
         f"Paper metadata:\n"
         f"- Title: {title}\n"
         f"- arXiv category: {primary}\n"
         f"- Published at: {published}\n\n"
         f"Abstract:\n{summary}\n\n"
-        f"Reference taxonomy (IDs with brief descriptions):\n{taxonomy_block}\n\n"
-        f"{RESPONSE_INSTRUCTIONS}"
+        f"Reference taxonomy (IDs with brief descriptions):\n{taxonomy_block}"
+        f"{extra_reference}\n\n"
+        f"{instructions}"
     )
 
 
@@ -124,24 +192,43 @@ def _extract_structured_response(raw_text: str) -> Dict[str, Any]:
     if missing:
         raise ClassificationError(f"Missing keys in LLM response: {missing}")
 
+    interest_raw = data.get("interest_tags", [])
+    interest_tags: List[str] = []
+    if isinstance(interest_raw, str):
+        token = interest_raw.strip()
+        if token:
+            interest_tags.append(token)
+    elif isinstance(interest_raw, (list, tuple, set)):
+        for raw in interest_raw:
+            token = str(raw or "").strip()
+            if token:
+                interest_tags.append(token)
+
     return {
         "primary_area": str(data["primary_area"]).strip(),
         "secondary_focus": str(data["secondary_focus"]).strip(),
         "application_domain": str(data["application_domain"]).strip(),
         "tldr_zh": str(data["tldr_zh"]).strip(),
+        "interest_tags": interest_tags,
     }
 
 
-def classify_with_llm(papers: Iterable[Dict[str, Any]], llm_client: LLMClient) -> List[Dict[str, Any]]:
+def classify_with_llm(
+    papers: Iterable[Dict[str, Any]],
+    llm_client: LLMClient,
+    *,
+    interest_tags: Iterable[Dict[str, Any]] | None = None,
+) -> List[Dict[str, Any]]:
     """Classify papers using the provided LLM client."""
 
     paper_list = list(papers)
     total = len(paper_list)
+    normalised_interest = _normalise_interest_tags(list(interest_tags or []))
 
     results: List[Dict[str, Any]] = []
     for idx, paper in enumerate(paper_list, start=1):
         print(f"[Stage2] Classifying paper {idx}/{total}", flush=True)
-        base_prompt = _build_user_prompt(paper)
+        base_prompt = _build_user_prompt(paper, normalised_interest)
         last_error: Exception | None = None
         structured: Dict[str, Any] | None = None
 

@@ -108,9 +108,23 @@ def _classify_and_store(papers: List[Dict[str, Any]], raw_sources: List[str], co
     if not papers:
         raise SystemExit("No papers to classify.")
 
+    stage2_cfg = config.get("stage2", {})
+    raw_interest = stage2_cfg.get("interest_tags", [])
+    interest_tags: List[Dict[str, Any]] = []
+    if isinstance(raw_interest, dict):
+        interest_tags = [raw_interest]
+    elif isinstance(raw_interest, list):
+        for item in raw_interest:
+            if isinstance(item, str):
+                interest_tags.append({"label": item})
+            elif isinstance(item, dict):
+                interest_tags.append(item)
+    elif isinstance(raw_interest, str):
+        interest_tags = [{"label": raw_interest}]
+
     try:
         llm_client = LLMClient()
-        classified = classify_with_llm(papers, llm_client)
+        classified = classify_with_llm(papers, llm_client, interest_tags=interest_tags)
     except (LLMClientError, ClassificationError) as exc:
         raise SystemExit(f"Classification failed: {exc}") from exc
 

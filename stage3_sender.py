@@ -113,6 +113,43 @@ def _filter_papers_by_tags(
     return filtered
 
 
+def _has_interest_tags(paper: Dict[str, Any]) -> bool:
+    raw = paper.get("interest_tags")
+    if isinstance(raw, str):
+        return bool(raw.strip())
+    if isinstance(raw, (list, tuple, set)):
+        return any(str(item or "").strip() for item in raw)
+    return False
+
+
+def _cluster_has_interest(papers: List[Dict[str, Any]]) -> bool:
+    return any(_has_interest_tags(paper) for paper in papers)
+
+
+def _format_interest_tags(paper: Dict[str, Any]) -> str | None:
+    raw = paper.get("interest_tags")
+    tags: List[str] = []
+    if isinstance(raw, str):
+        token = raw.strip()
+        if token:
+            tags.append(token)
+    elif isinstance(raw, (list, tuple, set)):
+        for item in raw:
+            token = str(item or "").strip()
+            if token:
+                tags.append(token)
+    if not tags:
+        return None
+    unique_tags: List[str] = []
+    seen: Set[str] = set()
+    for tag in tags:
+        if tag not in seen:
+            seen.add(tag)
+            unique_tags.append(tag)
+    label = "，".join(unique_tags)
+    return f"⭐ 兴趣标签: {label}"
+
+
 def _build_summary_post(groups: Dict[ClusterKey, List[Dict[str, Any]]], total: int) -> Dict[str, Any]:
     content: List[List[Dict[str, str]]] = [[{"tag": "text", "text": f"📚 总计 {total} 篇 | 类别 {len(groups)} 组"}]]
     for key in sorted(groups):
@@ -148,6 +185,10 @@ def _build_category_post(key: ClusterKey, papers: List[Dict[str, Any]]) -> Dict[
         tldr = _normalise(paper.get("tldr_zh"), "暂无 TL;DR")
         content.append([{ "tag": "text", "text": f"🧠 TL;DR: {tldr}" }])
 
+        interest_text = _format_interest_tags(paper)
+        if interest_text:
+            content.append([{ "tag": "text", "text": interest_text }])
+
         arxiv_url = paper.get("arxiv_url")
         papers_cool = link
         links_row: List[Dict[str, str]] = []
@@ -182,7 +223,14 @@ def build_post_messages(papers: Iterable[Dict[str, Any]]) -> List[Dict[str, Any]
 
     messages: List[Dict[str, Any]] = []
     messages.append(_build_summary_post(grouped, len(ordered)))
-    for key in sorted(grouped):
+    sorted_keys = sorted(grouped)
+    priority_keys: List[ClusterKey] = []
+    regular_keys: List[ClusterKey] = []
+    for key in sorted_keys:
+        bucket = priority_keys if _cluster_has_interest(grouped[key]) else regular_keys
+        bucket.append(key)
+
+    for key in priority_keys + regular_keys:
         messages.append(_build_category_post(key, grouped[key]))
     return messages
 
