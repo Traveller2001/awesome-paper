@@ -41,6 +41,14 @@ def _to_papers_cool(url: str) -> str:
         return url.replace(prefix, "https://papers.cool/arxiv/")
     return url
 
+def _to_alpharxiv(url: str) -> str:
+    if not url:
+        return url
+    prefix = "https://arxiv.org/abs/"
+    if url.startswith(prefix):
+        return url.replace(prefix, "https://alpharxiv.org/abs/")
+    return url
+
 
 def _emoji_for_primary(primary: str) -> str:
     return EMOJI_BY_PRIMARY.get(primary, "📌")
@@ -191,11 +199,12 @@ def _build_category_post(key: ClusterKey, papers: List[Dict[str, Any]]) -> Dict[
             content.append([{ "tag": "text", "text": interest_text }])
 
         arxiv_url = paper.get("arxiv_url")
+        alpharxiv_url = _to_alpharxiv(str(arxiv_url or ""))
         papers_cool = link
         links_row: List[Dict[str, str]] = []
-        if arxiv_url:
-            links_row.append({"tag": "a", "text": "🔗 ArXiv", "href": arxiv_url})
-        if papers_cool and papers_cool != arxiv_url:
+        if alpharxiv_url:
+            links_row.append({"tag": "a", "text": "🔗 alphArXiv", "href": alpharxiv_url})
+        if papers_cool and papers_cool != alpharxiv_url:
             if links_row:
                 links_row.append({"tag": "text", "text": " ｜ "})
             links_row.append({"tag": "a", "text": "📄 Papers.Cool", "href": papers_cool})
