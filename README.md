@@ -1,11 +1,11 @@
 ﻿# Awesome Paper 2.0
 
-一个三阶段的轻量化工作流，用最简单的方式完成论文收集、AI 分类以及飞书推送。相比旧版本，Stage 2 直接调用 `llm_api` 对每篇论文做语义判断，Stage 1 改成标准 arXiv 抓取，最终推送时自动把链接切换为 papers.cool 版本。
+一个三阶段的轻量化工作流，用最简单的方式完成论文收集、AI 分类以及飞书推送。相比旧版本，Stage 2 直接调用 `llm_api` 对每篇论文做语义判断，Stage 1 改成标准 arXiv 抓取，最终推送时自动把链接切换为 papers.cool 版本，并附带 alphArXiv 快速镜像。
 
 ## 核心能力
 - Stage 1：直接调用 arXiv API，默认抓取上一工作日（UTC）的论文并按照分类写入 `data/raw/<日期(按论文发布日期)>/<类别>/`（周一会抓取周五的数据），也可通过 `--target-date` 或 `stage1.target_date` 指定日期。
-- Stage 2：把 Stage 1 生成的分类文件逐篇发送给 LLM，合并所有结果获取三级分类 + 中文 TL;DR（终端会输出 `[Stage2]` 分类进度），并保存在 `data/daily/` 和 `data/paper_database/`。
-- Stage 3：读取 Stage 2 的 json，按一级分类聚合成富文本卡片（含 Emoji 修饰和 Papers.Cool 链接）逐条推送到飞书，可设置发送间隔并在卡片之间插入提示分隔。
+- Stage 2：把 Stage 1 生成的分类文件逐篇发送给 LLM，合并所有结果获取三级分类 + 中文 TL;DR（终端会输出 `[Stage2]` 分类进度），并保存在 `data/daily/` 和 `data/paper_database/`；兴趣标签仅作为“强匹配才打标”的参考，匹配度不高则留空让模型自行判断。
+- Stage 3：读取 Stage 2 的 json，先推送包含兴趣标签的“兴趣直达”批次，再按一级分类聚合成富文本卡片（含 Emoji 修饰、Papers.Cool 与 alphArXiv 链接）逐条推送到飞书，可设置发送间隔并在卡片之间插入提示分隔。
 
 ## 项目结构
 ```
@@ -72,7 +72,7 @@ awesome-paper-2/
   ```
 - Stage 2 输出会附带 LLM 返回的 `primary_area`、`secondary_focus`、`application_domain` 与 `tldr_zh`，并记录 `source_raw_files`（以及单文件时的 `source_raw_file`）以便追溯；
   同时会在 `data/paper_database/<primary_area>/<secondary_focus>/<application_domain>/` 下为每篇论文生成独立 JSON，并在 `data/daily/<日期>/daily_<日期>_<时分秒>.json` 中保留当日的完整列表。
-- Stage 3 发送前会将 `arxiv_url` 转换为 `papers.cool`，无需额外处理。
+- Stage 3 发送前会将 `arxiv_url` 同步转换为 `papers.cool` 与 alphArXiv 链接。
 - Stage 3 配置示例（可在 `config.json` 中调整批次粒度与节奏）：
   ```json
   "stage3": {
@@ -83,7 +83,7 @@ awesome-paper-2/
   ```
 - `separator_text` 支持 `{label}`、`{current}`、`{total}` 占位符。
 - `exclude_tags` 是可选的标签列表（不区分大小写）。当论文的 `primary_category`、`primary_area`、`secondary_focus`、`application_domain`（或 `tags` 字段中的任意标签）命中其中任意一项时，该论文会在 Stage 3 被跳过，不再推送。
-- Stage 2 支持在 `stage2.interest_tags` 中声明关注主题，让 LLM 分类时顺便判定是否命中这些标签：
+- Stage 2 支持在 `stage2.interest_tags` 中声明关注主题，让 LLM 分类时顺便判定是否命中这些标签（仅在与描述/关键词高度匹配时才会返回标签 ID，否则为 `[]`）：
   ```json
   "stage2": {
     "interest_tags": [
@@ -95,7 +95,7 @@ awesome-paper-2/
     ]
   }
   ```
-  LLM 会在响应中返回 `interest_tags` 数组。Stage 3 会优先发送包含这些兴趣标签论文的类别批次，再发送其他批次（摘要卡片仍最先推送）。
+  LLM 会在响应中返回 `interest_tags` 数组。Stage 3 会先推送“兴趣直达”合集（所有被标记的论文），随后再按常规分类批次发送。
 - Stage 1 配置示例：
   ```json
   "stage1": {

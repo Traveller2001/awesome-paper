@@ -1,258 +1,372 @@
-﻿"""Stage 2 classifier that delegates semantic understanding to the LLM API."""
+﻿
+"""Stage 3 sender that posts rich Feishu cards."""
 from __future__ import annotations
 
-import json
-from typing import Any, Dict, Iterable, List, Sequence
+import time
+from collections import defaultdict
+from typing import Any, Dict, Iterable, List, Set, Tuple
 
-from llm_api import LLMClient, LLMClientError
+import requests
 
-TAXONOMY_REFERENCE = {
-    "primary_area": [
-        ("text_models", "纯文本生成/理解类模型，例如语言模型、翻译模型"),
-        ("multimodal_models", "处理文本+多模态输入输出的模型"),
-        ("audio_models", "语音、音频理解或生成模型"),
-        ("video_models", "视频理解、生成或编辑模型"),
-        ("vla_models", "视觉-语言-动作等多模态智能体/机器人模型"),
-        ("diffusion_models", "扩散、流匹配等图像生成模型"),
-    ],
-    "secondary_focus": [
-        ("dialogue_systems", "对话、客服、助手类场景"),
-        ("long_context", "长文本/长上下文处理能力"),
-        ("reasoning", "推理、逻辑链、数学等能力"),
-        ("model_compression", "蒸馏、量化、剪枝等压缩技术"),
-        ("model_architecture", "模型结构设计或新框架"),
-        ("alignment", "价值观对齐、安全、偏置治理"),
-        ("training_optimization", "训练策略、效率、数据配方"),
-        ("tech_reports", "官方技术报告或路线图"),
-    ],
-    "application_domain": [
-        ("medical_ai", "医疗、药物、生命科学应用"),
-        ("education_ai", "教育、教学、考试场景"),
-        ("code_generation", "编程、软件工程相关"),
-        ("legal_ai", "法律、合规、司法场景"),
-        ("financial_ai", "金融、商业分析场景"),
-        ("general_purpose", "通用用途或暂未细分")
-    ],
+
+class FeishuSendError(RuntimeError):
+    """Raised when Feishu webhook rejects the payload."""
+
+
+EMOJI_BY_PRIMARY = {
+    "text_models": "📝",
+    "multimodal_models": "🖼️",
+    "audio_models": "🎧",
+    "video_models": "🎬",
+    "vla_models": "🤖",
+    "diffusion_models": "🌫️",
+    "uncategorised": "📌",
 }
 
-SYSTEM_PROMPT = (
-    "You are an expert research analyst. "
-    "Classify each arXiv paper using the reference taxonomy (you may also suggest new labels when needed) and summarise it in Chinese."
-)
 
-BASE_RESPONSE_INSTRUCTIONS = (
-    "Return a compact JSON object with keys: primary_area, secondary_focus, "
-    "application_domain, and tldr_zh. Prefer labels from the reference list, "
-    "but you may propose new labels if they better describe the paper. Always provide Chinese TL;DR."
-)
+ClusterKey = Tuple[str, str, str, str]
 
 
-
-
-def _format_taxonomy_reference() -> str:
-    lines: List[str] = []
-    for dimension, options in TAXONOMY_REFERENCE.items():
-        lines.append(f"{dimension}:")
-        for value, desc in options:
-            lines.append(f"  - {value}: {desc}")
-    return "\n".join(lines)
-
-
-def _reference_ids() -> Dict[str, List[str]]:
-    return {key: [value for value, _ in options] for key, options in TAXONOMY_REFERENCE.items()}
-
-REFERENCE_IDS = _reference_ids()
-
-MAX_CLASSIFY_RETRIES = 3
-
-class ClassificationError(RuntimeError):
-    """Raised when the response from the LLM cannot be parsed."""
-
-
-def _normalise_interest_tags(tags: Iterable[Dict[str, Any]] | None) -> List[Dict[str, Any]]:
-    normalised: List[Dict[str, Any]] = []
-    if not tags:
-        return normalised
-
-    for tag in tags:
-        if not isinstance(tag, dict):
-            continue
-        label = str(tag.get("label") or tag.get("name") or "").strip()
-        if not label:
-            continue
-        description = str(tag.get("description") or "").strip()
-        raw_keywords = tag.get("keywords") or []
-        keywords: List[str] = []
-        if isinstance(raw_keywords, str):
-            candidate = raw_keywords.strip()
-            if candidate:
-                keywords.append(candidate)
-        elif isinstance(raw_keywords, (list, tuple, set)):
-            for raw_kw in raw_keywords:
-                candidate = str(raw_kw or "").strip()
-                if candidate:
-                    keywords.append(candidate)
-
-        normalised.append(
-            {
-                "label": label,
-                "description": description,
-                "keywords": keywords,
-            }
-        )
-    return normalised
-
-
-def _response_instructions(include_interest_tags: bool) -> str:
-    instructions = BASE_RESPONSE_INSTRUCTIONS
-    if include_interest_tags:
-        instructions += (
-            " If interest tags are configured, also include an `interest_tags` array listing "
-            "all matching label IDs (use [] when none apply)."
-        )
-    return instructions
-
-
-def _format_interest_tags_reference(interest_tags: Sequence[Dict[str, Any]]) -> str:
-    if not interest_tags:
-        return ""
-
-    lines: List[str] = ["兴趣标签（匹配时请在 JSON 的 `interest_tags` 中返回标签 ID）："]
-    for tag in interest_tags:
-        label = tag.get("label", "")
-        if not label:
-            continue
-        description = tag.get("description", "")
-        keywords = tag.get("keywords") or []
-        description_part = f" — {description}" if description else ""
-        if keywords:
-            keywords_part = " | 关键词: " + ", ".join(keywords)
-        else:
-            keywords_part = ""
-        lines.append(f"  - {label}{description_part}{keywords_part}")
-    return "\n".join(lines)
-
-
-def _build_user_prompt(paper: Dict[str, Any], interest_tags: Sequence[Dict[str, Any]] | None) -> str:
-    title = paper.get("title", "").strip()
-    summary = paper.get("summary", "").strip()
-    published = paper.get("published", "")
-    primary = paper.get("primary_category", "")
-
-    taxonomy_block = _format_taxonomy_reference()
-    interest_block = _format_interest_tags_reference(interest_tags or [])
-    instructions = _response_instructions(bool(interest_block))
-    extra_reference = f"\n\n{interest_block}" if interest_block else ""
-    return (
-        f"Paper metadata:\n"
-        f"- Title: {title}\n"
-        f"- arXiv category: {primary}\n"
-        f"- Published at: {published}\n\n"
-        f"Abstract:\n{summary}\n\n"
-        f"Reference taxonomy (IDs with brief descriptions):\n{taxonomy_block}"
-        f"{extra_reference}\n\n"
-        f"{instructions}"
-    )
+def _normalise(value: str | None, fallback: str) -> str:
+    text = (value or "").strip()
+    text = " ".join(text.split())
+    return text if text else fallback
 
 
 def _to_papers_cool(url: str) -> str:
-    prefix = "https://arxiv.org/abs/"
     if not url:
         return url
+    prefix = "https://arxiv.org/abs/"
     if url.startswith(prefix):
         return url.replace(prefix, "https://papers.cool/arxiv/")
     return url
 
+def _to_alpharxiv(url: str) -> str:
+    if not url:
+        return url
+    prefix = "https://arxiv.org/abs/"
+    if url.startswith(prefix):
+        return url.replace(prefix, "https://alpharxiv.org/abs/")
+    return url
 
 
-def _strip_code_fences(raw_text: str) -> str:
-    text = raw_text.strip()
-    lower = text.lower()
-    if lower.startswith('```json') or lower.startswith('```javascript') or text.startswith('```'):
-        lines = text.splitlines()
-        text = '\n'.join(lines[1:]) if len(lines) > 1 else ''
-        text = text.strip()
-        if text.endswith('```'):
-            text = text[:-3].rstrip()
-    return text
-
-def _extract_structured_response(raw_text: str) -> Dict[str, Any]:
-    cleaned = _strip_code_fences(raw_text)
-    candidate = cleaned
-    start = cleaned.find('{')
-    end = cleaned.rfind('}')
-    if start != -1 and end != -1 and start < end:
-        candidate = cleaned[start:end + 1]
-    try:
-        data = json.loads(candidate)
-    except json.JSONDecodeError as exc:
-        raise ClassificationError(f"LLM response is not valid JSON: {raw_text}") from exc
-
-    missing = [key for key in ("primary_area", "secondary_focus", "application_domain", "tldr_zh") if key not in data]
-    if missing:
-        raise ClassificationError(f"Missing keys in LLM response: {missing}")
-
-    interest_raw = data.get("interest_tags", [])
-    interest_tags: List[str] = []
-    if isinstance(interest_raw, str):
-        token = interest_raw.strip()
-        if token:
-            interest_tags.append(token)
-    elif isinstance(interest_raw, (list, tuple, set)):
-        for raw in interest_raw:
-            token = str(raw or "").strip()
-            if token:
-                interest_tags.append(token)
-
-    return {
-        "primary_area": str(data["primary_area"]).strip(),
-        "secondary_focus": str(data["secondary_focus"]).strip(),
-        "application_domain": str(data["application_domain"]).strip(),
-        "tldr_zh": str(data["tldr_zh"]).strip(),
-        "interest_tags": interest_tags,
-    }
+def _emoji_for_primary(primary: str) -> str:
+    return EMOJI_BY_PRIMARY.get(primary, "📌")
 
 
-def classify_with_llm(
-    papers: Iterable[Dict[str, Any]],
-    llm_client: LLMClient,
-    *,
-    interest_tags: Iterable[Dict[str, Any]] | None = None,
+def _category_key(paper: Dict[str, Any]) -> ClusterKey:
+    primary_category = _normalise(paper.get("primary_category"), "unknown_category")
+    primary_area = _normalise(paper.get("primary_area"), "uncategorised")
+    secondary = _normalise(paper.get("secondary_focus"), "general")
+    application = _normalise(paper.get("application_domain"), "general")
+    return primary_category, primary_area, secondary, application
+
+
+def _format_label(key: ClusterKey) -> str:
+    primary_category, primary_area, secondary, application = key
+    emoji = _emoji_for_primary(primary_area)
+    return f"📂 {primary_category} | {emoji} {primary_area} · {secondary} · {application}"
+
+
+def _normalise_tag_value(value: Any) -> str | None:
+    """Lowercase string representation for tag comparison."""
+
+    if value is None:
+        return None
+    text = str(value).strip().lower()
+    return text or None
+
+
+def _paper_tags(paper: Dict[str, Any]) -> Set[str]:
+    """Collect tag-like fields from a paper for exclusion matching."""
+
+    fields = ("primary_category", "primary_area", "secondary_focus", "application_domain")
+    tags: Set[str] = set()
+    for field in fields:
+        tag = _normalise_tag_value(paper.get(field))
+        if tag:
+            tags.add(tag)
+
+    extra = paper.get("tags")
+    if isinstance(extra, str):
+        tag = _normalise_tag_value(extra)
+        if tag:
+            tags.add(tag)
+    elif isinstance(extra, (list, tuple, set)):
+        for raw in extra:
+            tag = _normalise_tag_value(raw)
+            if tag:
+                tags.add(tag)
+
+    return tags
+
+
+def _filter_papers_by_tags(
+    papers: Iterable[Dict[str, Any]], excluded_tags: Iterable[str] | None
 ) -> List[Dict[str, Any]]:
-    """Classify papers using the provided LLM client."""
+    if not excluded_tags:
+        return list(papers)
 
-    paper_list = list(papers)
-    total = len(paper_list)
-    normalised_interest = _normalise_interest_tags(list(interest_tags or []))
+    tag_set = {_normalise_tag_value(tag) for tag in excluded_tags}
+    tag_set = {tag for tag in tag_set if tag}
+    if not tag_set:
+        return list(papers)
 
-    results: List[Dict[str, Any]] = []
-    for idx, paper in enumerate(paper_list, start=1):
-        print(f"[Stage2] Classifying paper {idx}/{total}", flush=True)
-        base_prompt = _build_user_prompt(paper, normalised_interest)
-        last_error: Exception | None = None
-        structured: Dict[str, Any] | None = None
+    filtered: List[Dict[str, Any]] = []
+    for paper in papers:
+        tags = _paper_tags(paper)
+        if tags and tags.intersection(tag_set):
+            continue
+        filtered.append(paper)
+    return filtered
 
-        for attempt in range(1, MAX_CLASSIFY_RETRIES + 1):
-            if attempt == 1:
-                user_prompt = base_prompt
-            else:
-                hint = "\n\nWARNING: 上一次响应解析失败，请仅返回严格的 JSON 对象，不要包含 Markdown 代码块或额外说明。"
-                user_prompt = base_prompt + hint
 
-            try:
-                raw_response = llm_client.complete(system_prompt=SYSTEM_PROMPT, user_prompt=user_prompt)
-                structured = _extract_structured_response(raw_response)
-                break
-            except (LLMClientError, ClassificationError) as exc:
-                print(f"[Stage2] Retry {attempt}/{MAX_CLASSIFY_RETRIES} failed: {exc}", flush=True)
-                last_error = exc
+def _has_interest_tags(paper: Dict[str, Any]) -> bool:
+    raw = paper.get("interest_tags")
+    if isinstance(raw, str):
+        return bool(raw.strip())
+    if isinstance(raw, (list, tuple, set)):
+        return any(str(item or "").strip() for item in raw)
+    return False
+
+
+def _format_interest_tags(paper: Dict[str, Any]) -> str | None:
+    raw = paper.get("interest_tags")
+    tags: List[str] = []
+    if isinstance(raw, str):
+        token = raw.strip()
+        if token:
+            tags.append(token)
+    elif isinstance(raw, (list, tuple, set)):
+        for item in raw:
+            token = str(item or "").strip()
+            if token:
+                tags.append(token)
+    if not tags:
+        return None
+    unique_tags: List[str] = []
+    seen: Set[str] = set()
+    for tag in tags:
+        if tag not in seen:
+            seen.add(tag)
+            unique_tags.append(tag)
+    label = "，".join(unique_tags)
+    return f"⭐ 兴趣标签: {label}"
+
+
+def _build_summary_post(groups: Dict[ClusterKey, List[Dict[str, Any]]], total: int, interest_count: int) -> Dict[str, Any]:
+    content: List[List[Dict[str, str]]] = [
+        [{"tag": "text", "text": f"📚 总计 {total} 篇 | 兴趣标签 {interest_count} 篇 | 常规类别 {len(groups)} 组"}]
+    ]
+    if interest_count:
+        content.append([{"tag": "text", "text": f"⭐ 兴趣直达: {interest_count} 篇"}])
+
+    for key in sorted(groups):
+        label = _format_label(key)
+        content.append([{ "tag": "text", "text": f"{label}: {len(groups[key])} 篇" }])
+    if not content:
+        content = [[{"tag": "text", "text": "📭 暂无论文"}]]
+    return {"title": "📌 今日论文概览", "content": content, "label": "summary"}
+
+
+def _build_category_post(key: ClusterKey, papers: List[Dict[str, Any]]) -> Dict[str, Any]:
+    label = _format_label(key)
+    header = f"{label}（{len(papers)} 篇）"
+    content: List[List[Dict[str, str]]] = [[{"tag": "text", "text": header}]]
+
+    for idx, paper in enumerate(papers, start=1):
+        title = _normalise(paper.get("title"), "(未命名论文)")
+        link = paper.get("papers_cool_url") or _to_papers_cool(str(paper.get("arxiv_url", "")))
+        display_title = f"{idx}. ✨ {title}"
+        if link:
+            content.append([{ "tag": "a", "text": display_title, "href": link }])
         else:
-            raise ClassificationError(
-                f"Failed to classify paper after {MAX_CLASSIFY_RETRIES} attempts: {last_error}"
-            ) from last_error
+            content.append([{ "tag": "text", "text": display_title }])
 
-        papers_cool_url = _to_papers_cool(str(paper.get("arxiv_url", "")))
-        enriched = {**paper, **structured, "order": idx, "papers_cool_url": papers_cool_url}
-        results.append(enriched)
+        authors = paper.get("authors") or []
+        authors_text = "，".join(a for a in authors if a)
+        if authors_text:
+            content.append([{ "tag": "text", "text": f"👥 作者: {authors_text}" }])
 
-    return results
+        primary_category, _, secondary, application = key
+        content.append([{ "tag": "text", "text": f"🏷️ 分类: {primary_category} | {secondary} | {application}" }])
+
+        tldr = _normalise(paper.get("tldr_zh"), "暂无 TL;DR")
+        content.append([{ "tag": "text", "text": f"🧠 TL;DR: {tldr}" }])
+
+        interest_text = _format_interest_tags(paper)
+        if interest_text:
+            content.append([{ "tag": "text", "text": interest_text }])
+
+        arxiv_url = paper.get("arxiv_url")
+        alpharxiv_url = _to_alpharxiv(str(arxiv_url or ""))
+        papers_cool = link
+        links_row: List[Dict[str, str]] = []
+        if alpharxiv_url:
+            links_row.append({"tag": "a", "text": "🔗 alphArXiv", "href": alpharxiv_url})
+        if papers_cool and papers_cool != alpharxiv_url:
+            if links_row:
+                links_row.append({"tag": "text", "text": " ｜ "})
+            links_row.append({"tag": "a", "text": "📄 Papers.Cool", "href": papers_cool})
+        if links_row:
+            content.append(links_row)
+
+        content.append([{ "tag": "text", "text": " " }])
+
+    return {"title": header, "content": content, "label": label}
+
+
+def _build_interest_post(papers: List[Dict[str, Any]]) -> Dict[str, Any]:
+    ordered = sorted(papers, key=lambda item: item.get("order", 0) or 0)
+    header = f"⭐ 兴趣直达（{len(ordered)} 篇）"
+    content: List[List[Dict[str, str]]] = [[{"tag": "text", "text": header}]]
+
+    for idx, paper in enumerate(ordered, start=1):
+        title = _normalise(paper.get("title"), "(未命名论文)")
+        link = paper.get("papers_cool_url") or _to_papers_cool(str(paper.get("arxiv_url", "")))
+        display_title = f"{idx}. ✨ {title}"
+        if link:
+            content.append([{ "tag": "a", "text": display_title, "href": link }])
+        else:
+            content.append([{ "tag": "text", "text": display_title }])
+
+        authors = paper.get("authors") or []
+        authors_text = "，".join(a for a in authors if a)
+        if authors_text:
+            content.append([{ "tag": "text", "text": f"👥 作者: {authors_text}" }])
+
+        primary_category = _normalise(paper.get("primary_category"), "unknown_category")
+        primary_area = _normalise(paper.get("primary_area"), "uncategorised")
+        secondary = _normalise(paper.get("secondary_focus"), "general")
+        application = _normalise(paper.get("application_domain"), "general")
+        content.append([{ "tag": "text", "text": f"🏷️ 分类: {primary_category} | {primary_area} | {secondary} | {application}" }])
+
+        tldr = _normalise(paper.get("tldr_zh"), "暂无 TL;DR")
+        content.append([{ "tag": "text", "text": f"🧠 TL;DR: {tldr}" }])
+
+        interest_text = _format_interest_tags(paper)
+        if interest_text:
+            content.append([{ "tag": "text", "text": interest_text }])
+
+        arxiv_url = paper.get("arxiv_url")
+        papers_cool = link
+        links_row: List[Dict[str, str]] = []
+        if arxiv_url:
+            links_row.append({"tag": "a", "text": "🔗 ArXiv", "href": arxiv_url})
+        if papers_cool and papers_cool != arxiv_url:
+            if links_row:
+                links_row.append({"tag": "text", "text": " ｜ "})
+            links_row.append({"tag": "a", "text": "📄 Papers.Cool", "href": papers_cool})
+        if links_row:
+            content.append(links_row)
+
+        content.append([{ "tag": "text", "text": " " }])
+
+    return {"title": header, "content": content, "label": "interest_batch"}
+
+
+def build_post_messages(papers: Iterable[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    paper_list = list(papers)
+    interest_papers = [paper for paper in paper_list if _has_interest_tags(paper)]
+    regular_papers = [paper for paper in paper_list if not _has_interest_tags(paper)]
+
+    grouped: Dict[ClusterKey, List[Dict[str, Any]]] = defaultdict(list)
+    ordered_regular = sorted(
+        regular_papers,
+        key=lambda item: (
+            _normalise(item.get("primary_category"), "unknown_category"),
+            _normalise(item.get("primary_area"), "uncategorised"),
+            _normalise(item.get("secondary_focus"), "general"),
+            _normalise(item.get("application_domain"), "general"),
+            item.get("order", 0),
+        ),
+    )
+    for paper in ordered_regular:
+        grouped[_category_key(paper)].append(paper)
+
+    messages: List[Dict[str, Any]] = []
+    messages.append(_build_summary_post(grouped, len(paper_list), len(interest_papers)))
+    if interest_papers:
+        messages.append(_build_interest_post(interest_papers))
+
+    sorted_keys = sorted(grouped)
+    for key in sorted_keys:
+        messages.append(_build_category_post(key, grouped[key]))
+    return messages
+
+
+def _post_json(webhook_url: str, payload: Dict[str, Any]) -> Dict[str, Any] | None:
+    try:
+        response = requests.post(webhook_url, json=payload, timeout=10)
+    except requests.RequestException as exc:
+        raise FeishuSendError(f"Failed to call Feishu webhook: {exc}") from exc
+
+    if response.status_code >= 300:
+        raise FeishuSendError(f"Feishu webhook error: {response.status_code} {response.text}")
+
+    try:
+        data = response.json()
+    except ValueError:
+        data = None
+
+    if isinstance(data, dict) and data.get("StatusCode", 0) != 0:
+        raise FeishuSendError(f"Feishu webhook rejected message: {data}")
+    return data if isinstance(data, dict) else None
+
+
+def _post_post(webhook_url: str, *, title: str, content: List[List[Dict[str, str]]]) -> None:
+    payload = {
+        "msg_type": "post",
+        "content": {
+            "post": {
+                "zh_cn": {
+                    "title": title,
+                    "content": content,
+                }
+            }
+        },
+    }
+    _post_json(webhook_url, payload)
+
+
+def _post_separator(webhook_url: str, text: str) -> None:
+    payload = {
+        "msg_type": "text",
+        "content": {"text": text},
+    }
+    _post_json(webhook_url, payload)
+
+
+
+
+def send_plain_text(webhook_url: str, text: str) -> None:
+    """Send a simple text message via Feishu webhook."""
+
+    _post_separator(webhook_url, text)
+
+
+def send_digest(
+    webhook_url: str,
+    papers: Iterable[Dict[str, Any]],
+    *,
+    delay_seconds: float = 0.0,
+    separator_text: str | None = None,
+    exclude_tags: Iterable[str] | None = None,
+) -> None:
+    filtered_papers = _filter_papers_by_tags(list(papers), exclude_tags)
+    messages = build_post_messages(filtered_papers)
+    total_messages = len(messages)
+
+    for idx, message in enumerate(messages):
+        _post_post(webhook_url, title=message["title"], content=message["content"])
+        is_last = idx == total_messages - 1
+        if not is_last and separator_text:
+            next_label = messages[idx + 1].get("label", "下一组")
+            formatted = separator_text.format(
+                current=idx + 1,
+                total=total_messages,
+                label=next_label,
+            )
+            _post_separator(webhook_url, formatted)
+        if not is_last and delay_seconds > 0:
+            time.sleep(delay_seconds)

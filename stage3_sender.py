@@ -122,10 +122,6 @@ def _has_interest_tags(paper: Dict[str, Any]) -> bool:
     return False
 
 
-def _cluster_has_interest(papers: List[Dict[str, Any]]) -> bool:
-    return any(_has_interest_tags(paper) for paper in papers)
-
-
 def _format_interest_tags(paper: Dict[str, Any]) -> str | None:
     raw = paper.get("interest_tags")
     tags: List[str] = []
@@ -150,8 +146,13 @@ def _format_interest_tags(paper: Dict[str, Any]) -> str | None:
     return f"⭐ 兴趣标签: {label}"
 
 
-def _build_summary_post(groups: Dict[ClusterKey, List[Dict[str, Any]]], total: int) -> Dict[str, Any]:
-    content: List[List[Dict[str, str]]] = [[{"tag": "text", "text": f"📚 总计 {total} 篇 | 类别 {len(groups)} 组"}]]
+def _build_summary_post(groups: Dict[ClusterKey, List[Dict[str, Any]]], total: int, interest_count: int) -> Dict[str, Any]:
+    content: List[List[Dict[str, str]]] = [
+        [{"tag": "text", "text": f"📚 总计 {total} 篇 | 兴趣标签 {interest_count} 篇 | 常规类别 {len(groups)} 组"}]
+    ]
+    if interest_count:
+        content.append([{"tag": "text", "text": f"⭐ 兴趣直达: {interest_count} 篇"}])
+
     for key in sorted(groups):
         label = _format_label(key)
         content.append([{ "tag": "text", "text": f"{label}: {len(groups[key])} 篇" }])
@@ -206,10 +207,63 @@ def _build_category_post(key: ClusterKey, papers: List[Dict[str, Any]]) -> Dict[
     return {"title": header, "content": content, "label": label}
 
 
+def _build_interest_post(papers: List[Dict[str, Any]]) -> Dict[str, Any]:
+    ordered = sorted(papers, key=lambda item: item.get("order", 0) or 0)
+    header = f"⭐ 兴趣直达（{len(ordered)} 篇）"
+    content: List[List[Dict[str, str]]] = [[{"tag": "text", "text": header}]]
+
+    for idx, paper in enumerate(ordered, start=1):
+        title = _normalise(paper.get("title"), "(未命名论文)")
+        link = paper.get("papers_cool_url") or _to_papers_cool(str(paper.get("arxiv_url", "")))
+        display_title = f"{idx}. ✨ {title}"
+        if link:
+            content.append([{ "tag": "a", "text": display_title, "href": link }])
+        else:
+            content.append([{ "tag": "text", "text": display_title }])
+
+        authors = paper.get("authors") or []
+        authors_text = "，".join(a for a in authors if a)
+        if authors_text:
+            content.append([{ "tag": "text", "text": f"👥 作者: {authors_text}" }])
+
+        primary_category = _normalise(paper.get("primary_category"), "unknown_category")
+        primary_area = _normalise(paper.get("primary_area"), "uncategorised")
+        secondary = _normalise(paper.get("secondary_focus"), "general")
+        application = _normalise(paper.get("application_domain"), "general")
+        content.append([{ "tag": "text", "text": f"🏷️ 分类: {primary_category} | {primary_area} | {secondary} | {application}" }])
+
+        tldr = _normalise(paper.get("tldr_zh"), "暂无 TL;DR")
+        content.append([{ "tag": "text", "text": f"🧠 TL;DR: {tldr}" }])
+
+        interest_text = _format_interest_tags(paper)
+        if interest_text:
+            content.append([{ "tag": "text", "text": interest_text }])
+
+        arxiv_url = paper.get("arxiv_url")
+        papers_cool = link
+        links_row: List[Dict[str, str]] = []
+        if arxiv_url:
+            links_row.append({"tag": "a", "text": "🔗 ArXiv", "href": arxiv_url})
+        if papers_cool and papers_cool != arxiv_url:
+            if links_row:
+                links_row.append({"tag": "text", "text": " ｜ "})
+            links_row.append({"tag": "a", "text": "📄 Papers.Cool", "href": papers_cool})
+        if links_row:
+            content.append(links_row)
+
+        content.append([{ "tag": "text", "text": " " }])
+
+    return {"title": header, "content": content, "label": "interest_batch"}
+
+
 def build_post_messages(papers: Iterable[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    paper_list = list(papers)
+    interest_papers = [paper for paper in paper_list if _has_interest_tags(paper)]
+    regular_papers = [paper for paper in paper_list if not _has_interest_tags(paper)]
+
     grouped: Dict[ClusterKey, List[Dict[str, Any]]] = defaultdict(list)
-    ordered = sorted(
-        papers,
+    ordered_regular = sorted(
+        regular_papers,
         key=lambda item: (
             _normalise(item.get("primary_category"), "unknown_category"),
             _normalise(item.get("primary_area"), "uncategorised"),
@@ -218,19 +272,16 @@ def build_post_messages(papers: Iterable[Dict[str, Any]]) -> List[Dict[str, Any]
             item.get("order", 0),
         ),
     )
-    for paper in ordered:
+    for paper in ordered_regular:
         grouped[_category_key(paper)].append(paper)
 
     messages: List[Dict[str, Any]] = []
-    messages.append(_build_summary_post(grouped, len(ordered)))
-    sorted_keys = sorted(grouped)
-    priority_keys: List[ClusterKey] = []
-    regular_keys: List[ClusterKey] = []
-    for key in sorted_keys:
-        bucket = priority_keys if _cluster_has_interest(grouped[key]) else regular_keys
-        bucket.append(key)
+    messages.append(_build_summary_post(grouped, len(paper_list), len(interest_papers)))
+    if interest_papers:
+        messages.append(_build_interest_post(interest_papers))
 
-    for key in priority_keys + regular_keys:
+    sorted_keys = sorted(grouped)
+    for key in sorted_keys:
         messages.append(_build_category_post(key, grouped[key]))
     return messages
 
