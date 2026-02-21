@@ -1,149 +1,246 @@
-﻿# Awesome Paper 2.0
+# Awesome Paper 3.0
 
-一个三阶段的轻量化工作流，用最简单的方式完成论文收集、AI 分类以及飞书推送。相比旧版本，Stage 2 直接调用 `llm_api` 对每篇论文做语义判断，Stage 1 改成标准 arXiv 抓取，最终推送时自动把链接切换为 papers.cool 版本，并附带 alphArXiv 快速镜像。
+**[English](#english) | [中文](#中文)**
 
-## 核心能力
-- Stage 1：直接调用 arXiv API，默认抓取上一工作日（UTC）的论文并按照分类写入 `data/raw/<日期(按论文发布日期)>/<类别>/`（周一会抓取周五的数据），也可通过 `--target-date` 或 `stage1.target_date` 指定日期。
-- Stage 2：把 Stage 1 生成的分类文件逐篇发送给 LLM，合并所有结果获取三级分类 + 中文 TL;DR（终端会输出 `[Stage2]` 分类进度），并保存在 `data/daily/` 和 `data/paper_database/`；兴趣标签仅作为“强匹配才打标”的参考，匹配度不高则留空让模型自行判断。
-- Stage 3：读取 Stage 2 的 json，先推送包含兴趣标签的“兴趣直达”批次，再按一级分类聚合成富文本卡片（含 Emoji 修饰、Papers.Cool 与 alphArXiv 链接）逐条推送到飞书，可设置发送间隔并在卡片之间插入提示分隔。
+---
 
-## 项目结构
+<a id="english"></a>
+
+Agentic arXiv paper tracker — configure scraping, LLM classification, and multi-channel notifications through natural conversation.
+
+## Features
+
+- **Conversational Agent**: `python run.py` — configure and operate everything via natural language
+- **Smart Onboarding**: auto-detects config status on startup, guides you to fill in the gaps
+- **Async Parallel Classification**: `asyncio` + `AsyncOpenAI` with configurable concurrency
+- **Plugin Notifiers**: Feishu supported, easy to extend
+- **Multi LLM Backend**: any OpenAI-compatible API (DeepSeek, OpenRouter, OpenAI, etc.)
+- **Profile System**: all configs persisted in `profiles/`, changes take effect immediately
+- **Resumable Pipeline**: stage state persisted, auto-skips completed stages on restart
+- **Pipeline Supervisor**: captures noisy stdout, delivers concise summaries to keep the agent context lean
+
+## Project Structure
+
 ```
-awesome-paper-2/
-├── awesome_paper_manager.py   # CLI 入口，负责 orchestrate 三个阶段
-├── stage1_scraper.py          # Stage 1：arXiv 抓取逻辑
-├── stage2_classifier.py       # Stage 2：调用 LLM 分类
-├── stage3_sender.py           # Stage 3：飞书推送
-├── llm_api.py                 # OpenAI 协议兼容的 LLM 封装
-├── config.json                # 基本配置
-├── requirements.txt           # 运行依赖
-└── data/
-    ├── raw/                   # Stage 1 输出
-    ├── paper_database/        # Stage 2 持久化归档
-    └── daily/                 # Stage 2 每日结果
+awesome-paper/
+├── run.py                    # Entry point
+├── agent.py                  # Agent core logic
+├── profiles/                 # User config (managed by agent)
+│   └── default.json
+├── core/
+│   ├── config.py             # Profile config system
+│   ├── orchestrator.py       # Async pipeline orchestration
+│   ├── supervisor.py         # Pipeline monitor — captures output, produces concise reports
+│   └── storage.py            # State tracking + data persistence
+├── sources/
+│   ├── base.py               # Source base class
+│   └── arxiv.py              # arXiv scraper
+├── analyzers/
+│   ├── base.py               # Analyzer base class
+│   └── llm_classifier.py     # LLM async parallel classifier
+├── notifiers/
+│   ├── base.py               # Notifier base class
+│   └── feishu.py             # Feishu notifier
+├── llm/
+│   └── client.py             # Multi-backend LLM client (sync + async)
+├── data/
+│   ├── raw/                  # Raw scraped data
+│   ├── paper_database/       # Classified archive
+│   └── daily/                # Daily summaries
+└── requirements.txt
 ```
 
-## 快速开始
-1. 创建虚拟环境并安装依赖：
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. 准备 LLM 凭据（示例为 DeepSeek，任何兼容 OpenAI Chat Completions 的服务都行）：
-   ```bash
-   export LLM_API_KEY="your-key"
-   export LLM_API_BASE="https://api.deepseek.com"   # 可选，默认为此地址
-   export LLM_MODEL="deepseek-chat"                 # 可选
-   ```
-3. 修改 `config.json` 中的类别、飞书 webhook 以及数据目录。
+## Quick Start
 
-## CLI 用法
-- 完整流程（抓取 -> 分类 -> 推送）：
-  ```bash
-  python awesome_paper_manager.py full --categories cs.CL cs.CV --webhook https://xxx
-  ```
-  未指定参数时会使用 `config.json` 中的默认配置。该命令会自动合并多个分类的抓取结果，再统一分类与发送。
+### 1. Install dependencies
 
-- 仅抓取 Stage 1（默认抓取当天，可用 --target-date 指定其他日期，--max-results 控制数量）：
-  ```bash
-  python awesome_paper_manager.py scrape --categories cs.AI --target-date 2025-10-05
-  ```
-  输出示例：`data/raw/20251005/csAI/raw_csAI_101500.json`
+```bash
+pip install -r requirements.txt
+```
 
-- 仅分类 Stage 2：
-  ```bash
-  python awesome_paper_manager.py classify --raw-file data/raw/20250101/csAI/raw_csAI_20250101_101010.json
-  ```
+### 2. Configure LLM API
 
-- 仅推送 Stage 3：
-  ```bash
-  python awesome_paper_manager.py send --classified-file data/daily/daily_20250101.json
-  ```
-  发送时会按一级分类拆分成多条富文本卡片，并在每条卡片之间等待 `stage3.delay_seconds`（默认 2 秒，可在 `config.json` 中调整）。
+Edit `profiles/default.json` with your LLM API info (the only manual step):
 
-## 数据约定
-- Stage 1 输出格式（存储路径 `data/raw/<日期>/<类别组合>/raw_<类别组合>_<时分秒>.json`）：
-  ```json
-  {
-    "generated_at": "2025-10-05T11:15:00Z",
-    "categories": ["cs.CL"],
-    "paper_count": 12,
-    "papers": [ ... ]
-  }
-  ```
-- Stage 2 输出会附带 LLM 返回的 `primary_area`、`secondary_focus`、`application_domain` 与 `tldr_zh`，并记录 `source_raw_files`（以及单文件时的 `source_raw_file`）以便追溯；
-  同时会在 `data/paper_database/<primary_area>/<secondary_focus>/<application_domain>/` 下为每篇论文生成独立 JSON，并在 `data/daily/<日期>/daily_<日期>_<时分秒>.json` 中保留当日的完整列表。
-- Stage 3 发送前会将 `arxiv_url` 同步转换为 `papers.cool` 与 alphArXiv 链接。
-- Stage 3 配置示例（可在 `config.json` 中调整批次粒度与节奏）：
-  ```json
-  "stage3": {
-    "delay_seconds": 2,
-    "separator_text": "🚧 下一类别：{label} （进度 {current}/{total}）🚧",
-    "exclude_tags": ["cs.CV", "diffusion_models"]
-  }
-  ```
-- `separator_text` 支持 `{label}`、`{current}`、`{total}` 占位符。
-- `exclude_tags` 是可选的标签列表（不区分大小写）。当论文的 `primary_category`、`primary_area`、`secondary_focus`、`application_domain`（或 `tags` 字段中的任意标签）命中其中任意一项时，该论文会在 Stage 3 被跳过，不再推送。
-- Stage 2 支持在 `stage2.interest_tags` 中声明关注主题，让 LLM 分类时顺便判定是否命中这些标签（仅在与描述/关键词高度匹配时才会返回标签 ID，否则为 `[]`）：
-  ```json
-  "stage2": {
-    "interest_tags": [
-      {
-        "label": "agent_stack",
-        "description": "多智能体/Agent 框架、调度与决策",
-        "keywords": ["agent", "multi-agent", "workflow"]
-      }
-    ]
-  }
-  ```
-  LLM 会在响应中返回 `interest_tags` 数组。Stage 3 会先推送“兴趣直达”合集（所有被标记的论文），随后再按常规分类批次发送。
-- Stage 1 配置示例：
-  ```json
-  "stage1": {
-    "target_date": "2025-10-05"
-  }
-  ```
-  留空或删除 `target_date` 时会抓取上一工作日的论文（周末会回退到周五）。
-- 如在周末运行且未指定 `target_date`，脚本会提示“周末无新论文”并跳过抓取。
-
-## LLM 提示要点
-Stage 2 的提示词固定在 `stage2_classifier.py` 内，会传入以下 taxonomy：
-- `primary_area`: text_models | multimodal_models | audio_models | video_models | vla_models | diffusion_models
-- `secondary_focus`: dialogue_systems | long_context | reasoning | model_compression | model_architecture | alignment | training_optimization | tech_reports
-- `application_domain`: medical_ai | education_ai | code_generation | legal_ai | financial_ai | general_purpose
-
-LLM 需返回 JSON：
 ```json
 {
-  "primary_area": "text_models",
-  "secondary_focus": "reasoning",
-  "application_domain": "general_purpose",
-  "tldr_zh": "一句中文总结"
+  "llm": {
+    "analyzer": {
+      "api_base": "https://openrouter.ai/api/v1",
+      "model": "arcee-ai/trinity-large-preview:free",
+      "api_key": "sk-or-v1-your-key-here"
+    },
+    "agent": {
+      "api_base": "https://openrouter.ai/api/v1",
+      "model": "arcee-ai/trinity-large-preview:free",
+      "api_key": "sk-or-v1-your-key-here"
+    }
+  }
 }
 ```
 
-## 常见问题
-- **没有抓取到论文**：确认 `target_date` 是否设定正确，或调大 `max_results`。
-- **LLM 报错**：确认环境变量 `LLM_API_KEY` 是否设置，或检查服务端限流。
-- **飞书推送失败**：确认 webhook 是否有权限，必要时在 CLI 中显式传入 `--webhook`。
+Any OpenAI-compatible API works. You can set the key directly in `api_key`, or use `api_key_env` to read from an environment variable.
 
-## 自动化运行示例
-- 使用 `automation_runner.py` 可实现工作日自动重试：
-  ```bash
-  python automation_runner.py
-  ```
-  默认在工作日内最多尝试 6 次，每次间隔 3600 秒；周末会直接发送“周末无论文”提醒。
-- 可通过参数或 `config.json` 的 `automation` 节点调整：
-  ```json
-  "automation": {
-    "max_attempts": 6,
-    "interval_seconds": 3600
-  }
-  ```
-  命令行参数 `--max-attempts`、`--interval` 会覆盖配置文件，`--target-date` 可覆盖日期逻辑（周末也照常执行）。
-- 自动化脚本会在 `data/automation_status.json` 记录每日的阶段完成情况，避免重复执行同一天的任务。
+### 3. Run
 
-## 下一步
-可根据需要拓展：
-- 在 Stage 1 对原始摘要做去噪、过滤重复。
-- 在 Stage 2 增加重试机制或并行处理。
-- 在 Stage 3 改成卡片消息以获得更好的排版。
+```bash
+python run.py
+```
+
+The agent detects your config, tells you what's ready and what's missing, then guides you through the rest:
+
+```
+Assistant: Hi! Current config status:
+  - arXiv categories: cs.CL, cs.CV, cs.LG, cs.AI ✓
+  - Interest tags: not configured
+  - Notification: not configured (optional, results saved locally)
+  - Analyzer LLM: ready ✓
+  Want to set up interest tags, or run the pipeline directly?
+
+You: I'm interested in reasoning, multi-agent, and RAG
+  [Agent] Calling: configure_subscription(...)
+Assistant: Added 3 interest tags. Want to run the pipeline?
+
+You: Sure, go ahead
+  [Agent] Calling: run_pipeline(...)
+Assistant: Done! Scraped 265 papers, classified and saved to data/daily/.
+```
+
+All other config (categories, interest tags, Feishu webhook) is done through conversation.
+
+## Pipeline
+
+```
+Scrape  →  Classify  →  Send
+  ↓           ↓          ↓
+arXiv API   AsyncOpenAI  Feishu Webhook
+XML parse   Semaphore    Rich cards
+Dedup       Taxonomy     Tag filtering
+```
+
+Stage state is persisted to `data/automation_status.json`; completed stages are skipped on re-run.
+
+## Pipeline Supervisor
+
+`PipelineSupervisor` sits between the agent and the orchestrator:
+
+- **Captures noise**: redirects `stdout` to suppress internal `print()` output
+- **Concise reports**: compresses results into a one-line summary + structured fields
+- **Tool result slimming**: `query_papers` capped to 10 items (title + area only); `show_config` strips keywords/schedule/data_dirs
+
+The agent receives compact results like:
+
+```json
+{"status": "completed", "paper_count": 47, "summary": "Scraped 47 papers across 4 categories, classified 47, sent via feishu."}
+```
+
+## Configuration
+
+All config is stored in `profiles/<name>.json` (default: `profiles/default.json`).
+
+| Field | Description |
+|-------|-------------|
+| `subscriptions.categories` | arXiv categories, e.g. `cs.CL`, `cs.CV`, `cs.AI` |
+| `subscriptions.interest_tags` | Interest tags for prioritization and filtering |
+| `channels` | Notification channels (optional) |
+| `channels[].exclude_tags` | Filter out papers with these tags |
+| `llm.analyzer` | LLM config for the paper classifier |
+| `llm.agent` | LLM config for the conversational agent |
+| `llm.*.api_key` | API key (direct) |
+| `llm.*.api_key_env` | Or env var name (e.g. `LLM_API_KEY`) |
+| `llm.*.max_concurrency` | Max parallel LLM calls |
+
+> Only `llm` API info needs manual setup. Everything else can be configured through conversation.
+
+## Extending
+
+**Add a notifier**: create a file in `notifiers/`, extend `BaseNotifier`, implement `send_digest()` / `from_channel_config()`, register in `NOTIFIER_REGISTRY`.
+
+**Add a paper source**: create a file in `sources/`, extend `BaseSource`, implement `fetch()` / `save_raw()`.
+
+## FAQ
+
+**No papers on weekends?** arXiv updates on weekdays. Specify a date in conversation: `run pipeline for Feb 12`.
+
+**Switch LLM?** Tell the agent: `switch analyzer to GPT-4o-mini`, or edit `profiles/default.json`.
+
+**Faster classification?** Increase `llm.analyzer.max_concurrency` (default 5), subject to API rate limits.
+
+**No notification channel?** Fine — results are saved in `data/daily/`. Search via conversation: `search for reasoning papers`.
+
+---
+
+<a id="中文"></a>
+
+## 中文
+
+Agentic 论文追踪工具：通过自然语言对话配置 arXiv 论文抓取、LLM 智能分类、多渠道推送。
+
+### 核心特性
+
+- **单入口对话式 Agent**：`python run.py` 启动，通过自然语言完成所有配置和操作
+- **智能引导**：启动时自动检测配置状态，缺少什么自动引导补全
+- **异步并行分类**：基于 `asyncio` + `AsyncOpenAI` 并行调用 LLM，可配置并发数
+- **插件化推送**：Notifier 插件架构，当前支持飞书，易于扩展
+- **多 LLM 后端**：支持任何 OpenAI 兼容 API（DeepSeek、OpenRouter、OpenAI 等）
+- **Profile 配置系统**：所有配置持久化在 `profiles/` 下，对话中修改即时生效
+- **断点续传**：pipeline 状态持久化，重启后自动跳过已完成阶段
+- **Supervisor 精简上下文**：自动捕获 pipeline 噪音输出，Agent 只接收精简摘要
+
+### 快速开始
+
+```bash
+pip install -r requirements.txt
+# 编辑 profiles/default.json 填入 LLM API 信息
+python run.py
+```
+
+Agent 启动后会自动检测配置状态并引导补全。示例对话：
+
+```
+Assistant: 当前配置：arXiv 分类 ✓ / 兴趣标签 ✗ / 推送渠道 ✗ / LLM ✓
+  你想先配置兴趣标签，还是直接运行 pipeline？
+
+You: 我关注 reasoning、multi-agent 和 RAG 方向
+Assistant: 已添加 3 个兴趣标签。要运行 pipeline 吗？
+
+You: 好的，跑一下
+Assistant: 完成！抓取 265 篇论文，分类结果保存到 data/daily/。
+```
+
+### Pipeline Supervisor
+
+`PipelineSupervisor` 在 Agent 与 Orchestrator 之间充当监控层：
+
+- **捕获噪音**：重定向 `stdout`，屏蔽 orchestrator/classifier 内部的 `print()` 输出
+- **精简报告**：将结果压缩为一句话摘要 + 结构化字段，避免撑爆 Agent 上下文
+- **工具结果压缩**：`query_papers` 截断到 10 条且只保留 title/area；`show_config` 剥离 keywords/schedule/data_dirs
+
+### 配置字段
+
+| 字段 | 说明 |
+|------|------|
+| `subscriptions.categories` | arXiv 分类列表 |
+| `subscriptions.interest_tags` | 兴趣标签，用于优先排序和过滤 |
+| `channels` | 推送渠道列表（可选） |
+| `llm.analyzer` | 分类器 LLM 配置 |
+| `llm.agent` | 对话 Agent LLM 配置 |
+| `llm.*.max_concurrency` | 并行调用 LLM 的最大并发数 |
+
+> 只需手动配置 `llm` 部分的 API 信息，其余都可通过对话让 Agent 自动配置。
+
+### 扩展开发
+
+**添加推送渠道**：在 `notifiers/` 下创建文件，继承 `BaseNotifier`，实现 `send_digest()` / `from_channel_config()`，在 `NOTIFIER_REGISTRY` 注册。
+
+**添加论文源**：在 `sources/` 下创建文件，继承 `BaseSource`，实现 `fetch()` / `save_raw()`。
+
+### 常见问题
+
+**周末没论文？** arXiv 工作日更新，可指定日期：`帮我跑一下 2月12号的论文`。
+
+**切换 LLM？** 对话中说 `把分类器换成 GPT-4o-mini`，或直接编辑 `profiles/default.json`。
+
+**提高分类速度？** 增大 `llm.analyzer.max_concurrency`（默认 5），取决于 API 速率限制。
+
+**不配推送渠道？** 可以。结果保存在 `data/daily/`，对话查询：`搜一下 reasoning 相关的论文`。
