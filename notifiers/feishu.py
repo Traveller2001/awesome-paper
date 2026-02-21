@@ -1,5 +1,4 @@
-
-"""Stage 3 sender that posts rich Feishu cards."""
+"""Feishu notification channel — rich card digest via webhook."""
 from __future__ import annotations
 
 import time
@@ -8,24 +7,37 @@ from typing import Any, Dict, Iterable, List, Set, Tuple
 
 import requests
 
+from notifiers.base import BaseNotifier
+
+
+# ---------------------------------------------------------------------------
+# Exception
+# ---------------------------------------------------------------------------
 
 class FeishuSendError(RuntimeError):
     """Raised when Feishu webhook rejects the payload."""
 
 
-EMOJI_BY_PRIMARY = {
-    "text_models": "📝",
-    "multimodal_models": "🖼️",
-    "audio_models": "🎧",
-    "video_models": "🎬",
-    "vla_models": "🤖",
-    "diffusion_models": "🌫️",
-    "uncategorised": "📌",
-}
+# ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
 
+EMOJI_BY_PRIMARY = {
+    "text_models": "\U0001f4dd",
+    "multimodal_models": "\U0001f5bc\ufe0f",
+    "audio_models": "\U0001f3a7",
+    "video_models": "\U0001f3ac",
+    "vla_models": "\U0001f916",
+    "diffusion_models": "\U0001f32b\ufe0f",
+    "uncategorised": "\U0001f4cc",
+}
 
 ClusterKey = Tuple[str, str, str, str]
 
+
+# ---------------------------------------------------------------------------
+# Internal helpers
+# ---------------------------------------------------------------------------
 
 def _normalise(value: str | None, fallback: str) -> str:
     text = (value or "").strip()
@@ -41,6 +53,7 @@ def _to_papers_cool(url: str) -> str:
         return url.replace(prefix, "https://papers.cool/arxiv/")
     return url
 
+
 def _to_alpharxiv(url: str) -> str:
     if not url:
         return url
@@ -51,7 +64,7 @@ def _to_alpharxiv(url: str) -> str:
 
 
 def _emoji_for_primary(primary: str) -> str:
-    return EMOJI_BY_PRIMARY.get(primary, "📌")
+    return EMOJI_BY_PRIMARY.get(primary, "\U0001f4cc")
 
 
 def _category_key(paper: Dict[str, Any]) -> ClusterKey:
@@ -65,7 +78,7 @@ def _category_key(paper: Dict[str, Any]) -> ClusterKey:
 def _format_label(key: ClusterKey) -> str:
     primary_category, primary_area, secondary, application = key
     emoji = _emoji_for_primary(primary_area)
-    return f"📂 {primary_category} | {emoji} {primary_area} · {secondary} · {application}"
+    return f"\U0001f4c2 {primary_category} | {emoji} {primary_area} \u00b7 {secondary} \u00b7 {application}"
 
 
 def _normalise_tag_value(value: Any) -> str | None:
@@ -150,49 +163,53 @@ def _format_interest_tags(paper: Dict[str, Any]) -> str | None:
         if tag not in seen:
             seen.add(tag)
             unique_tags.append(tag)
-    label = "，".join(unique_tags)
-    return f"⭐ 兴趣标签: {label}"
+    label = "\uff0c".join(unique_tags)
+    return f"\u2b50 \u5174\u8da3\u6807\u7b7e: {label}"
 
+
+# ---------------------------------------------------------------------------
+# Post-message builders
+# ---------------------------------------------------------------------------
 
 def _build_summary_post(groups: Dict[ClusterKey, List[Dict[str, Any]]], total: int, interest_count: int) -> Dict[str, Any]:
     content: List[List[Dict[str, str]]] = [
-        [{"tag": "text", "text": f"📚 总计 {total} 篇 | 兴趣标签 {interest_count} 篇 | 常规类别 {len(groups)} 组"}]
+        [{"tag": "text", "text": f"\U0001f4da \u603b\u8ba1 {total} \u7bc7 | \u5174\u8da3\u6807\u7b7e {interest_count} \u7bc7 | \u5e38\u89c4\u7c7b\u522b {len(groups)} \u7ec4"}]
     ]
     if interest_count:
-        content.append([{"tag": "text", "text": f"⭐ 兴趣直达: {interest_count} 篇"}])
+        content.append([{"tag": "text", "text": f"\u2b50 \u5174\u8da3\u76f4\u8fbe: {interest_count} \u7bc7"}])
 
     for key in sorted(groups):
         label = _format_label(key)
-        content.append([{ "tag": "text", "text": f"{label}: {len(groups[key])} 篇" }])
+        content.append([{ "tag": "text", "text": f"{label}: {len(groups[key])} \u7bc7" }])
     if not content:
-        content = [[{"tag": "text", "text": "📭 暂无论文"}]]
-    return {"title": "📌 今日论文概览", "content": content, "label": "summary"}
+        content = [[{"tag": "text", "text": "\U0001f4ed \u6682\u65e0\u8bba\u6587"}]]
+    return {"title": "\U0001f4cc \u4eca\u65e5\u8bba\u6587\u6982\u89c8", "content": content, "label": "summary"}
 
 
 def _build_category_post(key: ClusterKey, papers: List[Dict[str, Any]]) -> Dict[str, Any]:
     label = _format_label(key)
-    header = f"{label}（{len(papers)} 篇）"
+    header = f"{label}\uff08{len(papers)} \u7bc7\uff09"
     content: List[List[Dict[str, str]]] = [[{"tag": "text", "text": header}]]
 
     for idx, paper in enumerate(papers, start=1):
-        title = _normalise(paper.get("title"), "(未命名论文)")
+        title = _normalise(paper.get("title"), "(\u672a\u547d\u540d\u8bba\u6587)")
         link = paper.get("papers_cool_url") or _to_papers_cool(str(paper.get("arxiv_url", "")))
-        display_title = f"{idx}. ✨ {title}"
+        display_title = f"{idx}. \u2728 {title}"
         if link:
             content.append([{ "tag": "a", "text": display_title, "href": link }])
         else:
             content.append([{ "tag": "text", "text": display_title }])
 
         authors = paper.get("authors") or []
-        authors_text = "，".join(a for a in authors if a)
+        authors_text = "\uff0c".join(a for a in authors if a)
         if authors_text:
-            content.append([{ "tag": "text", "text": f"👥 作者: {authors_text}" }])
+            content.append([{ "tag": "text", "text": f"\U0001f465 \u4f5c\u8005: {authors_text}" }])
 
         primary_category, _, secondary, application = key
-        content.append([{ "tag": "text", "text": f"🏷️ 分类: {primary_category} | {secondary} | {application}" }])
+        content.append([{ "tag": "text", "text": f"\U0001f3f7\ufe0f \u5206\u7c7b: {primary_category} | {secondary} | {application}" }])
 
-        tldr = _normalise(paper.get("tldr_zh"), "暂无 TL;DR")
-        content.append([{ "tag": "text", "text": f"🧠 TL;DR: {tldr}" }])
+        tldr = _normalise(paper.get("tldr_zh"), "\u6682\u65e0 TL;DR")
+        content.append([{ "tag": "text", "text": f"\U0001f9e0 TL;DR: {tldr}" }])
 
         interest_text = _format_interest_tags(paper)
         if interest_text:
@@ -203,11 +220,11 @@ def _build_category_post(key: ClusterKey, papers: List[Dict[str, Any]]) -> Dict[
         papers_cool = link
         links_row: List[Dict[str, str]] = []
         if alpharxiv_url:
-            links_row.append({"tag": "a", "text": "🔗 alphArXiv", "href": alpharxiv_url})
+            links_row.append({"tag": "a", "text": "\U0001f517 alphArXiv", "href": alpharxiv_url})
         if papers_cool and papers_cool != alpharxiv_url:
             if links_row:
-                links_row.append({"tag": "text", "text": " ｜ "})
-            links_row.append({"tag": "a", "text": "📄 Papers.Cool", "href": papers_cool})
+                links_row.append({"tag": "text", "text": " \uff5c "})
+            links_row.append({"tag": "a", "text": "\U0001f4c4 Papers.Cool", "href": papers_cool})
         if links_row:
             content.append(links_row)
 
@@ -218,31 +235,31 @@ def _build_category_post(key: ClusterKey, papers: List[Dict[str, Any]]) -> Dict[
 
 def _build_interest_post(papers: List[Dict[str, Any]]) -> Dict[str, Any]:
     ordered = sorted(papers, key=lambda item: item.get("order", 0) or 0)
-    header = f"⭐ 兴趣直达（{len(ordered)} 篇）"
+    header = f"\u2b50 \u5174\u8da3\u76f4\u8fbe\uff08{len(ordered)} \u7bc7\uff09"
     content: List[List[Dict[str, str]]] = [[{"tag": "text", "text": header}]]
 
     for idx, paper in enumerate(ordered, start=1):
-        title = _normalise(paper.get("title"), "(未命名论文)")
+        title = _normalise(paper.get("title"), "(\u672a\u547d\u540d\u8bba\u6587)")
         link = paper.get("papers_cool_url") or _to_papers_cool(str(paper.get("arxiv_url", "")))
-        display_title = f"{idx}. ✨ {title}"
+        display_title = f"{idx}. \u2728 {title}"
         if link:
             content.append([{ "tag": "a", "text": display_title, "href": link }])
         else:
             content.append([{ "tag": "text", "text": display_title }])
 
         authors = paper.get("authors") or []
-        authors_text = "，".join(a for a in authors if a)
+        authors_text = "\uff0c".join(a for a in authors if a)
         if authors_text:
-            content.append([{ "tag": "text", "text": f"👥 作者: {authors_text}" }])
+            content.append([{ "tag": "text", "text": f"\U0001f465 \u4f5c\u8005: {authors_text}" }])
 
         primary_category = _normalise(paper.get("primary_category"), "unknown_category")
         primary_area = _normalise(paper.get("primary_area"), "uncategorised")
         secondary = _normalise(paper.get("secondary_focus"), "general")
         application = _normalise(paper.get("application_domain"), "general")
-        content.append([{ "tag": "text", "text": f"🏷️ 分类: {primary_category} | {primary_area} | {secondary} | {application}" }])
+        content.append([{ "tag": "text", "text": f"\U0001f3f7\ufe0f \u5206\u7c7b: {primary_category} | {primary_area} | {secondary} | {application}" }])
 
-        tldr = _normalise(paper.get("tldr_zh"), "暂无 TL;DR")
-        content.append([{ "tag": "text", "text": f"🧠 TL;DR: {tldr}" }])
+        tldr = _normalise(paper.get("tldr_zh"), "\u6682\u65e0 TL;DR")
+        content.append([{ "tag": "text", "text": f"\U0001f9e0 TL;DR: {tldr}" }])
 
         interest_text = _format_interest_tags(paper)
         if interest_text:
@@ -252,11 +269,11 @@ def _build_interest_post(papers: List[Dict[str, Any]]) -> Dict[str, Any]:
         papers_cool = link
         links_row: List[Dict[str, str]] = []
         if arxiv_url:
-            links_row.append({"tag": "a", "text": "🔗 ArXiv", "href": arxiv_url})
+            links_row.append({"tag": "a", "text": "\U0001f517 ArXiv", "href": arxiv_url})
         if papers_cool and papers_cool != arxiv_url:
             if links_row:
-                links_row.append({"tag": "text", "text": " ｜ "})
-            links_row.append({"tag": "a", "text": "📄 Papers.Cool", "href": papers_cool})
+                links_row.append({"tag": "text", "text": " \uff5c "})
+            links_row.append({"tag": "a", "text": "\U0001f4c4 Papers.Cool", "href": papers_cool})
         if links_row:
             content.append(links_row)
 
@@ -294,6 +311,10 @@ def build_post_messages(papers: Iterable[Dict[str, Any]]) -> List[Dict[str, Any]
         messages.append(_build_category_post(key, grouped[key]))
     return messages
 
+
+# ---------------------------------------------------------------------------
+# Low-level posting helpers
+# ---------------------------------------------------------------------------
 
 def _post_json(webhook_url: str, payload: Dict[str, Any]) -> Dict[str, Any] | None:
     try:
@@ -337,36 +358,83 @@ def _post_separator(webhook_url: str, text: str) -> None:
     _post_json(webhook_url, payload)
 
 
+# ---------------------------------------------------------------------------
+# FeishuNotifier class
+# ---------------------------------------------------------------------------
 
+class FeishuNotifier(BaseNotifier):
+    """Feishu webhook notifier that sends rich card digests."""
 
-def send_plain_text(webhook_url: str, text: str) -> None:
-    """Send a simple text message via Feishu webhook."""
+    def __init__(
+        self,
+        webhook_url: str,
+        *,
+        delay_seconds: float = 2.0,
+        separator_text: str = "",
+        exclude_tags: list[str] | None = None,
+    ) -> None:
+        self._webhook_url = webhook_url
+        self._delay_seconds = delay_seconds
+        self._separator_text = separator_text
+        self._exclude_tags: list[str] = list(exclude_tags) if exclude_tags else []
 
-    _post_separator(webhook_url, text)
+    # -- public API --------------------------------------------------------
 
+    def send_digest(
+        self,
+        papers: List[Dict[str, Any]],
+        *,
+        exclude_tags: Iterable[str] | None = None,
+    ) -> None:
+        """Send a full paper digest via Feishu webhook.
 
-def send_digest(
-    webhook_url: str,
-    papers: Iterable[Dict[str, Any]],
-    *,
-    delay_seconds: float = 0.0,
-    separator_text: str | None = None,
-    exclude_tags: Iterable[str] | None = None,
-) -> None:
-    filtered_papers = _filter_papers_by_tags(list(papers), exclude_tags)
-    messages = build_post_messages(filtered_papers)
-    total_messages = len(messages)
+        Combines the instance-level ``_exclude_tags`` with the per-call
+        *exclude_tags* parameter before filtering.
+        """
+        combined_tags: list[str] = list(self._exclude_tags)
+        if exclude_tags:
+            combined_tags.extend(exclude_tags)
 
-    for idx, message in enumerate(messages):
-        _post_post(webhook_url, title=message["title"], content=message["content"])
-        is_last = idx == total_messages - 1
-        if not is_last and separator_text:
-            next_label = messages[idx + 1].get("label", "下一组")
-            formatted = separator_text.format(
-                current=idx + 1,
-                total=total_messages,
-                label=next_label,
+        filtered_papers = _filter_papers_by_tags(
+            list(papers), combined_tags if combined_tags else None,
+        )
+        messages = build_post_messages(filtered_papers)
+        total_messages = len(messages)
+
+        for idx, message in enumerate(messages):
+            _post_post(
+                self._webhook_url,
+                title=message["title"],
+                content=message["content"],
             )
-            _post_separator(webhook_url, formatted)
-        if not is_last and delay_seconds > 0:
-            time.sleep(delay_seconds)
+            is_last = idx == total_messages - 1
+            if not is_last and self._separator_text:
+                next_label = messages[idx + 1].get("label", "\u4e0b\u4e00\u7ec4")
+                formatted = self._separator_text.format(
+                    current=idx + 1,
+                    total=total_messages,
+                    label=next_label,
+                )
+                _post_separator(self._webhook_url, formatted)
+            if not is_last and self._delay_seconds > 0:
+                time.sleep(self._delay_seconds)
+
+    def send_text(self, text: str) -> None:
+        """Send a simple text message via Feishu webhook."""
+        _post_separator(self._webhook_url, text)
+
+    # -- factory -----------------------------------------------------------
+
+    @classmethod
+    def from_channel_config(cls, channel_config) -> "FeishuNotifier":
+        """Construct a *FeishuNotifier* from a ``ChannelConfig`` dataclass.
+
+        Expected fields on *channel_config*: ``type``, ``webhook_url``,
+        ``delay_seconds``, ``separator_text``, ``exclude_tags``.
+        """
+        return cls(
+            webhook_url=channel_config.webhook_url,
+            delay_seconds=channel_config.delay_seconds,
+            separator_text=channel_config.separator_text,
+            exclude_tags=channel_config.exclude_tags,
+        )

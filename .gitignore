@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Runtime data
+data/
+
+# User profiles (may contain sensitive webhook URLs)
+profiles/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode
+.claude
